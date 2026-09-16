@@ -1,0 +1,373 @@
+{
+  "id": "rpcb-10.1038/nature09144",
+  "title": "A coding-independent function of gene and pseudogene mRNAs regulates tumour biology",
+  "doi": "https://doi.org/10.1038/nature09144",
+  "year": 2010,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:16:13.195758+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 16,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3206313/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "PTENP1 pseudogene transcripts compete for microRNAs, regulate PTEN expression and suppress growth independently of protein coding, with analogous coding-independent functions for other transcripts."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://doi.org/10.7554/eLife.51019",
+      "title": "Replication Study: A coding-independent function of gene and pseudogene mRNAs regulates tumour biology",
+      "date": "2020",
+      "date_basis": "publication",
+      "kind": "primary_replication",
+      "read": true,
+      "independent": true,
+      "finding": "DU145 PTEN/PTENP1 cross-regulation at mRNA level and several proliferation tests were not reproduced, although protein-expression and PTEN3-prime-UTR growth effects partly agreed; controls/variance qualify inference.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "primary_replication",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4265235/",
+      "title": "Pseudogene PTENP1 functions as a competing endogenous RNA to suppress clear-cell renal cell carcinoma progression.",
+      "date": "2014-09-23",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent renal-cell carcinoma experiments support PTENP1 miR21 competition, tumor suppression and chemotherapy sensitization.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29021233/",
+      "title": "Divergent Activity of the Pseudogene <i>PTENP1</i> in ER-Positive and Negative Breast Cancer.",
+      "date": "2017-10-11",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent breast-cancer experiments report opposite PTENP1 effects by estrogen-receptor status: suppressive in ER-negative settings and growth-promoting in ER-positive models.",
+      "read_scope": "abstract",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "Independent renal-cancer experiments support the coding-independent PTENP1/PTEN ceRNA and suppressive mechanism in that setting.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-09-23",
+            "explanation": "Independent renal-cancer experiments support the coding-independent PTENP1/PTEN ceRNA and suppressive mechanism in that setting."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The original DU145 reproduction is mixed and other-cancer validation does not establish an exact reproduction of the original full result.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The direct replication has control/variance qualifications and mixed outcomes; later cross-setting evidence reveals important context dependence.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The evidence supports a context-dependent biological function but no definitive authoritative retention of the entire original suppressive account was established.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "ER-positive breast models show opposite growth effects, so general suppressive utility cannot be inferred.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Yu and colleagues extend the PTENP1 ceRNA mechanism to renal cancer and chemotherapy sensitivity.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-09-23",
+            "explanation": "Yu and colleagues extend the PTENP1 ceRNA mechanism to renal cancer and chemotherapy sensitivity."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Yu’s renal-cancer team and Yndestad’s breast-cancer team independently test and develop the PTENP1 contribution.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-09-23",
+            "explanation": "Yu’s renal-cancer team and Yndestad’s breast-cancer team independently test and develop the PTENP1 contribution."
+          },
+          {
+            "source_id": "S3",
+            "date": "2017-10-11",
+            "explanation": "Yu’s renal-cancer team and Yndestad’s breast-cancer team independently test and develop the PTENP1 contribution."
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Independent renal-cancer experiments manipulate PTENP1 as a competing RNA to test PTEN regulation and cancer phenotypes.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-09-23",
+            "explanation": "Independent renal-cancer experiments manipulate PTENP1 as a competing RNA to test PTEN regulation and cancer phenotypes."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No independent review explicitly establishing that this specific paper enabled a research direction was read.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The evidence read does not settle this specific criterion; retained as unknown.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Independent experiments show tumor suppression and chemotherapy sensitization in renal-cancer models, a preclinical scientific benefit.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-09-23",
+            "explanation": "Independent experiments show tumor suppression and chemotherapy sensitization in renal-cancer models, a preclinical scientific benefit."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "The renal-cancer validation extends beyond the original prostate-cancer experimental setting.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-09-23",
+            "explanation": "The renal-cancer validation extends beyond the original prostate-cancer experimental setting."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The extension establishes PTENP1-associated chemotherapy sensitization and renal-cancer phenotypes.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-09-23",
+            "explanation": "The extension establishes PTENP1-associated chemotherapy sensitization and renal-cancer phenotypes."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Preclinical therapeutic effects do not establish adoption into routine patient treatment.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "A fair independent comparison validating a particular claimed advantage was not established.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "Independent renal-cancer work substantively uses the mechanism in2014, four years after publication.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-09-23",
+            "explanation": "Independent renal-cancer work substantively uses the mechanism in2014, four years after publication."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "Yu2014 independently supports the central PTENP1 suppressive ceRNA mechanism in renal cancer.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-09-23",
+            "explanation": "Yu2014 independently supports the central PTENP1 suppressive ceRNA mechanism in renal cancer."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent renal-cancer work in2014, breast-cancer work first published2017 and replication in2020 document multiple years.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-09-23",
+            "explanation": "Independent renal-cancer work in2014, breast-cancer work first published2017 and replication in2020 document multiple years."
+          },
+          {
+            "source_id": "S3",
+            "date": "2017-10-11",
+            "explanation": "Independent renal-cancer work in2014, breast-cancer work first published2017 and replication in2020 document multiple years."
+          },
+          {
+            "source_id": "S1",
+            "date": "2020",
+            "explanation": "Independent renal-cancer work in2014, breast-cancer work first published2017 and replication in2020 document multiple years."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent synthesis explicitly adopting this exact contribution as valid or useful was read.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No source explicitly established continued utility despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "External cohort is high-impact2010–2012 cancer biology selected for replication feasibility/completion, not a random sample.",
+      "The20-question rubric is broader than the available replication endpoints; unknown answers are not scored as failures.",
+      "Literature inspection is bounded and not a systematic review through the as-of date; later uninspected evidence may change answers."
+    ],
+    "summary": "Independent tumor-type extensions show substantive biological uptake and some benefit, alongside mixed original-system replication and opposite ER-positive effects. This is context-dependent success, not uniformly confirmed tumor suppression."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1038/nature09144",
+      "RPCB completed experiments Table1 A coding-independent function of gene and pseudogene mRNAs regulates tumour biology",
+      "Follow primary references in direct replication: Pseudogene PTENP1 functions as a competing endogenous RNA to suppress clear-cell renal cell carcinoma progression., Divergent Activity of the Pseudogene <i>PTENP1</i> in ER-Positive and Negative Breast Cancer."
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1038/nature09144",
+        "purpose": "Resolve original identity and read available original text before follow-up assessment.",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3206313/"
+        ]
+      },
+      {
+        "query": "RPCB completed experiments Table1 A coding-independent function of gene and pseudogene mRNAs regulates tumour biology",
+        "purpose": "Find the prespecified direct replication within the complete23-paper external cohort.",
+        "urls_read": [
+          "https://doi.org/10.7554/eLife.51019"
+        ]
+      },
+      {
+        "query": "Follow primary references in direct replication: Pseudogene PTENP1 functions as a competing endogenous RNA to suppress clear-cell renal cell carcinoma progression., Divergent Activity of the Pseudogene <i>PTENP1</i> in ER-Positive and Negative Breast Cancer.",
+        "purpose": "Read independent extensions and contrary evidence; distinguish uptake from central-claim validation.",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC4265235/",
+          "https://pubmed.ncbi.nlm.nih.gov/29021233/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 10,
+    "coverage": 0.5,
+    "score": null,
+    "lower_bound": 0.5,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent; shirabe-grade-paper",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "id": "challenge-debt",
+  "title": "Growth in a Time of Debt",
+  "doi": "https://doi.org/10.1257/aer.100.2.573",
+  "year": 2010,
+  "field_id": 20,
+  "field": "Economics",
+  "split": "challenge",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2014-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:08:28.002903+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://www.nber.org/system/files/working_papers/w15639/w15639.pdf",
+    "method": "tavily_complete_extraction",
+    "http_status": 403,
+    "characters": 36345,
+    "truncated": false,
+    "sha256": "5be3e4c45a6fed03da85a4abd47226c53d735a559fecbda68178b1946dadfa7c",
+    "retrieved_at": "2026-09-16T19:07:57.225144+00:00"
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://ideas.repec.org/p/nbr/nberwo/15639.html",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 18358,
+      "truncated": false,
+      "sha256": "7deab4aeb20334c6c7683da78574d73dbbf1ca02f55a4425bc384d38a1862a9d",
+      "retrieved_at": "2026-09-16T19:07:46.625851+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://peri.umass.edu/publication/does-high-public-debt-consistently-stifle-economic-growth-a-critique-of-reinhart-and-rogoff/",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 4058,
+      "truncated": false,
+      "sha256": "29e3c86652b718a6ae8abc5b7c792ae82060b221b82b2b74763211214b54a115",
+      "retrieved_at": "2026-09-16T19:07:46.721078+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.crfb.org/blogs/reinhart-and-rogoff",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 11753,
+      "truncated": false,
+      "sha256": "d525b1b66bc780eca2ebe3e40fc1ab02d6a4078a3b7244708972e93a4ab11e64",
+      "retrieved_at": "2026-09-16T19:07:46.877546+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "http://static.heritage.org/2013/pdf/ib3926.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 12923,
+      "truncated": false,
+      "sha256": "a07c4b9de67c7fa0c751d7a12a1f4202b8d7c106f8540e59269d41b4137732d1",
+      "retrieved_at": "2026-09-16T19:07:46.625822+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.nber.org/system/files/working_papers/w16827/w16827.pdf",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 82024,
+      "truncated": false,
+      "sha256": "a2e6d8a2732978cc360b62e18cfc2f8d1327ad4a9e3956c68be0111d2b646ff2",
+      "retrieved_at": "2026-09-16T19:07:47.077348+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://www.imf.org/external/pubs/ft/fandd/2014/06/pescatori.htm",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 16405,
+      "truncated": false,
+      "sha256": "5876e94279d7e45c96499c55f9e9399aea17404ef59e0d331ce8ba2a5068878d",
+      "retrieved_at": "2026-09-16T19:07:56.877234+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://www.dallasfed.org/-/media/Documents/institute/wpapers/2013/0162.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 431417,
+      "truncated": false,
+      "sha256": "55f7d28c5d30b83888e6e331e8ea820bacec043d0966e32eb4a688d98ff6509c",
+      "retrieved_at": "2026-09-16T19:07:47.800541+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://www.weforum.org/stories/economic-growth/a-brief-guide-to-the-reinhart-rogoff-discussion/",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:07:52.640901+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "no",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2014-06-15"
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "no",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2013-04-15"
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "no",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2014-06-15"
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "no",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2014-06-15"
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "no",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2014-06-15"
+          }
+        ]
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2014-06-15"
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2014-06-15"
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2014-06-15"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2013-04-15"
+          },
+          {
+            "source_id": "S6",
+            "date": "2014-06-15"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied systematic review, textbook, standard, or documented operational-adoption source clearly evaluates long-term uptake.",
+      "The supplied evidence does not establish a concrete independently demonstrated practical benefit attributable to the paper.",
+      "Evidence for the external-debt threshold component is less developed than evidence for the public-debt 90% threshold."
+    ]
+  },
+  "validation_rejected": [
+    "independent_extension",
+    "method_reused",
+    "new_research_direction",
+    "advantage_retained",
+    "late_use",
+    "late_positive_assessment",
+    "continued_relevance"
+  ],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 5,
+        "unknown": 0,
+        "not_applicable": 0,
+        "coverage": 1.0,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0
+      },
+      "uptake": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 9,
+    "coverage": 0.44999999999999996,
+    "score": null,
+    "lower_bound": 0.2,
+    "upper_bound": 0.75,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "67038fb7aa042c6eec7bb00e0614894e5696aae59b0adf1bc7ab0f7944aafba5",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 121212,
+      "input_tokens_details": {
+        "cache_write_tokens": 121209,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2984,
+      "output_tokens_details": {
+        "reasoning_tokens": 953
+      },
+      "total_tokens": 124196
+    },
+    "input_tokens_estimate": 120969,
+    "truncated": false
+  }
+}

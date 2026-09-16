@@ -1,0 +1,14 @@
+{
+  "id": "econ-10.1257/aer.101.2.526",
+  "title": "The Economics of Credence Goods: An Experiment on the Role of Liability, Verifiability, Reputation, and Competition",
+  "year": 2011,
+  "field_id": 20,
+  "field": "Economics",
+  "split": "test",
+  "sampling_cohort": "econ_complete_2016",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:49:47.232435+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 4,
+  "score": null
+}

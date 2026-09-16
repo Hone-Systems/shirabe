@@ -1,0 +1,370 @@
+{
+  "id": "https://openalex.org/W3081066862",
+  "title": "Role of Federal Government in Managing Conflicts: Somalia",
+  "doi": "https://doi.org/10.38124/ijisrt20aug239",
+  "year": 2020,
+  "field_id": 33,
+  "field": "Social Sciences",
+  "split": "calibration",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2024-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:23:53.770401+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://doi.org/10.38124/ijisrt20aug239",
+    "method": "pdf_all_pages",
+    "http_status": 200,
+    "characters": 38380,
+    "truncated": false,
+    "sha256": "7617a87b855b1fdf3785bfe2ba02f4cf7f3701ccac61370e6b66f45a574e05c6",
+    "retrieved_at": "2026-09-16T19:23:05.561428+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "Somalia community based customary conflict resolution clan elders federal agencies",
+      "Somaliland Puntland conflict federal government role structured interviews SPSS respondents",
+      "Somalia conflict resolution federal government customary mechanisms systematic review",
+      "Somalia conflict prevention federal agencies traditional conflict resolution policy clan elders"
+    ],
+    "selected_urls": [
+      "https://acleddata.com/expert-comment/internal-security-rift-emerging-puntland-state",
+      "https://ucdp.uu.se/statebased/11545",
+      "https://www.tandfonline.com/doi/full/10.1080/17531055.2020.1863099",
+      "https://www.saferworld-global.org/downloads/sustainable-community-approaches-to-peacebuilding-in-securitised-environments.pdf",
+      "https://www.euaa.europa.eu/country-guidance-somalia/38-individuals-involved-clan-disputes",
+      "https://www.unssc.org/impact/stories/how-learning-supported-conflict-prevention-somalia",
+      "https://openknowledge.worldbank.org/entities/publication/b2109b26-2d10-5ac6-85c2-dbfa820c5f6e"
+    ],
+    "plan_usage": {
+      "cache_key": "fd29ed08efe3b9376ddebe7bd7b98a0642f339065c907ba86479b09c651a7b3e",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 7527,
+        "input_tokens_details": {
+          "cache_write_tokens": 7524,
+          "cached_tokens": 0
+        },
+        "output_tokens": 407,
+        "output_tokens_details": {
+          "reasoning_tokens": 344
+        },
+        "total_tokens": 7934
+      },
+      "input_tokens_estimate": 7493,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "b1fc1f00259dc8ed0ed5a3e48c913dd494ae0a9b8ff5d74bd6cd2d4d0995e811",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 4094,
+        "input_tokens_details": {
+          "cache_write_tokens": 4091,
+          "cached_tokens": 0
+        },
+        "output_tokens": 624,
+        "output_tokens_details": {
+          "reasoning_tokens": 407
+        },
+        "total_tokens": 4718
+      },
+      "input_tokens_estimate": 4060,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://acleddata.com/expert-comment/internal-security-rift-emerging-puntland-state",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 5807,
+      "truncated": false,
+      "sha256": "1b50ad321e40f0e36a630612a1b4e228e711c463fc2e0662583f6d2e54d6b741",
+      "retrieved_at": "2026-09-16T19:23:25.621747+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://ucdp.uu.se/statebased/11545",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 1181,
+      "truncated": false,
+      "sha256": "b76f24ebb9129fd79b4293e60557cff29dc573bb53cfe7add6bce44e8cc9b3a7",
+      "retrieved_at": "2026-09-16T19:23:38.202249+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/17531055.2020.1863099",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 155077,
+      "truncated": false,
+      "sha256": "5fdb532f2b808bfa56793f82cf4b72fb0e1bce695f5d26213a8b208c355dcc8b",
+      "retrieved_at": "2026-09-16T19:23:34.416551+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.saferworld-global.org/downloads/sustainable-community-approaches-to-peacebuilding-in-securitised-environments.pdf",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:23:25.804253+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.euaa.europa.eu/country-guidance-somalia/38-individuals-involved-clan-disputes",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 4203,
+      "truncated": false,
+      "sha256": "adc08456afa857fb1a2d330adfe359bb1e2acd320b2ba9c4c829496c1daff41d",
+      "retrieved_at": "2026-09-16T19:23:28.979661+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://www.unssc.org/impact/stories/how-learning-supported-conflict-prevention-somalia",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 9380,
+      "truncated": false,
+      "sha256": "ccd55218953973e799337fec5a5ba05dfed443b1481715dbf57b5da3205aabe0",
+      "retrieved_at": "2026-09-16T19:23:30.798047+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://openknowledge.worldbank.org/entities/publication/b2109b26-2d10-5ac6-85c2-dbfa820c5f6e",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 19977,
+      "truncated": false,
+      "sha256": "765212f2324c4da365ee5b79f9732464a1bc6f8fda965829cbe50eecbfa98f00",
+      "retrieved_at": "2026-09-16T19:23:33.881913+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "A later independent primary study reports findings consistent with the paper’s central emphasis on clan elders and limitations of formal government-centered approaches.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2021"
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up sources do not reproduce the paper’s survey, statistical analysis, or exact central findings.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No supplied source reports a larger, stricter, or independently collected test of this paper’s specific findings.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The supplied later sources do not explicitly assess or formally retain this paper’s central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up explicitly tests the limitations acknowledged by the original study and evaluates whether its contribution remains useful.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "A later independent study substantively extends the traditional-conflict-resolution theme into insider mediation between the Federal Government and Al-Shabaab.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2021"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Only one clearly dated, in-window independent follow-up study is supplied; the evidence does not establish substantive work by at least two independent groups.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The later study examines clan elders and mediation, but the supplied text does not establish that it reused the original paper’s proposed method or framework.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review in the supplied in-window evidence explicitly identifies this paper’s contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up uses this paper as an explicit baseline, benchmark, or theoretical reference construction in a comparison.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "The independent 2021 study documents concrete conflict-management benefits associated with traditional mediators, including hostage release.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2021"
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "The original paper studied federal government conflict management broadly; the later study documents use in Al-Shabaab negotiations, humanitarian access, defections, and truces.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2021"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up documents additional findings about clan elders but does not explicitly state that the original paper enabled a new result or capability.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The supplied in-window evidence does not show adoption of this paper’s contribution in a product, formal workflow, standard, or established practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison in the supplied sources tests whether the original paper’s claimed advantages are retained.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The supplied evidence does not document substantive use at least three years after the 2020 publication within the permitted 2021–2024 window.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No supplied source provides a positive independent assessment dated at least three years after publication within the permitted window.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The supplied clearly dated relevant follow-up is from 2021; no second distinct in-window calendar year of substantive follow-up is established.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No supplied systematic review, textbook, standard, or research synthesis within the follow-up window adopts this specific paper’s contribution as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The supplied in-window evidence does not explicitly show that this paper’s contribution remained useful despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied in-window source explicitly cites or evaluates the 2020 paper by title or DOI.",
+      "No clearly dated 2022–2024 follow-up source establishes replication, comparative validation, formal adoption, or continued relevance.",
+      "The supplied 2025–2026 sources fall outside the permitted follow-up window and were not used for binary conclusions."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 4,
+    "coverage": 0.2,
+    "score": null,
+    "lower_bound": 0.2,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "d541eb578f9f281c5c9a381373044b598859bee99979eb04358d17b349f23272",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 73203,
+      "input_tokens_details": {
+        "cache_write_tokens": 73200,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2094,
+      "output_tokens_details": {
+        "reasoning_tokens": 912
+      },
+      "total_tokens": 75297
+    },
+    "input_tokens_estimate": 72960,
+    "truncated": false
+  }
+}

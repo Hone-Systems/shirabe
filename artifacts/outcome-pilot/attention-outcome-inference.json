@@ -1,0 +1,379 @@
+{
+  "model_id": "agent-rubric-expansion-round-2-wording-seed42-e73e56ec29",
+  "experimental": true,
+  "score": 0.7522847339510917,
+  "score_kind": "Predicted rubric index, not a calibrated success probability",
+  "dimensions": [
+    {
+      "id": "validation",
+      "value": 0.656604939699173,
+      "supported": 5,
+      "total": 5
+    },
+    {
+      "id": "uptake",
+      "value": 0.7819305658340454,
+      "supported": 4,
+      "total": 5
+    },
+    {
+      "id": "utility",
+      "value": 0.6861245632171631,
+      "supported": 4,
+      "total": 5
+    },
+    {
+      "id": "durability",
+      "value": 0.8844788670539856,
+      "supported": 4,
+      "total": 5
+    }
+  ],
+  "outputs": [
+    {
+      "id": "claim_supported",
+      "dimension": "validation",
+      "question": "Does a later independent primary study explicitly support the paper's central claim?",
+      "probability": 0.8641601204872131,
+      "training_yes": 20,
+      "training_no": 2
+    },
+    {
+      "id": "independent_reproduction",
+      "dimension": "validation",
+      "question": "Has an independent team reproduced the central result, construction or proof?",
+      "probability": 0.8522065281867981,
+      "training_yes": 19,
+      "training_no": 2
+    },
+    {
+      "id": "stronger_test",
+      "dimension": "validation",
+      "question": "Did the central claim survive a larger, stricter or independently collected follow-up test?",
+      "probability": 0.6332643628120422,
+      "training_yes": 19,
+      "training_no": 14
+    },
+    {
+      "id": "central_claim_retained",
+      "dimension": "validation",
+      "question": "Does a later authoritative assessment explicitly retain the central claim rather than reject it?",
+      "probability": 0.45104068517684937,
+      "training_yes": 5,
+      "training_no": 5
+    },
+    {
+      "id": "limitations_survived",
+      "dimension": "validation",
+      "question": "Did later work show the central contribution remains useful after explicitly testing its stated limitations?",
+      "probability": 0.48235300183296204,
+      "training_yes": 0,
+      "training_no": 1
+    },
+    {
+      "id": "independent_extension",
+      "dimension": "uptake",
+      "question": "Did an independent group publish a substantive extension of this specific contribution?",
+      "probability": 0.8494124412536621,
+      "training_yes": 13,
+      "training_no": 0
+    },
+    {
+      "id": "multiple_groups",
+      "dimension": "uptake",
+      "question": "Did at least two independent groups substantively build on this specific contribution?",
+      "probability": 0.76006680727005,
+      "training_yes": 3,
+      "training_no": 0
+    },
+    {
+      "id": "method_reused",
+      "dimension": "uptake",
+      "question": "Did an independent study actually use the proposed method, result or framework rather than merely cite it?",
+      "probability": 0.8533335328102112,
+      "training_yes": 12,
+      "training_no": 0
+    },
+    {
+      "id": "new_research_direction",
+      "dimension": "uptake",
+      "question": "Does a later review explicitly identify this contribution as enabling a research direction?",
+      "probability": null,
+      "training_yes": 0,
+      "training_no": 0
+    },
+    {
+      "id": "independent_comparison",
+      "dimension": "uptake",
+      "question": "Was this contribution used as an actual baseline, benchmark or theoretical reference construction in independent work?",
+      "probability": 0.6649094820022583,
+      "training_yes": 4,
+      "training_no": 0
+    },
+    {
+      "id": "external_utility",
+      "dimension": "utility",
+      "question": "Was a concrete scientific or practical benefit from applying the contribution demonstrated independently?",
+      "probability": 0.6781619191169739,
+      "training_yes": 5,
+      "training_no": 0
+    },
+    {
+      "id": "beyond_original_setting",
+      "dimension": "utility",
+      "question": "Was the contribution successfully used outside the original evaluation setting or problem instance?",
+      "probability": 0.6578419804573059,
+      "training_yes": 4,
+      "training_no": 0
+    },
+    {
+      "id": "enabled_new_result",
+      "dimension": "utility",
+      "question": "Did the contribution enable a new result, measurement, theorem or capability in later work?",
+      "probability": 0.8317050337791443,
+      "training_yes": 10,
+      "training_no": 0
+    },
+    {
+      "id": "operational_adoption",
+      "dimension": "utility",
+      "question": "Where an operational application is appropriate, was the contribution actually used in a product, workflow, standard or practice?",
+      "probability": 0.5767893195152283,
+      "training_yes": 1,
+      "training_no": 0
+    },
+    {
+      "id": "advantage_retained",
+      "dimension": "utility",
+      "question": "Did an independent comparison find a claimed advantage holds under fair evaluation?",
+      "probability": null,
+      "training_yes": 0,
+      "training_no": 0
+    },
+    {
+      "id": "late_use",
+      "dimension": "durability",
+      "question": "Is there evidence of substantive use at least three years after publication?",
+      "probability": 0.9291719198226929,
+      "training_yes": 27,
+      "training_no": 0
+    },
+    {
+      "id": "late_positive_assessment",
+      "dimension": "durability",
+      "question": "Is there a positive independent assessment of the central contribution at least three years after publication?",
+      "probability": 0.9170242547988892,
+      "training_yes": 23,
+      "training_no": 0
+    },
+    {
+      "id": "multiple_followup_years",
+      "dimension": "durability",
+      "question": "Is substantive independent follow-up documented in at least two distinct later calendar years?",
+      "probability": 0.8627051711082458,
+      "training_yes": 15,
+      "training_no": 0
+    },
+    {
+      "id": "synthesis_inclusion",
+      "dimension": "durability",
+      "question": "Does an independent systematic review, textbook, standard or research synthesis adopt the contribution as valid or useful?",
+      "probability": 0.8290141224861145,
+      "training_yes": 9,
+      "training_no": 1
+    },
+    {
+      "id": "continued_relevance",
+      "dimension": "durability",
+      "question": "Does later evidence explicitly show continued usefulness despite newer alternatives?",
+      "probability": null,
+      "training_yes": 0,
+      "training_no": 0
+    }
+  ],
+  "tokens": 9419,
+  "chunks": 19,
+  "word_count": 6007,
+  "masked_fraction": 0.11817869021676798,
+  "layer_activations": [
+    [
+      0.005889480696604848,
+      -0.005252320527009358,
+      0.03429482080750628,
+      -0.011975320939837695,
+      0.034667076388360384,
+      -0.02489270884856823,
+      -0.046130780804619874,
+      0.04201295807685057
+    ],
+    [
+      0.1074136550675818,
+      -0.13067192702057928,
+      0.018075693774906542,
+      0.011166434881991458,
+      -0.00888866412408939,
+      0.09470364083645774,
+      -0.08531851282933556,
+      0.06473792019033578
+    ],
+    [
+      0.05585704641915961,
+      -0.1686511342767758,
+      -0.01314112440853022,
+      0.07996154963447061,
+      -0.05279662564477218,
+      0.05787295091097988,
+      -0.09582490569077676,
+      0.1042338798146199
+    ],
+    [
+      0.09825772655253508,
+      -0.012840178737154316,
+      -0.0872481538640075,
+      -0.009055237897647238,
+      -0.09052106307300892,
+      0.11428124664877817,
+      -0.10826276585757512,
+      0.1551553345613983
+    ],
+    [
+      0.07980850331057475,
+      0.06263329169204904,
+      -0.21067242553297882,
+      -0.09785455375188146,
+      -0.10472896515825177,
+      0.1317927568372541,
+      -0.09092024127209528,
+      0.03498249339089278
+    ]
+  ],
+  "head_entropy": [
+    [
+      0.8726258226822122,
+      0.1565274421885028,
+      0.8808864764083724,
+      0.7367751853698524
+    ],
+    [
+      0.045184223768381215,
+      0.6000652547195631,
+      0.35610608444788616,
+      0.9032639875217756
+    ],
+    [
+      0.049865757373547696,
+      0.3126356875427962,
+      0.11873542601642688,
+      0.47557121924499146
+    ],
+    [
+      0.2767459425579799,
+      0.19467293947692302,
+      0.15174125162000127,
+      0.18440054850006316
+    ]
+  ],
+  "chunk_summaries": [
+    {
+      "chunk": 1,
+      "tokens": 510,
+      "mean_supported_probability": 0.747094988822937
+    },
+    {
+      "chunk": 2,
+      "tokens": 510,
+      "mean_supported_probability": 0.746124804019928
+    },
+    {
+      "chunk": 3,
+      "tokens": 510,
+      "mean_supported_probability": 0.7462658286094666
+    },
+    {
+      "chunk": 4,
+      "tokens": 510,
+      "mean_supported_probability": 0.747127890586853
+    },
+    {
+      "chunk": 5,
+      "tokens": 510,
+      "mean_supported_probability": 0.7465724349021912
+    },
+    {
+      "chunk": 6,
+      "tokens": 510,
+      "mean_supported_probability": 0.7462981343269348
+    },
+    {
+      "chunk": 7,
+      "tokens": 510,
+      "mean_supported_probability": 0.7461494207382202
+    },
+    {
+      "chunk": 8,
+      "tokens": 510,
+      "mean_supported_probability": 0.746070384979248
+    },
+    {
+      "chunk": 9,
+      "tokens": 510,
+      "mean_supported_probability": 0.7479414343833923
+    },
+    {
+      "chunk": 10,
+      "tokens": 510,
+      "mean_supported_probability": 0.7470324635505676
+    },
+    {
+      "chunk": 11,
+      "tokens": 510,
+      "mean_supported_probability": 0.7470080256462097
+    },
+    {
+      "chunk": 12,
+      "tokens": 510,
+      "mean_supported_probability": 0.7469517588615417
+    },
+    {
+      "chunk": 13,
+      "tokens": 510,
+      "mean_supported_probability": 0.7472191452980042
+    },
+    {
+      "chunk": 14,
+      "tokens": 510,
+      "mean_supported_probability": 0.7467275261878967
+    },
+    {
+      "chunk": 15,
+      "tokens": 510,
+      "mean_supported_probability": 0.7469486594200134
+    },
+    {
+      "chunk": 16,
+      "tokens": 510,
+      "mean_supported_probability": 0.7464709281921387
+    },
+    {
+      "chunk": 17,
+      "tokens": 510,
+      "mean_supported_probability": 0.7466621994972229
+    },
+    {
+      "chunk": 18,
+      "tokens": 510,
+      "mean_supported_probability": 0.7470341324806213
+    },
+    {
+      "chunk": 19,
+      "tokens": 239,
+      "mean_supported_probability": 0.744173526763916
+    }
+  ],
+  "warnings": [
+    "This is an experimental outcome model; external validity is not established.",
+    "Single-class question heads cannot establish success/failure discrimination.",
+    "Attention-head entropy and grouped activations are measurements, not explanations of causality."
+  ],
+  "training_papers": 47
+}

@@ -1,0 +1,378 @@
+{
+  "id": "https://openalex.org/W3164529735",
+  "title": "Rule-Based Dialog Management for Voice Assistents in Automotive Environments",
+  "doi": null,
+  "year": 2020,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "calibration",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2024-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:20:07.288973+00:00",
+  "input_scope": "abstract",
+  "original_source": {},
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "\"virtual knowledge base\" declarative dialog model automotive voice assistant application",
+      "rule-based voice dialog management RDFS ontology automotive evaluation replication",
+      "\"virtual knowledge base\" rule-based dialog management systematic review",
+      "declarative dialog model Alexa Google Assistant automotive dialog management deployment"
+    ],
+    "selected_urls": [
+      "https://odr.chalmers.se/server/api/core/bitstreams/4c608c10-c073-4912-bb6b-3b4910c4cad3/content",
+      "https://www.sri.com/wp-content/uploads/2021/12/2175.pdf",
+      "https://scielo.org.za/scielo.php?pid=S2313-78352023000100007&script=sci_arttext",
+      "https://dl.acm.org/doi/10.1145/3527450",
+      "https://www.amazon.science/blog/science-innovations-power-alexa-conversations-dialogue-management",
+      "https://developer.amazon.com/en-US/blogs/alexa/alexa-skills-kit/2021/03/announcing-general-availability-for-alexa-conversations",
+      "https://developers.google.com/cars/design/automotive-os/components/dialogs",
+      "https://link.springer.com/article/10.1007/s10462-024-11007-7"
+    ],
+    "plan_usage": {
+      "cache_key": "6e363c45c9d4a1181930b0f2133acca343c2d9ae1d18094624bfc3d3ad49a244",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 375,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 422,
+        "output_tokens_details": {
+          "reasoning_tokens": 357
+        },
+        "total_tokens": 797
+      },
+      "input_tokens_estimate": 341,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "55661c783ca208c2a046f02b69b34a51fa2f95533f500003ecb2035918fd81a7",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 10566,
+        "input_tokens_details": {
+          "cache_write_tokens": 10563,
+          "cached_tokens": 0
+        },
+        "output_tokens": 563,
+        "output_tokens_details": {
+          "reasoning_tokens": 351
+        },
+        "total_tokens": 11129
+      },
+      "input_tokens_estimate": 10532,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://odr.chalmers.se/server/api/core/bitstreams/4c608c10-c073-4912-bb6b-3b4910c4cad3/content",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 372634,
+      "truncated": false,
+      "sha256": "e2a6fd579b2eedd74fde72db0967eb3cabf0706cb412e449a595fbff487275bc",
+      "retrieved_at": "2026-09-16T19:19:38.760575+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.sri.com/wp-content/uploads/2021/12/2175.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 38928,
+      "truncated": false,
+      "sha256": "93a1e23131098ae834a5e30907ec484c7f5fbdc35058360a41108d9dbc7d6968",
+      "retrieved_at": "2026-09-16T19:19:36.813057+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://scielo.org.za/scielo.php?pid=S2313-78352023000100007&script=sci_arttext",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 65110,
+      "truncated": false,
+      "sha256": "a6a77763e7f75d3716372808883e0cf834e3ffdd7153912e06fdb3f12a43b49a",
+      "retrieved_at": "2026-09-16T19:19:37.426817+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://dl.acm.org/doi/10.1145/3527450",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:19:50.515574+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.amazon.science/blog/science-innovations-power-alexa-conversations-dialogue-management",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 11899,
+      "truncated": false,
+      "sha256": "e388da7fa9a9f15747c7f9e8f16d4184c9eabf61e8f6b8099b071133299d0f07",
+      "retrieved_at": "2026-09-16T19:19:36.916367+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://developer.amazon.com/en-US/blogs/alexa/alexa-skills-kit/2021/03/announcing-general-availability-for-alexa-conversations",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 8117,
+      "truncated": false,
+      "sha256": "0a3b89deae2f6c49c1d1851e20ac3fa414d90404df3043abba6bef05d9637593",
+      "retrieved_at": "2026-09-16T19:19:38.837561+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://developers.google.com/cars/design/automotive-os/components/dialogs",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 2922,
+      "truncated": false,
+      "sha256": "26aeb678024e08e2eb9bcc2f6d16bc6f00660839792df4bca59b98b9d5dbfc13",
+      "retrieved_at": "2026-09-16T19:19:37.705266+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://link.springer.com/article/10.1007/s10462-024-11007-7",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 101720,
+      "truncated": false,
+      "sha256": "a901c818568922c91514ca41459f7f6709fd3f1c50abe2129e259c58d87b2479",
+      "retrieved_at": "2026-09-16T19:19:39.398962+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No later independent primary study in the 2021–2024 window explicitly supports this paper’s central system claim.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up sources do not document an independent reproduction of this specific system, construction, or proof.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No larger, stricter, or independently collected follow-up test of this paper’s system is documented.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Later sources discuss related ontology-driven or automotive dialogue systems but do not authoritatively assess and retain this paper’s specific central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No later work is shown to test this paper’s stated portability, reusability, virtual-KB, or code-free modeling limitations directly.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "S3 presents an ontology-driven dialogue approach, but the supplied text does not identify it as an extension of this paper’s contribution.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2023-07-31"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The packet contains related work from multiple groups, but does not establish that at least two groups substantively built on this specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up study explicitly states that it used the target paper’s proposed method, result, or framework.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The later systematic review concerns dialogue-based explainable AI and does not identify this paper as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No independent source uses this paper’s contribution as a named baseline, benchmark, or reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up evidence does not demonstrate a concrete independent scientific or practical benefit from applying this paper’s contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Related ontology-based systems address other domains, but the sources do not show successful use of this paper’s contribution outside its original setting.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2023-07-31"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No later source attributes a new measurement, theorem, capability, or result to this specific paper’s system.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The packet documents operational adoption of other dialogue technologies, but not adoption of the target paper’s specific system in a product, workflow, standard, or practice.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2021-03-01"
+          }
+        ]
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison in the follow-up window tests the target paper’s claimed portability, reusability, or reduced coding burden.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Although S1 is dated 2024, it does not document substantive use of this specific paper’s contribution at least three years after publication.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No independent positive assessment of this paper’s central contribution at least three years later is supplied.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Later sources appear in multiple calendar years, but substantive independent follow-up of this specific paper is not established in those years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The supplied systematic review does not identify or adopt this specific paper’s contribution as valid or useful.",
+        "evidence": [
+          {
+            "source_id": "S8",
+            "date": "2025-01-06"
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later sources show continuing interest in ontology-based and automotive dialogue systems, but do not explicitly show continued usefulness of this paper despite newer alternatives.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2024"
+          }
+        ]
+      }
+    ],
+    "search_gaps": [
+      "No supplied source explicitly cites or names the 2020 target paper in a follow-up study.",
+      "No supplied independent replication, benchmark comparison, or deployment record is specific to the target system.",
+      "S2 lacks an exact publication date in the supplied text, and S8 is outside the permitted 2021–2024 follow-up window."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "24e9c858904ca0b3371a0aa5aca8d0f2a717f25e1bac8bca3b82df4b849ed95e",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 122770,
+      "input_tokens_details": {
+        "cache_write_tokens": 122767,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1955,
+      "output_tokens_details": {
+        "reasoning_tokens": 725
+      },
+      "total_tokens": 124725
+    },
+    "input_tokens_estimate": 122527,
+    "truncated": false
+  }
+}

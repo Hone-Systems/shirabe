@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W2885474879",
+  "title": "Phase diagram and metastability of the Ising model on two coupled networks",
+  "year": 2018,
+  "field_id": 31,
+  "field": "Physics and Astronomy",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:06:34.549006+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 0,
+  "score": null
+}

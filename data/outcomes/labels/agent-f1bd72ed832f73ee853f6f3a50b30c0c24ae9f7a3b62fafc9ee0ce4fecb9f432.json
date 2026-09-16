@@ -1,0 +1,312 @@
+{
+  "id": "https://openalex.org/W2986806412",
+  "title": "Cholesterol accumulation, lipid droplet formation, and steroid production in Leydig cells: Role of translocator protein (18‐kDa)",
+  "doi": "https://doi.org/10.1111/andr.12733",
+  "year": 2019,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "validation",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:41:47.532841+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 7,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/andr.12733",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "FGIN-1-27 increases cholesterol accumulation, lipid droplets, and steroid production in Leydig cells.",
+    "TSPO-dependent cholesterol trafficking and lipid-droplet mobilization contribute to steroidogenesis, with PLIN2 involvement."
+  ],
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/andr.12733",
+      "title": "Cholesterol accumulation, lipid droplet formation, and steroid production in Leydig cells: Role of translocator protein (18‐kDa)",
+      "date": "2019-11-18",
+      "date_basis": "publication",
+      "kind": "original_study",
+      "read": true,
+      "independent": false,
+      "finding": "FGIN-1-27 increased steroidogenesis and lipid droplets; TSPO/PLIN2 perturbation and 19-Atriol inhibition were interpreted as TSPO-mediated cholesterol trafficking.",
+      "characters": null,
+      "method": "original_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32698131/",
+      "title": "Lack of adrenal TSPO/PBR expression in hamsters reinforces correlation to triglyceride metabolism",
+      "date": "2020",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Hamster adrenal steroidogenesis with nearly absent TSPO contradicts universal necessity; it does not directly repeat FGIN-1-27 Leydig-cell experiments.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12934295/",
+      "title": "Target validation uncouples mitochondrial translocator protein from 19-Atriol-mediated inhibition of steroidogenesis and identifies enzymatic targets",
+      "date": "2026-01-23",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "19-Atriol inhibits steroid output without TSPO via enzymatic targets, undermining a pharmacological specificity assumption used in the original.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No independent study retrieved confirms the combined FGIN-1-27, TSPO and lipid-droplet mechanism; target-specificity findings challenge one supporting experiment.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The exact FGIN-1-27/PLIN2 protocol was not independently reproduced in the sources read. Reproduction of 19-Atriol inhibition alone does not establish its proposed mechanism.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The stricter TSPO-null inhibitor experiment rejects 19-Atriol specificity, but does not adjudicate the full FGIN-1-27 lipid-mobilization claim.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "No authoritative paper-specific assessment retaining the complete mechanism was found; general TSPO necessity remains disputed.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Target specificity fails for 19-Atriol, while the consequences for the other perturbation experiments remain untested in the retrieved follow-up.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Later metabolomics and inhibitor studies concern related steroidogenesis biology; direct extension of this paper’s particular mechanism was not established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The identified contrary primary studies come from the same Selvaraj research group; two independent groups building on this contribution were not documented.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "No independent implementation of the combined FGIN-1-27 and lipid-droplet approach was verified.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No review explicitly crediting this paper with enabling a new direction was accessible in the retrieved material.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The 2026 comparison targets earlier 19-Atriol pharmacology rather than benchmarking this paper’s complete model or protocol.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No independent application demonstrates a benefit attributable to the assigned paper’s lipid-droplet mechanism.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The hamster adrenal study tests TSPO necessity, not successful transfer of the original Leydig-cell intervention.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "New inhibitor mechanisms were found, but the source does not establish that this assigned paper enabled those discoveries.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "No operational or clinical use of this paper’s intervention was documented.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison of an advantage claimed for the FGIN-1-27 approach was identified.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Later TSPO literature exists, but substantive reuse of this specific contribution after November 2022 was not verified.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The 2026 evidence challenges inhibitor specificity and supplies no positive assessment of the complete central contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The 2020 and 2026 studies concern broader TSPO claims; two years of substantive follow-up of this specific paper were not established.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "An independent review of steroidogenesis was located but access failed; no read synthesis adopts this specific mechanism as valid.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No retrieved comparison with newer steroidogenesis mechanisms establishes continued usefulness of this paper’s particular TSPO interpretation.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No direct independent replication of the complete FGIN-1-27/PLIN2/Leydig-cell experiment or deployment was identified. TSPO-wide controversy cannot by itself resolve each narrower observation. Some same-author follow-ups were excluded as independent evidence.",
+      "The 2026 primary study was read in full through Europe PMC XML. The 2020 study and 2022 metabolomics lead were available as abstracts/indexed excerpts; review full-text access failed. The 2026 study cites earlier ligand work but not this exact assigned paper."
+    ],
+    "summary": "The specific cellular observations remain incompletely replicated. Independent hamster and inhibitor-target studies challenge TSPO necessity and the specificity of 19-Atriol, without establishing that all reported FGIN-1-27 effects are false."
+  },
+  "research_plan": {
+    "queries": [
+      "\"10.1111/andr.12733\"",
+      "\"FGIN-1-27\" \"Chung\" 2022 2023 2024 independent",
+      "\"Cholesterol accumulation, lipid droplet formation\" retraction correction replication",
+      "\"Lack of adrenal TSPO/PBR expression in hamsters\" full",
+      "\"Target validation uncouples\" \"19-Atriol\" 2026",
+      "\"Functional metabolite reserves and lipid homeostasis\" Leydig full; \"Thirty years of StAR gazing\" TSPO Chung"
+    ],
+    "search_log": [
+      {
+        "query": "\"10.1111/andr.12733\"",
+        "purpose": "Original and citing studies",
+        "urls_read": [
+          "https://onlinelibrary.wiley.com/doi/full/10.1111/andr.12733"
+        ]
+      },
+      {
+        "query": "\"FGIN-1-27\" \"Chung\" 2022 2023 2024 independent",
+        "purpose": "Independent later implementation and reproduction",
+        "urls_read": []
+      },
+      {
+        "query": "\"Cholesterol accumulation, lipid droplet formation\" retraction correction replication",
+        "purpose": "Contrary evidence and integrity checks",
+        "urls_read": []
+      },
+      {
+        "query": "\"Lack of adrenal TSPO/PBR expression in hamsters\" full",
+        "purpose": "Read independent challenge to TSPO necessity",
+        "urls_read": [
+          "https://pubmed.ncbi.nlm.nih.gov/32698131/"
+        ]
+      },
+      {
+        "query": "\"Target validation uncouples\" \"19-Atriol\" 2026",
+        "purpose": "Follow specific inhibitor-target-validation lead",
+        "urls_read": [
+          "https://www.sciencedirect.com/science/article/pii/S002192582600061X"
+        ]
+      },
+      {
+        "query": "\"Functional metabolite reserves and lipid homeostasis\" Leydig full; \"Thirty years of StAR gazing\" TSPO Chung",
+        "purpose": "Broaden method and review follow-up beyond exact-title searches",
+        "urls_read": [
+          "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12934295/fullTextXML"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex independent batch-3 research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

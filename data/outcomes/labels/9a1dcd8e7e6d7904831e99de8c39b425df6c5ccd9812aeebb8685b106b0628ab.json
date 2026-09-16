@@ -1,0 +1,303 @@
+{
+  "id": "https://openalex.org/W2797775827",
+  "title": "Cuckoos host range is associated positively with distribution range and negatively with evolutionary uniqueness",
+  "doi": "https://doi.org/10.1111/1365-2656.12797",
+  "year": 2018,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2022-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:12:17.203425+00:00",
+  "input_scope": "abstract",
+  "original_source": {},
+  "retrieval_version": 2,
+  "research_plan": {
+    "queries": [
+      "\"evolutionary distinctiveness\" cuckoo brood parasite \"host range\" \"breeding range\" PGLS after:2018-12-31 before:2023-01-01",
+      "cuckoo brood parasitism \"host range\" \"phylogenetic signal\" \"phylogenetic generalized least squares\" replication critique after:2018-12-31 before:2023-01-01",
+      "\"evolutionary distinctiveness\" brood parasitism cuckoos review synthesis meta-analysis \"Cuculiformes\" after:2018-12-31 before:2023-01-01",
+      "\"passive sampling\" brood parasites host range \"range size\" evolutionary uniqueness conservation theory after:2018-12-31 before:2023-01-01"
+    ],
+    "selected_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7297776/",
+      "https://academic.oup.com/jhered/article/112/5/395/6272461",
+      "https://www.mdpi.com/1424-2818/14/4/249"
+    ],
+    "plan_usage": {
+      "cache_key": "9d5cf391bc78b63aba1934881177bf507444c423f9deeac2c294a8c3a2ed7f68",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 432,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 510,
+        "output_tokens_details": {
+          "reasoning_tokens": 336
+        },
+        "total_tokens": 942
+      },
+      "input_tokens_estimate": 398,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "135f6c3fb3b8f75fa9195d6a7200dec17dc926bc24366f0c44c4582ba9dcb896",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 1386,
+        "input_tokens_details": {
+          "cache_write_tokens": 1383,
+          "cached_tokens": 0
+        },
+        "output_tokens": 347,
+        "output_tokens_details": {
+          "reasoning_tokens": 275
+        },
+        "total_tokens": 1733
+      },
+      "input_tokens_estimate": 1352,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7297776/",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 83306,
+      "truncated": false,
+      "sha256": "ce9e3894578a49ea9b0d1201850c5399309b8f39795fbc6398733c16b39f51e3",
+      "retrieved_at": "2026-09-16T19:11:52.191823+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://academic.oup.com/jhered/article/112/5/395/6272461",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:11:55.775308+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.mdpi.com/1424-2818/14/4/249",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 174706,
+      "truncated": false,
+      "sha256": "d57c4e2f44d88570e1d80fc1839bb0c61da68e3b24178bad903fe9fb6e4fb47e",
+      "retrieved_at": "2026-09-16T19:11:51.397571+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2020-04-16"
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2022-03-28"
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2022-03-28"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2020-04-16"
+          },
+          {
+            "source_id": "S3",
+            "date": "2022-03-28"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied independent replication or reanalysis directly tests the 2018 host-range, distribution-range, and evolutionary-uniqueness relationships.",
+      "The 2020 follow-up shares authors with the original paper, so it cannot establish independent validation.",
+      "The 2022 cuckoo study does not cite or apply the original contribution in the supplied text.",
+      "No supplied source documents adoption in conservation practice, standards, workflows, or later synthesis."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "47a99ff320ddda87c4761be601dfc903c02f4b0a82ce97b6ff957cded0b92688",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 86804,
+      "input_tokens_details": {
+        "cache_write_tokens": 86801,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1716,
+      "output_tokens_details": {
+        "reasoning_tokens": 459
+      },
+      "total_tokens": 88520
+    },
+    "input_tokens_estimate": 86561,
+    "truncated": false
+  }
+}

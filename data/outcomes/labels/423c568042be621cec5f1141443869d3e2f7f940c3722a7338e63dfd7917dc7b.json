@@ -1,0 +1,355 @@
+{
+  "id": "https://openalex.org/W2956519671",
+  "title": "Cherenkov Radiation in the Visible and Ultraviolet Spectral Ranges from 6-MeV Electrons Passing through a Quartz Plate",
+  "doi": "https://doi.org/10.1134/s0021364019090078",
+  "year": 2019,
+  "field_id": 31,
+  "field": "Physics and Astronomy",
+  "split": "validation",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2023-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:22:59.104886+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://doi.org/10.1134/s0021364019090078",
+    "method": "html_main_text",
+    "http_status": 200,
+    "characters": 7327,
+    "truncated": false,
+    "sha256": "b13d779352977eaf058afe2946575d25641d9b15a72820f9720ea4281aaba41e",
+    "retrieved_at": "2026-09-16T19:22:10.403208+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "6-MeV electron beam quartz plate Cherenkov radiation ultraviolet visible angle geometry total internal reflection",
+      "experimental replication Cherenkov radiation quartz sapphire diamond electron beam ultraviolet visible spectra",
+      "review Cherenkov radiation cathodoluminescence transparent materials electron beam spectral characteristics total internal reflection",
+      "Cherenkov radiation electron beam transparent crystals detector design ultraviolet visible total internal reflection"
+    ],
+    "selected_urls": [
+      "https://www.sciencedirect.com/science/article/pii/S0375960121005442",
+      "https://arxiv.org/pdf/2103.00579",
+      "https://link.aps.org/doi/10.1103/PhysRevAccelBeams.25.110102",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10515145",
+      "https://www.nature.com/articles/s41467-021-25822-x",
+      "https://link.aps.org/doi/10.1103/PhysRevX.13.011002",
+      "https://ui.adsabs.harvard.edu/abs/2019RuPhJ..62.1181T/abstract"
+    ],
+    "plan_usage": {
+      "cache_key": "193f8e9d974548eda5b2d3369409199ff80a1357db96f06940a849366edc46a7",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 2409,
+        "input_tokens_details": {
+          "cache_write_tokens": 2406,
+          "cached_tokens": 0
+        },
+        "output_tokens": 385,
+        "output_tokens_details": {
+          "reasoning_tokens": 301
+        },
+        "total_tokens": 2794
+      },
+      "input_tokens_estimate": 2375,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "8c4b407a2ad85939f80b0c3afa82e171aa1834a6ceee27a20af409a73f589fa3",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 6600,
+        "input_tokens_details": {
+          "cache_write_tokens": 6597,
+          "cached_tokens": 0
+        },
+        "output_tokens": 495,
+        "output_tokens_details": {
+          "reasoning_tokens": 321
+        },
+        "total_tokens": 7095
+      },
+      "input_tokens_estimate": 6566,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0375960121005442",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:22:35.703782+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://arxiv.org/pdf/2103.00579",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 37129,
+      "truncated": false,
+      "sha256": "53748b02ded766c8c4c1332e3029144b692a794c096ddabaca68015b42863b1a",
+      "retrieved_at": "2026-09-16T19:22:28.609836+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevAccelBeams.25.110102",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 29726,
+      "truncated": false,
+      "sha256": "b58746500575b643a50d33388ffb563a59c6be182f94f2980dbdcab9cbec4614",
+      "retrieved_at": "2026-09-16T19:22:28.670947+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10515145",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 51194,
+      "truncated": false,
+      "sha256": "fb35a4cb0a899ecbc75fe3b3aa81e572b1ea65f75977628bfd6f5f3b3569536f",
+      "retrieved_at": "2026-09-16T19:22:28.670320+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.nature.com/articles/s41467-021-25822-x",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 46998,
+      "truncated": false,
+      "sha256": "95d05783d4acb2a9d2e0d038d841ab27705f7649d88d47d4a9f90f0c9e5fbd73",
+      "retrieved_at": "2026-09-16T19:22:30.068198+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevX.13.011002",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 8673,
+      "truncated": false,
+      "sha256": "8be24500d82f4ce0172b457af006a25d6ca2c66bfe90261f8ed712b5d985f21b",
+      "retrieved_at": "2026-09-16T19:22:29.023541+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://ui.adsabs.harvard.edu/abs/2019RuPhJ..62.1181T/abstract",
+      "method": "",
+      "http_status": 405,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:22:29.444723+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No supplied later primary study explicitly supports the central visible/ultraviolet quartz-plate claim. The closest experimental follow-up concerns X-ray Cherenkov radiation in different materials.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2021"
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The packet contains no independent team reproducing the quartz-plate experiment or its reported spectra and angular behavior.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No supplied source reports a larger, stricter, or independently collected test of this paper’s quartz-plate result.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Later sources discuss Cherenkov radiation generally but do not explicitly assess and retain this paper’s central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up documents do not explicitly test the stated quartz geometry and total-internal-reflection limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Later Cherenkov studies in the packet address other materials, interfaces, photonic crystals, or radiation regimes; none is explicitly presented as a substantive extension of this specific quartz-plate contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The packet does not document at least two independent groups substantively building on this particular paper.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "No later independent study is shown actually reusing the proposed 6-MeV quartz-plate spectral/angle measurement method.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "Later papers identify directions in Cherenkov research, but the supplied reviews or primary papers do not identify this specific contribution as enabling one.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No supplied later work uses this paper’s result as an explicit baseline, benchmark, or reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The packet provides no independent demonstration of a concrete scientific or practical benefit from applying this paper’s quartz-plate result.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Although later work studies other Cherenkov settings, the supplied sources do not show successful use of this paper’s specific contribution outside the original quartz-plate setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No supplied later source explicitly states that the 2019 result enabled a new measurement, theorem, capability, or experimental result.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "No supplied source documents adoption of this specific contribution in a product, workflow, standard, or routine practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison in the supplied sources evaluates an advantage claimed by the 2019 paper.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The packet contains later Cherenkov publications through 2023, but none documents substantive use of this specific paper at least three years after publication.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No supplied assessment from 2022–2023 explicitly gives a positive evaluation of this paper’s central contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Later Cherenkov work appears in multiple calendar years, but paper-specific substantive follow-up is not documented in at least two years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent systematic review, textbook, standard, or research synthesis supplied here adopts this contribution as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The supplied later literature shows continuing Cherenkov research but does not explicitly establish continued usefulness of this paper’s result despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied full-text follow-up directly cites or evaluates DOI 10.1134/S0021364019090078.",
+      "The closest experimental follow-up, S2, concerns X-ray Cherenkov radiation in Be and Si rather than visible/ultraviolet radiation from quartz.",
+      "The supplied later papers on photonic-crystal, interfacial, Brewster, and two-dimensional Cherenkov radiation do not document use of this specific 2019 result."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "7ade562ac1d259675d3ced02397900ef8eb324f3af32beaf9df881696d210356",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 64025,
+      "input_tokens_details": {
+        "cache_write_tokens": 64022,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1946,
+      "output_tokens_details": {
+        "reasoning_tokens": 865
+      },
+      "total_tokens": 65971
+    },
+    "input_tokens_estimate": 63782,
+    "truncated": false
+  }
+}

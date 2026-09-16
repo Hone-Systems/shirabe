@@ -13,7 +13,7 @@ test("single-screen analysis, actual data, animation controls and inspection", a
 }) => {
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
-  await page.goto("/");
+  await page.goto("/?view=citation");
   await expect(
     page.getByRole("button", { name: "Try an example" }),
   ).toBeEnabled();
@@ -110,8 +110,15 @@ test("single-screen analysis, actual data, animation controls and inspection", a
     page.getByRole("button", { name: "About this experiment" }),
   ).toBeFocused();
   await page.getByRole("button", { name: "Training", exact: true }).click();
+  await expect(
+    page.getByRole("heading", { name: "Inside the fit." }),
+  ).toBeVisible();
+  await page.getByRole("button", { name: "Citation baseline" }).click();
   await expect(page.locator(".training-title")).toBeVisible();
   await page.getByRole("button", { name: "Analyze", exact: true }).click();
+  await page
+    .getByRole("button", { name: "Citation baseline", exact: true })
+    .click();
   await expect(page.getByText("SIGNAL RESOLVED")).toBeVisible();
   await page
     .getByRole("button", { name: "Edit abstract", exact: true })
@@ -137,7 +144,7 @@ test("single-screen analysis, actual data, animation controls and inspection", a
 });
 
 test("PDF and TXT uploads are reviewed, errors recover", async ({ page }) => {
-  await page.goto("/");
+  await page.goto("/?view=citation");
   await page
     .locator("#paper-upload")
     .setInputFiles(path.resolve("../tests/fixtures/paper.pdf"));
@@ -174,6 +181,7 @@ test("training stays on screen and full record preserves measured evidence", asy
 }) => {
   const report = await (await request.get("/api/report")).json();
   await page.goto("/training");
+  await page.getByRole("button", { name: "Citation baseline" }).click();
   await expect(page.locator(".training-title>strong")).toHaveText(
     report.test.roc_auc.toFixed(3),
   );
@@ -213,7 +221,7 @@ test("failed inference has no stale score and reduced motion stops animation", a
   page,
 }) => {
   await page.emulateMedia({ reducedMotion: "reduce" });
-  await page.goto("/");
+  await page.goto("/?view=citation");
   await page.route("**/api/predict", (route) =>
     route.fulfill({
       status: 503,

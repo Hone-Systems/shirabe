@@ -1,0 +1,353 @@
+{
+  "id": "econ-10.1257/aer.102.2.720",
+  "title": "Slow to Anger and Fast to Forgive: Cooperation in an Uncertain World",
+  "doi": "https://doi.org/10.1257/aer.102.2.720",
+  "year": 2012,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "validation",
+  "sampling_cohort": "eerp_complete_2016",
+  "as_of": "2026-09-16",
+  "original_source": {
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.2.720",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "In noisy repeated prisoner\u2019s dilemmas, cooperation is higher when cooperative equilibria exist.",
+    "Lenient and forgiving cooperative strategies attain higher payoffs under those conditions, with strategic heterogeneity."
+  ],
+  "sources": [
+    {
+      "source_id": "S1",
+      "url": "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+      "title": "Evaluating replicability of laboratory experiments in economics: supplementary materials, Tables S1\u2013S2",
+      "date": "2016-03-03",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "The selected cooperation contrast reproduced: N=128, p<.001, r=.33, versus original N=124 and r=.30. Table S2 identifies the benefit/cost 1.5 versus 2 contrast. Independent data collection was led by Camerer and Nave; the consortium also includes original coauthor Dreber."
+    },
+    {
+      "source_id": "S2",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096344",
+      "title": "Fast to Forgive, Slow to Retaliate: Intuitive Responses in the Ultimatum Game Depend on the Degree of Unfairness",
+      "date": "2014-05-12",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Ferguson and colleagues explicitly integrate the original uncertainty/forgiveness idea into a hypothesis about unfair offers, testing it in ultimatum games. Mildly unfair offers elicited more acceptance with shorter delays."
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0899825619300041",
+      "title": "Individual versus group choices of repeated game strategies: A strategy method approach",
+      "date": "2019-03",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Cason and Mui use the original parameters and twenty strategies for direct choices by individuals and groups. They identify group differences in forgiveness and persistent poor-performing defection. Publisher abstract, introduction and section excerpts were read; institutional metadata confirms March 2019."
+    },
+    {
+      "source_id": "S4",
+      "url": "https://experimentaleconreplications.com/replicationreports/study11.html",
+      "title": "Fudenberg et al. replication protocol",
+      "date": "2016",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "The protocol names Camerer and Nave, a Claremont sample, original software and predefined analysis. This is a plan, not the final results table."
+    }
+  ],
+  "answers": [
+    {
+      "id": "claim_supported",
+      "answer": "yes",
+      "rationale": "The prespecified cooperation contrast is supported.",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "date": "2016-03-03",
+          "explanation": "The prespecified cooperation contrast is supported."
+        }
+      ]
+    },
+    {
+      "id": "independent_reproduction",
+      "answer": "yes",
+      "rationale": "An independently collected sample reproduced the selected central contrast.",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "date": "2016-03-03",
+          "explanation": "An independently collected sample reproduced the selected central contrast."
+        },
+        {
+          "source_id": "S4",
+          "date": "2016",
+          "explanation": "An independently collected sample reproduced the selected central contrast."
+        }
+      ]
+    },
+    {
+      "id": "stronger_test",
+      "answer": "yes",
+      "rationale": "The predefined follow-up passed its significance criterion.",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "date": "2016-03-03",
+          "explanation": "The predefined follow-up passed its significance criterion."
+        }
+      ]
+    },
+    {
+      "id": "central_claim_retained",
+      "answer": "yes",
+      "rationale": "The replication assessment retains that specific contrast.",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "date": "2016-03-03",
+          "explanation": "The replication assessment retains that specific contrast."
+        }
+      ]
+    },
+    {
+      "id": "limitations_survived",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "independent_extension",
+      "answer": "yes",
+      "rationale": "Independent work extends the contribution to group strategy choices.",
+      "evidence": [
+        {
+          "source_id": "S3",
+          "date": "2019-03",
+          "explanation": "Independent work extends the contribution to group strategy choices."
+        }
+      ]
+    },
+    {
+      "id": "multiple_groups",
+      "answer": "yes",
+      "rationale": "Ferguson and Cason/Mui independently build on distinct aspects.",
+      "evidence": [
+        {
+          "source_id": "S2",
+          "date": "2014-05-12",
+          "explanation": "Ferguson and Cason/Mui independently build on distinct aspects."
+        },
+        {
+          "source_id": "S3",
+          "date": "2019-03",
+          "explanation": "Ferguson and Cason/Mui independently build on distinct aspects."
+        }
+      ]
+    },
+    {
+      "id": "method_reused",
+      "answer": "yes",
+      "rationale": "The twenty-strategy set and experimental parameters are reused.",
+      "evidence": [
+        {
+          "source_id": "S3",
+          "date": "2019-03",
+          "explanation": "The twenty-strategy set and experimental parameters are reused."
+        }
+      ]
+    },
+    {
+      "id": "new_research_direction",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "independent_comparison",
+      "answer": "yes",
+      "rationale": "Original strategy constructs form the comparison framework.",
+      "evidence": [
+        {
+          "source_id": "S3",
+          "date": "2019-03",
+          "explanation": "Original strategy constructs form the comparison framework."
+        }
+      ]
+    },
+    {
+      "id": "external_utility",
+      "answer": "yes",
+      "rationale": "The framework supports measuring individual versus group strategy differences.",
+      "evidence": [
+        {
+          "source_id": "S3",
+          "date": "2019-03",
+          "explanation": "The framework supports measuring individual versus group strategy differences."
+        }
+      ]
+    },
+    {
+      "id": "beyond_original_setting",
+      "answer": "yes",
+      "rationale": "Use extends to group decisions and ultimatum responses.",
+      "evidence": [
+        {
+          "source_id": "S2",
+          "date": "2014-05-12",
+          "explanation": "Use extends to group decisions and ultimatum responses."
+        },
+        {
+          "source_id": "S3",
+          "date": "2019-03",
+          "explanation": "Use extends to group decisions and ultimatum responses."
+        }
+      ]
+    },
+    {
+      "id": "enabled_new_result",
+      "answer": "yes",
+      "rationale": "The reused strategy set enables direct observations of switching.",
+      "evidence": [
+        {
+          "source_id": "S3",
+          "date": "2019-03",
+          "explanation": "The reused strategy set enables direct observations of switching."
+        }
+      ]
+    },
+    {
+      "id": "operational_adoption",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "advantage_retained",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "late_use",
+      "answer": "yes",
+      "rationale": "The 2019 study substantively reuses the 2012 contribution.",
+      "evidence": [
+        {
+          "source_id": "S3",
+          "date": "2019-03",
+          "explanation": "The 2019 study substantively reuses the 2012 contribution."
+        }
+      ]
+    },
+    {
+      "id": "late_positive_assessment",
+      "answer": "yes",
+      "rationale": "The 2016 independent-data replication supports the selected claim.",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "date": "2016-03-03",
+          "explanation": "The 2016 independent-data replication supports the selected claim."
+        }
+      ]
+    },
+    {
+      "id": "multiple_followup_years",
+      "answer": "yes",
+      "rationale": "Substantive independent follow-ups occur in 2014 and 2019.",
+      "evidence": [
+        {
+          "source_id": "S2",
+          "date": "2014-05-12",
+          "explanation": "Substantive independent follow-ups occur in 2014 and 2019."
+        },
+        {
+          "source_id": "S3",
+          "date": "2019-03",
+          "explanation": "Substantive independent follow-ups occur in 2014 and 2019."
+        }
+      ]
+    },
+    {
+      "id": "synthesis_inclusion",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "continued_relevance",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    }
+  ],
+  "search_log": [
+    {
+      "query": "\"Slow to Anger and Fast to Forgive\" replication cooperation",
+      "purpose": "Independent outcome and contrary-evidence search",
+      "urls_read": [
+        "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096344",
+        "https://www.sciencedirect.com/science/article/pii/S0899825619300041",
+        "https://experimentaleconreplications.com/replicationreports/study11.html"
+      ]
+    },
+    {
+      "query": "\"Fudenberg\" \"2012\" \"replication\" Camerer 2016",
+      "purpose": "Independent outcome and contrary-evidence search",
+      "urls_read": [
+        "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096344",
+        "https://www.sciencedirect.com/science/article/pii/S0899825619300041",
+        "https://experimentaleconreplications.com/replicationreports/study11.html"
+      ]
+    },
+    {
+      "query": "\"Slow to Anger and Fast to Forgive\" \"2018\" strategies",
+      "purpose": "Independent outcome and contrary-evidence search",
+      "urls_read": [
+        "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096344",
+        "https://www.sciencedirect.com/science/article/pii/S0899825619300041",
+        "https://experimentaleconreplications.com/replicationreports/study11.html"
+      ]
+    },
+    {
+      "query": "\"Fudenberg\" \"Dreber\" \"strategies\" \"2019\" lenient forgiving independent",
+      "purpose": "Independent outcome and contrary-evidence search",
+      "urls_read": [
+        "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096344",
+        "https://www.sciencedirect.com/science/article/pii/S0899825619300041",
+        "https://experimentaleconreplications.com/replicationreports/study11.html"
+      ]
+    },
+    {
+      "query": "\"Individual versus group choices of repeated game strategies\" 2019 Cason",
+      "purpose": "Independent outcome and contrary-evidence search",
+      "urls_read": [
+        "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096344",
+        "https://www.sciencedirect.com/science/article/pii/S0899825619300041",
+        "https://experimentaleconreplications.com/replicationreports/study11.html"
+      ]
+    }
+  ],
+  "search_gaps": [
+    "Original reading was the complete publisher abstract, not full text.",
+    "Replication consortium includes an original coauthor; the local replication team and collected data are independent.",
+    "No comprehensive review, operational adoption or comparison against newer alternatives was established.",
+    "Read-access limits: publisher excerpts for Cason/Mui rather than its complete methods/results."
+  ],
+  "summary": "The selected cooperation contrast replicated, and independent researchers substantively reused and extended the strategy framework. This does not establish every claim or real-world adoption.",
+  "researcher": "Codex expand_ssrp independent blind repeat",
+  "blind_repeat": true
+}

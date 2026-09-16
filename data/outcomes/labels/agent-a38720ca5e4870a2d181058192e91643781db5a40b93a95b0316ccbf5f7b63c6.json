@@ -1,0 +1,369 @@
+{
+  "id": "rpcb-10.1016/j.cell.2011.08.017",
+  "title": "BET bromodomain inhibition as a therapeutic strategy to target c-Myc",
+  "doi": "https://doi.org/10.1016/j.cell.2011.08.017",
+  "year": 2011,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:16:13.192288+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 15,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3187920/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "BET bromodomain inhibition with JQ1 suppresses MYC transcription and proliferation in multiple myeloma and improves efficacy in mouse models, motivating a therapeutic strategy."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://doi.org/10.7554/eLife.21253",
+      "title": "Replication Study: BET bromodomain inhibition as a therapeutic strategy to target c-Myc",
+      "date": "2017",
+      "date_basis": "publication",
+      "kind": "primary_replication",
+      "read": true,
+      "independent": true,
+      "finding": "JQ1-mediated MYC downregulation and improved mouse survival reproduced; tumor-burden significance did not, with early control deaths limiting that endpoint.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "primary_replication",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24335499/",
+      "title": "Potent antimyeloma activity of the novel bromodomain inhibitors I-BET151 and I-BET762.",
+      "date": "2013-12-13",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent I-BET151/I-BET762 experiments show MYC repression, antiproliferative effects and mouse survival benefit; primary abstract read.",
+      "read_scope": "abstract",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27063978/",
+      "title": "Bromodomain inhibitor OTX015 in patients with lymphoma or multiple myeloma: a dose-escalation, open-label, pharmacokinetic, phase1 study.",
+      "date": "2016",
+      "date_basis": "publication",
+      "kind": "primary_trial",
+      "read": true,
+      "independent": true,
+      "read_scope": "abstract",
+      "finding": "The dose-escalation trial enrolled45 patients including12 with myeloma; thrombocytopenia and other toxicities limited dosing. A clinical trial does not establish the original strategy as routine successful therapy.",
+      "characters": null,
+      "method": "primary_trial",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "Independent replication supports MYC suppression by JQ1 and an in-vivo survival benefit.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2017",
+            "explanation": "Independent replication supports MYC suppression by JQ1 and an in-vivo survival benefit."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "Aird and colleagues reproduced principal molecular and mouse-survival results, though not every tumor-burden comparison.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2017",
+            "explanation": "Aird and colleagues reproduced principal molecular and mouse-survival results, though not every tumor-burden comparison."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "yes",
+        "rationale": "Preregistered independent follow-up retained the MYC suppression and survival components; the tumor-burden endpoint remained inconclusive.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2017",
+            "explanation": "Preregistered independent follow-up retained the MYC suppression and survival components; the tumor-burden endpoint remained inconclusive."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "The replication assessment explicitly reports reproduction of important parts of the BET-to-MYC therapeutic rationale.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2017",
+            "explanation": "The replication assessment explicitly reports reproduction of important parts of the BET-to-MYC therapeutic rationale."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Acquired resistance and toxicity remain material limitations; these sources do not show the strategy generally survives them.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Chaidos and colleagues extended the strategy to distinct BET inhibitors and an orally suitable agent.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2013-12-13",
+            "explanation": "Chaidos and colleagues extended the strategy to distinct BET inhibitors and an orally suitable agent."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish two distinct independent teams building specifically on this contribution beyond replication or parallel discovery.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "The independent I-BET study applies BET-mediated MYC repression as an experimental antimyeloma strategy.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2013-12-13",
+            "explanation": "The independent I-BET study applies BET-mediated MYC repression as an experimental antimyeloma strategy."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No independent review explicitly establishing that this specific paper enabled a research direction was read.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The evidence read does not settle this specific criterion; retained as unknown.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Independent BET inhibition produced antimyeloma effects and survival benefit in a systemic mouse model; this is preclinical utility.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2013-12-13",
+            "explanation": "Independent BET inhibition produced antimyeloma effects and survival benefit in a systemic mouse model; this is preclinical utility."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The additional agent is promising but still tested principally in myeloma, so broad successful transfer was not established.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The strategy enabled an independent I-BET762 pharmacology and survival result, extending beyond the original JQ1 chemical probe.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2013-12-13",
+            "explanation": "The strategy enabled an independent I-BET762 pharmacology and survival result, extending beyond the original JQ1 chemical probe."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "An independent phase1 trial exists, but clinical trial exposure is not proof of established routine adoption or efficacy in myeloma.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No fair independent comparison establishes a durable overall advantage over established myeloma therapies.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2014 I-BET study uses the therapeutic strategy three calendar years after publication.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2013-12-13",
+            "explanation": "The 2014 I-BET study uses the therapeutic strategy three calendar years after publication."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The 2017 replication positively assesses core results six years later.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2017",
+            "explanation": "The 2017 replication positively assesses core results six years later."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent I-BET research in 2014 and direct replication in 2017 document different follow-up years.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2013-12-13",
+            "explanation": "Independent I-BET research in 2014 and direct replication in 2017 document different follow-up years."
+          },
+          {
+            "source_id": "S1",
+            "date": "2017",
+            "explanation": "Independent I-BET research in 2014 and direct replication in 2017 document different follow-up years."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent synthesis explicitly adopting this exact contribution as valid or useful was read.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No source explicitly established continued utility despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "External cohort is high-impact2010–2012 cancer biology selected for replication feasibility/completion, not a random sample.",
+      "The20-question rubric is broader than the available replication endpoints; unknown answers are not scored as failures.",
+      "Literature inspection is bounded and not a systematic review through the as-of date; later uninspected evidence may change answers."
+    ],
+    "summary": "Independent replication and new BET compounds retain the core preclinical therapeutic rationale. Mixed tumor-burden replication and clinical toxicity prevent equating this with established patient-level success."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1016/j.cell.2011.08.017",
+      "RPCB completed experiments Table1 BET bromodomain inhibition as a therapeutic strategy to target c-Myc",
+      "Follow primary references in direct replication: Potent antimyeloma activity of the novel bromodomain inhibitors I-BET151 and I-BET762., Bromodomain inhibitor OTX015 in patients with lymphoma or multiple myeloma: a dose-escalation, open-label, pharmacokinetic, phase1 study."
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1016/j.cell.2011.08.017",
+        "purpose": "Resolve original identity and read available original text before follow-up assessment.",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3187920/"
+        ]
+      },
+      {
+        "query": "RPCB completed experiments Table1 BET bromodomain inhibition as a therapeutic strategy to target c-Myc",
+        "purpose": "Find the prespecified direct replication within the complete23-paper external cohort.",
+        "urls_read": [
+          "https://doi.org/10.7554/eLife.21253"
+        ]
+      },
+      {
+        "query": "Follow primary references in direct replication: Potent antimyeloma activity of the novel bromodomain inhibitors I-BET151 and I-BET762., Bromodomain inhibitor OTX015 in patients with lymphoma or multiple myeloma: a dose-escalation, open-label, pharmacokinetic, phase1 study.",
+        "purpose": "Read independent extensions and contrary evidence; distinguish uptake from central-claim validation.",
+        "urls_read": [
+          "https://pubmed.ncbi.nlm.nih.gov/24335499/",
+          "https://pubmed.ncbi.nlm.nih.gov/27063978/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 11,
+    "coverage": 0.55,
+    "score": null,
+    "lower_bound": 0.55,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent; shirabe-grade-paper",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "id": "https://openalex.org/W2982984920",
+  "title": "Quantitative Analysis of Bioactive Phenanthrenes in Dioscorea batatas Decne Peel, a Discarded Biomass from Postharvest Processing",
+  "doi": "https://doi.org/10.3390/antiox8110541",
+  "year": 2019,
+  "field_id": 27,
+  "field": "Medicine",
+  "split": "validation",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2023-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:22:06.719602+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://doi.org/10.3390/antiox8110541",
+    "method": "tavily_complete_extraction",
+    "http_status": 403,
+    "characters": 99995,
+    "truncated": false,
+    "sha256": "627b383ab46aa3769de70f98e6fbf446fdaeae357b6b24e45cad93d87eb13d77",
+    "retrieved_at": "2026-09-16T19:17:15.370638+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "Dioscorea batatas peel phenanthrenes anti-inflammatory pancreatic lipase pulmonary injury",
+      "2,7-dihydroxy-4,6-dimethoxyphenanthrene batatasin I Dioscorea batatas peel HPLC DPPH ABTS",
+      "Dioscorea phenanthrenes Chinese yam peel review antioxidant secondary metabolites",
+      "Chinese yam peel phenanthrenes waste biomass valorization functional biomaterials pharmaceuticals"
+    ],
+    "selected_urls": [
+      "https://www.jmb.or.kr/journal/view.html?doi=10.4014%2Fjmb.2206.06037",
+      "https://research.knu.ac.kr/en/publications/inhibitory-effects-of-compounds-isolated-from-dioscorea-batatas-d",
+      "https://hero.epa.gov/reference/7665318",
+      "https://hero.epa.gov/reference/7666973",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9026138",
+      "https://link.springer.com/article/10.1007/s00425-020-03458-3",
+      "https://europepmc.org/articles/pmc8399132?pdf=render",
+      "https://pubmed.ncbi.nlm.nih.gov/30807032"
+    ],
+    "plan_usage": {
+      "cache_key": "3c33c9af3fffb5b3e77071c001e32e01b7996516d4a35a2902b7ed6857483a21",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 32876,
+        "input_tokens_details": {
+          "cache_write_tokens": 32873,
+          "cached_tokens": 0
+        },
+        "output_tokens": 610,
+        "output_tokens_details": {
+          "reasoning_tokens": 509
+        },
+        "total_tokens": 33486
+      },
+      "input_tokens_estimate": 32842,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "79e01c33f7309d4299cafc99ae6ba6b8208def2050244d556d29f0cf0055cb7d",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 4739,
+        "input_tokens_details": {
+          "cache_write_tokens": 4736,
+          "cached_tokens": 0
+        },
+        "output_tokens": 687,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 5426
+      },
+      "input_tokens_estimate": 4705,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.jmb.or.kr/journal/view.html?doi=10.4014%2Fjmb.2206.06037",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 54862,
+      "truncated": false,
+      "sha256": "99de02cfe8115876eada82dd172a4d93a75e21bc701a0be0742d64abba8fbb77",
+      "retrieved_at": "2026-09-16T19:21:32.651011+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://research.knu.ac.kr/en/publications/inhibitory-effects-of-compounds-isolated-from-dioscorea-batatas-d",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 12787,
+      "truncated": false,
+      "sha256": "dc2c9a927e1afbe85f37915ecac85af21f16eb072b56eb11e879ca2ce9729ce5",
+      "retrieved_at": "2026-09-16T19:21:33.155171+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://hero.epa.gov/reference/7665318",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 3519,
+      "truncated": false,
+      "sha256": "ea383c8d75a88b7e443c5121ab3993eff5b7cf15c7f3db9ca8117f7109d219b5",
+      "retrieved_at": "2026-09-16T19:21:32.857325+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://hero.epa.gov/reference/7666973",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 2838,
+      "truncated": false,
+      "sha256": "40ae9eca91bdf5ceea135dc16201ddbf758a657b0f1c650c755810ab76a9c034",
+      "retrieved_at": "2026-09-16T19:21:32.771643+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9026138",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 210540,
+      "truncated": false,
+      "sha256": "72a49d3313932fee7a0be7dd9d491d75177369a0ddbed66c4e20b9924e50b8c4",
+      "retrieved_at": "2026-09-16T19:21:33.243376+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://link.springer.com/article/10.1007/s00425-020-03458-3",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 112444,
+      "truncated": false,
+      "sha256": "ee2cd0afe66da33126ac3ca5376c7cab2e3131d534fed276a7182b39ba7cc7bd",
+      "retrieved_at": "2026-09-16T19:21:34.839810+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://europepmc.org/articles/pmc8399132?pdf=render",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:21:33.449213+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30807032",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 16871,
+      "truncated": false,
+      "sha256": "b620c9489430ac3195783a16bd126f383e6c44b68f4c28cf290e770f821b1044",
+      "retrieved_at": "2026-09-16T19:21:41.199400+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The provided later primary study supports the findings, but it includes the original paper’s author group; no independent primary confirmation is documented.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-08-28"
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No independent team is shown reproducing the original quantitative peel-versus-flesh result.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "yes",
+        "rationale": "A later study applied a validated method across four Dioscorea species, broadening the original single-species analysis and again detecting the target phenanthrenes in D. batatas peel.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-08-28"
+          },
+          {
+            "source_id": "S1",
+            "date": "2022-08-28"
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "A 2022 comprehensive review explicitly retains the central compositional and antioxidant findings.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2022-04-17"
+          },
+          {
+            "source_id": "S5",
+            "date": "2022-04-17"
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The provided follow-up documents do not explicitly test the original paper’s stated limitations or show that its contribution remains useful after such testing.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The 2022 analytical extension covers four species, but the author list includes the original senior author; an independent-group extension is not established.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-08-28"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The packet documents follow-up from the original research network and reviews, but not at least two independent groups substantively building on this specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "A later study uses a modified version of the method, but it shares authorship with the original paper; independent reuse is therefore not established.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-08-28"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The later review discusses broader applications and further studies, but does not explicitly identify this specific contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The provided sources do not show an independent study using the original contribution as a baseline, benchmark, or reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources describe potential functional-food, nutraceutical, and biomaterial value, but do not demonstrate a concrete independently applied benefit from this contribution.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2020-09-21"
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "The later analytical work successfully applied the contribution beyond the original D. batatas peel evaluation to multiple Dioscorea species.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-08-28"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The follow-up method enabled new quantitative measurements across species, including species-specific phenanthrene abundance patterns.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-08-28"
+          },
+          {
+            "source_id": "S1",
+            "date": "2022-08-28"
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The later study describes suitability for quality assessment and standardization, but no documented product, workflow, standard, or practice adoption is provided.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-08-28"
+          }
+        ]
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The packet does not provide an independent fair comparison testing whether the original claimed antioxidant advantage is retained.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "Substantive follow-up use is documented in 2022, more than three years after the paper’s 2019 publication.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-08-28"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "A 2022 comprehensive review positively incorporates the contribution and retains its central findings at least three years after publication.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2022-04-17"
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive follow-up is documented in distinct later calendar years: 2020, 2022, and 2022.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2020-09-21"
+          },
+          {
+            "source_id": "S5",
+            "date": "2022-04-17"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "A comprehensive independent review includes the original findings in its synthesis of Dioscorea phytochemicals and antioxidant properties.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2022-04-17"
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later sources show continued citation and use, but do not explicitly state that the contribution remains useful despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied independent primary study clearly reproduces the original quantitative peel-versus-flesh result.",
+      "No supplied evidence documents product, workflow, regulatory-standard, or routine-practice adoption of the phenanthrene analysis.",
+      "No supplied follow-up explicitly tests the original study’s stated limitations or compares its claimed antioxidant advantage against newer alternatives."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 8,
+    "coverage": 0.4,
+    "score": null,
+    "lower_bound": 0.4,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "ec18a0a7976210ce8bbc703f408978645ed3c0322a48173108d6e2455ba28123",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 174010,
+      "input_tokens_details": {
+        "cache_write_tokens": 174007,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2869,
+      "output_tokens_details": {
+        "reasoning_tokens": 920
+      },
+      "total_tokens": 176879
+    },
+    "input_tokens_estimate": 173767,
+    "truncated": false
+  }
+}

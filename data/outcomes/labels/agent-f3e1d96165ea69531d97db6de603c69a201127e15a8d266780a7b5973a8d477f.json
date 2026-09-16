@@ -1,0 +1,344 @@
+{
+  "id": "rpcb-10.1038/nature10509",
+  "title": "Inhibition of BET recruitment to chromatin as an effective treatment for MLL-fusion leukaemia",
+  "doi": "https://doi.org/10.1038/nature10509",
+  "year": 2011,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:14:20.569715+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 15,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3679520/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Displacing BET proteins from chromatin selectively inhibits MLL-fusion leukemia cells and BCL2 expression.",
+    "I-BET151 provides survival benefit in mouse leukemia models and has therapeutic potential."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "R",
+      "url": "https://doi.org/10.7554/eLife.25306",
+      "title": "Replication Study: Inhibition of BET recruitment to chromatin as an effective treatment for MLL-fusion leukaemia",
+      "date": "2017",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Selective MV4;11 inhibition and BCL2 reduction replicated; xenograft survival difference was not significant with conditioning and dose differences.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "C",
+      "url": "https://doi.org/10.18632/oncotarget.4131",
+      "title": "BET inhibitor OTX015 targets BRD2 and BRD4 and decreases c-MYC in acute leukemia cells",
+      "date": "2015",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent BET-inhibitor work in leukemia cell lines and patient samples found growth arrest and apoptosis with OTX015/JQ1.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "Selective inhibition and BCL2 suppression in MLL-fusion cells were independently supported.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2017",
+            "explanation": "Selective inhibition and BCL2 suppression in MLL-fusion cells were independently supported."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "The core cell-selective inhibition result was reproduced; this does not certify mouse survival.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2017",
+            "explanation": "The core cell-selective inhibition result was reproduced; this does not certify mouse survival."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "Cell findings reproduced but the in-vivo survival test did not reach significance under a different tolerated dose.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2017",
+            "explanation": "Cell findings reproduced but the in-vivo survival test did not reach significance under a different tolerated dose."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "The replication retained the cell-selective BET therapeutic mechanism with explicit survival uncertainty.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2017",
+            "explanation": "The replication retained the cell-selective BET therapeutic mechanism with explicit survival uncertainty."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Independent investigators applied I-BET151 to the original MLL and control cell models.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2017",
+            "explanation": "Independent investigators applied I-BET151 to the original MLL and control cell models."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Independent selective growth suppression demonstrated a preclinical benefit of applying BET inhibition.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2017",
+            "explanation": "Independent selective growth suppression demonstrated a preclinical benefit of applying BET inhibition."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "Independent OTX015 testing extended BET inhibition to additional acute leukemia and patient-derived cells.",
+        "evidence": [
+          {
+            "source_id": "C",
+            "date": "2015",
+            "explanation": "Independent OTX015 testing extended BET inhibition to additional acute leukemia and patient-derived cells."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "yes",
+        "rationale": "I-BET151 selectivity for MV4;11 over K-562 growth and BCL2 expression was retained in a direct comparison.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2017",
+            "explanation": "I-BET151 selectivity for MV4;11 over K-562 growth and BCL2 expression was retained in a direct comparison."
+          }
+        ]
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2017 independent study applied the original compound and leukemia assays.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2017",
+            "explanation": "The 2017 independent study applied the original compound and leukemia assays."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The 2017 report positively assessed selective cellular inhibition, not a proven human treatment.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2017",
+            "explanation": "The 2017 report positively assessed selective cellular inhibition, not a proven human treatment."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Relevant independent BET leukemia experiments appeared in 2015 and 2017.",
+        "evidence": [
+          {
+            "source_id": "C",
+            "date": "2015",
+            "explanation": "Relevant independent BET leukemia experiments appeared in 2015 and 2017."
+          },
+          {
+            "source_id": "R",
+            "date": "2017",
+            "explanation": "Relevant independent BET leukemia experiments appeared in 2015 and 2017."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "OTX015 source read at primary abstract level; clinical success not inferred.",
+      "External frozen cohort only; never training, selection, calibration or tuning. Absence of adoption evidence remains unknown."
+    ],
+    "summary": "Strong cellular replication with unresolved survival translation. Positive labels refer to the cellular contribution, not established clinical efficacy."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1038/nature10509",
+      "https://doi.org/10.7554/eLife.25306"
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1038/nature10509",
+        "purpose": "Resolve original identity and author text through Europe PMC, publisher and NCBI BioC",
+        "urls_read": [
+          "https://doi.org/10.1038/nature10509"
+        ]
+      },
+      {
+        "query": "https://doi.org/10.7554/eLife.25306",
+        "purpose": "Read assigned preregistered replication and follow its supporting and contrary references",
+        "urls_read": [
+          "https://doi.org/10.7554/eLife.25306",
+          "https://doi.org/10.18632/oncotarget.4131"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 10,
+    "coverage": 0.5,
+    "score": null,
+    "lower_bound": 0.5,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

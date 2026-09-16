@@ -1,0 +1,14 @@
+{
+  "id": "ml2-10.1038/nclimate2093",
+  "title": "How warm days increase belief in global warming",
+  "year": 2014,
+  "field_id": 16,
+  "field": "Psychology",
+  "split": "train",
+  "sampling_cohort": "manylabs2_complete_2018",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:47:39.383179+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 2,
+  "score": null
+}

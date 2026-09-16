@@ -1,0 +1,247 @@
+{
+  "id": "ml2-10.1037/0022-3514.83.5.1239",
+  "doi": "https://doi.org/10.1037/0022-3514.83.5.1239",
+  "title": "Cultural variation in correspondence bias: The critical role of attitude diagnosticity of socially constrained behavior",
+  "year": 2002,
+  "field_id": 16,
+  "field": "Psychology",
+  "sampling_cohort": "manylabs2_complete_2018",
+  "split": "calibration",
+  "as_of": "2026-09-16",
+  "original_source": {
+    "url": "https://www-apache.anderson.ucla.edu/faculty_pages/keith.chen/negot.%20papers/MiyamotoKitayama_CultVarCoresBias02.pdf",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Both cultures show correspondence bias when constrained behavior remains diagnostic.",
+    "Under minimally diagnostic behavior Americans retain correspondence bias but Japanese do not; online inferences partly mediate."
+  ],
+  "sources": [
+    {
+      "source_id": "O",
+      "url": "https://www-apache.anderson.ucla.edu/faculty_pages/keith.chen/negot.%20papers/MiyamotoKitayama_CultVarCoresBias02.pdf",
+      "title": "Cultural variation in correspondence bias: The critical role of attitude diagnosticity of socially constrained behavior",
+      "date": "2002",
+      "date_basis": "publication",
+      "kind": "original_paper",
+      "read": true,
+      "independent": false,
+      "finding": "Original text identifies broader thesis beyond the selected replication comparison."
+    },
+    {
+      "source_id": "S1",
+      "url": "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf",
+      "title": "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Strong aggregate correspondence bias and persuasiveness moderation; aggregate main effect does not itself test the original American\u2013Japanese difference."
+    },
+    {
+      "source_id": "S2",
+      "url": "https://journals.sagepub.com/doi/10.1177/2515245918817076",
+      "title": "Cultural Differences in Correspondence Bias Are Systematic and Multifaceted",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "author_reanalysis",
+      "read": true,
+      "independent": false,
+      "finding": "Original authors analyze independent ML2 data with held-out confirmation: US bias exceeds Japanese bias, p=.008, d=.63; persuasiveness and consensus moderate cultural differences."
+    }
+  ],
+  "answers": [
+    {
+      "id": "claim_supported",
+      "answer": "unknown",
+      "rationale": "ML2 main analysis supports generic correspondence bias, whereas the original cultural difference is explicitly tested in the original authors\u2019 held-out reanalysis. The evidence inspected does not establish a fully independent analysis of the complete cultural/diagnosticity thesis.",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "date": "2018",
+          "explanation": "ML2 main analysis supports generic correspondence bias, whereas the original cultural difference is explicitly tested in the original authors\u2019 held-out reanalysis. The evidence inspected does not establish a fully independent analysis of the complete cultural/diagnosticity thesis."
+        },
+        {
+          "source_id": "S2",
+          "date": "2018",
+          "explanation": "ML2 main analysis supports generic correspondence bias, whereas the original cultural difference is explicitly tested in the original authors\u2019 held-out reanalysis. The evidence inspected does not establish a fully independent analysis of the complete cultural/diagnosticity thesis."
+        }
+      ]
+    },
+    {
+      "id": "independent_reproduction",
+      "answer": "unknown",
+      "rationale": "ML2 main analysis supports generic correspondence bias, whereas the original cultural difference is explicitly tested in the original authors\u2019 held-out reanalysis. The evidence inspected does not establish a fully independent analysis of the complete cultural/diagnosticity thesis.",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "date": "2018",
+          "explanation": "ML2 main analysis supports generic correspondence bias, whereas the original cultural difference is explicitly tested in the original authors\u2019 held-out reanalysis. The evidence inspected does not establish a fully independent analysis of the complete cultural/diagnosticity thesis."
+        },
+        {
+          "source_id": "S2",
+          "date": "2018",
+          "explanation": "ML2 main analysis supports generic correspondence bias, whereas the original cultural difference is explicitly tested in the original authors\u2019 held-out reanalysis. The evidence inspected does not establish a fully independent analysis of the complete cultural/diagnosticity thesis."
+        }
+      ]
+    },
+    {
+      "id": "stronger_test",
+      "answer": "yes",
+      "rationale": "Original authors analyze independently collected ML2 data and confirm the US\u2013Japan bias difference on a held-out sample (p=.008, d=.63), with new analyses identifying essay persuasiveness and opinion consensus as moderators. This supports stronger testing and substantive reuse while retaining the authorship caveat.",
+      "evidence": [
+        {
+          "source_id": "S2",
+          "date": "2018",
+          "explanation": "Original authors analyze independently collected ML2 data and confirm the US\u2013Japan bias difference on a held-out sample (p=.008, d=.63), with new analyses identifying essay persuasiveness and opinion consensus as moderators. This supports stronger testing and substantive reuse while retaining the authorship caveat."
+        }
+      ]
+    },
+    {
+      "id": "central_claim_retained",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "limitations_survived",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "independent_extension",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "multiple_groups",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "method_reused",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "new_research_direction",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "independent_comparison",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "external_utility",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "beyond_original_setting",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "enabled_new_result",
+      "answer": "yes",
+      "rationale": "Original authors analyze independently collected ML2 data and confirm the US\u2013Japan bias difference on a held-out sample (p=.008, d=.63), with new analyses identifying essay persuasiveness and opinion consensus as moderators. This supports stronger testing and substantive reuse while retaining the authorship caveat.",
+      "evidence": [
+        {
+          "source_id": "S2",
+          "date": "2018",
+          "explanation": "Original authors analyze independently collected ML2 data and confirm the US\u2013Japan bias difference on a held-out sample (p=.008, d=.63), with new analyses identifying essay persuasiveness and opinion consensus as moderators. This supports stronger testing and substantive reuse while retaining the authorship caveat."
+        }
+      ]
+    },
+    {
+      "id": "operational_adoption",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "advantage_retained",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "late_use",
+      "answer": "yes",
+      "rationale": "Original authors analyze independently collected ML2 data and confirm the US\u2013Japan bias difference on a held-out sample (p=.008, d=.63), with new analyses identifying essay persuasiveness and opinion consensus as moderators. This supports stronger testing and substantive reuse while retaining the authorship caveat.",
+      "evidence": [
+        {
+          "source_id": "S2",
+          "date": "2018",
+          "explanation": "Original authors analyze independently collected ML2 data and confirm the US\u2013Japan bias difference on a held-out sample (p=.008, d=.63), with new analyses identifying essay persuasiveness and opinion consensus as moderators. This supports stronger testing and substantive reuse while retaining the authorship caveat."
+        }
+      ]
+    },
+    {
+      "id": "late_positive_assessment",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "multiple_followup_years",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "synthesis_inclusion",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "continued_relevance",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    }
+  ],
+  "search_log": [
+    {
+      "query": "GET https://www-apache.anderson.ucla.edu/faculty_pages/keith.chen/negot.%20papers/MiyamotoKitayama_CultVarCoresBias02.pdf",
+      "purpose": "Verify original thesis and read primary author text",
+      "urls_read": [
+        "https://www-apache.anderson.ucla.edu/faculty_pages/keith.chen/negot.%20papers/MiyamotoKitayama_CultVarCoresBias02.pdf"
+      ]
+    },
+    {
+      "query": "\"Miyamoto\" \"Kitayama\" \"2002\" \"Many Labs\" correspondence",
+      "purpose": "Find claim-specific independent outcomes and contrary evidence",
+      "urls_read": [
+        "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf"
+      ]
+    },
+    {
+      "query": "\"Miyamoto\" \"Kitayama\" \"Many Labs 2\"",
+      "purpose": "Inspect original-author response and exact cultural contrast",
+      "urls_read": [
+        "https://journals.sagepub.com/doi/10.1177/2515245918817076"
+      ]
+    }
+  ],
+  "search_gaps": [
+    "Blind repeat: first researcher grades and drafts were not inspected.",
+    "A positive selected replication does not validate every central claim.",
+    "Downstream operational adoption and practical utility were not established."
+  ],
+  "researcher": "Codex /root/expand_econ blind independent repeat",
+  "summary": "The original US\u2013Japan difference is recovered in original-author held-out analysis of independent ML2 data. The generic pooled bias result alone would not validate that cultural thesis. Independent-author confirmation and downstream application remain uncertain."
+}

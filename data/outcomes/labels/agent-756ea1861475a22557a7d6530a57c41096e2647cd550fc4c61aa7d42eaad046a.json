@@ -1,0 +1,327 @@
+{
+  "id": "econ-10.1257/aer.101.7.3109",
+  "title": "Happiness and Time Preference: The Effect of Positive Affect in a Random-Assignment Experiment",
+  "doi": "10.1257/aer.101.7.3109",
+  "year": 2011,
+  "field_id": 20,
+  "field": "Economics",
+  "split": "train",
+  "sampling_cohort": "econ_complete_2016",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:49:47.229278+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 15,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.101.7.3109",
+    "scope": "abstract",
+    "read": true,
+    "version_note": "Complete original abstract only; full body inaccessible through attempted publisher/author routes."
+  },
+  "central_claims": [
+    "Mild positive affect reduces time preference over money relative to neutral affect in a randomized experiment."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "O",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.101.7.3109",
+      "title": "Happiness and Time Preference: The Effect of Positive Affect in a Random-Assignment Experiment",
+      "date": "2011",
+      "date_basis": "publication",
+      "kind": "original_paper",
+      "read": true,
+      "independent": false,
+      "finding": "Original central claims were recorded before follow-up grading.",
+      "characters": null,
+      "method": "original_paper",
+      "truncated": false
+    },
+    {
+      "source_id": "S1",
+      "url": "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf",
+      "title": "Camerer et al. Evaluating replicability of laboratory experiments in economics — Supplement, Tables S1–S2",
+      "date": "2016",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "The preregistered independent comparison tests whether a positive-affect film raises patience among participants who discount; replication N=131, original focal N=58, p=.933. The project only retested one selected result per paper.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://arxiv.org/pdf/2309.01056",
+      "title": "Diagnosing the role of observable distribution shift in scientific replications",
+      "date": "2023",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent reanalysis finds observed mood/covariate shifts do not explain the emotion–patience discrepancy; unobserved differences or selection/publication bias remain possible.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No unambiguous later independent support for the stated central claim was established in the sources read.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The available evidence does not settle successful independent reproduction of the central claim.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "no",
+        "rationale": "The film-treatment patience result did not survive the larger independent replication. Subsequent reweighting for observed mood induction and demographics also did not restore the effect. This does not establish that all positive emotion has no causal influence on patience.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2016",
+            "explanation": "The film-treatment patience result did not survive the larger independent replication. Subsequent reweighting for observed mood induction and demographics also did not restore the effect. This does not establish that all positive emotion has no causal influence on patience."
+          },
+          {
+            "source_id": "S2",
+            "date": "2023",
+            "explanation": "The film-treatment patience result did not survive the larger independent replication. Subsequent reweighting for observed mood induction and demographics also did not restore the effect. This does not establish that all positive emotion has no causal influence on patience."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "A later authoritative assessment explicitly retaining the central claim beyond the focal replication was not established.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Replication of one selected comparison does not establish that the contribution survived explicit tests of its stated limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "A substantive independent extension of this specific contribution was not established; direct replication alone is not counted as extension.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Two independent teams substantively building on this particular contribution were not established.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Downstream use of a proposed method or framework beyond rerunning its experimental protocol was not established.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review explicitly identifying this paper as enabling a research direction was verified.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "rationale": "Jin, Guo and Rothenhausler use original and replication individual-level observations as an empirical case study for their distribution-shift decomposition, including additional original mood data. This is substantive diagnostic reuse, not positive confirmation of the emotion effect.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2023",
+            "explanation": "Jin, Guo and Rothenhausler use original and replication individual-level observations as an empirical case study for their distribution-shift decomposition, including additional original mood data. This is substantive diagnostic reuse, not positive confirmation of the emotion effect."
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "A concrete benefit from applying the contribution beyond testing the original claim was not established.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "A new subject pool alone does not establish successful use outside the original problem setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "A distinct downstream result enabled by this contribution was not established.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Operational application was not established; lack of retrieved evidence is not proof of nonadoption.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "A fair independent comparison retaining a particular claimed methodological or practical advantage was not established.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "Jin, Guo and Rothenhausler use original and replication individual-level observations as an empirical case study for their distribution-shift decomposition, including additional original mood data. This is substantive diagnostic reuse, not positive confirmation of the emotion effect.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2023",
+            "explanation": "Jin, Guo and Rothenhausler use original and replication individual-level observations as an empirical case study for their distribution-shift decomposition, including additional original mood data. This is substantive diagnostic reuse, not positive confirmation of the emotion effect."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "Positive independent assessment at least three years after publication was not established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Substantive independent follow-up in two distinct later calendar years was not established.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "A synthesis adopting the contribution as valid or useful was not established; recording a replication result alone is not adoption.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "An explicit demonstration of usefulness despite newer alternatives was not established.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "This is a complete but selected cohort of laboratory economics experiments, not a representative sample of research success.",
+      "The replication project tests only one selected comparison, not every claim or the entire theoretical contribution.",
+      "Outcome review prioritizes independently tested validation; absent adoption/utility evidence remains unknown.",
+      "Original assessment uses its complete abstract only; attempted full-text publisher/author routes were inaccessible. No fabricated full-text reading."
+    ],
+    "summary": "The film-treatment patience result failed independent replication. Later data reanalysis could not explain the discrepancy using measured mood and demographic shifts; the original data remain useful for methodological diagnosis. The general causal claim remains uncertain."
+  },
+  "research_plan": {
+    "queries": [
+      "Camerer 2016 economics replication 18 studies list AER QJE replication",
+      "GET https://www.aeaweb.org/articles?id=10.1257/aer.101.7.3109",
+      "\"Ifcher\" \"Zarghamee\" \"replication\" \"2016\" positive affect",
+      "GET https://arxiv.org/pdf/2309.01056"
+    ],
+    "search_log": [
+      {
+        "query": "Camerer 2016 economics replication 18 studies list AER QJE replication",
+        "purpose": "Freeze complete cohort and locate primary replication evidence",
+        "urls_read": [
+          "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf"
+        ]
+      },
+      {
+        "query": "GET https://www.aeaweb.org/articles?id=10.1257/aer.101.7.3109",
+        "purpose": "Resolve original identity and read author text; publisher abstract retained if fulltext inaccessible",
+        "urls_read": [
+          "https://www.aeaweb.org/articles?id=10.1257/aer.101.7.3109"
+        ]
+      },
+      {
+        "query": "\"Ifcher\" \"Zarghamee\" \"replication\" \"2016\" positive affect",
+        "purpose": "Check independent replication, extensions and contradictory later evidence",
+        "urls_read": [
+          "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf"
+        ]
+      },
+      {
+        "query": "GET https://arxiv.org/pdf/2309.01056",
+        "purpose": "Read primary follow-up and inspect claim-level findings",
+        "urls_read": [
+          "https://arxiv.org/pdf/2309.01056"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 1,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.8
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 3,
+    "coverage": 0.15000000000000002,
+    "score": null,
+    "lower_bound": 0.1,
+    "upper_bound": 0.95,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent /root/expand_econ",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

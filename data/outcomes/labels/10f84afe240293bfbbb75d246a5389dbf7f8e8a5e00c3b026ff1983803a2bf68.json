@@ -1,0 +1,405 @@
+{
+  "id": "challenge-bert",
+  "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+  "doi": "https://doi.org/10.48550/arXiv.1810.04805",
+  "year": 2018,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "challenge",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2022-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:18:15.916465+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://arxiv.org/pdf/1810.04805",
+    "method": "pdf_all_pages",
+    "http_status": 200,
+    "characters": 89229,
+    "truncated": false,
+    "sha256": "aed2a21f0429e5526d7636bfe304c790bf0abb8c40977337672d9bd683a2fadc",
+    "retrieved_at": "2026-09-16T19:07:17.691849+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "BERT masked language model Transformer encoder applications extensions downstream NLP",
+      "BERT replication ablation next sentence prediction masked language modeling bidirectionality",
+      "BERT systematic review survey masked language modeling pre-training fine-tuning",
+      "BERT transfer learning theoretical analysis practical deployment fine-tuning NLP systems"
+    ],
+    "selected_urls": [
+      "https://aclanthology.org/D19-1542",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8978438",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8742153",
+      "https://www.mdpi.com/1424-8220/22/11/4157"
+    ],
+    "plan_usage": {
+      "cache_key": "f1254cba9ade39a5135e423b1ca03eb9c491f9deee2dfe69300b61c6ae23db4a",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 19023,
+        "input_tokens_details": {
+          "cache_write_tokens": 19020,
+          "cached_tokens": 0
+        },
+        "output_tokens": 475,
+        "output_tokens_details": {
+          "reasoning_tokens": 406
+        },
+        "total_tokens": 19498
+      },
+      "input_tokens_estimate": 18989,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "6fabf7c64683269ffa9f7dbc11a6d163486a0940844ab27c8a03e7f276f38047",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 9150,
+        "input_tokens_details": {
+          "cache_write_tokens": 9147,
+          "cached_tokens": 0
+        },
+        "output_tokens": 443,
+        "output_tokens_details": {
+          "reasoning_tokens": 362
+        },
+        "total_tokens": 9593
+      },
+      "input_tokens_estimate": 9116,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://aclanthology.org/D19-1542",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 12602,
+      "truncated": false,
+      "sha256": "7e4473f87a0bb5173142f462b6658deef43f01c99f4b56aee2c9fe7099ba0871",
+      "retrieved_at": "2026-09-16T19:17:43.770784+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8978438",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 86419,
+      "truncated": false,
+      "sha256": "96a3f025f7bc5426d2599acb4cd69982ca86de4f60fb33187fb360c79b7917e6",
+      "retrieved_at": "2026-09-16T19:17:43.849902+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8742153",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 108134,
+      "truncated": false,
+      "sha256": "be1b2a572f0c05fd21dad65979ea6658949c71d7d800337eee5f95b85fafa1f1",
+      "retrieved_at": "2026-09-16T19:17:43.920464+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.mdpi.com/1424-8220/22/11/4157",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 110379,
+      "truncated": false,
+      "sha256": "21de9d3f8f27ceec14468d8b7eb9894d3fa6b6ae5bee3c54bfb881ebc421272d",
+      "retrieved_at": "2026-09-16T19:17:43.855909+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up studies use BERT and its adaptations, but none explicitly reports an exact independent reproduction of the original eleven-task result or original pretraining experiment.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The sources report independent applications and domain-specific benchmarks, but do not establish a larger or stricter replication of the original evaluation.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "Later primary studies continue to characterize BERT as effective, leading, and broadly useful for downstream NLP tasks.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022-04-04"
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Independent groups extended BERT to semantic equivalence, biomedical relation extraction, and non-English sentiment analysis.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022-04-04"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "At least three independent author groups published substantive BERT-based extensions or applications in the window.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022-04-04"
+          },
+          {
+            "source_id": "S4",
+            "date": "2022-05-30"
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Independent studies actually trained, fine-tuned, and evaluated BERT models rather than merely citing the paper.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022-04-04"
+          },
+          {
+            "source_id": "S3",
+            "date": "2022-01-07"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The packet contains application papers and a review citation, but no supplied later review explicitly identifying BERT as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "rationale": "Independent studies compare BERT against other pretrained models, embeddings, and classifiers using task results.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2022-05-30"
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Independent applications demonstrate concrete performance benefits in biomedical extraction and Bangla sentiment analysis.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022-04-04"
+          },
+          {
+            "source_id": "S4",
+            "date": "2022-05-30"
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "BERT was successfully used outside the original English benchmark setting, including biomedical relation extraction and Bangla sentiment analysis.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022-04-04"
+          },
+          {
+            "source_id": "S4",
+            "date": "2022-05-30"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "BERT-based follow-up systems achieved new or state-of-the-art results on biomedical and Bangla benchmarks.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022-04-04"
+          },
+          {
+            "source_id": "S4",
+            "date": "2022-05-30"
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources mention public code or a publicly available model, but do not document adoption in a product, standard, or established operational workflow.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "yes",
+        "rationale": "Independent comparisons report BERT-based representations outperforming conventional embeddings and other classifiers under reported test evaluations.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2022-05-30"
+          }
+        ]
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "Substantive independent use is documented in 2022, more than three years after the 2018 publication.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022-04-04"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "A 2022 independent study positively assesses BERT-based models as leading and reports improved or state-of-the-art results.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022-04-04"
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive independent follow-up appears in at least 2019 and 2022.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022-04-04"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No supplied independent systematic review, textbook, standard, or research synthesis explicitly adopts the contribution as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "yes",
+        "rationale": "Later work evaluates BERT alongside newer or alternative representations and continues to report useful or superior performance.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2022-05-30"
+          }
+        ]
+      }
+    ],
+    "search_gaps": [
+      "No supplied source provides an exact controlled reproduction of the original eleven-task BERT evaluation.",
+      "No supplied systematic review, textbook, standard, or documented product/workflow adoption source was available.",
+      "The packet does not establish a larger or stricter direct replication of the original benchmark claims."
+    ]
+  },
+  "validation_rejected": [
+    "claim_supported",
+    "limitations_survived"
+  ],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 13,
+    "coverage": 0.65,
+    "score": null,
+    "lower_bound": 0.65,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "3af046dd4e1b5f874a6aa28715186da52f88fcdc83127786cce28caf6ae36a3b",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 123955,
+      "input_tokens_details": {
+        "cache_write_tokens": 123952,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3044,
+      "output_tokens_details": {
+        "reasoning_tokens": 971
+      },
+      "total_tokens": 126999
+    },
+    "input_tokens_estimate": 123712,
+    "truncated": false
+  }
+}

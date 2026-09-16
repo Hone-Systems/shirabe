@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W2753756358",
+  "title": "Depression and associated factors among parents of children diagnosed with cancer at Tikur Anbessa Specialized Hospital, Addis Ababa, Ethiopia",
+  "year": 2020,
+  "field_id": 27,
+  "field": "Medicine",
+  "split": "calibration",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:01:09.653227+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 6,
+  "score": null
+}

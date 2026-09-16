@@ -1,0 +1,246 @@
+{
+  "id": "econ-10.1257/aer.104.6.1735",
+  "title": "Gift Exchange versus Monetary Exchange: Theory and Evidence",
+  "doi": "https://doi.org/10.1257/aer.104.6.1735",
+  "year": 2014,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "test",
+  "sampling_cohort": "eerp_complete_2016",
+  "as_of": "2026-09-16",
+  "original_source": {
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.104.6.1735",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "In the laboratory Lagos\u2013Wright setting, subjects select monetary rather than efficient gift-exchange equilibria.",
+    "Money increases achieved welfare compared with an otherwise comparable no-money setting, acting as a coordination device."
+  ],
+  "sources": [
+    {
+      "source_id": "S1",
+      "url": "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+      "title": "Evaluating replicability of laboratory experiments in economics: supplementary materials, Tables S1\u2013S2",
+      "date": "2016-03-03",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "The six-person money-versus-no-money welfare contrast did not replicate: N=96, p=.674, r=-.12, versus original N=54 and r=.76. This directly concerns the selected welfare comparison, not every theoretical result."
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S016726812030473X",
+      "title": "On the monetary exchange with multiple equilibrium money holdings distributions: An experimental approach",
+      "date": "2021-03",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Kamiya, Kobayashi, Shichijo and Shimizu study a different divisible-money model, compare its outcomes with Duffy/Puzzello, and report rare gift giving and efficient endogenous monetary exchange. Read publisher abstract, introduction and section text available through search indexing; direct retrieval was blocked."
+    }
+  ],
+  "answers": [
+    {
+      "id": "claim_supported",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "independent_reproduction",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "stronger_test",
+      "answer": "no",
+      "rationale": "The larger prespecified test failed the selected welfare contrast.",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "date": "2016-03-03",
+          "explanation": "The larger prespecified test failed the selected welfare contrast."
+        }
+      ]
+    },
+    {
+      "id": "central_claim_retained",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "limitations_survived",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "independent_extension",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "multiple_groups",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "method_reused",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "new_research_direction",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "independent_comparison",
+      "answer": "yes",
+      "rationale": "The later independent experiment uses the earlier outcomes as a substantive comparison.",
+      "evidence": [
+        {
+          "source_id": "S2",
+          "date": "2021-03",
+          "explanation": "The later independent experiment uses the earlier outcomes as a substantive comparison."
+        }
+      ]
+    },
+    {
+      "id": "external_utility",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "beyond_original_setting",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "enabled_new_result",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "operational_adoption",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "advantage_retained",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "late_use",
+      "answer": "yes",
+      "rationale": "The 2021 experimental discussion substantively compares the 2014 result.",
+      "evidence": [
+        {
+          "source_id": "S2",
+          "date": "2021-03",
+          "explanation": "The 2021 experimental discussion substantively compares the 2014 result."
+        }
+      ]
+    },
+    {
+      "id": "late_positive_assessment",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "multiple_followup_years",
+      "answer": "yes",
+      "rationale": "There is substantive testing in 2016 and comparison in 2021.",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "date": "2016-03-03",
+          "explanation": "There is substantive testing in 2016 and comparison in 2021."
+        },
+        {
+          "source_id": "S2",
+          "date": "2021-03",
+          "explanation": "There is substantive testing in 2016 and comparison in 2021."
+        }
+      ]
+    },
+    {
+      "id": "synthesis_inclusion",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    },
+    {
+      "id": "continued_relevance",
+      "answer": "unknown",
+      "rationale": "The bounded search did not establish this specific criterion; missing evidence is not a negative finding.",
+      "evidence": []
+    }
+  ],
+  "search_log": [
+    {
+      "query": "\"Gift Exchange versus Monetary Exchange\" replication follow up",
+      "purpose": "Independent outcome and contrary-evidence search",
+      "urls_read": [
+        "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+        "https://www.sciencedirect.com/science/article/abs/pii/S016726812030473X"
+      ]
+    },
+    {
+      "query": "\"Duffy\" \"Puzzello\" \"2014\" \"replication\" Camerer 2016",
+      "purpose": "Independent outcome and contrary-evidence search",
+      "urls_read": [
+        "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+        "https://www.sciencedirect.com/science/article/abs/pii/S016726812030473X"
+      ]
+    },
+    {
+      "query": "\"Gift Exchange versus Monetary Exchange\" independent experiment extension",
+      "purpose": "Independent outcome and contrary-evidence search",
+      "urls_read": [
+        "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+        "https://www.sciencedirect.com/science/article/abs/pii/S016726812030473X"
+      ]
+    },
+    {
+      "query": "Camerer 2016 Duffy Puzzello replication report 2014 monetary exchange",
+      "purpose": "Independent outcome and contrary-evidence search",
+      "urls_read": [
+        "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+        "https://www.sciencedirect.com/science/article/abs/pii/S016726812030473X"
+      ]
+    },
+    {
+      "query": "\"On the monetary exchange with multiple equilibrium\"",
+      "purpose": "Independent outcome and contrary-evidence search",
+      "urls_read": [
+        "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+        "https://www.sciencedirect.com/science/article/abs/pii/S016726812030473X"
+      ]
+    }
+  ],
+  "search_gaps": [
+    "Original reading was the complete publisher abstract, not full text.",
+    "A different monetary model is not a direct reproduction or demonstrated use of this specific experimental construction.",
+    "The live study07 replication link redirects to a website containing unrelated material; numerical evidence instead comes from the archived primary supplement.",
+    "No reliable operational-adoption, systematic-synthesis or newer-alternative evidence was established."
+  ],
+  "summary": "The selected welfare advantage failed a larger replication. A later independent experiment substantively compares the paper while studying a different monetary model. That related evidence cannot resolve the original welfare contrast or establish universal failure.",
+  "researcher": "Codex expand_ssrp independent blind repeat",
+  "blind_repeat": true
+}

@@ -1,0 +1,346 @@
+{
+  "id": "https://openalex.org/W2763496525",
+  "title": "Silent Adrenal Pheochromocytoma Coexistent with Corticomedullary Hyperplasia: A Case Incidentally Discovered",
+  "doi": "https://doi.org/10.12890/2017_000714",
+  "year": 2017,
+  "field_id": 27,
+  "field": "Medicine",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:03:23.077731+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 9,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6346797/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Rare coexistence of silent pheochromocytoma, corticomedullary hyperplasia and subclinical hypercortisolism; local ACTH is a hypothesis rather than a demonstrated cause."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "O",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6346797/",
+      "title": "Silent Adrenal Pheochromocytoma Coexistent with Corticomedullary Hyperplasia: A Case Incidentally Discovered",
+      "date": "2017-10-06",
+      "date_basis": "publication",
+      "kind": "original",
+      "read": true,
+      "independent": false,
+      "read_scope": "full_text",
+      "finding": "Single histologically characterized case with normal urinary metanephrines, cortisol excess and corticomedullary hyperplasia; ACTH-mediated cortical change proposed, not experimentally established.",
+      "characters": null,
+      "method": "original",
+      "truncated": false
+    },
+    {
+      "source_id": "R",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9618947/",
+      "title": "Silent pheochromocytoma and paraganglioma: Systematic review and proposed definitions for standardized terminology",
+      "date": "2022-10-17",
+      "date_basis": "publication",
+      "kind": "systematic_review",
+      "read": true,
+      "independent": true,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Review extracts individual-case data from 85 reports and 157 patients. This report is reference 20 within the clinically silent case set (references 14–57). It supports phenotypic characterization, while warning that absence of symptoms or normal biochemical tests does not establish lack of catecholamine synthesis.",
+      "characters": null,
+      "method": "systematic_review",
+      "truncated": false
+    },
+    {
+      "source_id": "A",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10438876/",
+      "title": "Adrenal Medullary Hyperplasia: A Systematic Review and Meta-analysis",
+      "date": "2023-03-10",
+      "date_basis": "publication",
+      "kind": "systematic_review",
+      "read": true,
+      "independent": true,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "66 patients from 29 reports support heterogeneous AMH, but the text does not cite Petramala or establish reuse or replication of this case.",
+      "characters": null,
+      "method": "systematic_review",
+      "truncated": false
+    },
+    {
+      "source_id": "C",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9837076/",
+      "title": "A Rare Case: Adrenal Corticomedullary Mixed Tumor With Elements of Pheochromocytoma, Cortical Adenoma, and Ganglioneuroma Cells",
+      "date": "2022-12-02",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Different mixed tumor explicitly distinguished from pheochromocytoma with cortical hyperplasia; cannot reproduce the target combination.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The specific combined adrenal presentation: No later independent primary study directly supporting the central claim was established.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The specific combined adrenal presentation: No independent reproduction of the specific result was located.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The specific combined adrenal presentation: No larger or stricter follow-up test of the original claim was established.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The 2022 synthesis retains the patient as a clinically silent case but does not explicitly assess the full coexistence claim or local ACTH hypothesis. Its terminology warning prevents treating “non-functioning” as independently established.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The specific combined adrenal presentation: No later test of the original limitations demonstrating retained usefulness was located.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The specific combined adrenal presentation: No substantive extension by an independent team was established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The specific combined adrenal presentation: Two independent teams building on this particular contribution were not established.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "The independent 2022 systematic review includes this patient report in its extracted clinically silent case set; this is substantive reuse of the observation five years later, not confirmation of the ACTH hypothesis.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2022-10-17",
+            "explanation": "Methods extract patient-level data, and reference 20 is included in the clinically silent group."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The specific combined adrenal presentation: No review explicitly attributing an enabled research direction to this paper was located.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The specific combined adrenal presentation: No independent study using this contribution as a baseline or reference construction was located.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The specific combined adrenal presentation: No independent demonstration of benefit from applying this specific contribution was established.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The specific combined adrenal presentation: No demonstrated successful use outside the original setting was located.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The specific combined adrenal presentation: No later result demonstrably enabled by this contribution was established.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The specific combined adrenal presentation: No documented operational workflow, product, standard or practice applying this contribution was located.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "not_applicable",
+        "rationale": "This descriptive case report makes no comparative performance or treatment-advantage claim.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The independent 2022 systematic review includes this patient report in its extracted clinically silent case set; this is substantive reuse of the observation five years later, not confirmation of the ACTH hypothesis.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2022-10-17",
+            "explanation": "Methods extract patient-level data, and reference 20 is included in the clinically silent group."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "Inclusion in the 2022 case set is useful reuse, but no explicit positive assessment of the full corticomedullary-hyperplasia contribution was found.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The specific combined adrenal presentation: Substantive independent follow-up in two distinct later years was not established.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "The independent 2022 systematic review includes this patient report in its extracted clinically silent case set; this is substantive reuse of the observation five years later, not confirmation of the ACTH hypothesis.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2022-10-17",
+            "explanation": "Methods extract patient-level data, and reference 20 is included in the clinically silent group."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The specific combined adrenal presentation: No later evidence explicitly demonstrating usefulness despite newer alternatives was located.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Later silent-pheochromocytoma series and different mixed tumors do not establish the specific coexistence or ACTH mechanism. No documented clinical practice change attributable to this report found."
+    ],
+    "summary": "The case contributes patient-level evidence to a 2022 independent systematic review. Broader silent-tumor literature is not a replication of its rare combined pathology, and modern terminology cautions against equating silence with absent catecholamine synthesis."
+  },
+  "research_plan": {
+    "queries": [
+      "\"10.12890/2017_000714\"",
+      "\"corticomedullary hyperplasia\" \"Petramala\"",
+      "\"Petramala\" \"corticomedullary\" review",
+      "\"corticomedullary hyperplasia\" pheochromocytoma 2021 2024",
+      "\"Pre- and peri-operative characteristics\" \"silent\" 2022"
+    ],
+    "search_log": [
+      {
+        "query": "\"10.12890/2017_000714\"",
+        "purpose": "Identity and forward citations",
+        "urls_read": [
+          "https://pubmed.ncbi.nlm.nih.gov/30755911/",
+          "https://pubmed.ncbi.nlm.nih.gov/36074243/"
+        ]
+      },
+      {
+        "query": "\"corticomedullary hyperplasia\" \"Petramala\"",
+        "purpose": "Specific combination and later reviews",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6346797/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9618947/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10438876/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9837076/"
+        ]
+      },
+      {
+        "query": "\"Petramala\" \"corticomedullary\" review",
+        "purpose": "Independent synthesis and contrary terminology",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9618947/"
+        ]
+      },
+      {
+        "query": "\"corticomedullary hyperplasia\" pheochromocytoma 2021 2024",
+        "purpose": "Check newer cases and full-combination recurrence",
+        "urls_read": []
+      },
+      {
+        "query": "\"Pre- and peri-operative characteristics\" \"silent\" 2022",
+        "purpose": "Investigate independent case-series lead",
+        "urls_read": [
+          "https://pubmed.ncbi.nlm.nih.gov/36074243/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 1,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 3,
+    "coverage": 0.15000000000000002,
+    "score": null,
+    "lower_bound": 0.15000000000000002,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex independent research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

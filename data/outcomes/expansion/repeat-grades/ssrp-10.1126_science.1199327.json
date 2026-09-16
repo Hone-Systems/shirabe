@@ -1,0 +1,423 @@
+{
+  "id": "ssrp-10.1126/science.1199327",
+  "title": "Retrieval practice produces more learning than elaborative studying with concept mapping.",
+  "doi": "10.1126/science.1199327",
+  "year": 2011,
+  "field_id": 16,
+  "field": "Psychology",
+  "split": "train",
+  "sampling_cohort": "ssrp_complete_2018",
+  "as_of": "2026-09-16",
+  "original_source": {
+    "url": "https://learninglab.psych.purdue.edu/downloads/2011/2011_Karpicke_Blunt_Science.pdf",
+    "scope": "full_text",
+    "read": true
+  },
+  "sources": [
+    {
+      "source_id": "C",
+      "url": "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/b/845/files/2025/01/camerer-et-al-2018-nature-hb.pdf",
+      "title": "Camerer et al. Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015",
+      "date": "2018-08-27",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "The preregistered independent replication reports positive significant focal results for both Aviezer and Karpicke/Blunt in Figure 1. Original-author reviewed protocols; not every original experiment was repeated."
+    },
+    {
+      "source_id": "R",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078976",
+      "title": "Ritchie, Della Sala and McIntosh: Retrieval Practice, with or without Mind Mapping, Boosts Fact Learning in Primary School Children",
+      "date": "2013-11-12",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent in-class experiments adapted the retrieval/mapping comparison to 8\u201312-year-olds and geographical facts. Retrieval benefited recall through five weeks; mind mapping gave no consistent benefit. This simpler mapping task is not identical to original adult concept mapping."
+    },
+    {
+      "source_id": "M",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1258359/full",
+      "title": "Mayrhofer, Kuhbandner and Frischholz: Re-examining the testing effect as a learning strategy",
+      "date": "2023-12-21",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Preregistered N=230 comparison reproduces original verbatim recall advantage under original conditions. Adding memorization to concept mapping removes that advantage; inference performance does not favor retrieval. Single German text, one-week retention; authors acknowledge these boundaries."
+    },
+    {
+      "source_id": "B",
+      "url": "https://www.abpmr.org/Primary/Tips",
+      "title": "American Board of Physical Medicine and Rehabilitation: Study Tips & Resources",
+      "date": "2026-09-16",
+      "date_basis": "observed_as_of",
+      "kind": "official_guidance",
+      "read": true,
+      "independent": true,
+      "finding": "Official professional-exam guidance recommends self-testing and cites this paper among research supporting the advice. Demonstrates adoption into guidance, not measured candidate compliance or attribution of the whole testing-effect literature to this paper."
+    }
+  ],
+  "answers": [
+    {
+      "id": "claim_supported",
+      "answer": "yes",
+      "rationale": "Independent data reproduce the original procedure\u2019s retrieval-plus-restudy advantage over concept mapping on verbatim recall; this existential support does not settle retrieval-specific causation.",
+      "evidence": [
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Independent data reproduce the original procedure\u2019s retrieval-plus-restudy advantage over concept mapping on verbatim recall; this existential support does not settle retrieval-specific causation."
+        },
+        {
+          "source_id": "M",
+          "date": "2023-12-21",
+          "explanation": "Independent data reproduce the original procedure\u2019s retrieval-plus-restudy advantage over concept mapping on verbatim recall; this existential support does not settle retrieval-specific causation."
+        }
+      ]
+    },
+    {
+      "id": "independent_reproduction",
+      "answer": "yes",
+      "rationale": "Independent data reproduce the original procedure\u2019s retrieval-plus-restudy advantage over concept mapping on verbatim recall; this existential support does not settle retrieval-specific causation.",
+      "evidence": [
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Independent data reproduce the original procedure\u2019s retrieval-plus-restudy advantage over concept mapping on verbatim recall; this existential support does not settle retrieval-specific causation."
+        },
+        {
+          "source_id": "M",
+          "date": "2023-12-21",
+          "explanation": "Independent data reproduce the original procedure\u2019s retrieval-plus-restudy advantage over concept mapping on verbatim recall; this existential support does not settle retrieval-specific causation."
+        }
+      ]
+    },
+    {
+      "id": "stronger_test",
+      "answer": "unknown",
+      "rationale": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure\u2019s mechanism must be distinguished.",
+      "evidence": [
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure\u2019s mechanism must be distinguished."
+        },
+        {
+          "source_id": "M",
+          "date": "2023-12-21",
+          "explanation": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure\u2019s mechanism must be distinguished."
+        }
+      ]
+    },
+    {
+      "id": "central_claim_retained",
+      "answer": "unknown",
+      "rationale": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure\u2019s mechanism must be distinguished.",
+      "evidence": [
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure\u2019s mechanism must be distinguished."
+        },
+        {
+          "source_id": "M",
+          "date": "2023-12-21",
+          "explanation": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure\u2019s mechanism must be distinguished."
+        }
+      ]
+    },
+    {
+      "id": "limitations_survived",
+      "answer": "unknown",
+      "rationale": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure\u2019s mechanism must be distinguished.",
+      "evidence": [
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure\u2019s mechanism must be distinguished."
+        },
+        {
+          "source_id": "M",
+          "date": "2023-12-21",
+          "explanation": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure\u2019s mechanism must be distinguished."
+        }
+      ]
+    },
+    {
+      "id": "independent_extension",
+      "answer": "yes",
+      "rationale": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations.",
+      "evidence": [
+        {
+          "source_id": "R",
+          "date": "2013-11-12",
+          "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+        },
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+        },
+        {
+          "source_id": "M",
+          "date": "2023-12-21",
+          "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+        }
+      ]
+    },
+    {
+      "id": "multiple_groups",
+      "answer": "yes",
+      "rationale": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations.",
+      "evidence": [
+        {
+          "source_id": "R",
+          "date": "2013-11-12",
+          "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+        },
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+        },
+        {
+          "source_id": "M",
+          "date": "2023-12-21",
+          "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+        }
+      ]
+    },
+    {
+      "id": "method_reused",
+      "answer": "yes",
+      "rationale": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations.",
+      "evidence": [
+        {
+          "source_id": "R",
+          "date": "2013-11-12",
+          "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+        },
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+        },
+        {
+          "source_id": "M",
+          "date": "2023-12-21",
+          "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+        }
+      ]
+    },
+    {
+      "id": "new_research_direction",
+      "answer": "unknown",
+      "rationale": "No sufficiently specific evidence established in this bounded search; absence of evidence is not a negative outcome.",
+      "evidence": []
+    },
+    {
+      "id": "independent_comparison",
+      "answer": "yes",
+      "rationale": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations.",
+      "evidence": [
+        {
+          "source_id": "R",
+          "date": "2013-11-12",
+          "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+        },
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+        },
+        {
+          "source_id": "M",
+          "date": "2023-12-21",
+          "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+        }
+      ]
+    },
+    {
+      "id": "external_utility",
+      "answer": "yes",
+      "rationale": "The independent classroom adaptation demonstrates better delayed fact recall and tests mapping-plus-retrieval in primary school pupils. It uses simpler mind maps, so cannot by itself establish all original conceptual-learning claims.",
+      "evidence": [
+        {
+          "source_id": "R",
+          "date": "2013-11-12",
+          "explanation": "The independent classroom adaptation demonstrates better delayed fact recall and tests mapping-plus-retrieval in primary school pupils. It uses simpler mind maps, so cannot by itself establish all original conceptual-learning claims."
+        }
+      ]
+    },
+    {
+      "id": "beyond_original_setting",
+      "answer": "yes",
+      "rationale": "The independent classroom adaptation demonstrates better delayed fact recall and tests mapping-plus-retrieval in primary school pupils. It uses simpler mind maps, so cannot by itself establish all original conceptual-learning claims.",
+      "evidence": [
+        {
+          "source_id": "R",
+          "date": "2013-11-12",
+          "explanation": "The independent classroom adaptation demonstrates better delayed fact recall and tests mapping-plus-retrieval in primary school pupils. It uses simpler mind maps, so cannot by itself establish all original conceptual-learning claims."
+        }
+      ]
+    },
+    {
+      "id": "enabled_new_result",
+      "answer": "yes",
+      "rationale": "The independent classroom adaptation demonstrates better delayed fact recall and tests mapping-plus-retrieval in primary school pupils. It uses simpler mind maps, so cannot by itself establish all original conceptual-learning claims.",
+      "evidence": [
+        {
+          "source_id": "R",
+          "date": "2013-11-12",
+          "explanation": "The independent classroom adaptation demonstrates better delayed fact recall and tests mapping-plus-retrieval in primary school pupils. It uses simpler mind maps, so cannot by itself establish all original conceptual-learning claims."
+        }
+      ]
+    },
+    {
+      "id": "operational_adoption",
+      "answer": "yes",
+      "rationale": "ABPMR incorporated self-testing into official candidate study guidance, explicitly grounding it in this paper among others. Adoption is of educational guidance, not evidence that all candidates use it.",
+      "evidence": [
+        {
+          "source_id": "B",
+          "date": "2026-09-16",
+          "explanation": "ABPMR incorporated self-testing into official candidate study guidance, explicitly grounding it in this paper among others. Adoption is of educational guidance, not evidence that all candidates use it."
+        }
+      ]
+    },
+    {
+      "id": "advantage_retained",
+      "answer": "unknown",
+      "rationale": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure\u2019s mechanism must be distinguished.",
+      "evidence": [
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure\u2019s mechanism must be distinguished."
+        },
+        {
+          "source_id": "M",
+          "date": "2023-12-21",
+          "explanation": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure\u2019s mechanism must be distinguished."
+        }
+      ]
+    },
+    {
+      "id": "late_use",
+      "answer": "yes",
+      "rationale": "Independent experiments substantively use the contribution in 2013, 2018 and 2023.",
+      "evidence": [
+        {
+          "source_id": "R",
+          "date": "2013-11-12",
+          "explanation": "Independent experiments substantively use the contribution in 2013, 2018 and 2023."
+        },
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Independent experiments substantively use the contribution in 2013, 2018 and 2023."
+        },
+        {
+          "source_id": "M",
+          "date": "2023-12-21",
+          "explanation": "Independent experiments substantively use the contribution in 2013, 2018 and 2023."
+        }
+      ]
+    },
+    {
+      "id": "late_positive_assessment",
+      "answer": "yes",
+      "rationale": "The independent 2018 replication supports the focal comparison seven years later. Subsequent methodological qualification in 2023 remains material.",
+      "evidence": [
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "The independent 2018 replication supports the focal comparison seven years later. Subsequent methodological qualification in 2023 remains material."
+        },
+        {
+          "source_id": "M",
+          "date": "2023-12-21",
+          "explanation": "The independent 2018 replication supports the focal comparison seven years later. Subsequent methodological qualification in 2023 remains material."
+        }
+      ]
+    },
+    {
+      "id": "multiple_followup_years",
+      "answer": "yes",
+      "rationale": "Independent experiments substantively use the contribution in 2013, 2018 and 2023.",
+      "evidence": [
+        {
+          "source_id": "R",
+          "date": "2013-11-12",
+          "explanation": "Independent experiments substantively use the contribution in 2013, 2018 and 2023."
+        },
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Independent experiments substantively use the contribution in 2013, 2018 and 2023."
+        },
+        {
+          "source_id": "M",
+          "date": "2023-12-21",
+          "explanation": "Independent experiments substantively use the contribution in 2013, 2018 and 2023."
+        }
+      ]
+    },
+    {
+      "id": "synthesis_inclusion",
+      "answer": "unknown",
+      "rationale": "No sufficiently specific evidence established in this bounded search; absence of evidence is not a negative outcome.",
+      "evidence": []
+    },
+    {
+      "id": "continued_relevance",
+      "answer": "unknown",
+      "rationale": "No sufficiently specific evidence established in this bounded search; absence of evidence is not a negative outcome.",
+      "evidence": []
+    }
+  ],
+  "search_log": [
+    {
+      "query": "Karpicke Blunt2011 retrieval practice concept mapping replication Camerer2018",
+      "purpose": "Independent replication, contrary evidence and substantive uptake search",
+      "urls_read": [
+        "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/b/845/files/2025/01/camerer-et-al-2018-nature-hb.pdf",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078976",
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1258359/full",
+        "https://www.abpmr.org/Primary/Tips"
+      ]
+    },
+    {
+      "query": "\"Retrieval Practice, with or without Mind Mapping\" 2013",
+      "purpose": "Independent replication, contrary evidence and substantive uptake search",
+      "urls_read": [
+        "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/b/845/files/2025/01/camerer-et-al-2018-nature-hb.pdf",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078976",
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1258359/full",
+        "https://www.abpmr.org/Primary/Tips"
+      ]
+    },
+    {
+      "query": "\"Karpicke\" \"Blunt\" \"2011\" \"Dunlosky\" concept mapping 2013",
+      "purpose": "Independent replication, contrary evidence and substantive uptake search",
+      "urls_read": [
+        "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/b/845/files/2025/01/camerer-et-al-2018-nature-hb.pdf",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078976",
+        "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1258359/full",
+        "https://www.abpmr.org/Primary/Tips"
+      ]
+    }
+  ],
+  "search_gaps": [
+    "No full independent synthesis read for synthesis_inclusion or new_research_direction.",
+    "Mechanism and fair-comparison conclusions remain mixed; no post-2023 independent resolution established."
+  ],
+  "summary": "The original comparison reproduced and stimulated independent classroom and methodological work. A preregistered 2023 study challenges attributing the advantage specifically to retrieval, because extra memorization removes the gap. This mixed outcome is not a blanket failure or universal validation.",
+  "researcher": "Codex independent blind repeat by expand_manylabs; first grade not viewed",
+  "central_claims": [
+    "Retrieval practice improves conceptual learning more than elaborative concept mapping.",
+    "The advantage reflects retrieval-specific mechanisms rather than elaboration alone."
+  ]
+}

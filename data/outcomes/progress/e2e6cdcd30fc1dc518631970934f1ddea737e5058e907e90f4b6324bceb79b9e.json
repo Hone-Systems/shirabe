@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W2292065295",
+  "title": "Eccentric-orbit extreme-mass-ratio inspiral gravitational wave energy fluxes to 7PN order",
+  "year": 2016,
+  "field_id": 31,
+  "field": "Physics and Astronomy",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T19:59:47.492066+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 10,
+  "score": null
+}

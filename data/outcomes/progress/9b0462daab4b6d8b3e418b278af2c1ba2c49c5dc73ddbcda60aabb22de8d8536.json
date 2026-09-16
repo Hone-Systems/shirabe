@@ -1,0 +1,14 @@
+{
+  "id": "ml2-10.1111/j.1468-0017.2006.00297.x",
+  "title": "A dissociation between moral judgments and justifications",
+  "year": 2007,
+  "field_id": 16,
+  "field": "Psychology",
+  "split": "train",
+  "sampling_cohort": "manylabs2_complete_2018",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:56:33.870620+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 3,
+  "score": null
+}

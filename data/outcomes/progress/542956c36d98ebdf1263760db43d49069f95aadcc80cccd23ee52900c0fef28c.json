@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W3120767723",
+  "title": "Inference of Intercellular Communications and Multilayer Gene-Regulations of Epithelial–Mesenchymal Transition From Single-Cell Transcriptomic Data",
+  "year": 2021,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "test",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:02:27.569331+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 1,
+  "score": null
+}

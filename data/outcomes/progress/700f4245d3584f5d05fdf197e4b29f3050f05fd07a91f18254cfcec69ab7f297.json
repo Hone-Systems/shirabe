@@ -1,0 +1,14 @@
+{
+  "id": "econ-10.1257/aer.102.5.2018",
+  "title": "Organ Allocation Policy and the Decision to Donate",
+  "year": 2012,
+  "field_id": 20,
+  "field": "Economics",
+  "split": "train",
+  "sampling_cohort": "econ_complete_2016",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:49:47.234704+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 4,
+  "score": null
+}

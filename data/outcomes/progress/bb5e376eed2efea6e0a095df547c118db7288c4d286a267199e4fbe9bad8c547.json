@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W2922482404",
+  "title": "Anonymous Auction Protocol Based on Time-Released Encryption Atop Consortium BlockChain",
+  "year": 2019,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "validation",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T19:46:20.739331+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 2,
+  "score": null
+}

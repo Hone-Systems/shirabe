@@ -1,0 +1,14 @@
+{
+  "id": "econ-10.1093/qje/qjr034",
+  "title": "Expectations as Endowments: Evidence on Reference-Dependent Preferences from Exchange and Valuation Experiments",
+  "year": 2011,
+  "field_id": 20,
+  "field": "Economics",
+  "split": "train",
+  "sampling_cohort": "econ_complete_2016",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:49:47.228600+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 0,
+  "score": null
+}

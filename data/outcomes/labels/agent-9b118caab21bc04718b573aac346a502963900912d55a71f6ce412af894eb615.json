@@ -1,0 +1,374 @@
+{
+  "id": "rpcb-10.1126/science.1183057",
+  "title": "Coadministration of a tumor-penetrating peptide enhances the efficacy of cancer drugs",
+  "doi": "https://doi.org/10.1126/science.1183057",
+  "year": 2010,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:12:17.028756+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 16,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2881692/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Unconjugated coadministration of iRGD increases tumor penetration and therapeutic efficacy of diverse anticancer drugs."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://doi.org/10.7554/elife.17584",
+      "title": "Replication Study: Coadministration of a tumor-penetrating peptide enhances the efficacy of cancer drugs.",
+      "date": "2017-01-19",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "full_text",
+      "finding": "Direct prostate DOX experiment found no enhancement of penetration, tumor-weight reduction or apoptosis with iRGD.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://doi.org/10.1158/0008-5472.can-15-0395",
+      "title": "Improving Drug Penetrability with iRGD Leverages the Therapeutic Response to Sorafenib and Doxorubicin in Hepatocellular Carcinoma.",
+      "date": "2015-08-01",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "abstract",
+      "finding": "Independent HCC models showed improved drug delivery and treatment with iRGD coadministration.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://doi.org/10.1371/journal.pone.0129865",
+      "title": "A Novel Strategy to Improve the Therapeutic Efficacy of Gemcitabine for Non-Small Cell Lung Cancer by the Tumor-Penetrating Peptide iRGD.",
+      "date": "2015-06-12",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "full_text",
+      "finding": "Independent A549 model found gemcitabine plus iRGD improved tumor inhibition over gemcitabine alone.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "HCC experiments independently support unconjugated iRGD coadministration increasing drug delivery and efficacy.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015-08-01",
+            "explanation": "HCC experiments independently support unconjugated iRGD coadministration increasing drug delivery and efficacy."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "Two groups reproduced coadministration benefits in HCC and lung tumors; prostate DOX replication failed.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015-08-01",
+            "explanation": "Two groups reproduced coadministration benefits in HCC and lung tumors; prostate DOX replication failed."
+          },
+          {
+            "source_id": "S3",
+            "date": "2015-06-12",
+            "explanation": "Two groups reproduced coadministration benefits in HCC and lung tumors; prostate DOX replication failed."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "Positive changed-setting studies conflict with the direct prostate replication; no unqualified stricter-test success is assigned.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "HCC sorafenib coadministration and MRI monitoring extend the contribution.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015-08-01",
+            "explanation": "HCC sorafenib coadministration and MRI monitoring extend the contribution."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Schmithals and Zhang teams independently applied free iRGD combination treatment.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015-08-01",
+            "explanation": "Schmithals and Zhang teams independently applied free iRGD combination treatment."
+          },
+          {
+            "source_id": "S3",
+            "date": "2015-06-12",
+            "explanation": "Schmithals and Zhang teams independently applied free iRGD combination treatment."
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Free iRGD was coadministered with gemcitabine.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2015-06-12",
+            "explanation": "Free iRGD was coadministered with gemcitabine."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Improved antitumor effects without increased systemic toxicity were demonstrated in HCC mice.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015-08-01",
+            "explanation": "Improved antitumor effects without increased systemic toxicity were demonstrated in HCC mice."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "HCC and sorafenib extended the tested tumor/drug settings.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015-08-01",
+            "explanation": "HCC and sorafenib extended the tested tumor/drug settings."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "MRI identification of iRGD-reactive tumors became possible.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015-08-01",
+            "explanation": "MRI identification of iRGD-reactive tumors became possible."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "yes",
+        "rationale": "In the A549 model, gemcitabine plus iRGD inhibited growth more than gemcitabine alone; this does not generalize to prostate DOX.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2015-06-12",
+            "explanation": "In the A549 model, gemcitabine plus iRGD inhibited growth more than gemcitabine alone; this does not generalize to prostate DOX."
+          }
+        ]
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2015 independent application is five years later.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015-08-01",
+            "explanation": "The 2015 independent application is five years later."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The 2015 study explicitly found improved delivery and treatment efficacy.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015-08-01",
+            "explanation": "The 2015 study explicitly found improved delivery and treatment efficacy."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "This is a bounded primary-evidence assessment, not an exhaustive adoption or clinical practice audit.",
+      "Failed or confounded selected experiments do not imply all claims in the original paper are false.",
+      "Exact first-publication version and separately linked supplements were not all verified."
+    ],
+    "summary": "Direct prostate DOX experiment found no enhancement of penetration, tumor-weight reduction or apoptosis with iRGD. Independent HCC models showed improved drug delivery and treatment with iRGD coadministration. Independent A549 model found gemcitabine plus iRGD improved tumor inhibition over gemcitabine alone."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1126/science.1183057",
+      "https://doi.org/10.7554/eLife.17584",
+      "Follow references / DOI lookups for 10.1158/0008-5472.can-15-0395, 10.1371/journal.pone.0129865"
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1126/science.1183057",
+        "purpose": "Original identity and full-text resolution via Europe PMC and NCBI BioC",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC2881692/"
+        ]
+      },
+      {
+        "query": "https://doi.org/10.7554/eLife.17584",
+        "purpose": "Independent direct replication and references to contrary supporting evidence",
+        "urls_read": [
+          "https://doi.org/10.7554/elife.17584"
+        ]
+      },
+      {
+        "query": "Follow references / DOI lookups for 10.1158/0008-5472.can-15-0395, 10.1371/journal.pone.0129865",
+        "purpose": "Read independent supporting and limiting primary evidence",
+        "urls_read": [
+          "https://doi.org/10.1158/0008-5472.can-15-0395",
+          "https://doi.org/10.1371/journal.pone.0129865"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 11,
+    "coverage": 0.55,
+    "score": null,
+    "lower_bound": 0.55,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent / cancer external last",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

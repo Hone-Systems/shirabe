@@ -1,0 +1,339 @@
+{
+  "id": "https://openalex.org/W2565221079",
+  "title": "Elucidation of the genetic and epigenetic landscape alterations in RNA binding proteins in glioblastoma",
+  "doi": "https://doi.org/10.18632/oncotarget.14287",
+  "year": 2016,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:40:33.670384+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 10,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://www.oncotarget.com/article/14287/text/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Genetic and epigenetic alterations characterize the glioblastoma RNA-binding-protein landscape.",
+    "The HERC5/NOL3/SUCLG1/AFF3 expression signature predicts glioblastoma survival.",
+    "Selected signature proteins support glioma stem-cell neurosphere formation."
+  ],
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.oncotarget.com/article/14287/text/",
+      "title": "Elucidation of the genetic and epigenetic landscape alterations in RNA binding proteins in glioblastoma",
+      "date": "2016-12-27",
+      "date_basis": "publication",
+      "kind": "original_study",
+      "read": true,
+      "independent": false,
+      "finding": "RBP landscape analysis and four-gene prognostic signature; HERC5 knockdown impaired glioma stem-cell neurospheres.",
+      "characters": null,
+      "method": "original_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39776018/",
+      "title": "HERC5/ISG15 Enhances Glioblastoma Stemness and Tumor Progression by mediating SERBP1protein stability",
+      "date": "2025-01-07",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent Henan team links HERC5 to glioblastoma stemness through ISG15/SERBP1, with sphere assays and xenografts; cites original study.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2022.951197/full",
+      "title": "Identification of a 6-RBP gene signature for a comprehensive analysis of glioma and ischemic stroke: Cognitive impairment and aging-related hypoxic stress",
+      "date": "2022-09-01",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Lin and colleagues report concordant copy-number/expression associations while constructing a different six-gene model. They note that clinical evaluation of earlier RBP markers remains incomplete.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The four-gene survival signature remains unverified independently. Later studies support HERC5 biology and broad copy-number associations, rather than the complete prognostic contribution.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No independent reconstruction of the four-gene survival model was found. The six-gene study changes the predictor set and shares TCGA data.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The HERC5 xenografts extend one functional result; they do not test the complete signature on a stricter clinical cohort.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "No retrieved authoritative assessment adjudicates the original signature; the later six-gene paper describes incomplete clinical evaluation of earlier RBP markers.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Prospective prognosis and clinical utility were not established by follow-up that explicitly tests those limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "The cited HERC5 result is extended mechanistically to ISG15/SERBP1.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2025-01-07",
+            "explanation": "The cited HERC5 result is extended mechanistically to ISG15/SERBP1."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Two independent teams discuss related biology, but substantive reuse of the same specific contribution by both is not established.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The later six-gene model does not apply the original four-gene score. HERC5 follow-up does not demonstrate reuse of the landscape-analysis method.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The retrieved studies do not supply a review explicitly attributing a new research direction to this paper.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No actual benchmark of the four-gene score against alternative prognostic models was located.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Mechanistic follow-up is documented, but a concrete benefit from applying the original predictive model or landscape resource was not demonstrated.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "HERC5 was studied further in glioblastoma; transfer of the original signature to another disease or clinical setting remains unverified.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "HERC5 follow-up identifies SERBP1 stabilization, beyond the original sphere phenotype.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2025-01-07",
+            "explanation": "HERC5 follow-up identifies SERBP1 stabilization, beyond the original sphere phenotype."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "No clinical workflow using the four-gene prognosis score was documented in the retrieved evidence.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent head-to-head evaluation verifies the original signature’s claimed prognostic advantage.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "HERC5 follow-up appeared in 2025, over eight years later.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2025-01-07",
+            "explanation": "HERC5 follow-up appeared in 2025, over eight years later."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The 2025 study supports HERC5 only. It does not assess the central four-gene prognosis result.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The 2022 copy-number agreement and 2025 mechanism concern different portions of the paper; sustained substantive follow-up of the specific signature is not established.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "Searches found contextual discussion, but no accessible independent synthesis adopting the full signature as validated.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later alternative RBP models were found, but none establishes that this original model remains useful alongside them.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Full 2025 follow-up was paywalled; abstract, author affiliations and references were read. No independently tested four-gene prognostic score, clinical deployment, or direct contradictory replication was located. Nearby RBP signatures are not treated as reuse of this exact signature.",
+      "Broader author and RBP-method searches found a six-gene follow-up and contextual reviews; inaccessible review pages were not counted as read supporting evidence. Copy-number agreement uses overlapping public data and is not independent validation of the original four-gene model."
+    ],
+    "summary": "Independent follow-up supports the HERC5 stemness component and develops its mechanism. The complete prognostic signature and proposed clinical utility remain unverified in the retrieved evidence."
+  },
+  "research_plan": {
+    "queries": [
+      "\"10.18632/oncotarget.14287\"",
+      "\"NOL3\" \"SUCLG1\" \"HERC5\" \"AFF3\" glioblastoma -site:oncotarget.com -site:openalex.org",
+      "\"oncotarget.14287\" retraction correction",
+      "Bhargava Patil Somasundaram RNA binding proteins glioblastoma four signature review HERC5",
+      "\"RNA-binding proteins\" \"glioblastoma\" \"Bhargava\" \"signature\"",
+      "\"HERC5\" \"glioblastoma\" \"SUCLG1\" prognostic independent validation",
+      "\"Identification of a 6-RBP gene signature\" Frontiers"
+    ],
+    "search_log": [
+      {
+        "query": "\"10.18632/oncotarget.14287\"",
+        "purpose": "Resolve identity and citing work",
+        "urls_read": [
+          "https://www.oncotarget.com/article/14287/text/"
+        ]
+      },
+      {
+        "query": "\"NOL3\" \"SUCLG1\" \"HERC5\" \"AFF3\" glioblastoma -site:oncotarget.com -site:openalex.org",
+        "purpose": "Locate exact-signature follow-up rather than generic RBP citations",
+        "urls_read": [
+          "https://pubmed.ncbi.nlm.nih.gov/39776018/",
+          "https://link.springer.com/article/10.1007/s12017-024-08826-w"
+        ]
+      },
+      {
+        "query": "\"oncotarget.14287\" retraction correction",
+        "purpose": "Check contrary findings and integrity notices",
+        "urls_read": []
+      },
+      {
+        "query": "Bhargava Patil Somasundaram RNA binding proteins glioblastoma four signature review HERC5",
+        "purpose": "Broaden beyond the exact gene conjunction to author, RBP landscape, and alternative-signature follow-up",
+        "urls_read": []
+      },
+      {
+        "query": "\"RNA-binding proteins\" \"glioblastoma\" \"Bhargava\" \"signature\"",
+        "purpose": "Broaden beyond the exact gene conjunction to author, RBP landscape, and alternative-signature follow-up",
+        "urls_read": [
+          "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2019.01394/full",
+          "https://www.ncbi.nlm.nih.gov/books/NBK570713/"
+        ]
+      },
+      {
+        "query": "\"HERC5\" \"glioblastoma\" \"SUCLG1\" prognostic independent validation",
+        "purpose": "Broaden beyond the exact gene conjunction to author, RBP landscape, and alternative-signature follow-up",
+        "urls_read": []
+      },
+      {
+        "query": "\"Identification of a 6-RBP gene signature\" Frontiers",
+        "purpose": "Broaden beyond the exact gene conjunction to author, RBP landscape, and alternative-signature follow-up",
+        "urls_read": [
+          "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2022.951197/full"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 3,
+    "coverage": 0.15000000000000002,
+    "score": null,
+    "lower_bound": 0.15000000000000002,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex independent batch-3 research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

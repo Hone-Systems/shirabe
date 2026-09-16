@@ -1,0 +1,301 @@
+{
+  "id": "rpcb-10.1038/nature09627",
+  "title": "COT drives resistance to RAF inhibition through MAP kinase pathway reactivation",
+  "doi": "https://doi.org/10.1038/nature09627",
+  "year": 2010,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:14:02.543604+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 16,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3058384/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "COT/MAP3K8 activation drives resistance to RAF inhibitors through MAPK reactivation.",
+    "COT inhibition or combined MAPK blockade may reduce resistance."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "R",
+      "url": "https://doi.org/10.7554/eLife.73430",
+      "title": "Experiments from unfinished Registered Reports in the Reproducibility Project: Cancer Biology",
+      "date": "2021",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "RAF-inhibitor resistance in high-MAP3K8 lines replicated, but COT inhibitor effects on MEK/ERK phosphorylation were opposite in direction and nonsignificant; ectopic-combination experiment incomplete.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "The resistance association in high-MAP3K8 lines was independently supported.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "The resistance association in high-MAP3K8 lines was independently supported."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "Resistance association replicated, but the COT-inhibition causal signaling assay did not; the complete causal claim is unresolved.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "Resistance association replicated, but the COT-inhibition causal signaling assay did not; the complete causal claim is unresolved."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "Preregistered tests produced mixed outcomes and did not complete the combined-blockade experiment.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "Preregistered tests produced mixed outcomes and did not complete the combined-blockade experiment."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Independent researchers implemented the original PLX4720 dose-response and COT-inhibitor signaling tests.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "Independent researchers implemented the original PLX4720 dose-response and COT-inhibitor signaling tests."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "no",
+        "rationale": "The specific claimed signaling benefit of COT inhibitor versus vehicle was not retained: phosphorylation did not show the original dose-dependent suppression. This is limited to that comparison.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "The specific claimed signaling benefit of COT inhibitor versus vehicle was not retained: phosphorylation did not show the original dose-dependent suppression. This is limited to that comparison."
+          }
+        ]
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "Original intervention and dose-response experiments were substantively repeated in the 2021 report.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "Original intervention and dose-response experiments were substantively repeated in the 2021 report."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The 2021 report positively assessed the high-MAP3K8 resistance phenotype, while explicitly not validating the inhibitor mechanism.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "The 2021 report positively assessed the high-MAP3K8 resistance phenotype, while explicitly not validating the inhibitor mechanism."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No inference that all RAF/MEK combination therapies owe their success to this paper.",
+      "The causal and combination experiments were not all completed, so whole-claim reproduction remains unknown.",
+      "External frozen cohort only; never training, selection, calibration or tuning. Absence of adoption evidence remains unknown."
+    ],
+    "summary": "Mixed replication: high-MAP3K8 lines resisted RAF inhibition, but the claimed COT-inhibitor suppression of MEK/ERK did not hold in the registered comparison."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1038/nature09627",
+      "https://doi.org/10.7554/eLife.73430"
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1038/nature09627",
+        "purpose": "Resolve original identity and author text through Europe PMC, publisher and NCBI BioC",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3058384/"
+        ]
+      },
+      {
+        "query": "https://doi.org/10.7554/eLife.73430",
+        "purpose": "Read assigned preregistered replication and follow its supporting and contrary references",
+        "urls_read": [
+          "https://doi.org/10.7554/eLife.73430"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 1,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.8
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 5,
+    "coverage": 0.25,
+    "score": null,
+    "lower_bound": 0.2,
+    "upper_bound": 0.95,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

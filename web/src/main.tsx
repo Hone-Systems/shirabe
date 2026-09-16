@@ -22,6 +22,9 @@ import "@fontsource/ibm-plex-sans/500.css";
 import "@fontsource/ibm-plex-sans/600.css";
 import "@fontsource/ibm-plex-mono/400.css";
 import "./styles.css";
+import EvidenceExplorer from "./EvidenceExplorer";
+import TrainingDashboard from "./TrainingDashboard";
+import { OutcomeAnalyzer } from "./OutcomeAnalyzer";
 import type { Prediction, Report } from "./types";
 
 const SAMPLE =
@@ -259,7 +262,7 @@ function FeatureField({
           {busy
             ? "READING SIGNAL"
             : result
-              ? "CITATION ATTENTION"
+              ? "OLDER CITATION MODEL"
               : "AWAITING PAPER"}
         </Label>
         <div className="score" key={result?.probability ?? "empty"}>
@@ -270,8 +273,8 @@ function FeatureField({
           {busy
             ? "Reading token context"
             : result
-              ? "Estimated probability"
-              : "A signal in the language"}
+              ? "High-citation probability"
+              : "Citation baseline · outcome model in training"}
         </span>
         {result && <span className="prior">prior {pct(result.baseline)}</span>}
       </div>
@@ -711,8 +714,15 @@ function FullReport({ r }: { r: Report }) {
   );
 }
 function App() {
+  const [showCitationTraining, setShowCitationTraining] = useState(
+    location.search === "?view=citation",
+  );
   const [mode, setMode] = useState(
-    location.pathname === "/training" ? "training" : "analysis",
+    location.pathname === "/evidence"
+      ? "evidence"
+      : location.pathname === "/training"
+        ? "training"
+        : "analysis",
   );
   const [report, setReport] = useState<Report | null>(null);
   const [ready, setReady] = useState(false);
@@ -751,8 +761,16 @@ function App() {
   }
   useEffect(() => {
     void connect();
-    const onPop = () =>
-      setMode(location.pathname === "/training" ? "training" : "analysis");
+    const onPop = () => {
+      setShowCitationTraining(location.search === "?view=citation");
+      setMode(
+        location.pathname === "/evidence"
+          ? "evidence"
+          : location.pathname === "/training"
+            ? "training"
+            : "analysis",
+      );
+    };
     window.addEventListener("popstate", onPop);
     return () => {
       window.removeEventListener("popstate", onPop);
@@ -760,8 +778,17 @@ function App() {
     };
   }, []);
   function navigate(next: string) {
+    setShowCitationTraining(false);
     setMode(next);
-    history.pushState({}, "", next === "training" ? "/training" : "/");
+    history.pushState(
+      {},
+      "",
+      next === "evidence"
+        ? "/evidence"
+        : next === "training"
+          ? "/training"
+          : "/",
+    );
   }
   function edit(value: string) {
     request.current?.abort();
@@ -891,20 +918,32 @@ function App() {
           >
             Training
           </button>
+          <button
+            onClick={() => navigate("evidence")}
+            aria-pressed={mode === "evidence"}
+          >
+            Evidence
+          </button>
         </nav>
         <div className="top-right">
           <span className={`connection ${ready ? "online" : ""}`}>
             <i />
-            {ready ? "LOCAL MODEL" : "CONNECTING"}
+            {!showCitationTraining && mode === "analysis"
+              ? "OUTCOME EXPERIMENT"
+              : ready
+                ? "LOCAL MODEL"
+                : "CONNECTING"}
           </span>
-          <button
-            className="icon"
-            onClick={() => setPaused(!paused)}
-            aria-label={paused ? "Resume animation" : "Pause animation"}
-            aria-pressed={paused}
-          >
-            {paused ? <Play size={16} /> : <Pause size={16} />}
-          </button>
+          {showCitationTraining && (
+            <button
+              className="icon"
+              onClick={() => setPaused(!paused)}
+              aria-label={paused ? "Resume animation" : "Pause animation"}
+              aria-pressed={paused}
+            >
+              {paused ? <Play size={16} /> : <Pause size={16} />}
+            </button>
+          )}
           <button
             className="icon"
             onClick={() => setDialog("about")}
@@ -914,559 +953,595 @@ function App() {
           </button>
         </div>
       </header>
-      <main id="workspace" className="workspace">
-        <div className="screen-heading">
-          <div>
-            <Label>
-              {source === "Illustrative example" && mode === "analysis"
-                ? "SYNTHETIC EXAMPLE / LIVE MODEL"
-                : "LANGUAGE / IMPACT / EXPERIMENT 001"}
-            </Label>
-            <h1>
-              {mode === "analysis"
-                ? "Every paper has a signal."
-                : "The signal holds up. Within limits."}
-            </h1>
-          </div>
-          <div className="run-id">
-            <span>{report?.model_id ?? "ESTABLISHING CONNECTION"}</span>
-            <span>
-              CPU INFERENCE <i /> NO CLOUD
-            </span>
-          </div>
-        </div>
-        {connectionError && (
-          <div className="connection-error" role="alert">
-            {connectionError}
-            <button onClick={() => void connect()}>Reconnect</button>
-          </div>
-        )}
-        <div className="stage-grid">
-          <aside
-            className="left-rail"
-            aria-label={
-              mode === "analysis" ? "Paper source" : "Training cohorts"
-            }
-          >
-            {mode === "analysis" ? (
-              <>
-                <div className="rail-title">
-                  <Label>01 / SOURCE</Label>
-                  <span className="tiny-index">EN</span>
-                </div>
-                <div
-                  className={`paper-slot ${drag ? "dragging" : ""}`}
-                  onDragOver={(e) => {
-                    e.preventDefault();
-                    setDrag(true);
-                  }}
-                  onDragLeave={() => setDrag(false)}
-                  onDrop={(e) => {
-                    e.preventDefault();
-                    setDrag(false);
-                    if (!busy && e.dataTransfer.files[0])
-                      void upload(e.dataTransfer.files[0]);
-                  }}
-                >
-                  <div className="paper-corners" />
-                  <div className="document-symbol">
-                    <FileText size={34} strokeWidth={1} />
-                    {busy === "extract" && <div className="scanline" />}
-                  </div>
-                  <h2>{text ? source : "A paper. A possibility."}</h2>
-                  {text ? (
-                    <button
-                      className="paper-preview"
-                      onClick={() => setDialog("editor")}
-                      aria-label="Edit abstract"
-                    >
-                      {text}
-                    </button>
-                  ) : (
-                    <p>Drop your PDF or TXT</p>
-                  )}
-                  <button
-                    className="upload-action"
-                    onClick={() => fileInput.current?.click()}
-                    disabled={!!busy}
-                  >
-                    {busy === "extract" ? (
-                      <LoaderCircle size={15} className="spin" />
-                    ) : (
-                      <Plus size={15} />
-                    )}{" "}
-                    {text ? "Replace paper" : "Choose paper"}
-                  </button>
-                  <input
-                    ref={fileInput}
-                    id="paper-upload"
-                    type="file"
-                    accept=".pdf,.txt"
-                    aria-label="Upload paper"
-                    className="file-input"
-                    tabIndex={-1}
-                    onChange={(e) => {
-                      if (e.target.files?.[0]) void upload(e.target.files[0]);
-                      e.target.value = "";
-                    }}
-                    disabled={!!busy}
-                  />
-                </div>
-                <div className="source-tools">
-                  <button onClick={() => setDialog("editor")}>
-                    {text ? <FileText size={13} /> : <Plus size={13} />}{" "}
-                    {text ? "Edit abstract" : "Paste abstract"}
-                  </button>
-                  <span>{text ? `${words} words` : "10 MB max"}</span>
-                </div>
-                <button
-                  className="primary analyze"
-                  disabled={!text || !!busy || !ready}
-                  onClick={() => void analyze()}
-                >
-                  {busy === "predict" ? (
-                    <LoaderCircle size={16} className="spin" />
-                  ) : (
-                    <Scan size={16} />
-                  )}{" "}
-                  {busy === "predict" ? "Reading signal…" : "Analyze paper"}
-                  <ArrowRight size={16} />
-                </button>
-                <button
-                  className="example"
-                  disabled={!!busy || !ready}
-                  onClick={() => {
-                    setText(SAMPLE);
-                    setSource("Illustrative example");
-                    setNotice("Synthetic demonstration abstract.");
-                    setSelected(0);
-                    void analyze(SAMPLE);
-                  }}
-                >
-                  Try an example <ArrowUpRight size={13} />
-                </button>
-                {source === "Illustrative example" && (
-                  <span className="example-note">
-                    Synthetic abstract · demo only
-                  </span>
-                )}
-                {error && (
-                  <div className="inline-error" role="alert">
-                    {error}
-                  </div>
-                )}
-                <div className="source-bottom">
-                  <span>
-                    <i />
-                    PRIVATE BY DEFAULT
-                  </span>
-                  <button
-                    className="icon"
-                    aria-label="Clear abstract"
-                    disabled={!text || !!busy}
-                    onClick={() => {
-                      edit("");
-                      setSource("");
-                    }}
-                  >
-                    <RotateCcw size={14} />
-                  </button>
-                </div>
-              </>
-            ) : (
-              <>
-                <div className="rail-title">
-                  <Label>01 / DATASET</Label>
-                  <span className="tiny-index">06 FIELDS</span>
-                </div>
-                <div className="dataset-count">
-                  {report ? num(total) : "—"}
-                  <span>historical abstracts</span>
-                </div>
-                <div className="timeline">
-                  {report?.splits.map((s, i) => (
-                    <div key={s.name}>
-                      <i className={`split-${i}`} />
-                      <div>
-                        <span>{s.name}</span>
-                        <strong>{s.years}</strong>
-                      </div>
-                      <code>{num(s.n)}</code>
-                    </div>
-                  ))}
-                </div>
-                <div className="rail-title transfer-label">
-                  <Label>UNSEEN-FIELD AUC</Label>
-                </div>
-                <div className="transfer-bars">
-                  {report?.field_transfer.map((v) => (
-                    <div key={v.field_id}>
-                      <span>{fieldNames[v.field_id]}</span>
-                      <code>{f(v.roc_auc)}</code>
-                      <div>
-                        <i style={{ width: `${v.roc_auc * 100}%` }} />
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </>
-            )}
-          </aside>
-          <section
-            className="visual-stage"
-            aria-label={
-              mode === "analysis"
-                ? "Interactive feature visualization"
-                : "Test performance visualization"
-            }
-          >
-            <div className="visual-heading">
+      {mode === "analysis" && !showCitationTraining ? (
+        <OutcomeAnalyzer
+          onCitationBaseline={() => {
+            setShowCitationTraining(true);
+            history.pushState({}, "", "/?view=citation");
+          }}
+        />
+      ) : mode === "evidence" ? (
+        <EvidenceExplorer />
+      ) : mode === "training" && !showCitationTraining ? (
+        <TrainingDashboard
+          onBaseline={() => {
+            setShowCitationTraining(true);
+            history.pushState({}, "", "/training?view=citation");
+          }}
+        />
+      ) : (
+        <main id="workspace" className="workspace">
+          <div className="screen-heading">
+            <div>
               <Label>
+                {source === "Illustrative example" && mode === "analysis"
+                  ? "SYNTHETIC EXAMPLE / LIVE MODEL"
+                  : mode === "analysis"
+                    ? "CITATION BASELINE / NOT THE OUTCOME MODEL"
+                    : "CITATION BASELINE / TRAINING RECORD"}
+              </Label>
+              <h1>
                 {mode === "analysis"
-                  ? "02 / FEATURE FIELD"
-                  : "02 / HELD-OUT PERFORMANCE"}
-              </Label>
-              <span className="live-label">
-                <i />
-                {busy
-                  ? "PROCESSING"
-                  : mode === "training"
-                    ? "RECORDED RUN"
-                    : result
-                      ? "SIGNAL RESOLVED"
-                      : "MODEL LOADED"}
-              </span>
+                  ? "Explore the citation baseline."
+                  : "The signal holds up. Within limits."}
+              </h1>
             </div>
-            {mode === "analysis" ? (
-              <FeatureField
-                report={report}
-                result={result}
-                busy={!!busy}
-                paused={paused}
-                selected={selected}
-                onSelect={setSelected}
-              />
-            ) : report ? (
-              <TrainingField report={report} />
-            ) : (
-              <div className="loading-stage">Loading experiment…</div>
-            )}
-            <div className="stage-caption">
+            <div className="run-id">
+              <span>{report?.model_id ?? "ESTABLISHING CONNECTION"}</span>
               <span>
-                {mode === "analysis" ? (
-                  <>
-                    <i className="positive-dot" />
-                    Positive <i className="negative-dot" />
-                    Negative
-                  </>
-                ) : (
-                  <>{report ? num(report.test.n) : "—"} unseen papers · 2021</>
-                )}
+                CPU INFERENCE <i /> NO CLOUD
               </span>
-              <button
-                className="stage-inspect"
-                disabled={!report}
-                onClick={() =>
-                  setDialog(
-                    mode === "analysis" && result ? "features" : "report",
-                  )
-                }
-              >
-                {mode === "analysis" && result ? "Full trace" : "Run details"}
-                <ArrowUpRight size={13} />
-              </button>
             </div>
-          </section>
-          <aside
-            className="right-rail"
-            aria-label={
-              mode === "analysis" ? "Signal evidence" : "Calibration evidence"
-            }
-          >
-            <div className="rail-title">
-              <Label>
-                03 / {mode === "analysis" ? "EVIDENCE" : "RELIABILITY"}
-              </Label>
-              <button
-                className="icon"
-                onClick={() =>
-                  setDialog(
-                    mode === "analysis" && result ? "features" : "report",
-                  )
-                }
-                aria-label={
-                  mode === "analysis" && result
-                    ? "Inspect all features"
-                    : "Open full report"
-                }
-              >
-                <Maximize2 size={14} />
-              </button>
-            </div>
-            {mode === "analysis" ? (
-              <>
-                <div className="evidence-stat">
-                  <Label>HELD-OUT ROC AUC</Label>
-                  <strong>
-                    {report ? f(report.test.roc_auc) : "—"}
-                    <span>/ 1.000</span>
-                  </strong>
-                  <MiniCurve
-                    label="Recorded test ROC curve"
-                    diagonal
-                    points={report?.roc.map((v) => [v.fpr, v.tpr]) ?? []}
-                  />
-                </div>
-                <div className="rail-divider" />
-                <div className="rail-title">
-                  <Label>
-                    {result ? "TOP CONTRIBUTIONS" : "BERT-MINI / ARCHITECTURE"}
-                  </Label>
-                </div>
-                {result ? (
-                  <div className="contribution-bars">
-                    {result.transformer && (
-                      <Label>4 layers × 4 heads · peak attention</Label>
-                    )}
-                    {result.transformer && (
-                      <div
-                        className="attention-grid"
-                        role="img"
-                        aria-label="Four layers by four heads: each cell shows maximum CLS attention weight, not causal importance"
-                      >
-                        {result.transformer.cls_attention.flatMap((layer, li) =>
-                          layer.map((head, hi) => (
-                            <i
-                              key={`${li}-${hi}`}
-                              title={`Layer ${li + 1}, head ${hi + 1}: peak CLS attention ${pct(Math.max(...head))}`}
-                              style={{ opacity: 0.2 + 0.8 * Math.max(...head) }}
-                            />
-                          )),
-                        )}
-                      </div>
-                    )}
-                    {contributions.slice(0, 3).map((v) => (
-                      <div key={v.name}>
-                        <span>{v.label}</span>
-                        <code className={v.contribution < 0 ? "amber" : "mint"}>
-                          {v.contribution >= 0 ? "+" : ""}
-                          {f(v.contribution, 2)}
-                        </code>
-                        <div>
-                          <i
-                            className={v.contribution < 0 ? "negative" : ""}
-                            style={{
-                              width: `${(Math.abs(v.contribution) / maxContribution) * 100}%`,
-                            }}
-                          />
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                ) : (
-                  <div className="feature-families">
-                    {[
-                      ["Transformer layers", 4],
-                      ["Heads per layer", 4],
-                      ["Hidden dimensions", 256],
-                    ].map(([name, count]) => (
-                      <div key={name}>
-                        <span>{name}</span>
-                        <code>{count}</code>
-                        <div className="family-ticks">
-                          {Array.from(
-                            { length: Math.min(count as number, 32) },
-                            (_, i) => (
-                              <i key={i} />
-                            ),
-                          )}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                )}
-                <div className="rail-bottom">
-                  {result ? (
-                    <>
-                      <button
-                        className="subtle"
-                        onClick={() => setDialog("features")}
-                      >
-                        Inspect arithmetic <ArrowUpRight size={14} />
-                      </button>
-                      <button
-                        className="subtle"
-                        onClick={() => save(result, "shirabe-analysis.json")}
-                      >
-                        Export analysis <ArrowDownToLine size={14} />
-                      </button>
-                    </>
-                  ) : (
-                    <span>
-                      Words become context.
-                      <br />
-                      Features become a signal.
-                    </span>
-                  )}
-                </div>
-              </>
-            ) : report ? (
-              <>
-                <div className="evidence-stat">
-                  <Label>BRIER SCORE ↓</Label>
-                  <strong>{f(report.test.brier)}</strong>
-                  <span className="stat-note">
-                    prior{" "}
-                    {f(
-                      report.comparisons.find(
-                        (v) => v.role === "prior baseline",
-                      )?.brier ?? 0,
-                    )}
-                  </span>
-                  <MiniCurve
-                    label="Calibration: predicted versus observed probability"
-                    diagonal
-                    points={report.reliability.map((v) => [
-                      v.predicted,
-                      v.observed,
-                    ])}
-                  />
-                  <div className="mini-label">
-                    CALIBRATION / PREDICTED → OBSERVED
-                  </div>
-                </div>
-                <div className="rail-divider" />
-                <div className="small-stat">
-                  <Label>AVERAGE PRECISION</Label>
-                  <strong>{f(report.test.average_precision)}</strong>
-                </div>
-                <div className="small-stat">
-                  <Label>DISCIPLINE DETECTABLE</Label>
-                  <strong>{pct(report.discipline_probe.accuracy)}</strong>
-                  <span>Subject independence unproven</span>
-                </div>
-                <div className="rail-bottom">
-                  <button
-                    className="subtle"
-                    onClick={() => setDialog("report")}
-                  >
-                    Full experiment <ArrowUpRight size={14} />
-                  </button>
-                  <button
-                    className="subtle"
-                    onClick={() => save(report, "shirabe-training-report.json")}
-                  >
-                    Export run <ArrowDownToLine size={14} />
-                  </button>
-                </div>
-              </>
-            ) : null}
-          </aside>
-        </div>
-        <section
-          className="bottom-strip"
-          aria-label={
-            mode === "analysis" ? "Token representation" : "Model comparison"
-          }
-        >
-          <div className="strip-label">
-            <Label>
-              {mode === "analysis"
-                ? "04 / TOKEN STREAM"
-                : "04 / MODEL COMPARISON"}
-            </Label>
-            {mode === "analysis" ? (
-              <label className="mask-control">
-                <input
-                  type="checkbox"
-                  checked={masked}
-                  disabled={!result}
-                  onChange={(e) => setMasked(e.target.checked)}
-                />
-                Mask tokens
-              </label>
-            ) : (
-              <span>TEST ROC AUC ↑</span>
-            )}
           </div>
-          {mode === "analysis" ? (
-            <div
-              className="token-stream"
-              tabIndex={0}
-              role="region"
-              aria-label="WordPiece tokens with CLS attention"
-            >
-              {result ? (
-                result.tokens.map((t, i) => (
-                  <span
-                    title={`CLS attention ${((t.attention ?? 0) * 100).toFixed(2)}% · characters ${t.start}–${t.end}`}
-                    style={{
-                      backgroundColor: `rgba(117, 239, 198, ${Math.min(0.24, (t.attention ?? 0) * 12)})`,
-                    }}
-                    className={`token ${t.category}`}
-                    key={i}
-                  >
-                    {masked && t.category === "content" ? "[content]" : t.text}
-                  </span>
-                ))
-              ) : (
-                <div className="token-standby">
-                  <span>WAITING FOR INPUT</span>
-                  <div>
-                    {Array.from({ length: 34 }, (_, i) => (
-                      <i
-                        key={i}
-                        style={{
-                          width: `${14 + ((i * 17) % 64)}px`,
-                          animationDelay: `${i * 0.05}s`,
-                        }}
-                      />
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-          ) : (
-            <div
-              className="baseline-strip"
-              tabIndex={0}
-              role="region"
-              aria-label="Model AUC comparison"
-            >
-              {report?.comparisons.slice(0, 6).map((v) => (
-                <div
-                  key={v.name}
-                  className={v.role === "deployed" ? "deployed" : ""}
-                >
-                  <span>
-                    {v.role === "deployed"
-                      ? "BERT-Mini"
-                      : v.name.startsWith("Style")
-                        ? "Style"
-                        : v.role === "prior baseline"
-                          ? "Prior"
-                          : v.name.startsWith("Length")
-                            ? "Length"
-                            : v.name.startsWith("Rhetoric")
-                              ? "Rhetoric"
-                              : "TF-IDF"}
-                  </span>
-                  <strong>{f(v.roc_auc)}</strong>
-                  <div>
-                    <i style={{ width: `${v.roc_auc * 100}%` }} />
-                  </div>
-                </div>
-              ))}
+          {connectionError && (
+            <div className="connection-error" role="alert">
+              {connectionError}
+              <button onClick={() => void connect()}>Reconnect</button>
             </div>
           )}
-        </section>
-      </main>
+          <div className="stage-grid">
+            <aside
+              className="left-rail"
+              aria-label={
+                mode === "analysis" ? "Paper source" : "Training cohorts"
+              }
+            >
+              {mode === "analysis" ? (
+                <>
+                  <div className="rail-title">
+                    <Label>01 / SOURCE</Label>
+                    <span className="tiny-index">EN</span>
+                  </div>
+                  <div
+                    className={`paper-slot ${drag ? "dragging" : ""}`}
+                    onDragOver={(e) => {
+                      e.preventDefault();
+                      setDrag(true);
+                    }}
+                    onDragLeave={() => setDrag(false)}
+                    onDrop={(e) => {
+                      e.preventDefault();
+                      setDrag(false);
+                      if (!busy && e.dataTransfer.files[0])
+                        void upload(e.dataTransfer.files[0]);
+                    }}
+                  >
+                    <div className="paper-corners" />
+                    <div className="document-symbol">
+                      <FileText size={34} strokeWidth={1} />
+                      {busy === "extract" && <div className="scanline" />}
+                    </div>
+                    <h2>{text ? source : "A paper. A possibility."}</h2>
+                    {text ? (
+                      <button
+                        className="paper-preview"
+                        onClick={() => setDialog("editor")}
+                        aria-label="Edit abstract"
+                      >
+                        {text}
+                      </button>
+                    ) : (
+                      <p>Drop your PDF or TXT</p>
+                    )}
+                    <button
+                      className="upload-action"
+                      onClick={() => fileInput.current?.click()}
+                      disabled={!!busy}
+                    >
+                      {busy === "extract" ? (
+                        <LoaderCircle size={15} className="spin" />
+                      ) : (
+                        <Plus size={15} />
+                      )}{" "}
+                      {text ? "Replace paper" : "Choose paper"}
+                    </button>
+                    <input
+                      ref={fileInput}
+                      id="paper-upload"
+                      type="file"
+                      accept=".pdf,.txt"
+                      aria-label="Upload paper"
+                      className="file-input"
+                      tabIndex={-1}
+                      onChange={(e) => {
+                        if (e.target.files?.[0]) void upload(e.target.files[0]);
+                        e.target.value = "";
+                      }}
+                      disabled={!!busy}
+                    />
+                  </div>
+                  <div className="source-tools">
+                    <button onClick={() => setDialog("editor")}>
+                      {text ? <FileText size={13} /> : <Plus size={13} />}{" "}
+                      {text ? "Edit abstract" : "Paste abstract"}
+                    </button>
+                    <span>{text ? `${words} words` : "10 MB max"}</span>
+                  </div>
+                  <button
+                    className="primary analyze"
+                    disabled={!text || !!busy || !ready}
+                    onClick={() => void analyze()}
+                  >
+                    {busy === "predict" ? (
+                      <LoaderCircle size={16} className="spin" />
+                    ) : (
+                      <Scan size={16} />
+                    )}{" "}
+                    {busy === "predict" ? "Reading signal…" : "Analyze paper"}
+                    <ArrowRight size={16} />
+                  </button>
+                  <button
+                    className="example"
+                    disabled={!!busy || !ready}
+                    onClick={() => {
+                      setText(SAMPLE);
+                      setSource("Illustrative example");
+                      setNotice("Synthetic demonstration abstract.");
+                      setSelected(0);
+                      void analyze(SAMPLE);
+                    }}
+                  >
+                    Try an example <ArrowUpRight size={13} />
+                  </button>
+                  {source === "Illustrative example" && (
+                    <span className="example-note">
+                      Synthetic abstract · demo only
+                    </span>
+                  )}
+                  {error && (
+                    <div className="inline-error" role="alert">
+                      {error}
+                    </div>
+                  )}
+                  <div className="source-bottom">
+                    <span>
+                      <i />
+                      PRIVATE BY DEFAULT
+                    </span>
+                    <button
+                      className="icon"
+                      aria-label="Clear abstract"
+                      disabled={!text || !!busy}
+                      onClick={() => {
+                        edit("");
+                        setSource("");
+                      }}
+                    >
+                      <RotateCcw size={14} />
+                    </button>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="rail-title">
+                    <Label>01 / DATASET</Label>
+                    <span className="tiny-index">06 FIELDS</span>
+                  </div>
+                  <div className="dataset-count">
+                    {report ? num(total) : "—"}
+                    <span>historical abstracts</span>
+                  </div>
+                  <div className="timeline">
+                    {report?.splits.map((s, i) => (
+                      <div key={s.name}>
+                        <i className={`split-${i}`} />
+                        <div>
+                          <span>{s.name}</span>
+                          <strong>{s.years}</strong>
+                        </div>
+                        <code>{num(s.n)}</code>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="rail-title transfer-label">
+                    <Label>UNSEEN-FIELD AUC</Label>
+                  </div>
+                  <div className="transfer-bars">
+                    {report?.field_transfer.map((v) => (
+                      <div key={v.field_id}>
+                        <span>{fieldNames[v.field_id]}</span>
+                        <code>{f(v.roc_auc)}</code>
+                        <div>
+                          <i style={{ width: `${v.roc_auc * 100}%` }} />
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </>
+              )}
+            </aside>
+            <section
+              className="visual-stage"
+              aria-label={
+                mode === "analysis"
+                  ? "Interactive feature visualization"
+                  : "Test performance visualization"
+              }
+            >
+              <div className="visual-heading">
+                <Label>
+                  {mode === "analysis"
+                    ? "02 / FEATURE FIELD"
+                    : "02 / HELD-OUT PERFORMANCE"}
+                </Label>
+                <span className="live-label">
+                  <i />
+                  {busy
+                    ? "PROCESSING"
+                    : mode === "training"
+                      ? "RECORDED RUN"
+                      : result
+                        ? "SIGNAL RESOLVED"
+                        : "MODEL LOADED"}
+                </span>
+              </div>
+              {mode === "analysis" ? (
+                <FeatureField
+                  report={report}
+                  result={result}
+                  busy={!!busy}
+                  paused={paused}
+                  selected={selected}
+                  onSelect={setSelected}
+                />
+              ) : report ? (
+                <TrainingField report={report} />
+              ) : (
+                <div className="loading-stage">Loading experiment…</div>
+              )}
+              <div className="stage-caption">
+                <span>
+                  {mode === "analysis" ? (
+                    <>
+                      <i className="positive-dot" />
+                      Positive <i className="negative-dot" />
+                      Negative
+                    </>
+                  ) : (
+                    <>
+                      {report ? num(report.test.n) : "—"} unseen papers · 2021
+                    </>
+                  )}
+                </span>
+                <button
+                  className="stage-inspect"
+                  disabled={!report}
+                  onClick={() =>
+                    setDialog(
+                      mode === "analysis" && result ? "features" : "report",
+                    )
+                  }
+                >
+                  {mode === "analysis" && result ? "Full trace" : "Run details"}
+                  <ArrowUpRight size={13} />
+                </button>
+              </div>
+            </section>
+            <aside
+              className="right-rail"
+              aria-label={
+                mode === "analysis" ? "Signal evidence" : "Calibration evidence"
+              }
+            >
+              <div className="rail-title">
+                <Label>
+                  03 / {mode === "analysis" ? "EVIDENCE" : "RELIABILITY"}
+                </Label>
+                <button
+                  className="icon"
+                  onClick={() =>
+                    setDialog(
+                      mode === "analysis" && result ? "features" : "report",
+                    )
+                  }
+                  aria-label={
+                    mode === "analysis" && result
+                      ? "Inspect all features"
+                      : "Open full report"
+                  }
+                >
+                  <Maximize2 size={14} />
+                </button>
+              </div>
+              {mode === "analysis" ? (
+                <>
+                  <div className="evidence-stat">
+                    <Label>HELD-OUT ROC AUC</Label>
+                    <strong>
+                      {report ? f(report.test.roc_auc) : "—"}
+                      <span>/ 1.000</span>
+                    </strong>
+                    <MiniCurve
+                      label="Recorded test ROC curve"
+                      diagonal
+                      points={report?.roc.map((v) => [v.fpr, v.tpr]) ?? []}
+                    />
+                  </div>
+                  <div className="rail-divider" />
+                  <div className="rail-title">
+                    <Label>
+                      {result
+                        ? "TOP CONTRIBUTIONS"
+                        : "BERT-MINI / ARCHITECTURE"}
+                    </Label>
+                  </div>
+                  {result ? (
+                    <div className="contribution-bars">
+                      {result.transformer && (
+                        <Label>4 layers × 4 heads · peak attention</Label>
+                      )}
+                      {result.transformer && (
+                        <div
+                          className="attention-grid"
+                          role="img"
+                          aria-label="Four layers by four heads: each cell shows maximum CLS attention weight, not causal importance"
+                        >
+                          {result.transformer.cls_attention.flatMap(
+                            (layer, li) =>
+                              layer.map((head, hi) => (
+                                <i
+                                  key={`${li}-${hi}`}
+                                  title={`Layer ${li + 1}, head ${hi + 1}: peak CLS attention ${pct(Math.max(...head))}`}
+                                  style={{
+                                    opacity: 0.2 + 0.8 * Math.max(...head),
+                                  }}
+                                />
+                              )),
+                          )}
+                        </div>
+                      )}
+                      {contributions.slice(0, 3).map((v) => (
+                        <div key={v.name}>
+                          <span>{v.label}</span>
+                          <code
+                            className={v.contribution < 0 ? "amber" : "mint"}
+                          >
+                            {v.contribution >= 0 ? "+" : ""}
+                            {f(v.contribution, 2)}
+                          </code>
+                          <div>
+                            <i
+                              className={v.contribution < 0 ? "negative" : ""}
+                              style={{
+                                width: `${(Math.abs(v.contribution) / maxContribution) * 100}%`,
+                              }}
+                            />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <div className="feature-families">
+                      {[
+                        ["Transformer layers", 4],
+                        ["Heads per layer", 4],
+                        ["Hidden dimensions", 256],
+                      ].map(([name, count]) => (
+                        <div key={name}>
+                          <span>{name}</span>
+                          <code>{count}</code>
+                          <div className="family-ticks">
+                            {Array.from(
+                              { length: Math.min(count as number, 32) },
+                              (_, i) => (
+                                <i key={i} />
+                              ),
+                            )}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                  <div className="rail-bottom">
+                    {result ? (
+                      <>
+                        <button
+                          className="subtle"
+                          onClick={() => setDialog("features")}
+                        >
+                          Inspect arithmetic <ArrowUpRight size={14} />
+                        </button>
+                        <button
+                          className="subtle"
+                          onClick={() => save(result, "shirabe-analysis.json")}
+                        >
+                          Export analysis <ArrowDownToLine size={14} />
+                        </button>
+                      </>
+                    ) : (
+                      <span>
+                        Words become context.
+                        <br />
+                        Features become a signal.
+                      </span>
+                    )}
+                  </div>
+                </>
+              ) : report ? (
+                <>
+                  <div className="evidence-stat">
+                    <Label>BRIER SCORE ↓</Label>
+                    <strong>{f(report.test.brier)}</strong>
+                    <span className="stat-note">
+                      prior{" "}
+                      {f(
+                        report.comparisons.find(
+                          (v) => v.role === "prior baseline",
+                        )?.brier ?? 0,
+                      )}
+                    </span>
+                    <MiniCurve
+                      label="Calibration: predicted versus observed probability"
+                      diagonal
+                      points={report.reliability.map((v) => [
+                        v.predicted,
+                        v.observed,
+                      ])}
+                    />
+                    <div className="mini-label">
+                      CALIBRATION / PREDICTED → OBSERVED
+                    </div>
+                  </div>
+                  <div className="rail-divider" />
+                  <div className="small-stat">
+                    <Label>AVERAGE PRECISION</Label>
+                    <strong>{f(report.test.average_precision)}</strong>
+                  </div>
+                  <div className="small-stat">
+                    <Label>DISCIPLINE DETECTABLE</Label>
+                    <strong>{pct(report.discipline_probe.accuracy)}</strong>
+                    <span>Subject independence unproven</span>
+                  </div>
+                  <div className="rail-bottom">
+                    <button
+                      className="subtle"
+                      onClick={() => setDialog("report")}
+                    >
+                      Full experiment <ArrowUpRight size={14} />
+                    </button>
+                    <button
+                      className="subtle"
+                      onClick={() =>
+                        save(report, "shirabe-training-report.json")
+                      }
+                    >
+                      Export run <ArrowDownToLine size={14} />
+                    </button>
+                  </div>
+                </>
+              ) : null}
+            </aside>
+          </div>
+          <section
+            className="bottom-strip"
+            aria-label={
+              mode === "analysis" ? "Token representation" : "Model comparison"
+            }
+          >
+            <div className="strip-label">
+              <Label>
+                {mode === "analysis"
+                  ? "04 / TOKEN STREAM"
+                  : "04 / MODEL COMPARISON"}
+              </Label>
+              {mode === "analysis" ? (
+                <label className="mask-control">
+                  <input
+                    type="checkbox"
+                    checked={masked}
+                    disabled={!result}
+                    onChange={(e) => setMasked(e.target.checked)}
+                  />
+                  Mask tokens
+                </label>
+              ) : (
+                <span>TEST ROC AUC ↑</span>
+              )}
+            </div>
+            {mode === "analysis" ? (
+              <div
+                className="token-stream"
+                tabIndex={0}
+                role="region"
+                aria-label="WordPiece tokens with CLS attention"
+              >
+                {result ? (
+                  result.tokens.map((t, i) => (
+                    <span
+                      title={`CLS attention ${((t.attention ?? 0) * 100).toFixed(2)}% · characters ${t.start}–${t.end}`}
+                      style={{
+                        backgroundColor: `rgba(117, 239, 198, ${Math.min(0.24, (t.attention ?? 0) * 12)})`,
+                      }}
+                      className={`token ${t.category}`}
+                      key={i}
+                    >
+                      {masked && t.category === "content"
+                        ? "[content]"
+                        : t.text}
+                    </span>
+                  ))
+                ) : (
+                  <div className="token-standby">
+                    <span>WAITING FOR INPUT</span>
+                    <div>
+                      {Array.from({ length: 34 }, (_, i) => (
+                        <i
+                          key={i}
+                          style={{
+                            width: `${14 + ((i * 17) % 64)}px`,
+                            animationDelay: `${i * 0.05}s`,
+                          }}
+                        />
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div
+                className="baseline-strip"
+                tabIndex={0}
+                role="region"
+                aria-label="Model AUC comparison"
+              >
+                {report?.comparisons.slice(0, 6).map((v) => (
+                  <div
+                    key={v.name}
+                    className={v.role === "deployed" ? "deployed" : ""}
+                  >
+                    <span>
+                      {v.role === "deployed"
+                        ? "BERT-Mini"
+                        : v.name.startsWith("Style")
+                          ? "Style"
+                          : v.role === "prior baseline"
+                            ? "Prior"
+                            : v.name.startsWith("Length")
+                              ? "Length"
+                              : v.name.startsWith("Rhetoric")
+                                ? "Rhetoric"
+                                : "TF-IDF"}
+                    </span>
+                    <strong>{f(v.roc_auc)}</strong>
+                    <div>
+                      <i style={{ width: `${v.roc_auc * 100}%` }} />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </section>
+        </main>
+      )}
       <footer className="statusbar">
         <button onClick={() => setDialog("about")}>
           <span className="status-square" />
-          Citation attention ≠ scientific truth <ArrowUpRight size={12} />
+          {showCitationTraining
+            ? "Citation attention ≠ scientific truth"
+            : "Experimental outcomes · inspect the evidence"}{" "}
+          <ArrowUpRight size={12} />
         </button>
-        {result?.warnings.length ? (
+        {showCitationTraining && result?.warnings.length ? (
           <button
             className="warning-link"
             onClick={() => setDialog("features")}
@@ -1475,7 +1550,15 @@ function App() {
             {result.warnings.length === 1 ? "note" : "notes"}
           </button>
         ) : (
-          <span className="footer-meta">ENGLISH ABSTRACTS · 80–800 WORDS</span>
+          <span className="footer-meta">
+            {mode === "analysis" && !showCitationTraining
+              ? "ENGLISH PAPERS · EXPERIMENTAL OUTCOMES"
+              : mode === "training" && !showCitationTraining
+                ? "FULL TEXT + ABSTRACTS · MASKED OUTCOME TARGETS"
+                : mode === "evidence"
+                  ? "SOURCE-BACKED OUTCOME LABELS"
+                  : "ENGLISH ABSTRACTS · 80–800 WORDS"}
+          </span>
         )}
         <a
           href="https://github.com/Hone-Systems/shirabe"
@@ -1677,35 +1760,79 @@ function App() {
         </Modal>
       )}
       {dialog === "about" && (
-        <Modal title="A signal. Not a verdict." onClose={() => setDialog(null)}>
-          <p>
-            Shirabe estimates whether an English abstract belongs to the
-            higher-cited group of its sampled field and year. The dataset
-            contains {num(total)} historic abstracts;{" "}
-            {num(report?.splits[0].n ?? 0)} were used for training. The rest
-            were held out for selection, calibration and testing.
-          </p>
-          <p>
-            The target is citation attention—not correctness, replication, or
-            practical success. Results are retrospective; subject independence
-            remains unproven.
-          </p>
-          <p>
-            The field visualizes 256 learned classifier-head channels. Ray
-            lengths show calibrated head weights before analysis and signed
-            log-odds contributions afterward. The head contributions plus
-            intercept reconstruct the score. Moving particles are illustrative.
-          </p>
-          <p>
-            BERT-Mini reads WordPieces through four transformer layers, with
-            four attention heads each. Token brightness shows final-layer CLS
-            attention averaged over heads; attention is not causal importance.
-            The model reads both topic and style. Uploads are processed locally
-            and not retained; review extracted abstracts before scoring.
-          </p>
-          <button className="subtle" onClick={() => setDialog("report")}>
-            Read the experiment <ArrowUpRight size={14} />
-          </button>
+        <Modal
+          title={
+            !showCitationTraining
+              ? "The outcome experiment"
+              : "A signal. Not a verdict."
+          }
+          onClose={() => setDialog(null)}
+        >
+          {!showCitationTraining ? (
+            <>
+              <p>
+                The outcome model learns from source-backed questions about
+                validation, uptake, utility and durability. It is an unvalidated
+                experiment; its rubric index is not a calibrated probability of
+                scientific success.
+              </p>
+              <p>
+                Original English text is sent to a cloud model for topic
+                masking, then processed locally by all four BERT-Mini layers in
+                complete chunks. Source text and masking results are cached
+                privately for reproducibility.
+              </p>
+              <p>
+                The network groups 32 hidden dimensions per node. Edges
+                summarize learned projection weights; activations and
+                attention-head entropy are measured during analysis. The diagram
+                collapses internal attention, residual and feed-forward paths
+                and is not a causal explanation.
+              </p>
+              <button
+                className="subtle"
+                onClick={() => {
+                  setDialog(null);
+                  navigate("training");
+                }}
+              >
+                Inspect the outcome training <ArrowUpRight size={14} />
+              </button>
+            </>
+          ) : (
+            <>
+              <p>
+                Shirabe estimates whether an English abstract belongs to the
+                higher-cited group of its sampled field and year. The dataset
+                contains {num(total)} historic abstracts;{" "}
+                {num(report?.splits[0].n ?? 0)} were used for training. The rest
+                were held out for selection, calibration and testing.
+              </p>
+              <p>
+                The target is citation attention—not correctness, replication,
+                or practical success. Results are retrospective; subject
+                independence remains unproven.
+              </p>
+              <p>
+                The field visualizes 256 learned classifier-head channels. Ray
+                lengths show calibrated head weights before analysis and signed
+                log-odds contributions afterward. The head contributions plus
+                intercept reconstruct the score. Moving particles are
+                illustrative.
+              </p>
+              <p>
+                BERT-Mini reads WordPieces through four transformer layers, with
+                four attention heads each. Token brightness shows final-layer
+                CLS attention averaged over heads; attention is not causal
+                importance. The model reads both topic and style. Uploads are
+                processed locally and not retained; review extracted abstracts
+                before scoring.
+              </p>
+              <button className="subtle" onClick={() => setDialog("report")}>
+                Read the experiment <ArrowUpRight size={14} />
+              </button>
+            </>
+          )}
         </Modal>
       )}
     </div>

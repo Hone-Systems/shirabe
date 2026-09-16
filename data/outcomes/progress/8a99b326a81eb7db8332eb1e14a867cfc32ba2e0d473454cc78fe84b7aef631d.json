@@ -1,0 +1,14 @@
+{
+  "id": "ssrp-10.1126/science.1224313",
+  "title": "Body cues, not facial expressions, discriminate between intense positive and negative emotions.",
+  "year": 2012,
+  "field_id": 32,
+  "field": "Psychology / behavioral science",
+  "split": "test",
+  "sampling_cohort": "ssrp_complete_2018",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:56:33.873477+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 14,
+  "score": 1.0
+}

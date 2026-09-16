@@ -1,0 +1,421 @@
+{
+  "id": "challenge-debt",
+  "title": "Growth in a Time of Debt",
+  "doi": "https://doi.org/10.1257/aer.100.2.573",
+  "year": 2010,
+  "field_id": 20,
+  "field": "Economics",
+  "split": "challenge",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:38:24.656104+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 16,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://rogoff.scholars.harvard.edu/sites/g/files/omnuum5901/files/rogoff/files/growth_in_time_debt_aer.pdf",
+    "scope": "full_text",
+    "read": true,
+    "central_claim": "a marked debt–growth nonlinearity near public debt of 90% of GDP across advanced and emerging economies"
+  },
+  "source_manifest": [
+    {
+      "source_id": "S0",
+      "url": "https://rogoff.scholars.harvard.edu/sites/g/files/omnuum5901/files/rogoff/files/growth_in_time_debt_aer.pdf",
+      "title": "Growth in a Time of Debt",
+      "date": "2010",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": false,
+      "scope": "full_text",
+      "read": true,
+      "finding": "Historical descriptive analysis associates debt above 90% of GDP with markedly lower growth; it does not establish causation.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S1",
+      "url": "https://www.socialjustice.ie/system/files/file-uploads/2021-09/2013-04-15-herndonashpollin-doeshighpublicdebtconsistentlystifleeconomicgrowth-critiqueofrandr.pdf",
+      "title": "Does High Public Debt Consistently Stifle Economic Growth? A Critique of Reinhart and Rogoff",
+      "date": "2013-04-15",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "read": true,
+      "finding": "Replication corrects spreadsheet errors, exclusions and weighting. The high-debt mean becomes 2.2%, not -0.1%; a consistent 90% discontinuity is rejected.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.imf.org/-/media/websites/imf/imported-full-text-pdf/external/pubs/ft/wp/2014/_wp1434.pdf",
+      "title": "Debt and Growth: Is There a Magic Threshold?",
+      "date": "2014-02-13",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "read": true,
+      "finding": "Longer horizons and debt trajectories undermine a unique growth cliff. The study supplements IMF data with data from the target paper and compares its empirical pattern.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://opus.lib.uts.edu.au/bitstream/10453/124475/1/Lee_et_al-2017-Fiscal_Studies.pdf",
+      "title": "Testing for a Debt-Threshold Effect on Output Growth",
+      "date": "2017-08-30",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "scope": "abstract_and_relevant_sections",
+      "read": true,
+      "finding": "Formal threshold estimation uses the Reinhart–Rogoff data; it finds no 90% threshold and explores a lower threshold with robustness qualifications.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1237.pdf",
+      "title": "The impact of high and growing government debt on economic growth: an empirical investigation for the euro area",
+      "date": "2010",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "read": true,
+      "finding": "An independent panel study of twelve euro-area countries finds an inverted-U turning point near 90–100% under its model; this is bounded support, not validation of a universal cliff.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "The later euro-area study supports high-debt nonlinearity near the reported range within its twelve-country panel; contrary findings prevent treating this as consensus.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2010",
+            "explanation": "Independent bounded empirical support."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "no",
+        "rationale": "The direct replication does not recover the central dramatic high-debt result after correcting the analysis.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2013-04-15",
+            "explanation": "The reconstructed spreadsheet exposes the numerical and weighting dependence."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "no",
+        "rationale": "The broad threshold does not survive tests of subsequent growth over longer horizons and debt trajectories.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-02-13",
+            "explanation": "Independent robustness tests reject a unique growth cliff."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "no",
+        "rationale": "The later IMF assessment rejects a unique high-debt threshold, while allowing weaker debt–growth associations.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-02-13",
+            "explanation": "The central threshold interpretation is not retained."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No follow-up explicitly testing the original limitations and establishing surviving usefulness was verified.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Independent researchers replace fixed debt bins with formal threshold estimation using the target data.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-08-30",
+            "explanation": "A substantive methodological extension."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Herndon and colleagues reanalyse the spreadsheet; Pescatori and colleagues develop a separate horizon and trajectory analysis.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2013-04-15",
+            "explanation": "First independent team."
+          },
+          {
+            "source_id": "S2",
+            "date": "2014-02-13",
+            "explanation": "Second independent team."
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "The independent replication actually reconstructs the debt-bin growth calculation, rather than merely citing it.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2013-04-15",
+            "explanation": "Direct analytical reuse."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review explicitly crediting this particular paper with enabling a research direction was verified.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "rationale": "The original debt-bin estimates serve as the explicit baseline for corrected estimates.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2013-04-15",
+            "explanation": "Published and reconstructed values are compared."
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No concrete independently demonstrated benefit from applying this particular contribution was established.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "No successful application of this particular contribution outside its original setting was verified.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "A later result demonstrably enabled by this particular contribution was not established; similarity of subject is insufficient.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "No documented operational adoption of this specific contribution was verified; nonadoption is not inferred from an unsuccessful search.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "not_applicable",
+        "rationale": "The original primarily reports a descriptive empirical association, not a comparative performance advantage.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2017 threshold study substantively reuses the data seven years later.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-08-30",
+            "explanation": "Use exceeds the three-year threshold."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No positive independent assessment of the central contribution after the three-year anniversary was verified.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent substantive investigations occur in 2013, 2014 and 2017.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2013-04-15",
+            "explanation": "2013 replication."
+          },
+          {
+            "source_id": "S2",
+            "date": "2014-02-13",
+            "explanation": "2014 follow-up."
+          },
+          {
+            "source_id": "S3",
+            "date": "2017-08-30",
+            "explanation": "2017 analysis."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent synthesis adopting this particular contribution as valid or useful was verified.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No later evidence explicitly establishing continued usefulness despite newer alternatives was verified.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Original six-page AER paper read; follow-up scopes are recorded individually. The 2017 source was intermittently inaccessible beyond the abstract and selected sections.",
+      "No verified official policy implementation artifact; political attention is not counted as demonstrated benefit. Later reuse of shared historical data does not credit this paper with creating every underlying series.",
+      "Some source dates resolve only to a publication year. Non-threshold findings about emerging-market external debt and inflation were not independently reassessed in equal depth.",
+      "Lifetime observation through 2026-09-16; the assigned pilot sample is not an unbiased estimate of all research outcomes."
+    ],
+    "summary": "Bounded supportive evidence exists, but the striking 90% threshold fails direct correction and stronger tests. The paper remains a substantive empirical baseline; research uptake is not proof that its policy interpretation is valid."
+  },
+  "research_plan": {
+    "queries": [
+      "Growth in a Time of Debt Reinhart Rogoff 2010 pdf Harvard",
+      "Herndon Ash Pollin Does high public debt consistently stifle economic growth critique Reinhart Rogoff pdf 2014",
+      "Growth in a Time of Debt Herndon Ash Pollin 2014 threshold replication Pescatori Sandri Simon 2014",
+      "Testing for a Debt Threshold 90 2017",
+      "site.ecb.europa.eu Checherita Rother 2010 debt growth 90 100 working paper pdf",
+      "site.europa.eu Rehn Reinhart 2013 90"
+    ],
+    "search_log": [
+      {
+        "query": "Growth in a Time of Debt Reinhart Rogoff 2010 pdf Harvard",
+        "purpose": "Resolve full original",
+        "urls_read": [
+          "https://rogoff.scholars.harvard.edu/sites/g/files/omnuum5901/files/rogoff/files/growth_in_time_debt_aer.pdf"
+        ]
+      },
+      {
+        "query": "Herndon Ash Pollin Does high public debt consistently stifle economic growth critique Reinhart Rogoff pdf 2014",
+        "purpose": "Check direct replication",
+        "urls_read": [
+          "https://www.socialjustice.ie/system/files/file-uploads/2021-09/2013-04-15-herndonashpollin-doeshighpublicdebtconsistentlystifleeconomicgrowth-critiqueofrandr.pdf"
+        ]
+      },
+      {
+        "query": "Growth in a Time of Debt Herndon Ash Pollin 2014 threshold replication Pescatori Sandri Simon 2014",
+        "purpose": "Check stronger independent tests",
+        "urls_read": [
+          "https://www.imf.org/-/media/websites/imf/imported-full-text-pdf/external/pubs/ft/wp/2014/_wp1434.pdf"
+        ]
+      },
+      {
+        "query": "Testing for a Debt Threshold 90 2017",
+        "purpose": "Check later methodological reuse",
+        "urls_read": [
+          "https://opus.lib.uts.edu.au/bitstream/10453/124475/1/Lee_et_al-2017-Fiscal_Studies.pdf"
+        ]
+      },
+      {
+        "query": "site.ecb.europa.eu Checherita Rother 2010 debt growth 90 100 working paper pdf",
+        "purpose": "Check contrary supportive evidence",
+        "urls_read": [
+          "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1237.pdf"
+        ]
+      },
+      {
+        "query": "site.europa.eu Rehn Reinhart 2013 90",
+        "purpose": "Seek official policy adoption",
+        "urls_read": []
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 3,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 0.25,
+        "lower_bound": 0.2,
+        "upper_bound": 0.4
+      },
+      "uptake": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 1,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 10,
+    "coverage": 0.5,
+    "score": null,
+    "lower_bound": 0.35,
+    "upper_bound": 0.85,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

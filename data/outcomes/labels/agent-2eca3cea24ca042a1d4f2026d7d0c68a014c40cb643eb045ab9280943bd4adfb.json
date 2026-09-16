@@ -1,0 +1,333 @@
+{
+  "id": "ssrp-10.1038/nature12774",
+  "title": "Experimental evidence for the influence of group size on cultural complexity.",
+  "doi": "10.1038/nature12774",
+  "year": 2013,
+  "field_id": 32,
+  "field": "Psychology / behavioral science",
+  "split": "train",
+  "sampling_cohort": "ssrp_complete_2018",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:45:36.165991+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 13,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24226775/",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "Larger groups better maintain cultural complexity and diversity in a dual-task cultural-transmission game."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf",
+      "title": "Camerer et al. SSRP supplementary methods and Tables 1, 3 and 4",
+      "date": "2018-08-27",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Larger groups maintained cultural diversity in the replication: r=.361, p=.003, 65 group observations/482 participants. Interpretation of broader demographic causation remains debated.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.nature.com/articles/nature13411",
+      "title": "Group size and cultural complexity",
+      "date": "2014",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Andersson and Read challenge the demographic interpretation using a reanalysis; this is contrary evidence, not independent confirmation.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.nature.com/articles/nature13412",
+      "title": "Derex et al. reply",
+      "date": "2014",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": false,
+      "finding": "Original authors defend the interpretation and distinguish persistence, improvement and cultural richness.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "Larger groups maintained cultural diversity in the replication: r=.361, p=.003, 65 group observations/482 participants. Interpretation of broader demographic causation remains debated. The answer applies to this explicitly identified core result only; other original results remain separately uncertain.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2018-08-27",
+            "explanation": "Larger groups maintained cultural diversity in the replication: r=.361, p=.003, 65 group observations/482 participants. Interpretation of broader demographic causation remains debated. The answer applies to this explicitly identified core result only; other original results remain separately uncertain."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "Larger groups maintained cultural diversity in the replication: r=.361, p=.003, 65 group observations/482 participants. Interpretation of broader demographic causation remains debated. The answer applies to this explicitly identified core result only; other original results remain separately uncertain.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2018-08-27",
+            "explanation": "Larger groups maintained cultural diversity in the replication: r=.361, p=.003, 65 group observations/482 participants. Interpretation of broader demographic causation remains debated. The answer applies to this explicitly identified core result only; other original results remain separately uncertain."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "yes",
+        "rationale": "Larger groups maintained cultural diversity in the replication: r=.361, p=.003, 65 group observations/482 participants. Interpretation of broader demographic causation remains debated. The answer applies to this explicitly identified core result only; other original results remain separately uncertain.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2018-08-27",
+            "explanation": "Larger groups maintained cultural diversity in the replication: r=.361, p=.003, 65 group observations/482 participants. Interpretation of broader demographic causation remains debated. The answer applies to this explicitly identified core result only; other original results remain separately uncertain."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The primary reanalysis disputes interpretation and the original authors defend it; the later replication confirms only the specified diversity contrast.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The diversity replication does not by itself resolve the reanalysis concerning individual performance and population-size mechanisms.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "Larger groups maintained cultural diversity in the replication: r=.361, p=.003, 65 group observations/482 participants. Interpretation of broader demographic causation remains debated. The answer applies to this explicitly identified core result only; other original results remain separately uncertain.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2018-08-27",
+            "explanation": "Larger groups maintained cultural diversity in the replication: r=.361, p=.003, 65 group observations/482 participants. Interpretation of broader demographic causation remains debated. The answer applies to this explicitly identified core result only; other original results remain separately uncertain."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent reanalysis in 2014 and experimental replication in 2018 substantively revisit this contribution.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2018-08-27",
+            "explanation": "Independent reanalysis in 2014 and experimental replication in 2018 substantively revisit this contribution."
+          },
+          {
+            "source_id": "S2",
+            "date": "2014",
+            "explanation": "Independent reanalysis in 2014 and experimental replication in 2018 substantively revisit this contribution."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "This is an evidence-rich replication cohort, not a representative sample of all science or an unbiased measure of lifetime impact.",
+      "Only specified experimental contrasts have direct replication evidence; unknown utility, adoption and durability answers must not be interpreted as failure.",
+      "Searches were completed through 2026-09-16 but do not claim exhaustive coverage of every citation or unpublished result.",
+      "Original assessment is explicitly abstract-only; full original body was not obtained. Training input contains the complete original abstract without publisher summaries."
+    ],
+    "summary": "Larger groups maintained cultural diversity in the replication: r=.361, p=.003, 65 group observations/482 participants. Interpretation of broader demographic causation remains debated. This grade preserves uncertain broader outcomes instead of converting replication status into universal success."
+  },
+  "research_plan": {
+    "queries": [
+      "Social Science Replication Project 21 studies Camerer 2018 original papers list supplementary",
+      "FIRST_PDATE:[2010-01-01 TO 2015-12-31] AND TITLE:\"Experimental evidence for the influence of group size on cultural complexity\"",
+      "\"Experimental evidence for the influence of group size on cultural complexity\" replication criticism"
+    ],
+    "search_log": [
+      {
+        "query": "Social Science Replication Project 21 studies Camerer 2018 original papers list supplementary",
+        "purpose": "Enumerate the complete cohort and inspect preregistered selected contrasts and results.",
+        "urls_read": [
+          "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf",
+          "https://www.nature.com/articles/s41562-018-0399-z"
+        ]
+      },
+      {
+        "query": "FIRST_PDATE:[2010-01-01 TO 2015-12-31] AND TITLE:\"Experimental evidence for the influence of group size on cultural complexity\"",
+        "purpose": "Resolve original title, DOI and abstract in Europe PMC; inspect accessible original.",
+        "urls_read": [
+          "https://pubmed.ncbi.nlm.nih.gov/24226775/"
+        ]
+      },
+      {
+        "query": "\"Experimental evidence for the influence of group size on cultural complexity\" replication criticism",
+        "purpose": "Check independent follow-up and contrary evidence beyond the common replication summary.",
+        "urls_read": [
+          "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf",
+          "https://www.nature.com/articles/nature13411",
+          "https://www.nature.com/articles/nature13412"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 5,
+    "coverage": 0.25,
+    "score": null,
+    "lower_bound": 0.25,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent / SSRP expansion",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

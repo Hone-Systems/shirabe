@@ -1,0 +1,322 @@
+{
+  "id": "https://openalex.org/W4287324271",
+  "title": "territorial community as a subject of strategic planning of territorial development",
+  "doi": "https://doi.org/10.5281/zenodo.4955232",
+  "year": 2021,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "test",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:55:08.381142+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 5,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://economics.net.ua/ejopu/2021/No2/49.pdf",
+    "scope": "full_text",
+    "read": true,
+    "central_claim": "A united territorial community is a capable collective actor for socio-economic management, requiring integrated long-term strategic planning.; An analysis–planning–implementation process with stakeholder participation, risk-aware projects and monitoring provides a framework for community development.; Economic and budget development, infrastructure improvement and cultural activity are proposed priority directions; these recommendations are conceptual, not evaluated interventions."
+  },
+  "central_claims": [
+    "A united territorial community is a capable collective actor for socio-economic management, requiring integrated long-term strategic planning.",
+    "An analysis–planning–implementation process with stakeholder participation, risk-aware projects and monitoring provides a framework for community development.",
+    "Economic and budget development, infrastructure improvement and cultural activity are proposed priority directions; these recommendations are conceptual, not evaluated interventions."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://economics.net.ua/ejopu/2021/No2/49.pdf",
+      "title": "United territorial community as a subject of strategic planning of territorial development",
+      "date": "2021",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": false,
+      "scope": "full_text",
+      "read": true,
+      "finding": "Conceptual review proposes integrated planning, participation and risk-aware project monitoring; it reports no evaluated intervention.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://wseas.com/journals/ead/2023/a345115-1006.pdf",
+      "title": "The Potential of Territorial Communities as a Factor of Socio-Environmental Development of Territories",
+      "date": "2023",
+      "date_basis": "publication",
+      "kind": "research_synthesis",
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "read": true,
+      "finding": "Independent comparative synthesis expressly takes the article into account and adopts its resource-capacity interpretation in discussion; European examples do not implement its particular planning scheme.",
+      "characters": null,
+      "method": "research_synthesis",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://fkd.net.ua/index.php/fkd/article/download/4161/3942/19887",
+      "title": "Development of international cooperation of the borderline territorial communities of Ukraine with the EU countries under martial law",
+      "date": "2023",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "read": true,
+      "finding": "Lyndyuk and colleagues survey border communities and cite the target only among background decentralization studies; the survey is not an evaluation of its planning process.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S4",
+      "url": "https://science.lpnu.ua/smeu/all-volumes-and-issues/volume-8-number-1-2026/territorial-community-primary-subject-security",
+      "title": "Territorial Community as a Primary Subject of Security-oriented Development of Critical Infrastructure of the Territory",
+      "date": "2026-06-29",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "scope": "abstract_and_references",
+      "read": true,
+      "finding": "Later work concerns community planning but its abstract and references do not connect its influence-contour model to the assigned paper.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No independent primary study explicitly validates the proposed integrated planning process; the 2023 survey studies international cooperation under martial law.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No independent reconstruction or evaluation of the analysis–planning–implementation scheme was found.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The border-community survey does not test the original recommendations, despite collecting new data.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Later authors accept the community-capacity definition, but no authoritative assessment explicitly evaluates the complete recorded planning claims.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The original discusses weak capacity, participation and risk management; no follow-up directly tests whether its approach survives these limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Later socio-environmental and international-cooperation work acknowledges the target, but a substantive extension of its specific planning scheme was not demonstrated.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Two citing teams were identified, but citation and shared subject matter do not establish two substantive builders.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The 2023 synthesis uses the capacity interpretation in discussion without actually implementing the proposed planning process.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No read review identifies this article as enabling a new line of research.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No independent benchmark against another planning process was verified.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "European community successes in the later synthesis are not attributed to applying this paper’s scheme.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "No documented application of its specific process to another community was established.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The later survey and environmental case discussion were not shown to be enabled by this specific scheme.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Actual municipal use of strategic planning is common in the sources, but adoption traceable to this article was not documented.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No fair evaluation compares the suggested integrated scheme with alternatives on effectiveness or cost.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The substantive conceptual acknowledgment is from 2023, less than three years later; the 2026 related article does not establish use of this paper.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No verified positive assessment after the three-year anniversary specifically evaluates this contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The two verified citing studies are both from 2023; another year of substantive follow-up was not established.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "An independent comparative research synthesis adopts the article’s community-capacity concept as part of its socio-environmental interpretation, without establishing the effectiveness of the planning recommendations.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2023",
+            "explanation": "Literature review identifies target reference 9; discussion uses its accumulation-and-use-of-resources conception."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No comparison with newer approaches explicitly demonstrates continued usefulness of the proposed process.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Published English full text read; some translation is awkward but the proposed process and conclusions are identifiable.",
+      "No independent intervention evaluation or municipal implementation record traceable to this article was verified.",
+      "Lifetime observation through 2026-09-16; the assigned pilot sample is not an unbiased estimate of all research outcomes."
+    ],
+    "summary": "Independent conceptual uptake is documented in a 2023 synthesis. Actual implementation, causal benefits and validation of this particular planning process remain unknown."
+  },
+  "research_plan": {
+    "queries": [
+      "\"10.5281/zenodo.4955232\"; \"territorial community as a subject of strategic planning\"",
+      "\"The Potential of Territorial Communities\" pdf; \"DEVELOPMENT OF INTERNATIONAL COOPERATION\" \"4161\"",
+      "\"10.15276/EJ.02.2021.6\" strategy implementation criticism; author/title searches with 2024 and 2025"
+    ],
+    "search_log": [
+      {
+        "query": "\"10.5281/zenodo.4955232\"; \"territorial community as a subject of strategic planning\"",
+        "purpose": "Resolve original and forward citations",
+        "urls_read": [
+          "https://economics.net.ua/ejopu/2021/No2/49.pdf"
+        ]
+      },
+      {
+        "query": "\"The Potential of Territorial Communities\" pdf; \"DEVELOPMENT OF INTERNATIONAL COOPERATION\" \"4161\"",
+        "purpose": "Read independent citing studies",
+        "urls_read": [
+          "https://wseas.com/journals/ead/2023/a345115-1006.pdf",
+          "https://fkd.net.ua/index.php/fkd/article/download/4161/3942/19887"
+        ]
+      },
+      {
+        "query": "\"10.15276/EJ.02.2021.6\" strategy implementation criticism; author/title searches with 2024 and 2025",
+        "purpose": "Check adoption, contrary evidence and later continuity",
+        "urls_read": [
+          "https://science.lpnu.ua/smeu/all-volumes-and-issues/volume-8-number-1-2026/territorial-community-primary-subject-security"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 1,
+    "coverage": 0.05,
+    "score": null,
+    "lower_bound": 0.05,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "id": "https://openalex.org/W2808922852",
+  "title": "Risk of Foot Ulcer and Lower Extremity Amputation among Participants in the Diabetes Control and Complications Trial/Epidemiology of Diabetes Interventions and Complications Study (DCCT/EDIC)",
+  "doi": "https://doi.org/10.2337/db18-113-or",
+  "year": 2018,
+  "field_id": 27,
+  "field": "Medicine",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:58:13.619894+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 8,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "conference_abstract_only",
+  "original_source": {
+    "url": "https://diabetesjournals.org/diabetes/article/67/Supplement_1/113-OR/54189/Risk-of-Foot-Ulcer-and-Lower-Extremity-Amputation",
+    "scope": "conference_abstract_only",
+    "read": true,
+    "central_claim": "Early intensive glycemic control during DCCT decreases subsequent diabetic foot-ulcer risk in EDIC participants with type 1 diabetes.; Smoking predicts amputation but not ulcer risk, while continuous ankle-brachial index does not predict either outcome in the reported analysis."
+  },
+  "central_claims": [
+    "Early intensive glycemic control during DCCT decreases subsequent diabetic foot-ulcer risk in EDIC participants with type 1 diabetes.",
+    "Smoking predicts amputation but not ulcer risk, while continuous ankle-brachial index does not predict either outcome in the reported analysis."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://diabetesjournals.org/diabetes/article/67/Supplement_1/113-OR/54189/Risk-of-Foot-Ulcer-and-Lower-Extremity-Amputation",
+      "title": "Risk of Foot Ulcer and Lower Extremity Amputation among Participants in DCCT/EDIC (113-OR)",
+      "date": "2018-07-01",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": false,
+      "scope": "conference_abstract_text",
+      "read": true,
+      "finding": "Conference abstract concludes early intensive glycemic control reduces later ulcer risk; smoking and ankle-brachial index findings are also reported.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35007329/",
+      "title": "Risk of Foot Ulcer and Lower-Extremity Amputation Among Participants in DCCT/EDIC",
+      "date": "2022-01-17",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": false,
+      "scope": "abstract",
+      "read": true,
+      "finding": "Same authors/cohort report reduced all-ulcer risk with intensive control; first-ulcer and amputation estimates do not reach significance. This is full-publication continuity, not independent replication.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.cpd-umanitoba.com/wp-content/uploads/Etiology-Epidemiology-and-disparities-in-the-burden-of-diabetic-foot-ulcers.pdf",
+      "title": "Etiology, Epidemiology, and Disparities in the Burden of Diabetic Foot Ulcers",
+      "date": "2022-12-22",
+      "date_basis": "publication",
+      "kind": "research_synthesis",
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "read": true,
+      "finding": "Independent review cites the 2022 full report in its glycemic-management section, accepting durable ulcer-prevention benefit from early control.",
+      "characters": null,
+      "method": "research_synthesis",
+      "truncated": false
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2024.1354385/full",
+      "title": "Decreasing lifetime prevalence of diabetes-related foot ulcers in Norway: HUNT study",
+      "date": "2024-04-17",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "read": true,
+      "finding": "Independent population study uses the 2022 report for risk-factor context; it does not test early randomized intensive treatment.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S5",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11972128/",
+      "title": "HbA1c and the Risk of Lower Limb Ulcers Among Diabetic Patients: An Observational and Genetics Study",
+      "date": "2025",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "scope": "full_text_via_EuropePMC_XML",
+      "read": true,
+      "finding": "UK Biobank study finds an observational glycemia–ulcer association but nonsignificant genetic causal estimates; its broader lower-limb outcome and mostly type-2 sample do not reproduce the DCCT early-treatment claim.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S6",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11812814/",
+      "title": "Evaluating and mapping the evidence that screening for diabetic foot disease meets population-wide screening criteria",
+      "date": "2024-07-03",
+      "date_basis": "publication",
+      "kind": "research_synthesis",
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "read": true,
+      "finding": "Scoping review cites the full report for ulcer/amputation background, not a test of its intervention effect.",
+      "characters": null,
+      "method": "research_synthesis",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The full 2022 report is from the original team. HUNT and UK Biobank do not explicitly test early intensive treatment in type 1 diabetes; independent primary support of that exact claim remains unverified.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No independent trial or cohort reconstruction reproduced the early randomized-treatment legacy effect.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The 2022 report adds full analyses, but accessible records did not establish that it is a larger or stricter test than the 2018 abstract.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "An independent clinical synthesis retains the early-control ulcer-prevention conclusion through the 2022 full report of the same study.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2022-12-22",
+            "explanation": "Glycemic Management section explicitly accepts a lasting early-control benefit and cites the matched full report."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No read follow-up directly tests the original ascertainment or confounding limitations and demonstrates robustness of the early-treatment effect.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Later studies address glycemia and ulcer risk, but an extension specifically built on this early-treatment result was not established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Independent groups cite the full article, but two substantive extensions of this particular contribution were not established.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Later studies employ standard epidemiological methods; reuse of an original method or result as an analytic input was not verified.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The review credits the finding as evidence, without identifying it as the origin of a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The independent primary studies do not use the original early-treatment estimate as a numerical benchmark or reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "A preventive implication is accepted, but no independently measured clinical benefit attributable to applying this particular finding was verified.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The later glycemia–ulcer associations do not demonstrate successful application of the early-treatment finding outside DCCT/EDIC.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The later full report gives more detail, but a genuinely new result enabled by the abstract itself was not established.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Intensive glycemic control was established practice before this abstract; no new workflow adoption attributable to this foot-ulcer result was verified.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair treatment comparison directly establishes the claimed ulcer-risk reduction; the matched full report is the same cohort.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The original finding, carried into its full report, is substantively used in a prevention synthesis after three years.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2022-12-22",
+            "explanation": "The finding informs clinical interpretation in the 2022-online/2023-print review."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The independent review positively assesses the early-treatment finding more than four years after the 2018 abstract.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2022-12-22",
+            "explanation": "Published December 2022, the review uses the full report to support early glucose management."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The 2022 synthesis is substantive; later primary citations do not establish substantive building on the specific early-treatment result in another year.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "The matched full publication is incorporated into an independent clinical research synthesis as useful prevention evidence.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2022-12-22",
+            "explanation": "The review incorporates the result into its glycemic-management interpretation."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The review endorses prevention implications but does not explicitly compare their continued usefulness against newer approaches.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Original is a conference abstract, not a full article; no presentation or complete original numerical table was retrieved.",
+      "The 2022 article is mapped as the likely full publication from matching title, authors, cohort and conclusion; its abstract was read because full-text requests failed. It is not counted as independent.",
+      "Independent observational glycemia evidence is distinguished from randomized early-treatment evidence; nonsignificant genetic estimates are not treated as refutation.",
+      "Lifetime observation through 2026-09-16; the assigned pilot sample is not an unbiased estimate of all research outcomes."
+    ],
+    "summary": "The conference finding persisted into a same-team full report and an independent prevention synthesis. Independent replication and practical effects attributable to this specific result remain unverified."
+  },
+  "research_plan": {
+    "queries": [
+      "\"10.2337/db18-113-or\"; \"Risk of Foot Ulcer and Lower Extremity Amputation\" DCCT EDIC 2018",
+      "\"dc21-1816\" systematic review foot ulcers; Boyko 2022 glycemic guidelines",
+      "\"dc21-1816\" limitations; \"HbA1c and the Risk of Lower Limb Ulcers\""
+    ],
+    "search_log": [
+      {
+        "query": "\"10.2337/db18-113-or\"; \"Risk of Foot Ulcer and Lower Extremity Amputation\" DCCT EDIC 2018",
+        "purpose": "Resolve original abstract and later full publication",
+        "urls_read": [
+          "https://diabetesjournals.org/diabetes/article/67/Supplement_1/113-OR/54189/Risk-of-Foot-Ulcer-and-Lower-Extremity-Amputation",
+          "https://pubmed.ncbi.nlm.nih.gov/35007329/"
+        ]
+      },
+      {
+        "query": "\"dc21-1816\" systematic review foot ulcers; Boyko 2022 glycemic guidelines",
+        "purpose": "Inspect synthesis and guideline attribution",
+        "urls_read": [
+          "https://www.cpd-umanitoba.com/wp-content/uploads/Etiology-Epidemiology-and-disparities-in-the-burden-of-diabetic-foot-ulcers.pdf",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11812814/"
+        ]
+      },
+      {
+        "query": "\"dc21-1816\" limitations; \"HbA1c and the Risk of Lower Limb Ulcers\"",
+        "purpose": "Examine independent and potentially contrary primary evidence",
+        "urls_read": [
+          "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2024.1354385/full",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11972128/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 4,
+    "coverage": 0.2,
+    "score": null,
+    "lower_bound": 0.2,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "id": "rpcb-10.1038/ncb2048",
+  "title": "Wnt activity defines colon cancer stem cells and is regulated by the microenvironment",
+  "doi": "https://doi.org/10.1038/ncb2048",
+  "year": 2010,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:14:02.540108+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 16,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://doi.org/10.1038/ncb2048",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "High Wnt activity identifies colon cancer stem-like cells with greater clonogenic and tumor-initiating potential.",
+    "Myofibroblast-secreted HGF can restore stem-like properties to low-Wnt cells."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "R",
+      "url": "https://doi.org/10.7554/eLife.45426",
+      "title": "Replication Study: Wnt activity defines colon cancer stem cells and is regulated by the microenvironment",
+      "date": "2019",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Higher clonogenicity and stromal/HGF effects generally agreed; marker correlations varied and high/low-Wnt tumorigenicity did not differ.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "J",
+      "url": "https://doi.org/10.1038/ncomms10994",
+      "title": "LIG4 mediates Wnt signalling-induced radioresistance",
+      "date": "2016",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent CRC study linked Wnt-high cells to radioresistance and LIG4-dependent DNA repair.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "The independent replication supported Wnt-associated clonogenicity and stromal enhancement, with separate in-vivo uncertainty.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2019",
+            "explanation": "The independent replication supported Wnt-associated clonogenicity and stromal enhancement, with separate in-vivo uncertainty."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "In-vitro findings were partly reproduced, but the central in-vivo high/low-Wnt tumor-initiating contrast was not.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2019",
+            "explanation": "In-vitro findings were partly reproduced, but the central in-vivo high/low-Wnt tumor-initiating contrast was not."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "Independent primary cultures showed partial support and an absent in-vivo contrast rather than uniform survival of all claims.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2019",
+            "explanation": "Independent primary cultures showed partial support and an absent in-vivo contrast rather than uniform survival of all claims."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "The independent replication used the original TOP-GFP reporter sorting and myofibroblast-conditioned-medium design.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2019",
+            "explanation": "The independent replication used the original TOP-GFP reporter sorting and myofibroblast-conditioned-medium design."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "no",
+        "rationale": "The claimed higher tumor-initiation advantage of high-Wnt over low-Wnt cells was not retained in the independent mouse comparison. This does not erase the in-vitro clonogenic result.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2019",
+            "explanation": "The claimed higher tumor-initiation advantage of high-Wnt over low-Wnt cells was not retained in the independent mouse comparison. This does not erase the in-vitro clonogenic result."
+          }
+        ]
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The original reporter/sorting and stromal-intervention approach was substantively reused in the 2019 replication.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2019",
+            "explanation": "The original reporter/sorting and stromal-intervention approach was substantively reused in the 2019 replication."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The 2019 study positively assessed the higher clonogenicity and stromal-factor component while reporting in-vivo limits.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2019",
+            "explanation": "The 2019 study positively assessed the higher clonogenicity and stromal-factor component while reporting in-vivo limits."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent Wnt-high functional work and direct replication appeared in 2016 and 2019.",
+        "evidence": [
+          {
+            "source_id": "J",
+            "date": "2016",
+            "explanation": "Independent Wnt-high functional work and direct replication appeared in 2016 and 2019."
+          },
+          {
+            "source_id": "R",
+            "date": "2019",
+            "explanation": "Independent Wnt-high functional work and direct replication appeared in 2016 and 2019."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Original available as abstract only.",
+      "Jun primary abstract checked; no assumption that general Wnt success proves every claim in this particular paper.",
+      "External frozen cohort only; never training, selection, calibration or tuning. Absence of adoption evidence remains unknown."
+    ],
+    "summary": "Mixed outcome: Wnt-associated clonogenicity and microenvironment effects received support, but the claimed in-vivo tumor-initiating advantage was not retained."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1038/ncb2048",
+      "https://doi.org/10.7554/eLife.45426"
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1038/ncb2048",
+        "purpose": "Resolve original identity and author text through Europe PMC, publisher and NCBI BioC",
+        "urls_read": [
+          "https://doi.org/10.1038/ncb2048"
+        ]
+      },
+      {
+        "query": "https://doi.org/10.7554/eLife.45426",
+        "purpose": "Read assigned preregistered replication and follow its supporting and contrary references",
+        "urls_read": [
+          "https://doi.org/10.7554/eLife.45426",
+          "https://doi.org/10.1038/ncomms10994"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 1,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.8
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 6,
+    "coverage": 0.30000000000000004,
+    "score": null,
+    "lower_bound": 0.25,
+    "upper_bound": 0.95,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

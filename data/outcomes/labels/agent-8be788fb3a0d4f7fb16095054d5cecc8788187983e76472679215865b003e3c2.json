@@ -1,0 +1,380 @@
+{
+  "id": "rpcb-10.1101/gr.126516.111",
+  "title": "Fusobacterium nucleatum infection is prevalent in human colorectal carcinoma",
+  "doi": "https://doi.org/10.1101/gr.126516.111",
+  "year": 2012,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:12:17.027329+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 14,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3266037/",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "Fusobacterium nucleatum is enriched in colorectal cancer relative to matched normal tissue, with an invasive isolate and association with nodal metastasis."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://doi.org/10.7554/elife.25801",
+      "title": "Replication Study: <i>Fusobacterium nucleatum</i> infection is prevalent in human colorectal carcinoma.",
+      "date": "2018-03-13",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "full_text",
+      "finding": "Replication had many nondetects and smaller effects; combined meta-analysis favored enrichment but assay specificity confounded inference.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://doi.org/10.3748/wjg.v22.i11.3227",
+      "title": "Association of Fusobacterium nucleatum infection with colorectal cancer in Chinese patients.",
+      "date": "2016-03-01",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "abstract",
+      "finding": "Independent 101-patient Chinese cohort found enrichment in 88 tumors, confirmed by FISH and linked to nodal metastasis.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://doi.org/10.1016/j.chom.2013.07.007",
+      "title": "Fusobacterium nucleatum potentiates intestinal tumorigenesis and modulates the tumor-immune microenvironment.",
+      "date": "2013-08-01",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "abstract",
+      "finding": "Fusobacterium increased mouse intestinal tumor multiplicity and altered immune microenvironment, extending the association mechanistically.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "Independent Chinese cohort explicitly confirmed tumor enrichment and nodal association.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-03-01",
+            "explanation": "Independent Chinese cohort explicitly confirmed tumor enrichment and nodal association."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "Enrichment was reproduced in 101 independently sampled patients with FISH corroboration.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-03-01",
+            "explanation": "Enrichment was reproduced in 101 independently sampled patients with FISH corroboration."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "yes",
+        "rationale": "An independent patient cohort and orthogonal FISH assay supported enrichment, despite discordant RP:CB results.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-03-01",
+            "explanation": "An independent patient cohort and orthogonal FISH assay supported enrichment, despite discordant RP:CB results."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "The association was extended to a mechanistic mouse tumor/immune study.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2013-08-01",
+            "explanation": "The association was extended to a mechanistic mouse tumor/immune study."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Chinese cohort investigators and Kostic/Garrett investigators separately built on the association.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-03-01",
+            "explanation": "Chinese cohort investigators and Kostic/Garrett investigators separately built on the association."
+          },
+          {
+            "source_id": "S3",
+            "date": "2013-08-01",
+            "explanation": "Chinese cohort investigators and Kostic/Garrett investigators separately built on the association."
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Quantification and tissue localization of tumor-associated Fusobacterium were applied to the new cohort.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-03-01",
+            "explanation": "Quantification and tissue localization of tumor-associated Fusobacterium were applied to the new cohort."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Applying the finding enabled experimental identification of a tumor-promoting immune mechanism.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2013-08-01",
+            "explanation": "Applying the finding enabled experimental identification of a tumor-promoting immune mechanism."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "The contribution was extended from human tumor association to intestinal mouse tumorigenesis.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2013-08-01",
+            "explanation": "The contribution was extended from human tumor association to intestinal mouse tumorigenesis."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "Mouse exposure experiments established tumor multiplicity and immune-cell changes.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2013-08-01",
+            "explanation": "Mouse exposure experiments established tumor multiplicity and immune-cell changes."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "2016 cohort validation occurred four years later.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-03-01",
+            "explanation": "2016 cohort validation occurred four years later."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The independent 2016 study concluded enrichment and association with metastasis.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-03-01",
+            "explanation": "The independent 2016 study concluded enrichment and association with metastasis."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent primary studies were published in 2013 and 2016.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-03-01",
+            "explanation": "Independent primary studies were published in 2013 and 2016."
+          },
+          {
+            "source_id": "S3",
+            "date": "2013-08-01",
+            "explanation": "Independent primary studies were published in 2013 and 2016."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "This is a bounded primary-evidence assessment, not an exhaustive adoption or clinical practice audit.",
+      "Failed or confounded selected experiments do not imply all claims in the original paper are false.",
+      "Exact first-publication version and separately linked supplements were not all verified."
+    ],
+    "summary": "Replication had many nondetects and smaller effects; combined meta-analysis favored enrichment but assay specificity confounded inference. Independent 101-patient Chinese cohort found enrichment in 88 tumors, confirmed by FISH and linked to nodal metastasis. Fusobacterium increased mouse intestinal tumor multiplicity and altered immune microenvironment, extending the association mechanistically."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1101/gr.126516.111",
+      "https://doi.org/10.7554/eLife.25801",
+      "Follow references / DOI lookups for 10.3748/wjg.v22.i11.3227, 10.1016/j.chom.2013.07.007"
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1101/gr.126516.111",
+        "purpose": "Original identity and full-text resolution via Europe PMC and NCBI BioC",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3266037/"
+        ]
+      },
+      {
+        "query": "https://doi.org/10.7554/eLife.25801",
+        "purpose": "Independent direct replication and references to contrary supporting evidence",
+        "urls_read": [
+          "https://doi.org/10.7554/elife.25801"
+        ]
+      },
+      {
+        "query": "Follow references / DOI lookups for 10.3748/wjg.v22.i11.3227, 10.1016/j.chom.2013.07.007",
+        "purpose": "Read independent supporting and limiting primary evidence",
+        "urls_read": [
+          "https://doi.org/10.3748/wjg.v22.i11.3227",
+          "https://doi.org/10.1016/j.chom.2013.07.007"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 12,
+    "coverage": 0.6,
+    "score": 1.0,
+    "lower_bound": 0.6,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": true
+  },
+  "llm": {
+    "model": "Codex autonomous research agent / cancer external last",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

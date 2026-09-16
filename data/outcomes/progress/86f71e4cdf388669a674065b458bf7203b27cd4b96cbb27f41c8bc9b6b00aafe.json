@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W3007451419",
+  "title": "Inference for cumulative intraday return curves",
+  "year": 2018,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T19:52:42.400149+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 1,
+  "score": null
+}

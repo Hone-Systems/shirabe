@@ -1,0 +1,531 @@
+{
+  "id": "econ-10.1257/aer.102.2.720",
+  "title": "Slow to Anger and Fast to Forgive: Cooperation in an Uncertain World",
+  "doi": "10.1257/aer.102.2.720",
+  "year": 2012,
+  "field_id": 20,
+  "field": "Economics",
+  "split": "validation",
+  "sampling_cohort": "econ_complete_2016",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:56:33.871496+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 14,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.2.720",
+    "scope": "abstract",
+    "read": true,
+    "version_note": "Complete original abstract only; full body inaccessible through attempted publisher/author routes."
+  },
+  "central_claims": [
+    "Cooperation is higher when it is an equilibrium despite implementation noise; successful cooperative strategies tolerate initial defections and forgive."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "O",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.2.720",
+      "title": "Slow to Anger and Fast to Forgive: Cooperation in an Uncertain World",
+      "date": "2012",
+      "date_basis": "publication",
+      "kind": "original_paper",
+      "read": true,
+      "independent": false,
+      "finding": "Original central claims were recorded before follow-up grading.",
+      "characters": null,
+      "method": "original_paper",
+      "truncated": false
+    },
+    {
+      "source_id": "S1",
+      "url": "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf",
+      "title": "Camerer et al. Evaluating replicability of laboratory experiments in economics — Supplement, Tables S1–S2",
+      "date": "2016",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "The preregistered independent comparison tests whether cooperative equilibria raise cooperation under implementation noise; replication N=128, original focal N=124, p=<.001. The project only retested one selected result per paper.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://experimentaleconreplications.com/replicationreports/study11.html",
+      "title": "Archived preregistered replication protocol",
+      "date": "2015",
+      "date_basis": "publication",
+      "kind": "preregistered_protocol",
+      "read": true,
+      "independent": true,
+      "finding": "The individual replication team is Colin Camerer and Gidi Nave, distinct from the original authors; this page is a protocol, not a results report.",
+      "characters": null,
+      "method": "preregistered_protocol",
+      "truncated": false
+    },
+    {
+      "source_id": "R_S1",
+      "url": "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+      "title": "Evaluating replicability of laboratory experiments in economics: supplementary materials, Tables S1–S2",
+      "date": "2016-03-03",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "The selected cooperation contrast reproduced: N=128, p<.001, r=.33, versus original N=124 and r=.30. Table S2 identifies the benefit/cost 1.5 versus 2 contrast. Independent data collection was led by Camerer and Nave; the consortium also includes original coauthor Dreber.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "R_S2",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096344",
+      "title": "Fast to Forgive, Slow to Retaliate: Intuitive Responses in the Ultimatum Game Depend on the Degree of Unfairness",
+      "date": "2014-05-12",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Ferguson and colleagues explicitly integrate the original uncertainty/forgiveness idea into a hypothesis about unfair offers, testing it in ultimatum games. Mildly unfair offers elicited more acceptance with shorter delays.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "R_S3",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0899825619300041",
+      "title": "Individual versus group choices of repeated game strategies: A strategy method approach",
+      "date": "2019",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Cason and Mui use the original parameters and twenty strategies for direct choices by individuals and groups. They identify group differences in forgiveness and persistent poor-performing defection. Publisher abstract, introduction and section excerpts were read; institutional metadata confirms March 2019.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "R_S4",
+      "url": "https://experimentaleconreplications.com/replicationreports/study11.html",
+      "title": "Fudenberg et al. replication protocol",
+      "date": "2016",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "The protocol names Camerer and Nave, a Claremont sample, original software and predefined analysis. This is a plan, not the final results table.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "The independent preregistered replication supported the focal result that cooperative equilibria raise cooperation under implementation noise (p=<.001, N=128). This judgment is restricted to that central component; it does not validate all other claims.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2016",
+            "explanation": "The independent preregistered replication supported the focal result that cooperative equilibria raise cooperation under implementation noise (p=<.001, N=128). This judgment is restricted to that central component; it does not validate all other claims."
+          },
+          {
+            "source_id": "S2",
+            "date": "2015",
+            "explanation": "Documents independence of the individual replication team despite original-author involvement elsewhere in the multi-paper consortium."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "The independent preregistered replication supported the focal result that cooperative equilibria raise cooperation under implementation noise (p=<.001, N=128). This judgment is restricted to that central component; it does not validate all other claims.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2016",
+            "explanation": "The independent preregistered replication supported the focal result that cooperative equilibria raise cooperation under implementation noise (p=<.001, N=128). This judgment is restricted to that central component; it does not validate all other claims."
+          },
+          {
+            "source_id": "S2",
+            "date": "2015",
+            "explanation": "Documents independence of the individual replication team despite original-author involvement elsewhere in the multi-paper consortium."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "yes",
+        "rationale": "The independent preregistered replication supported the focal result that cooperative equilibria raise cooperation under implementation noise (p=<.001, N=128). This judgment is restricted to that central component; it does not validate all other claims.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2016",
+            "explanation": "The independent preregistered replication supported the focal result that cooperative equilibria raise cooperation under implementation noise (p=<.001, N=128). This judgment is restricted to that central component; it does not validate all other claims."
+          },
+          {
+            "source_id": "S2",
+            "date": "2015",
+            "explanation": "Documents independence of the individual replication team despite original-author involvement elsewhere in the multi-paper consortium."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "The replication assessment retains that specific contrast.",
+        "evidence": [
+          {
+            "source_id": "R_S1",
+            "date": "2016-03-03",
+            "explanation": "The replication assessment retains that specific contrast."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Replication of one selected comparison does not establish that the contribution survived explicit tests of its stated limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Independent work extends the contribution to group strategy choices.",
+        "evidence": [
+          {
+            "source_id": "R_S3",
+            "date": "2019",
+            "explanation": "Independent work extends the contribution to group strategy choices."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Ferguson and Cason/Mui independently build on distinct aspects.",
+        "evidence": [
+          {
+            "source_id": "R_S2",
+            "date": "2014-05-12",
+            "explanation": "Ferguson and Cason/Mui independently build on distinct aspects."
+          },
+          {
+            "source_id": "R_S3",
+            "date": "2019",
+            "explanation": "Ferguson and Cason/Mui independently build on distinct aspects."
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "The twenty-strategy set and experimental parameters are reused.",
+        "evidence": [
+          {
+            "source_id": "R_S3",
+            "date": "2019",
+            "explanation": "The twenty-strategy set and experimental parameters are reused."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review explicitly identifying this paper as enabling a research direction was verified.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "rationale": "Original strategy constructs form the comparison framework.",
+        "evidence": [
+          {
+            "source_id": "R_S3",
+            "date": "2019",
+            "explanation": "Original strategy constructs form the comparison framework."
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "The framework supports measuring individual versus group strategy differences.",
+        "evidence": [
+          {
+            "source_id": "R_S3",
+            "date": "2019",
+            "explanation": "The framework supports measuring individual versus group strategy differences."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "Use extends to group decisions and ultimatum responses.",
+        "evidence": [
+          {
+            "source_id": "R_S2",
+            "date": "2014-05-12",
+            "explanation": "Use extends to group decisions and ultimatum responses."
+          },
+          {
+            "source_id": "R_S3",
+            "date": "2019",
+            "explanation": "Use extends to group decisions and ultimatum responses."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The reused strategy set enables direct observations of switching.",
+        "evidence": [
+          {
+            "source_id": "R_S3",
+            "date": "2019",
+            "explanation": "The reused strategy set enables direct observations of switching."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Operational application was not established; lack of retrieved evidence is not proof of nonadoption.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "A fair independent comparison retaining a particular claimed methodological or practical advantage was not established.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2019 study substantively reuses the 2012 contribution.",
+        "evidence": [
+          {
+            "source_id": "R_S3",
+            "date": "2019",
+            "explanation": "The 2019 study substantively reuses the 2012 contribution."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The 2016 independent replication positively assessed the specified central component, at least three years after original publication. Other components remain unevaluated.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2016",
+            "explanation": "The 2016 independent replication positively assessed the specified central component, at least three years after original publication. Other components remain unevaluated."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive independent follow-ups occur in 2014 and 2019.",
+        "evidence": [
+          {
+            "source_id": "R_S2",
+            "date": "2014-05-12",
+            "explanation": "Substantive independent follow-ups occur in 2014 and 2019."
+          },
+          {
+            "source_id": "R_S3",
+            "date": "2019",
+            "explanation": "Substantive independent follow-ups occur in 2014 and 2019."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "A synthesis adopting the contribution as valid or useful was not established; recording a replication result alone is not adoption.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "An explicit demonstration of usefulness despite newer alternatives was not established.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "This is a complete but selected cohort of laboratory economics experiments, not a representative sample of research success.",
+      "The replication project tests only one selected comparison, not every claim or the entire theoretical contribution.",
+      "Outcome review prioritizes independently tested validation; absent adoption/utility evidence remains unknown.",
+      "Original assessment uses its complete abstract only; attempted full-text publisher/author routes were inaccessible. No fabricated full-text reading.",
+      "An original coauthor participated in the overall multi-paper project; the named team running this individual replication had different authors (Camerer/Nave for Fudenberg; Dreber/Isaksson/Johannesson for Kirchler), as documented by the archived protocol.",
+      "Two independent grades adjudicated; six-paper repeat sample is not a population reliability estimate."
+    ],
+    "summary": "The independent preregistered replication supported the focal result that cooperative equilibria raise cooperation under implementation noise (p=<.001, N=128). This judgment is restricted to that central component; it does not validate all other claims. Broader uptake, application and long-term dominance are not inferred from replication alone. Blind repeat research added sources and corrected claim scope; initial and repeat grades remain archived."
+  },
+  "research_plan": {
+    "queries": [
+      "Camerer 2016 economics replication 18 studies list AER QJE replication",
+      "GET https://www.aeaweb.org/articles?id=10.1257/aer.102.2.720",
+      "\"Slow to Anger and Fast to Forgive\" replication criticism",
+      "GET https://experimentaleconreplications.com/replicationreports/study11.html",
+      "\"Slow to Anger and Fast to Forgive\" replication cooperation",
+      "\"Fudenberg\" \"2012\" \"replication\" Camerer 2016",
+      "\"Slow to Anger and Fast to Forgive\" \"2018\" strategies",
+      "\"Fudenberg\" \"Dreber\" \"strategies\" \"2019\" lenient forgiving independent",
+      "\"Individual versus group choices of repeated game strategies\" 2019 Cason"
+    ],
+    "search_log": [
+      {
+        "query": "Camerer 2016 economics replication 18 studies list AER QJE replication",
+        "purpose": "Freeze complete cohort and locate primary replication evidence",
+        "urls_read": [
+          "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf"
+        ]
+      },
+      {
+        "query": "GET https://www.aeaweb.org/articles?id=10.1257/aer.102.2.720",
+        "purpose": "Resolve original identity and read author text; publisher abstract retained if fulltext inaccessible",
+        "urls_read": [
+          "https://www.aeaweb.org/articles?id=10.1257/aer.102.2.720"
+        ]
+      },
+      {
+        "query": "\"Slow to Anger and Fast to Forgive\" replication criticism",
+        "purpose": "Check independent replication, extensions and contradictory later evidence",
+        "urls_read": [
+          "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf"
+        ]
+      },
+      {
+        "query": "GET https://experimentaleconreplications.com/replicationreports/study11.html",
+        "purpose": "Read primary follow-up and inspect claim-level findings",
+        "urls_read": [
+          "https://experimentaleconreplications.com/replicationreports/study11.html"
+        ]
+      },
+      {
+        "query": "\"Slow to Anger and Fast to Forgive\" replication cooperation",
+        "purpose": "Independent outcome and contrary-evidence search",
+        "urls_read": [
+          "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+          "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096344",
+          "https://www.sciencedirect.com/science/article/pii/S0899825619300041",
+          "https://experimentaleconreplications.com/replicationreports/study11.html"
+        ]
+      },
+      {
+        "query": "\"Fudenberg\" \"2012\" \"replication\" Camerer 2016",
+        "purpose": "Independent outcome and contrary-evidence search",
+        "urls_read": [
+          "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+          "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096344",
+          "https://www.sciencedirect.com/science/article/pii/S0899825619300041",
+          "https://experimentaleconreplications.com/replicationreports/study11.html"
+        ]
+      },
+      {
+        "query": "\"Slow to Anger and Fast to Forgive\" \"2018\" strategies",
+        "purpose": "Independent outcome and contrary-evidence search",
+        "urls_read": [
+          "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+          "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096344",
+          "https://www.sciencedirect.com/science/article/pii/S0899825619300041",
+          "https://experimentaleconreplications.com/replicationreports/study11.html"
+        ]
+      },
+      {
+        "query": "\"Fudenberg\" \"Dreber\" \"strategies\" \"2019\" lenient forgiving independent",
+        "purpose": "Independent outcome and contrary-evidence search",
+        "urls_read": [
+          "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+          "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096344",
+          "https://www.sciencedirect.com/science/article/pii/S0899825619300041",
+          "https://experimentaleconreplications.com/replicationreports/study11.html"
+        ]
+      },
+      {
+        "query": "\"Individual versus group choices of repeated game strategies\" 2019 Cason",
+        "purpose": "Independent outcome and contrary-evidence search",
+        "urls_read": [
+          "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+          "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0096344",
+          "https://www.sciencedirect.com/science/article/pii/S0899825619300041",
+          "https://experimentaleconreplications.com/replicationreports/study11.html"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 14,
+    "coverage": 0.7000000000000001,
+    "score": 1.0,
+    "lower_bound": 0.7000000000000001,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": true
+  },
+  "llm": {
+    "model": "Codex research agents, independently repeated and root-adjudicated",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ml2-10.1037/a0015960",
+  "title": "Disgust sensitivity predicts intuitive disapproval of gays",
+  "year": 2009,
+  "field_id": 16,
+  "field": "Psychology",
+  "split": "train",
+  "sampling_cohort": "manylabs2_complete_2018",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:47:39.097686+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 4,
+  "score": null
+}

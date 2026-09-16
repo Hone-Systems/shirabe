@@ -1,0 +1,331 @@
+{
+  "id": "challenge-attention",
+  "title": "Attention Is All You Need",
+  "doi": "https://doi.org/10.48550/arXiv.1706.03762",
+  "year": 2017,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "challenge",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2021-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:18:28.775688+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://arxiv.org/pdf/1706.03762",
+    "method": "pdf_all_pages",
+    "http_status": 200,
+    "characters": 44698,
+    "truncated": false,
+    "sha256": "d67378fbf31ff0b91e57129b021e74436b1e1570272575de933cb42d14e1173d",
+    "retrieved_at": "2026-09-16T19:05:23.278344+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "Transformer multi-head self-attention encoder-decoder applications beyond machine translation primary research",
+      "Transformer replication WMT 2014 BLEU scaled dot-product attention positional encoding independent evaluation",
+      "Transformer self-attention synthesis review multi-head attention positional encoding sequence transduction",
+      "Transformer adoption language modeling vision speech computational complexity theoretical analysis scaled dot-product attention"
+    ],
+    "selected_urls": [
+      "https://arxiv.org/html/1807.03819v3",
+      "https://aclanthology.org/W18-5431.pdf",
+      "https://www.mdpi.com/2504-4990/6/4/126"
+    ],
+    "plan_usage": {
+      "cache_key": "06f5c5aa3b0e3c70ad78a8a23bfaeaa685dce0103269f3e998c1e0d8e6e39204",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 10423,
+        "input_tokens_details": {
+          "cache_write_tokens": 10420,
+          "cached_tokens": 0
+        },
+        "output_tokens": 483,
+        "output_tokens_details": {
+          "reasoning_tokens": 405
+        },
+        "total_tokens": 10906
+      },
+      "input_tokens_estimate": 10389,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "1a76bcf14ccf16af40157fe2ea480613a30f4d958817a49beb2763b2826727ac",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 10212,
+        "input_tokens_details": {
+          "cache_write_tokens": 10209,
+          "cached_tokens": 0
+        },
+        "output_tokens": 285,
+        "output_tokens_details": {
+          "reasoning_tokens": 223
+        },
+        "total_tokens": 10497
+      },
+      "input_tokens_estimate": 10178,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://arxiv.org/html/1807.03819v3",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 61033,
+      "truncated": false,
+      "sha256": "4220d6eb8f673448b9810af59d003118df646b214f2fffe76f833fe623e4bb26",
+      "retrieved_at": "2026-09-16T19:17:58.752476+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://aclanthology.org/W18-5431.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 61400,
+      "truncated": false,
+      "sha256": "3617b89ca6d01d7e32b111fd9e35dd58f0579eac701b83329d7e7847f7ba679c",
+      "retrieved_at": "2026-09-16T19:17:59.490288+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.mdpi.com/2504-4990/6/4/126",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 83398,
+      "truncated": false,
+      "sha256": "2bf0083314ace176fcb5a8bcf5330aff34ae85b702632836a25ff4254fcab1a2",
+      "retrieved_at": "2026-09-16T19:17:59.130720+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The provided independent study trains Transformer systems, but does not explicitly reproduce the original paper’s reported WMT14 scores or exact construction.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The independent study evaluates seven language pairs and multiple datasets, but does not explicitly characterize this as a stricter validation of the original central claim.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2018-11-01"
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The provided follow-up studies do not explicitly test the original paper’s stated limitations, such as long-input efficiency or non-text modalities.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Only one clearly independent group is provided; the Universal Transformer study shares authors with the original paper.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review or synthesis in the permitted window explicitly identifies the Transformer as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up sources show research use but no product, workflow, standard, or practice adoption attributable specifically to this paper.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The later study calls the Transformer fast and accurate, but does not provide a clearly fair independent comparison testing the original claimed advantage against matched alternatives.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2018-11-01"
+          }
+        ]
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The permitted window ends in 2021, but the supplied dated follow-up evidence documents use only in 2018, less than three years after publication.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No supplied source provides a positive independent assessment dated at least three years after the 2017 publication.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The supplied qualifying follow-up documents are dated 2018 only; substantive follow-up in two distinct later calendar years is not documented.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2018-11-01"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent systematic review, textbook, standard, or research synthesis within the permitted window is supplied as evidence.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources document continued research use in 2018 but do not explicitly show usefulness despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No qualifying independent replication of the original WMT14 results or exact Transformer construction was supplied.",
+      "No dated follow-up evidence from 2020 or 2021 was supplied, limiting late-use and multi-year durability assessments.",
+      "No qualifying review, textbook, standard, product, workflow, or explicit adoption evidence was supplied.",
+      "The Universal Transformer source shares authors with the original paper and therefore does not establish uptake by an independent group."
+    ]
+  },
+  "validation_rejected": [
+    "claim_supported",
+    "central_claim_retained",
+    "independent_extension",
+    "method_reused",
+    "independent_comparison",
+    "external_utility",
+    "beyond_original_setting",
+    "enabled_new_result"
+  ],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "54d5c2491251080533b812222d24fdd05e2a81b3d635532d34a275d713a65138",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 76653,
+      "input_tokens_details": {
+        "cache_write_tokens": 76650,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2651,
+      "output_tokens_details": {
+        "reasoning_tokens": 1181
+      },
+      "total_tokens": 79304
+    },
+    "input_tokens_estimate": 76410,
+    "truncated": false
+  }
+}

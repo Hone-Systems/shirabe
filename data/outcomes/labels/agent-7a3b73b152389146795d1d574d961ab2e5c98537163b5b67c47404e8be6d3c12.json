@@ -1,0 +1,300 @@
+{
+  "id": "ssrp-10.1126/science.1207745",
+  "title": "Google effects on memory: cognitive consequences of having information at our fingertips.",
+  "doi": "10.1126/science.1207745",
+  "year": 2011,
+  "field_id": 32,
+  "field": "Psychology / behavioral science",
+  "split": "test",
+  "sampling_cohort": "ssrp_complete_2018",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:45:36.176450+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 15,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21764755/",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "Difficult questions prime computer concepts; expecting future information access shifts memory toward where information is stored."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf",
+      "title": "Camerer et al. SSRP supplementary methods and Tables 1, 3 and 4",
+      "date": "2018-08-27",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Computer-word Stroop accessibility failed: r=.050, p=.449, N=234. This is not a test of the distinct claim that expected information access shifts memory toward locations.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1332030/full",
+      "title": "Google effects on memory: a meta-analytical review of the media effects of intensive Internet search behavior",
+      "date": "2024",
+      "date_basis": "publication",
+      "kind": "research_synthesis",
+      "read": true,
+      "independent": true,
+      "finding": "The review synthesizes broader Internet-search cognitive effects across 22 articles/35 comparisons; it does not establish the specific failed computer-word Stroop mechanism.",
+      "characters": null,
+      "method": "research_synthesis",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Computer-word Stroop accessibility failed: r=.050, p=.449, N=234. This is not a test of the distinct claim that expected information access shifts memory toward locations. The central interpretation or cross-study evidence remains unsettled.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "Computer-word Stroop accessibility failed: r=.050, p=.449, N=234. This is not a test of the distinct claim that expected information access shifts memory toward locations. The central interpretation or cross-study evidence remains unsettled.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "SSRP tests computer-word accessibility, while the later synthesis concerns broader Internet-related cognition; neither settles all original transactive-memory claims.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Computer-word Stroop accessibility failed: r=.050, p=.449, N=234. This is not a test of the distinct claim that expected information access shifts memory toward locations. The central interpretation or cross-study evidence remains unsettled.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "Computer-word Stroop accessibility failed: r=.050, p=.449, N=234. This is not a test of the distinct claim that expected information access shifts memory toward locations. The central interpretation or cross-study evidence remains unsettled.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent targeted replication in 2018 and evidence synthesis in 2024.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2018-08-27",
+            "explanation": "Independent targeted replication in 2018 and evidence synthesis in 2024."
+          },
+          {
+            "source_id": "S2",
+            "date": "2024",
+            "explanation": "Independent targeted replication in 2018 and evidence synthesis in 2024."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "The 2024 synthesis treats the original Google-effect contribution as a foundational useful account of Internet-related cognitive changes, while this does not rescue its separate Stroop contrast.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2024",
+            "explanation": "The 2024 synthesis treats the original Google-effect contribution as a foundational useful account of Internet-related cognitive changes, while this does not rescue its separate Stroop contrast."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "This is an evidence-rich replication cohort, not a representative sample of all science or an unbiased measure of lifetime impact.",
+      "Only specified experimental contrasts have direct replication evidence; unknown utility, adoption and durability answers must not be interpreted as failure.",
+      "Searches were completed through 2026-09-16 but do not claim exhaustive coverage of every citation or unpublished result.",
+      "Original assessment is explicitly abstract-only; full original body was not obtained. Training input contains the complete original abstract without publisher summaries."
+    ],
+    "summary": "Computer-word Stroop accessibility failed: r=.050, p=.449, N=234. This is not a test of the distinct claim that expected information access shifts memory toward locations. This grade preserves uncertain broader outcomes instead of converting replication status into universal success."
+  },
+  "research_plan": {
+    "queries": [
+      "Social Science Replication Project 21 studies Camerer 2018 original papers list supplementary",
+      "FIRST_PDATE:[2010-01-01 TO 2015-12-31] AND TITLE:\"Google effects on memory\"",
+      "\"Google effects on memory\" replication 2024 meta analysis"
+    ],
+    "search_log": [
+      {
+        "query": "Social Science Replication Project 21 studies Camerer 2018 original papers list supplementary",
+        "purpose": "Enumerate the complete cohort and inspect preregistered selected contrasts and results.",
+        "urls_read": [
+          "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf",
+          "https://www.nature.com/articles/s41562-018-0399-z"
+        ]
+      },
+      {
+        "query": "FIRST_PDATE:[2010-01-01 TO 2015-12-31] AND TITLE:\"Google effects on memory\"",
+        "purpose": "Resolve original title, DOI and abstract in Europe PMC; inspect accessible original.",
+        "urls_read": [
+          "https://pubmed.ncbi.nlm.nih.gov/21764755/"
+        ]
+      },
+      {
+        "query": "\"Google effects on memory\" replication 2024 meta analysis",
+        "purpose": "Check independent follow-up and contrary evidence beyond the common replication summary.",
+        "urls_read": [
+          "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf",
+          "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1332030/full"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 2,
+    "coverage": 0.1,
+    "score": null,
+    "lower_bound": 0.1,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent / SSRP expansion",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

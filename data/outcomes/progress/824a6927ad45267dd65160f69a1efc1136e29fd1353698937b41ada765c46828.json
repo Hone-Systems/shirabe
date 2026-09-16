@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W2883944593",
+  "title": "Opportunity makes opinion leaders: analyzing the role of first-hand information in opinion leadership in social media networks",
+  "year": 2018,
+  "field_id": 33,
+  "field": "Social Sciences",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T19:57:44.115261+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 5,
+  "score": null
+}

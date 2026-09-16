@@ -1,0 +1,339 @@
+{
+  "id": "https://openalex.org/W2883944593",
+  "title": "Opportunity makes opinion leaders: analyzing the role of first-hand information in opinion leadership in social media networks",
+  "doi": "https://doi.org/10.1080/1369118x.2018.1500622",
+  "year": 2018,
+  "field_id": 33,
+  "field": "Social Sciences",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:57:44.114885+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 8,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text_main_article_and_appendix",
+  "original_source": {
+    "url": "https://bruegge.net/wp-content/uploads/2020/02/Walter_Brueggemann_Opportunity_makes_opinion_leaders_ICS_2018.pdf",
+    "scope": "full_text_main_article_and_appendix",
+    "read": true,
+    "pages": 32
+  },
+  "central_claims": [
+    "COP21 attendees identified by geolocation have higher Twitter network centrality, brokerage, activity and retweets than the average conference-hashtag user.",
+    "Access to first-hand information can enable opinion leadership without relying on traditional media. The cross-sectional study does not measure direct persuasion or persistence, and cannot fully establish causal effects."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://link.springer.com/article/10.1007/s42001-022-00161-z",
+      "title": "Two sides of the same leader: an agent-based model to analyze the effect of ambivalent opinion leaders in social networks",
+      "date": "2022-04-26",
+      "date_basis": "publication",
+      "kind": "primary_modeling_study",
+      "read": true,
+      "independent": true,
+      "scope": "abstract, introduction and theoretical-background sections",
+      "finding": "Röchert, Cargnino and Neubaum accurately discuss the COP21 political-actor result and distinguish diffusion-based influence from psychological opinion change. Their model does not reproduce the first-hand-information attendance result.",
+      "characters": null,
+      "method": "primary_modeling_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://idus.us.es/server/api/core/bitstreams/55eeb916-5051-4df2-a0dd-7189e62a291b/content",
+      "title": "Teachers in the era of digitalization: use of social media in Latin-America",
+      "date": "2025",
+      "date_basis": "publication",
+      "kind": "primary_empirical_study",
+      "read": true,
+      "independent": true,
+      "scope": "abstract, methods, results and discussion through page18",
+      "finding": "Vaillant, Marcelo and Marcelo-Martínez explicitly base an interview guide on Walter and Brüggemann’s conceptualization. They apply it to educational reference figures in Spain and Uruguay, collecting qualitative evidence about content creation, first-hand information and interactions. This demonstrates conceptual reuse, not replication of the COP21 causal interpretation.",
+      "characters": null,
+      "method": "primary_empirical_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The education study applies the conceptualization but does not directly test whether first-hand access causes greater network influence; the simulation cites a subsidiary result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "Neither retrieved follow-up repeats the geolocated COP21 participant-versus-user design or independently reproduces its central result.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The education interviews ask different questions; they are not a stricter test of the attendance/first-hand-information claim.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Positive conceptual use is evident, but no authoritative critical assessment explicitly retains the complete central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No retrieved study resolves the original geolocation selection, cross-sectional persistence or direct-opinion-influence limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The education project applies the conceptualization; a substantive extension of the specific first-hand-access mechanism is not clearly established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "One group clearly operationalizes the conceptualization. The 2022 simulation supplies theoretical context but does not establish a second substantive builder of this specific mechanism.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "The 2025 study explicitly bases its educational-influencer interview guide on Walter and Brüggemann’s conceptualization; this is actual research use beyond citation.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2025",
+            "explanation": "The 2025 study explicitly bases its educational-influencer interview guide on Walter and Brüggemann’s conceptualization; this is actual research use beyond citation."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No retrieved review credits this particular paper with enabling a new research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The modeling paper distinguishes concepts but does not test this paper as a baseline or reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "The independent education team uses the conceptualization to construct interviews that produce empirical findings on educational reference figures and their interactions. This is bounded scientific utility, not demonstrated classroom benefit.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2025",
+            "explanation": "The independent education team uses the conceptualization to construct interviews that produce empirical findings on educational reference figures and their interactions. This is bounded scientific utility, not demonstrated classroom benefit."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "The interview framework is used successfully for educational reference figures in Spain and Uruguay, outside the original climate-conference setting.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2025",
+            "explanation": "The interview framework is used successfully for educational reference figures in Spain and Uruguay, outside the original climate-conference setting."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The attributed interview-guide framework helps produce new qualitative evidence about how educational reference figures create content and interact with followers. It is one input, not the sole cause of the study.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2025",
+            "explanation": "The attributed interview-guide framework helps produce new qualitative evidence about how educational reference figures create content and interact with followers. It is one input, not the sole cause of the study."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Research use is documented; no product, standard or sustained practical workflow adoption attributable to this paper was established.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison establishes a claimed advantage over alternative accounts of opinion leadership.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2025 attributed interview-guide use occurs seven years after the original 2018 online publication.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2025",
+            "explanation": "The 2025 attributed interview-guide use occurs seven years after the original 2018 online publication."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The later study uses the framework but does not independently evaluate the original first-hand-information claim as an assessment.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The 2022 discussion is contextual; substantive operational reuse is established only in 2025 among the sources read.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The 2022 work supplies a theoretical overview, but the passages read adopt a subsidiary political-actor finding rather than evaluate the central first-hand-access mechanism in a research synthesis.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Late use is established, but no explicit evaluation demonstrates retained usefulness relative to newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No exact replication or explicit critical assessment of the first-hand-information effect was found. General opinion-leader citations are not automatically outcomes.",
+      "The paper appeared online in 2018 and in a 2020 journal issue. Later sources cite it as 2020; the assignment retains 2018.",
+      "Original main text and appendix read without truncation; bibliography not exhaustively reviewed. Follow-up reading scopes are specified for each source.",
+      "The five supported items share one primary follow-up source and are correlated dimensions of its reuse, not five independent confirmations."
+    ],
+    "summary": "Independent researchers used the conceptualization to design educational-influencer interviews in 2025. This establishes bounded research utility and late reuse, but neither the simulation discussion nor the education study independently reproduces the central COP21 first-hand-information claim."
+  },
+  "research_plan": {
+    "queries": [
+      "\"Opportunity makes opinion leaders\" full text",
+      "\"Opportunity makes opinion leaders\" replication review",
+      "\"Walter\" \"Brüggemann\" \"first-hand\" 2023 2024 opinion",
+      "\"Opportunity makes opinion leaders\" \"systematic\"",
+      "\"Walter and Brüggemann\" \"first-hand\" -site:bruegge.net -site:researchgate.net",
+      "\"1369118X.2018.1500622\" replication criticism",
+      "\"Walter\" \"Brüggemann\" COP21 \"replication\""
+    ],
+    "search_log": [
+      {
+        "query": "\"Opportunity makes opinion leaders\" full text",
+        "purpose": "Resolve original and trace independent reuse, direct tests and criticism",
+        "urls_read": [
+          "https://bruegge.net/wp-content/uploads/2020/02/Walter_Brueggemann_Opportunity_makes_opinion_leaders_ICS_2018.pdf"
+        ]
+      },
+      {
+        "query": "\"Opportunity makes opinion leaders\" replication review",
+        "purpose": "Resolve original and trace independent reuse, direct tests and criticism",
+        "urls_read": []
+      },
+      {
+        "query": "\"Walter\" \"Brüggemann\" \"first-hand\" 2023 2024 opinion",
+        "purpose": "Resolve original and trace independent reuse, direct tests and criticism",
+        "urls_read": [
+          "https://link.springer.com/article/10.1007/s42001-022-00161-z"
+        ]
+      },
+      {
+        "query": "\"Opportunity makes opinion leaders\" \"systematic\"",
+        "purpose": "Resolve original and trace independent reuse, direct tests and criticism",
+        "urls_read": []
+      },
+      {
+        "query": "\"Walter and Brüggemann\" \"first-hand\" -site:bruegge.net -site:researchgate.net",
+        "purpose": "Resolve original and trace independent reuse, direct tests and criticism",
+        "urls_read": [
+          "https://idus.us.es/server/api/core/bitstreams/55eeb916-5051-4df2-a0dd-7189e62a291b/content"
+        ]
+      },
+      {
+        "query": "\"1369118X.2018.1500622\" replication criticism",
+        "purpose": "Resolve original and trace independent reuse, direct tests and criticism",
+        "urls_read": []
+      },
+      {
+        "query": "\"Walter\" \"Brüggemann\" COP21 \"replication\"",
+        "purpose": "Resolve original and trace independent reuse, direct tests and criticism",
+        "urls_read": []
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 5,
+    "coverage": 0.25,
+    "score": null,
+    "lower_bound": 0.25,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent /root",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

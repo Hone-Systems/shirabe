@@ -1,0 +1,309 @@
+{
+  "id": "https://openalex.org/W4247974275",
+  "title": "Belgium",
+  "doi": "https://doi.org/10.5089/9781513547695.002",
+  "year": 2016,
+  "field_id": 33,
+  "field": "Social Sciences",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2020-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:23:23.424572+00:00",
+  "input_scope": "abstract",
+  "original_source": {},
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "Belgium public expenditure efficiency structural reforms independent application labor market segmentation",
+      "Belgium public spending efficiency fiscal consolidation replication critical assessment",
+      "Belgium labor market segmentation public expenditure efficiency literature review",
+      "Belgium expenditure efficiency labor market segmentation policy reform implementation"
+    ],
+    "selected_urls": [
+      "https://wol.iza.org/articles/the-labor-market-in-belgium/long",
+      "https://ftp.iza.org/dp9863.pdf",
+      "https://www.etui.org/sites/default/files/Chapter%202_3.pdf",
+      "https://www.etui.org/publications/working-papers/labour-market-segmentation-and-the-eu-reform-agenda-developing-alternatives-to-the-mainstream"
+    ],
+    "plan_usage": {
+      "cache_key": "653d0c4a62fc3a2c01bc7157a011b92198175b14e0d9249df8fc0e4d0fa5fbc1",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 285,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 576,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 861
+      },
+      "input_tokens_estimate": 251,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "cdfab62526fa2ab5cc5e8e66dfd3d27bcdaf2dc7c046c4b93c85145fe74d44cb",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 7368,
+        "input_tokens_details": {
+          "cache_write_tokens": 7365,
+          "cached_tokens": 0
+        },
+        "output_tokens": 641,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 8009
+      },
+      "input_tokens_estimate": 7334,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://wol.iza.org/articles/the-labor-market-in-belgium/long",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 29263,
+      "truncated": false,
+      "sha256": "5f755835cafa736b3065f89df7a2e2292e652d9b57b10fbb75c6a226c099d451",
+      "retrieved_at": "2026-09-16T19:23:06.150524+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://ftp.iza.org/dp9863.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 72332,
+      "truncated": false,
+      "sha256": "71724ac36973bc97efd18092890502e645572e91eeda722f4e06f21a59499d0f",
+      "retrieved_at": "2026-09-16T19:23:07.627637+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.etui.org/sites/default/files/Chapter%202_3.pdf",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 57953,
+      "truncated": false,
+      "sha256": "04bdc0da51be4ca81815eebf2b791138658fba41da4326881f60e6cca746825c",
+      "retrieved_at": "2026-09-16T19:23:05.612439+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.etui.org/publications/working-papers/labour-market-segmentation-and-the-eu-reform-agenda-developing-alternatives-to-the-mainstream",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:23:05.751563+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The only clearly dated in-window source discusses Belgian labor-market segmentation but does not explicitly assess or validate this specific paper's combined central claim.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No in-window independent team is shown reproducing the paper's analysis, construction, or proof.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No in-window larger, stricter, or independently collected follow-up test of this paper's specific claims is provided.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The supplied in-window material does not provide an authoritative assessment explicitly addressing this paper and retaining its full central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No in-window study is shown explicitly testing the paper's stated limitations and confirming that its contribution remains useful.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "No in-window independent substantive extension of this specific paper is identified.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The packet does not document at least two independent groups substantively building on this specific paper during 2017–2020.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "No in-window independent study is shown using a method, result, or framework proposed specifically by this paper.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No in-window review explicitly identifies this paper's contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No in-window independent work is shown using this paper as a baseline, benchmark, or reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not demonstrate an independently measured scientific or practical benefit from applying this paper's contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "No in-window evidence shows successful use of this paper's contribution outside its original Belgian policy setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No in-window later work is shown attributing a new result, measurement, theorem, or capability to this paper.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Although policy recommendations make operational application potentially relevant, the packet does not show adoption of this paper in a workflow, standard, or practice during the window.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The paper's abstract does not specify a comparative advantage, and no in-window fair independent comparison is supplied.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "No dated evidence of substantive use at least three years after the 2016 publication is tied specifically to this paper.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No in-window positive independent assessment of this specific paper's contribution at least three years after publication is provided.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The supplied material does not document substantive independent follow-up in at least two distinct calendar years within 2017–2020.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The supplied review-like documents are dated 2016 or lack an established in-window publication date, and none is shown adopting this specific paper as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later material describes continuing Belgian labor-market problems, but does not explicitly show continued usefulness of this paper despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied in-window source explicitly cites, evaluates, reproduces, extends, or applies the 2016 paper identified by DOI 10.5089/9781513547695.002.",
+      "Several potentially relevant documents are outside the 2017–2020 follow-up window or lack an established publication date.",
+      "The supplied follow-up evidence concerns Belgian policy conditions generally rather than the specific contribution of the target paper."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "7dfacaeaebab541e46e32671b1fc305eb8f77c7dbb73e4b94a268a053c1ce763",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 42187,
+      "input_tokens_details": {
+        "cache_write_tokens": 42184,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1465,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 43652
+    },
+    "input_tokens_estimate": 41944,
+    "truncated": false
+  }
+}

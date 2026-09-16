@@ -1,0 +1,358 @@
+{
+  "id": "https://openalex.org/W2604283208",
+  "title": "DGCR8 Mediates Repair of UV-Induced DNA Damage Independently of RNA Processing",
+  "doi": "https://doi.org/10.1016/j.celrep.2017.03.021",
+  "year": 2017,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:01:09.464049+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 9,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text_author_manuscript_25_pages",
+  "original_source": {
+    "url": "https://pnlab.org/sites/default/files/2025-08/nihms861749_compressed.pdf",
+    "scope": "full_text_author_manuscript_25_pages",
+    "read": true
+  },
+  "central_claims": [
+    "UV-induced DGCR8 S153 phosphorylation mediates transcription-coupled nucleotide excision repair and UV resistance independently of RNA processing; JNK contributes to phosphorylation."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.nature.com/articles/s41598-026-38338-5",
+      "title": "DGCR8 regulates multiple processes of transcription coupled nucleotide excision repair",
+      "date": "2026-02-03",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": false,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Genome-edited endogenous S153A cells and mouse fibroblasts impair UV-induced TC-NER interactions; identifies R-loop and checkpoint roles. Shares senior author Taniguchi with original.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8242032/",
+      "title": "Non-canonical function of DGCR8 in DNA double-strand break repair signaling and tumor radioresistance",
+      "date": "2021-06-29",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Independent team extends noncanonical DGCR8 repair to ionizing radiation through ATM/S677, USP51 and RNF168. This is a different lesion and phosphorylation site, not reproduction of UV/S153/TC-NER.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2025.1721087/full",
+      "title": "Regulation of the microprocessor by post-translational modifications",
+      "date": "2025-12-01",
+      "date_basis": "publication",
+      "kind": "research_synthesis",
+      "read": true,
+      "independent": true,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Independent review explicitly retains JNK/S153-dependent UV resistance through TC-NER and RNA-processing independence, while noting overexpression and in-vivo limitations.",
+      "characters": null,
+      "method": "research_synthesis",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No independent primary study read directly tests the full UV/S153/TC-NER claim. The 2021 independent paper establishes a related but distinct S677/double-strand-break mechanism.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The direct 2026 UV follow-up shares the original senior investigator; the independent 2021 result concerns different lesions and phosphorylation.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "yes",
+        "rationale": "Endogenous genome-edited S153A human cells and primary mutant mouse fibroblasts extend the original depletion/complementation evidence: UV-induced repair-complex interactions depend on S153. This is a stricter mechanistic test, though not independent and not a full repeat of lesion-removal assays.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2026-02-03",
+            "explanation": "Endogenous genome-edited S153A human cells and primary mutant mouse fibroblasts extend the original depletion/complementation evidence: UV-induced repair-complex interactions depend on S153. This is a stricter mechanistic test, though not independent and not a full repeat of lesion-removal assays."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "The independent 2025 microprocessor review retains the specific S153/JNK, UV-resistance, TC-NER and RNA-processing-independent finding.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2025-12-01",
+            "explanation": "The independent 2025 microprocessor review retains the specific S153/JNK, UV-resistance, TC-NER and RNA-processing-independent finding."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Later mechanistic work addresses unresolved interactions, but the stated kinase redundancy and organismal/pathological relevance limitations have not been explicitly tested as a package demonstrating retained usefulness.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Hang and colleagues explicitly build from the noncanonical UV-repair finding to test a different DNA-damage mechanism, identifying ATM/S677-dependent double-strand-break repair. The extension does not validate every UV-specific claim.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2021-06-29",
+            "explanation": "Hang and colleagues explicitly build from the noncanonical UV-repair finding to test a different DNA-damage mechanism, identifying ATM/S677-dependent double-strand-break repair. The extension does not validate every UV-specific claim."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "One independent substantive experimental extension was established; the direct 2026 extension is not a second independent group.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "The independent study operationalizes the original separation of DGCR8 repair from Drosha binding using wild-type versus Drosha-binding-deficient complementation in radiation-response experiments; substantive reuse of the noncanonical framework, not reuse of a newly invented mutant.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2021-06-29",
+            "explanation": "The independent study operationalizes the original separation of DGCR8 repair from Drosha binding using wild-type versus Drosha-binding-deficient complementation in radiation-response experiments; substantive reuse of the noncanonical framework, not reuse of a newly invented mutant."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The review recognizes noncanonical functions but does not explicitly attribute an enabled research direction to this particular paper.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No independent baseline or reference-construction comparison of the original UV-repair contribution was located.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Applying the noncanonical DGCR8 repair framework independently yields a distinct ATM/S677–USP51–RNF168 mechanism and experimental radioresistance results. Clinical treatment benefit is not established.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2021-06-29",
+            "explanation": "Applying the noncanonical DGCR8 repair framework independently yields a distinct ATM/S677–USP51–RNF168 mechanism and experimental radioresistance results. Clinical treatment benefit is not established."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "The RNA-processing-independent DGCR8 repair framework is successfully extended from UV lesions to ionizing-radiation double-strand-break responses. It does not establish transfer of S153-mediated TC-NER to that setting.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2021-06-29",
+            "explanation": "The RNA-processing-independent DGCR8 repair framework is successfully extended from UV lesions to ionizing-radiation double-strand-break responses. It does not establish transfer of S153-mediated TC-NER to that setting."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The original S153/TC-NER finding enables targeted genome editing and new observations of repair-complex assembly, R-loop regulation and CHK1 activation.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2026-02-03",
+            "explanation": "The original S153/TC-NER finding enables targeted genome editing and new observations of repair-complex assembly, R-loop regulation and CHK1 activation."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Potential disease relevance and radiosensitization experiments do not establish operational use of this UV-repair finding in a clinical workflow or other practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "not_applicable",
+        "rationale": "This is a mechanistic biological discovery without a proposed competing method or claimed comparative performance advantage; UV resistance is the biological outcome, not a method advantage.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The direct mechanistic extension uses the original S153 finding in 2026, nine years after publication.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2026-02-03",
+            "explanation": "The direct mechanistic extension uses the original S153 finding in 2026, nine years after publication."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The independent 2025 synthesis positively retains the specific UV-repair contribution more than three years later, with mechanistic and experimental limitations.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2025-12-01",
+            "explanation": "The independent 2025 synthesis positively retains the specific UV-repair contribution more than three years later, with mechanistic and experimental limitations."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Independent substantive primary follow-up was established for 2021 only; the 2025 review is assessment and the 2026 experiment shares an original investigator.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "The independent microprocessor post-translational-modification synthesis includes this specific noncanonical UV-repair mechanism as an established function.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2025-12-01",
+            "explanation": "The independent microprocessor post-translational-modification synthesis includes this specific noncanonical UV-repair mechanism as an established function."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Continued mechanistic use is documented, but no source explicitly tests its usefulness despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No independent direct UV/S153 reproduction or explicit refutation located; absence is not proof of no replication.",
+      "The independent double-strand-break extension is not treated as support of the entire original central claim.",
+      "No operational or in-vivo disease benefit of the original UV mechanism established."
+    ],
+    "summary": "Specific UV-repair mechanism retained in a 2025 independent synthesis and investigated more strictly by a same-investigator 2026 follow-up. Independent 2021 work substantively extends the noncanonical DGCR8 framework to a different damage pathway. Direct independent reproduction and clinical utility remain unresolved."
+  },
+  "research_plan": {
+    "queries": [
+      "\"DGCR8 Mediates Repair of UV-Induced DNA Damage Independently of RNA Processing\"",
+      "DGCR8 UV repair 2017 Calses 2022 2024 independent repair",
+      "\"DGCR8\" \"S153\" \"repair\" -\"Calses\""
+    ],
+    "search_log": [
+      {
+        "query": "\"DGCR8 Mediates Repair of UV-Induced DNA Damage Independently of RNA Processing\"",
+        "purpose": "Resolve original and direct follow-up",
+        "urls_read": [
+          "https://pnlab.org/sites/default/files/2025-08/nihms861749_compressed.pdf",
+          "https://www.nature.com/articles/s41598-026-38338-5"
+        ]
+      },
+      {
+        "query": "DGCR8 UV repair 2017 Calses 2022 2024 independent repair",
+        "purpose": "Find independent extensions",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC8242032/"
+        ]
+      },
+      {
+        "query": "\"DGCR8\" \"S153\" \"repair\" -\"Calses\"",
+        "purpose": "Check exact-claim validation and contrary evidence",
+        "urls_read": [
+          "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2025.1721087/full"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 1,
+        "coverage": 0.75,
+        "known_index": 1.0,
+        "lower_bound": 0.75,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 10,
+    "coverage": 0.5375,
+    "score": null,
+    "lower_bound": 0.5375,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex independent research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

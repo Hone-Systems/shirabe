@@ -1,0 +1,291 @@
+{
+  "id": "https://openalex.org/W3042823287",
+  "title": "Molecular mechanisms of the effects of N-ethylmaleimide and 1,4-dithioerythritol on regulation of apoptosis in P19 cells under hypoxia",
+  "doi": "https://doi.org/10.20538/1682-0363-2020-2-72-77",
+  "year": 2020,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "calibration",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:01:09.491397+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 6,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text_6_pages_Russian_with_English_abstract",
+  "original_source": {
+    "url": "https://pdfs.semanticscholar.org/fb58/584d52f9eeb027352aed0e3e6a39817dd9bb.pdf",
+    "scope": "full_text_6_pages_Russian_with_English_abstract",
+    "read": true
+  },
+  "central_claims": [
+    "In hypoxic P19 mouse teratocarcinoma cells, 5 mM NEM promotes apoptosis with redox/protein-modification changes, whereas 5 mM DTE promotes resistance to cell death.",
+    "Glutathione redox status and protein glutathionylation/carbonylation are proposed targets for regulating tumor cell death under hypoxia."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://kazanmedjournal.ru/kazanmedj/article/download/112512/pdf_en",
+      "title": "Redox control of tumor cell apoptosis during hypoxia",
+      "date": "2023-05-03",
+      "date_basis": "publication",
+      "kind": "research_synthesis",
+      "read": true,
+      "independent": false,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Review by Nosareva, Stepovaya and Shakhristova, also original authors, cites the paper in discussing calcium/glutathionylation/mitochondrial links in P19 hypoxia. It does not report new independent NEM/DTE experiments.",
+      "characters": null,
+      "method": "research_synthesis",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30226932/",
+      "title": "The Role of Protein Oxidative Modification and the Cellular Redox Status in Realization of Apoptosis of MCF-7 Breast Adenocarcinoma Cells",
+      "date": "2016",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": false,
+      "read_scope": "abstract_and_bibliographic_record",
+      "finding": "Related NEM/DTE study from overlapping investigators predates the assigned work and concerns MCF-7 cells; not later replication.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "P19 NEM/DTE hypoxia result: No later independent primary study directly supporting the central claim was established.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "P19 NEM/DTE hypoxia result: No independent reproduction of the specific result was located.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "P19 NEM/DTE hypoxia result: No larger or stricter follow-up test of the original claim was established.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The 2023 review is by original investigators and summarizes related pathways; it does not provide an independent authoritative adjudication of the specific NEM-versus-DTE central result.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "P19 NEM/DTE hypoxia result: No later test of the original limitations demonstrating retained usefulness was located.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "P19 NEM/DTE hypoxia result: No substantive extension by an independent team was established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "P19 NEM/DTE hypoxia result: Two independent teams building on this particular contribution were not established.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "P19 NEM/DTE hypoxia result: No independent study actually applying this specific result or method was established.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "P19 NEM/DTE hypoxia result: No review explicitly attributing an enabled research direction to this paper was located.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "P19 NEM/DTE hypoxia result: No independent study using this contribution as a baseline or reference construction was located.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "P19 NEM/DTE hypoxia result: No independent demonstration of benefit from applying this specific contribution was established.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "P19 NEM/DTE hypoxia result: No demonstrated successful use outside the original setting was located.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "P19 NEM/DTE hypoxia result: No later result demonstrably enabled by this contribution was established.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "P19 NEM/DTE hypoxia result: No documented operational workflow, product, standard or practice applying this contribution was located.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "not_applicable",
+        "rationale": "The paper contrasts biological effects of reagents, rather than claiming a comparative methodological or therapeutic performance advantage under fair evaluation.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The same-team review appeared in May 2023, before three full years from the July 2020 article, and provides synthesis rather than demonstrated substantive reuse.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "P19 NEM/DTE hypoxia result: No independent positive assessment of the central contribution at least three years later was established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "P19 NEM/DTE hypoxia result: Substantive independent follow-up in two distinct later years was not established.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The located 2023 synthesis includes the paper, but shares three original investigators; independent synthesis adoption remains unestablished.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "P19 NEM/DTE hypoxia result: No later evidence explicitly demonstrating usefulness despite newer alternatives was located.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Only an overlapping-author later review was established; no direct independent replication, critique, adoption or explicit rejection located.",
+      "Broad redox/apoptosis literature and earlier same-team MCF-7 experiments cannot establish outcomes for this particular contribution."
+    ],
+    "summary": "Full original read. Searches found a later same-investigator review, but no verified independent post-publication test or application of the particular P19 NEM/DTE result. Outcome uncertainty is preserved; absence of evidence is not coded as failure."
+  },
+  "research_plan": {
+    "queries": [
+      "\"10.20538/1682-0363-2020-2-72-77\"",
+      "\"N-ethylmaleimide\" \"P19\" hypoxia apoptosis 2021 2023",
+      "\"Молекулярные механизмы влияния\" \"этилмалеимида\" 2024 2025",
+      "\"Nosareva\" \"dithioerythritol\" hypoxia replication"
+    ],
+    "search_log": [
+      {
+        "query": "\"10.20538/1682-0363-2020-2-72-77\"",
+        "purpose": "Resolve original and citing literature",
+        "urls_read": [
+          "https://pdfs.semanticscholar.org/fb58/584d52f9eeb027352aed0e3e6a39817dd9bb.pdf",
+          "https://kazanmedjournal.ru/kazanmedj/article/download/112512/pdf_en"
+        ]
+      },
+      {
+        "query": "\"N-ethylmaleimide\" \"P19\" hypoxia apoptosis 2021 2023",
+        "purpose": "Find later independent validation or contradiction",
+        "urls_read": [
+          "https://kazanmedjournal.ru/kazanmedj/article/download/112512/pdf_en"
+        ]
+      },
+      {
+        "query": "\"Молекулярные механизмы влияния\" \"этилмалеимида\" 2024 2025",
+        "purpose": "Russian-language exact-claim follow-up search",
+        "urls_read": [
+          "https://pdfs.semanticscholar.org/fb58/584d52f9eeb027352aed0e3e6a39817dd9bb.pdf"
+        ]
+      },
+      {
+        "query": "\"Nosareva\" \"dithioerythritol\" hypoxia replication",
+        "purpose": "Check apparent related experiments and independence",
+        "urls_read": [
+          "https://pubmed.ncbi.nlm.nih.gov/30226932/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 1,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex independent research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

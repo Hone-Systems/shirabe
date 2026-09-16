@@ -1,0 +1,319 @@
+{
+  "id": "https://openalex.org/W2604283208",
+  "title": "DGCR8 Mediates Repair of UV-Induced DNA Damage Independently of RNA Processing",
+  "doi": "https://doi.org/10.1016/j.celrep.2017.03.021",
+  "year": 2017,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2021-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:18:04.652067+00:00",
+  "input_scope": "abstract",
+  "original_source": {},
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "DGCR8 S153 UV transcription-coupled nucleotide excision repair CSB",
+      "DGCR8 UV-induced DNA lesion removal S153 phosphorylation independent replication",
+      "DGCR8 UV-induced DNA damage repair transcription-coupled nucleotide excision repair review",
+      "DGCR8 UV damage repair RNA polymerase II CSB mechanism"
+    ],
+    "selected_urls": [
+      "https://walter.hms.harvard.edu/wp-content/uploads/2021/09/10.1038-s41467-020-15903-8.pdf",
+      "https://escholarship.org/content/qt55p1q965/qt55p1q965.pdf",
+      "https://resou.osaka-u.ac.jp/en/research/2019/20190530_1",
+      "https://www.olcf.ornl.gov/2022/02/02/decoding-the-role-of-csb-protein-in-dna-repair"
+    ],
+    "plan_usage": {
+      "cache_key": "9adbfe1092bc8536df5bca2f00817bd0d4dfee63fb3dd4f6da5b57cd6679d7b6",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 393,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 593,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 986
+      },
+      "input_tokens_estimate": 359,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "2fd9f4188f79e8fe159ee11662ad002cc73edc5ed7fb38483bf38ff93375335f",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 5357,
+        "input_tokens_details": {
+          "cache_write_tokens": 5354,
+          "cached_tokens": 0
+        },
+        "output_tokens": 593,
+        "output_tokens_details": {
+          "reasoning_tokens": 428
+        },
+        "total_tokens": 5950
+      },
+      "input_tokens_estimate": 5323,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://walter.hms.harvard.edu/wp-content/uploads/2021/09/10.1038-s41467-020-15903-8.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 131253,
+      "truncated": false,
+      "sha256": "a1bd390d5c20a4d7b0d19f16991829fac14b094916213fde281bab3bc985c37c",
+      "retrieved_at": "2026-09-16T19:17:46.513933+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://escholarship.org/content/qt55p1q965/qt55p1q965.pdf",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 82094,
+      "truncated": false,
+      "sha256": "bb6d722927a9599b68adb6e0711df0d7208f6c7e75ea90702e84a6ddc8c3ac15",
+      "retrieved_at": "2026-09-16T19:17:45.122235+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://resou.osaka-u.ac.jp/en/research/2019/20190530_1",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 3205,
+      "truncated": false,
+      "sha256": "6b76db63cdfc638b106c980551d751cd15e1f0bdd9735b56361b0e4a7e76e454",
+      "retrieved_at": "2026-09-16T19:17:45.382678+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.olcf.ornl.gov/2022/02/02/decoding-the-role-of-csb-protein-in-dna-repair",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 18095,
+      "truncated": false,
+      "sha256": "8db85b91dafa8fbb494138b4190ccfd81d611d11cc6b0381457ecf8f635906a8",
+      "retrieved_at": "2026-09-16T19:17:45.099518+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The supplied in-window follow-up studied TCR assembly but did not explicitly test or support the DGCR8-S153 central claim.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2020"
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No supplied in-window source reports an independent reproduction of the DGCR8-dependent result or construction.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No supplied in-window source reports a larger, stricter or independently collected test of the DGCR8 claim.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up sources do not provide an authoritative assessment explicitly retaining or rejecting the DGCR8 central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No supplied in-window study explicitly tests the original paper’s stated RNA-processing and Drosha-independence limitations for DGCR8.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The supplied 2020 study extends mechanistic TCR knowledge, but not the specific DGCR8 contribution.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2020"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "No evidence in the supplied 2018–2021 window shows at least two independent groups building substantively on this specific DGCR8 contribution.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "No supplied in-window independent study actually uses the proposed DGCR8 mechanism, S153 modification or DGCR8-based framework.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No supplied later review explicitly identifies the DGCR8 contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No supplied in-window independent work uses this specific DGCR8 contribution as a baseline, benchmark or reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No supplied in-window source demonstrates a concrete scientific or practical benefit from applying the DGCR8 finding.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "No supplied in-window source shows successful use of the DGCR8 contribution outside the original cell and UV-damage setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No supplied in-window source attributes a new measurement, theorem, capability or result to the DGCR8 contribution.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "not_applicable",
+        "rationale": "The supplied paper concerns a basic molecular DNA-repair mechanism and presents no operational product, workflow, standard or practice as the relevant application target.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No supplied in-window independent comparison evaluates a claimed advantage of DGCR8-mediated repair over alternatives.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Although 2020 is at least three years after the 2017 publication, the supplied evidence does not document substantive use of this specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No supplied source from at least three years after publication provides a positive independent assessment specifically of the DGCR8 contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The supplied in-window evidence does not document substantive independent follow-up on this specific contribution in two distinct later calendar years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No supplied systematic review, textbook, standard or synthesis from the follow-up window explicitly adopts the DGCR8 contribution as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No supplied in-window evidence explicitly shows that the DGCR8 contribution remained useful despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied 2018–2021 full-text follow-up specifically investigates DGCR8 S153 phosphorylation, DGCR8–CSB/RNA polymerase II interactions, or RNA-processing-independent repair.",
+      "The supplied 2020 follow-up examines TCR assembly through CSB, CSA, UVSSA and TFIIH but does not directly assess DGCR8.",
+      "Sources describing later work outside the mandated follow-up window were not used for binary judgments."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 1,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "b3f6fb6052975bd06ba9889486e75f1dc3c525f1f27ac743ac163a83edcdd765",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 66672,
+      "input_tokens_details": {
+        "cache_write_tokens": 66669,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1853,
+      "output_tokens_details": {
+        "reasoning_tokens": 764
+      },
+      "total_tokens": 68525
+    },
+    "input_tokens_estimate": 66429,
+    "truncated": false
+  }
+}

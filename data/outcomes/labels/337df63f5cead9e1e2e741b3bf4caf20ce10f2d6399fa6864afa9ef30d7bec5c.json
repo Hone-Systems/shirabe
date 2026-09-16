@@ -1,0 +1,367 @@
+{
+  "id": "https://openalex.org/W2734792158",
+  "title": "Using magnetic structure of Co40Pd60/Cu for the sensing of hydrogen",
+  "doi": "https://doi.org/10.1063/1.4993158",
+  "year": 2017,
+  "field_id": 31,
+  "field": "Physics and Astronomy",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2021-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:22:38.256957+00:00",
+  "input_scope": "abstract",
+  "original_source": {},
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "Co40Pd60 Cu Fe multilayer hydrogen sensing magnetic transport applications extensions",
+      "Co40Pd60 Cu Fe hydrogen detector reproducibility magneto-optical transport independent replication",
+      "hydrogen magnetic sensors Co-Pd charge transfer operando x-ray spectroscopy review",
+      "Co-Pd multilayer hydrogen sensing local-structure symmetry charge transfer theoretical model"
+    ],
+    "selected_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5923281",
+      "https://pubs.acs.org/doi/10.1021/acsami.9b10535",
+      "https://www.researchgate.net/publication/334769520_Visualizing_hydrogen_diffusion_in_magnetic_film_through_magneto-optical_Kerr_effect",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9416806"
+    ],
+    "plan_usage": {
+      "cache_key": "1eb6f53d762318536eb5ec82fdc50dbfc8c393143bbd9affd36d79fe0a492933",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 376,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 595,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 971
+      },
+      "input_tokens_estimate": 342,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "85aaa86d70e7b85961e9015d781d4050ed0ef8e151973ef4a74fd9cd1f3c5221",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 3931,
+        "input_tokens_details": {
+          "cache_write_tokens": 3928,
+          "cached_tokens": 0
+        },
+        "output_tokens": 438,
+        "output_tokens_details": {
+          "reasoning_tokens": 330
+        },
+        "total_tokens": 4369
+      },
+      "input_tokens_estimate": 3897,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5923281",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 60489,
+      "truncated": false,
+      "sha256": "0642ab499f1a3dfa297fcd9e802a9a4ac2477bf164d93d0b588a1839ce26ba72",
+      "retrieved_at": "2026-09-16T19:22:05.254701+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pubs.acs.org/doi/10.1021/acsami.9b10535",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:22:07.719006+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.researchgate.net/publication/334769520_Visualizing_hydrogen_diffusion_in_magnetic_film_through_magneto-optical_Kerr_effect",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:22:03.813888+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9416806",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 116106,
+      "truncated": false,
+      "sha256": "9c2334338e3e804cd6e3c5c2d4ca58e627284f679253ace621ddf120b6ff9f35",
+      "retrieved_at": "2026-09-16T19:22:04.784140+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "A later primary study in the packet discusses related Co–Pd hydrogen magnetism but does not independently test the specific [Co40Pd60/Cu]10/Fe detector claim.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2018"
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up reports an independent reproduction of the specific device result, construction, or mechanism.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The supplied follow-ups do not provide a larger, stricter, or independently collected test of the original device.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up explicitly tests and resolves the original device’s stated limitations, such as low-pressure sensitivity or signal-to-noise behavior.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Related later work studies Co–Pd alloy films and magnetic domains, but the supplied evidence does not establish an independent substantive extension of this specific device contribution.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2018"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The packet documents related work and an independent review, but not at least two independent groups substantively building on this specific device contribution.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Later sources discuss magnetic, Kerr, Hall, and resonance sensing, but do not show an independent study using the proposed [Co40Pd60/Cu]10/Fe method.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021-01-23"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The review describes magnetic gas sensing as a field and surveys related approaches, but does not explicitly identify this specific contribution as enabling a research direction.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021-01-23"
+          }
+        ]
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The review reports comparisons among magnetic sensing approaches and materials, but no supplied text shows the original device used as a baseline or benchmark.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021-01-23"
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources establish sensing potential but do not demonstrate an independently applied scientific or practical benefit from this specific contribution.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021-01-23"
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Related Co–Pd alloys and other magnetic sensor architectures are reported, but the original contribution itself is not shown used outside its original device setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up attributes a new measurement, theorem, capability, or result specifically to the original device contribution.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The packet contains no dated evidence of adoption in a product, workflow, standard, or operational practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The supplied sources repeat the reported response but do not provide a fair independent comparison testing a claimed advantage against alternatives.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021-01-23"
+          }
+        ]
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The 2021 review includes the result, but the supplied text does not explicitly provide a positive assessment of this specific contribution beyond reporting it.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021-01-23"
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Follow-up material appears in 2018 and 2021, but the 2018 paper shares an author with the original; only the 2021 source is clearly independent.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2018"
+          },
+          {
+            "source_id": "S4",
+            "date": "2021-01-23"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The 2021 review continues to discuss the contribution alongside newer magnetic sensing approaches, but does not explicitly state that it remains useful despite those alternatives.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021-01-23"
+          }
+        ]
+      }
+    ],
+    "search_gaps": [
+      "No supplied independent primary study directly reproduces or re-tests the [Co40Pd60/Cu]10/Fe device.",
+      "No supplied evidence documents product, workflow, standard, or field deployment.",
+      "No supplied source explicitly compares the original device against competing hydrogen sensors under a fair evaluation."
+    ]
+  },
+  "validation_rejected": [
+    "central_claim_retained",
+    "late_use",
+    "synthesis_inclusion"
+  ],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "e3fd13631fb4a677b6653bbcc79240412920dfa09786b75bc169411766983140",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 61544,
+      "input_tokens_details": {
+        "cache_write_tokens": 61541,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2971,
+      "output_tokens_details": {
+        "reasoning_tokens": 1147
+      },
+      "total_tokens": 64515
+    },
+    "input_tokens_estimate": 61301,
+    "truncated": false
+  }
+}

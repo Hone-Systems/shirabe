@@ -1,0 +1,310 @@
+{
+  "papers": 6,
+  "questions": 120,
+  "state_agreement": 0.7,
+  "confusion": {
+    "unknown -> unknown": 60,
+    "no -> no": 1,
+    "yes -> unknown": 9,
+    "yes -> yes": 23,
+    "unknown -> yes": 27
+  },
+  "both_binary": 24,
+  "binary_agreements": 24,
+  "adjudications": [
+    {
+      "paper": "econ-10.1257/aer.104.6.1735",
+      "question": "independent_extension",
+      "initial": "yes",
+      "repeat": "unknown",
+      "final": "yes",
+      "reason": "Retained after root checked original shared experimental data and model comparison in Branch/McGough2016. Repeat absence of this source does not negate positive evidence."
+    },
+    {
+      "paper": "econ-10.1257/aer.104.6.1735",
+      "question": "method_reused",
+      "initial": "yes",
+      "repeat": "unknown",
+      "final": "yes",
+      "reason": "Retained after root checked original shared experimental data and model comparison in Branch/McGough2016. Repeat absence of this source does not negate positive evidence."
+    },
+    {
+      "paper": "econ-10.1257/aer.104.6.1735",
+      "question": "enabled_new_result",
+      "initial": "yes",
+      "repeat": "unknown",
+      "final": "yes",
+      "reason": "Retained after root checked original shared experimental data and model comparison in Branch/McGough2016. Repeat absence of this source does not negate positive evidence."
+    },
+    {
+      "paper": "econ-10.1257/aer.104.6.1735",
+      "question": "late_use",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "The 2021 experimental discussion substantively compares the 2014 result."
+    },
+    {
+      "paper": "econ-10.1257/aer.104.6.1735",
+      "question": "multiple_followup_years",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "There is substantive testing in 2016 and comparison in 2021."
+    },
+    {
+      "paper": "ml2-10.1037/0022-3514.83.5.1239",
+      "question": "stronger_test",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "Original authors analyze independently collected ML2 data and confirm the US–Japan bias difference on a held-out sample (p=.008, d=.63), with new analyses identifying essay persuasiveness and opinion consensus as moderators. This supports stronger testing and substantive reuse while retaining the authorship caveat."
+    },
+    {
+      "paper": "ml2-10.1037/0022-3514.83.5.1239",
+      "question": "enabled_new_result",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "Original authors analyze independently collected ML2 data and confirm the US–Japan bias difference on a held-out sample (p=.008, d=.63), with new analyses identifying essay persuasiveness and opinion consensus as moderators. This supports stronger testing and substantive reuse while retaining the authorship caveat."
+    },
+    {
+      "paper": "ml2-10.1111/j.1468-0017.2006.00297.x",
+      "question": "claim_supported",
+      "initial": "yes",
+      "repeat": "unknown",
+      "final": "unknown",
+      "reason": "The two original permissibility contrasts recur in ML2 (d=1.35 and .25), but ML2 does not assess the headline judgment–justification dissociation. Original coauthors also participate in the consortium. This is partial support, not sufficient evidence for an unqualified central-thesis judgment."
+    },
+    {
+      "paper": "ml2-10.1111/j.1468-0017.2006.00297.x",
+      "question": "independent_reproduction",
+      "initial": "yes",
+      "repeat": "unknown",
+      "final": "unknown",
+      "reason": "The two original permissibility contrasts recur in ML2 (d=1.35 and .25), but ML2 does not assess the headline judgment–justification dissociation. Original coauthors also participate in the consortium. This is partial support, not sufficient evidence for an unqualified central-thesis judgment."
+    },
+    {
+      "paper": "ml2-10.1111/j.1468-0017.2006.00297.x",
+      "question": "stronger_test",
+      "initial": "yes",
+      "repeat": "unknown",
+      "final": "unknown",
+      "reason": "The two original permissibility contrasts recur in ML2 (d=1.35 and .25), but ML2 does not assess the headline judgment–justification dissociation. Original coauthors also participate in the consortium. This is partial support, not sufficient evidence for an unqualified central-thesis judgment."
+    },
+    {
+      "paper": "ml2-10.1111/j.1468-0017.2006.00297.x",
+      "question": "method_reused",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "The independent 2017 meta-analysis includes both Hauser2007 contrasts as usable quantitative evidence and estimates contact-dependent effects across 101 studies. Inclusion supports substantive synthesis use, not the stronger unconscious-principle interpretation."
+    },
+    {
+      "paper": "ml2-10.1111/j.1468-0017.2006.00297.x",
+      "question": "late_positive_assessment",
+      "initial": "yes",
+      "repeat": "unknown",
+      "final": "unknown",
+      "reason": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure."
+    },
+    {
+      "paper": "ml2-10.1111/j.1468-0017.2006.00297.x",
+      "question": "synthesis_inclusion",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "The independent 2017 meta-analysis includes both Hauser2007 contrasts as usable quantitative evidence and estimates contact-dependent effects across 101 studies. Inclusion supports substantive synthesis use, not the stronger unconscious-principle interpretation."
+    },
+    {
+      "paper": "econ-10.1257/aer.102.2.720",
+      "question": "central_claim_retained",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "The replication assessment retains that specific contrast."
+    },
+    {
+      "paper": "econ-10.1257/aer.102.2.720",
+      "question": "independent_extension",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "Independent work extends the contribution to group strategy choices."
+    },
+    {
+      "paper": "econ-10.1257/aer.102.2.720",
+      "question": "multiple_groups",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "Ferguson and Cason/Mui independently build on distinct aspects."
+    },
+    {
+      "paper": "econ-10.1257/aer.102.2.720",
+      "question": "method_reused",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "The twenty-strategy set and experimental parameters are reused."
+    },
+    {
+      "paper": "econ-10.1257/aer.102.2.720",
+      "question": "independent_comparison",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "Original strategy constructs form the comparison framework."
+    },
+    {
+      "paper": "econ-10.1257/aer.102.2.720",
+      "question": "external_utility",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "The framework supports measuring individual versus group strategy differences."
+    },
+    {
+      "paper": "econ-10.1257/aer.102.2.720",
+      "question": "beyond_original_setting",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "Use extends to group decisions and ultimatum responses."
+    },
+    {
+      "paper": "econ-10.1257/aer.102.2.720",
+      "question": "enabled_new_result",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "The reused strategy set enables direct observations of switching."
+    },
+    {
+      "paper": "econ-10.1257/aer.102.2.720",
+      "question": "late_use",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "The 2019 study substantively reuses the 2012 contribution."
+    },
+    {
+      "paper": "econ-10.1257/aer.102.2.720",
+      "question": "multiple_followup_years",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "Substantive independent follow-ups occur in 2014 and 2019."
+    },
+    {
+      "paper": "ssrp-10.1126/science.1199327",
+      "question": "stronger_test",
+      "initial": "yes",
+      "repeat": "unknown",
+      "final": "unknown",
+      "reason": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure’s mechanism must be distinguished."
+    },
+    {
+      "paper": "ssrp-10.1126/science.1199327",
+      "question": "multiple_groups",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+    },
+    {
+      "paper": "ssrp-10.1126/science.1199327",
+      "question": "independent_comparison",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+    },
+    {
+      "paper": "ssrp-10.1126/science.1199327",
+      "question": "external_utility",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "The independent classroom adaptation demonstrates better delayed fact recall and tests mapping-plus-retrieval in primary school pupils. It uses simpler mind maps, so cannot by itself establish all original conceptual-learning claims."
+    },
+    {
+      "paper": "ssrp-10.1126/science.1199327",
+      "question": "beyond_original_setting",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "The independent classroom adaptation demonstrates better delayed fact recall and tests mapping-plus-retrieval in primary school pupils. It uses simpler mind maps, so cannot by itself establish all original conceptual-learning claims."
+    },
+    {
+      "paper": "ssrp-10.1126/science.1199327",
+      "question": "enabled_new_result",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "The independent classroom adaptation demonstrates better delayed fact recall and tests mapping-plus-retrieval in primary school pupils. It uses simpler mind maps, so cannot by itself establish all original conceptual-learning claims."
+    },
+    {
+      "paper": "ssrp-10.1126/science.1199327",
+      "question": "operational_adoption",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "ABPMR incorporated self-testing into official candidate study guidance, explicitly grounding it in this paper among others. Adoption is of educational guidance, not evidence that all candidates use it."
+    },
+    {
+      "paper": "ssrp-10.1126/science.1199327",
+      "question": "advantage_retained",
+      "initial": "yes",
+      "repeat": "unknown",
+      "final": "unknown",
+      "reason": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure’s mechanism must be distinguished."
+    },
+    {
+      "paper": "ssrp-10.1126/science.1199327",
+      "question": "late_use",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "Independent experiments substantively use the contribution in 2013, 2018 and 2023."
+    },
+    {
+      "paper": "ssrp-10.1126/science.1224313",
+      "question": "multiple_groups",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "Camerer and Pillaud teams separately collected new data using this specific contribution. The 2025 conference and 2026 journal report count as one group."
+    },
+    {
+      "paper": "ssrp-10.1126/science.1224313",
+      "question": "independent_comparison",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "Independent studies directly compare bodies and faces and retain the body-cue advantage for extreme emotional stimuli, within that scope."
+    },
+    {
+      "paper": "ssrp-10.1126/science.1224313",
+      "question": "external_utility",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "Pillaud and colleagues reused the specific body/face comparison in affective priming, misattribution and action-tendency tasks, demonstrating new scientific effects beyond explicit valence ratings. No commercial benefit is inferred."
+    },
+    {
+      "paper": "ssrp-10.1126/science.1224313",
+      "question": "advantage_retained",
+      "initial": "unknown",
+      "repeat": "yes",
+      "final": "yes",
+      "reason": "Independent studies directly compare bodies and faces and retain the body-cue advantage for extreme emotional stimuli, within that scope."
+    }
+  ],
+  "method": "Two papers per cohort selected by fixed ID hash. Second grader did not see first grade. Root adjudicated source discoveries and claim-scope conflicts before fitting. No true/false conflict is hidden by reporting only binary overlap; the full state confusion is shown.",
+  "limitations": [
+    "Six papers cannot establish general label reliability.",
+    "Known-versus-unknown disagreements show substantial search-coverage sensitivity.",
+    "Replications often test only one component of a broader paper."
+  ]
+}

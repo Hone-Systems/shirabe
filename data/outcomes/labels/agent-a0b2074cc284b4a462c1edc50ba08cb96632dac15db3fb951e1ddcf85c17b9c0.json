@@ -1,0 +1,285 @@
+{
+  "id": "ml2-10.1037/a0034462",
+  "title": "A functional basis for structure-seeking: Exposure to structure promotes willingness to engage in motivated action",
+  "doi": "https://doi.org/10.1037/a0034462",
+  "year": 2014,
+  "field_id": 16,
+  "field": "Psychology",
+  "split": "calibration",
+  "sampling_cohort": "manylabs2_complete_2018",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:47:38.991459+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 12,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://lemmalab.com/wp-content/uploads/publications/2014/Kay_JEPG%20structure%20action.pdf",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Perceiving structure increases willingness to pursue goals, including after reminders of structure in nature."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "ML2",
+      "url": "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf",
+      "title": "Many Labs2: Investigating Variation in Replicability Across Samples and Settings",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_multicenter_replication",
+      "read": true,
+      "independent": true,
+      "finding": "The structure-versus-randomness reminder did not increase goal pursuit in N=6506, d=-0.02,95%CI[-0.07,0.03].",
+      "characters": null,
+      "method": "primary_multicenter_replication",
+      "truncated": false
+    },
+    {
+      "source_id": "R2018",
+      "url": "https://journals.sagepub.com/doi/10.1177/2515245918797130",
+      "title": "Structure and Goal Pursuit: Individual and Cultural Differences",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "author_commentary",
+      "read": true,
+      "independent": false,
+      "finding": "Original authors acknowledge the failed direct replication and propose self-efficacy/action-contingency moderation; these moderators were not measured in ML2.",
+      "characters": null,
+      "method": "author_commentary",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish independent support for the full central claim; a failed component is not proof of universal failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish whether another independent team reproduced the full central result.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "no",
+        "rationale": "The structure-versus-randomness reminder did not increase goal pursuit in N=6506, d=-0.02,95%CI[-0.07,0.03]. The preregistered focal central-claim test did not survive; this is a bounded negative, not rejection of every claim in the paper.",
+        "evidence": [
+          {
+            "source_id": "ML2",
+            "date": "2018",
+            "explanation": "The structure-versus-randomness reminder did not increase goal pursuit in N=6506, d=-0.02,95%CI[-0.07,0.03]. The preregistered focal central-claim test did not survive; this is a bounded negative, not rejection of every claim in the paper."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a later authoritative verdict retaining or rejecting the complete claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish usefulness after an explicit test of the original stated limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a substantive independent extension beyond attempting the same empirical test.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish substantive building by two distinct teams beyond the coordinated replication project.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish application of a proposed reusable method or framework beyond re-running an experimental task.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish an explicit later-review attribution of a new direction to this paper.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish use as a scientific benchmark rather than comparison of replication effect sizes.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish an independent benefit from applying the contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish successful application outside the original problem, rather than merely recruiting a wider sample.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a new capability or result enabled by the contribution rather than by testing it.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish actual operational use; absence of evidence is not nonadoption.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a claimed comparative advantage under fair independent evaluation.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "ML2 re-administered the original experimental task in2018, at least three years after publication. This is substantive research use and does not mean the effect was validated.",
+        "evidence": [
+          {
+            "source_id": "ML2",
+            "date": "2018",
+            "explanation": "ML2 re-administered the original experimental task in2018, at least three years after publication. This is substantive research use and does not mean the effect was validated."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a positive later independent assessment of the full central contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish independent substantive follow-up in two separate later calendar years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a synthesis that adopts the contribution as valid or useful, rather than records a replication failure.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish explicit usefulness despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "The 20-item rubric covers broader contribution success than focal replication. Unknown answers are retained; negative focal results do not establish zero utility or zero uptake.",
+      "This bounded research pass is observed through2026-09-16, not an exhaustive census of every subsequent publication."
+    ],
+    "summary": "The structure-versus-randomness reminder did not increase goal pursuit in N=6506, d=-0.02,95%CI[-0.07,0.03]. Wider adoption and practical utility are not inferred from replication. Original authors propose moderators, not an independent successful replication of this manipulation."
+  },
+  "research_plan": {
+    "queries": [
+      "Many Labs 2 28 effects original studies table Klein 2018 pdf",
+      "\"structure\" \"Kay\" \"2014\" \"replication\" goal pursuit"
+    ],
+    "search_log": [
+      {
+        "query": "Many Labs 2 28 effects original studies table Klein 2018 pdf",
+        "purpose": "Enumerate the complete cohort before selecting by outcome.",
+        "urls_read": [
+          "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf"
+        ]
+      },
+      {
+        "query": "\"structure\" \"Kay\" \"2014\" \"replication\" goal pursuit",
+        "purpose": "Resolve original and check follow-up or contrary evidence; only read sources used for judgments.",
+        "urls_read": [
+          "https://lemmalab.com/wp-content/uploads/publications/2014/Kay_JEPG%20structure%20action.pdf",
+          "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf",
+          "https://journals.sagepub.com/doi/10.1177/2515245918797130"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 1,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.8
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 2,
+    "coverage": 0.1,
+    "score": null,
+    "lower_bound": 0.05,
+    "upper_bound": 0.95,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent / ManyLabs cohort",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

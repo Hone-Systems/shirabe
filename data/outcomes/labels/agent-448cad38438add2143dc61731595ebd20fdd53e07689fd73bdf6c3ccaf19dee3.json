@@ -1,0 +1,268 @@
+{
+  "id": "ssrp-10.1126/science.1222426",
+  "title": "Some consequences of having too little.",
+  "doi": "10.1126/science.1222426",
+  "year": 2012,
+  "field_id": 32,
+  "field": "Psychology / behavioral science",
+  "split": "validation",
+  "sampling_cohort": "ssrp_complete_2018",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:45:36.175865+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 14,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23118192/",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "Resource scarcity shifts attention, increasing engagement with immediate demands but neglect elsewhere and overborrowing."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf",
+      "title": "Camerer et al. SSRP supplementary methods and Tables 1, 3 and 4",
+      "date": "2018-08-27",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Scarcity-related cognitive-fatigue Experiment 1 failed: r=-.015, p=.710, N=619. The original authors distinguish this from their central overborrowing result and reported successful self-replication of that other claim.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Scarcity-related cognitive-fatigue Experiment 1 failed: r=-.015, p=.710, N=619. The original authors distinguish this from their central overborrowing result and reported successful self-replication of that other claim. The central interpretation or cross-study evidence remains unsettled.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "Scarcity-related cognitive-fatigue Experiment 1 failed: r=-.015, p=.710, N=619. The original authors distinguish this from their central overborrowing result and reported successful self-replication of that other claim. The central interpretation or cross-study evidence remains unsettled.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The failed cognitive-fatigue contrast is not interchangeable with the central overborrowing claim. Authors report self-replication of overborrowing, which is not independent validation.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Scarcity-related cognitive-fatigue Experiment 1 failed: r=-.015, p=.710, N=619. The original authors distinguish this from their central overborrowing result and reported successful self-replication of that other claim. The central interpretation or cross-study evidence remains unsettled.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "Scarcity-related cognitive-fatigue Experiment 1 failed: r=-.015, p=.710, N=619. The original authors distinguish this from their central overborrowing result and reported successful self-replication of that other claim. The central interpretation or cross-study evidence remains unsettled.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "This is an evidence-rich replication cohort, not a representative sample of all science or an unbiased measure of lifetime impact.",
+      "Only specified experimental contrasts have direct replication evidence; unknown utility, adoption and durability answers must not be interpreted as failure.",
+      "Searches were completed through 2026-09-16 but do not claim exhaustive coverage of every citation or unpublished result.",
+      "Original assessment is explicitly abstract-only; full original body was not obtained. Training input contains the complete original abstract without publisher summaries."
+    ],
+    "summary": "Scarcity-related cognitive-fatigue Experiment 1 failed: r=-.015, p=.710, N=619. The original authors distinguish this from their central overborrowing result and reported successful self-replication of that other claim. This grade preserves uncertain broader outcomes instead of converting replication status into universal success."
+  },
+  "research_plan": {
+    "queries": [
+      "Social Science Replication Project 21 studies Camerer 2018 original papers list supplementary",
+      "FIRST_PDATE:[2010-01-01 TO 2015-12-31] AND TITLE:\"Some consequences of having too little\"",
+      "\"Some consequences of having too little\" replication 2018"
+    ],
+    "search_log": [
+      {
+        "query": "Social Science Replication Project 21 studies Camerer 2018 original papers list supplementary",
+        "purpose": "Enumerate the complete cohort and inspect preregistered selected contrasts and results.",
+        "urls_read": [
+          "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf",
+          "https://www.nature.com/articles/s41562-018-0399-z"
+        ]
+      },
+      {
+        "query": "FIRST_PDATE:[2010-01-01 TO 2015-12-31] AND TITLE:\"Some consequences of having too little\"",
+        "purpose": "Resolve original title, DOI and abstract in Europe PMC; inspect accessible original.",
+        "urls_read": [
+          "https://pubmed.ncbi.nlm.nih.gov/23118192/"
+        ]
+      },
+      {
+        "query": "\"Some consequences of having too little\" replication 2018",
+        "purpose": "Check independent follow-up and contrary evidence beyond the common replication summary.",
+        "urls_read": [
+          "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent / SSRP expansion",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

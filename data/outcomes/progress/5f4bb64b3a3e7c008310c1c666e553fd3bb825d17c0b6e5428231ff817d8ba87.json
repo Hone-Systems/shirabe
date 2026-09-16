@@ -1,0 +1,14 @@
+{
+  "id": "historic-10.1103/physrevlett.112.241101",
+  "title": "Detection of B-Mode Polarization at Degree Angular Scales by BICEP2",
+  "year": 2014,
+  "field_id": 4,
+  "field": "Physics",
+  "split": "train",
+  "sampling_cohort": "historical_failure_augmentation",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:59:11.684587+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 9,
+  "score": null
+}

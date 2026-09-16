@@ -1,0 +1,361 @@
+{
+  "id": "https://openalex.org/W2513116288",
+  "title": "A Declarative Optimization Engine for Resource Provisioning of Scientific Workflows in Geo-Distributed Clouds",
+  "doi": "https://doi.org/10.1109/tpds.2016.2599529",
+  "year": 2016,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2020-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:19:17.179623+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://doi.org/10.1109/tpds.2016.2599529",
+    "method": "tavily_complete_extraction",
+    "http_status": 202,
+    "characters": 14000,
+    "truncated": false,
+    "sha256": "a160adf61a0173b025d2425f0f0ae0e338abfbc2ea9dff736076f7a5878c2aa6",
+    "retrieved_at": "2026-09-16T19:12:22.964727+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "Geco probabilistic specification language extensions scientific workflow provisioning",
+      "Geco geo-distributed cloud workflow provisioning evaluation replication benchmark",
+      "Geco resource provisioning scientific workflows survey review",
+      "Geco probabilistic optimization GPU runtime optimization workflow scheduling adoption"
+    ],
+    "selected_urls": [
+      "https://research.amanote.com/publication/-5MQ2HMBKQvf0BhiLT2U/a-probabilistic-strategy-for-setting-temporal-constraints-in-scientific-workflows",
+      "https://www.cs.uic.edu/~ajayk/ext/p143-hsu.pdf",
+      "https://iamssgill.wordpress.com/wp-content/uploads/2020/04/cloud-resource-provisioning-survey-status-and-future-research-directions.pdf",
+      "https://www.ijcaonline.org/archives/volume180/number41/29404-2018917097",
+      "https://www.usenix.org/legacy/event/nsdi10/tech/full_papers/agarwal.pdf",
+      "https://engineering.purdue.edu/~isl/papers/ShankarDSN14.pdf",
+      "https://www.cs.hku.hk/~cwu/papers/scalingsocial.pdf",
+      "https://www.sciencedirect.com/science/article/am/pii/S0167739X15000059"
+    ],
+    "plan_usage": {
+      "cache_key": "bf15e2c77fe060429b45050e25a8abc759aa27d2834cfb3b928021d7d7599436",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 3818,
+        "input_tokens_details": {
+          "cache_write_tokens": 3815,
+          "cached_tokens": 0
+        },
+        "output_tokens": 324,
+        "output_tokens_details": {
+          "reasoning_tokens": 266
+        },
+        "total_tokens": 4142
+      },
+      "input_tokens_estimate": 3784,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "7b75e0b2855a52feb77b027b0590a3c8939604cb00fbd6529a9301b32b22665a",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 8136,
+        "input_tokens_details": {
+          "cache_write_tokens": 8133,
+          "cached_tokens": 0
+        },
+        "output_tokens": 729,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 8865
+      },
+      "input_tokens_estimate": 8102,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://research.amanote.com/publication/-5MQ2HMBKQvf0BhiLT2U/a-probabilistic-strategy-for-setting-temporal-constraints-in-scientific-workflows",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 1577,
+      "truncated": false,
+      "sha256": "a07905418c83afb4b180d0214080684a7f8be695b45f07553f3a7e2357a97d67",
+      "retrieved_at": "2026-09-16T19:18:59.492554+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.cs.uic.edu/~ajayk/ext/p143-hsu.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 88112,
+      "truncated": false,
+      "sha256": "074f5058219ca0b7ffbe4ad52bf64aa1a0c58b35eeef34188c914411b161609f",
+      "retrieved_at": "2026-09-16T19:19:01.228577+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://iamssgill.wordpress.com/wp-content/uploads/2020/04/cloud-resource-provisioning-survey-status-and-future-research-directions.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 398618,
+      "truncated": false,
+      "sha256": "033a82950abc23924df69a441085aa2a6d8fee54202cd6976ac597e6e06e6ea7",
+      "retrieved_at": "2026-09-16T19:19:00.977311+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.ijcaonline.org/archives/volume180/number41/29404-2018917097",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 6940,
+      "truncated": false,
+      "sha256": "7ed868a618c5927b15ab0381cc5107ac339e376f8fc7bb635539746b4036c262",
+      "retrieved_at": "2026-09-16T19:18:58.932981+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.usenix.org/legacy/event/nsdi10/tech/full_papers/agarwal.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 101793,
+      "truncated": false,
+      "sha256": "77ee03446764632619eea89e3d05e6523f5f3a0e15b6323ddce3fb3d2339c796",
+      "retrieved_at": "2026-09-16T19:18:59.733720+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://engineering.purdue.edu/~isl/papers/ShankarDSN14.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 94745,
+      "truncated": false,
+      "sha256": "2b1eac60f8d7b997df16f9b0302154a190cb9c7792baffba22ef977ed4158af9",
+      "retrieved_at": "2026-09-16T19:19:00.816079+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://www.cs.hku.hk/~cwu/papers/scalingsocial.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 91399,
+      "truncated": false,
+      "sha256": "6ea318fc14e448be699fc25f27f5f84a5356a791939545463f4d952727cd9141",
+      "retrieved_at": "2026-09-16T19:19:02.902221+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://www.sciencedirect.com/science/article/am/pii/S0167739X15000059",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:19:03.812065+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No supplied 2017–2020 source explicitly supports Geco’s central claim in a later independent primary study.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up documents do not report an independent reproduction of Geco’s engine, construction, or results.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No supplied source reports a larger, stricter, or independently collected follow-up test of Geco.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "No later authoritative assessment in the supplied 2017–2020 window explicitly evaluates and retains Geco’s central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up explicitly tests Geco’s stated limitations and demonstrates that its contribution remains useful.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not document an independent substantive extension of Geco specifically.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The supplied materials do not establish that at least two independent groups substantively built on Geco.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Later supplied studies address related geo-distributed provisioning or replication problems, but none is shown to use Geco’s proposed method or framework.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The supplied surveys discuss cloud resource-provisioning research broadly but do not explicitly identify Geco as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No supplied 2017–2020 source uses Geco as a baseline, benchmark, or theoretical reference construction in an independent study.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up demonstrates a concrete scientific or practical benefit from independently applying Geco.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The supplied sources provide no paper-specific evidence that Geco was successfully used outside its original workflow-provisioning evaluation.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No supplied later work attributes a new result, measurement, theorem, or capability to Geco.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Although operational use is appropriate for a provisioning engine, no supplied 2017–2020 source documents adoption in a product, workflow, standard, or practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent comparison in the supplied follow-up window evaluates whether Geco’s claimed performance/cost advantage is retained.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The supplied sources include later work in related domains, but none documents substantive use of Geco at least three years after publication.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No supplied source provides a positive independent assessment of Geco at least three years after publication.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The supplied 2018 and 2019 documents concern related resource-management topics but do not document substantive independent follow-up of Geco itself.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The supplied surveys do not explicitly adopt Geco as a validated or useful contribution.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No supplied later evidence explicitly shows that Geco remained useful despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied 2017–2020 source directly names or evaluates Geco (the engine proposed in the target paper).",
+      "Several retrieved documents concern related cloud provisioning, replication, or geo-distributed systems but are not paper-specific follow-up.",
+      "The supplied 2018 survey and 2019 primary study do not establish reuse, comparison, adoption, or validation of Geco."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "76273cf06b05323f3e96d371f0fd95ebc9c6c5cea4c103b7986bb3358c9408de",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 132621,
+      "input_tokens_details": {
+        "cache_write_tokens": 132618,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1420,
+      "output_tokens_details": {
+        "reasoning_tokens": 470
+      },
+      "total_tokens": 134041
+    },
+    "input_tokens_estimate": 132378,
+    "truncated": false
+  }
+}

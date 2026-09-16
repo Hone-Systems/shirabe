@@ -1,0 +1,14 @@
+{
+  "id": "ml2-10.1037/0022-3514.83.5.1239",
+  "title": "Cultural variation in correspondence bias: The critical role of attitude diagnosticity of socially constrained behavior",
+  "year": 2002,
+  "field_id": 16,
+  "field": "Psychology",
+  "split": "calibration",
+  "sampling_cohort": "manylabs2_complete_2018",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:56:33.869428+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 3,
+  "score": null
+}

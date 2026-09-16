@@ -1,0 +1,336 @@
+{
+  "id": "challenge-superconductor",
+  "title": "Room-temperature superconductivity in a carbonaceous sulfur hydride",
+  "doi": "https://doi.org/10.1038/s41586-020-2801-z",
+  "year": 2020,
+  "field_id": 31,
+  "field": "Physics",
+  "split": "challenge",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2024-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:09:05.895692+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://www.nature.com/articles/s41586-020-2801-z.pdf",
+    "method": "html_main_text",
+    "http_status": 200,
+    "characters": 33998,
+    "truncated": false,
+    "sha256": "3952abea9f905163556c31441c919e48fb52a5a23616d3d6cb7517279d5bc8ce",
+    "retrieved_at": "2026-09-16T19:08:34.495955+00:00"
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.nature.com/articles/s41586-022-05294-9",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 4193,
+      "truncated": false,
+      "sha256": "6b87793b485b8d234c223d73c33dfc37ab153aab1c45ff4f67c1b86c7b1c8a16",
+      "retrieved_at": "2026-09-16T19:08:29.075571+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.osti.gov/servlets/purl/1673473",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 49771,
+      "truncated": false,
+      "sha256": "e8c8764bb13cf6357ac30f47cb1663f9c96139ea0be7d4e899853abc598a6560",
+      "retrieved_at": "2026-09-16T19:08:28.493198+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36163290/",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 21412,
+      "truncated": false,
+      "sha256": "5002da2c804e41f5ac29c9a8785efc90f5783558f832a94fe8fdc3f9e2890690",
+      "retrieved_at": "2026-09-16T19:08:27.993568+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://arxiv.org/pdf/2302.08622",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 67574,
+      "truncated": false,
+      "sha256": "3f10844892451e17b81d7bf9c5a3d55c47639e4e16f2539d4559f97cb9b12192",
+      "retrieved_at": "2026-09-16T19:08:30.138322+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.sciencenews.org/article/room-temperature-superconductor-retraction-physics",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 5871,
+      "truncated": false,
+      "sha256": "48c17ef1539b9f90668f3f261f10dfa7af8b1564e34282166da4b14f4f606b75",
+      "retrieved_at": "2026-09-16T19:08:28.289246+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://en.wikipedia.org/wiki/Room-temperature_superconductor",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 29012,
+      "truncated": false,
+      "sha256": "0437de81d691f2c734bb1440a8b9c21e2f1775cb2edd705debbf724adc4360f2",
+      "retrieved_at": "2026-09-16T19:08:28.708550+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://www.researchgate.net/post/Room-temperature_superconductivity_Breakthrough_or_scientific_fraud",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:08:32.813470+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://link.springer.com/article/10.1007/s10948-023-06593-6",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 23755,
+      "truncated": false,
+      "sha256": "1d1536b039380197e236a35f0f69305b803fcd513ecd2e0788175fe5a0a665ee",
+      "retrieved_at": "2026-09-16T19:08:29.895306+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-09-26"
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "no",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-09-26"
+          },
+          {
+            "source_id": "S1",
+            "date": "2022-09-26"
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": ""
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S8",
+            "date": "2023-06-17"
+          }
+        ]
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S8",
+            "date": "2023-06-17"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "no",
+        "evidence": [
+          {
+            "source_id": "S8",
+            "date": "2023-06-17"
+          },
+          {
+            "source_id": "S1",
+            "date": "2022-09-26"
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S8",
+            "date": "2023-06-17"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No dated independent primary replication of the original 287.7 K C-S-H result was supplied.",
+      "The publication date and independence status of S4 cannot be established reliably from the supplied document.",
+      "No systematic review, textbook, standard, product, workflow, or demonstrated practical application adopting this specific contribution was supplied."
+    ]
+  },
+  "validation_rejected": [
+    "independent_comparison"
+  ],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 1,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.8
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 1,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 0.6666666666666666,
+        "lower_bound": 0.4,
+        "upper_bound": 0.8
+      }
+    },
+    "known_answers": 4,
+    "coverage": 0.2,
+    "score": null,
+    "lower_bound": 0.1,
+    "upper_bound": 0.8999999999999999,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "e02b456746774c76041b9aa1a135247ed6692a1079ec0d18e0abc0fb9e833ac4",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 69975,
+      "input_tokens_details": {
+        "cache_write_tokens": 69972,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3328,
+      "output_tokens_details": {
+        "reasoning_tokens": 1552
+      },
+      "total_tokens": 73303
+    },
+    "input_tokens_estimate": 69732,
+    "truncated": false
+  }
+}

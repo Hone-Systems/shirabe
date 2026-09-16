@@ -1,0 +1,404 @@
+{
+  "id": "historic-10.1016/0022-0728(89)80006-3",
+  "title": "Electrochemically induced nuclear fusion of deuterium",
+  "doi": "10.1016/0022-0728(89)80006-3",
+  "year": 1989,
+  "field_id": 16,
+  "field": "Chemistry",
+  "split": "train",
+  "sampling_cohort": "historical_failure_augmentation",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:58:14.552739+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 37,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://thunderstorm.tech/resources/articles/_articles/1989_Fleischmann_Pons_Hawkins_Electrochemically%20induced%20nuclear%20fusion%20of%20deuterium.pdf",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Electrochemical loading of deuterium in palladium produces excess heat attributed to nuclear processes, with reported neutron and tritium signatures."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "O",
+      "url": "https://thunderstorm.tech/resources/articles/_articles/1989_Fleischmann_Pons_Hawkins_Electrochemically%20induced%20nuclear%20fusion%20of%20deuterium.pdf",
+      "title": "Electrochemically induced nuclear fusion of deuterium",
+      "date": "1989",
+      "date_basis": "publication",
+      "kind": "original_paper",
+      "read": true,
+      "independent": false,
+      "finding": "Original author text; central claims recorded before outcome grading.",
+      "characters": null,
+      "method": "original_paper",
+      "truncated": false
+    },
+    {
+      "source_id": "S1",
+      "url": "https://www.osti.gov/servlets/purl/5144772",
+      "title": "Cold Fusion Research: Report of the Energy Research Advisory Board",
+      "date": "1989",
+      "date_basis": "publication",
+      "kind": "expert_assessment",
+      "read": true,
+      "independent": true,
+      "finding": "Panel finds nuclear explanation unpersuasive and no convincing useful-energy evidence; not every anomalous observation categorically disproved.",
+      "characters": null,
+      "method": "expert_assessment",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.nature.com/articles/s41586-019-1256-6",
+      "title": "Revisiting the cold case of cold fusion",
+      "date": "2019",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent multi-institution investigation finds no cold-fusion evidence while reporting new insights into hydrided metals and low-energy nuclear reactions. Publisher abstract and reference annotations read.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.nature.com/articles/d41586-019-01675-9",
+      "title": "A Google programme failed to detect cold fusion — but is still a success",
+      "date": "2019",
+      "date_basis": "publication",
+      "kind": "editorial_assessment",
+      "read": true,
+      "independent": true,
+      "finding": "Editorial records null fusion evidence and material-condition limitations, while recognizing improved calorimetry and hydrided-metal techniques.",
+      "characters": null,
+      "method": "editorial_assessment",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Some positive reports exist in the reviewed literature, but authoritative assessment finds the nuclear attribution and reproducibility unpersuasive. No independently established reproducible confirmation was verified.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "1989",
+            "explanation": "Some positive reports exist in the reviewed literature, but authoritative assessment finds the nuclear attribution and reproducibility unpersuasive. No independently established reproducible confirmation was verified."
+          },
+          {
+            "source_id": "S2",
+            "date": "2019",
+            "explanation": "Some positive reports exist in the reviewed literature, but authoritative assessment finds the nuclear attribution and reproducibility unpersuasive. No independently established reproducible confirmation was verified."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "Some positive reports exist in the reviewed literature, but authoritative assessment finds the nuclear attribution and reproducibility unpersuasive. No independently established reproducible confirmation was verified.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "1989",
+            "explanation": "Some positive reports exist in the reviewed literature, but authoritative assessment finds the nuclear attribution and reproducibility unpersuasive. No independently established reproducible confirmation was verified."
+          },
+          {
+            "source_id": "S2",
+            "date": "2019",
+            "explanation": "Some positive reports exist in the reviewed literature, but authoritative assessment finds the nuclear attribution and reproducibility unpersuasive. No independently established reproducible confirmation was verified."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "no",
+        "rationale": "The DOE assessment did not accept nuclear excess heat; the rigorous 2019 programme also found no cold fusion. Neither source claims every possible material condition was excluded.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "1989",
+            "explanation": "The DOE assessment did not accept nuclear excess heat; the rigorous 2019 programme also found no cold fusion. Neither source claims every possible material condition was excluded."
+          },
+          {
+            "source_id": "S2",
+            "date": "2019",
+            "explanation": "The DOE assessment did not accept nuclear excess heat; the rigorous 2019 programme also found no cold fusion. Neither source claims every possible material condition was excluded."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "no",
+        "rationale": "The DOE assessment did not accept nuclear excess heat; the rigorous 2019 programme also found no cold fusion. Neither source claims every possible material condition was excluded.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "1989",
+            "explanation": "The DOE assessment did not accept nuclear excess heat; the rigorous 2019 programme also found no cold fusion. Neither source claims every possible material condition was excluded."
+          },
+          {
+            "source_id": "S2",
+            "date": "2019",
+            "explanation": "The DOE assessment did not accept nuclear excess heat; the rigorous 2019 programme also found no cold fusion. Neither source claims every possible material condition was excluded."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "The independent 2019 programme substantively revisits the original research programme and develops new hydrided-metal insights and measurement capabilities despite no fusion confirmation.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019",
+            "explanation": "The independent 2019 programme substantively revisits the original research programme and develops new hydrided-metal insights and measurement capabilities despite no fusion confirmation."
+          },
+          {
+            "source_id": "S3",
+            "date": "2019",
+            "explanation": "The independent 2019 programme substantively revisits the original research programme and develops new hydrided-metal insights and measurement capabilities despite no fusion confirmation."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Improved measurement tools are reported, but verified downstream deployment or a useful energy source was not established.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "1989",
+            "explanation": "Improved measurement tools are reported, but verified downstream deployment or a useful energy source was not established."
+          },
+          {
+            "source_id": "S3",
+            "date": "2019",
+            "explanation": "Improved measurement tools are reported, but verified downstream deployment or a useful energy source was not established."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The independent 2019 programme substantively revisits the original research programme and develops new hydrided-metal insights and measurement capabilities despite no fusion confirmation.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019",
+            "explanation": "The independent 2019 programme substantively revisits the original research programme and develops new hydrided-metal insights and measurement capabilities despite no fusion confirmation."
+          },
+          {
+            "source_id": "S3",
+            "date": "2019",
+            "explanation": "The independent 2019 programme substantively revisits the original research programme and develops new hydrided-metal insights and measurement capabilities despite no fusion confirmation."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The independent 2019 programme substantively revisits the original research programme and develops new hydrided-metal insights and measurement capabilities despite no fusion confirmation.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019",
+            "explanation": "The independent 2019 programme substantively revisits the original research programme and develops new hydrided-metal insights and measurement capabilities despite no fusion confirmation."
+          },
+          {
+            "source_id": "S3",
+            "date": "2019",
+            "explanation": "The independent 2019 programme substantively revisits the original research programme and develops new hydrided-metal insights and measurement capabilities despite no fusion confirmation."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Purposively selected historical failed/disputed claim, training augmentation only; never part of unbiased held-out evaluation.",
+      "Failure of a central claim does not make all subsequent research or practical contributions failures.",
+      "The 2019 primary paper was accessible as complete publisher abstract and reference annotations; its German mirror translation was not used as authoritative English full text. Positive LENR claims are not equated with established fusion."
+    ],
+    "summary": "The original nuclear-energy interpretation was not accepted by the DOE review and gained no confirmation in a rigorous 2019 investigation. The research programme nevertheless generated measurement and materials advances. It remains distinct from a demonstrated usable fusion energy source."
+  },
+  "research_plan": {
+    "queries": [
+      "GET https://thunderstorm.tech/resources/articles/_articles/1989_Fleischmann_Pons_Hawkins_Electrochemically%20induced%20nuclear%20fusion%20of%20deuterium.pdf",
+      "\"cold fusion\" \"1989\" \"DOE\" report conclusion",
+      "site:nature.com Revisiting cold case cold fusion 2019 no evidence 569",
+      "site:nature.com Revisiting cold case cold fusion 2019 no evidence 569"
+    ],
+    "search_log": [
+      {
+        "query": "GET https://thunderstorm.tech/resources/articles/_articles/1989_Fleischmann_Pons_Hawkins_Electrochemically%20induced%20nuclear%20fusion%20of%20deuterium.pdf",
+        "purpose": "Read original author manuscript and verify identity",
+        "urls_read": [
+          "https://thunderstorm.tech/resources/articles/_articles/1989_Fleischmann_Pons_Hawkins_Electrochemically%20induced%20nuclear%20fusion%20of%20deuterium.pdf"
+        ]
+      },
+      {
+        "query": "\"cold fusion\" \"1989\" \"DOE\" report conclusion",
+        "purpose": "Inspect independent outcomes, limitations and contrary evidence",
+        "urls_read": [
+          "https://www.osti.gov/servlets/purl/5144772"
+        ]
+      },
+      {
+        "query": "site:nature.com Revisiting cold case cold fusion 2019 no evidence 569",
+        "purpose": "Inspect independent outcomes, limitations and contrary evidence",
+        "urls_read": [
+          "https://www.nature.com/articles/s41586-019-1256-6"
+        ]
+      },
+      {
+        "query": "site:nature.com Revisiting cold case cold fusion 2019 no evidence 569",
+        "purpose": "Inspect independent outcomes, limitations and contrary evidence",
+        "urls_read": [
+          "https://www.nature.com/articles/d41586-019-01675-9"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 2,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.6
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 5,
+    "coverage": 0.25,
+    "score": null,
+    "lower_bound": 0.15000000000000002,
+    "upper_bound": 0.9,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous researcher /root/expand_econ",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

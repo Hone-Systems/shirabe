@@ -1,0 +1,177 @@
+{
+  "model_id": "agent-rubric-convergence-round-3-wording-seed42",
+  "checkpoint": "artifacts/private/outcome-training/round-3/wording-n47-seed42/weights.pt",
+  "checkpoint_sha256": "d1767de845fc67da978dc8970e8aac84cc8cf9159a532e2288e217c7991db541",
+  "base_model": "google/bert_uncased_L-4_H-256_A-4",
+  "revision": "387825ce42dbb39b87911cdf8e383ee3b25184f8",
+  "wording_version": "wording-spans-v3-full",
+  "supported": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false
+  ],
+  "question_counts": [
+    {
+      "id": "claim_supported",
+      "dimension": "validation",
+      "question": "Does a later independent primary study explicitly support the paper's central claim?",
+      "unknown": 25,
+      "yes": 20,
+      "no": 2
+    },
+    {
+      "id": "independent_reproduction",
+      "dimension": "validation",
+      "question": "Has an independent team reproduced the central result, construction or proof?",
+      "unknown": 26,
+      "yes": 19,
+      "no": 2
+    },
+    {
+      "id": "stronger_test",
+      "dimension": "validation",
+      "question": "Did the central claim survive a larger, stricter or independently collected follow-up test?",
+      "unknown": 14,
+      "yes": 19,
+      "no": 14
+    },
+    {
+      "id": "central_claim_retained",
+      "dimension": "validation",
+      "question": "Does a later authoritative assessment explicitly retain the central claim rather than reject it?",
+      "unknown": 37,
+      "no": 5,
+      "yes": 5
+    },
+    {
+      "id": "limitations_survived",
+      "dimension": "validation",
+      "question": "Did later work show the central contribution remains useful after explicitly testing its stated limitations?",
+      "unknown": 46,
+      "no": 1
+    },
+    {
+      "id": "independent_extension",
+      "dimension": "uptake",
+      "question": "Did an independent group publish a substantive extension of this specific contribution?",
+      "unknown": 34,
+      "yes": 13
+    },
+    {
+      "id": "multiple_groups",
+      "dimension": "uptake",
+      "question": "Did at least two independent groups substantively build on this specific contribution?",
+      "unknown": 44,
+      "yes": 3
+    },
+    {
+      "id": "method_reused",
+      "dimension": "uptake",
+      "question": "Did an independent study actually use the proposed method, result or framework rather than merely cite it?",
+      "yes": 12,
+      "unknown": 35
+    },
+    {
+      "id": "new_research_direction",
+      "dimension": "uptake",
+      "question": "Does a later review explicitly identify this contribution as enabling a research direction?",
+      "unknown": 47
+    },
+    {
+      "id": "independent_comparison",
+      "dimension": "uptake",
+      "question": "Was this contribution used as an actual baseline, benchmark or theoretical reference construction in independent work?",
+      "unknown": 43,
+      "yes": 4
+    },
+    {
+      "id": "external_utility",
+      "dimension": "utility",
+      "question": "Was a concrete scientific or practical benefit from applying the contribution demonstrated independently?",
+      "unknown": 42,
+      "yes": 5
+    },
+    {
+      "id": "beyond_original_setting",
+      "dimension": "utility",
+      "question": "Was the contribution successfully used outside the original evaluation setting or problem instance?",
+      "unknown": 43,
+      "yes": 4
+    },
+    {
+      "id": "enabled_new_result",
+      "dimension": "utility",
+      "question": "Did the contribution enable a new result, measurement, theorem or capability in later work?",
+      "unknown": 37,
+      "yes": 10
+    },
+    {
+      "id": "operational_adoption",
+      "dimension": "utility",
+      "question": "Where an operational application is appropriate, was the contribution actually used in a product, workflow, standard or practice?",
+      "unknown": 46,
+      "yes": 1
+    },
+    {
+      "id": "advantage_retained",
+      "dimension": "utility",
+      "question": "Did an independent comparison find a claimed advantage holds under fair evaluation?",
+      "not_applicable": 2,
+      "unknown": 45
+    },
+    {
+      "id": "late_use",
+      "dimension": "durability",
+      "question": "Is there evidence of substantive use at least three years after publication?",
+      "yes": 27,
+      "unknown": 20
+    },
+    {
+      "id": "late_positive_assessment",
+      "dimension": "durability",
+      "question": "Is there a positive independent assessment of the central contribution at least three years after publication?",
+      "unknown": 24,
+      "yes": 23
+    },
+    {
+      "id": "multiple_followup_years",
+      "dimension": "durability",
+      "question": "Is substantive independent follow-up documented in at least two distinct later calendar years?",
+      "unknown": 32,
+      "yes": 15
+    },
+    {
+      "id": "synthesis_inclusion",
+      "dimension": "durability",
+      "question": "Does an independent systematic review, textbook, standard or research synthesis adopt the contribution as valid or useful?",
+      "yes": 9,
+      "unknown": 37,
+      "no": 1
+    },
+    {
+      "id": "continued_relevance",
+      "dimension": "durability",
+      "question": "Does later evidence explicitly show continued usefulness despite newer alternatives?",
+      "unknown": 47
+    }
+  ],
+  "training_papers": 47,
+  "experimental": true
+}

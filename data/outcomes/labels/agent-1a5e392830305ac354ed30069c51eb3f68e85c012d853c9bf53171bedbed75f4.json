@@ -1,0 +1,336 @@
+{
+  "id": "https://openalex.org/W3081066862",
+  "title": "Role of Federal Government in Managing Conflicts: Somalia",
+  "doi": "https://doi.org/10.38124/ijisrt20aug239",
+  "year": 2020,
+  "field_id": 33,
+  "field": "Social Sciences",
+  "split": "calibration",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:52:21.280126+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 6,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://www.ijisrt.com/assets/upload/files/IJISRT20AUG239.pdf",
+    "scope": "full_text",
+    "read": true,
+    "pages": 7
+  },
+  "central_claims": [
+    "A descriptive survey of 101 respondents reports widespread dissatisfaction with past Somali conflict resolution and perceptions of federal involvement and institutional weakness.",
+    "The authors recommend stronger federal agencies alongside community and traditional conflict-resolution mechanisms; they do not evaluate an implemented intervention."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://siep.so/wp-content/uploads/2023/02/Policy-brief-1-Branded.pdf",
+      "title": "The impact of governance and political economy on the commercial viability of NTFP value chains",
+      "date": "2026-09-16",
+      "date_basis": "observed_as_of",
+      "kind": "policy_research_synthesis",
+      "read": true,
+      "independent": true,
+      "scope": "full_text",
+      "finding": "Louis Njie Ndumbe accurately incorporates the conflict-governance findings and community-resolution recommendation into a resource-governance synthesis. Publication date is not established; the URL path is not used as a date.",
+      "characters": null,
+      "method": "policy_research_synthesis",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://siep.so/wp-content/uploads/2023/02/REVISED-FCDO-REPORT-FINAL-branded-09012023-2.pdf",
+      "title": "Sustainable Dryland Resources Management for enhanced Livelihoods, Food Security and Climate Change Adaptation in Somalia",
+      "date": "2022",
+      "date_basis": "publication",
+      "kind": "primary_project_report",
+      "read": true,
+      "independent": true,
+      "scope": "cover, executive summary, acknowledgements, methods and political-economy section",
+      "finding": "The December 2022 SIEP report explicitly incorporates Sumra and Almi in its governance analysis. Its own fieldwork concerns forest products, not a replication of the original conflict survey. S1 is an output of this same project, not a second independent group.",
+      "characters": null,
+      "method": "primary_project_report",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://journalofinternaldisplacement.org/index.php/JID/article/download/166/93",
+      "title": "Climate Change and Internal Environmental Displacement in Somalia: Analyzing the Linkages Between Environmental Degradation, Conflict Dynamics, and Displacement Trends",
+      "date": "2025",
+      "date_basis": "publication",
+      "kind": "journal_synthesis",
+      "read": true,
+      "independent": true,
+      "scope": "abstract, introduction, policy-response and discussion sections, references",
+      "finding": "References identify the original paper, but citing passages attribute reforestation and climate-project outcomes absent from that paper. These passages do not establish faithful later use or validation.",
+      "characters": null,
+      "method": "journal_synthesis",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The SIEP study has new forest-resource data, but its citation of the conflict survey is not an independent test supporting the central survey result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No independent repetition of the original 101-person conflict survey or its central findings was located.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The larger SIEP forest-products survey asks different questions; it is not a stricter test of the original conflict-resolution thesis.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "SIEP accurately summarizes the findings, but does not explicitly assess and retain them after evaluating their validity.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No follow-up tests whether the original sample and acknowledged limited coverage alter the central conclusion.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The resource-governance discussion incorporates background findings; a substantive extension of the original contribution is not established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The brief and full report belong to one project; the 2025 article has problematic attribution, so two substantive independent users are not established.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "SIEP uses the conclusion as governance background, but no analytical method or result-dependent research design is demonstrated.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review credits this paper with enabling a distinct research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No comparative study uses its survey or framework as an actual benchmark.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Recommendations in a funded report do not demonstrate benefits caused by applying this paper.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The forest-resource context is different, but successful application of the specific contribution is not evaluated.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "SIEP collects new forest-resource data without establishing that this paper enabled those results.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Funding and publication of policy recommendations are not evidence that the proposed conflict-resolution practices were implemented because of this paper.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The original policy recommendations have no retrieved independent comparative outcome evaluation.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The dated SIEP report is from 2022, only two years later. The brief is undated and the 2025 citations misattribute findings, so substantive use after three years is not established.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No reliable independent assessment after 2023 evaluates the central conflict-survey contribution positively.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "One dated substantive synthesis is established in 2022; the related brief has no verified date and the 2025 passages are not faithful follow-up.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "The independent SIEP governance synthesis accurately adopts the paper’s findings and community-resolution recommendation as useful background for resource-governance policy. This is limited synthesis uptake, not empirical validation.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022",
+            "explanation": "The independent SIEP governance synthesis accurately adopts the paper’s findings and community-resolution recommendation as useful background for resource-governance policy. This is limited synthesis uptake, not empirical validation."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Neither SIEP output explicitly compares this contribution with newer alternatives or establishes a retained advantage.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No replication, evaluated intervention or causal policy impact attributable to this paper was found; absence of evidence is not failure.",
+      "The undated brief and dated full report are one project. The brief’s URL directory is not a verified publication date.",
+      "A 2025 citation assigns environmental-intervention findings to an original paper that does not contain them; it is not counted as validation or late substantive use.",
+      "Full original and brief were read. The report and later journal article were read in the explicit source scopes."
+    ],
+    "summary": "A resource-governance project faithfully incorporates the conflict paper in a policy research synthesis, but no independent replication or demonstrated policy benefit was established. Later apparent citations include attribution errors. Only bounded synthesis uptake is supported."
+  },
+  "research_plan": {
+    "queries": [
+      "\"Role of Federal Government in Managing Conflicts\" Somalia",
+      "\"IJISRT20AUG239\" -site:ijisrt.com -site:scribd.com",
+      "\"Sumra\" \"Almi\" Somalia -site:ijisrt.com -site:researchgate.net -site:academia.edu -site:scribd.com",
+      "\"Role of Federal Government in Managing Conflicts\" replication criticism correction",
+      "\"Sumra\" \"Somalia\" \"2024\" conflict",
+      "\"Role of Federal Government in Managing Conflicts: Somalia\" -site:ijisrt.com -site:scribd.com -site:researchgate.net -site:academia.edu",
+      "\"Sumra\" \"Almi\" \"conflict resolution\" 2021 2022 2023 2024 2025",
+      "\"IJISRT20AUG239\" retraction correction critique"
+    ],
+    "search_log": [
+      {
+        "query": "\"Role of Federal Government in Managing Conflicts\" Somalia",
+        "purpose": "Resolve original and direct follow-up",
+        "urls_read": [
+          "https://www.ijisrt.com/assets/upload/files/IJISRT20AUG239.pdf",
+          "https://siep.so/wp-content/uploads/2023/02/Policy-brief-1-Branded.pdf",
+          "https://siep.so/wp-content/uploads/2023/02/REVISED-FCDO-REPORT-FINAL-branded-09012023-2.pdf"
+        ]
+      },
+      {
+        "query": "\"IJISRT20AUG239\" -site:ijisrt.com -site:scribd.com",
+        "purpose": "Trace exact identifier",
+        "urls_read": []
+      },
+      {
+        "query": "\"Sumra\" \"Almi\" Somalia -site:ijisrt.com -site:researchgate.net -site:academia.edu -site:scribd.com",
+        "purpose": "Find independent author citations",
+        "urls_read": [
+          "https://journalofinternaldisplacement.org/index.php/JID/article/download/166/93"
+        ]
+      },
+      {
+        "query": "\"Role of Federal Government in Managing Conflicts\" replication criticism correction",
+        "purpose": "Seek replication and contrary findings",
+        "urls_read": []
+      },
+      {
+        "query": "\"Sumra\" \"Somalia\" \"2024\" conflict",
+        "purpose": "Trace later engagement",
+        "urls_read": []
+      },
+      {
+        "query": "\"Role of Federal Government in Managing Conflicts: Somalia\" -site:ijisrt.com -site:scribd.com -site:researchgate.net -site:academia.edu",
+        "purpose": "Search beyond paper mirrors",
+        "urls_read": []
+      },
+      {
+        "query": "\"Sumra\" \"Almi\" \"conflict resolution\" 2021 2022 2023 2024 2025",
+        "purpose": "Expand follow-up years",
+        "urls_read": []
+      },
+      {
+        "query": "\"IJISRT20AUG239\" retraction correction critique",
+        "purpose": "Check explicit correction or critique",
+        "urls_read": []
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 1,
+    "coverage": 0.05,
+    "score": null,
+    "lower_bound": 0.05,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent /root",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W3081066862",
+  "title": "Role of Federal Government in Managing Conflicts: Somalia",
+  "year": 2020,
+  "field_id": 33,
+  "field": "Social Sciences",
+  "split": "calibration",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T19:52:21.280415+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 1,
+  "score": null
+}

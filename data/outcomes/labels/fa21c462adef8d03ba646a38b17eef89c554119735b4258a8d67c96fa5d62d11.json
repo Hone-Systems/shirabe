@@ -1,0 +1,391 @@
+{
+  "id": "challenge-superconductor",
+  "title": "Room-temperature superconductivity in a carbonaceous sulfur hydride",
+  "doi": "https://doi.org/10.1038/s41586-020-2801-z",
+  "year": 2020,
+  "field_id": 31,
+  "field": "Physics",
+  "split": "challenge",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2024-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:10:23.654409+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://www.nature.com/articles/s41586-020-2801-z.pdf",
+    "method": "html_main_text",
+    "http_status": 200,
+    "characters": 33998,
+    "truncated": false,
+    "sha256": "3952abea9f905163556c31441c919e48fb52a5a23616d3d6cb7517279d5bc8ce",
+    "retrieved_at": "2026-09-16T19:08:34.495955+00:00"
+  },
+  "retrieval_version": 2,
+  "research_plan": {
+    "queries": [
+      "(\"carbonaceous sulfur hydride\" OR \"C–S–H\" OR \"C-S-H\") (photochemical OR \"C + S + H2\" OR \"elemental precursors\" OR \"guest–host\") (superconduct* OR \"chemical tuning\" OR \"lower pressure\") after:2020 before:2025 -tutorial -social",
+      "(\"carbonaceous sulfur hydride\" OR \"C–S–H\" OR \"C-S-H\") (replication OR reproduce OR independent OR critical OR reanalysis OR retraction) (\"zero resistance\" OR \"magnetic susceptibility\" OR Raman OR \"external magnetic field\" OR \"raw data\") after:2020 before:2025 (Nature OR \"Physical Review\" OR arXiv)",
+      "(\"carbonaceous sulfur hydride\" OR \"C–S–H\" OR \"C-S-H\") (synthesis OR preparation OR photochemical OR laser OR \"532 nm\" OR \"van der Waals solid\") (diamond-anvil OR megabar OR high-pressure) after:2020 before:2025 -tutorial",
+      "(\"carbonaceous sulfur hydride\" OR \"C–S–H\" OR \"C-S-H\") (DFT OR \"electron-phonon\" OR \"CH4 intercalation\" OR \"H3S\" OR ternary hydride OR \"chemical tuning\") (application OR practical OR device OR materials-design OR theory) after:2020 before:2025 (journal OR DOI OR review) -tutorial -social"
+    ],
+    "selected_urls": [
+      "https://www.nature.com/articles/s41586-022-05294-9",
+      "https://arxiv.org/abs/2201.07686",
+      "https://arxiv.org/html/2109.08517v2",
+      "https://www.preprints.org/manuscript/202201.0003",
+      "https://www.opticsjournal.net/Articles/OJdacda0a8518c918c/FullText",
+      "https://pubs.aip.org/aip/jap/article-abstract/131/2/025902/2836517",
+      "https://bib-pubdb1.desy.de/record/481494/files/PhysRevB.105.L220502.pdf?subformat=pdfa",
+      "https://arxiv.org/abs/2111.15017",
+      "https://pubs.aip.org/aip/jap/article-abstract/131/1/015105/2836335",
+      "https://www.science.org/content/article/something-seriously-wrong-room-temperature-superconductivity-study-retracted",
+      "https://physics.aps.org/articles/pdf/10.1103/Physics.16.40",
+      "https://link.aps.org/doi/10.1103/PhysRevB.107.024501"
+    ],
+    "plan_usage": {
+      "cache_key": "6f38559f0c50740945af9a415b44c806b1abf33556c703cb0d8974df14d65e2e",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 8833,
+        "input_tokens_details": {
+          "cache_write_tokens": 8830,
+          "cached_tokens": 0
+        },
+        "output_tokens": 652,
+        "output_tokens_details": {
+          "reasoning_tokens": 330
+        },
+        "total_tokens": 9485
+      },
+      "input_tokens_estimate": 8799,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "f9e9174aac172eb8af24bad2bcde82b148d1f2d799ec0e9826f74117d9826e45",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 4592,
+        "input_tokens_details": {
+          "cache_write_tokens": 4589,
+          "cached_tokens": 0
+        },
+        "output_tokens": 782,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 5374
+      },
+      "input_tokens_estimate": 4558,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.nature.com/articles/s41586-022-05294-9",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 4193,
+      "truncated": false,
+      "sha256": "6b87793b485b8d234c223d73c33dfc37ab153aab1c45ff4f67c1b86c7b1c8a16",
+      "retrieved_at": "2026-09-16T19:08:29.075571+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://arxiv.org/abs/2201.07686",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 4988,
+      "truncated": false,
+      "sha256": "22d616264f48bf8a0762668e7aaf60fa0b322571db6eeb2eca9c3c39feb65ff9",
+      "retrieved_at": "2026-09-16T19:09:41.783233+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://arxiv.org/html/2109.08517v2",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 22892,
+      "truncated": false,
+      "sha256": "ca9cb7a15b5cbb9db7715a1aa90adcb8fa5fe0977556aaa0c251b7d65fabdc10",
+      "retrieved_at": "2026-09-16T19:09:42.116917+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.preprints.org/manuscript/202201.0003",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 8133,
+      "truncated": false,
+      "sha256": "1c37777ce2f8fa5dfe1f4b3fd1d08d297e14dc743381cee2a7c68913f5ecca69",
+      "retrieved_at": "2026-09-16T19:09:47.219395+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.opticsjournal.net/Articles/OJdacda0a8518c918c/FullText",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 78517,
+      "truncated": false,
+      "sha256": "dfd8da07afaf1920e594e612459d161be79459d9a50ef9a31978fcc9faa11482",
+      "retrieved_at": "2026-09-16T19:10:01.965396+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://pubs.aip.org/aip/jap/article-abstract/131/2/025902/2836517",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:09:45.972031+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://bib-pubdb1.desy.de/record/481494/files/PhysRevB.105.L220502.pdf?subformat=pdfa",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:09:49.945596+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://arxiv.org/abs/2111.15017",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 4361,
+      "truncated": false,
+      "sha256": "f29a48a7070a1872c773c37418d40185f88bae6a18b97cb877bdd6d9b1edbafa",
+      "retrieved_at": "2026-09-16T19:09:46.166085+00:00"
+    },
+    {
+      "source_id": "S9",
+      "url": "https://pubs.aip.org/aip/jap/article-abstract/131/1/015105/2836335",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:09:52.580944+00:00"
+    },
+    {
+      "source_id": "S10",
+      "url": "https://www.science.org/content/article/something-seriously-wrong-room-temperature-superconductivity-study-retracted",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:09:47.782957+00:00"
+    },
+    {
+      "source_id": "S11",
+      "url": "https://physics.aps.org/articles/pdf/10.1103/Physics.16.40",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:09:48.848876+00:00"
+    },
+    {
+      "source_id": "S12",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevB.107.024501",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 16781,
+      "truncated": false,
+      "sha256": "bcd5445908f3278e5bdbd4bb5d07d59e74d0a3ecccbfb3914917d6bf97d6d908",
+      "retrieved_at": "2026-09-16T19:09:55.723218+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "no",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-09-26"
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied independent experimental replication of the reported 287.7 K C–S–H result.",
+      "No supplied systematic review, textbook, standard, or authoritative synthesis assessing later utility or continued relevance.",
+      "No sufficiently documented post-2022 independent adoption, product use, workflow use, or fair comparison.",
+      "The packet contains critical data-reanalysis sources, but not a complete literature record for all follow-up years through 2024."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 1,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.8
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 1,
+    "coverage": 0.05,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 0.95,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "6c49ed6cf3fca3143d08c4e886627e0b40e191b5371100e6b4921a9ce69e45ce",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 57944,
+      "input_tokens_details": {
+        "cache_write_tokens": 57941,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1941,
+      "output_tokens_details": {
+        "reasoning_tokens": 909
+      },
+      "total_tokens": 59885
+    },
+    "input_tokens_estimate": 57701,
+    "truncated": false
+  }
+}

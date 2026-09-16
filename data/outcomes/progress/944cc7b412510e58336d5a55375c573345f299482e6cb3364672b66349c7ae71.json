@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W2604283208",
+  "title": "DGCR8 Mediates Repair of UV-Induced DNA Damage Independently of RNA Processing",
+  "year": 2017,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:01:09.464447+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 10,
+  "score": null
+}

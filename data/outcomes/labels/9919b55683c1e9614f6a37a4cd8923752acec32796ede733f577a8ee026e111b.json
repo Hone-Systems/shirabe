@@ -1,0 +1,403 @@
+{
+  "id": "https://openalex.org/W2797775827",
+  "title": "Cuckoos host range is associated positively with distribution range and negatively with evolutionary uniqueness",
+  "doi": "https://doi.org/10.1111/1365-2656.12797",
+  "year": 2018,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2022-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:19:09.437923+00:00",
+  "input_scope": "abstract",
+  "original_source": {},
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "evolutionary distinctiveness brood parasitism host range comparative phylogenetic analysis",
+      "cuckoo evolutionary distinctiveness host species breeding range PGLS test",
+      "brood parasitism host range evolutionary uniqueness Cuculiformes review",
+      "passive host sampling brood parasites breeding range evolutionary distinctiveness theory"
+    ],
+    "selected_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7297776",
+      "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2021.651733/full",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9543277",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2817292",
+      "https://www.pnas.org/doi/10.1073/pnas.1109630108",
+      "https://royalsocietypublishing.org/rspb/article/285/1880/20180726/102258/True-recognition-of-nestlings-by-hosts-selects-for",
+      "https://bioone.org/journals/ardeola/volume-63/issue-1/arla.63.1.2016.rp2/Brood-Parasite-Host-Coevolution-in-America-Versus-Europe--Egg/10.13157/arla.63.1.2016.rp2.full",
+      "https://openresearch-repository.anu.edu.au/bitstreams/ee9f7b93-a84c-482f-9e2d-88db7a0f6fa5/download",
+      "https://repository.si.edu/server/api/core/bitstreams/4587a273-26a9-486a-8393-b74b1526d455/content"
+    ],
+    "plan_usage": {
+      "cache_key": "80b8ab770a819638a57cd4337af60f20aa7467b8f8ba7bcd5dd2862e38389cf7",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 451,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 481,
+        "output_tokens_details": {
+          "reasoning_tokens": 407
+        },
+        "total_tokens": 932
+      },
+      "input_tokens_estimate": 417,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "18e062bf5b024800b7d2d502c5118e0e5e83df16f1836f1eb5812503abd70594",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 5273,
+        "input_tokens_details": {
+          "cache_write_tokens": 5270,
+          "cached_tokens": 0
+        },
+        "output_tokens": 588,
+        "output_tokens_details": {
+          "reasoning_tokens": 255
+        },
+        "total_tokens": 5861
+      },
+      "input_tokens_estimate": 5239,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7297776",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 83306,
+      "truncated": false,
+      "sha256": "ce9e3894578a49ea9b0d1201850c5399309b8f39795fbc6398733c16b39f51e3",
+      "retrieved_at": "2026-09-16T19:18:26.348537+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2021.651733/full",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 80420,
+      "truncated": false,
+      "sha256": "ac393110cf754eadc57ab4ae082833803ab1561e199ed412dbf113d9c39dc6dc",
+      "retrieved_at": "2026-09-16T19:18:28.015199+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9543277",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 151838,
+      "truncated": false,
+      "sha256": "9575503621d688b375634a7f58b6cd425338be7997d591596506796bfa8fb217",
+      "retrieved_at": "2026-09-16T19:18:26.425755+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2817292",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 63192,
+      "truncated": false,
+      "sha256": "9f34f30e05b37c6f1ffddf4736269da032ec9bd35a6c348f87f582055be9d706",
+      "retrieved_at": "2026-09-16T19:18:27.443794+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1109630108",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:18:26.883533+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://royalsocietypublishing.org/rspb/article/285/1880/20180726/102258/True-recognition-of-nestlings-by-hosts-selects-for",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:18:32.084228+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://bioone.org/journals/ardeola/volume-63/issue-1/arla.63.1.2016.rp2/Brood-Parasite-Host-Coevolution-in-America-Versus-Europe--Egg/10.13157/arla.63.1.2016.rp2.full",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 50531,
+      "truncated": false,
+      "sha256": "c7a96b1f8e6b6fae391198883af65075ec76545e0c3f0472e5fcb98c1d7a1b09",
+      "retrieved_at": "2026-09-16T19:18:44.620047+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://openresearch-repository.anu.edu.au/bitstreams/ee9f7b93-a84c-482f-9e2d-88db7a0f6fa5/download",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 128418,
+      "truncated": false,
+      "sha256": "d550e2974cb76a7f9be345eb9bbeb7643b1f4f28e26e3ecf21c48f714aa32bbb",
+      "retrieved_at": "2026-09-16T19:18:34.570011+00:00"
+    },
+    {
+      "source_id": "S9",
+      "url": "https://repository.si.edu/server/api/core/bitstreams/4587a273-26a9-486a-8393-b74b1526d455/content",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:18:28.666746+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No later independent primary study in the supplied window explicitly tests and supports this paper’s central host-range/evolutionary-distinctiveness claim. A later study repeats related findings, but shares authors with the original.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2020-04-16"
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not document an independent team reproducing the original comparative result or analysis.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No supplied later study presents a larger, stricter, independently collected test of the original host-range and evolutionary-distinctiveness associations.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "A later same-team paper repeats parts of the findings, but no independent authoritative assessment in the supplied sources explicitly evaluates and retains the complete central claim.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2020-04-16"
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up documents do not explicitly test the original paper’s stated limitations and show that its central contribution remains useful.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "No independent group is shown publishing a substantive extension of the original host-range–distribution-range/evolutionary-uniqueness contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The packet does not establish that at least two independent groups substantively built on this specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The later study describing a related comparative analysis is by overlapping authors, and the independent reviews do not show actual reuse of this specific method.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2020-04-16"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "A later review identifies multispecies brood-parasite networks as a research opportunity, but does not identify this specific 2018 contribution as enabling that direction.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2022-06-28"
+          }
+        ]
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No supplied independent work uses the 2018 result as an explicit baseline, benchmark, or theoretical reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources do not demonstrate an independently measured scientific or practical benefit resulting from applying this specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up independently applies the specific host-range/evolutionary-uniqueness result outside the original comparative setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The packet does not show that the original contribution enabled a later new measurement, theorem, result, or capability.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "not_applicable",
+        "rationale": "This is a comparative ecological finding, not a method or technology for which adoption in a product, workflow, standard, or operational practice is logically expected.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison in the supplied window evaluates and confirms a claimed advantage of the original contribution.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Although a 2022 review cites the paper, the supplied text does not establish substantive use of its specific contribution at least three years after publication.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2022-06-28"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No supplied source provides a positive independent assessment of the original central contribution at least three years after publication.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Later papers appear in 2020, 2021, and 2022, but the packet does not document substantive independent follow-up of this specific paper across at least two years.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2021-04-27"
+          },
+          {
+            "source_id": "S3",
+            "date": "2022-06-28"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The supplied independent review concerns brood-parasite–host network complexity and does not clearly adopt the original contribution as valid or useful; citation alone is insufficient.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2022-06-28"
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The supplied evidence does not explicitly show that the original contribution remained useful despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied independent primary study directly reanalyzes the 2018 host-range, breeding-range, and evolutionary-distinctiveness relationships.",
+      "No supplied source provides a post-2022 follow-up or an independent assessment specifically evaluating this paper’s central claim.",
+      "Citation references in later reviews were not treated as evidence of validity, reuse, or utility without explicit paper-specific discussion."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 1,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "84b4b447329d513571b52ca4d25400b10882cf86c26703251a5d0696583016a5",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 167269,
+      "input_tokens_details": {
+        "cache_write_tokens": 167266,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2465,
+      "output_tokens_details": {
+        "reasoning_tokens": 991
+      },
+      "total_tokens": 169734
+    },
+    "input_tokens_estimate": 167026,
+    "truncated": false
+  }
+}

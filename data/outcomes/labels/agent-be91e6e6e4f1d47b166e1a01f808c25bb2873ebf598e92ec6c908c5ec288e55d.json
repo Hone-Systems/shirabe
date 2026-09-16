@@ -1,0 +1,427 @@
+{
+  "id": "historic-10.1126/science.1197258",
+  "title": "A Bacterium That Can Grow by Using Arsenic Instead of Phosphorus",
+  "doi": "10.1126/science.1197258",
+  "year": 2011,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "train",
+  "sampling_cohort": "historical_failure_augmentation",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:58:14.553521+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 15,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://cluacsstudentchapter.wdfiles.com/local--files/2015-03-01-arsenic/Bacterium%20that%20can%20grow%20using%20Arsenic.pdf",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "GFAJ-1 substitutes arsenic for phosphorus for growth and incorporates arsenate in macromolecules including nucleic acids."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "O",
+      "url": "https://cluacsstudentchapter.wdfiles.com/local--files/2015-03-01-arsenic/Bacterium%20that%20can%20grow%20using%20Arsenic.pdf",
+      "title": "A Bacterium That Can Grow by Using Arsenic Instead of Phosphorus",
+      "date": "2011",
+      "date_basis": "publication",
+      "kind": "original_paper",
+      "read": true,
+      "independent": false,
+      "finding": "Original author text; central claims recorded before outcome grading.",
+      "characters": null,
+      "method": "original_paper",
+      "truncated": false
+    },
+    {
+      "source_id": "S1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22773139/",
+      "title": "GFAJ-1 is an arsenate-resistant, phosphate-dependent organism",
+      "date": "2012",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Ultrapure-media and mass-spectrometric tests find phosphate dependence and no arsenic substitution in nucleic acids; complete primary abstract read.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.zoology.ubc.ca/~redfield/PDF/Redfield2012Science.pdf",
+      "title": "Absence of Detectable Arsenate in DNA from Arsenate-Grown GFAJ-1 Cells",
+      "date": "2012",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Purified DNA lacks detectable covalently incorporated arsenate; growth requires phosphate. Authors supplied the isolate; medium required glutamate supplementation.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21127214/",
+      "title": "Original record with formal retraction linkage",
+      "date": "2025",
+      "date_basis": "publication",
+      "kind": "retraction_record",
+      "read": true,
+      "independent": true,
+      "finding": "Publisher-linked bibliographic record documents Thorp’s July 24 2025 retraction, DOI10.1126/science.adu5488.",
+      "characters": null,
+      "method": "retraction_record",
+      "truncated": false
+    },
+    {
+      "source_id": "S4",
+      "url": "https://digital.library.unt.edu/ark:/67531/metadc833182/",
+      "title": "Response to Comments on A Bacterium That Can Grow Using Arsenic Instead of Phosphorus",
+      "date": "2011",
+      "date_basis": "publication",
+      "kind": "author_response",
+      "read": true,
+      "independent": false,
+      "finding": "Authors defend combined evidence and reject critiques as invalidating the interpretation; repository abstract read.",
+      "characters": null,
+      "method": "author_response",
+      "truncated": false
+    },
+    {
+      "source_id": "S5",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3436571/",
+      "title": "Growth of a Bacterium That Apparently Uses Arsenic Instead of Phosphorus Is a Consequence of Massive Ribosome Breakdown",
+      "date": "2012",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent E. coli experiments reproduce slow arsenate-associated growth through ribosome breakdown providing phosphate, an alternative to elemental substitution.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "no",
+        "rationale": "Two independent chemical and growth investigations contradict arsenic-for-phosphorus substitution. The isolate tolerates arsenate but still requires phosphate.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2012",
+            "explanation": "Two independent chemical and growth investigations contradict arsenic-for-phosphorus substitution. The isolate tolerates arsenate but still requires phosphate."
+          },
+          {
+            "source_id": "S2",
+            "date": "2012",
+            "explanation": "Two independent chemical and growth investigations contradict arsenic-for-phosphorus substitution. The isolate tolerates arsenate but still requires phosphate."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "no",
+        "rationale": "Two independent chemical and growth investigations contradict arsenic-for-phosphorus substitution. The isolate tolerates arsenate but still requires phosphate.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2012",
+            "explanation": "Two independent chemical and growth investigations contradict arsenic-for-phosphorus substitution. The isolate tolerates arsenate but still requires phosphate."
+          },
+          {
+            "source_id": "S2",
+            "date": "2012",
+            "explanation": "Two independent chemical and growth investigations contradict arsenic-for-phosphorus substitution. The isolate tolerates arsenate but still requires phosphate."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "no",
+        "rationale": "Two independent chemical and growth investigations contradict arsenic-for-phosphorus substitution. The isolate tolerates arsenate but still requires phosphate.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2012",
+            "explanation": "Two independent chemical and growth investigations contradict arsenic-for-phosphorus substitution. The isolate tolerates arsenate but still requires phosphate."
+          },
+          {
+            "source_id": "S2",
+            "date": "2012",
+            "explanation": "Two independent chemical and growth investigations contradict arsenic-for-phosphorus substitution. The isolate tolerates arsenate but still requires phosphate."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "no",
+        "rationale": "The journal formally retracted the article in 2025 after independent studies contradicted the core interpretation; this is not a misconduct finding.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2012",
+            "explanation": "The journal formally retracted the article in 2025 after independent studies contradicted the core interpretation; this is not a misconduct finding."
+          },
+          {
+            "source_id": "S2",
+            "date": "2012",
+            "explanation": "The journal formally retracted the article in 2025 after independent studies contradicted the core interpretation; this is not a misconduct finding."
+          },
+          {
+            "source_id": "S3",
+            "date": "2025",
+            "explanation": "The journal formally retracted the article in 2025 after independent studies contradicted the core interpretation; this is not a misconduct finding."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "no",
+        "rationale": "Direct DNA purification and hydrolysis tests did not rescue the proposed arsenate-DNA interpretation under the authors’ suggested intracellular-protection explanation.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2012",
+            "explanation": "Direct DNA purification and hydrolysis tests did not rescue the proposed arsenate-DNA interpretation under the authors’ suggested intracellular-protection explanation."
+          }
+        ]
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Independent work used the reported growth phenomenon to motivate E. coli experiments revealing ribosome breakdown as an alternative phosphate source; the new result rejects elemental substitution.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2012",
+            "explanation": "Independent work used the reported growth phenomenon to motivate E. coli experiments revealing ribosome breakdown as an alternative phosphate source; the new result rejects elemental substitution."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "Independent work used the reported growth phenomenon to motivate E. coli experiments revealing ribosome breakdown as an alternative phosphate source; the new result rejects elemental substitution.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2012",
+            "explanation": "Independent work used the reported growth phenomenon to motivate E. coli experiments revealing ribosome breakdown as an alternative phosphate source; the new result rejects elemental substitution."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Purposively selected historical failed/disputed claim, training augmentation only; never part of unbiased held-out evaluation.",
+      "Failure of a central claim does not make all subsequent research or practical contributions failures.",
+      "Original authors defended their interpretation. The precise 2025 retraction text was inaccessible; formal status verified via publisher-linked PubMed record, with evidentiary judgment based on the 2012 experiments."
+    ],
+    "summary": "Independent experiments found phosphate-dependent growth and no arsenate incorporation in purified DNA, contradicting the central claim; the article was retracted in 2025. Its isolate and growth observations still motivated useful mechanistic research."
+  },
+  "research_plan": {
+    "queries": [
+      "GET https://cluacsstudentchapter.wdfiles.com/local--files/2015-03-01-arsenic/Bacterium%20that%20can%20grow%20using%20Arsenic.pdf",
+      "\"GFAJ-1\" \"phosphate\" \"dependent\" Erb 2012",
+      "\"Absence of detectable arsenate\" \"DNA\" Reaves phosphate",
+      "\"Retraction\" \"Thorp\" \"arsenic\" \"2025\" doi",
+      "\"A bacterium that can grow\" \"pdf\" Wolfe Simon 2011",
+      "site:pmc.ncbi.nlm.nih.gov absence detectable arsenate DNA GFAJ1 2012"
+    ],
+    "search_log": [
+      {
+        "query": "GET https://cluacsstudentchapter.wdfiles.com/local--files/2015-03-01-arsenic/Bacterium%20that%20can%20grow%20using%20Arsenic.pdf",
+        "purpose": "Read original author manuscript and verify identity",
+        "urls_read": [
+          "https://cluacsstudentchapter.wdfiles.com/local--files/2015-03-01-arsenic/Bacterium%20that%20can%20grow%20using%20Arsenic.pdf"
+        ]
+      },
+      {
+        "query": "\"GFAJ-1\" \"phosphate\" \"dependent\" Erb 2012",
+        "purpose": "Inspect independent outcomes, limitations and contrary evidence",
+        "urls_read": [
+          "https://pubmed.ncbi.nlm.nih.gov/22773139/"
+        ]
+      },
+      {
+        "query": "\"Absence of detectable arsenate\" \"DNA\" Reaves phosphate",
+        "purpose": "Inspect independent outcomes, limitations and contrary evidence",
+        "urls_read": [
+          "https://www.zoology.ubc.ca/~redfield/PDF/Redfield2012Science.pdf"
+        ]
+      },
+      {
+        "query": "\"Retraction\" \"Thorp\" \"arsenic\" \"2025\" doi",
+        "purpose": "Inspect independent outcomes, limitations and contrary evidence",
+        "urls_read": [
+          "https://pubmed.ncbi.nlm.nih.gov/21127214/"
+        ]
+      },
+      {
+        "query": "\"A bacterium that can grow\" \"pdf\" Wolfe Simon 2011",
+        "purpose": "Inspect independent outcomes, limitations and contrary evidence",
+        "urls_read": [
+          "https://digital.library.unt.edu/ark:/67531/metadc833182/"
+        ]
+      },
+      {
+        "query": "site:pmc.ncbi.nlm.nih.gov absence detectable arsenate DNA GFAJ1 2012",
+        "purpose": "Inspect independent outcomes, limitations and contrary evidence",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3436571/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 5,
+        "unknown": 0,
+        "not_applicable": 0,
+        "coverage": 1.0,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 7,
+    "coverage": 0.35,
+    "score": null,
+    "lower_bound": 0.1,
+    "upper_bound": 0.75,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous researcher /root/expand_econ",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

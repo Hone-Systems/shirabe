@@ -1,0 +1,407 @@
+{
+  "id": "https://openalex.org/W2982984920",
+  "title": "Quantitative Analysis of Bioactive Phenanthrenes in Dioscorea batatas Decne Peel, a Discarded Biomass from Postharvest Processing",
+  "doi": "https://doi.org/10.3390/antiox8110541",
+  "year": 2019,
+  "field_id": 27,
+  "field": "Medicine",
+  "split": "validation",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:57:14.294759+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 7,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6912652/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Three representative phenanthrenes are concentrated in D. batatas peel and below detection in flesh under the reported HPLC conditions.",
+    "Phenanthrene-rich peel shows stronger cell-free radical scavenging than flesh and is a potentially valuable discarded resource."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "O",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6912652/",
+      "title": "Quantitative Analysis of Bioactive Phenanthrenes in Dioscorea batatas Decne Peel, a Discarded Biomass from Postharvest Processing",
+      "date": "2019",
+      "date_basis": "publication",
+      "kind": "original",
+      "read": true,
+      "independent": false,
+      "finding": "Three phenanthrenes were measured in peel but below detection in flesh; peel showed greater cell-free radical scavenging.",
+      "characters": null,
+      "method": "original",
+      "truncated": false
+    },
+    {
+      "source_id": "M",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9628958/",
+      "title": "Development and Validation of Quantitative Analysis Method for Phenanthrenes in Peels of the Dioscorea Genus",
+      "date": "2022",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": false,
+      "finding": "Shared-author study explicitly adapts the original isolation and HPLC methods for four species and validates precision and recovery.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "R",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9026138/",
+      "title": "Dioscorea spp.: Comprehensive Review of Antioxidant Properties and Their Relation to Phytochemicals and Health Benefits",
+      "date": "2022-04-17",
+      "date_basis": "publication",
+      "kind": "review",
+      "read": true,
+      "independent": true,
+      "finding": "Independent synthesis retains the peel-versus-flesh phenanthrene result and the radical-scavenging findings.",
+      "characters": null,
+      "method": "review",
+      "truncated": false
+    },
+    {
+      "source_id": "L",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8399132/",
+      "title": "Metabolite Profiling of Dioscorea (Yam) Leaves to Identify Bioactive Compounds Reveals Their Potential as Renewable Resources",
+      "date": "2021",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Methods list this paper among published reference data used for tentative metabolite identification. This is analytical reference use, not replication of peel/flesh concentrations.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "K",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13295824/",
+      "title": "Skin-Protective Activities of Dioscorea batatas Decne Peel Extracts with Differential Phenanthrene Contents",
+      "date": "2026-06-09",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": false,
+      "finding": "Shared-author skin-cell study builds on phenanthrene-rich peel and uses quantitative HPLC analysis. It remains preclinical and does not establish marketed cosmetic adoption.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "W",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12294494/",
+      "title": "Bioactive Metabolites of Dioscorea Species and Their Potential Applications in Functional Food Development",
+      "date": "2025",
+      "date_basis": "publication",
+      "kind": "review",
+      "read": true,
+      "independent": true,
+      "finding": "Cites the original in a broad antioxidant paragraph, but describes pulp and pericarp together as superior. This imprecise statement is not clean confirmation of the original peel/flesh contrast.",
+      "characters": null,
+      "method": "review",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The direct quantitative and skin extensions share an original author; the independent leaf study does not test the peel/flesh claim.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No independent matched measurement of the three compounds in peel and flesh was verified.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "Expanded assay validation covers peels of additional species, but does not retest the central peel/flesh contrast or its causal antioxidant interpretation.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "The independent 2022 review explicitly retains phenanthrene detection in peel, nondetection in flesh and radical-scavenging activity.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2022-04-17",
+            "explanation": "The independent 2022 review explicitly retains phenanthrene detection in peel, nondetection in flesh and radical-scavenging activity."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No follow-up explicitly resolves variation across harvests or demonstrates that phenanthrenes cause the whole extract antioxidant difference.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The substantive assay and skin extensions share Hahn; independent leaf profiling is analytical reference use rather than a clear extension of this contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Two independent teams building substantively on the exact peel/flesh result were not established.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "The independent leaf metabolomics methods explicitly include this paper as reference data for tentative compound identification.",
+        "evidence": [
+          {
+            "source_id": "L",
+            "date": "2021",
+            "explanation": "The independent leaf metabolomics methods explicitly include this paper as reference data for tentative compound identification."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "Reviews discuss potential uses but do not explicitly identify this paper as enabling a new research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "Analytical reference use is not an actual baseline comparison of the proposed peel/flesh result or assay.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The leaf study cites a pooled reference set, making the distinct benefit attributable to this paper uncertain.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "The original isolation and analytical procedure are explicitly adapted to peels from four species in the later validation study.",
+        "evidence": [
+          {
+            "source_id": "M",
+            "date": "2022",
+            "explanation": "The original isolation and analytical procedure are explicitly adapted to peels from four species in the later validation study."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The later assay study uses the original isolation procedure and optimizes its HPLC conditions to measure phenanthrenes across four species.",
+        "evidence": [
+          {
+            "source_id": "M",
+            "date": "2022",
+            "explanation": "The later assay study uses the original isolation procedure and optimizes its HPLC conditions to measure phenanthrenes across four species."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Potential cosmetics and biomaterials uses remain experimental; routine or commercial adoption was not verified.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison confirms peel superiority with matched phenanthrene measurements.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2026 skin study substantively builds on the peel finding and analytical work more than six years after publication.",
+        "evidence": [
+          {
+            "source_id": "K",
+            "date": "2026-06-09",
+            "explanation": "The 2026 skin study substantively builds on the peel finding and analytical work more than six years after publication."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The precise independent 2022 endorsement precedes the third anniversary; the later review wording does not clearly retain the central contrast.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent analytical reference use in 2021 and explicit research-synthesis adoption in 2022 document substantive uptake in distinct years.",
+        "evidence": [
+          {
+            "source_id": "L",
+            "date": "2021",
+            "explanation": "Independent analytical reference use in 2021 and explicit research-synthesis adoption in 2022 document substantive uptake in distinct years."
+          },
+          {
+            "source_id": "R",
+            "date": "2022-04-17",
+            "explanation": "Independent analytical reference use in 2021 and explicit research-synthesis adoption in 2022 document substantive uptake in distinct years."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "The independent antioxidant review integrates the specific compounds, anatomical distribution and scavenging result into its synthesis.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2022-04-17",
+            "explanation": "The independent antioxidant review integrates the specific compounds, anatomical distribution and scavenging result into its synthesis."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Continued experiments exist, but usefulness despite newer analytical or valorization alternatives was not explicitly demonstrated.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Independent matched replication was not verified.",
+      "Same-author extensions are explicitly separated from independent evidence.",
+      "No human efficacy or marketed application attributable to this paper was verified."
+    ],
+    "summary": "The assay supports subsequent shared-author analytical and skin studies. Independent uptake includes metabolite-reference use and a review retaining the peel/flesh result. Independent replication, human benefit and commercial adoption remain unverified."
+  },
+  "research_plan": {
+    "queries": [
+      "\"10.3390/antiox8110541\"",
+      "\"Quantitative Analysis of Bioactive Phenanthrenes\" follow up",
+      "\"Dioscorea\" \"phenanthrenes\" \"peel\" \"Kim\" 2021 2023 review",
+      "\"Metabolite Profiling of Dioscorea\" PMC",
+      "\"Bioactive Metabolites of Dioscorea Species\" 2025",
+      "\"antiox8110541\" correction retraction criticism"
+    ],
+    "search_log": [
+      {
+        "query": "\"10.3390/antiox8110541\"",
+        "purpose": "Original identity and direct follow-up",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6912652/"
+        ]
+      },
+      {
+        "query": "\"Quantitative Analysis of Bioactive Phenanthrenes\" follow up",
+        "purpose": "Find assay and skin extensions",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9628958/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13295824/"
+        ]
+      },
+      {
+        "query": "\"Dioscorea\" \"phenanthrenes\" \"peel\" \"Kim\" 2021 2023 review",
+        "purpose": "Independent synthesis",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9026138/"
+        ]
+      },
+      {
+        "query": "\"Metabolite Profiling of Dioscorea\" PMC",
+        "purpose": "Check independent analytical use",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC8399132/"
+        ]
+      },
+      {
+        "query": "\"Bioactive Metabolites of Dioscorea Species\" 2025",
+        "purpose": "Check late assessment",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12294494/"
+        ]
+      },
+      {
+        "query": "\"antiox8110541\" correction retraction criticism",
+        "purpose": "Search contrary or corrective outcomes",
+        "urls_read": []
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 7,
+    "coverage": 0.35,
+    "score": null,
+    "lower_bound": 0.35,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W4412375198",
+  "title": "Israel’s Nuclear Posture: Intellectual Antecedents and Doctrinal Foundations",
+  "year": 2017,
+  "field_id": 33,
+  "field": "Social Sciences",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:01:09.740540+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 1,
+  "score": null
+}

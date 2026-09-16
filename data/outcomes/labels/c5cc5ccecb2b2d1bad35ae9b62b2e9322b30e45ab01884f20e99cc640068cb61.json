@@ -1,0 +1,455 @@
+{
+  "id": "https://openalex.org/W3039422697",
+  "title": "Effect of Fiscal Decentralization Financial Performance Against Local And Regional Gross Domestic Product (GDP) NTB",
+  "doi": "https://doi.org/10.11114/aef.v7i4.4921",
+  "year": 2020,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "calibration",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2024-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:16:15.984248+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://redfame.com/journal/index.php/aef/article/download/4921/5100",
+    "method": "pdf_all_pages",
+    "http_status": 200,
+    "characters": 30731,
+    "truncated": false,
+    "sha256": "acea658331cde0a5fbaec02c9947372d88ea174db4bae04b623209a029cb6be3",
+    "retrieved_at": "2026-09-16T19:14:55.181146+00:00"
+  },
+  "retrieval_version": 2,
+  "research_plan": {
+    "queries": [
+      "(\"fiscal decentralization\" AND \"regional financial performance\" AND (PDRB OR GRDP)) Indonesia (DAU OR DAK OR DBH OR PAD) (\"partial least squares\" OR PLS-SEM) after:2020-12-31 before:2025-01-01",
+      "(\"fiscal decentralization\" AND \"regional financial performance\" AND (\"gross regional domestic product\" OR PDRB OR GRDP)) Indonesia (replication OR robustness OR panel OR \"fixed effects\" OR endogeneity) after:2020-12-31 before:2025-01-01",
+      "(\"fiscal decentralization\" AND Indonesia AND (\"economic growth\" OR PDRB OR GRDP)) (\"systematic review\" OR meta-analysis OR \"literature review\" OR \"evidence synthesis\") after:2020-12-31 before:2025-01-01",
+      "(\"fiscal decentralization\" AND Indonesia) (DAU OR DAK OR DBH OR PAD OR \"regional autonomy\") (\"Law No. 1 of 2022\" OR HKPD OR policy OR \"Keynesian\" OR \"Wagner's law\") (\"economic growth\" OR \"financial performance\") (site:go.id OR site:worldbank.org OR site:adb.org OR site:oecd.org) after:2020-12-31 before:2025-01-01"
+    ],
+    "selected_urls": [
+      "https://www.sciencedirect.com/science/article/abs/pii/S1049007822000513",
+      "https://link.springer.com/article/10.1186/s40008-022-00262-y",
+      "https://www.econstor.eu/bitstream/10419/304105/1/10.1080_23322039.2023.2220520.pdf",
+      "https://traviss-cassidy.com/working-papers/splitsidn_REStat_final.pdf",
+      "https://ier.ut.ac.ir/article_88167_1f280e5531002d1d02f1541d8b684cf1.pdf",
+      "https://jurnal.kemendagri.go.id/index.php/jbp/article/view/1806",
+      "https://jurnal.kemendagri.go.id/index.php/jbp/article/view/1364",
+      "https://jurnal.pusbindiklatren.bappenas.go.id/lib/jisdep/article/view/533",
+      "https://conference.unib.ac.id/index.php/BICEMBA/article/view/125",
+      "https://conference.loupiasconference.org/index.php/icoissee3/article/download/390/353/",
+      "https://openknowledge.worldbank.org/entities/publication/e3552960-11a6-4f9a-a46d-9507778af661",
+      "https://jurnal.kemendagri.go.id/index.php/jbp/article/view/1804"
+    ],
+    "plan_usage": {
+      "cache_key": "c6543cd5caa76afdaf6a4ad45c0d68f6a6efc4d47e5a9207df3c584c76892d1f",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 6569,
+        "input_tokens_details": {
+          "cache_write_tokens": 6566,
+          "cached_tokens": 0
+        },
+        "output_tokens": 819,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 7388
+      },
+      "input_tokens_estimate": 6535,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "e0947c043b3cea659d3eb8477166e6d6033332ca1b85ef05beea7411956e503d",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 3766,
+        "input_tokens_details": {
+          "cache_write_tokens": 3763,
+          "cached_tokens": 0
+        },
+        "output_tokens": 473,
+        "output_tokens_details": {
+          "reasoning_tokens": 164
+        },
+        "total_tokens": 4239
+      },
+      "input_tokens_estimate": 3732,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1049007822000513",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:15:36.325846+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://link.springer.com/article/10.1186/s40008-022-00262-y",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 64698,
+      "truncated": false,
+      "sha256": "1c2ef16cbd1899a7532cdab28d1eb00f4c4a36b24856a12ea022d8d54fb11acb",
+      "retrieved_at": "2026-09-16T19:15:37.109701+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.econstor.eu/bitstream/10419/304105/1/10.1080_23322039.2023.2220520.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 92721,
+      "truncated": false,
+      "sha256": "7bda1303fdeebef3757b32cd829b2e12b986545c97e4cca68aa0a6a102d3d99c",
+      "retrieved_at": "2026-09-16T19:15:38.636823+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://traviss-cassidy.com/working-papers/splitsidn_REStat_final.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 237962,
+      "truncated": false,
+      "sha256": "524462cfbab032ccbb9cba3db2713217909ec557158ac7d80b4702b87da00d59",
+      "retrieved_at": "2026-09-16T19:15:36.800289+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://ier.ut.ac.ir/article_88167_1f280e5531002d1d02f1541d8b684cf1.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 68311,
+      "truncated": false,
+      "sha256": "68d0f78620a03fc6c74d19eb065e637445c5faf379f93df34d6435d7ffafe67e",
+      "retrieved_at": "2026-09-16T19:15:41.348691+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://jurnal.kemendagri.go.id/index.php/jbp/article/view/1806",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 15326,
+      "truncated": false,
+      "sha256": "ac0bf486952e544ff154c8dd4c18bd8f81b431aac131c995e95eff0cf769763e",
+      "retrieved_at": "2026-09-16T19:15:38.648435+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://jurnal.kemendagri.go.id/index.php/jbp/article/view/1364",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 12292,
+      "truncated": false,
+      "sha256": "c042e9a201739a8e25b64fa1987b37604bc2f55323799416fdd51fddcc46ede9",
+      "retrieved_at": "2026-09-16T19:15:38.636545+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://jurnal.pusbindiklatren.bappenas.go.id/lib/jisdep/article/view/533",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 8585,
+      "truncated": false,
+      "sha256": "15a0392716887ba5b5803678658f3134f6400504242371d5db253f9414cde968",
+      "retrieved_at": "2026-09-16T19:15:39.955544+00:00"
+    },
+    {
+      "source_id": "S9",
+      "url": "https://conference.unib.ac.id/index.php/BICEMBA/article/view/125",
+      "method": "",
+      "http_status": 468,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:15:48.788146+00:00"
+    },
+    {
+      "source_id": "S10",
+      "url": "https://conference.loupiasconference.org/index.php/icoissee3/article/download/390/353/",
+      "method": "",
+      "http_status": null,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:15:51.966666+00:00"
+    },
+    {
+      "source_id": "S11",
+      "url": "https://openknowledge.worldbank.org/entities/publication/e3552960-11a6-4f9a-a46d-9507778af661",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 19595,
+      "truncated": false,
+      "sha256": "cdfb931e2d6113c7eed3aedd3370fc780bba24d98bd2e6282f8f1a7ad49036a4",
+      "retrieved_at": "2026-09-16T19:15:46.236924+00:00"
+    },
+    {
+      "source_id": "S12",
+      "url": "https://jurnal.kemendagri.go.id/index.php/jbp/article/view/1804",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 14367,
+      "truncated": false,
+      "sha256": "8c1850f45daebbeda8d5e0b73872780f366edba7b658e4605d904133153cc253",
+      "retrieved_at": "2026-09-16T19:15:43.197175+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2023-06-09"
+          },
+          {
+            "source_id": "S7",
+            "date": "2022-12-26"
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2023-06-09"
+          },
+          {
+            "source_id": "S4",
+            "date": "2024-07-24"
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2023-06-09"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2023-08-31"
+          },
+          {
+            "source_id": "S7",
+            "date": "2022-12-26"
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2023-06-09"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S11",
+            "date": "2024-01-25"
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2022-12-26"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2023-08-31"
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S11",
+            "date": "2024-01-25"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2023-06-09"
+          },
+          {
+            "source_id": "S4",
+            "date": "2024-07-24"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2023-06-09"
+          }
+        ]
+      }
+    ],
+    "search_gaps": [
+      "No supplied follow-up source explicitly cites, replicates, evaluates, or applies Amin (2020), DOI 10.11114/aef.v7i4.4921.",
+      "The packet contains related Indonesian fiscal-decentralization studies but insufficient paper-specific evidence for validation, uptake, utility, or adoption."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "e1c6a1772bf1eec1ca0a527416bfba8d2cfe4c8bbbf78c56fc01a2780ed3ae9d",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 134156,
+      "input_tokens_details": {
+        "cache_write_tokens": 134153,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2422,
+      "output_tokens_details": {
+        "reasoning_tokens": 660
+      },
+      "total_tokens": 136578
+    },
+    "input_tokens_estimate": 133913,
+    "truncated": false
+  }
+}

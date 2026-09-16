@@ -1,0 +1,449 @@
+{
+  "id": "https://openalex.org/W3007451419",
+  "title": "Inference for cumulative intraday return curves",
+  "doi": "https://doi.org/10.25675/3.023663",
+  "year": 2018,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2022-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:21:05.582685+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://hdl.handle.net/10217/193124",
+    "method": "html_main_text",
+    "http_status": 200,
+    "characters": 2860,
+    "truncated": false,
+    "sha256": "9a6f8fe44cf3f9d46b0941d7f728b861e7731607f71fbaced04216038ee0d817",
+    "retrieved_at": "2026-09-16T19:14:43.003936+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "\"functional factor model\" \"cumulative intraday returns\" financial risk applications",
+      "\"two-sample test\" \"functional factor model\" intraday returns replication",
+      "\"cumulative intraday return curves\" review functional data analysis extreme value theory",
+      "\"extreme curves\" \"intraday returns\" portfolio risk functional data analysis"
+    ],
+    "selected_urls": [
+      "https://ideas.repec.org/a/bpj/jtsmet/v11y2019i2p31n4.html",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0169207019302626",
+      "https://www.sciencedirect.com/science/article/pii/S0047259X21001652",
+      "https://www.mdpi.com/1911-8074/14/8/343",
+      "https://mpra.ub.uni-muenchen.de/109231/1/MPRA_paper_109231.pdf",
+      "https://repository.essex.ac.uk/30418/14/funrisk.pdf",
+      "https://www.tandfonline.com/doi/full/10.1080/03610926.2020.1864829",
+      "https://www.tandfonline.com/doi/full/10.1080/1331677X.2022.2076144",
+      "https://public.econ.duke.edu/~boller/Papers/HFML_Sup_App.pdf",
+      "https://kellogg.northwestern.edu/faculty/todorov/htm/papers/jtd.pdf"
+    ],
+    "plan_usage": {
+      "cache_key": "7c560d70bae24ab1df104984a30be86b7c095d6af61523fd84b90074a65336d7",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 743,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 504,
+        "output_tokens_details": {
+          "reasoning_tokens": 426
+        },
+        "total_tokens": 1247
+      },
+      "input_tokens_estimate": 709,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "92364b5fd88ccd2cec20985ca261f59fe509705278a156de45ca970469871c05",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 6876,
+        "input_tokens_details": {
+          "cache_write_tokens": 6873,
+          "cached_tokens": 0
+        },
+        "output_tokens": 666,
+        "output_tokens_details": {
+          "reasoning_tokens": 420
+        },
+        "total_tokens": 7542
+      },
+      "input_tokens_estimate": 6842,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://ideas.repec.org/a/bpj/jtsmet/v11y2019i2p31n4.html",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 15655,
+      "truncated": false,
+      "sha256": "0f68ced1b45b7ae45e7ba584e9ab17b22b601e559b457ca8d6290efad9a8906e",
+      "retrieved_at": "2026-09-16T19:20:22.718882+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0169207019302626",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 38222,
+      "truncated": false,
+      "sha256": "519ffc58304c36ac246db9663b2ad518e9222572de7d957797f579d732d62f07",
+      "retrieved_at": "2026-09-16T19:20:28.680047+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0047259X21001652",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:20:23.308923+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.mdpi.com/1911-8074/14/8/343",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 121078,
+      "truncated": false,
+      "sha256": "ee56f149b7d96570747d21cc6290adc3ba4d2e970a8c98ce2d03589d6ca9a82b",
+      "retrieved_at": "2026-09-16T19:20:29.159569+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://mpra.ub.uni-muenchen.de/109231/1/MPRA_paper_109231.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 85820,
+      "truncated": false,
+      "sha256": "5e168b8e03df41f85f9c8de10b72151b1dca06399ba82217e46786d5e5ff98ba",
+      "retrieved_at": "2026-09-16T19:20:24.484114+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://repository.essex.ac.uk/30418/14/funrisk.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 34081,
+      "truncated": false,
+      "sha256": "2931cd07cedec51b0e655aefaffa1b510bb2a7c04f13194d0469e0845ca8fe53",
+      "retrieved_at": "2026-09-16T19:20:26.003842+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/03610926.2020.1864829",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:20:25.005238+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/1331677X.2022.2076144",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 131694,
+      "truncated": false,
+      "sha256": "ef23dbda9e610d63361ede9781e5349b703da9fbc3f4bf2c58c4c617659fd6f1",
+      "retrieved_at": "2026-09-16T19:20:25.506645+00:00"
+    },
+    {
+      "source_id": "S9",
+      "url": "https://public.econ.duke.edu/~boller/Papers/HFML_Sup_App.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 184264,
+      "truncated": false,
+      "sha256": "75ca8a4987e401204d2a2614f509b1fc1e5b42cc0509c0b707cd9921bfb82b2c",
+      "retrieved_at": "2026-09-16T19:20:27.658458+00:00"
+    },
+    {
+      "source_id": "S10",
+      "url": "https://kellogg.northwestern.edu/faculty/todorov/htm/papers/jtd.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 124836,
+      "truncated": false,
+      "sha256": "7c9fb58fa05b9fcda03541eeb185e3d293c9921b368b51a16015d9f966ac9d7d",
+      "retrieved_at": "2026-09-16T19:20:27.104176+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "An independent study applied full intraday return curves to VaR forecasting and reported competitive or better performance than benchmarks.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020"
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The supplied independent studies use related curve-based methods but do not explicitly reproduce the dissertation’s exact construction, derivation, or results.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "yes",
+        "rationale": "The follow-up tested curve-based forecasting across multiple equity indices and foreign exchange data with benchmark comparisons and backtests.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020"
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "No supplied authoritative review or assessment explicitly evaluates and retains this dissertation’s central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources test related functional methods, but do not explicitly identify and test the dissertation’s stated limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Independent researchers extended functional intraday-return analysis to functional GARCH VaR forecasting and later to crude-oil volatility.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Independent teams published substantive applications of functional intraday curves in 2020, 2021, and 2022.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020"
+          },
+          {
+            "source_id": "S8",
+            "date": "2022-06-06"
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "A later independent primary study actually modeled overnight cumulative intraday return curves as functional data and forecasted risk.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review supplied explicitly identifies this dissertation’s contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "rationale": "The independent VaR study compared functional curve models with GARCH, realized-GARCH, HAR-RV, and bootstrap benchmarks.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020"
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Independent work demonstrated valid intraday VaR forecasts relevant to risk management and later reported profitability benefits.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020"
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "Related functional cumulative-return methods were applied outside the dissertation’s original stock and ETF focus, including foreign exchange and crude oil futures.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2021-08-18"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The curve framework enabled intraday VaR curves and new volatility forecasts in later work.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020"
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources mention relevance to risk management but provide no evidence of adoption in a product, standard, or operational workflow.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "yes",
+        "rationale": "An independent comparison found functional curve models competitive with, and sometimes better than, benchmark models.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020"
+          }
+        ]
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The supplied post-2018 evidence documents later functional-curve research, but does not unambiguously attribute substantive use at least three years later to this dissertation.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The 2022 study positively assesses dependent functional methods, but does not explicitly assess this dissertation or its specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive independent follow-up appears in distinct later years, including 2020, 2021, and 2022.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020"
+          },
+          {
+            "source_id": "S8",
+            "date": "2022-06-06"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No supplied systematic review, textbook, standard, or research synthesis adopts the dissertation’s contribution as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied source explicitly cites the 2018 dissertation by title, DOI, or repository identifier in its follow-up findings.",
+      "No authoritative review or synthesis evaluating the dissertation’s central claim was provided.",
+      "Evidence of operational adoption in products, standards, or routine workflows is absent.",
+      "The supplied 2022 follow-up positively evaluates related dependent functional methods but does not explicitly attribute them to this dissertation."
+    ]
+  },
+  "validation_rejected": [
+    "continued_relevance"
+  ],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 11,
+    "coverage": 0.55,
+    "score": null,
+    "lower_bound": 0.55,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "44f36a7497b778421b506a531f28312f2c494082bf030ad0084feda1c22d1f70",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 230194,
+      "input_tokens_details": {
+        "cache_write_tokens": 230191,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2932,
+      "output_tokens_details": {
+        "reasoning_tokens": 1318
+      },
+      "total_tokens": 233126
+    },
+    "input_tokens_estimate": 229951,
+    "truncated": false
+  }
+}

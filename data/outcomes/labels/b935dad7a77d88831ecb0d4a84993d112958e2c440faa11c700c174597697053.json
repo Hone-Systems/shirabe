@@ -1,0 +1,353 @@
+{
+  "id": "https://openalex.org/W2565221079",
+  "title": "Elucidation of the genetic and epigenetic landscape alterations in RNA binding proteins in glioblastoma",
+  "doi": "https://doi.org/10.18632/oncotarget.14287",
+  "year": 2016,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2020-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:18:27.766178+00:00",
+  "input_scope": "abstract",
+  "original_source": {},
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "glioblastoma NOL3 SUCLG1 HERC5 AFF3 four-RBP signature external validation",
+      "glioblastoma AHNAK mutation NOL3 SUCLG1 HERC5 GSC maintenance replication",
+      "glioblastoma RNA-binding proteins genetic epigenetic alterations methylation copy-number miRNA systematic review",
+      "glioblastoma RNA-binding protein risk score hypoxia inflammation EMT cancer stem-like cells prognostic model"
+    ],
+    "selected_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/39776018",
+      "https://www.ncbi.nlm.nih.gov/books/NBK469995",
+      "https://www.mdpi.com/1422-0067/26/12/5634",
+      "https://link.springer.com/article/10.1186/s40164-026-00760-w",
+      "https://www.mdpi.com/2072-6694/15/13/3525",
+      "https://www.cancerbiomed.org/content/21/5/363",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10977300",
+      "https://www.nature.com/articles/s41598-021-03213-y"
+    ],
+    "plan_usage": {
+      "cache_key": "f4b7b4016901ed1f49825a3a21dd8e8f5cf9f63f596041277751ae71c9add44e",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 635,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 551,
+        "output_tokens_details": {
+          "reasoning_tokens": 453
+        },
+        "total_tokens": 1186
+      },
+      "input_tokens_estimate": 601,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "a9852aebb75cda4406e6e030431eef40f71626c8e168446ec001500b5c08edd8",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 12338,
+        "input_tokens_details": {
+          "cache_write_tokens": 12335,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1135,
+        "output_tokens_details": {
+          "reasoning_tokens": 979
+        },
+        "total_tokens": 13473
+      },
+      "input_tokens_estimate": 12304,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39776018",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 20406,
+      "truncated": false,
+      "sha256": "50b61d8f71a778826fb04b3c1163e39b454f5463660c6007ce39497844163c87",
+      "retrieved_at": "2026-09-16T19:18:09.731156+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK469995",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 36731,
+      "truncated": false,
+      "sha256": "9c8c62daa2244faedbb38cba74bba769c809641dd6dd2c136fcacdb8824a4127",
+      "retrieved_at": "2026-09-16T19:17:56.423631+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.mdpi.com/1422-0067/26/12/5634",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 345062,
+      "truncated": false,
+      "sha256": "ca0d4befa8bb978f5b98d20ca0932df86e43cba633c4a9ffad34fc70da4ad3ea",
+      "retrieved_at": "2026-09-16T19:17:55.714021+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://link.springer.com/article/10.1186/s40164-026-00760-w",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 185850,
+      "truncated": false,
+      "sha256": "33807786171217dff388b5ad18a9bcd53abd889e6a77aff2079438c1908d246a",
+      "retrieved_at": "2026-09-16T19:17:57.403231+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.mdpi.com/2072-6694/15/13/3525",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 73787,
+      "truncated": false,
+      "sha256": "4f06745d088238c9c40adb78a89917bbb59f4ff30ef5c251b166c859d6a4dab3",
+      "retrieved_at": "2026-09-16T19:17:56.162913+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://www.cancerbiomed.org/content/21/5/363",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 87132,
+      "truncated": false,
+      "sha256": "4d0c0e7ef574e159ce6c036794576914f991bb1c35b127188dcdc0f64b5cc1f8",
+      "retrieved_at": "2026-09-16T19:17:59.160770+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10977300",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 9442,
+      "truncated": false,
+      "sha256": "2d249edc66ffe4e83969178baf4f57c1af15d9463346860a2d2cbab6e9c55ea2",
+      "retrieved_at": "2026-09-16T19:17:57.987846+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://www.nature.com/articles/s41598-021-03213-y",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 52178,
+      "truncated": false,
+      "sha256": "fdd8eb355b337f6abf96418a91c57f1aefcd0fe730db479889039d11992c67f1",
+      "retrieved_at": "2026-09-16T19:17:58.890623+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up source within 2017–2020 explicitly states that an independent primary study supports this paper’s central four-RBP signature or overall RBP landscape claim.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up evidence does not document an independent team reproducing the paper’s specific signature, analysis, or functional construction during the permitted window.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No supplied 2017–2020 source reports a larger, stricter, or independently collected test of the paper’s central result.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The supplied 2017 textbook chapter discusses glioblastoma epigenetics generally but does not explicitly assess or retain this paper’s central RBP claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No supplied source within the follow-up window explicitly tests the paper’s stated limitations and shows that its central contribution remains useful.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "No supplied 2017–2020 primary study is shown to publish a substantive extension of this specific RBP landscape or four-RBP signature.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The supplied evidence does not establish substantive work by at least two independent groups building on this specific contribution during 2017–2020.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not show an independent study actually using the proposed four-RBP method, result, or framework within the permitted window.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The supplied 2017 chapter describes epigenetic mechanisms in glioblastoma broadly, but does not explicitly identify this paper’s contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No supplied 2017–2020 source reports use of this paper’s signature or RBP findings as a baseline, benchmark, or reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up source within the window demonstrates a concrete scientific or practical benefit independently obtained by applying this contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The supplied evidence does not document successful use of the specific contribution outside the original GBM datasets or evaluation setting during 2017–2020.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No supplied 2017–2020 source attributes a new measurement, result, theorem, or capability to this paper’s specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "No supplied source documents adoption of the four-RBP signature or associated framework in a product, workflow, standard, or practice during the permitted window.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The supplied evidence contains no independent fair comparison testing whether the paper’s claimed prognostic or functional advantages were retained.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Although 2020 would meet the three-year threshold, the supplied 2017–2020 sources do not document substantive independent use of this contribution then.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No supplied source provides a positive independent assessment of this specific contribution at least three years after its 2016 publication.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The supplied evidence does not document substantive independent follow-up in two distinct later calendar years within 2017–2020.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The 2017 glioblastoma epigenetics chapter is a synthesis, but the supplied text does not show that it adopts this paper’s specific RBP signature or contribution as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up source within 2017–2020 explicitly shows that this specific contribution remained useful despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "The permitted follow-up window ends on 2020-12-31, while most supplied paper-specific follow-up evidence is dated 2021 or later and therefore cannot support binary judgments.",
+      "No supplied 2017–2020 full-text follow-up study directly evaluates the NOL3/SUCLG1/HERC5/AFF3 signature or reproduces the original functional experiments.",
+      "No supplied source within the window provides a paper-specific correction, failed replication, clinical validation, systematic-review assessment, or documented operational use."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "aa232cc0aaba55de2683b40c99ec4a6ee1bdedebfc9f798d03713edb5886cd73",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 265445,
+      "input_tokens_details": {
+        "cache_write_tokens": 265442,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1519,
+      "output_tokens_details": {
+        "reasoning_tokens": 402
+      },
+      "total_tokens": 266964
+    },
+    "input_tokens_estimate": 265202,
+    "truncated": false
+  }
+}

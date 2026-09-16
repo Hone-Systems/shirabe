@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W3164091591",
+  "title": "A View of Healthcare Services in Erode District of Tamil Nadu",
+  "year": 2017,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:01:09.573406+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 0,
+  "score": null
+}

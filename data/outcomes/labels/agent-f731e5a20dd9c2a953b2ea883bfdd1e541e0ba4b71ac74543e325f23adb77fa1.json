@@ -1,0 +1,399 @@
+{
+  "id": "rpcb-10.1126/science.1224820",
+  "title": "Intestinal inflammation targets cancer-inducing activity of the microbiota",
+  "doi": "https://doi.org/10.1126/science.1224820",
+  "year": 2012,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:12:56.372222+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 14,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3645302/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Inflammation alters microbiota and pks-positive E. coli promotes colon tumorigenesis; pks deletion reduces tumor multiplicity and invasion without reducing inflammation."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://doi.org/10.7554/elife.34364",
+      "title": "Replication Study: Intestinal inflammation targets cancer-inducing activity of the microbiota.",
+      "date": "2018-10-08",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "full_text",
+      "finding": "Altered experiment timing and early mortality prevented interpretable replication of central tumorigenesis comparisons.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://doi.org/10.1136/gutjnl-2013-305257",
+      "title": "Bacterial genotoxin colibactin promotes colon tumour growth by inducing a senescence-associated secretory phenotype.",
+      "date": "2014-03-21",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "abstract",
+      "finding": "Colibactin-producing E. coli promoted tumor growth via senescence and HGF in independent models.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://doi.org/10.1158/1078-0432.ccr-13-1343",
+      "title": "Colonization of the human gut by E. coli and colorectal cancer risk.",
+      "date": "2013-12-13",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "abstract",
+      "finding": "Cancer-associated E. coli promoted polyps in Min mice and was associated with adverse clinicopathology.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S4",
+      "url": "https://doi.org/10.1038/s41586-020-2080-8",
+      "title": "Mutational signature in colorectal cancer caused by genotoxic pks&lt;sup&gt;+&lt;/sup&gt; E. coli.",
+      "date": "2020-02-27",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "scope": "abstract",
+      "independent": true,
+      "finding": "Repeated pks-positive E. coli exposure induced a distinct human organoid mutation signature absent with isogenic mutants; the signature occurred in independent human cancer cohorts.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "Independent pks-positive versus deficient bacteria experiments support colibactin-driven tumor promotion.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-03-21",
+            "explanation": "Independent pks-positive versus deficient bacteria experiments support colibactin-driven tumor promotion."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "Tumor-promoting activity of colibactin-producing bacteria was independently demonstrated in distinct models; exact original timing remains unreplicated.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-03-21",
+            "explanation": "Tumor-promoting activity of colibactin-producing bacteria was independently demonstrated in distinct models; exact original timing remains unreplicated."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "yes",
+        "rationale": "Independent AOM/DSS and xenograft tests supported the tumor-promoting contribution.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-03-21",
+            "explanation": "Independent AOM/DSS and xenograft tests supported the tumor-promoting contribution."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "yes",
+        "rationale": "The original explicitly left other colitis-associated cancer models open; independent AOM/DSS work supported the contribution there.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-03-21",
+            "explanation": "The original explicitly left other colitis-associated cancer models open; independent AOM/DSS work supported the contribution there."
+          }
+        ]
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "A senescence/SUMO-p53/HGF mechanism extended the bacterial tumor-promotion claim.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-03-21",
+            "explanation": "A senescence/SUMO-p53/HGF mechanism extended the bacterial tumor-promotion claim."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "The Cougnoux team and Clevers/van Boxtel organoid investigators substantively extended the contribution; the later collaboration shares some investigators but adds a distinct independent experimental group.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2020-02-27",
+            "explanation": "The Cougnoux team and Clevers/van Boxtel organoid investigators substantively extended the contribution; the later collaboration shares some investigators but adds a distinct independent experimental group."
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Isogenic pks-deficient comparisons were used to dissect tumor promotion.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-03-21",
+            "explanation": "Isogenic pks-deficient comparisons were used to dissect tumor promotion."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Application identified a causal tumor-promoting senescence pathway.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-03-21",
+            "explanation": "Application identified a causal tumor-promoting senescence pathway."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "The effect was shown outside the original AOM/Il10-deficient model.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-03-21",
+            "explanation": "The effect was shown outside the original AOM/Il10-deficient model."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "Independent work identified senescence-associated HGF secretion as a mechanism.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-03-21",
+            "explanation": "Independent work identified senescence-associated HGF secretion as a mechanism."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2020 human-organoid study applied the pks-positive versus isogenic-mutant strategy eight years later.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2020-02-27",
+            "explanation": "The 2020 human-organoid study applied the pks-positive versus isogenic-mutant strategy eight years later."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "Independent 2020 experiments support bacterial genotoxicity with a human cancer mutation signature.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2020-02-27",
+            "explanation": "Independent 2020 experiments support bacterial genotoxicity with a human cancer mutation signature."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive independent tumor-mechanism and mutational-signature follow-ups occurred in 2014 and 2020.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2020-02-27",
+            "explanation": "Substantive independent tumor-mechanism and mutational-signature follow-ups occurred in 2014 and 2020."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "This is a bounded primary-evidence assessment, not an exhaustive adoption or clinical practice audit.",
+      "Failed or confounded selected experiments do not imply all claims in the original paper are false.",
+      "Exact first-publication version and separately linked supplements were not all verified."
+    ],
+    "summary": "Altered experiment timing and early mortality prevented interpretable replication of central tumorigenesis comparisons. Colibactin-producing E. coli promoted tumor growth via senescence and HGF in independent models. Cancer-associated E. coli promoted polyps in Min mice and was associated with adverse clinicopathology. Repeated pks-positive E. coli exposure induced a distinct human organoid mutation signature absent with isogenic mutants; the signature occurred in independent human cancer cohorts."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1126/science.1224820",
+      "https://doi.org/10.7554/eLife.34364",
+      "Follow references / DOI lookups for 10.1136/gutjnl-2013-305257, 10.1158/1078-0432.ccr-13-1343",
+      "DOI:10.1038/s41586-020-2080-8"
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1126/science.1224820",
+        "purpose": "Original identity and full-text resolution via Europe PMC and NCBI BioC",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3645302/"
+        ]
+      },
+      {
+        "query": "https://doi.org/10.7554/eLife.34364",
+        "purpose": "Independent direct replication and references to contrary supporting evidence",
+        "urls_read": [
+          "https://doi.org/10.7554/elife.34364"
+        ]
+      },
+      {
+        "query": "Follow references / DOI lookups for 10.1136/gutjnl-2013-305257, 10.1158/1078-0432.ccr-13-1343",
+        "purpose": "Read independent supporting and limiting primary evidence",
+        "urls_read": [
+          "https://doi.org/10.1136/gutjnl-2013-305257",
+          "https://doi.org/10.1158/1078-0432.ccr-13-1343"
+        ]
+      },
+      {
+        "query": "DOI:10.1038/s41586-020-2080-8",
+        "purpose": "Check later mechanistic durability or clinical translation limits",
+        "urls_read": [
+          "https://doi.org/10.1038/s41586-020-2080-8"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 13,
+    "coverage": 0.65,
+    "score": 1.0,
+    "lower_bound": 0.65,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": true
+  },
+  "llm": {
+    "model": "Codex autonomous research agent / cancer external last",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

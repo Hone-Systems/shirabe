@@ -1,0 +1,67 @@
+{
+  "ssrp-manifest": [
+    {
+      "id": "ssrp-10.1126/science.1224313",
+      "title": "Body cues, not facial expressions, discriminate between intense positive and negative emotions.",
+      "doi": "10.1126/science.1224313",
+      "year": 2012,
+      "split": "test",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1126/science.1199327",
+      "title": "Retrieval practice produces more learning than elaborative studying with concept mapping.",
+      "doi": "10.1126/science.1199327",
+      "year": 2011,
+      "split": "train",
+      "sampling_cohort": "ssrp_complete_2018"
+    }
+  ],
+  "econ-manifest": [
+    {
+      "id": "econ-10.1257/aer.102.2.720",
+      "doi": "10.1257/aer.102.2.720",
+      "year": 2012,
+      "citation": "D. Fudenberg, D. G. Rand, A. Dreber, Slow to anger and fast to forgive: Cooperation in an uncertain world. Am. Econ. Rev. 102, 720\u2013749 (2012). doi:10.1257/aer.102.2.720",
+      "split": "validation"
+    },
+    {
+      "id": "econ-10.1257/aer.104.6.1735",
+      "doi": "10.1257/aer.104.6.1735",
+      "year": 2014,
+      "citation": "J. Duffy, D. Puzzello, Gift exchange versus monetary exchange: Theory and evidence. Am. Econ. Rev. 104, 1735\u20131776 (2014). doi:10.1257/aer.104.6.1735",
+      "split": "test"
+    }
+  ],
+  "manylabs-manifest": [
+    {
+      "id": "ml2-10.1111/j.1468-0017.2006.00297.x",
+      "doi": "https://doi.org/10.1111/j.1468-0017.2006.00297.x",
+      "title": "A dissociation between moral judgments and justifications",
+      "year": 2007,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "train",
+      "findings": [
+        11,
+        17
+      ],
+      "hash_bucket": 6
+    },
+    {
+      "id": "ml2-10.1037/0022-3514.83.5.1239",
+      "doi": "https://doi.org/10.1037/0022-3514.83.5.1239",
+      "title": "Cultural variation in correspondence bias: The critical role of attitude diagnosticity of socially constrained behavior",
+      "year": 2002,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "calibration",
+      "findings": [
+        7
+      ],
+      "hash_bucket": 4
+    }
+  ]
+}

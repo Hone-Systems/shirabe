@@ -1,0 +1,618 @@
+{
+  "id": "challenge-superconductor",
+  "title": "Room-temperature superconductivity in a carbonaceous sulfur hydride",
+  "doi": "https://doi.org/10.1038/s41586-020-2801-z",
+  "year": 2020,
+  "field_id": 31,
+  "field": "Physics",
+  "split": "challenge",
+  "sampling_cohort": "agent_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:31:38.206887+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 6,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://www.osti.gov/servlets/purl/1673473",
+    "scope": "full_text",
+    "read": true,
+    "note": "Full author manuscript, methods and extended-data captions read from OSTI; publication identity and retraction checked against Nature."
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.nature.com/articles/s41586-022-05294-9",
+      "title": "Retraction Note: Room-temperature superconductivity in a carbonaceous sulfur hydride",
+      "date": "2022-09-26",
+      "date_basis": "publication",
+      "kind": "editorial_retraction",
+      "read": true,
+      "independent": true,
+      "scope": "publisher_notice_and_indexed_notice_text",
+      "finding": "Nature retracted the paper over data processing and analysis. The notice identifies undocumented, nonstandard magnetic-background subtraction and loss of confidence in susceptibility data; the authors disagreed. Retraction does not independently establish that every materials result is false.",
+      "characters": null,
+      "method": "editorial_retraction",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://link.springer.com/article/10.1007/s10948-022-06148-1",
+      "title": "High-Temperature Superconductivity in Hydrides: Experimental Evidence and Details",
+      "date": "2022-03-25",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "finding": "Eremets and colleagues explicitly report significant unsuccessful efforts to reproduce C–S–H room-temperature superconductivity. They distinguish this from independently reproduced H3S and LaH10 superconductivity.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevMaterials.6.014801/fulltext",
+      "title": "Missing theoretical evidence for conventional room-temperature superconductivity in low-enthalpy structures of carbonaceous sulfur hydrides",
+      "date": "2022-01-06",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "full_text",
+      "finding": "Gubler and colleagues searched over 17,000 structures and studied 3,000 promising candidates. Their conventional-superconductivity calculations did not explain the reported room-temperature result; they retain unsearched structures or unconventional physics as possibilities.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S4",
+      "url": "https://bib-pubdb1.desy.de/record/462572/files/PhysRevB.103.L140105.pdf?subformat=pdfa",
+      "title": "Structure and composition of C-S-H compounds up to 143 GPa",
+      "date": "2021-04-20",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "finding": "Bykova and colleagues tested the original synthesis and a methane-based variant, measured structures and Raman spectra, and directly compared original Raman data. They could not reproduce the proposed methane incorporation from elemental carbon; their resulting materials differed from the original report. They did not measure the central room-temperature superconducting result.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S5",
+      "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.105.L020510",
+      "title": "Enhanced superconductivity in C-S-H compounds at high pressure",
+      "date": "2022-01-31",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "abstract",
+      "finding": "Liao and colleagues used the original 1:1 carbon:sulfur composition as a specific starting point for independent first-principles searches, predicting C2S2H4 and C2S3H4 with transition temperatures far below room temperature.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S6",
+      "url": "https://academic.oup.com/nsr/article/11/7/nwad307/7462326",
+      "title": "Superconducting ternary hydrides: progress and challenges",
+      "date": "2023-12-07",
+      "date_basis": "publication",
+      "kind": "research_synthesis",
+      "read": true,
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "finding": "Zhao and colleagues explicitly say the withdrawn Snider paper sparked a series of high-pressure C–S–H studies. They distinguish antecedent 2020 predictions from subsequent research and report unresolved composition and later calculated transition temperatures below room temperature. Online publication was December 2023; issue date July 2024.",
+      "characters": null,
+      "method": "research_synthesis",
+      "truncated": false
+    },
+    {
+      "source_id": "S7",
+      "url": "https://arxiv.org/abs/2302.08622",
+      "title": "Observation of Conventional Near Room Temperature Superconductivity in Carbonaceous Sulfur Hydride",
+      "date": "2023-02-16",
+      "date_basis": "publication",
+      "kind": "primary_preprint",
+      "read": true,
+      "independent": false,
+      "scope": "abstract_and_author_list",
+      "finding": "Pasan and colleagues claim 260 K superconductivity at 133 GPa from susceptibility and optical measurements. Multiple original authors, including Dias and Salamat, are present; this is not independent replication and predates the three-year anniversary.",
+      "characters": null,
+      "method": "primary_preprint",
+      "truncated": false
+    },
+    {
+      "source_id": "S8",
+      "url": "https://pubs.rsc.org/en/content/articlepdf/2024/cc/d3cc90410e?page=search",
+      "title": "Retraction: Carbon content drives high temperature superconductivity in a carbonaceous sulfur hydride below 100 GPa",
+      "date": "2024-01-15",
+      "date_basis": "publication",
+      "kind": "author_retraction",
+      "read": true,
+      "independent": false,
+      "scope": "full_text",
+      "finding": "Authors retract a same-team 2022 extension because they lost confidence in origins of electrical transport measurements. They explicitly maintain the X-ray crystallography and structure calculations, while superconductivity conclusions become uncertain.",
+      "characters": null,
+      "method": "author_retraction",
+      "truncated": false
+    },
+    {
+      "source_id": "S9",
+      "url": "https://arxiv.org/html/2105.05463v3",
+      "title": "Carbonaceous sulfur hydride system: the strong-coupled room-temperature superconductor with a low value of Ginzburg-Landau parameter",
+      "date": "2021-06-15",
+      "date_basis": "publication",
+      "kind": "primary_preprint",
+      "read": true,
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "finding": "Wrona and colleagues defend compatibility with a strong-coupling superconducting interpretation. Their model takes the experimental 287.7 K temperature as input and estimates thermodynamic parameters; this is affirmative theoretical interpretation, not independently collected experimental support.",
+      "characters": null,
+      "method": "primary_preprint",
+      "truncated": false
+    },
+    {
+      "source_id": "S10",
+      "url": "https://www.nature.com/articles/s41524-022-00769-9",
+      "title": "Dilute carbon in H3S under pressure",
+      "date": "2022-04-27",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "finding": "Wang, Zurek and colleagues investigate specific carbon-doped structural candidates motivated by the report. They identify local bonding changes and limits of rigid-band approaches, without experimentally establishing the original superconducting state. Some authors collaborated with the original team in separate structural work; not used as the sole independent-group evidence.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Independent theoretical work offers a favorable conditional interpretation, but takes the reported transition temperature as an input. Independent experimental efforts failed. The rubric does not specify whether such conditional model support qualifies as support of the central experimental claim; it is not treated as experimental validation.",
+        "evidence": [
+          {
+            "source_id": "S9",
+            "date": "2021-06-15",
+            "explanation": "Provides an affirmative strong-coupling interpretation conditional on original measurements."
+          },
+          {
+            "source_id": "S2",
+            "date": "2022-03-25",
+            "explanation": "Reports failed experimental reproduction."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "no",
+        "rationale": "The documented independent replication effort failed. Related structural synthesis is not reproduction of 287.7 K superconductivity; the 2023 affirmative preprint shares the original team.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022-03-25",
+            "explanation": "Independent team explicitly states failure to reproduce the observations."
+          },
+          {
+            "source_id": "S7",
+            "date": "2023-02-16",
+            "explanation": "Author overlap prevents treating the affirmative later preprint as independent."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "no",
+        "rationale": "The central result did not survive the independent experimental check documented by Eremets and colleagues. This is an observed failed follow-up, not proof that every possible C–S–H phase is nonsuperconducting.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022-03-25",
+            "explanation": "Explicit independent failure after substantial attempts."
+          },
+          {
+            "source_id": "S3",
+            "date": "2022-01-06",
+            "explanation": "Broad computational checks also failed to explain the claimed conventional state."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "no",
+        "rationale": "The authoritative editorial disposition withdrew the paper, and the later synthesis records it as withdrawn with unresolved composition. The claim is not retained as an established room-temperature result.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-09-26",
+            "explanation": "Publisher withdrew the paper over compromised confidence in key evidence."
+          },
+          {
+            "source_id": "S6",
+            "date": "2023-12-07",
+            "explanation": "Later review retains the controversy and unresolved structure, not an established central result."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The original acknowledged unknown structure and difficult magnetic measurements. Follow-up tested structural assumptions but did not establish the useful survival of the claimed superconducting state. Related chemistry remains worth studying, which is a narrower proposition.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021-04-20",
+            "explanation": "Finds composition and spectra differ from the original interpretation."
+          },
+          {
+            "source_id": "S8",
+            "date": "2024-01-15",
+            "explanation": "Separates retained structural work from uncertain superconductivity."
+          }
+        ]
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Independent structural and computational investigations substantively extended the specific C–S–H proposal. This records follow-up work, not successful extension of room-temperature superconductivity.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021-04-20",
+            "explanation": "Studies original and modified synthesis with additional structural measurements."
+          },
+          {
+            "source_id": "S5",
+            "date": "2022-01-31",
+            "explanation": "Original 1:1 composition directly guides new predicted compounds."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "At least the Bykova/Goncharov experimental team and Liao/Su theoretical team conducted substantive, distinct investigations of this specific report.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021-04-20",
+            "explanation": "Independent experimental group tests synthesis and characterizes structures."
+          },
+          {
+            "source_id": "S5",
+            "date": "2022-01-31",
+            "explanation": "Separate computational group predicts specific related phases."
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Bykova and colleagues actually used a synthesis modeled on Snider et al. and tested an alternative methane route. Reuse occurred even though the claimed product composition was not reproduced.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021-04-20",
+            "explanation": "Methods and conclusions explicitly connect executed synthesis to the original recipe."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "yes",
+        "rationale": "A later independent review explicitly credits the withdrawn paper with prompting a series of high-pressure C–S–H studies. It does not claim the paper invented all ternary-hydride research.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2023-12-07",
+            "explanation": "Section on precompressed H3S frameworks expressly attributes subsequent C–S–H investigations to this work."
+          }
+        ]
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "rationale": "Original Raman frequencies were used as actual experimental comparison data in Bykova et al., including their plotted pressure-dependent comparison. The comparison exposed differences.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021-04-20",
+            "explanation": "Figure 3 and discussion quantitatively compare original and new Raman data."
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Independent follow-up produced chemical and structural knowledge, but the reviewed evidence does not demonstrate a concrete benefit from applying the claimed superconducting material. Counting motivation or a failed replication as useful application would require a broader definition.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021-04-20",
+            "explanation": "Investigators explicitly distinguish their materials from the original claimed superconducting sample."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Related phases and altered synthesis conditions were studied, but no reviewed independent source demonstrates successful transfer of the central superconducting result outside its original setting.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021-04-20",
+            "explanation": "Modified synthesis produces different materials, without superconductivity verification."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "New structural measurements and predictions clearly followed the report. It remains unclear whether they count as results enabled by its contribution, rather than independent work motivated by a disputed claim and older host–guest chemistry.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021-04-20",
+            "explanation": "Reports new characterization but failure of the claimed synthesis."
+          },
+          {
+            "source_id": "S5",
+            "date": "2022-01-31",
+            "explanation": "New predictions use original composition as a search target, not an established superconducting result."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Operational superconducting applications are appropriate to the paper’s stated aspirations, but no verified deployment of this particular material or a resulting workflow was established. Lack of located deployment evidence is not a factual nonadoption finding.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "no",
+        "rationale": "The advertised higher transition temperature was not retained in the independent experimental follow-up. Independent conventional calculations likewise predicted substantially lower temperatures; this is bounded to those tested systems.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022-03-25",
+            "explanation": "Failed reproduction of the room-temperature advantage."
+          },
+          {
+            "source_id": "S3",
+            "date": "2022-01-06",
+            "explanation": "Candidate phases do not deliver the claimed conventional room-temperature performance."
+          }
+        ]
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The December 2023 review establishes continued discussion after the three-year anniversary, but discussion is not substantive use. The February 2023 same-team preprint is earlier than that anniversary. No qualifying later application was verified.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2023-12-07",
+            "explanation": "Later synthesis discusses research influence rather than applying the original result."
+          },
+          {
+            "source_id": "S7",
+            "date": "2023-02-16",
+            "explanation": "Affirmative preprint is too early for the exact three-year threshold."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The late review credits research influence but does not independently validate the central superconducting contribution. No clear affirmative assessment of that central contribution after 14 October 2023 was established.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2023-12-07",
+            "explanation": "Distinguishes sparked research from unresolved and withdrawn room-temperature claim."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive independent follow-up appears in both 2021 and 2022, regardless of whether the findings support or contradict the claim.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021-04-20",
+            "explanation": "Independent structural experiments published in 2021."
+          },
+          {
+            "source_id": "S5",
+            "date": "2022-01-31",
+            "explanation": "Independent computational extension published in 2022."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The reviewed synthesis includes this work as a withdrawn report and research stimulus. It does not clearly adopt the central contribution as valid or useful in the rubric’s substantive sense; other qualifying syntheses were not established.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2023-12-07",
+            "explanation": "Explicitly acknowledges withdrawal and unresolved structure while crediting influence."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later sources establish continued attention and related-material research, but not continued usefulness of this particular superconducting contribution despite alternatives.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2023-12-07",
+            "explanation": "Compares the broader ternary-hydride landscape without establishing surviving utility of Snider’s result."
+          }
+        ]
+      }
+    ],
+    "search_gaps": [
+      "Conditional theoretical support and successful independent experimental support are not equivalent; claim_supported lacks a rule for this distinction.",
+      "Uptake questions can record useful substantive scrutiny without validating the central claim; enabled_new_result and external_utility do not specify whether research motivated by a failed claim qualifies.",
+      "No confirmed independent operational adoption or successful room-temperature transfer found; these absences remain unknown.",
+      "Late positive validation, substantive post-October-2023 use, and surviving comparative utility were not established. Later search results largely repeated the earlier controversy.",
+      "Some publisher pages restricted full text. Original manuscript was obtained in full from OSTI. Source scopes explicitly identify abstract-only or relevant-section reads.",
+      "Lifetime observation through 2026-09-16; this selected landmark challenge case is not an unbiased training sample."
+    ],
+    "summary": "The room-temperature claim was retracted and a documented independent replication effort failed. Independent teams nevertheless tested the synthesis, compared spectra, and extended C–S–H structural calculations; a later review explicitly attributes a research stimulus to the paper. Affirmative conditional theory and same-team follow-ups do not establish independent experimental validity. Utility and durability remain incompletely evidenced rather than automatically negative."
+  },
+  "research_plan": {
+    "queries": [
+      "carbonaceous sulfur hydride independent reproduction 2024 2025 retraction superconductivity",
+      "carbon sulfur hydride room temperature superconductivity independent experiment Lilia Boeri Troyan 2021 2022",
+      "carbonaceous sulfur hydride 2024 2025 independent superconductivity review",
+      "\"carbonaceous sulfur hydride\" \"phonon\" \"2021\" \"Ge\"",
+      "\"Structure and composition of C-S-H compounds up to 143 GPa\"",
+      "\"carbonaceous sulfur hydride\" \"2024\" \"reproduced\"",
+      "\"carbonaceous sulfur hydride\" \"2025\" \"reproduced\"",
+      "\"Carbonaceous sulfur hydride system\" \"strong-coupled\" authors",
+      "Direct open of primary-source lead: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.105.L020510"
+    ],
+    "search_log": [
+      {
+        "query": "carbonaceous sulfur hydride independent reproduction 2024 2025 retraction superconductivity",
+        "purpose": "Find independent replication and editorial outcomes",
+        "urls_read": [
+          "https://www.nature.com/articles/s41586-022-05294-9",
+          "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevMaterials.6.014801/fulltext",
+          "https://arxiv.org/abs/2302.08622",
+          "https://pubs.rsc.org/en/content/articlepdf/2024/cc/d3cc90410e?page=search"
+        ]
+      },
+      {
+        "query": "carbon sulfur hydride room temperature superconductivity independent experiment Lilia Boeri Troyan 2021 2022",
+        "purpose": "Identify primary independent follow-up",
+        "urls_read": [
+          "https://link.springer.com/article/10.1007/s10948-022-06148-1",
+          "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevMaterials.6.014801/fulltext"
+        ]
+      },
+      {
+        "query": "carbonaceous sulfur hydride 2024 2025 independent superconductivity review",
+        "purpose": "Check later synthesis and durability",
+        "urls_read": [
+          "https://academic.oup.com/nsr/article/11/7/nwad307/7462326"
+        ]
+      },
+      {
+        "query": "\"carbonaceous sulfur hydride\" \"phonon\" \"2021\" \"Ge\"",
+        "purpose": "Check positive theoretical leads and author independence",
+        "urls_read": [
+          "https://www.nature.com/articles/s41524-022-00769-9"
+        ]
+      },
+      {
+        "query": "\"Structure and composition of C-S-H compounds up to 143 GPa\"",
+        "purpose": "Read direct independent synthesis and comparison",
+        "urls_read": [
+          "https://bib-pubdb1.desy.de/record/462572/files/PhysRevB.103.L140105.pdf?subformat=pdfa"
+        ]
+      },
+      {
+        "query": "\"carbonaceous sulfur hydride\" \"2024\" \"reproduced\"",
+        "purpose": "Check late replication; leads repeated prior failures",
+        "urls_read": []
+      },
+      {
+        "query": "\"carbonaceous sulfur hydride\" \"2025\" \"reproduced\"",
+        "purpose": "Check late replication; no additional primary confirmation verified",
+        "urls_read": []
+      },
+      {
+        "query": "\"Carbonaceous sulfur hydride system\" \"strong-coupled\" authors",
+        "purpose": "Investigate affirmative independent theory",
+        "urls_read": [
+          "https://arxiv.org/html/2105.05463v3"
+        ]
+      },
+      {
+        "query": "Direct open of primary-source lead: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.105.L020510",
+        "purpose": "Read independent extension using original composition",
+        "urls_read": [
+          "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.105.L020510"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 3,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.4
+      },
+      "uptake": {
+        "yes": 5,
+        "no": 0,
+        "unknown": 0,
+        "not_applicable": 0,
+        "coverage": 1.0,
+        "known_index": 1.0,
+        "lower_bound": 1.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 1,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.8
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 10,
+    "coverage": 0.5,
+    "score": null,
+    "lower_bound": 0.3,
+    "upper_bound": 0.8,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

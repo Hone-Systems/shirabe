@@ -1,0 +1,331 @@
+{
+  "id": "https://openalex.org/W3171324936",
+  "title": "A Brief Study of the 28 Lunar Lodges Annotated Calendar: Focused on the Annotated Calendars of Dunhuang",
+  "doi": "https://doi.org/10.13173/centasiaj.63.1-2.0153",
+  "year": 2020,
+  "field_id": 31,
+  "field": "Physics and Astronomy",
+  "split": "calibration",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2024-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:22:55.148524+00:00",
+  "input_scope": "abstract",
+  "original_source": {},
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "Dunhuang tenth-century calendar twenty-eight lunar lodges sexagenary cycles Western zodiac independent extension",
+      "Dunhuang twenty-eight lodges twelve houses Western zodiac critical test replication Arrault",
+      "Annotated Calendars of Dunhuang lunar lodges sexagenary cycles historiographical synthesis",
+      "Dunhuang calendrical astronomy lunar lodges zodiac houses theoretical adoption practical use"
+    ],
+    "selected_urls": [
+      "https://read.dukeupress.edu/sungkyun-journal-of-east-asian-studies/article/22/1/1/299045/Zoomorphizing-the-Asterisms-Indigenous",
+      "https://www.persee.fr/doc/asie_0766-1177_2011_num_20_1_1374",
+      "https://press.uchicago.edu/books/hoc/HOC_V2_B2/HOC_VOLUME2_Book2_chapter13.pdf",
+      "https://brill.com/display/book/edcoll/9789004511675/BP000003.xml?language=en",
+      "https://academiccommons.columbia.edu/doi/10.7916/D8959Q4F/download",
+      "https://www.academia.edu/94254831/Ten_Heavenly_Stems_Twelve_Earthly_Branches_and_the_Chinese_Calendar"
+    ],
+    "plan_usage": {
+      "cache_key": "82467945e123fda4ec59d80403ac06c58ffc416131f6f2d111d4ade5496f7777",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 326,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 601,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 927
+      },
+      "input_tokens_estimate": 292,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "36b2ba719957077785670fb02dfafbc8faa1cead36d8c5e3fea73392535889b6",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 9077,
+        "input_tokens_details": {
+          "cache_write_tokens": 9074,
+          "cached_tokens": 0
+        },
+        "output_tokens": 364,
+        "output_tokens_details": {
+          "reasoning_tokens": 172
+        },
+        "total_tokens": 9441
+      },
+      "input_tokens_estimate": 9043,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://read.dukeupress.edu/sungkyun-journal-of-east-asian-studies/article/22/1/1/299045/Zoomorphizing-the-Asterisms-Indigenous",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:22:40.277196+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.persee.fr/doc/asie_0766-1177_2011_num_20_1_1374",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 2487,
+      "truncated": false,
+      "sha256": "20eea7d11954a0e52ef88346b315496bfd9b4d134d8ee732221626b568d3e15a",
+      "retrieved_at": "2026-09-16T19:22:35.276525+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://press.uchicago.edu/books/hoc/HOC_V2_B2/HOC_VOLUME2_Book2_chapter13.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 339185,
+      "truncated": false,
+      "sha256": "3afb5fb3ed063f361603737ec74d7bf89868981af5eb4e708a24513e9b745493",
+      "retrieved_at": "2026-09-16T19:22:42.048267+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://brill.com/display/book/edcoll/9789004511675/BP000003.xml?language=en",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 13551,
+      "truncated": false,
+      "sha256": "e21ba921f5e878811c1e96b70ecfd9c2627064e14b38ea100ce023a65e32f580",
+      "retrieved_at": "2026-09-16T19:22:39.541733+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://academiccommons.columbia.edu/doi/10.7916/D8959Q4F/download",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 128649,
+      "truncated": false,
+      "sha256": "280b59034918541beb6aecd97e27009fcd1293f8f5a6373fe220cfc86331a797",
+      "retrieved_at": "2026-09-16T19:22:37.011885+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://www.academia.edu/94254831/Ten_Heavenly_Stems_Twelve_Earthly_Branches_and_the_Chinese_Calendar",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 44134,
+      "truncated": false,
+      "sha256": "e968fd69bcd5406ec5e88e08bb70e2007894473ff79244ff0456f18465a6703b",
+      "retrieved_at": "2026-09-16T19:22:37.477127+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No supplied 2021–2024 source explicitly evaluates or supports this paper’s central claim.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up study independently reproduces the paper’s specific interpretation or construction.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No supplied source reports a larger, stricter, or independently collected test of the paper’s claim.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "No authoritative 2021–2024 assessment in the supplied sources explicitly retains or rejects the central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up sources do not explicitly test the paper’s stated limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "No supplied 2021–2024 source documents a substantive independent extension of this specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not establish substantive work by at least two independent groups building on this paper.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up study demonstrably uses the paper’s proposed method, result, or framework rather than merely discussing related calendrical material.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No supplied later review explicitly identifies this paper as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No supplied 2021–2024 source uses this paper’s contribution as a specific baseline, benchmark, or reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No supplied source demonstrates an independent scientific or practical benefit from applying this contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up source shows successful use beyond the paper’s Dunhuang annotated-calendar setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No supplied 2021–2024 source attributes a new result, measurement, theorem, or capability to this paper.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "not_applicable",
+        "rationale": "This historical-interpretive paper does not present an operational method or product for adoption in a workflow, standard, or practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No supplied independent comparison fairly evaluates and confirms a claimed advantage of this contribution.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The supplied 2021–2024 sources do not document substantive use of this paper at least three years after its 2020 publication.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No supplied source provides a positive independent assessment at least three years after publication.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not document substantive independent follow-up in two distinct post-publication calendar years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No supplied systematic review, textbook, standard, or research synthesis in the follow-up window adopts this contribution as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No supplied later evidence explicitly demonstrates continued usefulness despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "The supplied 2021–2024 sources contain no accessible, paper-specific follow-up assessment of the 2020 article.",
+      "Several retrieved items are outside the permitted follow-up window or lack full text and therefore cannot support binary findings.",
+      "No supplied source establishes citations, independent replication, reuse, extension, comparison, or later synthesis specifically tied to this paper."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 1,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "9d3e7d6b6890280922457e029026f2472ecac1202b1cdf5fe8974b31f35620f9",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 132558,
+      "input_tokens_details": {
+        "cache_write_tokens": 132555,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1166,
+      "output_tokens_details": {
+        "reasoning_tokens": 281
+      },
+      "total_tokens": 133724
+    },
+    "input_tokens_estimate": 132315,
+    "truncated": false
+  }
+}

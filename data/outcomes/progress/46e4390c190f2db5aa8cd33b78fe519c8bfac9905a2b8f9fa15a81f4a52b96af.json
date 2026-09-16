@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W2982984920",
+  "title": "Quantitative Analysis of Bioactive Phenanthrenes in Dioscorea batatas Decne Peel, a Discarded Biomass from Postharvest Processing",
+  "year": 2019,
+  "field_id": 27,
+  "field": "Medicine",
+  "split": "validation",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T19:57:14.295312+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 7,
+  "score": null
+}

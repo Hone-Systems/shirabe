@@ -132,3 +132,77 @@ def test_pdf_rotated_stamp_and_author_footnote_excluded(client, abstract):
     assert "arXiv" not in result.json()["text"]
     assert "Author notes" not in result.json()["text"]
     assert "abstract" not in result.json()["text"].lower()
+
+
+def test_full_text_pdf_preserves_later_pages(client):
+    doc = pymupdf.open()
+    for n in range(5):
+        page = doc.new_page()
+        page.insert_text(
+            (72, 72),
+            f"Original scientific paper page {n + 1}. " + "This sentence is original body text. " * 3,
+        )
+    content = doc.tobytes()
+    doc.close()
+    response = client.post(
+        "/api/extract?full_text=true", files={"file": ("full.pdf", content, "application/pdf")}
+    )
+    assert response.status_code == 200
+    data = response.json()
+    assert data["pages"] == 5 and data["requires_review"] is True
+    assert "paper page 5" in data["text"]
+    assert "paper page 1" in data["text"]
+
+
+def test_outcome_api_keeps_service_errors_and_validation_explicit(client, monkeypatch):
+    from shirabe.api import outcome_model
+
+    def unavailable():
+        raise FileNotFoundError("Outcome model is still training")
+
+    monkeypatch.setattr(outcome_model, "metadata", unavailable)
+    assert client.get("/api/outcome-model").status_code == 503
+    assert client.post("/api/outcome-predict", json={"text": "short"}).status_code == 422
+    monkeypatch.setattr(
+        outcome_model,
+        "predict",
+        lambda text: {"experimental": True, "model_id": "test", "text_length": len(text)},
+    )
+    response = client.post("/api/outcome-predict", json={"text": "a" * 25000})
+    assert response.status_code == 200 and response.json()["text_length"] == 25000
+
+
+def test_outcome_stream_orders_real_progress_and_result(client, monkeypatch):
+    import json
+
+    from shirabe.api import outcome_model
+
+    def predict(text, progress):
+        progress({"stage": "masking"})
+        progress({"stage": "inference", "completed": 1, "chunks": 2})
+        progress({"stage": "inference", "completed": 2, "chunks": 2})
+        return {"score": 0.5, "chunks": 2}
+
+    monkeypatch.setattr(outcome_model, "predict", predict)
+    response = client.post("/api/outcome-predict/stream", json={"text": "text " * 30})
+    events = [json.loads(line) for line in response.text.splitlines()]
+    assert response.headers["content-type"].startswith("application/x-ndjson")
+    assert [e["type"] for e in events] == ["progress", "progress", "progress", "result"]
+    assert [e["completed"] for e in events if "completed" in e] == [1, 2]
+    assert events[-1]["result"]["score"] == 0.5
+
+
+def test_outcome_stream_failure_is_terminal_and_never_a_score(client, monkeypatch):
+    import json
+
+    from shirabe.api import outcome_model
+
+    def predict(text, progress):
+        progress({"stage": "masking"})
+        raise ValueError("Masking failed")
+
+    monkeypatch.setattr(outcome_model, "predict", predict)
+    response = client.post("/api/outcome-predict/stream", json={"text": "text " * 30})
+    events = [json.loads(line) for line in response.text.splitlines()]
+    assert events[-1] == {"type": "error", "detail": "Masking failed"}
+    assert not any(e["type"] == "result" for e in events)

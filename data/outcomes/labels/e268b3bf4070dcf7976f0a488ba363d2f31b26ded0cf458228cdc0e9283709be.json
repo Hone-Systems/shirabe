@@ -1,0 +1,378 @@
+{
+  "id": "https://openalex.org/W3042823287",
+  "title": "Molecular mechanisms of the effects of N-ethylmaleimide and 1,4-dithioerythritol on regulation of apoptosis in P19 cells under hypoxia",
+  "doi": "https://doi.org/10.20538/1682-0363-2020-2-72-77",
+  "year": 2020,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "calibration",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2024-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:19:19.026316+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://doi.org/10.20538/1682-0363-2020-2-72-77",
+    "method": "html_main_text",
+    "http_status": 200,
+    "characters": 13996,
+    "truncated": false,
+    "sha256": "c714371a3bd18160d2bd13f125b3522201b2ae56bf90eb6b0ca6e5835f8c7c3f",
+    "retrieved_at": "2026-09-16T19:12:07.831796+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "P19 teratocarcinoma hypoxia N-ethylmaleimide dithioerythritol glutathione apoptosis mitochondrial potential",
+      "P19 hypoxia N-ethylmaleimide dithioerythritol apoptosis Annexin V CD95 CD120 replication",
+      "Hypoxia tumor-cell apoptosis glutathione redox homeostasis protein glutathionylation carbonylation review",
+      "N-ethylmaleimide dithioerythritol redox modulation hypoxic cancer apoptosis therapeutic strategy"
+    ],
+    "selected_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8208898",
+      "https://www.thno.org/v13p4356.pdf",
+      "https://www.sciencedirect.com/science/article/am/pii/S0278691522005683",
+      "https://www.cellmolbiol.org/index.php/CMB/article/download/4765/2490",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10073466",
+      "https://www.mdpi.com/2218-273X/10/10/1429",
+      "https://www.explorationpub.com/Journals/eds/Article/100874",
+      "https://www.atcc.org/products/crl-1825"
+    ],
+    "plan_usage": {
+      "cache_key": "038978a8c5700b5553ff3c87d5b1237e813b3d832a2ae074adcdc78f1866941a",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 4931,
+        "input_tokens_details": {
+          "cache_write_tokens": 4928,
+          "cached_tokens": 0
+        },
+        "output_tokens": 461,
+        "output_tokens_details": {
+          "reasoning_tokens": 348
+        },
+        "total_tokens": 5392
+      },
+      "input_tokens_estimate": 4897,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "74331812387286dba0aa40ede94f6a4f329da34be201a1a67ffa54c350a547c0",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 5903,
+        "input_tokens_details": {
+          "cache_write_tokens": 5900,
+          "cached_tokens": 0
+        },
+        "output_tokens": 410,
+        "output_tokens_details": {
+          "reasoning_tokens": 255
+        },
+        "total_tokens": 6313
+      },
+      "input_tokens_estimate": 5869,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8208898",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 86733,
+      "truncated": false,
+      "sha256": "46934ba9027c589d9f5e936d4d94b00158b52238a1e71837c66b204936f1c306",
+      "retrieved_at": "2026-09-16T19:18:49.176361+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.thno.org/v13p4356.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 99445,
+      "truncated": false,
+      "sha256": "71aa359b28fc56adbdda530dced15df49e211a3695a3b673c168c774cb117725",
+      "retrieved_at": "2026-09-16T19:18:49.199718+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.sciencedirect.com/science/article/am/pii/S0278691522005683",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:18:59.021028+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.cellmolbiol.org/index.php/CMB/article/download/4765/2490",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 39935,
+      "truncated": false,
+      "sha256": "f50d88800bdbd65cf76c5dbda90516b3777c7fb985713fc015d51a3c35b84aa0",
+      "retrieved_at": "2026-09-16T19:18:49.897852+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10073466",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 212713,
+      "truncated": false,
+      "sha256": "8cc669aaba1ff36af02562ccf6779aa9490f36319f527fe7507a59f0b021c37e",
+      "retrieved_at": "2026-09-16T19:18:49.897873+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://www.mdpi.com/2218-273X/10/10/1429",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 225836,
+      "truncated": false,
+      "sha256": "c9c612b5284ed6faedfcb9a82defb5b0cf6b3e3d8f0e4af983011feb5a24d63d",
+      "retrieved_at": "2026-09-16T19:18:49.825372+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://www.explorationpub.com/Journals/eds/Article/100874",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 104359,
+      "truncated": false,
+      "sha256": "25ea44a36ad1d0fd4b3c69d7a7c4f1cc70863ea5ce3ab161e97be83f8bed9aac",
+      "retrieved_at": "2026-09-16T19:18:51.916582+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://www.atcc.org/products/crl-1825",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 14915,
+      "truncated": false,
+      "sha256": "ede9f64449cdeacb0f28b6b2d7afb772b53f2270dec96c07ec15fed66df6733e",
+      "retrieved_at": "2026-09-16T19:18:56.054186+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "An independent 2021 primary study supports the paper’s broader central claim that hypoxia alters mitochondrial redox stress and apoptosis resistance in tumor cells, although it used TCC cells and cisplatin rather than P19 cells and NEM/DTT.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2021-06-13"
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "no",
+        "rationale": "The supplied follow-up studies use different cell types, drugs, and mechanisms; none reproduces the specific P19/NEM/DTT experiment.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2021-06-13"
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No supplied study tests the specific NEM/DTT-P19 result with a larger sample, stricter design, or independently collected P19 dataset.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Later sources retain related redox-apoptosis concepts but do not explicitly assess or retain this paper’s specific central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The paper’s stated limitations include an in-vitro single-cell-line design; the supplied follow-up does not explicitly test those limitations for this contribution.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "An independent group extended the related hypoxia-redox-apoptosis mechanism to human bladder carcinoma cells and mitochondrial DNA-dependent drug resistance.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2021-06-13"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The packet contains multiple independent studies on related redox and apoptosis biology, but does not establish that at least two groups substantively built on this specific paper.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up explicitly uses the proposed NEM/DTT modulation or the paper’s specific experimental framework.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The supplied reviews discuss redox regulation and cancer drug resistance broadly, but do not explicitly identify this paper as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "Later studies compare hypoxia with normoxia or genetic conditions, but none uses this paper’s contribution as an explicit baseline or benchmark.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Independent studies show possible benefits from mitochondrial ROS scavenging or mTOR inhibition, but do not demonstrate a benefit from applying this paper’s specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Related mechanisms were studied in bladder carcinoma, kidney, and other cancer settings, but the sources do not establish successful use of this specific contribution outside P19 hypoxia experiments.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The supplied sources report new redox, mitochondrial, and apoptosis findings, but do not show that this paper enabled those results.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "not_applicable",
+        "rationale": "This is a basic mechanistic cell-biology study, and the supplied evidence provides no product, workflow, standard, or practice context in which operational adoption would be expected.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison tests a claimed advantage of NEM, DTT, or the paper’s proposed redox-modulation approach.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Sources from 2023 and 2024 document continued work on related redox and apoptosis topics, but not substantive use of this specific contribution at least three years later.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "Later reviews positively discuss redox regulation and apoptosis therapeutics generally, without an explicit positive assessment of this paper’s central contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Although relevant publications appear in 2021, 2023, and 2024, the packet does not document substantive independent follow-up specifically on this paper in at least two later years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The supplied reviews are research syntheses on redox biology or apoptosis, but they do not explicitly identify or adopt this paper’s specific contribution as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later sources show continued relevance of redox and mitochondrial apoptosis research despite newer approaches, but do not explicitly connect that relevance to this paper.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied source directly cites or evaluates the 2020 P19 NEM/DTT paper.",
+      "No independent P19-cell replication of the NEM/DTT findings was provided.",
+      "No source documents reuse of NEM, dithioerythritol, or the paper’s exact assay framework in follow-up work.",
+      "No follow-up source explicitly assesses the paper’s stated single-cell-line and in-vitro limitations.",
+      "No supplied evidence demonstrates product, clinical, workflow, or standards adoption."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 1,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 0.5,
+        "lower_bound": 0.2,
+        "upper_bound": 0.8
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 1,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 3,
+    "coverage": 0.15000000000000002,
+    "score": null,
+    "lower_bound": 0.1,
+    "upper_bound": 0.95,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "72c04e3c4a081d76e8c2d7d72ea2d92bb33058932ec47ee7c12b32553f2aed89",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 253252,
+      "input_tokens_details": {
+        "cache_write_tokens": 253249,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2059,
+      "output_tokens_details": {
+        "reasoning_tokens": 756
+      },
+      "total_tokens": 255311
+    },
+    "input_tokens_estimate": 253009,
+    "truncated": false
+  }
+}

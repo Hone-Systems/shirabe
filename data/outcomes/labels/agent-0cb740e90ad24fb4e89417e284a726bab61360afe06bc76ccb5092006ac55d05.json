@@ -1,0 +1,342 @@
+{
+  "id": "rpcb-10.1038/nm.2284",
+  "title": "The microRNA miR-34a inhibits prostate cancer stem cells and metastasis by directly repressing CD44",
+  "doi": "https://doi.org/10.1038/nm.2284",
+  "year": 2011,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:12:56.371378+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 15,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3076220/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "miR-34a is underexpressed in CD44-positive prostate cancer cells, directly represses CD44, and inhibits stem-cell-associated tumor regeneration and metastasis."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://doi.org/10.7554/elife.43511",
+      "title": "Replication Study: The microRNA miR-34a inhibits prostate cancer stem cells and metastasis by directly repressing CD44.",
+      "date": "2019-03-12",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "full_text",
+      "finding": "Direct prostate replication did not reproduce CD44/miR-34a expression or reporter results; in vivo transgene expression was lost, preventing a clean tumor-growth test.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://doi.org/10.1016/j.biomaterials.2016.07.036",
+      "title": "Nanovesicle-mediated systemic delivery of microRNA-34a for CD44 overexpressing gastric cancer stem cell therapy.",
+      "date": "2016-07-30",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "abstract",
+      "finding": "Nanovesicle miR-34a delivery suppressed CD44 and gastric cancer growth in mice, a different cancer setting.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://doi.org/10.1038/s41416-020-0802-1",
+      "title": "Phase 1 study of MRX34, a liposomal miR-34a mimic, in patients with advanced solid tumours.",
+      "date": "2020-04-02",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "scope": "abstract",
+      "independent": false,
+      "finding": "MRX34 delivered miR-34a and modulated targets, but the phase 1 trial stopped early after severe immune toxicities and four deaths; this does not test the original prostate CD44 mechanism.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "Direct prostate replication was unsuccessful, but loss of miR-34a expression confounded the in vivo experiment; gastric evidence is not a reproduction of the prostate result.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Gastric CSC nanovesicle therapy extends miR-34a/CD44 targeting beyond the original prostate model.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-07-30",
+            "explanation": "Gastric CSC nanovesicle therapy extends miR-34a/CD44 targeting beyond the original prostate model."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "The independent study applied miR-34a-mediated CD44 suppression.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-07-30",
+            "explanation": "The independent study applied miR-34a-mediated CD44 suppression."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Tumor growth was delayed by applying this axis in gastric tumor-bearing mice.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-07-30",
+            "explanation": "Tumor growth was delayed by applying this axis in gastric tumor-bearing mice."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "Independent gastric rather than prostate cancer application succeeded preclinically.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-07-30",
+            "explanation": "Independent gastric rather than prostate cancer application succeeded preclinically."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "Targeted nanovesicle delivery enabled suppression of CD44-positive gastric tumors.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-07-30",
+            "explanation": "Targeted nanovesicle delivery enabled suppression of CD44-positive gastric tumors."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2016 application is five years after publication.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-07-30",
+            "explanation": "The 2016 application is five years after publication."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "This is a bounded primary-evidence assessment, not an exhaustive adoption or clinical practice audit.",
+      "Failed or confounded selected experiments do not imply all claims in the original paper are false.",
+      "Exact first-publication version and separately linked supplements were not all verified.",
+      "MRX34 is a broader miR-34a product, so clinical toxicity was not converted into rejection of the original prostate CD44 claim or a blanket nonadoption label."
+    ],
+    "summary": "Direct prostate replication did not reproduce CD44/miR-34a expression or reporter results; in vivo transgene expression was lost, preventing a clean tumor-growth test. Nanovesicle miR-34a delivery suppressed CD44 and gastric cancer growth in mice, a different cancer setting. MRX34 delivered miR-34a and modulated targets, but the phase 1 trial stopped early after severe immune toxicities and four deaths; this does not test the original prostate CD44 mechanism."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1038/nm.2284",
+      "https://doi.org/10.7554/eLife.43511",
+      "Follow references / DOI lookups for 10.1016/j.biomaterials.2016.07.036",
+      "DOI:10.1038/s41416-020-0802-1"
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1038/nm.2284",
+        "purpose": "Original identity and full-text resolution via Europe PMC and NCBI BioC",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3076220/"
+        ]
+      },
+      {
+        "query": "https://doi.org/10.7554/eLife.43511",
+        "purpose": "Independent direct replication and references to contrary supporting evidence",
+        "urls_read": [
+          "https://doi.org/10.7554/elife.43511"
+        ]
+      },
+      {
+        "query": "Follow references / DOI lookups for 10.1016/j.biomaterials.2016.07.036",
+        "purpose": "Read independent supporting and limiting primary evidence",
+        "urls_read": [
+          "https://doi.org/10.1016/j.biomaterials.2016.07.036"
+        ]
+      },
+      {
+        "query": "DOI:10.1038/s41416-020-0802-1",
+        "purpose": "Check later mechanistic durability or clinical translation limits",
+        "urls_read": [
+          "https://doi.org/10.1038/s41416-020-0802-1"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 6,
+    "coverage": 0.3,
+    "score": null,
+    "lower_bound": 0.3,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent / cancer external last",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

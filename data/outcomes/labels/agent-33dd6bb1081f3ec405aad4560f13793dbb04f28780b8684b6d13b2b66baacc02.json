@@ -1,0 +1,425 @@
+{
+  "id": "econ-10.1257/aer.104.6.1735",
+  "title": "Gift Exchange versus Monetary Exchange: Theory and Evidence",
+  "doi": "10.1257/aer.104.6.1735",
+  "year": 2014,
+  "field_id": 20,
+  "field": "Economics",
+  "split": "test",
+  "sampling_cohort": "econ_complete_2016",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:56:33.867662+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 12,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.104.6.1735",
+    "scope": "abstract",
+    "read": true,
+    "version_note": "Complete original abstract only; full body inaccessible through attempted publisher/author routes."
+  },
+  "central_claims": [
+    "Money improves realized welfare relative to nonmonetary gift exchange by coordinating participants, despite theoretically better gift-exchange equilibria."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "O",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.104.6.1735",
+      "title": "Gift Exchange versus Monetary Exchange: Theory and Evidence",
+      "date": "2014",
+      "date_basis": "publication",
+      "kind": "original_paper",
+      "read": true,
+      "independent": false,
+      "finding": "Original central claims were recorded before follow-up grading.",
+      "characters": null,
+      "method": "original_paper",
+      "truncated": false
+    },
+    {
+      "source_id": "S1",
+      "url": "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf",
+      "title": "Camerer et al. Evaluating replicability of laboratory experiments in economics — Supplement, Tables S1–S2",
+      "date": "2016",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "The preregistered independent comparison tests whether money raises efficiency over no money in six-person Lagos–Wright economies; replication N=96, original focal N=54, p=.674. The project only retested one selected result per paper.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pages.uoregon.edu/bmcgough/JET_BranchMcGough_2016.pdf",
+      "title": "Heterogeneous beliefs and trading inefficiencies",
+      "date": "2016",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Branch and McGough build a heterogeneous-beliefs monetary model and compare simulations with Duffy–Puzzello original experimental data, including rejections and trade patterns.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "R_S1",
+      "url": "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+      "title": "Evaluating replicability of laboratory experiments in economics: supplementary materials, Tables S1–S2",
+      "date": "2016-03-03",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "The six-person money-versus-no-money welfare contrast did not replicate: N=96, p=.674, r=-.12, versus original N=54 and r=.76. This directly concerns the selected welfare comparison, not every theoretical result.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "R_S2",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S016726812030473X",
+      "title": "On the monetary exchange with multiple equilibrium money holdings distributions: An experimental approach",
+      "date": "2021",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Kamiya, Kobayashi, Shichijo and Shimizu study a different divisible-money model, compare its outcomes with Duffy/Puzzello, and report rare gift giving and efficient endogenous monetary exchange. Read publisher abstract, introduction and section text available through search indexing; direct retrieval was blocked.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No unambiguous later independent support for the stated central claim was established in the sources read.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The available evidence does not settle successful independent reproduction of the central claim.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "no",
+        "rationale": "The preregistered independently collected six-person money-versus-no-money efficiency comparison did not retain the claimed advantage (p=.674; effect direction reversed). This concerns the selected welfare comparison only.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2016",
+            "explanation": "The preregistered independently collected six-person money-versus-no-money efficiency comparison did not retain the claimed advantage (p=.674; effect direction reversed). This concerns the selected welfare comparison only."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "A later authoritative assessment explicitly retaining the central claim beyond the focal replication was not established.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Replication of one selected comparison does not establish that the contribution survived explicit tests of its stated limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Branch and McGough substantively use the original experimental observations and data to motivate and evaluate a heterogeneous-beliefs monetary model. The new theory accounts for observed trading inefficiencies; it does not independently reproduce the original money-versus-no-money welfare advantage.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016",
+            "explanation": "Branch and McGough substantively use the original experimental observations and data to motivate and evaluate a heterogeneous-beliefs monetary model. The new theory accounts for observed trading inefficiencies; it does not independently reproduce the original money-versus-no-money welfare advantage."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Two independent teams substantively building on this particular contribution were not established.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Branch and McGough substantively use the original experimental observations and data to motivate and evaluate a heterogeneous-beliefs monetary model. The new theory accounts for observed trading inefficiencies; it does not independently reproduce the original money-versus-no-money welfare advantage.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016",
+            "explanation": "Branch and McGough substantively use the original experimental observations and data to motivate and evaluate a heterogeneous-beliefs monetary model. The new theory accounts for observed trading inefficiencies; it does not independently reproduce the original money-versus-no-money welfare advantage."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review explicitly identifying this paper as enabling a research direction was verified.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "rationale": "Branch and McGough substantively use the original experimental observations and data to motivate and evaluate a heterogeneous-beliefs monetary model. The new theory accounts for observed trading inefficiencies; it does not independently reproduce the original money-versus-no-money welfare advantage.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016",
+            "explanation": "Branch and McGough substantively use the original experimental observations and data to motivate and evaluate a heterogeneous-beliefs monetary model. The new theory accounts for observed trading inefficiencies; it does not independently reproduce the original money-versus-no-money welfare advantage."
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "A concrete benefit from applying the contribution beyond testing the original claim was not established.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "A new subject pool alone does not establish successful use outside the original problem setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "Branch and McGough substantively use the original experimental observations and data to motivate and evaluate a heterogeneous-beliefs monetary model. The new theory accounts for observed trading inefficiencies; it does not independently reproduce the original money-versus-no-money welfare advantage.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016",
+            "explanation": "Branch and McGough substantively use the original experimental observations and data to motivate and evaluate a heterogeneous-beliefs monetary model. The new theory accounts for observed trading inefficiencies; it does not independently reproduce the original money-versus-no-money welfare advantage."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Operational application was not established; lack of retrieved evidence is not proof of nonadoption.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "A fair independent comparison retaining a particular claimed methodological or practical advantage was not established.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2021 experimental discussion substantively compares the 2014 result.",
+        "evidence": [
+          {
+            "source_id": "R_S2",
+            "date": "2021",
+            "explanation": "The 2021 experimental discussion substantively compares the 2014 result."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "Positive independent assessment at least three years after publication was not established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "There is substantive testing in 2016 and comparison in 2021.",
+        "evidence": [
+          {
+            "source_id": "R_S1",
+            "date": "2016-03-03",
+            "explanation": "There is substantive testing in 2016 and comparison in 2021."
+          },
+          {
+            "source_id": "R_S2",
+            "date": "2021",
+            "explanation": "There is substantive testing in 2016 and comparison in 2021."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "A synthesis adopting the contribution as valid or useful was not established; recording a replication result alone is not adoption.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "An explicit demonstration of usefulness despite newer alternatives was not established.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "This is a complete but selected cohort of laboratory economics experiments, not a representative sample of research success.",
+      "The replication project tests only one selected comparison, not every claim or the entire theoretical contribution.",
+      "Outcome review prioritizes independently tested validation; absent adoption/utility evidence remains unknown.",
+      "Original assessment uses its complete abstract only; attempted full-text publisher/author routes were inaccessible. No fabricated full-text reading.",
+      "Two independent grades adjudicated; six-paper repeat sample is not a population reliability estimate."
+    ],
+    "summary": "The selected money-versus-no-money welfare advantage did not survive the 2016 independent test. Its experimental observations nevertheless became inputs and benchmarks for an independent monetary-theory extension. Blind repeat research added sources and corrected claim scope; initial and repeat grades remain archived."
+  },
+  "research_plan": {
+    "queries": [
+      "Camerer 2016 economics replication 18 studies list AER QJE replication",
+      "GET https://www.aeaweb.org/articles?id=10.1257/aer.104.6.1735",
+      "\"Duffy and Puzzello\" \"2014\" replication money",
+      "GET https://pages.uoregon.edu/bmcgough/JET_BranchMcGough_2016.pdf",
+      "\"Gift Exchange versus Monetary Exchange\" replication follow up",
+      "\"Duffy\" \"Puzzello\" \"2014\" \"replication\" Camerer 2016",
+      "\"Gift Exchange versus Monetary Exchange\" independent experiment extension",
+      "Camerer 2016 Duffy Puzzello replication report 2014 monetary exchange",
+      "\"On the monetary exchange with multiple equilibrium\""
+    ],
+    "search_log": [
+      {
+        "query": "Camerer 2016 economics replication 18 studies list AER QJE replication",
+        "purpose": "Freeze complete cohort and locate primary replication evidence",
+        "urls_read": [
+          "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf"
+        ]
+      },
+      {
+        "query": "GET https://www.aeaweb.org/articles?id=10.1257/aer.104.6.1735",
+        "purpose": "Resolve original identity and read author text; publisher abstract retained if fulltext inaccessible",
+        "urls_read": [
+          "https://www.aeaweb.org/articles?id=10.1257/aer.104.6.1735"
+        ]
+      },
+      {
+        "query": "\"Duffy and Puzzello\" \"2014\" replication money",
+        "purpose": "Check independent replication, extensions and contradictory later evidence",
+        "urls_read": [
+          "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf"
+        ]
+      },
+      {
+        "query": "GET https://pages.uoregon.edu/bmcgough/JET_BranchMcGough_2016.pdf",
+        "purpose": "Read primary follow-up and inspect claim-level findings",
+        "urls_read": [
+          "https://pages.uoregon.edu/bmcgough/JET_BranchMcGough_2016.pdf"
+        ]
+      },
+      {
+        "query": "\"Gift Exchange versus Monetary Exchange\" replication follow up",
+        "purpose": "Independent outcome and contrary-evidence search",
+        "urls_read": [
+          "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+          "https://www.sciencedirect.com/science/article/abs/pii/S016726812030473X"
+        ]
+      },
+      {
+        "query": "\"Duffy\" \"Puzzello\" \"2014\" \"replication\" Camerer 2016",
+        "purpose": "Independent outcome and contrary-evidence search",
+        "urls_read": [
+          "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+          "https://www.sciencedirect.com/science/article/abs/pii/S016726812030473X"
+        ]
+      },
+      {
+        "query": "\"Gift Exchange versus Monetary Exchange\" independent experiment extension",
+        "purpose": "Independent outcome and contrary-evidence search",
+        "urls_read": [
+          "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+          "https://www.sciencedirect.com/science/article/abs/pii/S016726812030473X"
+        ]
+      },
+      {
+        "query": "Camerer 2016 Duffy Puzzello replication report 2014 monetary exchange",
+        "purpose": "Independent outcome and contrary-evidence search",
+        "urls_read": [
+          "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+          "https://www.sciencedirect.com/science/article/abs/pii/S016726812030473X"
+        ]
+      },
+      {
+        "query": "\"On the monetary exchange with multiple equilibrium\"",
+        "purpose": "Independent outcome and contrary-evidence search",
+        "urls_read": [
+          "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf?download=1",
+          "https://www.sciencedirect.com/science/article/abs/pii/S016726812030473X"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 1,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.8
+      },
+      "uptake": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 7,
+    "coverage": 0.35,
+    "score": null,
+    "lower_bound": 0.30000000000000004,
+    "upper_bound": 0.95,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agents, independently repeated and root-adjudicated",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

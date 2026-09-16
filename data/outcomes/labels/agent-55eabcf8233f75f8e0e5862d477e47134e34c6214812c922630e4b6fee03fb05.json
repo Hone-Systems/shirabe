@@ -1,0 +1,329 @@
+{
+  "id": "https://openalex.org/W3171324936",
+  "title": "A Brief Study of the 28 Lunar Lodges Annotated Calendar: Focused on the Annotated Calendars of Dunhuang",
+  "doi": "https://doi.org/10.13173/centasiaj.63.1-2.0153",
+  "year": 2020,
+  "field_id": 31,
+  "field": "Physics and Astronomy",
+  "split": "calibration",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:01:09.710615+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 6,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://www.researchgate.net/publication/352347133_A_Brief_Study_of_the_28_Lunar_Lodges_Annotated_Calendar_Focused_on_the_Annotated_Calendars_of_Dunhuang",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "The study traces annotated-calendar development across Dunhuang, Turfan and Khara-khoto, and argues that tenth-century Dunhuang calendars combine twenty-eight lodges with the twelve houses of the Western zodiac."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "O",
+      "url": "https://www.researchgate.net/publication/352347133_A_Brief_Study_of_the_28_Lunar_Lodges_Annotated_Calendar_Focused_on_the_Annotated_Calendars_of_Dunhuang",
+      "title": "A Brief Study of the 28 Lunar Lodges Annotated Calendar: Focused on the Annotated Calendars of Dunhuang",
+      "date": "2020",
+      "date_basis": "publication",
+      "kind": "original",
+      "read": true,
+      "independent": false,
+      "read_scope": "abstract",
+      "finding": "Abstract reports the cross-cultural calendar-development argument and twenty-eight-lodge/twelve-house combination. Full text is not available on this record.",
+      "characters": null,
+      "method": "original",
+      "truncated": false
+    },
+    {
+      "source_id": "I",
+      "url": "https://www.jstor.org/stable/10.13173/centasiaj.63.issue-1-2",
+      "title": "Central Asiatic Journal63 issue1–2 contents",
+      "date": "2020",
+      "date_basis": "publication",
+      "kind": "publisher_metadata",
+      "read": true,
+      "independent": false,
+      "read_scope": "contents",
+      "finding": "Publisher-distributed contents verify Alain Arrault, title and pages153–172, with the assigned DOI.",
+      "characters": null,
+      "method": "publisher_metadata",
+      "truncated": false
+    },
+    {
+      "source_id": "K",
+      "url": "https://www.mdpi.com/2077-1444/13/6/543",
+      "title": "The Astronomical Innovations of Monk Yixing (673–727)",
+      "date": "2022",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "read_scope": "discussion_notes_and_references",
+      "finding": "Related primary historical study discusses distinctions between Chinese lodges and Indian nakshatras; references do not cite Arrault. It cannot establish follow-up of the assigned paper.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "B",
+      "url": "https://www.routledge.com/Foreign-Astral-Sciences-in-China-From-the-Six-Dynasties-to-the-Northern-Song/MMak/p/book/9781138477599",
+      "title": "Foreign Astral Sciences in China: From the Six Dynasties to the Northern Song",
+      "date": "2026-03-23",
+      "date_basis": "publication",
+      "kind": "book_metadata",
+      "read": true,
+      "independent": true,
+      "read_scope": "publisher_description_and_contents",
+      "finding": "Publisher verifies a later scholarly monograph by Bill M. Mak. Search-indexed bibliography lists the target, but accessible publisher description and contents do not show whether its interpretation is accepted or used.",
+      "characters": null,
+      "method": "book_metadata",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The specific twenty-eight-lodge/twelve-house interpretation: No later independent primary study directly supporting the central claim was established.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The specific twenty-eight-lodge/twelve-house interpretation: No independent reproduction of the specific result was located.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The specific twenty-eight-lodge/twelve-house interpretation: No larger or stricter follow-up test of the original claim was established.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The specific twenty-eight-lodge/twelve-house interpretation: No later authoritative assessment explicitly retaining or rejecting the specific central claim was established.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The specific twenty-eight-lodge/twelve-house interpretation: No later test of the original limitations demonstrating retained usefulness was located.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The specific twenty-eight-lodge/twelve-house interpretation: No substantive extension by an independent team was established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The specific twenty-eight-lodge/twelve-house interpretation: Two independent teams building on this particular contribution were not established.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The specific twenty-eight-lodge/twelve-house interpretation: No independent study actually applying this specific result or method was established.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The specific twenty-eight-lodge/twelve-house interpretation: No review explicitly attributing an enabled research direction to this paper was located.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The specific twenty-eight-lodge/twelve-house interpretation: No independent study using this contribution as a baseline or reference construction was located.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The specific twenty-eight-lodge/twelve-house interpretation: No independent demonstration of benefit from applying this specific contribution was established.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The specific twenty-eight-lodge/twelve-house interpretation: No demonstrated successful use outside the original setting was located.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The specific twenty-eight-lodge/twelve-house interpretation: No later result demonstrably enabled by this contribution was established.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "not_applicable",
+        "rationale": "This historical interpretation of medieval manuscripts proposes no operational product, workflow, standard or practice; research use is assessed separately.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "not_applicable",
+        "rationale": "The paper makes an interpretive historical argument, not a comparative performance-advantage claim.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The specific twenty-eight-lodge/twelve-house interpretation: No substantive use at least three years after publication was established; a later citation alone is insufficient.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The specific twenty-eight-lodge/twelve-house interpretation: No independent positive assessment of the central contribution at least three years later was established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The specific twenty-eight-lodge/twelve-house interpretation: Substantive independent follow-up in two distinct later years was not established.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The 2026 Mak book bibliography is a lead, but its relevant substantive discussion was inaccessible; citation alone does not establish adoption as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The specific twenty-eight-lodge/twelve-house interpretation: No later evidence explicitly demonstrating usefulness despite newer alternatives was located.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Full original unavailable after publisher, author-institution and HAL searches; only abstract claims graded.2026 book’s target-specific discussion inaccessible. Chinese-language and manuscript-specialist literature coverage may be incomplete. Assigned field retained despite historical subject matter."
+    ],
+    "summary": "The article identity and abstract argument are established. Accessible later evidence does not resolve validation or substantive reuse; the 2026 book citation remains an unverified lead. Eighteen outcomes remain unknown, with two logically inapplicable questions."
+  },
+  "research_plan": {
+    "queries": [
+      "\"A Brief Study of the 28 Lunar Lodges\"",
+      "\"10.13173/centasiaj.63.1-2.0153\"",
+      "Arrault \"Brief Study\" filetype:pdf",
+      "\"Arrault 2020\" calendar Dunhuang",
+      "\"Arrault\" \"28 Lunar\" -site:researchgate.net -site:jstor.org",
+      "\"Foreign Astral Sciences in China\" Mak 2025"
+    ],
+    "search_log": [
+      {
+        "query": "\"A Brief Study of the 28 Lunar Lodges\"",
+        "purpose": "Identity and full original",
+        "urls_read": [
+          "https://www.researchgate.net/publication/352347133_A_Brief_Study_of_the_28_Lunar_Lodges_Annotated_Calendar_Focused_on_the_Annotated_Calendars_of_Dunhuang",
+          "https://www.jstor.org/stable/10.13173/centasiaj.63.issue-1-2"
+        ]
+      },
+      {
+        "query": "\"10.13173/centasiaj.63.1-2.0153\"",
+        "purpose": "Forward citations and access",
+        "urls_read": []
+      },
+      {
+        "query": "Arrault \"Brief Study\" filetype:pdf",
+        "purpose": "Author-held original",
+        "urls_read": [
+          "https://www.efeo.fr/uploads/docs/chercheurs/ch090/arrault%20cv%20last.pdf"
+        ]
+      },
+      {
+        "query": "\"Arrault 2020\" calendar Dunhuang",
+        "purpose": "Claim-specific later literature",
+        "urls_read": []
+      },
+      {
+        "query": "\"Arrault\" \"28 Lunar\" -site:researchgate.net -site:jstor.org",
+        "purpose": "Independent historical uptake",
+        "urls_read": []
+      },
+      {
+        "query": "\"Foreign Astral Sciences in China\" Mak 2025",
+        "purpose": "Follow indexed bibliography lead",
+        "urls_read": [
+          "https://www.routledge.com/Foreign-Astral-Sciences-in-China-From-the-Six-Dynasties-to-the-Northern-Song/MMak/p/book/9781138477599"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 2,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex independent research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

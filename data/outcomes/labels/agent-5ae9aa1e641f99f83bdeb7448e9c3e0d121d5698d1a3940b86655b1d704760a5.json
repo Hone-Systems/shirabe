@@ -1,0 +1,364 @@
+{
+  "id": "https://openalex.org/W2734792158",
+  "title": "Using magnetic structure of Co40Pd60/Cu for the sensing of hydrogen",
+  "doi": "https://doi.org/10.1063/1.4993158",
+  "year": 2017,
+  "field_id": 31,
+  "field": "Physics and Astronomy",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:01:09.682923+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 9,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://scholar.lib.ntnu.edu.tw/en/publications/using-magnetic-structure-of-cosub40subpdsub60subcu-for-the-sensin-2/",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "A [Co40Pd60/Cu]10/Fe device shows reproducible hydrogen-dependent magnetic/electrical response, with roughly fivefold change at75kPa and about50% signal-to-noise restoration under1000Oe at0.7kPa.",
+    "Operando spectroscopy attributes the magnetic change to Co–Pd charge transfer coupled with local-symmetry changes."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "O",
+      "url": "https://scholar.lib.ntnu.edu.tw/en/publications/using-magnetic-structure-of-cosub40subpdsub60subcu-for-the-sensin-2/",
+      "title": "Using magnetic structure of Co40Pd60/Cu for the sensing of hydrogen",
+      "date": "2017-07-10",
+      "date_basis": "publication",
+      "kind": "original",
+      "read": true,
+      "independent": false,
+      "read_scope": "abstract",
+      "finding": "Institutional author record supplies full abstract and exact device, pressure, field and response claims; publisher and repository searches did not yield full original.",
+      "characters": null,
+      "method": "original",
+      "truncated": false
+    },
+    {
+      "source_id": "R",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2021/na/d0na00826e",
+      "title": "Magnetic gas sensing: working principles and recent developments",
+      "date": "2021-01-23",
+      "date_basis": "publication",
+      "kind": "review",
+      "read": true,
+      "independent": true,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Shinde and Rout explicitly retain the Co40Pd60/Cu fivefold magnetization/resistance response at75kPa in their review. Their concluding assessment also emphasizes unresolved stability, selectivity, interference and practical-application challenges.",
+      "characters": null,
+      "method": "review",
+      "truncated": false
+    },
+    {
+      "source_id": "C",
+      "url": "https://www.mdpi.com/2227-9040/10/2/49",
+      "title": "Magneto-Electronic Hydrogen Gas Sensors: A Critical Review",
+      "date": "2022",
+      "date_basis": "publication",
+      "kind": "review",
+      "read": true,
+      "independent": true,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Maksymov and Kostylev survey competing magneto-electronic approaches and cite target; examined sections do not establish replication or commercialization of this particular stack.",
+      "characters": null,
+      "method": "review",
+      "truncated": false
+    },
+    {
+      "source_id": "F",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5923281/",
+      "title": "Hydrogen-mediated magnetic domain formation and domain wall motion in Co30Pd70 alloy films",
+      "date": "2018-04-27",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": false,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Studies different Co30Pd70 films and cites target as prior sensor proof; Wen-Chin Lin overlaps original team. Magnetic response depends on composition and structure.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "L",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10398686/",
+      "title": "Hydrogenation Effect on Interlayer Coupling and Magneto-Transport Properties of Pd/Co/Mg/Fe Multilayers",
+      "date": "2023-07-17",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": false,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Uses Mg spacer for persistent hydrogenation and changed magnetotransport; same Lin collaborator, different device, not an independent test of original low-pressure sensing advantage.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "D",
+      "url": "https://scholar.lib.ntnu.edu.tw/en/publications/realization-of-an-hsub2subco-dual-gas-sensor-using-copd-magnetic-/",
+      "title": "Realization of an H2/CO dual-gas sensor using CoPd magnetic structures",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": false,
+      "read_scope": "abstract",
+      "finding": "Original Liang/Lin/Tseng team extends CoPd research to dual-gas sensing and charge-transfer plus adsorption; available abstract does not establish the original Cu stack is reused.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The specific Co40Pd60/Cu/Fe device and mechanism: No later independent primary study directly supporting the central claim was established.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "Later 2018/2023 experimental leads have an original coauthor and use different stacks; no independent reproduction of the Cu-spaced device and its quantitative response was established.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The specific Co40Pd60/Cu/Fe device and mechanism: No larger or stricter follow-up test of the original claim was established.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The 2021 review explicitly retains the measured response, but does not assess the full low-pressure signal-to-noise and charge-transfer/symmetry claim set.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The specific Co40Pd60/Cu/Fe device and mechanism: No later test of the original limitations demonstrating retained usefulness was located.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The specific Co40Pd60/Cu/Fe device and mechanism: No substantive extension by an independent team was established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The specific Co40Pd60/Cu/Fe device and mechanism: Two independent teams building on this particular contribution were not established.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The specific Co40Pd60/Cu/Fe device and mechanism: No independent study actually applying this specific result or method was established.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The specific Co40Pd60/Cu/Fe device and mechanism: No review explicitly attributing an enabled research direction to this paper was located.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The specific Co40Pd60/Cu/Fe device and mechanism: No independent study using this contribution as a baseline or reference construction was located.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The specific Co40Pd60/Cu/Fe device and mechanism: No independent demonstration of benefit from applying this specific contribution was established.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The specific Co40Pd60/Cu/Fe device and mechanism: No demonstrated successful use outside the original setting was located.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The specific Co40Pd60/Cu/Fe device and mechanism: No later result demonstrably enabled by this contribution was established.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The specific Co40Pd60/Cu/Fe device and mechanism: No documented operational workflow, product, standard or practice applying this contribution was located.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison verifies the stated1000Oe signal-to-noise restoration at0.7kPa; broad magnetic-sensor advantages do not test that advantage.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The specific Co40Pd60/Cu/Fe device and mechanism: No substantive use at least three years after publication was established; a later citation alone is insufficient.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The 2021 review reports this device’s response more than three years later, but no explicit independent appraisal of the complete performance/mechanistic contribution was established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The specific Co40Pd60/Cu/Fe device and mechanism: Substantive independent follow-up in two distinct later years was not established.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "The independent 2021 research review accepts and describes the specific layered-device response as a valid reported magnetic-sensing result, while acknowledging field-level deployment limitations.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021-01-23",
+            "explanation": "Explicit discussion names Co40Pd60/Cu and its fivefold response at75kPa."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The specific Co40Pd60/Cu/Fe device and mechanism: No later evidence explicitly demonstrating usefulness despite newer alternatives was located.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Full original inaccessible; abstract-scoped claims. Related architectures and overlapping groups cannot establish independent replication. No exact-stack deployment or later fair performance benchmark located."
+    ],
+    "summary": "An independent 2021 review accepts the reported device response. Experimental follow-ups found involve overlapping authors or different architectures; the precise low-pressure advantage and full mechanism remain unverified independently."
+  },
+  "research_plan": {
+    "queries": [
+      "\"Using magnetic structure\" \"Co40Pd60\"",
+      "\"10.1063/1.4993158\"",
+      "\"Magnetic gas sensing: working principles\" review 2022",
+      "\"Co40Pd60/Cu\" sensor review limitations reproducibility",
+      "\"Realization of an H2/CO\" sensor CoPd"
+    ],
+    "search_log": [
+      {
+        "query": "\"Using magnetic structure\" \"Co40Pd60\"",
+        "purpose": "Identity and original availability",
+        "urls_read": [
+          "https://scholar.lib.ntnu.edu.tw/en/publications/using-magnetic-structure-of-cosub40subpdsub60subcu-for-the-sensin-2/",
+          "https://ir.lib.nycu.edu.tw/items/d50fa49f-70eb-4b87-8208-f56f300c6ad3/full"
+        ]
+      },
+      {
+        "query": "\"10.1063/1.4993158\"",
+        "purpose": "Forward citations and primary follow-ups",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5923281/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10398686/"
+        ]
+      },
+      {
+        "query": "\"Magnetic gas sensing: working principles\" review 2022",
+        "purpose": "Independent assessments",
+        "urls_read": [
+          "https://pubs.rsc.org/en/content/articlehtml/2021/na/d0na00826e",
+          "https://www.mdpi.com/2227-9040/10/2/49"
+        ]
+      },
+      {
+        "query": "\"Co40Pd60/Cu\" sensor review limitations reproducibility",
+        "purpose": "Contrary evidence and exact-stack reproduction",
+        "urls_read": []
+      },
+      {
+        "query": "\"Realization of an H2/CO\" sensor CoPd",
+        "purpose": "Later extension",
+        "urls_read": [
+          "https://scholar.lib.ntnu.edu.tw/en/publications/realization-of-an-hsub2subco-dual-gas-sensor-using-copd-magnetic-/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 1,
+    "coverage": 0.05,
+    "score": null,
+    "lower_bound": 0.05,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex independent research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

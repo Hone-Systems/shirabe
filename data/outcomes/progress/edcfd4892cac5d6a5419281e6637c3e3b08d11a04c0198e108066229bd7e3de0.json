@@ -1,0 +1,14 @@
+{
+  "id": "challenge-bert",
+  "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+  "year": 2018,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "challenge",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:01:09.436699+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 18,
+  "score": 1.0
+}

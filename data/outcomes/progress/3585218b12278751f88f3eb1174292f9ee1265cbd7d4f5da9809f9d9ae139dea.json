@@ -1,0 +1,14 @@
+{
+  "id": "econ-10.1257/aer.104.11.3434",
+  "title": "On the Selection of Arbitrators",
+  "year": 2014,
+  "field_id": 20,
+  "field": "Economics",
+  "split": "test",
+  "sampling_cohort": "econ_complete_2016",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:49:47.231955+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 5,
+  "score": null
+}

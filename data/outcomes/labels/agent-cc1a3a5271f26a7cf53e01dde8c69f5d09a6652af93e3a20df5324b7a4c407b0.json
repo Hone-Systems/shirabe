@@ -1,0 +1,283 @@
+{
+  "id": "https://openalex.org/W2756378544",
+  "title": "Introducing the Nano Paper Technology (Tiny Nano Paper Art)",
+  "doi": null,
+  "year": 2017,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:01:09.518382+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 9,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text_15_pages_text_and_figure_captions",
+  "original_source": {
+    "url": "https://www.iiste.org/Journals/index.php/ADS/article/download/38550/39633",
+    "scope": "full_text_15_pages_text_and_figure_captions",
+    "read": true
+  },
+  "central_claims": [
+    "A small-paper-fragment collage technique named Nano Paper can enrich artistic practice; all 20 specialist and 20 student judges endorsed potential usefulness of ten artworks."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.iiste.org/Journals/index.php/ADS/article/download/38550/39633",
+      "title": "Introducing the Nano Paper Technology (Tiny Nano Paper Art)",
+      "date": "2017",
+      "date_basis": "publication",
+      "kind": "original_paper",
+      "read": true,
+      "independent": false,
+      "read_scope": "full_text",
+      "finding": "Defines Nano as tiny craft fragments, describes manual scalpel/glue technique and original 40-person appraisal; therapeutic, educational and income applications are recommendations, not observed later outcomes.",
+      "characters": null,
+      "method": "original_paper",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: No later independent primary study directly supporting the central claim was established.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: No independent reproduction of the specific result was located.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: No larger or stricter follow-up test of the original claim was established.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: No later authoritative assessment explicitly retaining or rejecting the specific central claim was established.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: No later test of the original limitations demonstrating retained usefulness was located.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: No substantive extension by an independent team was established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: Two independent teams building on this particular contribution were not established.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: No independent study actually applying this specific result or method was established.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: No review explicitly attributing an enabled research direction to this paper was located.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: No independent study using this contribution as a baseline or reference construction was located.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: No independent demonstration of benefit from applying this specific contribution was established.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: No demonstrated successful use outside the original setting was located.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: No later result demonstrably enabled by this contribution was established.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The original shows a university-logo souvenir, but no later documented adoption in an institutional art, education, rehabilitation or commercial practice was located. Original demonstration is not a post-publication outcome.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The original proposes low material costs and artistic value, but no later independent controlled cost, educational or artistic comparison was located.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: No substantive use at least three years after publication was established; a later citation alone is insufficient.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: No independent positive assessment of the central contribution at least three years later was established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: Substantive independent follow-up in two distinct later years was not established.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: No independent research synthesis adopting this particular contribution as valid or useful was established.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Khseifan Nano Paper craft technique: No later evidence explicitly demonstrating usefulness despite newer alternatives was located.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No later primary application, replication, critique or independent synthesis of this exact art technique verified.",
+      "Nanocellulose and nanoscale materials search hits refer to different contributions.",
+      "Assigned Computer Science field preserved although original is an Arts and Design Studies craft paper."
+    ],
+    "summary": "Full original text describes a paper-art technique and a 40-person appraisal. No verified post-publication independent test or application emerged from exact-title, author and Arabic searches. All outcomes remain unknown; generic nanopaper materials research is excluded."
+  },
+  "research_plan": {
+    "queries": [
+      "\"Introducing the Nano Paper Technology\"",
+      "\"Tiny Nano Paper Art\" -site:iiste.org",
+      "\"خسيفان\" \"النانو\" الورق",
+      "\"Khseifan\" \"Nano\" paper art 2020",
+      "\"نانو الورق\" دراسة"
+    ],
+    "search_log": [
+      {
+        "query": "\"Introducing the Nano Paper Technology\"",
+        "purpose": "Find exact technique follow-up, adoption or contrary assessment",
+        "urls_read": [
+          "https://www.iiste.org/Journals/index.php/ADS/article/download/38550/39633"
+        ]
+      },
+      {
+        "query": "\"Tiny Nano Paper Art\" -site:iiste.org",
+        "purpose": "Find exact technique follow-up, adoption or contrary assessment",
+        "urls_read": [
+          "https://www.iiste.org/Journals/index.php/ADS/article/download/38550/39633"
+        ]
+      },
+      {
+        "query": "\"خسيفان\" \"النانو\" الورق",
+        "purpose": "Find exact technique follow-up, adoption or contrary assessment",
+        "urls_read": [
+          "https://www.iiste.org/Journals/index.php/ADS/article/download/38550/39633"
+        ]
+      },
+      {
+        "query": "\"Khseifan\" \"Nano\" paper art 2020",
+        "purpose": "Find exact technique follow-up, adoption or contrary assessment",
+        "urls_read": [
+          "https://www.iiste.org/Journals/index.php/ADS/article/download/38550/39633"
+        ]
+      },
+      {
+        "query": "\"نانو الورق\" دراسة",
+        "purpose": "Find exact technique follow-up, adoption or contrary assessment",
+        "urls_read": [
+          "https://www.iiste.org/Journals/index.php/ADS/article/download/38550/39633"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex independent research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

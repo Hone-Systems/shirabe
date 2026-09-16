@@ -1,0 +1,369 @@
+{
+  "id": "https://openalex.org/W4412375198",
+  "title": "Israel’s Nuclear Posture: Intellectual Antecedents and Doctrinal Foundations",
+  "doi": "https://doi.org/10.64148/msm.v5i4.1",
+  "year": 2017,
+  "field_id": 33,
+  "field": "Social Sciences",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2021-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:23:30.646848+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://doi.org/10.64148/msm.v5i4.1",
+    "method": "html_main_text",
+    "http_status": 200,
+    "characters": 34069,
+    "truncated": false,
+    "sha256": "aa8fa85d2dc136c5e22deaf7fd4d987222e9ea402ba22f8e2e84a7d8fd4ef47c",
+    "retrieved_at": "2026-09-16T19:22:44.952748+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "Israel nuclear posture deliberate ambiguity credible deterrence submarine basing hybrid warfare assessment",
+      "Israel nuclear deterrence willingness capacity penetration capability counterforce counter-city empirical analysis",
+      "Israel nuclear strategy Project Daniel deliberate ambiguity anticipatory self-defense synthesis",
+      "Israel nuclear doctrine operationalization targeting doctrine usable weapons ballistic missile defense policy"
+    ],
+    "selected_urls": [
+      "https://www.inss.org.il/wp-content/uploads/2017/08/Israel-and-a-Nuclear-Iran-47-63.pdf",
+      "https://www.jpost.com/opinion/nuclear-deterrence-and-nuclear-conflict-the-case-of-israel-536933",
+      "https://thestrategybridge.org/the-bridge/2018/11/15/israels-nuclear-ambiguity-would-a-shift-to-selective-nuclear-disclosure-enhance-strategic-deterrence",
+      "https://thestrategybridge.org/the-bridge/2018/5/29/israels-nuclear-strategy-enhancing-deterrence-in-the-new-cold-war-part-i",
+      "https://ciaotest.cc.columbia.edu/olj/sa/sa_00jos01.html",
+      "https://www.jpost.com/experts/israels-nuclear-strategy-a-larger-role-for-submarine-basing-371323"
+    ],
+    "plan_usage": {
+      "cache_key": "5dec0644b38c68acbc98e23a7eac174f68435390a52bc18ac05da92586767e89",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 7188,
+        "input_tokens_details": {
+          "cache_write_tokens": 7185,
+          "cached_tokens": 0
+        },
+        "output_tokens": 472,
+        "output_tokens_details": {
+          "reasoning_tokens": 401
+        },
+        "total_tokens": 7660
+      },
+      "input_tokens_estimate": 7154,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "566d891228ed902109aafe9277aa0495c0f037b19565fef14aff16020868984a",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 7540,
+        "input_tokens_details": {
+          "cache_write_tokens": 7537,
+          "cached_tokens": 0
+        },
+        "output_tokens": 496,
+        "output_tokens_details": {
+          "reasoning_tokens": 292
+        },
+        "total_tokens": 8036
+      },
+      "input_tokens_estimate": 7506,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.inss.org.il/wp-content/uploads/2017/08/Israel-and-a-Nuclear-Iran-47-63.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 44579,
+      "truncated": false,
+      "sha256": "7d370702673d36c0a3b0f6c6de6406b94b5f443e7df528a5b59b1b66f6b5daa9",
+      "retrieved_at": "2026-09-16T19:23:09.811809+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.jpost.com/opinion/nuclear-deterrence-and-nuclear-conflict-the-case-of-israel-536933",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 643,
+      "truncated": false,
+      "sha256": "d8764fad2cdf55634cf4a4a78ef6c06ce916f7f41d222a48291fe4aee0d7e7ee",
+      "retrieved_at": "2026-09-16T19:23:08.164083+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://thestrategybridge.org/the-bridge/2018/11/15/israels-nuclear-ambiguity-would-a-shift-to-selective-nuclear-disclosure-enhance-strategic-deterrence",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 14640,
+      "truncated": false,
+      "sha256": "a1c9eecd30870370983ebb5aa8e1605760b1d1fa8fa3d4aabfe23d2c12424315",
+      "retrieved_at": "2026-09-16T19:23:08.446334+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://thestrategybridge.org/the-bridge/2018/5/29/israels-nuclear-strategy-enhancing-deterrence-in-the-new-cold-war-part-i",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 18034,
+      "truncated": false,
+      "sha256": "b3b5af978732547091e5d7b9ae976bff5610bfce6b99b1894a87910bb635a69d",
+      "retrieved_at": "2026-09-16T19:23:08.233373+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://ciaotest.cc.columbia.edu/olj/sa/sa_00jos01.html",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 57650,
+      "truncated": false,
+      "sha256": "c230288d2b5e80514be7647fb8a4fd144a2df30c690ce3224e52b20028e7f42b",
+      "retrieved_at": "2026-09-16T19:23:08.485664+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://www.jpost.com/experts/israels-nuclear-strategy-a-larger-role-for-submarine-basing-371323",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 549,
+      "truncated": false,
+      "sha256": "2a5b6e6bf0970632bdd021358f6cdf2bb1e8bda991105afb7ac4d14ce52974ba",
+      "retrieved_at": "2026-09-16T19:23:08.913588+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No later independent primary study in the 2018–2021 window explicitly validates this paper’s central policy claim.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up texts are authored by Beres, the original paper’s author; no independent reproduction or verified derivation is documented.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No larger, stricter, or independently collected test of the proposed disclosure-and-deterrence strategy is supplied.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The later supplied essays repeat and develop the argument, but they are not independent authoritative assessments.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2018-11-15"
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The later material discusses limitations such as non-nuclear threats and adversary perceptions, but does not report an independent test showing the contribution remains useful after those limitations.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2018-11-15"
+          }
+        ]
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Substantive later discussion exists, but the supplied follow-up authorship does not establish an independent group extending this specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The packet does not document substantive contributions by at least two independent groups during the follow-up window.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The proposed doctrinal framework is discussed again, but the supplied follow-up texts are continuations by the original author, not independent studies using it.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2018-05-29"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review in the supplied window explicitly identifies the contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No independent baseline, benchmark, or comparative evaluation of the paper’s proposed posture is supplied.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The packet contains policy arguments about possible deterrence benefits, but no independent demonstration of a concrete scientific or practical benefit from applying this paper’s contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "No documented successful use outside the original Israeli nuclear-posture setting is supplied.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No later work in the window credits this paper with enabling a new measurement, theorem, result, or demonstrated capability.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The contribution is a strategic-policy recommendation; the supplied sources do not show adoption in an official workflow, standard, product, or practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison evaluates whether selective disclosure or the proposed multidimensional doctrine improves deterrence relative to ambiguity.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Substantive follow-up is documented in 2018, but no supplied evidence establishes use at least three years after the 2017 publication.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No independent positive assessment dated 2020 or later is supplied within the follow-up window.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The supplied substantive follow-up is dated 2018; evidence from at least two distinct later calendar years is absent.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2018-11-15"
+          },
+          {
+            "source_id": "S4",
+            "date": "2018-05-29"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent systematic review, textbook, standard, or research synthesis adopting the contribution is supplied for 2018–2021.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The 2018 follow-up argues that ambiguity remains strategically relevant, but the supplied evidence does not explicitly establish continued usefulness despite newer alternatives through 2021.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2018-11-15"
+          }
+        ]
+      }
+    ],
+    "search_gaps": [
+      "No independent primary study testing the proposed selective-disclosure strategy was supplied.",
+      "The supplied 2018 follow-up texts are by the original author and therefore cannot establish independent uptake or validation.",
+      "No dated 2019–2021 source text was supplied demonstrating replication, adoption, comparative advantage, or late positive assessment.",
+      "The packet lacks an independent review or synthesis explicitly evaluating this 2017 paper."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "5bd795366cefef2d5ed1f680ea0bd9bc2c7cf768981a5677e3951f50fd268f26",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 48154,
+      "input_tokens_details": {
+        "cache_write_tokens": 48151,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1966,
+      "output_tokens_details": {
+        "reasoning_tokens": 654
+      },
+      "total_tokens": 50120
+    },
+    "input_tokens_estimate": 47911,
+    "truncated": false
+  }
+}

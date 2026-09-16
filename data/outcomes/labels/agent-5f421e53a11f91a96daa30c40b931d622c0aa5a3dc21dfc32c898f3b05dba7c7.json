@@ -1,0 +1,350 @@
+{
+  "id": "rpcb-10.1016/j.cell.2011.09.029",
+  "title": "Coding-independent regulation of the tumor suppressor PTEN by competing endogenous mRNAs",
+  "doi": "https://doi.org/10.1016/j.cell.2011.09.029",
+  "year": 2011,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:16:13.193044+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 15,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3235920/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Protein-coding mRNAs regulate PTEN independently of coding through competition for shared microRNAs; identified PTEN ceRNAs antagonize PI3K/AKT and tumor growth."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://doi.org/10.7554/eLife.56651",
+      "title": "Replication Study: Coding-independent regulation of the tumor suppressor PTEN by competing endogenous mRNAs",
+      "date": "2020",
+      "date_basis": "publication",
+      "kind": "primary_replication",
+      "read": true,
+      "independent": true,
+      "finding": "Preregistered tests did not reproduce reporter regulation or proliferative effects for the named PTEN ceRNAs; overexpression changed reporter activity in the opposite direction. Some PTEN-protein effects agreed.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "primary_replication",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6959461/",
+      "title": "Identification and validation of mRNA 3'untranslated regions of DNMT3B and TET3 as novel competing endogenous RNAs of the tumor suppressor PTEN.",
+      "date": "2019-12-20",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent experiments identify DNMT3B and TET3 as PTEN ceRNAs through shared miR4465 sites, reporter mutation/target protection, overexpression and knockdown.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4267251/",
+      "title": "Assessing the ceRNA hypothesis with quantitative measurements of miRNA and target abundance.",
+      "date": "2014-05-01",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent quantitative studies found very high target-site thresholds and argued ordinary physiological perturbations would be insufficient for appreciable ceRNA regulation in hepatocytes.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "New PTEN ceRNAs support the general coding-independent concept, while direct tests of the original named candidates conflict; the complete central result is not settled.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "Replication failed several named-candidate assays, while independent extensions concern different ceRNAs; neither a general successful reproduction nor universal absence is justified.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "no",
+        "rationale": "The original named-candidate reporter and proliferation predictions did not survive the preregistered independent tests, including an opposite reporter-overexpression response. This is a bounded assay-level failure, not rejection of all ceRNA biology.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2020",
+            "explanation": "The original named-candidate reporter and proliferation predictions did not survive the preregistered independent tests, including an opposite reporter-overexpression response. This is a bounded assay-level failure, not rejection of all ceRNA biology."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The physiological breadth of ceRNA effects remains contested in the evidence read.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Quantitative target abundance is a substantive limit and the new-candidate experiments do not resolve it for the original PTEN network.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Roquid and colleagues use the shared-MRE/ceRNA framework to identify and experimentally validate DNMT3B and TET3 as new PTEN regulators.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019-12-20",
+            "explanation": "Roquid and colleagues use the shared-MRE/ceRNA framework to identify and experimentally validate DNMT3B and TET3 as new PTEN regulators."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish two distinct independent teams building specifically on this contribution beyond replication or parallel discovery.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "The independent study actually applies shared-MRE prediction, 3-prime-UTR reporters, knockdown and overexpression to new PTEN ceRNAs.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019-12-20",
+            "explanation": "The independent study actually applies shared-MRE prediction, 3-prime-UTR reporters, knockdown and overexpression to new PTEN ceRNAs."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No independent review explicitly establishing that this specific paper enabled a research direction was read.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The evidence read does not settle this specific criterion; retained as unknown.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "The framework yielded independently demonstrated regulatory interactions and apoptosis/migration readouts in HCT116 cells, a scientific rather than clinical benefit.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019-12-20",
+            "explanation": "The framework yielded independently demonstrated regulatory interactions and apoptosis/migration readouts in HCT116 cells, a scientific rather than clinical benefit."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Successful transfer of this specific contribution beyond the original setting was not established in the sources read.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The independent extension identified the DNMT3B/TET3/PTEN network and miR4465 regulation.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019-12-20",
+            "explanation": "The independent extension identified the DNMT3B/TET3/PTEN network and miR4465 regulation."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Routine operational adoption was not verified; missing evidence is not nonadoption.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "A fair independent comparison validating a particular claimed advantage was not established.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The independent DNMT3B/TET3 follow-up appeared more than three years after2011.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019-12-20",
+            "explanation": "The independent DNMT3B/TET3 follow-up appeared more than three years after2011."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "A later new-candidate result is positive for the general approach, but does not positively establish the disputed original candidates.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Quantitative testing in2014 and new-candidate/replication research in2019–2020 document distinct substantive follow-up years.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2014-05-01",
+            "explanation": "Quantitative testing in2014 and new-candidate/replication research in2019–2020 document distinct substantive follow-up years."
+          },
+          {
+            "source_id": "S2",
+            "date": "2019-12-20",
+            "explanation": "Quantitative testing in2014 and new-candidate/replication research in2019–2020 document distinct substantive follow-up years."
+          },
+          {
+            "source_id": "S1",
+            "date": "2020",
+            "explanation": "Quantitative testing in2014 and new-candidate/replication research in2019–2020 document distinct substantive follow-up years."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent synthesis explicitly adopting this exact contribution as valid or useful was read.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No source explicitly established continued utility despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "External cohort is high-impact2010–2012 cancer biology selected for replication feasibility/completion, not a random sample.",
+      "The20-question rubric is broader than the available replication endpoints; unknown answers are not scored as failures.",
+      "Literature inspection is bounded and not a systematic review through the as-of date; later uninspected evidence may change answers."
+    ],
+    "summary": "Direct preregistered experiments contradict several original PTEN-candidate predictions, but the approach produced independent new-candidate research. The record separates a failed tested prediction from uptake and leaves disputed generalization unknown."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1016/j.cell.2011.09.029",
+      "RPCB completed experiments Table1 Coding-independent regulation of the tumor suppressor PTEN by competing endogenous mRNAs",
+      "Follow primary references in direct replication: Identification and validation of mRNA 3'untranslated regions of DNMT3B and TET3 as novel competing endogenous RNAs of the tumor suppressor PTEN., Assessing the ceRNA hypothesis with quantitative measurements of miRNA and target abundance."
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1016/j.cell.2011.09.029",
+        "purpose": "Resolve original identity and read available original text before follow-up assessment.",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3235920/"
+        ]
+      },
+      {
+        "query": "RPCB completed experiments Table1 Coding-independent regulation of the tumor suppressor PTEN by competing endogenous mRNAs",
+        "purpose": "Find the prespecified direct replication within the complete23-paper external cohort.",
+        "urls_read": [
+          "https://doi.org/10.7554/eLife.56651"
+        ]
+      },
+      {
+        "query": "Follow primary references in direct replication: Identification and validation of mRNA 3'untranslated regions of DNMT3B and TET3 as novel competing endogenous RNAs of the tumor suppressor PTEN., Assessing the ceRNA hypothesis with quantitative measurements of miRNA and target abundance.",
+        "purpose": "Read independent extensions and contrary evidence; distinguish uptake from central-claim validation.",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6959461/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC4267251/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 1,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.8
+      },
+      "uptake": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 7,
+    "coverage": 0.35,
+    "score": null,
+    "lower_bound": 0.30000000000000004,
+    "upper_bound": 0.95,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent; shirabe-grade-paper",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

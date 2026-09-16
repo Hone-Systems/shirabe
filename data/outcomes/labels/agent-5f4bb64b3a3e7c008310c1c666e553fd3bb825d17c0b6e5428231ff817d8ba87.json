@@ -1,0 +1,441 @@
+{
+  "id": "historic-10.1103/physrevlett.112.241101",
+  "title": "Detection of B-Mode Polarization at Degree Angular Scales by BICEP2",
+  "doi": "10.1103/physrevlett.112.241101",
+  "year": 2014,
+  "field_id": 4,
+  "field": "Physics",
+  "split": "train",
+  "sampling_cohort": "historical_failure_augmentation",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:59:11.684225+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 12,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://arxiv.org/pdf/1403.3985v3",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "BICEP2 detects excess degree-scale B-mode power beyond lensed LCDM.",
+    "The excess fits r=0.20 in a tensor model, but published text explicitly cannot exclude dust explaining the entire excess.",
+    "Instrument and analysis techniques produce sensitive polarization maps and suppress instrumental systematics."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "J",
+      "url": "https://arxiv.org/abs/1502.00612",
+      "title": "BICEP2/Keck and Planck: A Joint Analysis of BICEP2/Keck Array and Planck Data",
+      "date": "2015-02-02",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": false,
+      "read": true,
+      "finding": "Joint multifrequency analysis detects correlated dust, finds no significant tensor-mode evidence, gives r<0.12 and detects lensing B modes at 7 sigma. Original-team overlap means not an independent replication.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "C",
+      "url": "https://arxiv.org/abs/1409.7025",
+      "title": "Cheng and Huang: Constraint on primordial gravitational waves from joint BICEP2 and Planck dust data",
+      "date": "2014-09-24",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "read": true,
+      "finding": "Independent joint analysis actually uses BICEP2 measurements with Planck dust information, finds no primordial-wave evidence and bounds r<0.083 in base model; produces differentiated constraints on inflation models.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "G",
+      "url": "https://arxiv.org/abs/1707.06755",
+      "title": "Gott and Colley: Reanalysis of the BICEP2, Keck and Planck Data: No Evidence for Gravitational Radiation",
+      "date": "2017-07-21",
+      "date_basis": "publication",
+      "kind": "primary_preprint",
+      "independent": true,
+      "read": true,
+      "finding": "Independent map-correlation reanalysis uses BICEP2 and Keck data, reports revised noise estimate and r compatible with zero. This is a preprint, not proof of a consensus about the noise correction.",
+      "characters": null,
+      "method": "primary_preprint",
+      "truncated": false
+    },
+    {
+      "source_id": "P",
+      "url": "https://planck.ipac.caltech.edu/news/planck15-001",
+      "title": "US Planck Data Center: Gravitational Waves from Early Universe Remain Elusive",
+      "date": "2015-01-30",
+      "date_basis": "publication",
+      "kind": "official_project_assessment",
+      "independent": false,
+      "read": true,
+      "finding": "Project assessment says joint analysis yields no conclusive primordial-wave evidence while improving knowledge of foregrounds and future searches.",
+      "characters": null,
+      "method": "official_project_assessment",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Mixed claims: detected polarization remains useful, but the primordial-wave interpretation is not supported after dust analysis. Published original already acknowledged dust could explain all excess. No single binary verdict safely covers the whole contribution.",
+        "evidence": [
+          {
+            "source_id": "J",
+            "date": "2015-02-02",
+            "explanation": "Mixed claims: detected polarization remains useful, but the primordial-wave interpretation is not supported after dust analysis. Published original already acknowledged dust could explain all excess. No single binary verdict safely covers the whole contribution."
+          },
+          {
+            "source_id": "C",
+            "date": "2014-09-24",
+            "explanation": "Mixed claims: detected polarization remains useful, but the primordial-wave interpretation is not supported after dust analysis. Published original already acknowledged dust could explain all excess. No single binary verdict safely covers the whole contribution."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "Mixed claims: detected polarization remains useful, but the primordial-wave interpretation is not supported after dust analysis. Published original already acknowledged dust could explain all excess. No single binary verdict safely covers the whole contribution.",
+        "evidence": [
+          {
+            "source_id": "J",
+            "date": "2015-02-02",
+            "explanation": "Mixed claims: detected polarization remains useful, but the primordial-wave interpretation is not supported after dust analysis. Published original already acknowledged dust could explain all excess. No single binary verdict safely covers the whole contribution."
+          },
+          {
+            "source_id": "C",
+            "date": "2014-09-24",
+            "explanation": "Mixed claims: detected polarization remains useful, but the primordial-wave interpretation is not supported after dust analysis. Published original already acknowledged dust could explain all excess. No single binary verdict safely covers the whole contribution."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "no",
+        "rationale": "The interpretation of the excess as evidence for primordial tensor modes did not survive multifrequency dust control. This negative is explicitly scoped to that interpretation; degree-scale polarization and useful measurements remain.",
+        "evidence": [
+          {
+            "source_id": "J",
+            "date": "2015-02-02",
+            "explanation": "The interpretation of the excess as evidence for primordial tensor modes did not survive multifrequency dust control. This negative is explicitly scoped to that interpretation; degree-scale polarization and useful measurements remain."
+          },
+          {
+            "source_id": "C",
+            "date": "2014-09-24",
+            "explanation": "The interpretation of the excess as evidence for primordial tensor modes did not survive multifrequency dust control. This negative is explicitly scoped to that interpretation; degree-scale polarization and useful measurements remain."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Mixed claims: detected polarization remains useful, but the primordial-wave interpretation is not supported after dust analysis. Published original already acknowledged dust could explain all excess. No single binary verdict safely covers the whole contribution.",
+        "evidence": [
+          {
+            "source_id": "J",
+            "date": "2015-02-02",
+            "explanation": "Mixed claims: detected polarization remains useful, but the primordial-wave interpretation is not supported after dust analysis. Published original already acknowledged dust could explain all excess. No single binary verdict safely covers the whole contribution."
+          },
+          {
+            "source_id": "C",
+            "date": "2014-09-24",
+            "explanation": "Mixed claims: detected polarization remains useful, but the primordial-wave interpretation is not supported after dust analysis. Published original already acknowledged dust could explain all excess. No single binary verdict safely covers the whole contribution."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Mixed claims: detected polarization remains useful, but the primordial-wave interpretation is not supported after dust analysis. Published original already acknowledged dust could explain all excess. No single binary verdict safely covers the whole contribution.",
+        "evidence": [
+          {
+            "source_id": "J",
+            "date": "2015-02-02",
+            "explanation": "Mixed claims: detected polarization remains useful, but the primordial-wave interpretation is not supported after dust analysis. Published original already acknowledged dust could explain all excess. No single binary verdict safely covers the whole contribution."
+          },
+          {
+            "source_id": "C",
+            "date": "2014-09-24",
+            "explanation": "Mixed claims: detected polarization remains useful, but the primordial-wave interpretation is not supported after dust analysis. Published original already acknowledged dust could explain all excess. No single binary verdict safely covers the whole contribution."
+          }
+        ]
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Cheng/Huang and Gott/Colley independently use the specific BICEP2 data in substantive joint analyses and methodological comparisons. Critical reuse counts as uptake, not confirmation of inflation.",
+        "evidence": [
+          {
+            "source_id": "C",
+            "date": "2014-09-24",
+            "explanation": "Cheng/Huang and Gott/Colley independently use the specific BICEP2 data in substantive joint analyses and methodological comparisons. Critical reuse counts as uptake, not confirmation of inflation."
+          },
+          {
+            "source_id": "G",
+            "date": "2017-07-21",
+            "explanation": "Cheng/Huang and Gott/Colley independently use the specific BICEP2 data in substantive joint analyses and methodological comparisons. Critical reuse counts as uptake, not confirmation of inflation."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Cheng/Huang and Gott/Colley independently use the specific BICEP2 data in substantive joint analyses and methodological comparisons. Critical reuse counts as uptake, not confirmation of inflation.",
+        "evidence": [
+          {
+            "source_id": "C",
+            "date": "2014-09-24",
+            "explanation": "Cheng/Huang and Gott/Colley independently use the specific BICEP2 data in substantive joint analyses and methodological comparisons. Critical reuse counts as uptake, not confirmation of inflation."
+          },
+          {
+            "source_id": "G",
+            "date": "2017-07-21",
+            "explanation": "Cheng/Huang and Gott/Colley independently use the specific BICEP2 data in substantive joint analyses and methodological comparisons. Critical reuse counts as uptake, not confirmation of inflation."
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Cheng/Huang and Gott/Colley independently use the specific BICEP2 data in substantive joint analyses and methodological comparisons. Critical reuse counts as uptake, not confirmation of inflation.",
+        "evidence": [
+          {
+            "source_id": "C",
+            "date": "2014-09-24",
+            "explanation": "Cheng/Huang and Gott/Colley independently use the specific BICEP2 data in substantive joint analyses and methodological comparisons. Critical reuse counts as uptake, not confirmation of inflation."
+          },
+          {
+            "source_id": "G",
+            "date": "2017-07-21",
+            "explanation": "Cheng/Huang and Gott/Colley independently use the specific BICEP2 data in substantive joint analyses and methodological comparisons. Critical reuse counts as uptake, not confirmation of inflation."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "rationale": "Cheng/Huang and Gott/Colley independently use the specific BICEP2 data in substantive joint analyses and methodological comparisons. Critical reuse counts as uptake, not confirmation of inflation.",
+        "evidence": [
+          {
+            "source_id": "C",
+            "date": "2014-09-24",
+            "explanation": "Cheng/Huang and Gott/Colley independently use the specific BICEP2 data in substantive joint analyses and methodological comparisons. Critical reuse counts as uptake, not confirmation of inflation."
+          },
+          {
+            "source_id": "G",
+            "date": "2017-07-21",
+            "explanation": "Cheng/Huang and Gott/Colley independently use the specific BICEP2 data in substantive joint analyses and methodological comparisons. Critical reuse counts as uptake, not confirmation of inflation."
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Independent reuse of BICEP2 measurements with Planck dust data produces new tensor bounds and comparisons of inflation models, a concrete scientific benefit despite changed interpretation.",
+        "evidence": [
+          {
+            "source_id": "C",
+            "date": "2014-09-24",
+            "explanation": "Independent reuse of BICEP2 measurements with Planck dust data produces new tensor bounds and comparisons of inflation models, a concrete scientific benefit despite changed interpretation."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "Independent reuse of BICEP2 measurements with Planck dust data produces new tensor bounds and comparisons of inflation models, a concrete scientific benefit despite changed interpretation.",
+        "evidence": [
+          {
+            "source_id": "C",
+            "date": "2014-09-24",
+            "explanation": "Independent reuse of BICEP2 measurements with Planck dust data produces new tensor bounds and comparisons of inflation models, a concrete scientific benefit despite changed interpretation."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "Independent substantive analyses are documented in 2014 and 2017; the 2017 map reanalysis uses the original measurements more than three years after publication.",
+        "evidence": [
+          {
+            "source_id": "C",
+            "date": "2014-09-24",
+            "explanation": "Independent substantive analyses are documented in 2014 and 2017; the 2017 map reanalysis uses the original measurements more than three years after publication."
+          },
+          {
+            "source_id": "G",
+            "date": "2017-07-21",
+            "explanation": "Independent substantive analyses are documented in 2014 and 2017; the 2017 map reanalysis uses the original measurements more than three years after publication."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent substantive analyses are documented in 2014 and 2017; the 2017 map reanalysis uses the original measurements more than three years after publication.",
+        "evidence": [
+          {
+            "source_id": "C",
+            "date": "2014-09-24",
+            "explanation": "Independent substantive analyses are documented in 2014 and 2017; the 2017 map reanalysis uses the original measurements more than three years after publication."
+          },
+          {
+            "source_id": "G",
+            "date": "2017-07-21",
+            "explanation": "Independent substantive analyses are documented in 2014 and 2017; the 2017 map reanalysis uses the original measurements more than three years after publication."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Original full PDF accessed; abstract, methods, foreground analysis and conclusions read in detail. June 2014 published-version arXiv v3 preserved without truncation.",
+      "Original-team joint analysis is not coded as independent. Independent 2017 source is a preprint; no blanket validation of its noise estimate.",
+      "No systematic synthesis, product adoption or superiority comparison established."
+    ],
+    "summary": "The primordial-gravitational-wave interpretation was displaced by foreground-dust analysis, while the observed polarization data remained useful. Independent analyses reused the data to constrain tensor modes; this is a mixed scientific outcome, not a uniformly failed paper."
+  },
+  "research_plan": {
+    "queries": [
+      "BICEP2 2014 Detection B Mode Polarization degree angular scales arxiv1403.3985",
+      "BICEP2 Planck joint analysis 2015 no statistically significant evidence primordial gravitational waves"
+    ],
+    "search_log": [
+      {
+        "query": "BICEP2 2014 Detection B Mode Polarization degree angular scales arxiv1403.3985",
+        "purpose": "Verify original identity, contrary evidence and later scientific outcomes",
+        "urls_read": [
+          "https://arxiv.org/abs/1502.00612",
+          "https://arxiv.org/abs/1409.7025",
+          "https://arxiv.org/abs/1707.06755",
+          "https://planck.ipac.caltech.edu/news/planck15-001"
+        ]
+      },
+      {
+        "query": "BICEP2 Planck joint analysis 2015 no statistically significant evidence primordial gravitational waves",
+        "purpose": "Verify original identity, contrary evidence and later scientific outcomes",
+        "urls_read": [
+          "https://arxiv.org/abs/1502.00612",
+          "https://arxiv.org/abs/1409.7025",
+          "https://arxiv.org/abs/1707.06755",
+          "https://planck.ipac.caltech.edu/news/planck15-001"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 1,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.8
+      },
+      "uptake": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 9,
+    "coverage": 0.44999999999999996,
+    "score": null,
+    "lower_bound": 0.4,
+    "upper_bound": 0.95,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent expand_manylabs; targeted training augmentation",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

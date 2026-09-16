@@ -1,0 +1,14 @@
+{
+  "id": "econ-10.1257/aer.103.4.1325",
+  "title": "The Lure of Authority: Motivation and Incentive Effects of Power",
+  "year": 2013,
+  "field_id": 20,
+  "field": "Economics",
+  "split": "validation",
+  "sampling_cohort": "econ_complete_2016",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:49:47.233053+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 3,
+  "score": null
+}

@@ -1,0 +1,378 @@
+{
+  "cohort": "manylabs2_complete_2018",
+  "frozen_at": "2026-09-16T20:36:45.293662+00:00",
+  "selection_basis": "Complete Table A1 of Klein et al2018, 28 findings collapsed to26 original publications; not selected on replication outcome.",
+  "source": "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf",
+  "split_rule": "sha256 lowercase DOI first8hex modulo10:0,1test;2,3validation;4calibration;5..9train",
+  "findings_count": 28,
+  "papers": [
+    {
+      "id": "ml2-10.1002/ejsp.2013",
+      "doi": "https://doi.org/10.1002/ejsp.2013",
+      "title": "Living in the north is not necessarily favorable: Different metaphoric associations between cardinal direction and valence in Hong Kong and in the United States",
+      "year": 2014,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "validation",
+      "findings": [
+        1
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "ml2-10.1037/a0034462",
+      "doi": "https://doi.org/10.1037/a0034462",
+      "title": "A functional basis for structure-seeking: Exposure to structure promotes willingness to engage in motivated action",
+      "year": 2014,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "calibration",
+      "findings": [
+        2
+      ],
+      "hash_bucket": 4
+    },
+    {
+      "id": "ml2-10.1037/0096-3445.136.4.569",
+      "doi": "https://doi.org/10.1037/0096-3445.136.4.569",
+      "title": "Overcoming intuition: Metacognitive difficulty activates analytic reasoning",
+      "year": 2007,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "calibration",
+      "findings": [
+        3
+      ],
+      "hash_bucket": 4
+    },
+    {
+      "id": "ml2-10.1037/a0015141",
+      "doi": "https://doi.org/10.1037/a0015141",
+      "title": "Liberals and conservatives rely on different sets of moral foundations",
+      "year": 2009,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "train",
+      "findings": [
+        4
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "ml2-10.1111/1467-9280.00334",
+      "doi": "https://doi.org/10.1111/1467-9280.00334",
+      "title": "Money, kisses, and electric shocks: On the affective psychology of risk",
+      "year": 2001,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "calibration",
+      "findings": [
+        5
+      ],
+      "hash_bucket": 4
+    },
+    {
+      "id": "ml2-10.1177/0956797611429579",
+      "doi": "https://doi.org/10.1177/0956797611429579",
+      "title": "Cuing consumerism: Situational materialism undermines personal and social well-being",
+      "year": 2012,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "train",
+      "findings": [
+        6
+      ],
+      "hash_bucket": 9
+    },
+    {
+      "id": "ml2-10.1037/0022-3514.83.5.1239",
+      "doi": "https://doi.org/10.1037/0022-3514.83.5.1239",
+      "title": "Cultural variation in correspondence bias: The critical role of attitude diagnosticity of socially constrained behavior",
+      "year": 2002,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "calibration",
+      "findings": [
+        7
+      ],
+      "hash_bucket": 4
+    },
+    {
+      "id": "ml2-10.1037/a0015960",
+      "doi": "https://doi.org/10.1037/a0015960",
+      "title": "Disgust sensitivity predicts intuitive disapproval of gays",
+      "year": 2009,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "train",
+      "findings": [
+        8
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "ml2-10.1002/bdm.586",
+      "doi": "https://doi.org/10.1002/bdm.586",
+      "title": "Incidental environmental anchors",
+      "year": 2008,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "train",
+      "findings": [
+        9
+      ],
+      "hash_bucket": 6
+    },
+    {
+      "id": "ml2-10.1037/0022-3514.73.4.733",
+      "doi": "https://doi.org/10.1037/0022-3514.73.4.733",
+      "title": "Development of prosocial, individualistic, and competitive orientations: Theory and preliminary evidence",
+      "year": 1997,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "validation",
+      "findings": [
+        10
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "ml2-10.1111/j.1468-0017.2006.00297.x",
+      "doi": "https://doi.org/10.1111/j.1468-0017.2006.00297.x",
+      "title": "A dissociation between moral judgments and justifications",
+      "year": 2007,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "train",
+      "findings": [
+        11,
+        17
+      ],
+      "hash_bucket": 6
+    },
+    {
+      "id": "ml2-10.1177/0956797611434537",
+      "doi": "https://doi.org/10.1177/0956797611434537",
+      "title": "The local-ladder effect: Social status and subjective well-being",
+      "year": 2012,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "calibration",
+      "findings": [
+        12
+      ],
+      "hash_bucket": 4
+    },
+    {
+      "id": "ml2-10.1016/0022-1031(77)90049-x",
+      "doi": "https://doi.org/10.1016/0022-1031(77)90049-x",
+      "title": "The false consensus effect: An egocentric bias in social perception and attribution processes",
+      "year": 1977,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "train",
+      "findings": [
+        13,
+        14
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "ml2-10.1016/j.obhdp.2006.10.001",
+      "doi": "https://doi.org/10.1016/j.obhdp.2006.10.001",
+      "title": "High in the hierarchy: How vertical location and judgments of leaders power are interrelated",
+      "year": 2007,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "test",
+      "findings": [
+        15
+      ],
+      "hash_bucket": 1
+    },
+    {
+      "id": "ml2-10.1126/science.7455683",
+      "doi": "https://doi.org/10.1126/science.7455683",
+      "title": "The framing of decisions and the psychology of choice",
+      "year": 1981,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "test",
+      "findings": [
+        16
+      ],
+      "hash_bucket": 0
+    },
+    {
+      "id": "ml2-10.1037/0022-3514.95.2.293",
+      "doi": "https://doi.org/10.1037/0022-3514.95.2.293",
+      "title": "Why people are reluctant to tempt fate",
+      "year": 2008,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "train",
+      "findings": [
+        18
+      ],
+      "hash_bucket": 8
+    },
+    {
+      "id": "ml2-10.1177/0956797609359908",
+      "doi": "https://doi.org/10.1177/0956797609359908",
+      "title": "What counts as a choice? US Americans are more likely than Indians to construe actions as choices",
+      "year": 2010,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "test",
+      "findings": [
+        19
+      ],
+      "hash_bucket": 0
+    },
+    {
+      "id": "ml2-10.1207/s15516709cog2605_4",
+      "doi": "https://doi.org/10.1207/s15516709cog2605_4",
+      "title": "Cultural preferences for formal versus intuitive reasoning",
+      "year": 2002,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "validation",
+      "findings": [
+        20
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "ml2-10.1002/(sici)1099-0771(199806)11:2<107::aid-bdm292>3.0.co;2-y",
+      "doi": "https://doi.org/10.1002/(sici)1099-0771(199806)11:2<107::aid-bdm292>3.0.co;2-y",
+      "title": "Less is better: When low-value options are valued more highly than high-value options",
+      "year": 1998,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "calibration",
+      "findings": [
+        21
+      ],
+      "hash_bucket": 4
+    },
+    {
+      "id": "ml2-10.1037/a0013748",
+      "doi": "https://doi.org/10.1037/a0013748",
+      "title": "Moral typecasting: Divergent perceptions of moral agents and moral patients",
+      "year": 2009,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "train",
+      "findings": [
+        22
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "ml2-10.1126/science.1130726",
+      "doi": "https://doi.org/10.1126/science.1130726",
+      "title": "Washing away your sins: Threatened morality and physical cleansing",
+      "year": 2006,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "test",
+      "findings": [
+        23
+      ],
+      "hash_bucket": 0
+    },
+    {
+      "id": "ml2-10.1086/269239",
+      "doi": "https://doi.org/10.1086/269239",
+      "title": "Assimilation and contrast effects in part-whole question sequences: A conversational logic analysis",
+      "year": 1991,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "validation",
+      "findings": [
+        24
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "ml2-10.3758/bf03197186",
+      "doi": "https://doi.org/10.3758/bf03197186",
+      "title": "Choosing versus rejecting: Why some options are both better and worse than others",
+      "year": 1993,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "validation",
+      "findings": [
+        25
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "ml2-10.1038/nclimate2093",
+      "doi": "https://doi.org/10.1038/nclimate2093",
+      "title": "How warm days increase belief in global warming",
+      "year": 2014,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "train",
+      "findings": [
+        26
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "ml2-10.1111/1467-8284.00419",
+      "doi": "https://doi.org/10.1111/1467-8284.00419",
+      "title": "Intentional action and side effects in ordinary language",
+      "year": 2003,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "train",
+      "findings": [
+        27
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "ml2-studies-of-similarity-1978",
+      "doi": null,
+      "title": "Studies of similarity",
+      "year": 1978,
+      "field_id": 16,
+      "field": "Psychology",
+      "sampling_cohort": "manylabs2_complete_2018",
+      "split": "train",
+      "findings": [
+        28
+      ],
+      "hash_bucket": 8,
+      "identity_note": "1978 book chapter; modern2024republication DOI10.4324/9781032633275-7 is not assigned to1978 original.",
+      "split_key": "studies-of-similarity-1978"
+    }
+  ]
+}

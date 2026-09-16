@@ -1,0 +1,176 @@
+{
+  "cohort": "ssrp_complete_2018",
+  "source": "https://www.nature.com/articles/s41562-018-0399-z",
+  "selection": "All 21 originals enumerated in references 16\u201336, irrespective of replication result. The aggregate cohort rate and incidental supplement outcomes were visible during discovery; individual outcomes do not determine inclusion or split.",
+  "split_rule": "sha256(lowercase DOI), first 8 hex digits modulo10:0/1=test,2/3=validation,4=calibration,5\u20139=train",
+  "papers": [
+    {
+      "id": "ssrp-10.1126/science.1189993",
+      "title": "Incidental haptic sensations influence social judgments and decisions.",
+      "doi": "10.1126/science.1189993",
+      "year": 2010,
+      "split": "validation",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1126/science.1224313",
+      "title": "Body cues, not facial expressions, discriminate between intense positive and negative emotions.",
+      "doi": "10.1126/science.1224313",
+      "year": 2012,
+      "split": "test",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1126/science.1211180",
+      "title": "Affirmative action policies promote women and do not harm efficiency in the laboratory.",
+      "doi": "10.1126/science.1211180",
+      "year": 2012,
+      "split": "train",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1038/nature12774",
+      "title": "Experimental evidence for the influence of group size on cultural complexity.",
+      "doi": "10.1038/nature12774",
+      "year": 2013,
+      "split": "train",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1126/science.1221936",
+      "title": "Memory's penumbra: episodic memory decisions induce lingering mnemonic biases.",
+      "doi": "10.1126/science.1221936",
+      "year": 2012,
+      "split": "train",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1126/science.1215647",
+      "title": "Analytic thinking promotes religious disbelief.",
+      "doi": "10.1126/science.1215647",
+      "year": 2012,
+      "split": "train",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1126/science.1253932",
+      "title": "Behavioral economics. Avoiding overhead aversion in charity.",
+      "doi": "10.1126/science.1253932",
+      "year": 2014,
+      "split": "train",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1038/nature13530",
+      "title": "Cooperating with the future.",
+      "doi": "10.1038/nature13530",
+      "year": 2014,
+      "split": "train",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1126/science.1183532",
+      "title": "Lab experiments for the study of social-ecological systems.",
+      "doi": "10.1126/science.1183532",
+      "year": 2010,
+      "split": "validation",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1126/science.1199327",
+      "title": "Retrieval practice produces more learning than elaborative studying with concept mapping.",
+      "doi": "10.1126/science.1199327",
+      "year": 2011,
+      "split": "train",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1126/science.1239918",
+      "title": "Reading literary fiction improves theory of mind.",
+      "doi": "10.1126/science.1239918",
+      "year": 2013,
+      "split": "calibration",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1126/science.1190792",
+      "title": "The social sense: susceptibility to others' beliefs in human infants and adults.",
+      "doi": "10.1126/science.1190792",
+      "year": 2010,
+      "split": "train",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1126/science.1186799",
+      "title": "Washing away postdecisional dissonance.",
+      "doi": "10.1126/science.1186799",
+      "year": 2010,
+      "split": "train",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1126/science.1195701",
+      "title": "Thought for food: imagined consumption reduces actual consumption.",
+      "doi": "10.1126/science.1195701",
+      "year": 2010,
+      "split": "calibration",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1038/nature15392",
+      "title": "Inequality and visibility of wealth in experimental social networks.",
+      "doi": "10.1038/nature15392",
+      "year": 2015,
+      "split": "calibration",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1126/science.1191465",
+      "title": "Why testing improves memory: mediator effectiveness hypothesis.",
+      "doi": "10.1126/science.1191465",
+      "year": 2010,
+      "split": "train",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1126/science.1199427",
+      "title": "Writing about testing worries boosts exam performance in the classroom.",
+      "doi": "10.1126/science.1199427",
+      "year": 2011,
+      "split": "train",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1038/nature11467",
+      "title": "Spontaneous giving and calculated greed.",
+      "doi": "10.1038/nature11467",
+      "year": 2012,
+      "split": "calibration",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1126/science.1222426",
+      "title": "Some consequences of having too little.",
+      "doi": "10.1126/science.1222426",
+      "year": 2012,
+      "split": "validation",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1126/science.1207745",
+      "title": "Google effects on memory: cognitive consequences of having information at our fingertips.",
+      "doi": "10.1126/science.1207745",
+      "year": 2011,
+      "split": "test",
+      "sampling_cohort": "ssrp_complete_2018"
+    },
+    {
+      "id": "ssrp-10.1126/science.1250830",
+      "title": "Social psychology. Just think: the challenges of the disengaged mind.",
+      "doi": "10.1126/science.1250830",
+      "year": 2014,
+      "split": "validation",
+      "sampling_cohort": "ssrp_complete_2018"
+    }
+  ]
+}

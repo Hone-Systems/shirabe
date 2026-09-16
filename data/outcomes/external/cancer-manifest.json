@@ -1,0 +1,378 @@
+{
+  "frozen_at": "2026-09-16T21:05:31.585587+00:00",
+  "cohort": "rpcb_completed_external_2021",
+  "split": "external",
+  "source": "https://elifesciences.org/articles/67995",
+  "source_table": "Table 1, include all rows with experiments completed >0",
+  "sampling_notes": "Complete cohort of 23 original papers with at least one completed experiment (50 experiments total), not the 53 initially selected papers. High-impact 2010\u20132012 cancer biology and feasibility/completion selection bias; not random literature, not 23 wholly reproduced papers. Mixed replication outcomes; selected experiment failure does not imply whole-paper invalidity. Frozen membership before grading. External evaluation only, no fitting, selection, calibration or tuning.",
+  "papers": [
+    {
+      "id": "rpcb-10.1016/j.ccr.2010.01.020",
+      "doi": "https://doi.org/10.1016/j.ccr.2010.01.020",
+      "title": "The common feature of leukemia-associated IDH1 and IDH2 mutations is a neomorphic enzyme activity converting alpha-ketoglutarate to 2-hydroxyglutarate",
+      "year": 2010,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 3,
+      "replication_source": {
+        "title": "Replication Study: The common feature of leukemia-associated IDH1 and IDH2 mutations is a neomorphic enzyme activity converting alpha-ketoglutarate to 2-hydroxyglutarate",
+        "url": "https://doi.org/10.7554/eLife.26030"
+      },
+      "project_url": "https://osf.io/8l4ea/"
+    },
+    {
+      "id": "rpcb-10.1016/j.cell.2009.12.040",
+      "doi": "https://doi.org/10.1016/j.cell.2009.12.040",
+      "title": "Kinase-dead BRAF and oncogenic RAS cooperate to drive tumor progression through CRAF",
+      "year": 2010,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 1,
+      "replication_source": {
+        "title": "Experiments from unfinished Registered Reports in the Reproducibility Project: Cancer Biology",
+        "url": "https://doi.org/10.7554/eLife.73430"
+      },
+      "project_url": "https://osf.io/b1aw6/"
+    },
+    {
+      "id": "rpcb-10.1016/j.cell.2011.05.040",
+      "doi": "https://doi.org/10.1016/j.cell.2011.05.040",
+      "title": "Biomechanical remodeling of the microenvironment by stromal caveolin-1 favors tumor invasion and metastasis",
+      "year": 2011,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 2,
+      "replication_source": {
+        "title": "Replication Study: Biomechanical remodeling of the microenvironment by stromal caveolin-1 favors tumor invasion and metastasis",
+        "url": "https://doi.org/10.7554/eLife.45120"
+      },
+      "project_url": "https://osf.io/7yqmp/"
+    },
+    {
+      "id": "rpcb-10.1016/j.cell.2011.08.017",
+      "doi": "https://doi.org/10.1016/j.cell.2011.08.017",
+      "title": "BET bromodomain inhibition as a therapeutic strategy to target c-Myc",
+      "year": 2011,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 2,
+      "replication_source": {
+        "title": "Replication Study: BET bromodomain inhibition as a therapeutic strategy to target c-Myc",
+        "url": "https://doi.org/10.7554/eLife.21253"
+      },
+      "project_url": "https://osf.io/7zqxp/"
+    },
+    {
+      "id": "rpcb-10.1016/j.cell.2011.09.029",
+      "doi": "https://doi.org/10.1016/j.cell.2011.09.029",
+      "title": "Coding-independent regulation of the tumor suppressor PTEN by competing endogenous mRNAs",
+      "year": 2011,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 4,
+      "replication_source": {
+        "title": "Replication Study: Coding-independent regulation of the tumor suppressor PTEN by competing endogenous mRNAs",
+        "url": "https://doi.org/10.7554/eLife.56651"
+      },
+      "project_url": "https://osf.io/oblj1/"
+    },
+    {
+      "id": "rpcb-10.1016/j.cell.2012.08.026",
+      "doi": "https://doi.org/10.1016/j.cell.2012.08.026",
+      "title": "Transcriptional amplification in tumor cells with elevated c-Myc",
+      "year": 2012,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 2,
+      "replication_source": {
+        "title": "Replication Study: Transcriptional amplification in tumor cells with elevated c-Myc",
+        "url": "https://doi.org/10.7554/eLife.30274"
+      },
+      "project_url": "https://osf.io/mokeb/"
+    },
+    {
+      "id": "rpcb-10.1038/nature08833",
+      "doi": "https://doi.org/10.1038/nature08833",
+      "title": "RAF inhibitors prime wild-type RAF to activate the MAPK pathway and enhance growth",
+      "year": 2010,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 2,
+      "replication_source": {
+        "title": "Replication Study: RAF Inhibitors Prime Wild-Type RAF to Activate the MAPK Pathway and Enhance Growth",
+        "url": "https://doi.org/10.1101/2021.11.30.470372"
+      },
+      "project_url": "https://osf.io/0hezb/"
+    },
+    {
+      "id": "rpcb-10.1038/nature09144",
+      "doi": "https://doi.org/10.1038/nature09144",
+      "title": "A coding-independent function of gene and pseudogene mRNAs regulates tumour biology",
+      "year": 2010,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 5,
+      "replication_source": {
+        "title": "Replication Study: A coding-independent function of gene and pseudogene mRNAs regulates tumour biology",
+        "url": "https://doi.org/10.7554/eLife.51019"
+      },
+      "project_url": "https://osf.io/yyqas/"
+    },
+    {
+      "id": "rpcb-10.1038/nature09208",
+      "doi": "https://doi.org/10.1038/nature09208",
+      "title": "Diverse somatic mutation patterns and pathway alterations in human cancers",
+      "year": 2010,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 1,
+      "replication_source": {
+        "title": "Experiments from unfinished Registered Reports in the Reproducibility Project: Cancer Biology",
+        "url": "https://doi.org/10.7554/eLife.73430"
+      },
+      "project_url": "https://osf.io/jpeqg/"
+    },
+    {
+      "id": "rpcb-10.1038/nature09557",
+      "doi": "https://doi.org/10.1038/nature09557",
+      "title": "Tumour vascularization via endothelial differentiation of glioblastoma stem-like cells",
+      "year": 2010,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 1,
+      "replication_source": {
+        "title": "Experiments from unfinished Registered Reports in the Reproducibility Project: Cancer Biology",
+        "url": "https://doi.org/10.7554/eLife.73430"
+      },
+      "project_url": "https://osf.io/mpyvx/"
+    },
+    {
+      "id": "rpcb-10.1038/nature09627",
+      "doi": "https://doi.org/10.1038/nature09627",
+      "title": "COT drives resistance to RAF inhibition through MAP kinase pathway reactivation",
+      "year": 2010,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 2,
+      "replication_source": {
+        "title": "Experiments from unfinished Registered Reports in the Reproducibility Project: Cancer Biology",
+        "url": "https://doi.org/10.7554/eLife.73430"
+      },
+      "project_url": "https://osf.io/lmhjg/"
+    },
+    {
+      "id": "rpcb-10.1038/nature10509",
+      "doi": "https://doi.org/10.1038/nature10509",
+      "title": "Inhibition of BET recruitment to chromatin as an effective treatment for MLL-fusion leukaemia",
+      "year": 2011,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 3,
+      "replication_source": {
+        "title": "Replication Study: Inhibition of BET recruitment to chromatin as an effective treatment for MLL-fusion leukaemia",
+        "url": "https://doi.org/10.7554/eLife.25306"
+      },
+      "project_url": "https://osf.io/hcqqy/"
+    },
+    {
+      "id": "rpcb-10.1038/nature10860",
+      "doi": "https://doi.org/10.1038/nature10860",
+      "title": "IDH mutation impairs histone demethylation and results in a block to cell differentiation",
+      "year": 2012,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 2,
+      "replication_source": {
+        "title": "Experiments from unfinished Registered Reports in the Reproducibility Project: Cancer Biology",
+        "url": "https://doi.org/10.7554/eLife.73430"
+      },
+      "project_url": "https://osf.io/vfsbo/"
+    },
+    {
+      "id": "rpcb-10.1038/nature11005",
+      "doi": "https://doi.org/10.1038/nature11005",
+      "title": "Systematic identification of genomic markers of drug sensitivity in cancer cells",
+      "year": 2012,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 3,
+      "replication_source": {
+        "title": "Replication Study: Systematic identification of genomic markers of drug sensitivity in cancer cells",
+        "url": "https://doi.org/10.7554/eLife.29747"
+      },
+      "project_url": "https://osf.io/nbryi/"
+    },
+    {
+      "id": "rpcb-10.1038/nature11071",
+      "doi": "https://doi.org/10.1038/nature11071",
+      "title": "Melanoma genome sequencing reveals frequent PREX2 mutations",
+      "year": 2012,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 1,
+      "replication_source": {
+        "title": "Replication Study: Melanoma genome sequencing reveals frequent PREX2 mutations",
+        "url": "https://doi.org/10.7554/eLife.21634"
+      },
+      "project_url": "https://osf.io/jvpnw/"
+    },
+    {
+      "id": "rpcb-10.1038/ncb2048",
+      "doi": "https://doi.org/10.1038/ncb2048",
+      "title": "Wnt activity defines colon cancer stem cells and is regulated by the microenvironment",
+      "year": 2010,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 3,
+      "replication_source": {
+        "title": "Replication Study: Wnt activity defines colon cancer stem cells and is regulated by the microenvironment",
+        "url": "https://doi.org/10.7554/eLife.45426"
+      },
+      "project_url": "https://osf.io/pgjhx/"
+    },
+    {
+      "id": "rpcb-10.1038/nm.2284",
+      "doi": "https://doi.org/10.1038/nm.2284",
+      "title": "The microRNA miR-34a inhibits prostate cancer stem cells and metastasis by directly repressing CD44",
+      "year": 2011,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 3,
+      "replication_source": {
+        "title": "Replication Study: The microRNA miR-34a inhibits prostate cancer stem cells and metastasis by directly repressing CD44",
+        "url": "https://doi.org/10.7554/eLife.43511"
+      },
+      "project_url": "https://osf.io/gb7sr/"
+    },
+    {
+      "id": "rpcb-10.1038/nm.2753",
+      "doi": "https://doi.org/10.1038/nm.2753",
+      "title": "Melanoma exosomes educate bone marrow progenitor cells toward a pro-metastatic phenotype through MET",
+      "year": 2012,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 2,
+      "replication_source": {
+        "title": "Replication study: Melanoma exosomes educate bone marrow progenitor cells toward a pro-metastatic phenotype through MET",
+        "url": "https://doi.org/10.7554/eLife.39944"
+      },
+      "project_url": "https://osf.io/ewqzf/"
+    },
+    {
+      "id": "rpcb-10.1073/pnas.1121623109",
+      "doi": "https://doi.org/10.1073/pnas.1121623109",
+      "title": "The CD47-signal regulatory protein alpha (SIRPa) interaction is a therapeutic target for human solid tumors",
+      "year": 2012,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 1,
+      "replication_source": {
+        "title": "Replication Study: The CD47-signal regulatory protein alpha (SIRPa) interaction is a therapeutic target for human solid tumors",
+        "url": "https://doi.org/10.7554/eLife.18173"
+      },
+      "project_url": "https://osf.io/9pbos/"
+    },
+    {
+      "id": "rpcb-10.1101/gr.126516.111",
+      "doi": "https://doi.org/10.1101/gr.126516.111",
+      "title": "Fusobacterium nucleatum infection is prevalent in human colorectal carcinoma",
+      "year": 2012,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 1,
+      "replication_source": {
+        "title": "Replication Study: Fusobacterium nucleatum infection is prevalent in human colorectal carcinoma",
+        "url": "https://doi.org/10.7554/eLife.25801"
+      },
+      "project_url": "https://osf.io/v4se2/"
+    },
+    {
+      "id": "rpcb-10.1126/science.1183057",
+      "doi": "https://doi.org/10.1126/science.1183057",
+      "title": "Coadministration of a tumor-penetrating peptide enhances the efficacy of cancer drugs",
+      "year": 2010,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 3,
+      "replication_source": {
+        "title": "Replication Study: Coadministration of a tumor-penetrating peptide enhances the efficacy of cancer drugs",
+        "url": "https://doi.org/10.7554/eLife.17584"
+      },
+      "project_url": "https://osf.io/xu1g2/"
+    },
+    {
+      "id": "rpcb-10.1126/science.1224820",
+      "doi": "https://doi.org/10.1126/science.1224820",
+      "title": "Intestinal inflammation targets cancer-inducing activity of the microbiota",
+      "year": 2012,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 2,
+      "replication_source": {
+        "title": "Replication Study: Intestinal inflammation targets cancer-inducing activity of the microbiota",
+        "url": "https://doi.org/10.7554/eLife.34364"
+      },
+      "project_url": "https://osf.io/y4tvd/"
+    },
+    {
+      "id": "rpcb-10.1126/scitranslmed.3001318",
+      "doi": "https://doi.org/10.1126/scitranslmed.3001318",
+      "title": "Discovery and preclinical validation of drug indications using compendia of public gene expression data",
+      "year": 2011,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "external",
+      "sampling_cohort": "rpcb_completed_external_2021",
+      "experiments_completed": 1,
+      "replication_source": {
+        "title": "Replication Study: Discovery and preclinical validation of drug indications using compendia of public gene expression data",
+        "url": "https://doi.org/10.7554/eLife.17044"
+      },
+      "project_url": "https://osf.io/hxrmm/"
+    }
+  ]
+}

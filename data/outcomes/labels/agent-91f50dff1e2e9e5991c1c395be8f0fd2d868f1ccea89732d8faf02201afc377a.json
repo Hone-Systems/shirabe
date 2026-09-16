@@ -1,0 +1,386 @@
+{
+  "id": "rpcb-10.1016/j.ccr.2010.01.020",
+  "title": "The common feature of leukemia-associated IDH1 and IDH2 mutations is a neomorphic enzyme activity converting alpha-ketoglutarate to 2-hydroxyglutarate",
+  "doi": "https://doi.org/10.1016/j.ccr.2010.01.020",
+  "year": 2010,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:16:13.188591+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 16,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2849316/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Cancer-associated IDH1 and IDH2 mutants acquire neomorphic activity converting alpha-ketoglutarate to R-2-hydroxyglutarate; AML samples with these mutations accumulate 2HG."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://doi.org/10.7554/eLife.26030",
+      "title": "Replication Study: The common feature of leukemia-associated IDH1 and IDH2 mutations is a neomorphic enzyme activity converting alpha-ketoglutarate to 2-hydroxyglutarate",
+      "date": "2017",
+      "date_basis": "publication",
+      "kind": "primary_replication",
+      "read": true,
+      "independent": true,
+      "finding": "Independent biochemical experiments and primary AML samples reproduce mutant IDH2 2HG production and mutant-associated elevation in patient samples; exact effect sizes differ.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "primary_replication",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5027283/",
+      "title": "The oncometabolite 2-hydroxyglutarate activates the mTOR signalling pathway.",
+      "date": "2016-09-14",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Mutant IDH1/2 and 2HG activate mTOR via KDM4A/DEPTOR in tested systems, extending the neomorphic enzyme finding.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5572791/",
+      "title": "Enasidenib in mutant <i>IDH2</i> relapsed or refractory acute myeloid leukemia.",
+      "date": "2017-06-06",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "A phase1/2 trial of selective mutant-IDH2 inhibition produced responses in refractory AML; abstract read, not a randomized efficacy comparison.",
+      "read_scope": "abstract",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "Independent enzyme and AML assays supported the neomorphic 2HG central result.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2017",
+            "explanation": "Independent enzyme and AML assays supported the neomorphic 2HG central result."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "Showalter and colleagues reproduced mutant-IDH2 NADPH consumption and intracellular 2HG accumulation.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2017",
+            "explanation": "Showalter and colleagues reproduced mutant-IDH2 NADPH consumption and intracellular 2HG accumulation."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "yes",
+        "rationale": "Preregistered independent assays and separately collected AML specimens supported the central mutant-associated 2HG finding.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2017",
+            "explanation": "Preregistered independent assays and separately collected AML specimens supported the central mutant-associated 2HG finding."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "The replication assessment retained the neomorphic enzyme finding and reported agreement in its principal tests.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2017",
+            "explanation": "The replication assessment retained the neomorphic enzyme finding and reported agreement in its principal tests."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The collected studies support neomorphic activity but do not comprehensively test the original sampling and mechanistic limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Carbonneau and colleagues extended the mutant-IDH/2HG mechanism to KDM4A/DEPTOR-mediated mTOR activation.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-09-14",
+            "explanation": "Carbonneau and colleagues extended the mutant-IDH/2HG mechanism to KDM4A/DEPTOR-mediated mTOR activation."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Carbonneau’s mechanistic team and Stein’s clinical trial team used the mutant-IDH/2HG mechanism for distinct substantive follow-ups.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-09-14",
+            "explanation": "Carbonneau’s mechanistic team and Stein’s clinical trial team used the mutant-IDH/2HG mechanism for distinct substantive follow-ups."
+          },
+          {
+            "source_id": "S3",
+            "date": "2017-06-06",
+            "explanation": "Carbonneau’s mechanistic team and Stein’s clinical trial team used the mutant-IDH/2HG mechanism for distinct substantive follow-ups."
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Carbonneau’s experiments used mutant IDH1/2-driven 2HG production as the basis for perturbing and identifying downstream signaling.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-09-14",
+            "explanation": "Carbonneau’s experiments used mutant IDH1/2-driven 2HG production as the basis for perturbing and identifying downstream signaling."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No independent review explicitly establishing that this specific paper enabled a research direction was read.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The evidence read does not settle this specific criterion; retained as unknown.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Selective inhibition of mutant-IDH2 activity produced documented hematologic responses in the independent clinical trial; this is a contribution within a larger drug-development lineage.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-06-06",
+            "explanation": "Selective inhibition of mutant-IDH2 activity produced documented hematologic responses in the independent clinical trial; this is a contribution within a larger drug-development lineage."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "The neomorphic enzyme mechanism was applied to therapeutic inhibition in relapsed/refractory AML patients rather than solely the original biochemical characterization.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-06-06",
+            "explanation": "The neomorphic enzyme mechanism was applied to therapeutic inhibition in relapsed/refractory AML patients rather than solely the original biochemical characterization."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The mutant-IDH/2HG mechanism enabled identification of the downstream KDM4A/DEPTOR/mTOR connection.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-09-14",
+            "explanation": "The mutant-IDH/2HG mechanism enabled identification of the downstream KDM4A/DEPTOR/mTOR connection."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Clinical trial use is established; routine clinical adoption attributable to this contribution was not separately audited.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent comparative advantage of the original proposed screening procedure was established in the sources read.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2016 mechanistic experiments substantively used the 2010 enzyme result six years later.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-09-14",
+            "explanation": "The 2016 mechanistic experiments substantively used the 2010 enzyme result six years later."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The independent 2017 replication explicitly supported core findings seven years later.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2017",
+            "explanation": "The independent 2017 replication explicitly supported core findings seven years later."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent mechanistic research in 2016 and replication/clinical research in 2017 provide distinct follow-up years.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-09-14",
+            "explanation": "Independent mechanistic research in 2016 and replication/clinical research in 2017 provide distinct follow-up years."
+          },
+          {
+            "source_id": "S3",
+            "date": "2017-06-06",
+            "explanation": "Independent mechanistic research in 2016 and replication/clinical research in 2017 provide distinct follow-up years."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent synthesis explicitly adopting this exact contribution as valid or useful was read.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No source explicitly established continued utility despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "External cohort is high-impact2010–2012 cancer biology selected for replication feasibility/completion, not a random sample.",
+      "The20-question rubric is broader than the available replication endpoints; unknown answers are not scored as failures.",
+      "Literature inspection is bounded and not a systematic review through the as-of date; later uninspected evidence may change answers."
+    ],
+    "summary": "Mutant-IDH2 neomorphic activity has direct independent replication, mechanistic extension and clinical translation. These annotations do not claim that this paper alone caused drug development or that every original ancillary claim was tested."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1016/j.ccr.2010.01.020",
+      "RPCB completed experiments Table1 The common feature of leukemia-associated IDH1 and IDH2 mutations is a neomorphic enzyme activity converting alpha-ketoglutarate to 2-hydroxyglutarate",
+      "Follow primary references in direct replication: The oncometabolite 2-hydroxyglutarate activates the mTOR signalling pathway., Enasidenib in mutant <i>IDH2</i> relapsed or refractory acute myeloid leukemia."
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1016/j.ccr.2010.01.020",
+        "purpose": "Resolve original identity and read available original text before follow-up assessment.",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC2849316/"
+        ]
+      },
+      {
+        "query": "RPCB completed experiments Table1 The common feature of leukemia-associated IDH1 and IDH2 mutations is a neomorphic enzyme activity converting alpha-ketoglutarate to 2-hydroxyglutarate",
+        "purpose": "Find the prespecified direct replication within the complete23-paper external cohort.",
+        "urls_read": [
+          "https://doi.org/10.7554/eLife.26030"
+        ]
+      },
+      {
+        "query": "Follow primary references in direct replication: The oncometabolite 2-hydroxyglutarate activates the mTOR signalling pathway., Enasidenib in mutant <i>IDH2</i> relapsed or refractory acute myeloid leukemia.",
+        "purpose": "Read independent extensions and contrary evidence; distinguish uptake from central-claim validation.",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5027283/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5572791/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 13,
+    "coverage": 0.65,
+    "score": 1.0,
+    "lower_bound": 0.65,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": true
+  },
+  "llm": {
+    "model": "Codex autonomous research agent; shirabe-grade-paper",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

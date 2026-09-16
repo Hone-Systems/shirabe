@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W2565221079",
+  "title": "Elucidation of the genetic and epigenetic landscape alterations in RNA binding proteins in glioblastoma",
+  "year": 2016,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T19:40:33.670813+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 3,
+  "score": null
+}

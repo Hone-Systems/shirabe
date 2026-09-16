@@ -1,0 +1,14 @@
+{
+  "id": "historic-10.1016/0022-0728(89)80006-3",
+  "title": "Electrochemically induced nuclear fusion of deuterium",
+  "year": 1989,
+  "field_id": 16,
+  "field": "Chemistry",
+  "split": "train",
+  "sampling_cohort": "historical_failure_augmentation",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:58:14.553054+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 5,
+  "score": null
+}

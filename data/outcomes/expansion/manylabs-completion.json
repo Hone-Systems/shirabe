@@ -1,0 +1,19 @@
+{
+  "papers": 26,
+  "findings": 28,
+  "answers": {
+    "unknown": 418,
+    "no": 12,
+    "yes": 90
+  },
+  "input_scopes": {
+    "abstract": 12,
+    "full_text": 14
+  },
+  "limitations": [
+    "A complete selected replication cohort is not representative of all sciences.",
+    "Original inputs include14fulltexts and12completeauthorabstracts.",
+    "Negative survival labels are bounded to explicit preregistered focal tests; wider adoption remains unknown.",
+    "The rubric cannot turn this evidence into a precise overall success percentage."
+  ]
+}

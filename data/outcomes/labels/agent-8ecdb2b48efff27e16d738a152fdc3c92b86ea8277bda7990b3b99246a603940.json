@@ -1,0 +1,322 @@
+{
+  "id": "ml2-10.1177/0956797611429579",
+  "title": "Cuing consumerism: Situational materialism undermines personal and social well-being",
+  "doi": "https://doi.org/10.1177/0956797611429579",
+  "year": 2012,
+  "field_id": 16,
+  "field": "Psychology",
+  "split": "train",
+  "sampling_cohort": "manylabs2_complete_2018",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:47:39.055822+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 14,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://doi.org/10.1177/0956797611429579",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "Consumer cues activate materialistic mindsets and undermine personal/social wellbeing, including reducing trust in a water-conservation dilemma."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "ML2",
+      "url": "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf",
+      "title": "Many Labs2: Investigating Variation in Replicability Across Samples and Settings",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_multicenter_replication",
+      "read": true,
+      "independent": true,
+      "finding": "Consumer framing reduced trust in others in N=6608,d=.12,95%CI[.07,.17], much smaller than original d=.87. Several secondary outcomes were weaker or null.",
+      "characters": null,
+      "method": "primary_multicenter_replication",
+      "truncated": false
+    },
+    {
+      "source_id": "M2020",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/mar.21387",
+      "title": "Materialistic cues make us miserable: A meta-analysis of experimental evidence",
+      "date": "2020",
+      "date_basis": "publication",
+      "kind": "systematic_review",
+      "read": true,
+      "independent": true,
+      "finding": "The synthesis includes Bauer2012experiments and finds materialistic cues reduce individual and societal wellbeing across27studies,with methodological limitations.",
+      "characters": null,
+      "method": "systematic_review",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "Consumer framing reduced trust in others in N=6608,d=.12,95%CI[.07,.17], much smaller than original d=.87. Several secondary outcomes were weaker or null. The answer is restricted to this central empirical component, not every theoretical explanation.",
+        "evidence": [
+          {
+            "source_id": "ML2",
+            "date": "2018",
+            "explanation": "Consumer framing reduced trust in others in N=6608,d=.12,95%CI[.07,.17], much smaller than original d=.87. Several secondary outcomes were weaker or null. The answer is restricted to this central empirical component, not every theoretical explanation."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "Consumer framing reduced trust in others in N=6608,d=.12,95%CI[.07,.17], much smaller than original d=.87. Several secondary outcomes were weaker or null. The answer is restricted to this central empirical component, not every theoretical explanation.",
+        "evidence": [
+          {
+            "source_id": "ML2",
+            "date": "2018",
+            "explanation": "Consumer framing reduced trust in others in N=6608,d=.12,95%CI[.07,.17], much smaller than original d=.87. Several secondary outcomes were weaker or null. The answer is restricted to this central empirical component, not every theoretical explanation."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "yes",
+        "rationale": "Consumer framing reduced trust in others in N=6608,d=.12,95%CI[.07,.17], much smaller than original d=.87. Several secondary outcomes were weaker or null. The answer is restricted to this central empirical component, not every theoretical explanation.",
+        "evidence": [
+          {
+            "source_id": "ML2",
+            "date": "2018",
+            "explanation": "Consumer framing reduced trust in others in N=6608,d=.12,95%CI[.07,.17], much smaller than original d=.87. Several secondary outcomes were weaker or null. The answer is restricted to this central empirical component, not every theoretical explanation."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "The2020meta-analysis explicitly incorporates this paper and retains its causal materialistic-cue/wellbeing account;2018ML2and2020provide separate follow-up years.",
+        "evidence": [
+          {
+            "source_id": "M2020",
+            "date": "2020",
+            "explanation": "The2020meta-analysis explicitly incorporates this paper and retains its causal materialistic-cue/wellbeing account;2018ML2and2020provide separate follow-up years."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish usefulness after an explicit test of the original stated limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a substantive independent extension beyond attempting the same empirical test.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish substantive building by two distinct teams beyond the coordinated replication project.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish application of a proposed reusable method or framework beyond re-running an experimental task.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish an explicit later-review attribution of a new direction to this paper.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish use as a scientific benchmark rather than comparison of replication effect sizes.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish an independent benefit from applying the contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish successful application outside the original problem, rather than merely recruiting a wider sample.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a new capability or result enabled by the contribution rather than by testing it.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish actual operational use; absence of evidence is not nonadoption.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a claimed comparative advantage under fair independent evaluation.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "ML2 re-administered the original experimental task in2018, at least three years after publication. This is substantive research use and does not mean the effect was validated.",
+        "evidence": [
+          {
+            "source_id": "ML2",
+            "date": "2018",
+            "explanation": "ML2 re-administered the original experimental task in2018, at least three years after publication. This is substantive research use and does not mean the effect was validated."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "Consumer framing reduced trust in others in N=6608,d=.12,95%CI[.07,.17], much smaller than original d=.87. Several secondary outcomes were weaker or null. The answer is restricted to this central empirical component, not every theoretical explanation.",
+        "evidence": [
+          {
+            "source_id": "ML2",
+            "date": "2018",
+            "explanation": "Consumer framing reduced trust in others in N=6608,d=.12,95%CI[.07,.17], much smaller than original d=.87. Several secondary outcomes were weaker or null. The answer is restricted to this central empirical component, not every theoretical explanation."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "The2020meta-analysis explicitly incorporates this paper and retains its causal materialistic-cue/wellbeing account;2018ML2and2020provide separate follow-up years.",
+        "evidence": [
+          {
+            "source_id": "M2020",
+            "date": "2020",
+            "explanation": "The2020meta-analysis explicitly incorporates this paper and retains its causal materialistic-cue/wellbeing account;2018ML2and2020provide separate follow-up years."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "The2020meta-analysis explicitly incorporates this paper and retains its causal materialistic-cue/wellbeing account;2018ML2and2020provide separate follow-up years.",
+        "evidence": [
+          {
+            "source_id": "M2020",
+            "date": "2020",
+            "explanation": "The2020meta-analysis explicitly incorporates this paper and retains its causal materialistic-cue/wellbeing account;2018ML2and2020provide separate follow-up years."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish explicit usefulness despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "The 20-item rubric covers broader contribution success than focal replication. Unknown answers are retained; negative focal results do not establish zero utility or zero uptake.",
+      "This bounded research pass is observed through2026-09-16, not an exhaustive census of every subsequent publication.",
+      "Original full text was not available from attempted free sources;original identity/central claims are based on the complete author abstract,explicitly tagged abstract-only."
+    ],
+    "summary": "Consumer framing reduced trust in others in N=6608,d=.12,95%CI[.07,.17], much smaller than original d=.87. Several secondary outcomes were weaker or null. Wider adoption and practical utility are not inferred from replication."
+  },
+  "research_plan": {
+    "queries": [
+      "Many Labs 2 28 effects original studies table Klein 2018 pdf",
+      "\"Cuing consumerism\" replication follow up meta analysis"
+    ],
+    "search_log": [
+      {
+        "query": "Many Labs 2 28 effects original studies table Klein 2018 pdf",
+        "purpose": "Enumerate the complete cohort before selecting by outcome.",
+        "urls_read": [
+          "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf"
+        ]
+      },
+      {
+        "query": "\"Cuing consumerism\" replication follow up meta analysis",
+        "purpose": "Resolve original and check follow-up or contrary evidence; only read sources used for judgments.",
+        "urls_read": [
+          "https://doi.org/10.1177/0956797611429579",
+          "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf",
+          "https://onlinelibrary.wiley.com/doi/10.1002/mar.21387"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 8,
+    "coverage": 0.4,
+    "score": null,
+    "lower_bound": 0.4,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent / ManyLabs cohort",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

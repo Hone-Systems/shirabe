@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W2513116288",
+  "title": "A Declarative Optimization Engine for Resource Provisioning of Scientific Workflows in Geo-Distributed Clouds",
+  "year": 2016,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T19:44:00.400637+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 0,
+  "score": null
+}

@@ -1,0 +1,14 @@
+{
+  "id": "econ-10.1093/qje/qjt035",
+  "title": "“Last-Place Aversion”: Evidence and Redistributive Implications",
+  "year": 2014,
+  "field_id": 20,
+  "field": "Economics",
+  "split": "test",
+  "sampling_cohort": "econ_complete_2016",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:49:47.229918+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 1,
+  "score": null
+}

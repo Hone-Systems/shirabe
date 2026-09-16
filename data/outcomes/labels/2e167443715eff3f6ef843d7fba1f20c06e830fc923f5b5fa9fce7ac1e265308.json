@@ -1,0 +1,441 @@
+{
+  "id": "challenge-debt",
+  "title": "Growth in a Time of Debt",
+  "doi": "https://doi.org/10.1257/aer.100.2.573",
+  "year": 2010,
+  "field_id": 20,
+  "field": "Economics",
+  "split": "challenge",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2014-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:09:45.650012+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://www.nber.org/system/files/working_papers/w15639/w15639.pdf",
+    "method": "tavily_complete_extraction",
+    "http_status": 403,
+    "characters": 36345,
+    "truncated": false,
+    "sha256": "5be3e4c45a6fed03da85a4abd47226c53d735a559fecbda68178b1946dadfa7c",
+    "retrieved_at": "2026-09-16T19:07:57.225144+00:00"
+  },
+  "retrieval_version": 2,
+  "research_plan": {
+    "queries": [
+      "(\"public debt\" OR \"government debt\") GDP growth nonlinear threshold panel data \"90 percent\" \"external debt\" \"60 percent\" -tutorial -blog after:2010 before:2015",
+      "(\"Reinhart Rogoff\" OR \"90 percent threshold\") replication OR reanalysis OR correction OR coding OR spreadsheet \"debt and growth\" after:2010 before:2015",
+      "(\"public debt\" \"economic growth\") meta-analysis OR literature review OR survey OR synthesis threshold nonlinear advanced emerging economies after:2010 before:2015",
+      "(\"debt intolerance\" OR \"sovereign risk premia\" OR \"debt sustainability\" OR \"short-term borrowing\") fiscal policy debt-to-GDP threshold growth \"external debt\" after:2010 before:2015"
+    ],
+    "selected_urls": [
+      "http://www2.stat-athens.aueb.gr/~jpan/Herndon-CambJournEcon2014.pdf",
+      "https://www.oecd.org/content/dam/oecd/en/publications/reports/2012/10/public-debt-economic-growth-and-nonlinear-effects_g17a21c2/5k918xk8d4zn-en.pdf",
+      "https://link.springer.com/article/10.1007/BF03399388",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0014292112000876",
+      "https://www.nber.org/system/files/working_papers/w18015/w18015.pdf",
+      "https://www.nber.org/system/files/working_papers/w16827/w16827.pdf",
+      "https://mpra.ub.uni-muenchen.de/53243/1/MPRA_paper_53243.pdf",
+      "https://mpra.ub.uni-muenchen.de/57377/1/MPRA_paper_57377.pdf",
+      "https://peri.umass.edu/wp-content/uploads/joomla/images/publication/Pollin--Response_to_RR_critiques---January_2014.pdf",
+      "https://cepr.org/voxeu/columns/public-debt-and-economic-growth-one-more-time"
+    ],
+    "plan_usage": {
+      "cache_key": "47b10463967264b9b36013050641f177a40a655cde722acda63fbf9645daff0a",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 8939,
+        "input_tokens_details": {
+          "cache_write_tokens": 8936,
+          "cached_tokens": 0
+        },
+        "output_tokens": 608,
+        "output_tokens_details": {
+          "reasoning_tokens": 438
+        },
+        "total_tokens": 9547
+      },
+      "input_tokens_estimate": 8905,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "07cd928f3c86d74e19ad404ee9c0558e007152b569ae004000d6c9599bf3711e",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 4194,
+        "input_tokens_details": {
+          "cache_write_tokens": 4191,
+          "cached_tokens": 0
+        },
+        "output_tokens": 437,
+        "output_tokens_details": {
+          "reasoning_tokens": 161
+        },
+        "total_tokens": 4631
+      },
+      "input_tokens_estimate": 4160,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "http://www2.stat-athens.aueb.gr/~jpan/Herndon-CambJournEcon2014.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 128823,
+      "truncated": false,
+      "sha256": "80af3850b6615f754c26ee51a85306439ced278693168ab50bcb06f52fa79f8e",
+      "retrieved_at": "2026-09-16T19:09:14.311022+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2012/10/public-debt-economic-growth-and-nonlinear-effects_g17a21c2/5k918xk8d4zn-en.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 153940,
+      "truncated": false,
+      "sha256": "b0091326a71a863bdf96555ea135b548695680df1330b246aa134465149d6714",
+      "retrieved_at": "2026-09-16T19:09:12.539294+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://link.springer.com/article/10.1007/BF03399388",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 16096,
+      "truncated": false,
+      "sha256": "b473e6b905b43fbed56c2e639a5bfaea7199c904e8748efc5c3145584f78f2fa",
+      "retrieved_at": "2026-09-16T19:09:12.597259+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0014292112000876",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 25089,
+      "truncated": false,
+      "sha256": "d4d35f9b915b9f3c35d17ea30d7e812b4ae09301c35ea26eba6f7c2270632f03",
+      "retrieved_at": "2026-09-16T19:09:11.526455+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.nber.org/system/files/working_papers/w18015/w18015.pdf",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 53535,
+      "truncated": false,
+      "sha256": "a1441193935bdf9af5481e64d96bd4492f04a6d516dcb642c4600cdd47f4f0cb",
+      "retrieved_at": "2026-09-16T19:09:11.978658+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://www.nber.org/system/files/working_papers/w16827/w16827.pdf",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 82024,
+      "truncated": false,
+      "sha256": "a2e6d8a2732978cc360b62e18cfc2f8d1327ad4a9e3956c68be0111d2b646ff2",
+      "retrieved_at": "2026-09-16T19:07:47.077348+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://mpra.ub.uni-muenchen.de/53243/1/MPRA_paper_53243.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 26315,
+      "truncated": false,
+      "sha256": "a2c51839613e3a86ec273d5953e6843e0edd124dd7c5c35df15a4f795681ba2c",
+      "retrieved_at": "2026-09-16T19:09:13.584694+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://mpra.ub.uni-muenchen.de/57377/1/MPRA_paper_57377.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 116667,
+      "truncated": false,
+      "sha256": "07d10a60420273649ad9d7bc1bcc5a9f198c319c93aa54bd2e4c3e6b68c32885",
+      "retrieved_at": "2026-09-16T19:09:14.462158+00:00"
+    },
+    {
+      "source_id": "S9",
+      "url": "https://peri.umass.edu/wp-content/uploads/joomla/images/publication/Pollin--Response_to_RR_critiques---January_2014.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 42966,
+      "truncated": false,
+      "sha256": "ca8e793d11b63a707628c24e60dd510e78a17a2dc670dacef97a406539ddbaaa",
+      "retrieved_at": "2026-09-16T19:09:13.181860+00:00"
+    },
+    {
+      "source_id": "S10",
+      "url": "https://cepr.org/voxeu/columns/public-debt-and-economic-growth-one-more-time",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:09:13.820886+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2012"
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2012-10-17"
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "no",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2013-12-28"
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "no",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2012-10-17"
+          }
+        ]
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2012"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2012-10-17"
+          },
+          {
+            "source_id": "S8",
+            "date": "2014-07-17"
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S8",
+            "date": "2014-07-17"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2012-10-17"
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S8",
+            "date": "2014-07-17"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2012"
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2013-12-24"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S8",
+            "date": "2014-07-17"
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2012-10-17"
+          },
+          {
+            "source_id": "S1",
+            "date": "2013-12-24"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "The supplied packet is concentrated in 2011–2014 and does not establish longer-term post-2014 durability.",
+      "No supplied source verifies operational adoption in a continuing policy workflow, standard, or product.",
+      "The packet does not provide a later review explicitly describing the contribution as enabling a distinct research direction."
+    ]
+  },
+  "validation_rejected": [
+    "stronger_test",
+    "advantage_retained",
+    "synthesis_inclusion",
+    "continued_relevance"
+  ],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 2,
+        "no": 2,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 0.5,
+        "lower_bound": 0.4,
+        "upper_bound": 0.6
+      },
+      "uptake": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 13,
+    "coverage": 0.65,
+    "score": null,
+    "lower_bound": 0.55,
+    "upper_bound": 0.9,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "27d36cdbcfd66f831031f55cd22b47dc71dc7b34eadf9e4c2833a81a89c994d0",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 152084,
+      "input_tokens_details": {
+        "cache_write_tokens": 152081,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2735,
+      "output_tokens_details": {
+        "reasoning_tokens": 873
+      },
+      "total_tokens": 154819
+    },
+    "input_tokens_estimate": 151841,
+    "truncated": false
+  }
+}

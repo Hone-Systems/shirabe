@@ -1,0 +1,455 @@
+{
+  "id": "challenge-bert",
+  "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+  "doi": "https://doi.org/10.48550/arXiv.1810.04805",
+  "year": 2018,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "challenge",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2022-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:10:08.076832+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://arxiv.org/pdf/1810.04805",
+    "method": "pdf_all_pages",
+    "http_status": 200,
+    "characters": 89229,
+    "truncated": false,
+    "sha256": "aed2a21f0429e5526d7636bfe304c790bf0abb8c40977337672d9bd683a2fadc",
+    "retrieved_at": "2026-09-16T19:07:17.691849+00:00"
+  },
+  "retrieval_version": 2,
+  "research_plan": {
+    "queries": [
+      "BERT masked language model bidirectional Transformer encoder WordPiece [CLS] [SEP] fine-tuning downstream applications extensions after:2018-12-31 before:2023-01-01 (paper OR proceedings)",
+      "BERT masked language modeling next sentence prediction ablation replication reproducibility GLUE SQuAD fine-tuning critical evaluation after:2018-12-31 before:2023-01-01 (paper OR proceedings)",
+      "BERT masked language model Transformer pre-training fine-tuning transfer learning survey systematic review meta-analysis 2019..2022 (journal OR proceedings)",
+      "BERT bidirectional Transformer encoder feature-based fine-tuning [CLS] practical deployment OR theoretical analysis probing representation adoption after:2018-12-31 before:2023-01-01 (paper OR proceedings)"
+    ],
+    "selected_urls": [
+      "https://par.nsf.gov/servlets/purl/10216557",
+      "https://www.sciencedirect.com/science/article/pii/S2666651021000231",
+      "https://www.microsoft.com/en-us/research/blog/microsoft-deberta-surpasses-human-performance-on-the-superglue-benchmark/",
+      "https://aclanthology.org/2021.blackboxnlp-1.29.pdf",
+      "https://arxiv.org/pdf/2105.04339",
+      "https://aclanthology.org/2022.starsem-1.12.pdf",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9344209/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8978438/",
+      "https://aclanthology.org/2022.bea-1.11.pdf",
+      "https://arxiv.org/abs/1909.08593",
+      "https://openreview.net/forum?id=p-BhZSz59o4",
+      "https://www.mdpi.com/2078-2489/13/12/576"
+    ],
+    "plan_usage": {
+      "cache_key": "8ce7333869c890ebe062cf9cf8edfaf49ec6959a314ac9b70bf6a1acd645059a",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 19004,
+        "input_tokens_details": {
+          "cache_write_tokens": 19001,
+          "cached_tokens": 0
+        },
+        "output_tokens": 694,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 19698
+      },
+      "input_tokens_estimate": 18970,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "453f9851ca1063760cab0c2dc944de51933a3e103c0a759664bcacde07c34ebf",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 4440,
+        "input_tokens_details": {
+          "cache_write_tokens": 4437,
+          "cached_tokens": 0
+        },
+        "output_tokens": 747,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 5187
+      },
+      "input_tokens_estimate": 4406,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://par.nsf.gov/servlets/purl/10216557",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 130832,
+      "truncated": false,
+      "sha256": "1fa9bbbeea4af6de9cf0f110f3760281690a4f1464894faa6c225db9d005b617",
+      "retrieved_at": "2026-09-16T19:09:40.364104+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666651021000231",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:09:38.602208+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.microsoft.com/en-us/research/blog/microsoft-deberta-surpasses-human-performance-on-the-superglue-benchmark/",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 8695,
+      "truncated": false,
+      "sha256": "852142274157a1d217fc56f4636b0dd82cca3ff30610132e24364c524ea6a85c",
+      "retrieved_at": "2026-09-16T19:09:38.467160+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://aclanthology.org/2021.blackboxnlp-1.29.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 77275,
+      "truncated": false,
+      "sha256": "3aca5a546f6d31d4541bb9f5503a231873b7ed8773db5b383136711399c0a744",
+      "retrieved_at": "2026-09-16T19:09:38.681819+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://arxiv.org/pdf/2105.04339",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 41944,
+      "truncated": false,
+      "sha256": "e6e83564106af19226c106f8e8177b5008476bbf272020767d049a917c732f5c",
+      "retrieved_at": "2026-09-16T19:09:38.832864+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://aclanthology.org/2022.starsem-1.12.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 55235,
+      "truncated": false,
+      "sha256": "057c85112bcb5b5cb1b58979dea54dc61938d5a2fc94ec6bd53e9a54c955c6c4",
+      "retrieved_at": "2026-09-16T19:09:39.733224+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9344209/",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 41959,
+      "truncated": false,
+      "sha256": "e7f8df034eef52b39a7394dfecdb829e973ab925fcb4b49015e9450b808c2437",
+      "retrieved_at": "2026-09-16T19:09:38.944492+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8978438/",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 61412,
+      "truncated": false,
+      "sha256": "e69e4914d27ab7b4fec9c0d40e35d608deb428458fd31766348bec22767c5d05",
+      "retrieved_at": "2026-09-16T19:09:39.068814+00:00"
+    },
+    {
+      "source_id": "S9",
+      "url": "https://aclanthology.org/2022.bea-1.11.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 54103,
+      "truncated": false,
+      "sha256": "5798346677e8fb5ffa5edc58231d1b9325f950c55c7b01836b97ebcdc9410f5f",
+      "retrieved_at": "2026-09-16T19:09:39.772187+00:00"
+    },
+    {
+      "source_id": "S10",
+      "url": "https://arxiv.org/abs/1909.08593",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 4349,
+      "truncated": false,
+      "sha256": "927eccd87b26f1f1f6ae8599e452937245fbb98e1e2e2e021aec3b7dcf2aea2d",
+      "retrieved_at": "2026-09-16T19:09:39.117931+00:00"
+    },
+    {
+      "source_id": "S11",
+      "url": "https://openreview.net/forum?id=p-BhZSz59o4",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 205,
+      "truncated": false,
+      "sha256": "682c29a6e12b01fbbd344a6c8343e014ed6612625815ec1f1b64373b9087c561",
+      "retrieved_at": "2026-09-16T19:09:39.922701+00:00"
+    },
+    {
+      "source_id": "S12",
+      "url": "https://www.mdpi.com/2078-2489/13/12/576",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:09:40.358009+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S8",
+            "date": "2022-04-04"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2022-06-29"
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2022-06-29"
+          },
+          {
+            "source_id": "S8",
+            "date": "2022-04-04"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2022-06-29"
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2022-06-29"
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2022-06-29"
+          },
+          {
+            "source_id": "S8",
+            "date": "2022-04-04"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S8",
+            "date": "2022-04-04"
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2022-06-29"
+          }
+        ]
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "no",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2022-06-29"
+          }
+        ]
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2022-06-29"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2022-06-29"
+          }
+        ]
+      }
+    ],
+    "search_gaps": [
+      "No supplied source provides a controlled, like-for-like independent replication of the original eleven benchmark results.",
+      "The packet does not clearly establish a larger or stricter replication of the original full claim.",
+      "Evidence of product adoption is for BERT-family systems; direct adoption of the exact original BERT checkpoint is not established."
+    ]
+  },
+  "validation_rejected": [
+    "claim_supported",
+    "central_claim_retained",
+    "new_research_direction",
+    "late_positive_assessment",
+    "multiple_followup_years",
+    "synthesis_inclusion"
+  ],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 4,
+        "no": 1,
+        "unknown": 0,
+        "not_applicable": 0,
+        "coverage": 1.0,
+        "known_index": 0.8,
+        "lower_bound": 0.8,
+        "upper_bound": 0.8
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 11,
+    "coverage": 0.55,
+    "score": null,
+    "lower_bound": 0.5,
+    "upper_bound": 0.95,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "01dd732959e8001de79aeff5391af6b88601f4366938966fee4bee612e99040c",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 139778,
+      "input_tokens_details": {
+        "cache_write_tokens": 139775,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3280,
+      "output_tokens_details": {
+        "reasoning_tokens": 1098
+      },
+      "total_tokens": 143058
+    },
+    "input_tokens_estimate": 139535,
+    "truncated": false
+  }
+}

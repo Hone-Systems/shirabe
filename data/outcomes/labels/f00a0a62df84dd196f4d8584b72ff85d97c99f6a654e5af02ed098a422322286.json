@@ -1,0 +1,317 @@
+{
+  "id": "https://openalex.org/W2922482404",
+  "title": "Anonymous Auction Protocol Based on Time-Released Encryption Atop Consortium BlockChain",
+  "doi": "https://doi.org/10.5121/ijait.2019.9101",
+  "year": 2019,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "validation",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2023-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:20:01.669960+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://doi.org/10.5121/ijait.2019.9101",
+    "method": "pdf_all_pages",
+    "http_status": 200,
+    "characters": 48219,
+    "truncated": false,
+    "sha256": "19eb9e6aa2d62b1d7f252d8ac733d8bc0494bd33a1a789124183e697f07adae0",
+    "retrieved_at": "2026-09-16T19:12:49.978633+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "consortium blockchain anonymous sealed-bid auction time-release encryption blind signature extension",
+      "time-release encryption consortium blockchain auction protocol security analysis replication empirical evaluation",
+      "anonymous blockchain auction protocols time-release encryption blind signatures systematic review survey",
+      "Schnorr blind signatures time-release encryption smart contract sealed-bid auction deployment"
+    ],
+    "selected_urls": [
+      "https://www.mdpi.com/2079-9292/10/19/2340",
+      "https://www.semanticscholar.org/paper/A-Blockchain-Based-Sealed-Bid-e-Auction-Scheme-with-Li-Xue/cd9e6012940282d207032b52a5e14c88482f0ae4",
+      "https://eprint.iacr.org/2019/877",
+      "https://www.mdpi.com/2410-387X/6/1/3"
+    ],
+    "plan_usage": {
+      "cache_key": "18a65ed4e4b03a328e2dc5098c4baacd00988cae8cabb14be5c0472e99214daf",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 11252,
+        "input_tokens_details": {
+          "cache_write_tokens": 11249,
+          "cached_tokens": 0
+        },
+        "output_tokens": 364,
+        "output_tokens_details": {
+          "reasoning_tokens": 293
+        },
+        "total_tokens": 11616
+      },
+      "input_tokens_estimate": 11218,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "2a96d7e90b5ae4ab897b5c99a7d3048261e29949be01d2042029399d02455941",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 16046,
+        "input_tokens_details": {
+          "cache_write_tokens": 16043,
+          "cached_tokens": 0
+        },
+        "output_tokens": 587,
+        "output_tokens_details": {
+          "reasoning_tokens": 467
+        },
+        "total_tokens": 16633
+      },
+      "input_tokens_estimate": 16012,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.mdpi.com/2079-9292/10/19/2340",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 136768,
+      "truncated": false,
+      "sha256": "1c606911300d8db4aa4d03618b720d7b78ebb27e19bca08ce4faf69f4ed0a8a1",
+      "retrieved_at": "2026-09-16T19:19:47.196139+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.semanticscholar.org/paper/A-Blockchain-Based-Sealed-Bid-e-Auction-Scheme-with-Li-Xue/cd9e6012940282d207032b52a5e14c88482f0ae4",
+      "method": "tavily_complete_extraction",
+      "http_status": 202,
+      "characters": 28560,
+      "truncated": false,
+      "sha256": "b5511e07e61ba1fd3e09ff12a335da44f23ed251a1c0e2b05105d23ef40e53ae",
+      "retrieved_at": "2026-09-16T19:19:42.171853+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://eprint.iacr.org/2019/877",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 2788,
+      "truncated": false,
+      "sha256": "c83007902b6266d5acbba032a7a9ca8cbd9300306187fbda6f7061a502bb489a",
+      "retrieved_at": "2026-09-16T19:19:41.940804+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.mdpi.com/2410-387X/6/1/3",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 155549,
+      "truncated": false,
+      "sha256": "f3d59c1da54dfe9139c0316e48ecef1f46875fc2841552533ee77247df1986c5",
+      "retrieved_at": "2026-09-16T19:19:42.321840+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The supplied later studies concern related blockchain-auction or signature schemes but do not explicitly validate this paper’s specific protocol or central claim.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No supplied source reports an independent reproduction of Xiong and Wang’s specific construction or protocol.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up performs a larger, stricter, or independently collected test of this paper’s protocol.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The supplied later assessment and survey sources discuss related primitives and auctions but do not explicitly assess or retain this paper’s central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No supplied source explicitly tests this paper’s stated limitations and demonstrates that its contribution remains useful afterward.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Later auction protocols are documented, but the supplied texts do not establish that any is a substantive extension of this specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The packet identifies multiple later groups working on blockchain auctions, but does not show that at least two independently built on this paper specifically.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "No supplied later study explicitly states that it used Xiong and Wang’s proposed time-release, blind-signature, consortium-blockchain method.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The 2022 survey identifies broad research directions for group and ring signatures, but does not identify this paper as enabling one.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up texts compare related auction designs, but no actual baseline or theoretical comparison to this paper is documented.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No supplied source demonstrates an independently measured scientific or practical benefit from applying this paper’s specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "No supplied source reports successful use of this specific protocol outside its original consortium-blockchain sealed-auction setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not attribute a new result, measurement, theorem, or capability to this paper’s contribution.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The packet contains demonstrations and proposals for related auction systems, but no evidence that this paper’s protocol was adopted in a product, workflow, standard, or practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison in the supplied sources evaluates whether this paper’s claimed advantages were retained.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Although later sources from 2022 discuss related signature applications, they do not document substantive use of this specific paper at least three years after publication.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No supplied source gives a positive independent assessment of this paper’s specific contribution at least three years after publication.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The packet contains later material from multiple years, but it does not document substantive independent follow-up of this specific paper in at least two years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The supplied 2022 survey is a synthesis of group and ring signatures, but its text does not adopt this paper’s auction protocol as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later work shows continuing interest in privacy-preserving auctions and signatures, but does not explicitly show continued usefulness of this contribution despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied follow-up source explicitly names, evaluates, reproduces, implements, or compares the 2019 Xiong–Wang protocol.",
+      "The supplied later auction papers and surveys concern related designs, but their full texts do not establish paper-specific uptake or validation.",
+      "No operational deployment, standardization, product use, correction, failed replication, or security attack against this specific protocol is documented in the provided window."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "49755c5506a62a4c851473f0f75dc81406a4fefa2d9a06904292c2f75874c966",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 123023,
+      "input_tokens_details": {
+        "cache_write_tokens": 123020,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1444,
+      "output_tokens_details": {
+        "reasoning_tokens": 445
+      },
+      "total_tokens": 124467
+    },
+    "input_tokens_estimate": 122780,
+    "truncated": false
+  }
+}

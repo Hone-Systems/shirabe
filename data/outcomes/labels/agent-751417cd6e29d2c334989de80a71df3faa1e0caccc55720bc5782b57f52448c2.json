@@ -1,0 +1,333 @@
+{
+  "id": "https://openalex.org/W3094960319",
+  "title": "Assessment of the phytoconstituents and optimal applicable concentration of aqueous extract of Azadirachta indica leaves for wound healing in male Wistar rats",
+  "doi": "https://doi.org/10.56808/3027-7922.2467",
+  "year": 2021,
+  "field_id": 27,
+  "field": "Medicine",
+  "split": "test",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:03:32.141007+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 5,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "publisher_abstract_plus_partial_original_pdf_methods_and_results",
+  "original_source": {
+    "url": "https://digital.car.chula.ac.th/tjps/vol45/iss1/2/",
+    "scope": "publisher_abstract_plus_partial_original_pdf_methods_and_results",
+    "read": true,
+    "central_claim": "aqueous neem leaf extract wound-healing activity and the specific 1.5% w/v optimum in male Wistar rats"
+  },
+  "central_claims": [
+    "The tested aqueous neem-leaf extract contains multiple phytochemical classes and promotes excision-wound healing in male Wistar rats.",
+    "Among six tested concentrations, 1.5% w/v is the optimum inferred from tissue hydroxyproline; this particular concentration claim is distinct from generic neem wound-healing activity."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S0",
+      "url": "https://digital.car.chula.ac.th/tjps/vol45/iss1/2/",
+      "title": "Assessment of the phytoconstituents and optimal applicable concentration of aqueous extract of Azadirachta indica leaves for wound healing in male Wistar rats",
+      "date": "2021",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": false,
+      "scope": "publisher_abstract_plus_partial_original_pdf_methods_and_results",
+      "read": true,
+      "finding": "Seven groups of five rats received aqueous extract concentrations or water; 1.5% w/v had the highest tissue hydroxyproline and is claimed optimal.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S1",
+      "url": "https://www.fortunejournals.com/articles/evaluation-of-the-wound-healing-potentials-of-aqueous-topical-creams-containing-aqueous-extract-of-azadirachta-indica-leaves-as-bi.html",
+      "title": "Evaluation of the Wound Healing Potentials of Aqueous Topical Creams Containing Aqueous Extract of Azadirachta indica Leaves as Bioactive Ingredient",
+      "date": "2021-02-08",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": false,
+      "scope": "indexed_primary_article_methods_and_abstract",
+      "read": true,
+      "finding": "Same five original authors plus another author test creams containing 1, 1.5, 2 and 3% w/w extract; the highest reported hydroxyproline is at 1.5%. Independent validation is not established.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://vetmed.agriculturejournals.cz/pdfs/vet/2021/03/03.pdf",
+      "title": "An assessment of the wound healing potential of a herbal gel containing an Azadirachta indica leaf extract",
+      "date": "2021",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "read": true,
+      "finding": "Independent team tests ethanolic extract gels in rabbits; 3% w/w performs best among 1, 2 and 3%. This is a different solvent, formulation, species and dose set, not a test of the target aqueous 1.5% optimum.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://oiccpress.com/tpr/article/download/11852/13410",
+      "title": "A review of selected herbs responsible for wound management",
+      "date": "2023-09-23",
+      "date_basis": "publication",
+      "kind": "review",
+      "independent": true,
+      "scope": "full_text_table_and_reference_context",
+      "read": true,
+      "finding": "Its neem table and reference list adopt the topical cream paper, not the assigned aqueous concentration study.",
+      "characters": null,
+      "method": "review",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Independent rabbit experiments support generic neem activity, but use ethanol extract and a different optimum. They do not verify the assigned aqueous-extract optimum and phytochemical profile.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The closest matching 1.5% cream report shares the original authors; the independent gel experiment uses ethanol and rabbits. No independent reproduction of the aqueous 1.5% result was established.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The cream experiment still uses groups of five rats, and chronology relative to the target is uncertain. No larger or stricter direct test of the original optimum was verified.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The independent 3% ethanolic-gel optimum is neither confirmation nor refutation of a 1.5% aqueous optimum. No assessment directly retaining or overturning the original concentration claim was located.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No read follow-up establishes that the optimum survives larger samples, blinded evaluation, extract standardization or clinical wound settings.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The closest cream development shares the original team. The independent gel work does not establish a derivation from the target study.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Two independent teams substantively building on the assigned aqueous concentration study were not verified; generic neem research predates it.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The cream paper uses closely related methods but overlapping authors; independent reuse of this particular concentration-selection procedure was not established.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The 2023 review discusses herbal wound management and cites the related cream paper; it does not credit the assigned paper with starting a direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The rabbit study compares its own gels with nitrofurazone, but does not use the assigned aqueous 1.5% treatment as a benchmark.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No independent application demonstrates benefit from selecting the concentration established in the target study.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Creams and rabbit gels extend neem formulations generally; successful transfer of this paper’s specific aqueous optimum was not independently established.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The same-team cream study is a plausible related development, but its February 2021 date and the target PDF’s conflicting publication metadata prevent establishing a later result enabled by the target.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "No official clinical, veterinary or manufacturing workflow adopting this paper’s concentration was verified.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No matched independent comparison verifies the stated advantage of 1.5% aqueous extract over the other five aqueous concentrations.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "No substantive use of this particular concentration study from 2024 onward was verified; generic citations or use of other neem preparations do not settle the question.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The 2023 review is under three years later and reviews the cream paper. No qualifying later positive assessment of the assigned contribution was verified.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The read 2021 experiments and 2023 review do not establish independent substantive follow-up of the assigned paper in two separate years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The closest review summarizes the different cream experiment. It does not establish synthesis adoption of the assigned concentration study.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No comparison with later wound-healing treatments explicitly establishes continued usefulness of this paper’s concentration finding.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Publisher abstract and substantial original PDF sections covering rationale, methods, phytochemical results and conclusion were read. Repeated PDF timeouts and publisher 403 prevented reading all remaining results pages; scope is explicitly partial.",
+      "Original PDF publication line and archive metadata are inconsistent within 2021; no causal follow-up credit is inferred from uncertain same-year ordering.",
+      "A 2022 cream report under different authors had closely matching indexed design text, but its full PDF returned 404; independence and provenance could not be verified and it is not counted.",
+      "No verified human trial or independent standardized-dose replication was located; this is an evidence gap, not proof of failure.",
+      "Lifetime observation through 2026-09-16; the assigned pilot sample is not an unbiased estimate of all research outcomes."
+    ],
+    "summary": "Independent validation or adoption of the specific aqueous 1.5% optimum remains unresolved. A closely related cream paper shares the original authors; independent rabbit work uses ethanolic extract and different doses. All 20 outcomes remain unknown."
+  },
+  "research_plan": {
+    "queries": [
+      "Assessment phytoconstituents optimal applicable concentration Azadirachta indica",
+      "Ugoeze Azadirachta wound cream 1.5 2021",
+      "Azadirachta indica wound gel 1.5 optimal reproduction",
+      "review selected herbs wound management Ugoeze",
+      "Analysis Efficacy Topical Aqueous Creams Azadirachta Kesava Rao"
+    ],
+    "search_log": [
+      {
+        "query": "Assessment phytoconstituents optimal applicable concentration Azadirachta indica",
+        "purpose": "Read original and identify dose claim",
+        "urls_read": [
+          "https://digital.car.chula.ac.th/tjps/vol45/iss1/2/",
+          "https://www.thaiscience.info/Journals/Article/TJPS/10996241.pdf"
+        ]
+      },
+      {
+        "query": "Ugoeze Azadirachta wound cream 1.5 2021",
+        "purpose": "Check closest formulation follow-up and team overlap",
+        "urls_read": [
+          "https://www.fortunejournals.com/articles/evaluation-of-the-wound-healing-potentials-of-aqueous-topical-creams-containing-aqueous-extract-of-azadirachta-indica-leaves-as-bi.html"
+        ]
+      },
+      {
+        "query": "Azadirachta indica wound gel 1.5 optimal reproduction",
+        "purpose": "Find independent experimental tests",
+        "urls_read": [
+          "https://vetmed.agriculturejournals.cz/pdfs/vet/2021/03/03.pdf"
+        ]
+      },
+      {
+        "query": "review selected herbs wound management Ugoeze",
+        "purpose": "Check review attribution",
+        "urls_read": [
+          "https://oiccpress.com/tpr/article/download/11852/13410"
+        ]
+      },
+      {
+        "query": "Analysis Efficacy Topical Aqueous Creams Azadirachta Kesava Rao",
+        "purpose": "Investigate apparent independent cream report; full PDF unavailable",
+        "urls_read": [
+          "https://jcsjournal.com/admin/uploads/7.pdf"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "rpcb-10.1016/j.ccr.2010.01.020",
+  "title": "The common feature of leukemia-associated IDH1 and IDH2 mutations is a neomorphic enzyme activity converting alpha-ketoglutarate to 2-hydroxyglutarate",
+  "year": 2010,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "stage": "complete",
+  "updated_at": "2026-09-16T21:16:13.188961+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 13,
+  "score": 1.0
+}

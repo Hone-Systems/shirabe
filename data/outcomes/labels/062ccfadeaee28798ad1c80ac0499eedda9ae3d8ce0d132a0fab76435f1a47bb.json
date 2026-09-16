@@ -1,0 +1,291 @@
+{
+  "id": "challenge-attention",
+  "title": "Attention Is All You Need",
+  "doi": "https://doi.org/10.48550/arXiv.1706.03762",
+  "year": 2017,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "challenge",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2021-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:07:36.124410+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://arxiv.org/pdf/1706.03762",
+    "method": "pdf_all_pages",
+    "http_status": 200,
+    "characters": 44698,
+    "truncated": false,
+    "sha256": "d67378fbf31ff0b91e57129b021e74436b1e1570272575de933cb42d14e1173d",
+    "retrieved_at": "2026-09-16T19:05:23.278344+00:00"
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 36329,
+      "truncated": false,
+      "sha256": "8cafebb7aca44cbf2c7c8a988db3b09a152fab776afb901b1d22a900310ba743",
+      "retrieved_at": "2026-09-16T19:07:14.658517+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://research.google/pubs/attention-is-all-you-need/",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 1558,
+      "truncated": false,
+      "sha256": "d7de2a3c8960ac2ed01cc69987cf74a57f12a709f1c5b61173f2c010314ba1db",
+      "retrieved_at": "2026-09-16T19:07:14.106178+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://shreyansh26.github.io/post/2021-04-18_attention_is_all_you_need/",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 5495,
+      "truncated": false,
+      "sha256": "c95151b46cf6e633fd325b95a7a198701bc8a6ff45236f02163d15cc1613127d",
+      "retrieved_at": "2026-09-16T19:07:14.154057+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://luv-bansal.medium.com/transformer-attention-is-all-you-need-easily-explained-with-illustrations-d38fdb06d7db",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 12335,
+      "truncated": false,
+      "sha256": "929ac75b0a804458d3274070add29a67d418ed8e5b2f77cf7d2241fbf6983dbf",
+      "retrieved_at": "2026-09-16T19:07:14.300872+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/m1ne9w/n_attention_is_not_all_you_need_google_epfl_study/",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:07:14.751648+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://www.youtube.com/watch?v=cbYxHkgkSVs",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 33197,
+      "truncated": false,
+      "sha256": "9f6794d913babfeedb662e22fb13da1eea404bba45770c28dfc8a4dd477baf3f",
+      "retrieved_at": "2026-09-16T19:07:15.300087+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://storrs.io/code-walkthrough-attention-is-all-you-need/",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 4736,
+      "truncated": false,
+      "sha256": "9f01e807eee835882e16f822f6257b22994bf5163018085c02bcf6d31428c684",
+      "retrieved_at": "2026-09-16T19:07:14.664234+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://sh-tsang.medium.com/review-attention-is-all-you-need-transformer-96c787ecdec1",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 9505,
+      "truncated": false,
+      "sha256": "1fabf8f1e2c7ee651e7985594cdba1ab93ff428223fe523ae80df532549954fc",
+      "retrieved_at": "2026-09-16T19:07:14.975481+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2021-04-18"
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No dated independent primary follow-up studies were supplied for replication, stricter testing, comparative advantage, or concrete utility.",
+      "Several later explanatory sources lack an exact publication date, preventing their use for binary follow-up judgments.",
+      "The packet does not provide dated evidence of operational adoption, systematic-synthesis inclusion, or continued relevance relative to newer alternatives."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 1,
+    "coverage": 0.05,
+    "score": null,
+    "lower_bound": 0.05,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "31837a2c986b76e8162f13694a87a201f91fdd4368050a1e3af49dca53c8be7a",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 39582,
+      "input_tokens_details": {
+        "cache_write_tokens": 39579,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1848,
+      "output_tokens_details": {
+        "reasoning_tokens": 879
+      },
+      "total_tokens": 41430
+    },
+    "input_tokens_estimate": 39339,
+    "truncated": false
+  }
+}

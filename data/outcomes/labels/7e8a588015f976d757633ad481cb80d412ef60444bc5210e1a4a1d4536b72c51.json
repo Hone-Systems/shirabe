@@ -1,0 +1,384 @@
+{
+  "id": "https://openalex.org/W2808922852",
+  "title": "Risk of Foot Ulcer and Lower Extremity Amputation among Participants in the Diabetes Control and Complications Trial/Epidemiology of Diabetes Interventions and Complications Study (DCCT/EDIC)",
+  "doi": "https://doi.org/10.2337/db18-113-or",
+  "year": 2018,
+  "field_id": 27,
+  "field": "Medicine",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2022-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:22:08.399535+00:00",
+  "input_scope": "abstract",
+  "original_source": {},
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "DCCT EDIC intensive glycemic control diabetic foot ulcer lower extremity amputation follow-up cohort",
+      "DCCT EDIC recurrent diabetic foot ulcer Cox model neuropathy eGFR albuminuria replication",
+      "systematic review intensive glycemic control diabetic foot ulcer amputation type 1 diabetes DCCT EDIC",
+      "diabetic foot prevention guidelines intensive glycemic control neuropathy albuminuria DCCT EDIC risk factors"
+    ],
+    "selected_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8627701",
+      "https://pure.johnshopkins.edu/en/publications/glycemic-control-and-diabetic-foot-ulcer-outcomes-a-systematic-re",
+      "https://amsad.termedia.pl/Update-on-prevention-of-diabetic-foot-ulcer,139676,0,2.html",
+      "https://iwgdfguidelines.org/wp-content/uploads/2019/05/IWGDF-Guidelines-2019.pdf",
+      "https://jmisr.researchcommons.org/home/vol1/iss3/8",
+      "https://kdigo.org/wp-content/uploads/2022/10/KDIGO-2022-Clinical-Practice-Guideline-for-Diabetes-Management-in-CKD.pdf",
+      "https://www.nice.org.uk/guidance/ng19/chapter/recommendations"
+    ],
+    "plan_usage": {
+      "cache_key": "bf454c287d68389cdfca1de79c4666eb77bf2ccf95b88e0538032c588da8e0c0",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 829,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 612,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 1441
+      },
+      "input_tokens_estimate": 795,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "737a3b10e501c97f9e2a5b3fa395e7a8f632b7054d659dbd8722b74abe9dd89c",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 7182,
+        "input_tokens_details": {
+          "cache_write_tokens": 7179,
+          "cached_tokens": 0
+        },
+        "output_tokens": 705,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 7887
+      },
+      "input_tokens_estimate": 7148,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8627701",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 146645,
+      "truncated": false,
+      "sha256": "165045bfabd511e8b869846325f2735a9b467ff21ad5e7cfab5dfecbee572a49",
+      "retrieved_at": "2026-09-16T19:21:34.047679+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pure.johnshopkins.edu/en/publications/glycemic-control-and-diabetic-foot-ulcer-outcomes-a-systematic-re",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 13717,
+      "truncated": false,
+      "sha256": "c02e351ce034bc9a756ab1582f1a30c347c494afb7abbb8b2188d4206496e7d5",
+      "retrieved_at": "2026-09-16T19:21:34.046910+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://amsad.termedia.pl/Update-on-prevention-of-diabetic-foot-ulcer,139676,0,2.html",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 49613,
+      "truncated": false,
+      "sha256": "912a4c44333a5dd46913a7fbbf7a7cd597a5952b65313797bd94c6da2c8531fc",
+      "retrieved_at": "2026-09-16T19:21:34.650300+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://iwgdfguidelines.org/wp-content/uploads/2019/05/IWGDF-Guidelines-2019.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 602547,
+      "truncated": false,
+      "sha256": "94572151795d3c75b51886e7fa8c517f4f4317afd49034913d06ab9bfb60c5c0",
+      "retrieved_at": "2026-09-16T19:21:39.820327+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://jmisr.researchcommons.org/home/vol1/iss3/8",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 4028,
+      "truncated": false,
+      "sha256": "61fb1b833f84823e6a1f0adb6443ae4dc57d5cd1dea8c7cde4214d07e04b0668",
+      "retrieved_at": "2026-09-16T19:21:34.242339+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://kdigo.org/wp-content/uploads/2022/10/KDIGO-2022-Clinical-Practice-Guideline-for-Diabetes-Management-in-CKD.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 1016111,
+      "truncated": false,
+      "sha256": "b881f7894a2e3c44f1e25995993d2f2d1e0a0e7118bd5b42c4d297c642093390",
+      "retrieved_at": "2026-09-16T19:21:36.810435+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://www.nice.org.uk/guidance/ng19/chapter/recommendations",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 45264,
+      "truncated": false,
+      "sha256": "6b3d6b5754c46ffa0569073236aca3887d0b7a64d37b06565a939e6755879d2a",
+      "retrieved_at": "2026-09-16T19:21:36.171863+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No later independent primary study in the supplied window explicitly confirms this specific DCCT/EDIC central claim.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not document an independent team reproducing the DCCT/EDIC result using an analogous design.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The later meta-analysis is larger but observational and does not constitute a stricter independent test of the original trial claim.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020-10"
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Later authoritative sources retain glycemic control as clinically important but do not explicitly assess and retain this paper's specific DCCT/EDIC claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up explicitly tests whether the reported benefit persists after addressing the paper's limitations, including the nonsignificant LEA result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not identify an independent substantive extension of this specific DCCT/EDIC contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Relevant reviews and guidance come from multiple groups, but the sources do not show at least two independent groups substantively building on this specific paper.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The later meta-analysis studies glycemic control and diabetic-foot outcomes, but does not establish reuse of the DCCT/EDIC method or framework.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020-10"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The later review calls for more evidence but does not explicitly identify this paper as enabling a research direction.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2021-06-30"
+          }
+        ]
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No supplied source explicitly uses this paper's contribution as a baseline, benchmark, or reference construction in independent work.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Clinical guidance supports glycemic control generally, but the supplied sources do not independently demonstrate a concrete benefit attributable to this paper.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The observational meta-analysis covers diabetic-foot-ulcer populations beyond the original DCCT/EDIC setting, but does not explicitly attribute successful use to this paper's contribution.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020-10"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No later source explicitly states that this paper enabled a new measurement, result, theorem, or capability.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Guidelines recommend glycemic control and diabetic-foot services, but do not document operational adoption of this specific paper's contribution.",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2022"
+          }
+        ]
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The later meta-analysis associates higher glycemia with greater LEA likelihood, but it does not fairly compare the original intensive-control advantage or test DFU incidence as in this paper.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020-10"
+          }
+        ]
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Relevant sources exist three or more years after the 2018 metadata year, but substantive use of this specific paper is not explicitly documented.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "Later reviews and guidelines are positive about glycemic control generally, but do not provide a paper-specific positive assessment of the DCCT/EDIC contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive relevant follow-up is documented in at least 2020 and 2021, through an observational meta-analysis and an independent prevention review.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2021-06-30"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "yes",
+        "rationale": "The 2021 review discusses newer glucose-lowering options while continuing to identify tight glycemic control as essential, indicating ongoing relevance alongside alternatives.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2021-06-30"
+          }
+        ]
+      }
+    ],
+    "search_gaps": [
+      "No supplied post-2018 independent primary replication specifically tests the DCCT/EDIC foot-ulcer finding.",
+      "No supplied source explicitly links later clinical guidance or operational practice to the 2018 paper rather than to the broader intensive-glycemic-control literature.",
+      "The supplied later sources generally address glycemic control and diabetic-foot outcomes broadly, so paper-specific uptake and validation remain ambiguous."
+    ]
+  },
+  "validation_rejected": [
+    "synthesis_inclusion"
+  ],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 2,
+    "coverage": 0.1,
+    "score": null,
+    "lower_bound": 0.1,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "12a131ea69f979b02f00e631aabcb095e8f10608853319c122d9101cceafdff3",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 387845,
+      "input_tokens_details": {
+        "cache_write_tokens": 387842,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2627,
+      "output_tokens_details": {
+        "reasoning_tokens": 1059
+      },
+      "total_tokens": 390472
+    },
+    "input_tokens_estimate": 387602,
+    "truncated": false
+  }
+}

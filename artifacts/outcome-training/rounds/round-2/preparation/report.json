@@ -1,0 +1,335 @@
+{
+  "run_id": "agent-rubric-expansion-round-2",
+  "labels_sha256": "f13c7ad7fbf460152aec45db1c3d2375f9af2394ba03d5023cc12098e40118fb",
+  "status": "preparing",
+  "stage": "Preparing wording inputs 86/86",
+  "architecture": {
+    "name": "BERT-Mini",
+    "layers": 4,
+    "heads": 4,
+    "hidden_size": 256,
+    "outputs": 20
+  },
+  "config": {
+    "epochs": 8,
+    "learning_rate": 3e-05,
+    "max_chunk_tokens": 512,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "fractions": [
+      0.3333333333333333,
+      0.6666666666666666,
+      1.0
+    ],
+    "base_model": "google/bert_uncased_L-4_H-256_A-4",
+    "revision": "387825ce42dbb39b87911cdf8e383ee3b25184f8"
+  },
+  "dataset": {
+    "agent_records": 103,
+    "included_papers": 86,
+    "excluded_identity_or_type": 2,
+    "splits": {
+      "train": {
+        "papers": 41,
+        "yes": 171,
+        "no": 8,
+        "unknown": 639,
+        "not_applicable": 2
+      },
+      "validation": {
+        "papers": 14,
+        "yes": 46,
+        "no": 3,
+        "unknown": 231,
+        "not_applicable": 0
+      },
+      "calibration": {
+        "papers": 14,
+        "yes": 35,
+        "no": 5,
+        "unknown": 239,
+        "not_applicable": 1
+      },
+      "test": {
+        "papers": 13,
+        "yes": 37,
+        "no": 5,
+        "unknown": 218,
+        "not_applicable": 0
+      },
+      "challenge": {
+        "papers": 4,
+        "yes": 50,
+        "no": 7,
+        "unknown": 22,
+        "not_applicable": 1
+      }
+    },
+    "questions": [
+      {
+        "id": "claim_supported",
+        "dimension": "validation",
+        "question": "Does a later independent primary study explicitly support the paper's central claim?",
+        "unknown": 20,
+        "yes": 21
+      },
+      {
+        "id": "independent_reproduction",
+        "dimension": "validation",
+        "question": "Has an independent team reproduced the central result, construction or proof?",
+        "unknown": 21,
+        "yes": 20
+      },
+      {
+        "id": "stronger_test",
+        "dimension": "validation",
+        "question": "Did the central claim survive a larger, stricter or independently collected follow-up test?",
+        "unknown": 12,
+        "yes": 21,
+        "no": 8
+      },
+      {
+        "id": "central_claim_retained",
+        "dimension": "validation",
+        "question": "Does a later authoritative assessment explicitly retain the central claim rather than reject it?",
+        "unknown": 36,
+        "yes": 5
+      },
+      {
+        "id": "limitations_survived",
+        "dimension": "validation",
+        "question": "Did later work show the central contribution remains useful after explicitly testing its stated limitations?",
+        "unknown": 41
+      },
+      {
+        "id": "independent_extension",
+        "dimension": "uptake",
+        "question": "Did an independent group publish a substantive extension of this specific contribution?",
+        "unknown": 31,
+        "yes": 10
+      },
+      {
+        "id": "multiple_groups",
+        "dimension": "uptake",
+        "question": "Did at least two independent groups substantively build on this specific contribution?",
+        "unknown": 40,
+        "yes": 1
+      },
+      {
+        "id": "method_reused",
+        "dimension": "uptake",
+        "question": "Did an independent study actually use the proposed method, result or framework rather than merely cite it?",
+        "yes": 9,
+        "unknown": 32
+      },
+      {
+        "id": "new_research_direction",
+        "dimension": "uptake",
+        "question": "Does a later review explicitly identify this contribution as enabling a research direction?",
+        "unknown": 41
+      },
+      {
+        "id": "independent_comparison",
+        "dimension": "uptake",
+        "question": "Was this contribution used as an actual baseline, benchmark or theoretical reference construction in independent work?",
+        "unknown": 39,
+        "yes": 2
+      },
+      {
+        "id": "external_utility",
+        "dimension": "utility",
+        "question": "Was a concrete scientific or practical benefit from applying the contribution demonstrated independently?",
+        "unknown": 38,
+        "yes": 3
+      },
+      {
+        "id": "beyond_original_setting",
+        "dimension": "utility",
+        "question": "Was the contribution successfully used outside the original evaluation setting or problem instance?",
+        "unknown": 38,
+        "yes": 3
+      },
+      {
+        "id": "enabled_new_result",
+        "dimension": "utility",
+        "question": "Did the contribution enable a new result, measurement, theorem or capability in later work?",
+        "unknown": 35,
+        "yes": 6
+      },
+      {
+        "id": "operational_adoption",
+        "dimension": "utility",
+        "question": "Where an operational application is appropriate, was the contribution actually used in a product, workflow, standard or practice?",
+        "unknown": 41
+      },
+      {
+        "id": "advantage_retained",
+        "dimension": "utility",
+        "question": "Did an independent comparison find a claimed advantage holds under fair evaluation?",
+        "not_applicable": 2,
+        "unknown": 38,
+        "yes": 1
+      },
+      {
+        "id": "late_use",
+        "dimension": "durability",
+        "question": "Is there evidence of substantive use at least three years after publication?",
+        "yes": 24,
+        "unknown": 17
+      },
+      {
+        "id": "late_positive_assessment",
+        "dimension": "durability",
+        "question": "Is there a positive independent assessment of the central contribution at least three years after publication?",
+        "unknown": 17,
+        "yes": 24
+      },
+      {
+        "id": "multiple_followup_years",
+        "dimension": "durability",
+        "question": "Is substantive independent follow-up documented in at least two distinct later calendar years?",
+        "unknown": 28,
+        "yes": 13
+      },
+      {
+        "id": "synthesis_inclusion",
+        "dimension": "durability",
+        "question": "Does an independent systematic review, textbook, standard or research synthesis adopt the contribution as valid or useful?",
+        "yes": 8,
+        "unknown": 33
+      },
+      {
+        "id": "continued_relevance",
+        "dimension": "durability",
+        "question": "Does later evidence explicitly show continued usefulness despite newer alternatives?",
+        "unknown": 41
+      }
+    ],
+    "supported_heads": [
+      "claim_supported",
+      "independent_reproduction",
+      "stronger_test",
+      "central_claim_retained",
+      "independent_extension",
+      "multiple_groups",
+      "method_reused",
+      "independent_comparison",
+      "external_utility",
+      "beyond_original_setting",
+      "enabled_new_result",
+      "advantage_retained",
+      "late_use",
+      "late_positive_assessment",
+      "multiple_followup_years",
+      "synthesis_inclusion"
+    ]
+  },
+  "expansion": {
+    "planned": 65,
+    "reviewed": 65,
+    "missing": [],
+    "aliases": [],
+    "fresh_ids": [
+      "econ-10.1093/qje/qjr034",
+      "econ-10.1093/qje/qjt035",
+      "econ-10.1257/aer.101.2.470",
+      "econ-10.1257/aer.101.2.526",
+      "econ-10.1257/aer.101.2.819",
+      "econ-10.1257/aer.101.2.927",
+      "econ-10.1257/aer.101.4.1211",
+      "econ-10.1257/aer.101.6.2562",
+      "econ-10.1257/aer.101.7.3109",
+      "econ-10.1257/aer.102.1.337",
+      "econ-10.1257/aer.102.2.720",
+      "econ-10.1257/aer.102.2.834",
+      "econ-10.1257/aer.102.2.865",
+      "econ-10.1257/aer.102.5.2018",
+      "econ-10.1257/aer.102.7.3317",
+      "econ-10.1257/aer.103.4.1325",
+      "econ-10.1257/aer.104.11.3434",
+      "econ-10.1257/aer.104.6.1735",
+      "ml2-10.1002/(sici)1099-0771(199806)11:2<107::aid-bdm292>3.0.co;2-y",
+      "ml2-10.1002/bdm.586",
+      "ml2-10.1002/ejsp.2013",
+      "ml2-10.1016/0022-1031(77)90049-x",
+      "ml2-10.1016/j.obhdp.2006.10.001",
+      "ml2-10.1037/0022-3514.73.4.733",
+      "ml2-10.1037/0022-3514.83.5.1239",
+      "ml2-10.1037/0022-3514.95.2.293",
+      "ml2-10.1037/0096-3445.136.4.569",
+      "ml2-10.1037/a0013748",
+      "ml2-10.1037/a0015141",
+      "ml2-10.1037/a0015960",
+      "ml2-10.1037/a0034462",
+      "ml2-10.1038/nclimate2093",
+      "ml2-10.1086/269239",
+      "ml2-10.1111/1467-8284.00419",
+      "ml2-10.1111/1467-9280.00334",
+      "ml2-10.1111/j.1468-0017.2006.00297.x",
+      "ml2-10.1126/science.1130726",
+      "ml2-10.1126/science.7455683",
+      "ml2-10.1177/0956797609359908",
+      "ml2-10.1177/0956797611429579",
+      "ml2-10.1177/0956797611434537",
+      "ml2-10.1207/s15516709cog2605_4",
+      "ml2-10.3758/bf03197186",
+      "ml2-studies-of-similarity-1978",
+      "ssrp-10.1038/nature11467",
+      "ssrp-10.1038/nature12774",
+      "ssrp-10.1038/nature13530",
+      "ssrp-10.1038/nature15392",
+      "ssrp-10.1126/science.1183532",
+      "ssrp-10.1126/science.1186799",
+      "ssrp-10.1126/science.1189993",
+      "ssrp-10.1126/science.1190792",
+      "ssrp-10.1126/science.1191465",
+      "ssrp-10.1126/science.1195701",
+      "ssrp-10.1126/science.1199327",
+      "ssrp-10.1126/science.1199427",
+      "ssrp-10.1126/science.1207745",
+      "ssrp-10.1126/science.1211180",
+      "ssrp-10.1126/science.1215647",
+      "ssrp-10.1126/science.1221936",
+      "ssrp-10.1126/science.1222426",
+      "ssrp-10.1126/science.1224313",
+      "ssrp-10.1126/science.1239918",
+      "ssrp-10.1126/science.1250830",
+      "ssrp-10.1126/science.1253932"
+    ]
+  },
+  "runs": [],
+  "experiments": [],
+  "controls": {},
+  "promotion": {
+    "eligible": false,
+    "reason": "Expansion experiment is not yet evaluated; Analyze serves the citation baseline."
+  },
+  "rl_readiness": {
+    "status": "not_run",
+    "eligible": false,
+    "training_papers": 41,
+    "positive_targets": 171,
+    "negative_targets": 8,
+    "reason": "Both outcomes are present, but paper-level reward coverage and held-out improvement must be assessed before an RL experiment.",
+    "requirements": [
+      "Independent training papers with source-backed positive and negative outcomes; unknown remains masked.",
+      "A fixed reward definition and evaluation split isolated from reward fitting; challenge papers stay held out.",
+      "A learning-curve study across paper counts and seeds that establishes useful generalization over supervised and constant baselines."
+    ],
+    "note": "Rubric answers from one paper are correlated, not independent training examples. RL adds no new outcome evidence to these labels. No universal sample-count cutoff is assumed."
+  },
+  "limitations": [
+    "Selected social-science replication cohorts are not representative of all science.",
+    "A failed replication concerns a specified result, not every claim or all scientific utility.",
+    "All available original text is chunked; full text and abstract input scopes remain visible.",
+    "Unknown and N/A targets are masked. Answers within a paper are correlated.",
+    "Outcome labels are agent judgments; independent checks do not establish ground truth.",
+    "Metric averages give each scorable paper equal weight. AUC averages only heads with both classes.",
+    "Legacy test papers were evaluated previously; fresh expansion performance is reported separately.",
+    "No calibrated overall success percentage is established."
+  ],
+  "prepared_inputs": 86
+}

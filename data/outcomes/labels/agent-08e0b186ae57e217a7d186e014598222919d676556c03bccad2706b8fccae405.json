@@ -1,0 +1,367 @@
+{
+  "id": "https://openalex.org/W4247974275",
+  "title": "Belgium",
+  "doi": "https://doi.org/10.5089/9781513547695.002",
+  "year": 2016,
+  "field_id": 33,
+  "field": "Social Sciences",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:04:41.567779+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 10,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://www.imf.org/external/pubs/ft/scr/2016/cr1678.pdf",
+    "title": "Belgium: Selected Issues, IMF Country Report 16/78",
+    "scope": "full_text",
+    "read": true,
+    "pages": 48
+  },
+  "central_claims": [
+    "Cross-country spending and outcome comparisons identify substantial scope to improve Belgian public-spending efficiency, with category-specific reforms preferable to across-the-board cuts.",
+    "Belgian labor-market fragmentation across regions and vulnerable groups requires coordinated reforms addressing mobility, skills, incentives and wage/contract rigidities."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.nbb.be/doc/ts/publications/economicreview/2017/ecorevi2017_h2.pdf",
+      "title": "Public sector efficiency in Belgium",
+      "date": "2017",
+      "date_basis": "publication",
+      "kind": "primary_policy_study",
+      "read": true,
+      "independent": true,
+      "finding": "Cornille, Stinglhamber and Van Meensel independently analyze sectoral expenditure and outcomes, retain substantial efficiency scope, and cite IMF 16/78. Their DEA method and caveats do not reproduce every original estimate.",
+      "scope": "full_text",
+      "characters": null,
+      "method": "primary_policy_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.imf.org/-/media/Files/Publications/CR/2018/cr1872.ashx",
+      "title": "Belgium: Selected Issues — Simulating an Increase in Public Investment in Belgium",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_modeling_study",
+      "read": true,
+      "independent": true,
+      "finding": "Simon Voigts cites the 2016 report in a footnote contrasting broad efficiency potential with an extreme assumed halving of goods-and-services purchases. This contextual citation does not clearly demonstrate application of the original report in the model.",
+      "scope": "full_text_sections_16_to_18_20_25_26",
+      "characters": null,
+      "method": "primary_modeling_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.imf.org/-/media/files/publications/selected-issues-papers/2025/english/sipea2025021.pdf",
+      "title": "Public Education in Belgium: Improving Outcome While Reducing Cost",
+      "date": "2025-03-26",
+      "date_basis": "publication",
+      "kind": "same_author_followup",
+      "read": true,
+      "independent": false,
+      "finding": "Hallaert revisits spending efficiency and explicitly uses his 2016 analysis in the introduction and updated education discussion. This establishes later use, not independent validation.",
+      "scope": "full_text_introduction_and_spending_sections",
+      "characters": null,
+      "method": "same_author_followup",
+      "truncated": false
+    },
+    {
+      "source_id": "S4",
+      "url": "https://reforms-investments.ec.europa.eu/technical-support-instrument-0/revenue-administration-and-public-financial-management/making-public-spending-more-efficient-belgium_en",
+      "title": "Making Public Spending More Efficient in Belgium",
+      "date": "2025-06-27",
+      "date_basis": "publication",
+      "kind": "official_project_report",
+      "read": true,
+      "independent": true,
+      "finding": "Commission describes spending-review and investment-management implementation; no attribution to the specific 2016 report is established.",
+      "scope": "official_web_page",
+      "characters": null,
+      "method": "official_project_report",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The NBB analysis supports the fiscal efficiency diagnosis, but not the fixed two-chapter claim set, including labor-market reforms. Partial support is retained as evidence without marking the entire report validated.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No exact independent reproduction of the report’s spending estimates and labor-market analysis was located.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "NBB provides a different sectoral analysis; it does not establish a stricter test of the report’s complete policy claims.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The NBB assessment retains the fiscal diagnosis, but does not assess the complete two-chapter central claims or establish the full category-specific reform prescription.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The 2018 model flags an extreme financing assumption; no direct test establishes survival of the original policy limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The 2018 investment model is related and cites the report, but a substantive extension attributable specifically to its contribution is not sufficiently established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Separate NBB and IMF authors address related policy questions; bibliographic acknowledgment alone does not establish two groups substantively building on this exact contribution.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The 2018 model cites IMF 2016 only as contextual justification and a caveat about an extreme spending cut. It does not clearly apply this report’s method, estimates or framework in the model.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No review credits this report with enabling a research direction; spending-efficiency analysis predates it.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No retrieved work treats its numerical estimates or framework as a tested baseline against alternatives.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Later spending-review reforms are documented, but their benefit cannot be attributed to applying this report.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Retrieved later analysis still concerns Belgium; independent successful transfer of this specific report elsewhere was not established.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "Later model projections use broader prior literature; dependence on this report as an enabling input is not established.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Commission implementation evidence does not identify adoption of this particular report or its method.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No fair causal comparison of the proposed efficiency reforms against alternatives was found.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2025 education paper revisits the 2016 analysis nine years later. This item does not require an independent author; other independence-dependent items remain unresolved.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2025-03-26",
+            "explanation": "The 2025 education paper revisits the 2016 analysis nine years later. This item does not require an independent author; other independence-dependent items remain unresolved."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The clear 2025 positive follow-up is by the original fiscal chapter’s author; it cannot supply independent late assessment.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "2017 contains substantive independent fiscal follow-up. The 2018 citation is contextual rather than clear substantive reuse; the later 2025 paper shares an original author.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The NBB article is primary sectoral analysis; no independent systematic synthesis adopting the full report was established.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later reuse is evident, but no explicit comparison establishes continued usefulness despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No exact replication, report-attributed policy impact, or complete labor-market follow-up was established. Contemporary fiscal/labor debates are broader than this report.",
+      "Original 48-page text read; follow-up sources were read in the indicated sections. Numeric chart ticks were suppressed only in the reading view; the complete original extraction is privately retained.",
+      "Source S2 shares the IMF institution but has a different author; S3 shares the original fiscal author and is not independent.",
+      "A second agent performed a targeted source-to-claim audit. Four provisional yes answers were revised to unknown for incomplete central-claim coverage or merely contextual citation. This is an audit, not blind inter-rater agreement."
+    ],
+    "summary": "Independent analysis supports the fiscal diagnosis in this two-chapter IMF report, but does not validate the complete fixed central claims. A 2018 model supplies only contextual citation; same-author 2025 reuse establishes late use. Report-attributed policy benefits and the labor-market thesis remain unverified."
+  },
+  "research_plan": {
+    "queries": [
+      "\"10.5089/9781513547695.002\"",
+      "\"Belgium\" \"2016\" \"Hallaert\" \"expenditure efficiency\" 2018 2019 2020",
+      "\"Belgium Selected Issues\" \"2016\" \"labour\" OECD efficiency",
+      "\"Hallaert\" \"2016\" \"Belgium\" \"efficiency\" -site:imf.org -site:scribd.com -site:researchgate.net -site:ssrn.com",
+      "\"Eugster\" \"2016\" \"Belgium\" \"labor\" -site:imf.org",
+      "\"Belgium\" \"2016\" \"double benchmarking\" expenditure",
+      "\"Making Public Expenditure More Efficient\" Belgium assessment criticism",
+      "Belgium public spending efficiency Hallaert 2016 National Bank 2017",
+      "\"Hallaert\" \"Belgium\" \"efficiency\" site:nbb.be",
+      "\"Public Education in Belgium: Improving\" \"Hallaert\" 2025 pdf"
+    ],
+    "search_log": [
+      {
+        "query": "\"10.5089/9781513547695.002\"",
+        "purpose": "Resolve abbreviated title and original report",
+        "urls_read": [
+          "https://www.imf.org/external/pubs/ft/scr/2016/cr1678.pdf"
+        ]
+      },
+      {
+        "query": "\"Belgium\" \"2016\" \"Hallaert\" \"expenditure efficiency\" 2018 2019 2020",
+        "purpose": "Find later fiscal analysis",
+        "urls_read": [
+          "https://www.imf.org/-/media/Files/Publications/CR/2018/cr1872.ashx"
+        ]
+      },
+      {
+        "query": "\"Belgium Selected Issues\" \"2016\" \"labour\" OECD efficiency",
+        "purpose": "Trace labor-market claims",
+        "urls_read": []
+      },
+      {
+        "query": "\"Hallaert\" \"2016\" \"Belgium\" \"efficiency\" -site:imf.org -site:scribd.com -site:researchgate.net -site:ssrn.com",
+        "purpose": "Seek external teams",
+        "urls_read": []
+      },
+      {
+        "query": "\"Eugster\" \"2016\" \"Belgium\" \"labor\" -site:imf.org",
+        "purpose": "Trace labor chapter by author",
+        "urls_read": []
+      },
+      {
+        "query": "\"Belgium\" \"2016\" \"double benchmarking\" expenditure",
+        "purpose": "Trace exact method",
+        "urls_read": []
+      },
+      {
+        "query": "\"Making Public Expenditure More Efficient\" Belgium assessment criticism",
+        "purpose": "Seek criticism and reassessment",
+        "urls_read": []
+      },
+      {
+        "query": "Belgium public spending efficiency Hallaert 2016 National Bank 2017",
+        "purpose": "Follow national-bank assessment lead",
+        "urls_read": [
+          "https://www.nbb.be/doc/ts/publications/economicreview/2017/ecorevi2017_h2.pdf",
+          "https://reforms-investments.ec.europa.eu/technical-support-instrument-0/revenue-administration-and-public-financial-management/making-public-spending-more-efficient-belgium_en"
+        ]
+      },
+      {
+        "query": "\"Hallaert\" \"Belgium\" \"efficiency\" site:nbb.be",
+        "purpose": "Verify independent NBB link",
+        "urls_read": []
+      },
+      {
+        "query": "\"Public Education in Belgium: Improving\" \"Hallaert\" 2025 pdf",
+        "purpose": "Read late follow-up and check author overlap",
+        "urls_read": [
+          "https://www.imf.org/-/media/files/publications/selected-issues-papers/2025/english/sipea2025021.pdf"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 1,
+    "coverage": 0.05,
+    "score": null,
+    "lower_bound": 0.05,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent /root",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

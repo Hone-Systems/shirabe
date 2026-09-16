@@ -1,0 +1,44 @@
+{
+  "run_id": "agent-reassessment-2026-09-16",
+  "expected": 38,
+  "reviewed": 38,
+  "missing_ids": [],
+  "complete": true,
+  "answers": {
+    "unknown": 607,
+    "yes": 117,
+    "not_applicable": 29,
+    "no": 7
+  },
+  "aggregate_eligible": 2,
+  "no_known_answers": 14,
+  "training_exclusions": [
+    {
+      "id": "https://openalex.org/W3126891297",
+      "title": "First Mo\u2013Bi intermetallic material",
+      "reason": "The assigned Science item is a research highlight by Yury Suleymanov, summarizing Altman et al.\u2019s JACS discovery. Its wording is not the researchers\u2019 thesis wording. Preserve the ID for audit, but exclude this item from the wording/outcome training cohort; do not silently substitute the JACS paper."
+    },
+    {
+      "id": "https://openalex.org/W3164091591",
+      "title": "A View of Healthcare Services in Erode District of Tamil Nadu",
+      "reason": "Assigned RePEc p98\u2013104 points to publisher555624, actually Nurses\u2019 Attitudes towards Research and Evidence-Based Practice by Xie et al. Matching title/year is Ramachandran and Rajendran, p89\u201393, publisher555622; original PDF and HTML return404. A 2025 same-title paper cannot substitute for 2017 original."
+    }
+  ],
+  "non_challenge": {
+    "papers": 34,
+    "answers": {
+      "unknown": 585,
+      "yes": 67,
+      "not_applicable": 28
+    },
+    "aggregate_eligible": 0
+  },
+  "source_entries": 152,
+  "logged_searches": 231,
+  "limitations": [
+    "Single-agent judgments; independent repeat agreement is not measured.",
+    "Age and field opportunities differ. Agent lifetime outcomes and earlier four-year grades are not directly comparable experiments.",
+    "Known question answers from the same source can be correlated.",
+    "Challenge papers are excluded from fitting; see artifacts/outcome-training/report.json for diagnostic fit status."
+  ]
+}

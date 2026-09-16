@@ -1,0 +1,357 @@
+{
+  "id": "rpcb-10.1038/nature09208",
+  "title": "Diverse somatic mutation patterns and pathway alterations in human cancers",
+  "doi": "https://doi.org/10.1038/nature09208",
+  "year": 2010,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:14:02.541944+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 16,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://doi.org/10.1038/nature09208",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "Mutation patterns differ across cancer types; integrated mutation/copy-number profiling identifies candidate targets.",
+    "Mutant GNAO1 and MAP2K4 have functional oncogenic effects."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "R",
+      "url": "https://doi.org/10.7554/eLife.73430",
+      "title": "Experiments from unfinished Registered Reports in the Reproducibility Project: Cancer Biology",
+      "date": "2021",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "GNAO1 R243H anchorage-independent growth replicated; random-effects meta-analysis significant. MAP2K4 experiment was uninterpretable and not completed.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "M",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21317923/",
+      "title": "Molecular basis of a novel oncogenic mutation in GNAO1",
+      "date": "2011",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "R243H accelerates nucleotide exchange and enhances Src-STAT3 signaling; independent mechanistic follow-up to Kan et al.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "The GNAO1 oncogenic-growth claim is supported; this does not validate every gene in the survey.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "The GNAO1 oncogenic-growth claim is supported; this does not validate every gene in the survey."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "Independent HMEC soft-agar tests reproduced the central GNAO1 functional result.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "Independent HMEC soft-agar tests reproduced the central GNAO1 functional result."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "yes",
+        "rationale": "A preregistered independent GNAO1 test and original-plus-replication meta-analysis retained the growth effect.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "A preregistered independent GNAO1 test and original-plus-replication meta-analysis retained the growth effect."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "The later replication assessment retained GNAO1 growth promotion, while leaving MAP2K4 unresolved.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "The later replication assessment retained GNAO1 growth promotion, while leaving MAP2K4 unresolved."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Garcia-Marcos and colleagues explained the biochemistry of the specific R243H discovery.",
+        "evidence": [
+          {
+            "source_id": "M",
+            "date": "2011",
+            "explanation": "Garcia-Marcos and colleagues explained the biochemistry of the specific R243H discovery."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Independent researchers reconstructed and tested the specific R243H mutant, rather than only citing it.",
+        "evidence": [
+          {
+            "source_id": "M",
+            "date": "2011",
+            "explanation": "Independent researchers reconstructed and tested the specific R243H mutant, rather than only citing it."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Applying the mutant discovery enabled independent biochemical characterization of oncogenic G-protein activation.",
+        "evidence": [
+          {
+            "source_id": "M",
+            "date": "2011",
+            "explanation": "Applying the mutant discovery enabled independent biochemical characterization of oncogenic G-protein activation."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "The R243H finding was productively tested in biochemical assays and NIH3T3 signaling beyond the original HMEC growth assay.",
+        "evidence": [
+          {
+            "source_id": "M",
+            "date": "2011",
+            "explanation": "The R243H finding was productively tested in biochemical assays and NIH3T3 signaling beyond the original HMEC growth assay."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "Follow-up established accelerated nucleotide exchange, distinct from GTPase-deficient oncogenic mutants.",
+        "evidence": [
+          {
+            "source_id": "M",
+            "date": "2011",
+            "explanation": "Follow-up established accelerated nucleotide exchange, distinct from GTPase-deficient oncogenic mutants."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2021 independent replication used the original GNAO1 functional construct and assay.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "The 2021 independent replication used the original GNAO1 functional construct and assay."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The 2021 assessment explicitly found the GNAO1 result consistent and significant.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "The 2021 assessment explicitly found the GNAO1 result consistent and significant."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive independent follow-up was published in 2011 and 2021.",
+        "evidence": [
+          {
+            "source_id": "M",
+            "date": "2011",
+            "explanation": "Substantive independent follow-up was published in 2011 and 2021."
+          },
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "Substantive independent follow-up was published in 2011 and 2021."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "A 2021 random-effects synthesis supported the original GNAO1 growth effect.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "A 2021 random-effects synthesis supported the original GNAO1 growth effect."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Original available as abstract only; public full-text access attempts unsuccessful.",
+      "No complete independent reassessment of every surveyed gene was read.",
+      "External frozen cohort only; never training, selection, calibration or tuning. Absence of adoption evidence remains unknown."
+    ],
+    "summary": "GNAO1 functional discovery survived an independent replication and enabled mechanistic work. MAP2K4 and the wider candidate list are not certified by that success."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1038/nature09208",
+      "https://doi.org/10.7554/eLife.73430"
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1038/nature09208",
+        "purpose": "Resolve original identity and author text through Europe PMC, publisher and NCBI BioC",
+        "urls_read": [
+          "https://doi.org/10.1038/nature09208"
+        ]
+      },
+      {
+        "query": "https://doi.org/10.7554/eLife.73430",
+        "purpose": "Read assigned preregistered replication and follow its supporting and contrary references",
+        "urls_read": [
+          "https://doi.org/10.7554/eLife.73430",
+          "https://pubmed.ncbi.nlm.nih.gov/21317923/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 13,
+    "coverage": 0.6500000000000001,
+    "score": null,
+    "lower_bound": 0.6500000000000001,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

@@ -1,0 +1,511 @@
+{
+  "id": "challenge-bert",
+  "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+  "doi": "https://doi.org/10.48550/arXiv.1810.04805",
+  "year": 2018,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "challenge",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:01:09.436027+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 8,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://arxiv.org/pdf/1810.04805v1",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://arxiv.org/pdf/1907.11692",
+      "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+      "date": "2019",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Independent fairseq reimplementation reproduces BERT-level results; controlled training experiments retain effective MLM, but removing next-sentence prediction matches or improves performance.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://arxiv.org/pdf/1901.08746",
+      "title": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+      "date": "2019",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Korea University researchers reuse original BERT initialization and architecture for biomedical corpora; improved biomedical extraction and QA support domain transfer.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://arxiv.org/pdf/1902.01007",
+      "title": "Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference",
+      "date": "2019",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Independent HANS tests show BERT performs poorly on cases invalidating lexical-overlap, subsequence and constituent heuristics.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S4",
+      "url": "https://arxiv.org/pdf/2006.04884",
+      "title": "On the Stability of Fine-tuning BERT: Misconceptions, Explanations, and Strong Baselines",
+      "date": "2021",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Independent experiments reproduce instability on small GLUE datasets and improve performance with a revised optimization schedule; original-recipe results remain variable.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S5",
+      "url": "https://arxiv.org/pdf/2302.09419",
+      "title": "A Comprehensive Survey on Pretrained Foundation Models: A History from BERT to ChatGPT",
+      "date": "2023",
+      "date_basis": "publication",
+      "kind": "research_synthesis",
+      "read": true,
+      "independent": true,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Independent synthesis treats BERT as foundational for contextual pretrained representations and subsequent masking, domain-adaptation and multimodal research, while discussing limitations.",
+      "characters": null,
+      "method": "research_synthesis",
+      "truncated": false
+    },
+    {
+      "source_id": "S6",
+      "url": "https://blog.google/products-and-platforms/products/search/search-language-understanding-bert/",
+      "title": "Understanding searches better than ever before",
+      "date": "2019-10-25",
+      "date_basis": "publication",
+      "kind": "official_adoption",
+      "read": true,
+      "independent": false,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Google documents BERT deployment in search ranking and featured snippets.",
+      "characters": null,
+      "method": "official_adoption",
+      "truncated": false
+    },
+    {
+      "source_id": "S7",
+      "url": "https://arxiv.org/html/2411.05050v1",
+      "title": "Selecting Between BERT and GPT for Text Classification in Political Science Research",
+      "date": "2024-11-07",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Comparisons actually use RoBERTa-large, a BERT descendant, against GPT-4o prompting. Supervised classification remains useful; relative performance varies with labels and task.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "Independent reproduction supports transferable bidirectional representations; the NSP necessity claim is qualified.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2019",
+            "explanation": "Replication and controlled pretraining analysis."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "An independent team reimplements BERT and obtains similar benchmark performance.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2019",
+            "explanation": "Table 1 compares original and independently trained BERT configurations."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "yes",
+        "rationale": "General transfer survives independent biomedical-domain tests; HANS contradicts a stronger interpretation as robust syntactic understanding.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019",
+            "explanation": "The same BERT representation architecture transfers to biomedical tasks."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "Later independent synthesis retains the central contextual-representation contribution.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2023",
+            "explanation": "Language-model taxonomy and BERT discussion retain this result."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The original notes masking mismatch, slower MLM convergence and unstable small-data fine-tuning. Later stability evidence improves the recipe rather than clearly establishing survival of the original procedure; domain transfer alone does not resolve these limitations.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021",
+            "explanation": "Revised optimization mitigates an observed limitation."
+          }
+        ]
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "BioBERT is a specific independent domain extension.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019",
+            "explanation": "Continued pretraining and biomedical task adaptation explicitly build on BERT."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Facebook/UW and Korea University independently develop substantive BERT extensions.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2019",
+            "explanation": "RoBERTa independently optimizes pretraining."
+          },
+          {
+            "source_id": "S2",
+            "date": "2019",
+            "explanation": "BioBERT independently adapts the model to biomedicine."
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Independent biomedical work actually reuses BERT.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019",
+            "explanation": "Original checkpoint initialization and architecture are specified."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "yes",
+        "rationale": "An independent review identifies BERT-based masking and domain-adaptation research directions.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2023",
+            "explanation": "Sections on contextual models, masking and downstream adaptation."
+          }
+        ]
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "rationale": "BERT is actually evaluated in independent controlled NLI tests.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2019",
+            "explanation": "HANS evaluates trained BERT against other NLI models."
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Independent biomedical application demonstrates useful extraction and question-answering results.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019",
+            "explanation": "Biomedical benchmark comparisons show measurable benefit."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "Biomedical language is outside original general-domain benchmarks.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019",
+            "explanation": "Biomedical datasets and adaptation are evaluated."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "BERT initialization enables a biomedical pretrained model with improved task results.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019",
+            "explanation": "BioBERT methods and task results establish the direct contribution."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "yes",
+        "rationale": "Deployment is explicitly documented, although by the originating organization.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2019-10-25",
+            "explanation": "Search ranking and featured snippets use BERT."
+          }
+        ]
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The read replication supports effective MLM, but does not isolate the original bidirectionality advantage over equally trained unidirectional baselines. NSP necessity is challenged; descendant-versus-GPT prompting uses unequal supervision.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2019",
+            "explanation": "NSP removal challenges one claimed component advantage."
+          },
+          {
+            "source_id": "S7",
+            "date": "2024-11-07",
+            "explanation": "RoBERTa fine-tuning versus prompting is not the original matched comparison."
+          }
+        ]
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The contribution is substantively used more than three years later through its direct RoBERTa descendant.",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2024-11-07",
+            "explanation": "2024 classification experiments retain masked bidirectional pretraining and fine-tuning."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "An independent 2023 synthesis positively assesses the central contribution, five years later.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2023",
+            "explanation": "BERT remains a useful contextual language-model foundation."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent follow-up exists in 2019 and 2021.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2021",
+            "explanation": "Fine-tuning stability experiments follow the 2019 replication and biomedical studies."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "Independent research synthesis adopts BERT as valid and useful.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2023",
+            "explanation": "BERT is explained and used to organize subsequent research."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "yes",
+        "rationale": "The core pretrain/fine-tune contribution remains useful against newer prompted generative alternatives through RoBERTa.",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2024-11-07",
+            "explanation": "Results explicitly compare this descendant to GPT-4o; no claim that original BERT universally wins."
+          }
+        ]
+      }
+    ],
+    "search_gaps": [
+      "Original v1 full text read; challenge cohort is not a representative training sample.",
+      "Two unknowns concern literal survival of stated limitations and independent isolation of original comparative advantage.",
+      "2024 comparison uses RoBERTa-large, not the unchanged BERT checkpoint; adoption is documented by Google itself.",
+      "Lifetime evidence searched through 2026-09-16; latest selected primary comparison is 2024, not a census of subsequent uses."
+    ],
+    "summary": "Independent reproduction, biomedical transfer, operational deployment and later synthesis establish durable uptake. HANS exposes syntactic shortcuts, RoBERTa challenges NSP necessity, and instability requires care. Original limitation-survival and isolated advantage questions remain unresolved."
+  },
+  "research_plan": {
+    "queries": [
+      "BERT RoBERTa replication study undertrained Liu 2019",
+      "BERT out of distribution lexical overlap HANS McCoy 2019 right for wrong reasons",
+      "BERT survey pretrained language models 2023 deployment Google search BERT",
+      "BioBERT 2020 domain specific language representation biomedical text mining BERT",
+      "2024 BERT GPT text classification comparison fine tuned BERT",
+      "On the Stability of Fine-tuning BERT: Misconceptions, Explanations, and Strong Baselines"
+    ],
+    "search_log": [
+      {
+        "query": "BERT RoBERTa replication study undertrained Liu 2019",
+        "purpose": "Independent reproduction",
+        "urls_read": [
+          "https://arxiv.org/pdf/1907.11692"
+        ]
+      },
+      {
+        "query": "BERT out of distribution lexical overlap HANS McCoy 2019 right for wrong reasons",
+        "purpose": "Contrary generalization evidence",
+        "urls_read": [
+          "https://arxiv.org/pdf/1902.01007"
+        ]
+      },
+      {
+        "query": "BERT survey pretrained language models 2023 deployment Google search BERT",
+        "purpose": "Synthesis and deployment",
+        "urls_read": [
+          "https://arxiv.org/pdf/2302.09419",
+          "https://blog.google/products-and-platforms/products/search/search-language-understanding-bert/"
+        ]
+      },
+      {
+        "query": "BioBERT 2020 domain specific language representation biomedical text mining BERT",
+        "purpose": "Independent extension",
+        "urls_read": [
+          "https://arxiv.org/pdf/1901.08746"
+        ]
+      },
+      {
+        "query": "2024 BERT GPT text classification comparison fine tuned BERT",
+        "purpose": "Durability and newer alternatives",
+        "urls_read": [
+          "https://arxiv.org/html/2411.05050v1"
+        ]
+      },
+      {
+        "query": "On the Stability of Fine-tuning BERT: Misconceptions, Explanations, and Strong Baselines",
+        "purpose": "Followed original instability limitation",
+        "urls_read": [
+          "https://arxiv.org/pdf/2006.04884"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 5,
+        "no": 0,
+        "unknown": 0,
+        "not_applicable": 0,
+        "coverage": 1.0,
+        "known_index": 1.0,
+        "lower_bound": 1.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 5,
+        "no": 0,
+        "unknown": 0,
+        "not_applicable": 0,
+        "coverage": 1.0,
+        "known_index": 1.0,
+        "lower_bound": 1.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 18,
+    "coverage": 0.9,
+    "score": 1.0,
+    "lower_bound": 0.9,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": true
+  },
+  "llm": {
+    "model": "Codex independent research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

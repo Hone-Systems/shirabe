@@ -1,0 +1,374 @@
+{
+  "id": "historic-10.1038/nature12968",
+  "title": "Stimulus-triggered fate conversion of somatic cells into pluripotency",
+  "doi": "10.1038/nature12968",
+  "year": 2014,
+  "field_id": 5,
+  "field": "Biology",
+  "split": "train",
+  "sampling_cohort": "historical_failure_augmentation",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:59:11.629892+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 12,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://www.nature.com/articles/nature12968",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "Transient low-pH stress reprograms differentiated somatic cells into pluripotent STAP cells without nuclear transfer or transcription factors.",
+    "STAP cells contribute to chimeric embryos and germline, and support expandable pluripotent lines."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "R",
+      "url": "https://www.riken.jp/en/news_pubs/research_news/pr/2014/20140401_2/",
+      "title": "RIKEN Report on STAP Cell Research Paper Investigation",
+      "date": "2014-04-01",
+      "date_basis": "publication",
+      "kind": "institutional_investigation",
+      "independent": true,
+      "read": true,
+      "finding": "Institutional investigation identifies two instances of research misconduct among six investigated items and calls for corrective action. Retraction is related to data reliability, not merely publishing procedure.",
+      "characters": null,
+      "method": "institutional_investigation",
+      "truncated": false
+    },
+    {
+      "source_id": "D",
+      "url": "https://www.nature.com/articles/nature15513?error=cookies_not_supported",
+      "title": "De Los Angeles et al. Failure to replicate the STAP cell phenomenon",
+      "date": "2015-09-24",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "read": true,
+      "finding": "Read publisher substantive summary and extended figure legends. Seven laboratories applied two protocols; cells showed autofluorescence, not pluripotency-marker reactivation, and failed teratoma and chimera tests. Includes independent teams and a test in the originating lab; not all groups share independence.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "K",
+      "url": "https://www.nature.com/articles/nature15366?error=cookies_not_supported",
+      "title": "Konno et al. STAP cells are derived from ES cells",
+      "date": "2015-09-24",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "read": true,
+      "finding": "Read publisher summary and extended data. Whole-genome sequencing identifies ES-cell contamination in purported STAP lines; chimeras and teratomas show ES rather than STAP contribution. Different author team, same institution.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S",
+      "url": "https://www.riken.jp/medialibrary/riken/pr/topics/2014/20140702_1/140702_1_3_en.pdf",
+      "title": "Yoshiki Sasai: Apology regarding the paper retractions",
+      "date": "2014-07-02",
+      "date_basis": "publication",
+      "kind": "author_statement",
+      "independent": false,
+      "read": true,
+      "finding": "Original coauthor says retraction removes the experimental basis and genotype discrepancies undermine even treating STAP as promising. Not independent validation.",
+      "characters": null,
+      "method": "author_statement",
+      "truncated": false
+    },
+    {
+      "source_id": "N",
+      "url": "https://www.nature.com/articles/srep28003",
+      "title": "Niwa: Investigation of the cellular reprogramming phenomenon referred to as STAP",
+      "date": "2016-06-13",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": false,
+      "read": true,
+      "finding": "Original coauthor attempts original methods and concludes described STAP is not reproducible. Not counted as independent team.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "no",
+        "rationale": "The specified acid-stress pluripotency claim failed independent multi-laboratory tests and stricter genetic provenance checks. This is a bounded negative about STAP conversion.",
+        "evidence": [
+          {
+            "source_id": "D",
+            "date": "2015-09-24",
+            "explanation": "The specified acid-stress pluripotency claim failed independent multi-laboratory tests and stricter genetic provenance checks. This is a bounded negative about STAP conversion."
+          },
+          {
+            "source_id": "K",
+            "date": "2015-09-24",
+            "explanation": "The specified acid-stress pluripotency claim failed independent multi-laboratory tests and stricter genetic provenance checks. This is a bounded negative about STAP conversion."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "no",
+        "rationale": "Genomic assessment explicitly rejects the claimed origin: purported STAP lines and derived tissues instead have ES-cell identities. Original-author withdrawal independently corroborates abandonment.",
+        "evidence": [
+          {
+            "source_id": "K",
+            "date": "2015-09-24",
+            "explanation": "Genomic assessment explicitly rejects the claimed origin: purported STAP lines and derived tissues instead have ES-cell identities. Original-author withdrawal independently corroborates abandonment."
+          },
+          {
+            "source_id": "S",
+            "date": "2014-07-02",
+            "explanation": "Genomic assessment explicitly rejects the claimed origin: purported STAP lines and derived tissues instead have ES-cell identities. Original-author withdrawal independently corroborates abandonment."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Independent laboratories actually implemented the reported STAP protocols to test them. Reuse records scientific testing, not successful reprogramming.",
+        "evidence": [
+          {
+            "source_id": "D",
+            "date": "2015-09-24",
+            "explanation": "Independent laboratories actually implemented the reported STAP protocols to test them. Reuse records scientific testing, not successful reprogramming."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Original publisher abstract and figure descriptions read; publisher full text inaccessible without subscription. Model input is the complete original abstract only, excluding later notices.",
+      "Seven-lab failure does not establish universal absence of every later extension or use. Utility and durability are left unknown without specific evidence."
+    ],
+    "summary": "The specific STAP conversion claim failed independent replication and genetic identity checks; retraction followed documented data problems. Attempted reuse does not validate it. Broader reprogramming research is not graded as failed."
+  },
+  "research_plan": {
+    "queries": [
+      "Obokata 2014 nature12968 full text pdf",
+      "\"STAP cells are derived from ES cells\" Nature2015",
+      "site.riken.jp STAP retraction July2014 critical errors data reliability",
+      "STAP cells 2017 2020 independent replication success low pH pluripotent"
+    ],
+    "search_log": [
+      {
+        "query": "Obokata 2014 nature12968 full text pdf",
+        "purpose": "Verify original identity, contrary evidence and later scientific outcomes",
+        "urls_read": [
+          "https://www.riken.jp/en/news_pubs/research_news/pr/2014/20140401_2/",
+          "https://www.nature.com/articles/nature15513?error=cookies_not_supported",
+          "https://www.nature.com/articles/nature15366?error=cookies_not_supported",
+          "https://www.riken.jp/medialibrary/riken/pr/topics/2014/20140702_1/140702_1_3_en.pdf",
+          "https://www.nature.com/articles/srep28003"
+        ]
+      },
+      {
+        "query": "\"STAP cells are derived from ES cells\" Nature2015",
+        "purpose": "Verify original identity, contrary evidence and later scientific outcomes",
+        "urls_read": [
+          "https://www.riken.jp/en/news_pubs/research_news/pr/2014/20140401_2/",
+          "https://www.nature.com/articles/nature15513?error=cookies_not_supported",
+          "https://www.nature.com/articles/nature15366?error=cookies_not_supported",
+          "https://www.riken.jp/medialibrary/riken/pr/topics/2014/20140702_1/140702_1_3_en.pdf",
+          "https://www.nature.com/articles/srep28003"
+        ]
+      },
+      {
+        "query": "site.riken.jp STAP retraction July2014 critical errors data reliability",
+        "purpose": "Verify original identity, contrary evidence and later scientific outcomes",
+        "urls_read": [
+          "https://www.riken.jp/en/news_pubs/research_news/pr/2014/20140401_2/",
+          "https://www.nature.com/articles/nature15513?error=cookies_not_supported",
+          "https://www.nature.com/articles/nature15366?error=cookies_not_supported",
+          "https://www.riken.jp/medialibrary/riken/pr/topics/2014/20140702_1/140702_1_3_en.pdf",
+          "https://www.nature.com/articles/srep28003"
+        ]
+      },
+      {
+        "query": "STAP cells 2017 2020 independent replication success low pH pluripotent",
+        "purpose": "Verify original identity, contrary evidence and later scientific outcomes",
+        "urls_read": [
+          "https://www.riken.jp/en/news_pubs/research_news/pr/2014/20140401_2/",
+          "https://www.nature.com/articles/nature15513?error=cookies_not_supported",
+          "https://www.nature.com/articles/nature15366?error=cookies_not_supported",
+          "https://www.riken.jp/medialibrary/riken/pr/topics/2014/20140702_1/140702_1_3_en.pdf",
+          "https://www.nature.com/articles/srep28003"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 2,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.6
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 3,
+    "coverage": 0.15000000000000002,
+    "score": null,
+    "lower_bound": 0.05,
+    "upper_bound": 0.9,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent expand_manylabs; targeted training augmentation",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

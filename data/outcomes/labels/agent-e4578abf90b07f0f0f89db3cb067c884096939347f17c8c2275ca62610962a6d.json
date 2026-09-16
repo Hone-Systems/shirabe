@@ -1,0 +1,300 @@
+{
+  "id": "https://openalex.org/W2513116288",
+  "title": "A Declarative Optimization Engine for Resource Provisioning of Scientific Workflows in Geo-Distributed Clouds",
+  "doi": "https://doi.org/10.1109/tpds.2016.2599529",
+  "year": 2016,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:44:00.400276+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 10,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract_only",
+  "original_source": {
+    "url": "https://scholars.hkbu.edu.hk/en/publications/a-declarative-optimization-engine-for-resource-provisioning-of-sc-2/",
+    "scope": "abstract_only",
+    "read": true
+  },
+  "central_claims": [
+    "Geco provides declarative specification and probabilistic optimization for geo-distributed workflow provisioning.",
+    "GPU acceleration and runtime optimization improve cost/performance across four provisioning problems."
+  ],
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://scholars.hkbu.edu.hk/en/publications/a-declarative-optimization-engine-for-resource-provisioning-of-sc-2/",
+      "title": "A Declarative Optimization Engine for Resource Provisioning of Scientific Workflows in Geo-Distributed Clouds",
+      "date": "2016-08-11",
+      "date_basis": "publication",
+      "kind": "original_study",
+      "read": true,
+      "independent": false,
+      "finding": "Author institution reproduces original abstract: Geco combines declarative goals, probabilistic evaluation, runtime optimization and GPU acceleration.",
+      "characters": null,
+      "method": "original_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://csse.szu.edu.cn/attachment/cglr/1645116761_PDF%E5%85%A8%E6%96%87.pdf",
+      "title": "Taming System Dynamics on Resource Optimization for Data Processing Workflows: A Probabilistic Approach",
+      "date": "2021-06-22",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": false,
+      "finding": "Overlapping authors develop Prob for workflow variability; original authorship overlap prevents treating its experiments as independent validation of Geco.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No independent primary experiment confirming the Geco cost/performance claims was retrieved.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No independent implementation or reproduction of the journal version was identified; Deco is a distinct earlier contribution.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The accessible later probabilistic study shares original authors and does not supply independent testing of Geco.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "No read authoritative assessment explicitly retaining the journal paper’s central claim was found.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No follow-up testing of Geco’s specific limitations was verified; full original limitations were inaccessible.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Related Prob and privacy-scheduling papers share authors, so they cannot establish independent extension.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Two independent groups substantively building on Geco were not documented.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Search results for independent workflow papers commonly concern the earlier Deco system; actual Geco reuse was not established.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No independent review explicitly attributes a new research direction to the geo-distributed journal contribution.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No independent benchmark using Geco as a tested baseline was verified.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No independent application demonstrates a scientific or practical benefit specifically attributable to Geco.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Success outside the four original provisioning problems was not verified.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The later Prob contribution is related, but its accessible text does not establish that the journal Geco result enabled a new capability.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "No public deployment or operational workflow using Geco was documented.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent comparison establishes retained cost, speed or performance advantages of Geco.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Post-2019 related work exists, but substantive use of this journal contribution was not verified.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No positive independent assessment after August 2019 was found for Geco’s central claims.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Two calendar years of substantive independent Geco follow-up were not documented.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "Retrieved workflow synthesis leads discuss the earlier Deco paper; adoption of the journal contribution by a synthesis remains unverified.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No source demonstrates continued usefulness of Geco relative to newer workflow schedulers.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Original journal full text could not be obtained from DOI, institutional record or author publication pages. The accessible 2015 Deco PDF is not substituted for the 2016 Geco journal paper.",
+      "A later independent container-scheduling PDF citing the original was located but fetching its body failed; a citation alone was not counted as uptake. Named-method searches repeatedly returned unrelated Geco systems."
+    ],
+    "summary": "Geco’s identity and reported claims are established from its abstract. Accessible related follow-up is largely shared-author research or concerns the earlier Deco version; independent outcomes remain unverified."
+  },
+  "research_plan": {
+    "queries": [
+      "\"A Declarative Optimization Engine\" \"Geo\"",
+      "\"2599529\" \"Zhou\"",
+      "\"Geco\" \"geo-distributed\"",
+      "\"A Declarative Optimization Engine\" \"scientific\" survey scheduling -site:researchgate.net -site:eurekamag.com -site:scholars.hkbu.edu.hk",
+      "\"Geo-Distributed Clouds\" \"Zhou\" \"declarative\" -site:researchgate.net -site:scholars.hkbu.edu.hk -site:dblp.org -site:dblp.uni-trier.de -site:eurekamag.com -site:amelieczhou.github.io -site:github.com",
+      "\"Privacy-preserving workflow scheduling\" pdf",
+      "\"10.1109/TPDS.2016.2599529\" correction retraction"
+    ],
+    "search_log": [
+      {
+        "query": "\"A Declarative Optimization Engine\" \"Geo\"",
+        "purpose": "Identity, named-method follow-up, independent comparison and contrary-evidence discovery",
+        "urls_read": [
+          "https://scholars.hkbu.edu.hk/en/publications/a-declarative-optimization-engine-for-resource-provisioning-of-sc-2/"
+        ]
+      },
+      {
+        "query": "\"2599529\" \"Zhou\"",
+        "purpose": "Identity, named-method follow-up, independent comparison and contrary-evidence discovery",
+        "urls_read": []
+      },
+      {
+        "query": "\"Geco\" \"geo-distributed\"",
+        "purpose": "Identity, named-method follow-up, independent comparison and contrary-evidence discovery",
+        "urls_read": []
+      },
+      {
+        "query": "\"A Declarative Optimization Engine\" \"scientific\" survey scheduling -site:researchgate.net -site:eurekamag.com -site:scholars.hkbu.edu.hk",
+        "purpose": "Identity, named-method follow-up, independent comparison and contrary-evidence discovery",
+        "urls_read": []
+      },
+      {
+        "query": "\"Geo-Distributed Clouds\" \"Zhou\" \"declarative\" -site:researchgate.net -site:scholars.hkbu.edu.hk -site:dblp.org -site:dblp.uni-trier.de -site:eurekamag.com -site:amelieczhou.github.io -site:github.com",
+        "purpose": "Identity, named-method follow-up, independent comparison and contrary-evidence discovery",
+        "urls_read": []
+      },
+      {
+        "query": "\"Privacy-preserving workflow scheduling\" pdf",
+        "purpose": "Identity, named-method follow-up, independent comparison and contrary-evidence discovery",
+        "urls_read": [
+          "https://csse.szu.edu.cn/attachment/cglr/1645116761_PDF%E5%85%A8%E6%96%87.pdf"
+        ]
+      },
+      {
+        "query": "\"10.1109/TPDS.2016.2599529\" correction retraction",
+        "purpose": "Identity, named-method follow-up, independent comparison and contrary-evidence discovery",
+        "urls_read": []
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex independent batch-3 research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

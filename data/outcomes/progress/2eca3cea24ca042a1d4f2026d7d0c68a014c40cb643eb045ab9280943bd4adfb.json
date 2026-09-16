@@ -1,0 +1,14 @@
+{
+  "id": "ssrp-10.1038/nature12774",
+  "title": "Experimental evidence for the influence of group size on cultural complexity.",
+  "year": 2013,
+  "field_id": 32,
+  "field": "Psychology / behavioral science",
+  "split": "train",
+  "sampling_cohort": "ssrp_complete_2018",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:45:36.166256+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 5,
+  "score": null
+}

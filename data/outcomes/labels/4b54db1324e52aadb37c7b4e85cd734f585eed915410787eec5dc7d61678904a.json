@@ -1,0 +1,339 @@
+{
+  "id": "https://openalex.org/W2883944593",
+  "title": "Opportunity makes opinion leaders: analyzing the role of first-hand information in opinion leadership in social media networks",
+  "doi": "https://doi.org/10.1080/1369118x.2018.1500622",
+  "year": 2018,
+  "field_id": 33,
+  "field": "Social Sciences",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2022-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:23:52.340635+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://doi.org/10.1080/1369118x.2018.1500622",
+    "method": "tavily_complete_extraction",
+    "http_status": 403,
+    "characters": 21716,
+    "truncated": false,
+    "sha256": "3318bd877966ac0a095d13fa40a9b99618edd511f7bb8df5d716369ba36eb61f",
+    "retrieved_at": "2026-09-16T19:23:07.820756+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "first-hand information opinion leadership geo-located tweets automated content analysis extension",
+      "COP21 attendees opinion leadership Twitter network centrality brokering positions replication critical test",
+      "first-hand information opinion leadership social media network analysis systematic review synthesis",
+      "two-step flow opinion leadership first-hand information brokering positions theoretical adoption"
+    ],
+    "selected_urls": [
+      "https://deniswu.org/wp-content/uploads/2020/08/Guo-Rohde-Wu-2018.pdf",
+      "https://old.sdgresources.relx.com/articles/tweeting-united-nations-climate-change-conference-paris-cop21-analysis-social-network-and",
+      "https://journals.sagepub.com/doi/full/10.1177/2056305118782687",
+      "https://journals.sagepub.com/doi/full/10.1177/2056305118772836",
+      "https://www.researchgate.net/publication/364607526_What_Do_Opinion_Leaders_Share_from_the_New_Normal_on_Twitter_A_Qualitative_Content_Analysis",
+      "https://www.researchgate.net/publication/358121808_Analysis_on_the_Role_of_Opinion_Leaders_Three_Case_Studies_Based_on_Two-step_Flow_Communication_Theory"
+    ],
+    "plan_usage": {
+      "cache_key": "5c26dc8bcd7f6fe8c25cab16247ff3c26153b5fd1409d0ec8c3a89fbf19f3a9d",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 5978,
+        "input_tokens_details": {
+          "cache_write_tokens": 5975,
+          "cached_tokens": 0
+        },
+        "output_tokens": 587,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 6565
+      },
+      "input_tokens_estimate": 5944,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "cb149740f4d9f5126febde212998a5ab41b5d5ccf6d966f0c2472cdf849cdf2d",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 7850,
+        "input_tokens_details": {
+          "cache_write_tokens": 7847,
+          "cached_tokens": 0
+        },
+        "output_tokens": 612,
+        "output_tokens_details": {
+          "reasoning_tokens": 409
+        },
+        "total_tokens": 8462
+      },
+      "input_tokens_estimate": 7816,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://deniswu.org/wp-content/uploads/2020/08/Guo-Rohde-Wu-2018.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 63031,
+      "truncated": false,
+      "sha256": "11b988c42d6f72a977ed4d1dd5c58eb6f1852f63378bdef7230d334e6bcf2331",
+      "retrieved_at": "2026-09-16T19:23:34.080587+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://old.sdgresources.relx.com/articles/tweeting-united-nations-climate-change-conference-paris-cop21-analysis-social-network-and",
+      "method": "",
+      "http_status": null,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:23:34.313114+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://journals.sagepub.com/doi/full/10.1177/2056305118782687",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 171674,
+      "truncated": false,
+      "sha256": "405d874f4e5a75d70bd07e305354d2bb3db2d90bee61497c06d0a0065814b8bf",
+      "retrieved_at": "2026-09-16T19:23:41.759860+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://journals.sagepub.com/doi/full/10.1177/2056305118772836",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:23:33.576739+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.researchgate.net/publication/364607526_What_Do_Opinion_Leaders_Share_from_the_New_Normal_on_Twitter_A_Qualitative_Content_Analysis",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:23:39.152962+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://www.researchgate.net/publication/358121808_Analysis_on_the_Role_of_Opinion_Leaders_Three_Case_Studies_Based_on_Two-step_Flow_Communication_Theory",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:23:38.506589+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No eligible, dated follow-up primary study within 2019–2022 explicitly supports this paper’s central claim.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The supplied eligible sources do not document an independent team reproducing the COP21 first-hand-information result or construction.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No eligible follow-up source reports a larger, stricter, or independently collected test of this specific claim.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "No eligible authoritative assessment within the follow-up window explicitly retains this paper’s central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The supplied eligible sources do not show later work explicitly testing and overcoming the paper’s stated limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "No eligible full source documents a substantive independent extension of this specific first-hand-information/opinion-leadership contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The supplied eligible sources do not establish substantive building by at least two independent groups within the follow-up window.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "No eligible full-text follow-up source demonstrates actual reuse of the proposed method, result, or framework rather than citation alone.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No eligible later review explicitly identifies this specific contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No eligible follow-up source documents use of this contribution as a baseline, benchmark, or theoretical reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The supplied eligible sources do not demonstrate an independent concrete scientific or practical benefit from applying this contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "No eligible source shows successful use beyond the original COP21 Twitter setting or problem instance.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No eligible follow-up source shows that this contribution enabled a new result, measurement, theorem, or capability.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "not_applicable",
+        "rationale": "This contribution is a communication-theory and empirical network-analysis finding; the supplied paper does not propose a product, workflow, standard, or practice requiring operational adoption.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No eligible independent comparison evaluates whether the paper’s claimed first-hand-information advantage holds under a fair evaluation.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Although 2022 would be at least three years after publication, the supplied eligible sources do not document substantive use at that time.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No eligible independent positive assessment at least three years after publication is supplied.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The supplied full sources do not document substantive independent follow-up in at least two distinct calendar years within 2019–2022.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No eligible systematic review, textbook, standard, or research synthesis is supplied that adopts this contribution as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The supplied eligible evidence does not explicitly show continued usefulness despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "The retrieved full-text follow-up evidence does not contain a dated 2019–2022 primary study directly testing or using this paper’s central first-hand-information/opinion-leadership claim.",
+      "Several potentially relevant search results are only snippets or inaccessible records, so they cannot support binary judgments under the evidence rules.",
+      "The supplied full sources S1 and S3 concern related Twitter/COP21 research but are dated 2018, outside the specified follow-up window."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 1,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "6be4ed692f7f44a61af4647338e1523fa6d45d6e91789a8db8f5a5bb02056ba2",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 82182,
+      "input_tokens_details": {
+        "cache_write_tokens": 82179,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1279,
+      "output_tokens_details": {
+        "reasoning_tokens": 346
+      },
+      "total_tokens": 83461
+    },
+    "input_tokens_estimate": 81939,
+    "truncated": false
+  }
+}

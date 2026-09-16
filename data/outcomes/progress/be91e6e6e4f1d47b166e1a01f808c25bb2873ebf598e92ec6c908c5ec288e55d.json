@@ -1,0 +1,14 @@
+{
+  "id": "historic-10.1126/science.1197258",
+  "title": "A Bacterium That Can Grow by Using Arsenic Instead of Phosphorus",
+  "year": 2011,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "train",
+  "sampling_cohort": "historical_failure_augmentation",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:58:14.553850+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 7,
+  "score": null
+}

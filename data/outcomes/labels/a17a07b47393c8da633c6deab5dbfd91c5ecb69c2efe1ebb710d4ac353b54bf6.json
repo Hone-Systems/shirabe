@@ -1,0 +1,376 @@
+{
+  "id": "https://openalex.org/W3158745291",
+  "title": "Automotive Vulnerability Disclosure: Stakeholders, Opportunities, Challenges",
+  "doi": "https://doi.org/10.3390/jcp1020015",
+  "year": 2021,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "test",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2025-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:20:43.192867+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://www.mdpi.com/2624-800X/1/2/15/pdf?version=1620523415",
+    "method": "tavily_complete_extraction",
+    "http_status": 403,
+    "characters": 62791,
+    "truncated": false,
+    "sha256": "77cfd3a605fd6fce48314472e581b6fe6227d43a58ada68370cc07e9030328b6",
+    "retrieved_at": "2026-09-16T19:13:38.788411+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "automotive vulnerability disclosure SecForCARs grace-period metric vulnerability database implementation",
+      "automotive coordinated vulnerability disclosure grace periods CVV CVSS empirical evaluation",
+      "automotive vulnerability disclosure UNECE cybersecurity software updates ISO SAE 21434 systematic review",
+      "automotive vulnerability disclosure bug bounty CSMS OTA updates industry adoption"
+    ],
+    "selected_urls": [
+      "https://www.semanticscholar.org/paper/Automotive-Vulnerability-Grace-Period-Evaluation-Bolz/f3afe5d4f258a0bc5dc4a84fdc23f9e2b6e42399",
+      "https://www.sciencedirect.com/science/article/pii/S2214209622000158",
+      "https://www.volvocars.com/intl/l/legal/vulnerability-reporting",
+      "https://www.kia.com/eu/vulnerability-disclosure",
+      "https://automotiveisac.com/member-vdp-1",
+      "https://smartcar.com/vdp",
+      "https://www.cisa.gov/resources-tools/programs/coordinated-vulnerability-disclosure-program",
+      "https://www.first.org/global/sigs/vulnerability-coordination/multiparty/guidelines-v1.1"
+    ],
+    "plan_usage": {
+      "cache_key": "aec261c7f9749191b7f9f2b0777d8f67465c0ecbe57369320a043969b53318db",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 13173,
+        "input_tokens_details": {
+          "cache_write_tokens": 13170,
+          "cached_tokens": 0
+        },
+        "output_tokens": 589,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 13762
+      },
+      "input_tokens_estimate": 13139,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "c9df7049fa1012cf61457c8a39f3c132ab432a0ef63bcffd0317a2ce869d0840",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 9729,
+        "input_tokens_details": {
+          "cache_write_tokens": 9726,
+          "cached_tokens": 0
+        },
+        "output_tokens": 406,
+        "output_tokens_details": {
+          "reasoning_tokens": 226
+        },
+        "total_tokens": 10135
+      },
+      "input_tokens_estimate": 9695,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.semanticscholar.org/paper/Automotive-Vulnerability-Grace-Period-Evaluation-Bolz/f3afe5d4f258a0bc5dc4a84fdc23f9e2b6e42399",
+      "method": "tavily_complete_extraction",
+      "http_status": 202,
+      "characters": 15187,
+      "truncated": false,
+      "sha256": "d51f7bd726625843c0afc37e21b1a34df3a9245f114686996e43e00135fdb2e0",
+      "retrieved_at": "2026-09-16T19:19:50.144601+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214209622000158",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 9954,
+      "truncated": false,
+      "sha256": "17cb6234596f40ed47652d0c12e394e531bee99d1990316b357974abc9fb82fe",
+      "retrieved_at": "2026-09-16T19:19:49.511651+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.volvocars.com/intl/l/legal/vulnerability-reporting",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 26745,
+      "truncated": false,
+      "sha256": "a97e0f47748e3282b54f68ce6eac9ff9753e00381f666125d9b9767efc868712",
+      "retrieved_at": "2026-09-16T19:19:45.955100+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.kia.com/eu/vulnerability-disclosure",
+      "method": "tavily_complete_extraction",
+      "http_status": null,
+      "characters": 13512,
+      "truncated": false,
+      "sha256": "36ed384cfb1de08bd0ac71a6650f742986c9a29ba7c7758d4b3861283296b6b4",
+      "retrieved_at": "2026-09-16T19:20:26.003899+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://automotiveisac.com/member-vdp-1",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 1039,
+      "truncated": false,
+      "sha256": "06d7071f4845e31fe1016ce12029b483b1d66fcc30326d3c9b26353ef7c4f474",
+      "retrieved_at": "2026-09-16T19:19:46.708420+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://smartcar.com/vdp",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 2267,
+      "truncated": false,
+      "sha256": "7cc718dbef1c29f5e58412ca565f518ffb05463596a45ab8afc5c4fc626ba9c0",
+      "retrieved_at": "2026-09-16T19:19:46.918837+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://www.cisa.gov/resources-tools/programs/coordinated-vulnerability-disclosure-program",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 13162,
+      "truncated": false,
+      "sha256": "f383911c8bc8c9e019b3e7510f5d87fd6d562df01c60e57427c265fe747c0721",
+      "retrieved_at": "2026-09-16T19:19:47.393511+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://www.first.org/global/sigs/vulnerability-coordination/multiparty/guidelines-v1.1",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 49811,
+      "truncated": false,
+      "sha256": "dd90d067a19111169446a9a88fdf4c91fd7b690881fdf886ed7b05ffa655608c",
+      "retrieved_at": "2026-09-16T19:19:48.216981+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No supplied 2022–2025 primary study explicitly supports this paper’s central claim about automotive coordinated vulnerability disclosure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No independent team is shown reproducing the review’s proposed disclosure framework or its central conclusions.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up study tests Uptane OTA security, not the paper’s disclosure claims, and provides no larger or stricter test of them.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "No later authoritative assessment in the permitted window explicitly evaluates and retains the paper’s central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No later work is shown explicitly testing the paper’s stated automotive limitations while demonstrating that its contribution remains useful.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "No independent-group publication in the window is shown substantively extending this specific review contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not document at least two independent groups substantively building on this paper.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Mahmood et al. use structured threat analysis and model-based security testing, but do not identify this paper’s proposed disclosure framework as their method.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review in the permitted window explicitly identifies this paper as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up compares or evaluates Uptane security, but does not use this paper as a baseline or theoretical reference construction.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022"
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No independent source demonstrates a concrete scientific or practical benefit from applying this paper’s specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Although S2 concerns automotive OTA systems, it does not show that this paper’s contribution was successfully applied outside its original setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No supplied later study attributes a new result, measurement, theorem, or capability to this paper’s contribution.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The supplied corporate disclosure policies demonstrate automotive vulnerability-reporting practices, but do not attribute their adoption to this paper and lack usable publication dates within the window.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison in the permitted window evaluates an advantage claimed by this paper.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "No dated 2024–2025 source documents substantive use of this paper’s contribution at least three years after its 2021 publication.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No independent positive assessment dated at least three years after publication is supplied.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Only one clearly dated follow-up source in the permitted window is supplied: the 2022 OTA study; the other relevant pages lack established publication dates.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent systematic review, textbook, standard, or research synthesis dated 2022–2025 is shown adopting this paper’s contribution as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The supplied evidence does not explicitly show continued usefulness of this contribution despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied 2022–2025 source explicitly cites and evaluates the 2021 paper’s central coordinated-disclosure recommendations.",
+      "Several corporate vulnerability-disclosure pages lack established publication dates, so they cannot support binary findings in the specified window.",
+      "The 2022 OTA-security study concerns Uptane threat assessment and testing rather than the paper’s proposed automotive vulnerability-disclosure framework."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "fe28e5cf4a80021af846911afe058ef1914025d78c52e279a11cadad2c2402c5",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 57865,
+      "input_tokens_details": {
+        "cache_write_tokens": 57862,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1598,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 59463
+    },
+    "input_tokens_estimate": 57622,
+    "truncated": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W2808922852",
+  "title": "Risk of Foot Ulcer and Lower Extremity Amputation among Participants in the Diabetes Control and Complications Trial/Epidemiology of Diabetes Interventions and Complications Study (DCCT/EDIC)",
+  "year": 2018,
+  "field_id": 27,
+  "field": "Medicine",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T19:58:13.620218+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 4,
+  "score": null
+}

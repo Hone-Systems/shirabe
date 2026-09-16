@@ -1,0 +1,410 @@
+{
+  "id": "https://openalex.org/W2292065295",
+  "title": "Eccentric-orbit extreme-mass-ratio inspiral gravitational wave energy fluxes to 7PN order",
+  "doi": "https://doi.org/10.1103/physrevd.93.064058",
+  "year": 2016,
+  "field_id": 31,
+  "field": "Physics and Astronomy",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:59:47.491663+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 10,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://arxiv.org/pdf/1512.03051",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "High-precision black-hole perturbation calculations yield new analytic and numerical eccentric-orbit energy-flux terms from 3.5PN through 7PN.",
+    "High-order hereditary expansions and eccentricity singular factors improve flux representation toward large eccentricity."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "O",
+      "url": "https://arxiv.org/pdf/1512.03051",
+      "title": "Eccentric-orbit extreme-mass-ratio inspiral gravitational wave energy fluxes to 7PN order",
+      "date": "2016",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": false,
+      "finding": "New mixed analytic/numerical terms through 7PN and singular-factor treatment of hereditary functions; fitting is limited in PN and eccentricity order.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "L",
+      "url": "https://arxiv.org/pdf/1607.05409",
+      "title": "Hereditary Effects in Eccentric Compact Binary Inspirals to Third Post-Newtonian Order",
+      "date": "2017",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Section 4 follows the original singular-factor procedure, then adds high-order series and Pade approximants for energy and angular-momentum hereditary terms. The introduction cautions that truncated small-eccentricity resummations need enough terms.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "M",
+      "url": "https://arxiv.org/pdf/2005.03044",
+      "title": "Determination of new coefficients in the angular momentum and energy fluxes at infinity to 9PN order for eccentric Schwarzschild extreme-mass-ratio inspirals using mode-by-mode fitting",
+      "date": "2020",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": false,
+      "finding": "The original authors and Munna extend the fitting approach to mode-level calculations, angular momentum and higher PN order. Computational complexity limits further nonlogarithmic terms.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "R",
+      "url": "https://link.springer.com/article/10.1007/s41114-024-00050-z",
+      "title": "Post-Newtonian theory for gravitational waves",
+      "date": "2024",
+      "date_basis": "publication",
+      "kind": "review",
+      "read": true,
+      "independent": true,
+      "finding": "Sections on eccentric fluxes retain the high-PN results and explicitly explain the singular-factor method, its convergence and usefulness near unit eccentricity.",
+      "characters": null,
+      "method": "review",
+      "truncated": false
+    },
+    {
+      "source_id": "E",
+      "url": "https://mdpi-res.com/d_attachment/universe/universe-12-00194/article_deploy/universe-12-00194.pdf",
+      "title": "Second-Post-Newtonian Energy and Angular Momentum Fluxes for Eccentric Inspirals in Effective-One-Body Formalism via Coordinate Transformation",
+      "date": "2026-06-29",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Zhang and Han check their test-particle coordinate conversion against original equations 5.1–5.2. This checks low-order reference relations, not the novel 7PN flux coefficients.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Independent work applies the singular-factor method, but a matched confirmation of the full novel 3.5–7PN coefficient set was not verified.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "Neither the hereditary extension nor the low-order coordinate check reproduces the complete 7PN construction.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The 9PN extension shares the original team and changes the fitting procedure; no independent stricter test of the whole result was located.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "Blanchet retains both the high-PN contribution and the singular-factor improvement in an authoritative review.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2024",
+            "explanation": "Substantive follow-up assessment."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Later work discusses truncation and computation costs, but does not explicitly test and resolve all original applicability limits.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Loutrel and Yunes extend the singular-factor procedure to their hereditary-flux approximants.",
+        "evidence": [
+          {
+            "source_id": "L",
+            "date": "2017",
+            "explanation": "Explicit method use."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "One clear independent extension was established; the 2026 low-order reference check is not a second extension of the novel contribution.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "The independent hereditary calculation explicitly follows the original factoring procedure.",
+        "evidence": [
+          {
+            "source_id": "L",
+            "date": "2017",
+            "explanation": "Explicit method use."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The review identifies a methodological advance and applications, but not a distinct research direction enabled by this paper.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The 2026 check uses low-order relations reproduced in the paper, not a benchmark of its novel 7PN or factoring contribution.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Applying the factoring procedure enables independent analytic approximants for otherwise difficult hereditary terms.",
+        "evidence": [
+          {
+            "source_id": "L",
+            "date": "2017",
+            "explanation": "Explicit method use."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "The procedure is used for angular-momentum as well as energy hereditary terms in the later calculation.",
+        "evidence": [
+          {
+            "source_id": "L",
+            "date": "2017",
+            "explanation": "Explicit method use."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The adopted factoring step contributes directly to new high-order hereditary approximants.",
+        "evidence": [
+          {
+            "source_id": "L",
+            "date": "2017",
+            "explanation": "Explicit method use."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "No verified detector-analysis workflow or production waveform implementation was attributable to this particular result.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "Later approximants combine additional techniques; no isolated fair comparison establishes the original method’s claimed advantage.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2020 extension builds directly on the original fitting program four years after publication.",
+        "evidence": [
+          {
+            "source_id": "M",
+            "date": "2020",
+            "explanation": "Substantive follow-up assessment."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The 2024 review explicitly credits the central singular-factor improvement and retains the high-PN results.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2024",
+            "explanation": "Substantive follow-up assessment."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent methodological use in 2017 and substantive synthesis in 2024 document distinct later years.",
+        "evidence": [
+          {
+            "source_id": "L",
+            "date": "2017",
+            "explanation": "Explicit method use."
+          },
+          {
+            "source_id": "R",
+            "date": "2024",
+            "explanation": "Substantive follow-up assessment."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "The review explains the method and its convergent series as accepted tools for eccentric fluxes.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2024",
+            "explanation": "Substantive follow-up assessment."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Continued review coverage does not itself establish an explicit comparison showing usefulness despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No complete independent reproduction of the novel 7PN coefficient set was verified.",
+      "Low-order coordinate checks and same-author extensions were not counted as independent full-result validation.",
+      "No detector operational adoption attributable specifically to this paper was verified."
+    ],
+    "summary": "The singular-factor method is explicitly reused in independent hereditary calculations and retained in a 2024 review. The original team extends the numerical program to 9PN. Complete independent replication of the novel coefficient set and operational deployment remain unverified."
+  },
+  "research_plan": {
+    "queries": [
+      "\"Eccentric-orbit extreme-mass-ratio inspiral gravitational wave energy fluxes to 7PN order\"",
+      "\"Forseth\" \"flux\" \"Loutrel\" Yunes",
+      "\"Forseth\" \"7PN\" \"independent\"",
+      "\"1512.03051\" correction error",
+      "\"Forseth\" \"Blanchet\" \"2024\" flux review",
+      "\"7PN\" \"eccentric\" \"validated\""
+    ],
+    "search_log": [
+      {
+        "query": "\"Eccentric-orbit extreme-mass-ratio inspiral gravitational wave energy fluxes to 7PN order\"",
+        "purpose": "Read original and define scope",
+        "urls_read": [
+          "https://arxiv.org/pdf/1512.03051"
+        ]
+      },
+      {
+        "query": "\"Forseth\" \"flux\" \"Loutrel\" Yunes",
+        "purpose": "Find independent methodological follow-up",
+        "urls_read": [
+          "https://arxiv.org/pdf/1607.05409"
+        ]
+      },
+      {
+        "query": "\"Forseth\" \"7PN\" \"independent\"",
+        "purpose": "Seek independent reproduction",
+        "urls_read": [
+          "https://arxiv.org/pdf/2005.03044"
+        ]
+      },
+      {
+        "query": "\"1512.03051\" correction error",
+        "purpose": "Check corrective evidence",
+        "urls_read": []
+      },
+      {
+        "query": "\"Forseth\" \"Blanchet\" \"2024\" flux review",
+        "purpose": "Read later authoritative synthesis",
+        "urls_read": [
+          "https://link.springer.com/article/10.1007/s41114-024-00050-z"
+        ]
+      },
+      {
+        "query": "\"7PN\" \"eccentric\" \"validated\"",
+        "purpose": "Check later comparisons",
+        "urls_read": [
+          "https://mdpi-res.com/d_attachment/universe/universe-12-00194/article_deploy/universe-12-00194.pdf"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 10,
+    "coverage": 0.5,
+    "score": null,
+    "lower_bound": 0.5,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

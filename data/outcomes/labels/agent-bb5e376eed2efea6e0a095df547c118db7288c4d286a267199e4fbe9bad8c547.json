@@ -1,0 +1,332 @@
+{
+  "id": "https://openalex.org/W2922482404",
+  "title": "Anonymous Auction Protocol Based on Time-Released Encryption Atop Consortium BlockChain",
+  "doi": "https://doi.org/10.5121/ijait.2019.9101",
+  "year": 2019,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "validation",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:46:20.739004+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 7,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://aircconline.com/ijait/V9N1/9119ijait01.pdf",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Under an honest time server and secure underlying primitives, timed-release encryption prevents early bid disclosure and auctioneer-bidder collusion.",
+    "Blind signatures and one-time addresses provide bidder anonymity, one bid per identity, and public result verification.",
+    "Off-chain cryptographic computation keeps the Ethereum auction protocol efficient and feasible."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://aircconline.com/ijait/V9N1/9119ijait01.pdf",
+      "title": "Anonymous Auction Protocol Based on Time-Released Encryption Atop Consortium BlockChain",
+      "date": "2019",
+      "date_basis": "publication",
+      "kind": "original_study",
+      "read": true,
+      "independent": false,
+      "finding": "Proposes timed-release auction with an honest time server; evaluates off-chain primitives and Ethereum feasibility.",
+      "characters": null,
+      "method": "original_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://eprint.iacr.org/2023/1336.pdf",
+      "title": "Riggs: Decentralized Sealed-Bid Auctions",
+      "date": "2023",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Explicitly contrasts Xiong–Wang’s trusted time-server construction with computational timed commitments; this is a trust-model comparison, not a broken-security result.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://pure.uva.nl/ws/files/134864661/Integration_of_Blockchain_and_Auction_Models.pdf",
+      "title": "Integration of Blockchain and Auction Models: A Survey, Some Applications, and Challenges",
+      "date": "2023",
+      "date_basis": "publication",
+      "kind": "review",
+      "read": true,
+      "independent": true,
+      "finding": "Includes the protocol in its survey bibliography; retrieved text does not establish endorsement or replication.",
+      "characters": null,
+      "method": "review",
+      "truncated": false
+    },
+    {
+      "source_id": "S4",
+      "url": "https://eprint.iacr.org/2024/1410.pdf",
+      "title": "Cryptobazaar: Private Sealed-bid Auctions at Scale",
+      "date": "2024",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Discusses the earlier timed-auction line in related work; its own construction addresses privacy after auctions and does not implement the assigned protocol.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Later primary work describes the trusted-server construction, but does not independently prove all its privacy, anonymity and performance claims.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No independent implementation reproducing its testnet or cryptographic benchmarks was located.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "Riggs changes the timing and trust assumptions rather than testing the original protocol under stricter conditions.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The original explicitly assumes an honest time server; identifying that assumption is not a rejection, but no later authoritative validation of all central claims was found.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "A newer design removes a trust requirement; that does not show the original survived a direct limitation test.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Riggs is a different timed-commitment construction; the retrieved discussion does not establish substantive extension of this exact protocol.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Several teams cite the paper, but two independent groups building directly on its construction were not established.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The later papers do not demonstrate running or instantiating the Xiong–Wang protocol.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The survey bibliography does not explicitly credit this contribution with enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "rationale": "Riggs uses this concrete prior construction to compare the security implications of a trusted time server with computational timing assumptions.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2023",
+            "explanation": "Related-work discussion explicitly analyzes this named construction’s trusted time-server assumption."
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No independent application of the original protocol demonstrates a practical or scientific benefit.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "No successful transfer of this specific consortium-chain construction to another setting was verified.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The later timed-commitment protocol resolves different deployment issues, but the original is not shown to be a necessary enabling result.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Neither a deployed service nor a documented operating workflow using the original protocol was found.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The retrieved sources do not independently measure its claimed low on-chain cost against fair alternatives.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "Riggs substantively examines the original trust model in 2023, more than three years after publication.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2023",
+            "explanation": "Related-work discussion explicitly analyzes this named construction’s trusted time-server assumption."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The 2023 assessment emphasizes trusted-server dependence and does not positively validate the complete central contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "2023 contains a substantive trust-model comparison; the later Cryptobazaar citation alone does not establish a second year of substantive reuse.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The independent survey includes the paper, but inclusion without a verified validity or usefulness judgment does not satisfy this question.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Newer protocols alter the trust and privacy model; no source explicitly demonstrates continued usefulness of the original alongside these alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Full original, Riggs related-work/security-model discussion, survey context and Cryptobazaar related-work discussion were read. No independent experimental reproduction or operational implementation was located.",
+      "No empirical security failure is inferred solely from the trusted time-server limitation, which the original states explicitly."
+    ],
+    "summary": "Independent later work uses the protocol as a concrete trust-model comparator. Its honest time-server requirement remains explicit; replication, deployment, and retention of its claimed efficiency remain unverified."
+  },
+  "research_plan": {
+    "queries": [
+      "\"10.5121/ijait.2019.9101\"",
+      "\"Anonymous Auction Protocol\" \"Time-Released\"",
+      "\"Xiong\" \"Wang\" \"auction\" \"time\" \"attack\" 2019 protocol",
+      "\"Anonymous Auction Protocol\" implementation security flaw",
+      "\"Riggs: Decentralized Sealed-Bid Auctions\" 2023"
+    ],
+    "search_log": [
+      {
+        "query": "\"10.5121/ijait.2019.9101\"",
+        "purpose": "Resolve original, find later independent constructions, and check security critiques",
+        "urls_read": [
+          "https://aircconline.com/ijait/V9N1/9119ijait01.pdf"
+        ]
+      },
+      {
+        "query": "\"Anonymous Auction Protocol\" \"Time-Released\"",
+        "purpose": "Resolve original, find later independent constructions, and check security critiques",
+        "urls_read": [
+          "https://eprint.iacr.org/2023/1336.pdf",
+          "https://pure.uva.nl/ws/files/134864661/Integration_of_Blockchain_and_Auction_Models.pdf",
+          "https://eprint.iacr.org/2024/1410.pdf"
+        ]
+      },
+      {
+        "query": "\"Xiong\" \"Wang\" \"auction\" \"time\" \"attack\" 2019 protocol",
+        "purpose": "Resolve original, find later independent constructions, and check security critiques",
+        "urls_read": []
+      },
+      {
+        "query": "\"Anonymous Auction Protocol\" implementation security flaw",
+        "purpose": "Resolve original, find later independent constructions, and check security critiques",
+        "urls_read": []
+      },
+      {
+        "query": "\"Riggs: Decentralized Sealed-Bid Auctions\" 2023",
+        "purpose": "Resolve original, find later independent constructions, and check security critiques",
+        "urls_read": []
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 2,
+    "coverage": 0.1,
+    "score": null,
+    "lower_bound": 0.1,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex independent batch-3 research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

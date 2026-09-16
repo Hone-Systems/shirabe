@@ -1,0 +1,330 @@
+{
+  "id": "https://openalex.org/W3007451419",
+  "title": "Inference for cumulative intraday return curves",
+  "doi": "https://doi.org/10.25675/3.023663",
+  "year": 2018,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:52:42.399770+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 8,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text_selected_sections; complete_PDF_available",
+  "original_source": {
+    "url": "https://api.mountainscholar.org/server/api/core/bitstreams/359e48dd-32a4-4179-be5a-fb6682376203/content",
+    "scope": "full_text_selected_sections; complete_PDF_available",
+    "read": true,
+    "central_claim": "The functional two-sample beta test has correct asymptotic size and useful power under its dependence assumptions and reveals financial-crisis/oil effects missed by point returns.; FPCA scores combined with peaks-over-threshold analysis quantify extreme CIDR magnitude and shape and reveal sector-specific crisis risk changes.; The mixed-model/bootstrap multiple-testing extension does not control FDR for the motivating very small biological samples."
+  },
+  "central_claims": [
+    "The functional two-sample beta test has correct asymptotic size and useful power under its dependence assumptions and reveals financial-crisis/oil effects missed by point returns.",
+    "FPCA scores combined with peaks-over-threshold analysis quantify extreme CIDR magnitude and shape and reveal sector-specific crisis risk changes.",
+    "The mixed-model/bootstrap multiple-testing extension does not control FDR for the motivating very small biological samples."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://api.mountainscholar.org/server/api/core/bitstreams/359e48dd-32a4-4179-be5a-fb6682376203/content",
+      "title": "Inference for cumulative intraday return curves",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": false,
+      "scope": "full_text_selected_introductions_methods_results_conclusions",
+      "read": true,
+      "finding": "Dissertation chapters 2 and 3 reproduce the author’s 2017 beta-test article and 2018-online extreme-risk article; chapter 4 reports a small-sample FDR limitation.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://uni.uhk.cz/hed/site/assets/files/1077/proceedings_2021_1-1.pdf",
+      "title": "Functional Data Analysis in Econometrics",
+      "date": "2021",
+      "date_basis": "publication",
+      "kind": "research_synthesis",
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "read": true,
+      "finding": "Frončková and Pražák synthesize 55 econometric applications; section 2 includes the exact chapter articles as stock-index and investment-risk applications.",
+      "characters": null,
+      "method": "research_synthesis",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://arxiv.org/pdf/2207.05806",
+      "title": "Functional Spherical Autocorrelation: A Robust Estimate of the Autocorrelation of a Functional Time Series",
+      "date": "2022",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "read": true,
+      "finding": "Yeh, Rice and Dubin cite the extreme-risk chapter article when describing CIDR data; their autocorrelation construction does not reuse its FPCA/EVT risk procedure.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S4",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/for.3000",
+      "title": "Forecasting intraday financial time series with sieve bootstrapping and dynamic updating",
+      "date": "2023-06-14",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "read": true,
+      "finding": "Shang and Ji implement other forecasting and bootstrap methods; their Kokoszka 2017 citation is the separate autocovariance paper, not Zheng’s beta-test chapter.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The synthesis categorizes the financial chapters; the primary follow-ups examine other CIDR methods. None explicitly verifies the beta-test properties, sector-risk conclusions or biological FDR result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No independent rerun of the beta test, extreme-region estimator or biological simulation was located.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "Later financial datasets were analyzed with different methods, leaving stricter tests of the dissertation methods unverified.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The synthesis recognizes applications but does not explicitly assess the three recorded central claims.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No follow-up tested the stationarity/independent-period assumptions, extreme-angle estimation limitations or small-sample FDR failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Spherical autocorrelation and sieve forecasting are different constructions; a substantive extension of the beta test or risk estimator was not established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Independent authors cite relevant chapter publications, but two teams substantively building on those specific constructions were not demonstrated.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The later primary studies use CIDR representations originating before this dissertation, not its particular beta test or extreme-risk procedure.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The review describes existing application areas without crediting these chapters as enabling a new direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No later benchmark directly comparing the dissertation beta test or extreme-risk estimator was read.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Later forecasting benefits concern other methods; no independent practical benefit attributable to these specific constructions was verified.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Applications to other assets do not establish successful transfer of the dissertation methods when only the older CIDR representation is shared.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The later spherical-correlation and sieve-bootstrap results were not shown to require the dissertation’s specific contributions.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "No documented trading or risk-management workflow using the proposed beta test or extreme-region procedure was found.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison tested the claimed additional information relative to point-to-point returns for these methods.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The 2022/2023 papers do not establish substantive reuse of the specific methods; the 2021 review’s exact timing relative to the fall-2018 dissertation is uncertain.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The application synthesis is dated 2021 but a full three-year interval from the dissertation is not established; later background citations are insufficient.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "One independent synthesis was verified; primary citations in other years did not establish substantive follow-up of the specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "An independent literature synthesis includes both published financial chapters as examples of applicable functional econometrics. This supports synthesis uptake only, not replication of the dissertation’s central claims.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2021",
+            "explanation": "Section 2 and its references identify the exact beta-test and extreme-risk chapter publications."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No later comparison explicitly concludes these methods remain useful despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "The complete dissertation was available; selected main-text methods, results and conclusions were read, not every proof or numerical table.",
+      "Two chapters were published separately in 2017 and 2018-online/2019-print; later chapter citations are mapped explicitly rather than treated as new studies.",
+      "Some publisher full-text leads were inaccessible; no follow-up to the biological multiple-testing chapter was verified.",
+      "Lifetime observation through 2026-09-16; the assigned pilot sample is not an unbiased estimate of all research outcomes."
+    ],
+    "summary": "An independent synthesis recognizes the financial chapters as applications. Specific independent validation and operational use remain unresolved; generic CIDR research is not credited to this dissertation."
+  },
+  "research_plan": {
+    "queries": [
+      "\"Inference for cumulative intraday return curves\"",
+      "\"Testing for asymmetry in betas\"; \"Risk analysis of cumulative intraday return curves\"",
+      "\"jtse-2018-0011\"; \"Functional spherical autocorrelation\" arxiv",
+      "\"cumulative intraday return curves\" forecasting; \"Risk Analysis of Cumulative\" criticism"
+    ],
+    "search_log": [
+      {
+        "query": "\"Inference for cumulative intraday return curves\"",
+        "purpose": "Establish identity and dissertation structure",
+        "urls_read": [
+          "https://api.mountainscholar.org/server/api/core/bitstreams/359e48dd-32a4-4179-be5a-fb6682376203/content"
+        ]
+      },
+      {
+        "query": "\"Testing for asymmetry in betas\"; \"Risk analysis of cumulative intraday return curves\"",
+        "purpose": "Trace exact chapter articles and independent synthesis",
+        "urls_read": [
+          "https://uni.uhk.cz/hed/site/assets/files/1077/proceedings_2021_1-1.pdf"
+        ]
+      },
+      {
+        "query": "\"jtse-2018-0011\"; \"Functional spherical autocorrelation\" arxiv",
+        "purpose": "Inspect later primary citation context",
+        "urls_read": [
+          "https://arxiv.org/pdf/2207.05806"
+        ]
+      },
+      {
+        "query": "\"cumulative intraday return curves\" forecasting; \"Risk Analysis of Cumulative\" criticism",
+        "purpose": "Check later methods and contrary evidence",
+        "urls_read": [
+          "https://onlinelibrary.wiley.com/doi/full/10.1002/for.3000"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 1,
+    "coverage": 0.05,
+    "score": null,
+    "lower_bound": 0.05,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

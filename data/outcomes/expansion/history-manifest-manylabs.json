@@ -1,0 +1,31 @@
+{
+  "sampling_cohort": "historical_failure_augmentation",
+  "selection": "User requested targeted historically unsuccessful papers; training augmentation only, not representative evaluation cohort.",
+  "as_of": "2026-09-16",
+  "papers": [
+    {
+      "id": "historic-10.1038/nature12968",
+      "doi": "10.1038/nature12968",
+      "title": "Stimulus-triggered fate conversion of somatic cells into pluripotency",
+      "year": 2014,
+      "split": "train",
+      "sampling_cohort": "historical_failure_augmentation"
+    },
+    {
+      "id": "historic-10.1126/science.1112286",
+      "doi": "10.1126/science.1112286",
+      "title": "Patient-specific embryonic stem cells derived from human SCNT blastocysts",
+      "year": 2005,
+      "split": "train",
+      "sampling_cohort": "historical_failure_augmentation"
+    },
+    {
+      "id": "historic-10.1103/physrevlett.112.241101",
+      "doi": "10.1103/physrevlett.112.241101",
+      "title": "Detection of B-Mode Polarization at Degree Angular Scales by BICEP2",
+      "year": 2014,
+      "split": "train",
+      "sampling_cohort": "historical_failure_augmentation"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W2734792158",
+  "title": "Using magnetic structure of Co40Pd60/Cu for the sensing of hydrogen",
+  "year": 2017,
+  "field_id": 31,
+  "field": "Physics and Astronomy",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:01:09.683302+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 1,
+  "score": null
+}

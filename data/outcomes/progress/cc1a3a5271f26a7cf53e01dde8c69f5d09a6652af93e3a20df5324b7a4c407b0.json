@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W2756378544",
+  "title": "Introducing the Nano Paper Technology (Tiny Nano Paper Art)",
+  "year": 2017,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:01:09.518713+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 0,
+  "score": null
+}

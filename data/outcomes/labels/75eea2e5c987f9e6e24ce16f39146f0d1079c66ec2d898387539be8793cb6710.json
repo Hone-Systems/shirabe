@@ -1,0 +1,346 @@
+{
+  "id": "challenge-bert",
+  "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+  "doi": "https://doi.org/10.48550/arXiv.1810.04805",
+  "year": 2018,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "challenge",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2022-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:08:02.641503+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://arxiv.org/pdf/1810.04805",
+    "method": "pdf_all_pages",
+    "http_status": 200,
+    "characters": 89229,
+    "truncated": false,
+    "sha256": "aed2a21f0429e5526d7636bfe304c790bf0abb8c40977337672d9bd683a2fadc",
+    "retrieved_at": "2026-09-16T19:07:17.691849+00:00"
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://aclanthology.org/N19-1423/",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 12601,
+      "truncated": false,
+      "sha256": "770be3caf5e860779c25a7a573a0fca7c0d4607cb9cafc3e8f3c08e3d378db0b",
+      "retrieved_at": "2026-09-16T19:07:16.518429+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://sh-tsang.medium.com/review-bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding-59b1684882db",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 7494,
+      "truncated": false,
+      "sha256": "e7c3d173eec7c9f8d2a677196888885dfe0c80706d1fd2ed5d10f67aefbc9e5e",
+      "retrieved_at": "2026-09-16T19:07:16.441715+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://dblp.org/rec/conf/naacl/DevlinCLT19",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 12513,
+      "truncated": false,
+      "sha256": "362fbeea53ed3feff8181ac443745ac0813b8685cfb44d6a4ace5d282f5bd86a",
+      "retrieved_at": "2026-09-16T19:07:17.095123+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.weak-learner.com/blog/2019/08/16/bert/",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 2463,
+      "truncated": false,
+      "sha256": "f10eff872444fe8bce0cb20f9e644575c845b4cf50fa28700a2c8e1aa08c2dec",
+      "retrieved_at": "2026-09-16T19:07:16.316054+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://arxiv.org/html/1810.04805v2",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 65447,
+      "truncated": false,
+      "sha256": "469fbd0e7535d9b773ba81ba2783fc664024b2d1acfd07513775c128c12380a0",
+      "retrieved_at": "2026-09-16T19:07:16.440963+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://cameronrwolfe.substack.com/p/language-understanding-with-bert",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 23878,
+      "truncated": false,
+      "sha256": "3f520a1ba4d763eb0ed6524b7d62739a4f2ab45d935e3b0f3de269c52a6b0622",
+      "retrieved_at": "2026-09-16T19:07:16.618993+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://etc.cuit.columbia.edu/news/basics-language-modeling-transformers-bert",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:07:17.380704+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://blog.paperspace.com/bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding/",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 40741,
+      "truncated": false,
+      "sha256": "2cdda59ca7d6bed6e9bbfa239a7730c17dd33c66dc3396c429f1f80de816bc22",
+      "retrieved_at": "2026-09-16T19:07:16.640372+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2022-10-10"
+          },
+          {
+            "source_id": "S6",
+            "date": "2022-10-10"
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2022-10-10"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2022-10-10"
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2022-10-10"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2022-10-10"
+          }
+        ]
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2022-10-10"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2022-10-10"
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2022-10-10"
+          }
+        ]
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2022-10-10"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2022-10-10"
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2022-10-10"
+          }
+        ]
+      }
+    ],
+    "search_gaps": [
+      "The packet lacks full texts of later independent primary studies such as replication, RoBERTa, DistilBERT, ALBERT, or domain-application papers.",
+      "The packet does not provide dated primary evidence for fair post-publication comparisons or advantage retention.",
+      "The supplied 2019 and 2022 secondary summaries do not establish substantive independent follow-up in multiple distinct calendar years.",
+      "No systematic review, textbook, standard, or documented product/workflow adoption source is included."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 10,
+    "coverage": 0.5,
+    "score": null,
+    "lower_bound": 0.5,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "05527d04c2d64506349bb5ad1fd8e22dfa3aad1caeb95421869d1b9e1a20953a",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 66153,
+      "input_tokens_details": {
+        "cache_write_tokens": 66150,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3753,
+      "output_tokens_details": {
+        "reasoning_tokens": 1745
+      },
+      "total_tokens": 69906
+    },
+    "input_tokens_estimate": 65910,
+    "truncated": false
+  }
+}

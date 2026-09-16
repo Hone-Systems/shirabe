@@ -1,0 +1,14 @@
+{
+  "id": "rpcb-10.1126/scitranslmed.3001318",
+  "title": "Discovery and preclinical validation of drug indications using compendia of public gene expression data",
+  "year": 2011,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "stage": "complete",
+  "updated_at": "2026-09-16T21:12:17.031500+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 3,
+  "score": null
+}

@@ -1,0 +1,288 @@
+{
+  "id": "ml2-10.1002/(sici)1099-0771(199806)11:2<107::aid-bdm292>3.0.co;2-y",
+  "title": "Less is better: When low-value options are valued more highly than high-value options",
+  "doi": "https://doi.org/10.1002/(sici)1099-0771(199806)11:2<107::aid-bdm292>3.0.co;2-y",
+  "year": 1998,
+  "field_id": 16,
+  "field": "Psychology",
+  "split": "calibration",
+  "sampling_cohort": "manylabs2_complete_2018",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:47:39.302828+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 28,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://alingavreliuc.wordpress.com/wp-content/uploads/2010/10/28_less-is-better-10-1-1-199-4182.pdf",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Low-valued goods can be valued more highly in separate evaluation; joint comparison reverses this through evaluability."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "ML2",
+      "url": "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf",
+      "title": "Many Labs2: Investigating Variation in Replicability Across Samples and Settings",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_multicenter_replication",
+      "read": true,
+      "independent": true,
+      "finding": "The cheaper high-end scarf was judged more generous than the more expensive low-end coat in N=7646,d=.78,95%CI[.74,.83].",
+      "characters": null,
+      "method": "primary_multicenter_replication",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "The cheaper high-end scarf was judged more generous than the more expensive low-end coat in N=7646,d=.78,95%CI[.74,.83]. The answer is restricted to this central empirical component, not every theoretical explanation.",
+        "evidence": [
+          {
+            "source_id": "ML2",
+            "date": "2018",
+            "explanation": "The cheaper high-end scarf was judged more generous than the more expensive low-end coat in N=7646,d=.78,95%CI[.74,.83]. The answer is restricted to this central empirical component, not every theoretical explanation."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "The cheaper high-end scarf was judged more generous than the more expensive low-end coat in N=7646,d=.78,95%CI[.74,.83]. The answer is restricted to this central empirical component, not every theoretical explanation.",
+        "evidence": [
+          {
+            "source_id": "ML2",
+            "date": "2018",
+            "explanation": "The cheaper high-end scarf was judged more generous than the more expensive low-end coat in N=7646,d=.78,95%CI[.74,.83]. The answer is restricted to this central empirical component, not every theoretical explanation."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "yes",
+        "rationale": "The cheaper high-end scarf was judged more generous than the more expensive low-end coat in N=7646,d=.78,95%CI[.74,.83]. The answer is restricted to this central empirical component, not every theoretical explanation.",
+        "evidence": [
+          {
+            "source_id": "ML2",
+            "date": "2018",
+            "explanation": "The cheaper high-end scarf was judged more generous than the more expensive low-end coat in N=7646,d=.78,95%CI[.74,.83]. The answer is restricted to this central empirical component, not every theoretical explanation."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a later authoritative verdict retaining or rejecting the complete claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish usefulness after an explicit test of the original stated limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a substantive independent extension beyond attempting the same empirical test.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish substantive building by two distinct teams beyond the coordinated replication project.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish application of a proposed reusable method or framework beyond re-running an experimental task.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish an explicit later-review attribution of a new direction to this paper.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish use as a scientific benchmark rather than comparison of replication effect sizes.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish an independent benefit from applying the contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish successful application outside the original problem, rather than merely recruiting a wider sample.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a new capability or result enabled by the contribution rather than by testing it.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish actual operational use; absence of evidence is not nonadoption.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a claimed comparative advantage under fair independent evaluation.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "ML2 re-administered the original experimental task in2018, at least three years after publication. This is substantive research use and does not mean the effect was validated.",
+        "evidence": [
+          {
+            "source_id": "ML2",
+            "date": "2018",
+            "explanation": "ML2 re-administered the original experimental task in2018, at least three years after publication. This is substantive research use and does not mean the effect was validated."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The cheaper high-end scarf was judged more generous than the more expensive low-end coat in N=7646,d=.78,95%CI[.74,.83]. The answer is restricted to this central empirical component, not every theoretical explanation.",
+        "evidence": [
+          {
+            "source_id": "ML2",
+            "date": "2018",
+            "explanation": "The cheaper high-end scarf was judged more generous than the more expensive low-end coat in N=7646,d=.78,95%CI[.74,.83]. The answer is restricted to this central empirical component, not every theoretical explanation."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish independent substantive follow-up in two separate later calendar years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a synthesis that adopts the contribution as valid or useful, rather than records a replication failure.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish explicit usefulness despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "The 20-item rubric covers broader contribution success than focal replication. Unknown answers are retained; negative focal results do not establish zero utility or zero uptake.",
+      "This bounded research pass is observed through2026-09-16, not an exhaustive census of every subsequent publication."
+    ],
+    "summary": "The cheaper high-end scarf was judged more generous than the more expensive low-end coat in N=7646,d=.78,95%CI[.74,.83]. Wider adoption and practical utility are not inferred from replication."
+  },
+  "research_plan": {
+    "queries": [
+      "Many Labs 2 28 effects original studies table Klein 2018 pdf",
+      "\"Less is better\" Hsee 1998 pdf"
+    ],
+    "search_log": [
+      {
+        "query": "Many Labs 2 28 effects original studies table Klein 2018 pdf",
+        "purpose": "Enumerate the complete cohort before selecting by outcome.",
+        "urls_read": [
+          "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf"
+        ]
+      },
+      {
+        "query": "\"Less is better\" Hsee 1998 pdf",
+        "purpose": "Resolve original and check follow-up or contrary evidence; only read sources used for judgments.",
+        "urls_read": [
+          "https://alingavreliuc.wordpress.com/wp-content/uploads/2010/10/28_less-is-better-10-1-1-199-4182.pdf",
+          "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 5,
+    "coverage": 0.25,
+    "score": null,
+    "lower_bound": 0.25,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent / ManyLabs cohort",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

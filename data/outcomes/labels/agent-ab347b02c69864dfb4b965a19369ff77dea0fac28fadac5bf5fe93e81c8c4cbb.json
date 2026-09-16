@@ -1,0 +1,425 @@
+{
+  "id": "https://openalex.org/W2753756358",
+  "title": "Depression and associated factors among parents of children diagnosed with cancer at Tikur Anbessa Specialized Hospital, Addis Ababa, Ethiopia",
+  "doi": "https://doi.org/10.1002/pon.5389",
+  "year": 2020,
+  "field_id": 27,
+  "field": "Medicine",
+  "split": "calibration",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:01:09.652811+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 6,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32281208/",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "The published abstract reports 72.4% parental depression in 275 TASH participants and associations with single parenting, income, prior depression and support source.",
+    "The observational study recommends early identification and support; it does not establish intervention efficacy or causation."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "O",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32281208/",
+      "title": "Depression and associated factors among parents of children diagnosed with cancer at Tikur Anbessa Specialized Hospital, Addis Ababa, Ethiopia",
+      "date": "2020-04-13",
+      "date_basis": "publication",
+      "kind": "original",
+      "read": true,
+      "independent": false,
+      "read_scope": "abstract",
+      "finding": "Abstract reports 72.4% prevalence, although listed severity percentages sum to 23.3%; associations reported, not causal effects. Original journal full text inaccessible.",
+      "characters": null,
+      "method": "original",
+      "truncated": false
+    },
+    {
+      "source_id": "T",
+      "url": "https://etd.aau.edu.et/items/ed50b4e1-ee5d-4c9a-82dc-de1f6628141e",
+      "title": "Depression and Associated Factors Among Parents Who Have Children Diagnosed with Cancer at Tikur Anbessa Specialized Hospital, Addis Ababa, Ethiopia 2017",
+      "date": "2017",
+      "date_basis": "publication",
+      "kind": "thesis",
+      "read": true,
+      "independent": false,
+      "read_scope": "abstract_results_limitations_conclusion",
+      "finding": "Related thesis by the same first author and supervisors reports the four severity categories summing to 23.3%, acknowledges limited sample and cross-sectional inference. Dates and some adjusted estimates differ from the journal abstract, so this is not silently substituted for the journal full text.",
+      "characters": null,
+      "method": "thesis",
+      "truncated": false
+    },
+    {
+      "source_id": "M",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9133351/",
+      "title": "Systematic Review and Meta-Analysis of Prevalence of Depression Among Caregivers of Cancer Patients",
+      "date": "2022-05-12",
+      "date_basis": "publication",
+      "kind": "systematic_review",
+      "read": true,
+      "independent": true,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Pan and Lin include Mekonnen 2020, n=275, BDI, prevalence 23.30% in the 85-study analysis producing pooled 25.14%; this differs from the original headline 72.4%.",
+      "characters": null,
+      "method": "systematic_review",
+      "truncated": false
+    },
+    {
+      "source_id": "S",
+      "url": "https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0004061",
+      "title": "Health and economic impact of caregiving on informal caregivers of people with chronic diseases in sub-Saharan Africa: A systematic review",
+      "date": "2024-12-31",
+      "date_basis": "publication",
+      "kind": "systematic_review",
+      "read": true,
+      "independent": true,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "Independent regional synthesis includes target as reference64 and uses its BDI estimate in a reported depression range of 26–72.4%.",
+      "characters": null,
+      "method": "systematic_review",
+      "truncated": false
+    },
+    {
+      "source_id": "J",
+      "url": "https://cancer.jmir.org/2024/1/e54715",
+      "title": "Association of Family-Centered Care With Psychological Distress Among Caregivers of Children With Cancer at a Tertiary-Level Hospital in Ethiopia",
+      "date": "2024-10-10",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "read_scope": "relevant_full_text_sections",
+      "finding": "384 caregivers, K10 psychological distress 33.6%; cites target 72.4% as background but studies a different outcome and excludes pre-existing mental illness. Not a direct reproduction.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "P",
+      "url": "https://journals.sagepub.com/doi/10.1177/27527530231193974",
+      "title": "Predictors of Depressive Symptoms Among Parents of Children With Cancer in Ethiopia",
+      "date": "2023-10-26",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "read_scope": "abstract_and_references",
+      "finding": "Independent Jimma sample n122 reports 60.7% depressive symptoms; monthly income not significant, unlike original income association. Different setting and design limit direct contradiction.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Newer Ethiopian samples confirm a burden of symptoms, but do not explicitly verify the original prevalence and factor set; Jimma finds no significant income predictor.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "TASH parental-depression estimates and associations: No independent reproduction of the specific result was located.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The larger 2024 TASH sample measures K10 distress rather than the original BDI depression and uses different exclusions, so its 33.6% does not directly test the original 72.4%.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The syntheses use conflicting prevalence values (23.3% versus 72.4%); no authoritative reconciliation of the headline estimate and associated-factor claims was located.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "TASH parental-depression estimates and associations: No later test of the original limitations demonstrating retained usefulness was located.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "TASH parental-depression estimates and associations: No substantive extension by an independent team was established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Independent 2022 quantitative and 2024 regional syntheses actually extract this study’s findings for their analyses. The two teams and calendar years establish reuse; the 2024 reuse is over three years later. Their inconsistent prevalence extraction limits validation.",
+        "evidence": [
+          {
+            "source_id": "M",
+            "date": "2022-05-12",
+            "explanation": "Study-specific row is an input to a new pooled estimate."
+          },
+          {
+            "source_id": "S",
+            "date": "2024-12-31",
+            "explanation": "Study-specific BDI result contributes to the regional synthesis."
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Independent 2022 quantitative and 2024 regional syntheses actually extract this study’s findings for their analyses. The two teams and calendar years establish reuse; the 2024 reuse is over three years later. Their inconsistent prevalence extraction limits validation.",
+        "evidence": [
+          {
+            "source_id": "M",
+            "date": "2022-05-12",
+            "explanation": "Study-specific row is an input to a new pooled estimate."
+          },
+          {
+            "source_id": "S",
+            "date": "2024-12-31",
+            "explanation": "Study-specific BDI result contributes to the regional synthesis."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "TASH parental-depression estimates and associations: No review explicitly attributing an enabled research direction to this paper was located.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "TASH parental-depression estimates and associations: No independent study using this contribution as a baseline or reference construction was located.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "TASH parental-depression estimates and associations: No independent demonstration of benefit from applying this specific contribution was established.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "TASH parental-depression estimates and associations: No demonstrated successful use outside the original setting was located.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "Independent 2022 quantitative and 2024 regional syntheses actually extract this study’s findings for their analyses. The two teams and calendar years establish reuse; the 2024 reuse is over three years later. Their inconsistent prevalence extraction limits validation.",
+        "evidence": [
+          {
+            "source_id": "M",
+            "date": "2022-05-12",
+            "explanation": "Study-specific row is an input to a new pooled estimate."
+          },
+          {
+            "source_id": "S",
+            "date": "2024-12-31",
+            "explanation": "Study-specific BDI result contributes to the regional synthesis."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "TASH parental-depression estimates and associations: No documented operational workflow, product, standard or practice applying this contribution was located.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "not_applicable",
+        "rationale": "No comparative advantage of a new intervention, instrument or method is claimed.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "Independent 2022 quantitative and 2024 regional syntheses actually extract this study’s findings for their analyses. The two teams and calendar years establish reuse; the 2024 reuse is over three years later. Their inconsistent prevalence extraction limits validation.",
+        "evidence": [
+          {
+            "source_id": "M",
+            "date": "2022-05-12",
+            "explanation": "Study-specific row is an input to a new pooled estimate."
+          },
+          {
+            "source_id": "S",
+            "date": "2024-12-31",
+            "explanation": "Study-specific BDI result contributes to the regional synthesis."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The 2024 review uses the result but does not resolve the discordant 2022 extraction or positively assess the full claim set.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent 2022 quantitative and 2024 regional syntheses actually extract this study’s findings for their analyses. The two teams and calendar years establish reuse; the 2024 reuse is over three years later. Their inconsistent prevalence extraction limits validation.",
+        "evidence": [
+          {
+            "source_id": "M",
+            "date": "2022-05-12",
+            "explanation": "Study-specific row is an input to a new pooled estimate."
+          },
+          {
+            "source_id": "S",
+            "date": "2024-12-31",
+            "explanation": "Study-specific BDI result contributes to the regional synthesis."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "Independent 2022 quantitative and 2024 regional syntheses actually extract this study’s findings for their analyses. The two teams and calendar years establish reuse; the 2024 reuse is over three years later. Their inconsistent prevalence extraction limits validation.",
+        "evidence": [
+          {
+            "source_id": "M",
+            "date": "2022-05-12",
+            "explanation": "Study-specific row is an input to a new pooled estimate."
+          },
+          {
+            "source_id": "S",
+            "date": "2024-12-31",
+            "explanation": "Study-specific BDI result contributes to the regional synthesis."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "TASH parental-depression estimates and associations: No later evidence explicitly demonstrating usefulness despite newer alternatives was located.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Journal full text unavailable; assessment fixes claims from the published abstract and separately records related thesis sections. Prevalence discrepancy unresolved. Actual implementation or improved caregiver outcomes attributable to this study not documented."
+    ],
+    "summary": "Substantive independent synthesis reuse is established in 2022 and 2024. Validation remains uncertain because prevalence extraction is inconsistent and newer Ethiopian studies use different measures or find different predictors. Original journal assessed at abstract scope."
+  },
+  "research_plan": {
+    "queries": [
+      "\"pon.5389\" pdf",
+      "\"Helina Mekonnen\" depression parents 2017 pdf",
+      "\"Depression and associated factors among parents\" \"5389\"",
+      "\"Depression\" \"pon.5389\" \"72.4\" correction",
+      "\"Predictors of Depressive Symptoms\" \"Mezgebu\" full text"
+    ],
+    "search_log": [
+      {
+        "query": "\"pon.5389\" pdf",
+        "purpose": "Original article availability",
+        "urls_read": [
+          "https://onlinelibrary.wiley.com/doi/full/10.1002/pon.5389",
+          "https://pubmed.ncbi.nlm.nih.gov/32281208/"
+        ]
+      },
+      {
+        "query": "\"Helina Mekonnen\" depression parents 2017 pdf",
+        "purpose": "Author-held original research",
+        "urls_read": [
+          "https://etd.aau.edu.et/items/ed50b4e1-ee5d-4c9a-82dc-de1f6628141e"
+        ]
+      },
+      {
+        "query": "\"Depression and associated factors among parents\" \"5389\"",
+        "purpose": "Forward studies and synthesis",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9133351/",
+          "https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0004061",
+          "https://cancer.jmir.org/2024/1/e54715",
+          "https://journals.sagepub.com/doi/10.1177/27527530231193974"
+        ]
+      },
+      {
+        "query": "\"Depression\" \"pon.5389\" \"72.4\" correction",
+        "purpose": "Possible reconciliation of inconsistent estimates",
+        "urls_read": []
+      },
+      {
+        "query": "\"Predictors of Depressive Symptoms\" \"Mezgebu\" full text",
+        "purpose": "Independent newer Ethiopian setting",
+        "urls_read": [
+          "https://journals.sagepub.com/doi/10.1177/27527530231193974"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 1,
+        "coverage": 0.25,
+        "known_index": 1.0,
+        "lower_bound": 0.25,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 6,
+    "coverage": 0.3125,
+    "score": null,
+    "lower_bound": 0.3125,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex independent research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

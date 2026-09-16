@@ -1,0 +1,393 @@
+{
+  "id": "https://openalex.org/W2753756358",
+  "title": "Depression and associated factors among parents of children diagnosed with cancer at Tikur Anbessa Specialized Hospital, Addis Ababa, Ethiopia",
+  "doi": "https://doi.org/10.1002/pon.5389",
+  "year": 2020,
+  "field_id": 27,
+  "field": "Medicine",
+  "split": "calibration",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2024-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:22:12.822450+00:00",
+  "input_scope": "abstract",
+  "original_source": {},
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "parental depression childhood cancer psychosocial intervention Beck Depression Inventory support sources",
+      "parental depression childhood cancer Ethiopia replication Beck Depression Inventory logistic regression",
+      "parental depression childhood cancer systematic review associated factors Beck Depression Inventory",
+      "oncology nursing parental depression screening single parenting income support sources Ethiopia"
+    ],
+    "selected_urls": [
+      "https://journals.sagepub.com/doi/10.1177/27527530231193974",
+      "https://cancer.jmir.org/2024/1/e54715",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10449221",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11505657",
+      "https://www.iriss.org.uk/sites/default/files/2022-03/iriss-esss-outline-children-with-cancer-support-2022-03-31_1.pdf",
+      "https://journal-jhsm.com/Publication/DisplayArticle/26624",
+      "https://dergipark.org.tr/tr/download/article-file/3337792",
+      "https://kb.osu.edu/bitstreams/0a904f13-7124-4858-a8fe-cf9473d1d9c8/download",
+      "https://www.sciencedirect.com/science/article/pii/S1462388921001861",
+      "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2024.1400293/full"
+    ],
+    "plan_usage": {
+      "cache_key": "66099953db24e42b0f41bf65420d8b6ae41e3d42a196e32fd6ab6f4f302068c3",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 566,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 583,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 1149
+      },
+      "input_tokens_estimate": 532,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "8c48fdeff665bac5defff1415362bc8dd98bc3efc9e463ce5323c3e161c932e0",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 3651,
+        "input_tokens_details": {
+          "cache_write_tokens": 3648,
+          "cached_tokens": 0
+        },
+        "output_tokens": 624,
+        "output_tokens_details": {
+          "reasoning_tokens": 376
+        },
+        "total_tokens": 4275
+      },
+      "input_tokens_estimate": 3617,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://journals.sagepub.com/doi/10.1177/27527530231193974",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:21:41.915940+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://cancer.jmir.org/2024/1/e54715",
+      "method": "",
+      "http_status": 202,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:21:45.975632+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10449221",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 61349,
+      "truncated": false,
+      "sha256": "71ed7583b22335fe0f75c3fe4453b8266af5c9f1d086b922ed42d795487126c7",
+      "retrieved_at": "2026-09-16T19:21:44.911725+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11505657",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 85673,
+      "truncated": false,
+      "sha256": "1695c256a1d3f0e05417437df131ffcac079f5f8bfc618a5ca0bb4b6dd58dc3d",
+      "retrieved_at": "2026-09-16T19:21:43.306130+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.iriss.org.uk/sites/default/files/2022-03/iriss-esss-outline-children-with-cancer-support-2022-03-31_1.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 39879,
+      "truncated": false,
+      "sha256": "6484d8d0d07363e615772e9f9b89358d9ec9d2144788419ed02012e6feb53fc2",
+      "retrieved_at": "2026-09-16T19:21:44.115595+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://journal-jhsm.com/Publication/DisplayArticle/26624",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 8872,
+      "truncated": false,
+      "sha256": "3392660027b4fbd379f7274ecc1b001e04ade9f923362c9334054b5905b32a8e",
+      "retrieved_at": "2026-09-16T19:21:44.513051+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://dergipark.org.tr/tr/download/article-file/3337792",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 49731,
+      "truncated": false,
+      "sha256": "d2e126b0a98e8cb6a18c32a9bfd53cdd143a40bf38decb1ce3d4b9a4ef12951e",
+      "retrieved_at": "2026-09-16T19:21:49.528746+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://kb.osu.edu/bitstreams/0a904f13-7124-4858-a8fe-cf9473d1d9c8/download",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 83468,
+      "truncated": false,
+      "sha256": "ae258735ea7fa32740e881835b1928d7f55857e1277cd17ed7eee5ee90801cf1",
+      "retrieved_at": "2026-09-16T19:21:46.516155+00:00"
+    },
+    {
+      "source_id": "S9",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1462388921001861",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 33675,
+      "truncated": false,
+      "sha256": "bcf4ef95195b9445e44f1805bad2e34d156582beb89066a418305e0f7f97d1d7",
+      "retrieved_at": "2026-09-16T19:21:45.351800+00:00"
+    },
+    {
+      "source_id": "S10",
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2024.1400293/full",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 71043,
+      "truncated": false,
+      "sha256": "364388991640e7df1b8f03e97bd9c3630ceec8da7128102c42b024a44e99de5f",
+      "retrieved_at": "2026-09-16T19:21:47.115825+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No later independent primary study in the supplied window explicitly validates this paper’s full central claim, including its 72.4% estimate and reported predictors.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The packet contains no independent study reproducing the same Tikur Anbessa result, sample, estimate, or complete predictor pattern.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "Later studies used different populations, settings, instruments, or designs; none is an explicitly stricter test of this paper’s central claim.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "A 2023 systematic review retained overlapping central associations—marital status, annual income, and perceived social support—rather than rejecting them, although it did not specifically validate the 72.4% estimate.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2023-08-24"
+          },
+          {
+            "source_id": "S3",
+            "date": "2023-08-24"
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No supplied later study explicitly tests and resolves the original study’s cross-sectional, single-center, socioeconomic, or measurement limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Later studies examine related parental depression and support questions, but the supplied texts do not establish a substantive extension of this specific paper’s contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Multiple independent groups studied related populations, but the packet does not show that at least two groups substantively built on this paper’s specific findings.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Later studies reused instruments such as the Beck Depression Inventory, but the evidence does not show reuse of this paper’s specific method or framework rather than generic instruments.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The supplied review discusses intervention and psychosocial-support directions, but does not explicitly identify this particular paper as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "A later Turkish study compared mothers of children with cancer with controls, but it did not use this paper as the comparison baseline or theoretical reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The packet contains recommendations for screening and support, but no independent demonstration of a concrete benefit caused by applying this paper’s findings.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Related findings were reported in Turkey, Poland, South Korea, and elsewhere, but the supplied evidence does not establish successful use of this paper’s contribution outside Addis Ababa.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No later source explicitly credits this paper with enabling a new measurement, theorem, capability, or substantive scientific result.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The evidence recommends screening and psychosocial services but does not document adoption of this paper in a product, workflow, standard, or established practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "not_applicable",
+        "rationale": "This observational prevalence and association study did not claim a comparative methodological or practical advantage requiring fair comparative evaluation.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The supplied sources document related work in 2023 and 2024, but do not establish substantive use of this specific paper at least three years after publication.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "Three years after publication, an independent systematic review positively retained overlapping socioeconomic and social-support associations relevant to the paper’s central conclusion.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2023-08-24"
+          },
+          {
+            "source_id": "S3",
+            "date": "2023-08-24"
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Substantive later research on related parental depression exists in 2023 and 2024, but the packet does not document follow-up of this specific paper across two calendar years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The 2023 systematic review is relevant, but the supplied full text does not identify the 2020 Mekonnen paper among its five included studies or explicitly adopt its estimate.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later work confirms that parental depression and support remain important topics, but does not explicitly show that this paper’s contribution remained useful despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied full text for the 2023 Ethiopian predictor study or 2024 JMIR study was available, preventing paper-specific assessment.",
+      "The supplied systematic review does not list the original 2020 Mekonnen study among its five included studies.",
+      "No correction, replication, implementation report, guideline, or standard specifically addressing the Mekonnen et al. findings was supplied."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 1,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 2,
+    "coverage": 0.1,
+    "score": null,
+    "lower_bound": 0.1,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "99d103870c3d5d09d364d2593df70443fdfbc851ef4ca5a8c2e4d9d1e0200e85",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 119643,
+      "input_tokens_details": {
+        "cache_write_tokens": 119640,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2315,
+      "output_tokens_details": {
+        "reasoning_tokens": 1034
+      },
+      "total_tokens": 121958
+    },
+    "input_tokens_estimate": 119400,
+    "truncated": false
+  }
+}

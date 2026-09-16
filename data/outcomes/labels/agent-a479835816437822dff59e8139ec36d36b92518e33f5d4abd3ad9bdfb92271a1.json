@@ -1,0 +1,308 @@
+{
+  "id": "rpcb-10.1038/nature10860",
+  "title": "IDH mutation impairs histone demethylation and results in a block to cell differentiation",
+  "doi": "https://doi.org/10.1038/nature10860",
+  "year": 2012,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:14:02.542490+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 14,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3478770/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "2HG-producing IDH mutations inhibit histone demethylation and increase histone methylation.",
+    "This can block lineage-specific differentiation, including adipocyte differentiation."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "R",
+      "url": "https://doi.org/10.7554/eLife.73430",
+      "title": "Experiments from unfinished Registered Reports in the Reproducibility Project: Cancer Biology",
+      "date": "2021",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "2HG elevation replicated; histone methylation increase and correlation with 2HG were nonsignificant; differentiation endpoint could not be completed.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "D",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3514664/",
+      "title": "A heterozygous IDH1R132H/WT mutation induces genome-wide alterations in DNA methylation",
+      "date": "2012",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent heterozygous knock-in study found increased histone methylation and locus-specific H3K9 changes, supporting an epigenetic effect.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "Independent knock-in cells exhibited increased histone methylation, supporting the epigenetic component.",
+        "evidence": [
+          {
+            "source_id": "D",
+            "date": "2012",
+            "explanation": "Independent knock-in cells exhibited increased histone methylation, supporting the epigenetic component."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "An independent knock-in supports histone effects, but registered overexpression assays were nonsignificant and differentiation was not tested successfully.",
+        "evidence": [
+          {
+            "source_id": "D",
+            "date": "2012",
+            "explanation": "An independent knock-in supports histone effects, but registered overexpression assays were nonsignificant and differentiation was not tested successfully."
+          },
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "An independent knock-in supports histone effects, but registered overexpression assays were nonsignificant and differentiation was not tested successfully."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The registered biochemical tests were mixed and the differentiation endpoint incomplete.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "The registered biochemical tests were mixed and the differentiation endpoint incomplete."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "The registered replication used IDH mutant constructs and methylation/2HG assays derived from the original work.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "The registered replication used IDH mutant constructs and methylation/2HG assays derived from the original work."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "Mutant expression and histone-assay protocols received substantive independent testing in 2021.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "Mutant expression and histone-assay protocols received substantive independent testing in 2021."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The checked sources do not establish substantive independent follow-up in two distinct calendar years after the original publication year.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "The 2012 knock-in study addresses methylation, not a direct complete adipocyte differentiation replication.",
+      "External frozen cohort only; never training, selection, calibration or tuning. Absence of adoption evidence remains unknown."
+    ],
+    "summary": "Independent epigenetic support coexists with a nonsignificant registered histone-methylation replication. The differentiation-block experiment was incomplete and is not labeled a demonstrated failure."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1038/nature10860",
+      "https://doi.org/10.7554/eLife.73430"
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1038/nature10860",
+        "purpose": "Resolve original identity and author text through Europe PMC, publisher and NCBI BioC",
+        "urls_read": [
+          "https://doi.org/10.1038/nature10860"
+        ]
+      },
+      {
+        "query": "https://doi.org/10.7554/eLife.73430",
+        "purpose": "Read assigned preregistered replication and follow its supporting and contrary references",
+        "urls_read": [
+          "https://doi.org/10.7554/eLife.73430",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3514664/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 3,
+    "coverage": 0.15000000000000002,
+    "score": null,
+    "lower_bound": 0.15000000000000002,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

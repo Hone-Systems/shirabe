@@ -1,0 +1,333 @@
+{
+  "id": "rpcb-10.1016/j.cell.2009.12.040",
+  "title": "Kinase-dead BRAF and oncogenic RAS cooperate to drive tumor progression through CRAF",
+  "doi": "https://doi.org/10.1016/j.cell.2009.12.040",
+  "year": 2010,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:16:13.189594+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 16,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2872605/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Kinase-dead BRAF cooperates with oncogenic RAS through CRAF to activate MEK–ERK signaling and promote melanoma; selective BRAF inhibitors can paradoxically activate this pathway in RAS-mutant cells."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://doi.org/10.7554/eLife.73430",
+      "title": "Experiments from unfinished Registered Reports in the Reproducibility Project: Cancer Biology",
+      "date": "2021",
+      "date_basis": "publication",
+      "kind": "primary_replication",
+      "read": true,
+      "independent": true,
+      "finding": "Partial replication supported inhibitor response in BRAF-mutant cells but the D04/SB590885 activation comparison was not significant; construct-expression problems prevented the planned mechanistic tests.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "primary_replication",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3178447/",
+      "title": "RAF inhibitors transactivate RAF dimers and ERK signalling in cells with wild-type BRAF.",
+      "date": "2010-03-01",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent chemical-genetic experiments support RAS-dependent inhibitor-mediated RAF dimer transactivation, with differences in RAF isoform requirements.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4134487/",
+      "title": "Mechanism and consequences of RAF kinase activation by small-molecule inhibitors.",
+      "date": "2014-03-18",
+      "date_basis": "publication",
+      "kind": "review",
+      "read": true,
+      "independent": true,
+      "finding": "Independent review retains kinase-dead BRAF/oncogenic RAS cooperation and discusses paradoxical activation mechanisms and therapeutic consequences.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "review",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "Independent chemical-genetic work supports the RAS-dependent RAF transactivation component; it is not a replication of the original mouse melanoma experiment.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2010-03-01",
+            "explanation": "Independent chemical-genetic work supports the RAS-dependent RAF transactivation component; it is not a replication of the original mouse melanoma experiment."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "Independent work supports the pathway mechanism, but the specific kinase-dead-BRAF/RAS melanoma construction was not independently reproduced in the sources read.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The 2021 replication was partial, and missing construct-expression experiments prevent a firm judgment on the complete central mechanism.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "Holderfield and colleagues explicitly retain the kinase-dead BRAF plus oncogenic RAS mouse result in their mechanistic synthesis.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2014-03-18",
+            "explanation": "Holderfield and colleagues explicitly retain the kinase-dead BRAF plus oncogenic RAS mouse result in their mechanistic synthesis."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "RAF isoform-specific mechanisms differ and the replication did not complete its planned mechanistic tests.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Poulikakos 2010 was near-contemporaneous independent work; that alone does not establish a later extension built from this particular paper.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish two distinct independent teams building specifically on this contribution beyond replication or parallel discovery.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "No verified independent use beyond testing the original result was established for this specific proposed method or framework.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No independent review explicitly establishing that this specific paper enabled a research direction was read.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The evidence read does not settle this specific criterion; retained as unknown.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a separate demonstrated scientific or practical benefit attributable to applying this contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Successful transfer of this specific contribution beyond the original setting was not established in the sources read.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "A new capability or result enabled specifically by this contribution was not verified.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Routine operational adoption was not verified; missing evidence is not nonadoption.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "A fair independent comparison validating a particular claimed advantage was not established.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Substantive application after three years beyond replication/assessment was not verified.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The 2014 review positively retains the original mechanistic contribution four years after publication.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2014-03-18",
+            "explanation": "The 2014 review positively retains the original mechanistic contribution four years after publication."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "The 2014 mechanistic synthesis and 2021 independent replication document distinct later follow-up years.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2014-03-18",
+            "explanation": "The 2014 mechanistic synthesis and 2021 independent replication document distinct later follow-up years."
+          },
+          {
+            "source_id": "S1",
+            "date": "2021",
+            "explanation": "The 2014 mechanistic synthesis and 2021 independent replication document distinct later follow-up years."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "The 2014 research synthesis incorporates the kinase-dead BRAF/RAS finding as valid mechanistic evidence.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2014-03-18",
+            "explanation": "The 2014 research synthesis incorporates the kinase-dead BRAF/RAS finding as valid mechanistic evidence."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No source explicitly established continued utility despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "External cohort is high-impact2010–2012 cancer biology selected for replication feasibility/completion, not a random sample.",
+      "The20-question rubric is broader than the available replication endpoints; unknown answers are not scored as failures.",
+      "Literature inspection is bounded and not a systematic review through the as-of date; later uninspected evidence may change answers."
+    ],
+    "summary": "The paradoxical RAF signaling contribution remains in independent mechanistic synthesis. The cohort’s later replication was incomplete, so neither full reproduction nor wholesale failure is inferred."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1016/j.cell.2009.12.040",
+      "RPCB completed experiments Table1 Kinase-dead BRAF and oncogenic RAS cooperate to drive tumor progression through CRAF",
+      "Follow primary references in direct replication: RAF inhibitors transactivate RAF dimers and ERK signalling in cells with wild-type BRAF., Mechanism and consequences of RAF kinase activation by small-molecule inhibitors."
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1016/j.cell.2009.12.040",
+        "purpose": "Resolve original identity and read available original text before follow-up assessment.",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC2872605/"
+        ]
+      },
+      {
+        "query": "RPCB completed experiments Table1 Kinase-dead BRAF and oncogenic RAS cooperate to drive tumor progression through CRAF",
+        "purpose": "Find the prespecified direct replication within the complete23-paper external cohort.",
+        "urls_read": [
+          "https://doi.org/10.7554/eLife.73430"
+        ]
+      },
+      {
+        "query": "Follow primary references in direct replication: RAF inhibitors transactivate RAF dimers and ERK signalling in cells with wild-type BRAF., Mechanism and consequences of RAF kinase activation by small-molecule inhibitors.",
+        "purpose": "Read independent extensions and contrary evidence; distinguish uptake from central-claim validation.",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3178447/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC4134487/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 5,
+    "coverage": 0.25,
+    "score": null,
+    "lower_bound": 0.25,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent; shirabe-grade-paper",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

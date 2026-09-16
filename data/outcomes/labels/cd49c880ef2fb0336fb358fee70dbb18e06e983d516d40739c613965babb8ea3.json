@@ -1,0 +1,272 @@
+{
+  "id": "https://openalex.org/W3164091591",
+  "title": "A View of Healthcare Services in Erode District of Tamil Nadu",
+  "doi": null,
+  "year": 2017,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2021-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:20:22.968290+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://econpapers.repec.org/article/adpjojnhc/v_3a3_3ay_3a2017_3ai_3a5_3ap_3a98-104.htm",
+    "method": "html_main_text",
+    "http_status": 200,
+    "characters": 2718,
+    "truncated": false,
+    "sha256": "2027fffb9ba21b4f5861c20884864f582866b69b98bc84db026aff13da4a4de0",
+    "retrieved_at": "2026-09-16T19:14:11.871876+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "theranostic medicine nanotechnology materials diagnose targeted therapy monitor response clinical application",
+      "theranostic medicine personalized medicine nanotechnology validation reproducibility replication",
+      "theranostics personalized medicine diagnostic therapy integration systematic review evidence assessment",
+      "theranostic medicine personalized treatment nanotechnology clinical implementation theoretical framework"
+    ],
+    "selected_urls": [],
+    "plan_usage": {
+      "cache_key": "da68202fcddb362fd0b3f5ae677348dd177765453bcf7ff74c67a22e00b2ed7b",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 874,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 584,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 1458
+      },
+      "input_tokens_estimate": 840,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "c799d4116bc5ea67dfea4060e81f24e22472fbd235c5d950c2676a7e797c17dc",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 6238,
+        "input_tokens_details": {
+          "cache_write_tokens": 6235,
+          "cached_tokens": 0
+        },
+        "output_tokens": 146,
+        "output_tokens_details": {
+          "reasoning_tokens": 132
+        },
+        "total_tokens": 6384
+      },
+      "input_tokens_estimate": 6204,
+      "truncated": false
+    }
+  },
+  "source_manifest": [],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No follow-up primary-study text from 2018–2021 was supplied that explicitly evaluates and supports this paper’s central claim.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The supplied packet contains no identifiable independent reproduction or verified construction tied specifically to this paper.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No dated larger, stricter, or independently collected follow-up test specific to this paper was supplied.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "No authoritative assessment published in the follow-up window was supplied that explicitly retains the paper’s central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The supplied materials do not document later testing of the paper’s stated limitations and continued usefulness.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "No full follow-up source was supplied showing an independent group substantively extending this specific contribution during 2018–2021.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The packet provides no attributable follow-up documents demonstrating substantive work by at least two independent groups on this specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The supplied search results discuss theranostics broadly but do not establish, from an identifiable source text, reuse of this paper’s proposed method or framework.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review within the specified window was supplied that explicitly identifies this contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No dated independent study in the follow-up window was supplied using this contribution as a baseline, benchmark, or theoretical reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No independent source text supplied for 2018–2021 demonstrates a concrete scientific or practical benefit from applying this contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The packet does not provide dated evidence that this specific contribution was successfully used outside its original setting or problem instance.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No follow-up primary study supplied in the permitted window attributes a new result, measurement, theorem, or capability to this paper.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Healthcare application is potentially relevant, but no 2018–2021 source documents adoption in a product, workflow, standard, or practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No fair independent comparison in the supplied follow-up evidence tests and confirms a claimed advantage of this contribution.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Although the window includes years at least three years after the 2017 publication, no substantive use is documented in the supplied sources.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No positive independent assessment dated at least three years after publication was supplied within the follow-up window.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The packet contains no identifiable substantive independent follow-up documents from two distinct later calendar years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent systematic review, textbook, standard, or research synthesis from 2018–2021 was supplied that adopts this contribution as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The supplied materials do not explicitly show continued usefulness of this paper’s specific contribution despite newer alternatives during the permitted window.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "The evidence packet contains no supplied full follow-up source documents; its sources array is empty.",
+      "The search-result snippets are not attributable source texts with stable source identifiers and therefore cannot support binary answers.",
+      "The original record is internally inconsistent: its title concerns healthcare services in Erode District, while its abstract concerns nanotheranostics; this identity/content discrepancy warrants verification against the publisher record.",
+      "No qualifying evidence was supplied within the required 2018–2021 follow-up window."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "b49ef62b0c6dc02c2b67af08c6d03be8862e7c6fb99fdb19c00c778a2c21f2b2",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 9160,
+      "input_tokens_details": {
+        "cache_write_tokens": 9157,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1337,
+      "output_tokens_details": {
+        "reasoning_tokens": 377
+      },
+      "total_tokens": 10497
+    },
+    "input_tokens_estimate": 8917,
+    "truncated": false
+  }
+}

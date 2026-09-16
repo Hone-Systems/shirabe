@@ -1,0 +1,436 @@
+{
+  "id": "https://openalex.org/W2502906121",
+  "title": "C-type natriuretic peptide and natriuretic peptide receptor B signalling inhibits cardiac sympathetic neurotransmission and autonomic function",
+  "doi": "https://doi.org/10.1093/cvr/cvw184",
+  "year": 2016,
+  "field_id": 27,
+  "field": "Medicine",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2020-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:21:41.360979+00:00",
+  "input_scope": "abstract",
+  "original_source": {},
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "CNP NPR-B signaling cardiac sympathetic neurotransmission neuronal calcium current norepinephrine release",
+      "CNP NPR-B stellate ganglion stimulation norepinephrine release neuronal calcium independent validation",
+      "C-type natriuretic peptide NPR-B cardiac autonomic function sympathetic neurotransmission review",
+      "CNP NPR-B signaling hypertension heart failure sympathetic activity therapeutic implications"
+    ],
+    "selected_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5157139",
+      "https://www.mdpi.com/1422-0067/20/9/2281",
+      "https://www.nature.com/articles/s41598-017-17690-7",
+      "https://academic.oup.com/eurheartj/article/41/9/1006/5418562",
+      "https://portlandpress.com/clinsci/article/130/2/57/71366/The-natriuretic-peptides-system-in-the",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5233571"
+    ],
+    "plan_usage": {
+      "cache_key": "e4177b11781caa7b68ed1297f9ec639ddbe8d7affb1d94b7416fd3f57a8d4c39",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 644,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 596,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 1240
+      },
+      "input_tokens_estimate": 610,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "786811c12c56c77989c746c5b361a0018c2b3cf9085011ad1360dcc615d7a6a4",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 5773,
+        "input_tokens_details": {
+          "cache_write_tokens": 5770,
+          "cached_tokens": 0
+        },
+        "output_tokens": 551,
+        "output_tokens_details": {
+          "reasoning_tokens": 412
+        },
+        "total_tokens": 6324
+      },
+      "input_tokens_estimate": 5739,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5157139",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 31514,
+      "truncated": false,
+      "sha256": "96ac3dbe748e10af1dfe50b4c33949146d4cb2a2ddbafc42f69feb5e2ba1f8db",
+      "retrieved_at": "2026-09-16T19:20:56.879482+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.mdpi.com/1422-0067/20/9/2281",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 272669,
+      "truncated": false,
+      "sha256": "0e78d4418cb3aedba1492f11e68a8278a573968acb6af8d890382358895a156c",
+      "retrieved_at": "2026-09-16T19:20:53.454795+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.nature.com/articles/s41598-017-17690-7",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 54518,
+      "truncated": false,
+      "sha256": "ba6c93caf09a2209f647b3f52402609a3231ff627fba956931b4fbccf9b222bb",
+      "retrieved_at": "2026-09-16T19:20:54.572711+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://academic.oup.com/eurheartj/article/41/9/1006/5418562",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:20:57.976252+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://portlandpress.com/clinsci/article/130/2/57/71366/The-natriuretic-peptides-system-in-the",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 336255,
+      "truncated": false,
+      "sha256": "2e2cfb0a9427486e4ecb068d36b9698feb992fbda0ad6c1dbc7e8710096b3fc8",
+      "retrieved_at": "2026-09-16T19:21:12.323196+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5233571",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 265137,
+      "truncated": false,
+      "sha256": "5fe87533b0274278649f13594fe503896b470f8412d6c16716bebf31217cbac0",
+      "retrieved_at": "2026-09-16T19:20:55.250571+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The supplied later primary study concerns NPR-C knockout mice, while the explicit CNP/NPR-B support appears only as discussion of the original finding in a review.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-12-14"
+          },
+          {
+            "source_id": "S2",
+            "date": "2019-05-08"
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No supplied later source reports an independent team reproducing the original CNP/NPR-B experiment or central result.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-12-14"
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up performs a larger, stricter, or independently collected test of the original CNP/NPR-B result.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-12-14"
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "A later review explicitly presents CNP-mediated sympathetic inhibition through NPR-B as an established finding and incorporates it into the broader natriuretic-peptide model.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019-05-08"
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up sources do not explicitly test whether the original contribution remains useful under its stated pathological-state limitations.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019-05-08"
+          }
+        ]
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "An independent group extended the autonomic-regulation framework to NPR-C, using telemetry and autonomic blockade in conscious knockout mice.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-12-14"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The packet documents one independent primary group extending the autonomic framework; the other supplied later source is a review, not a second independent primary group.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-12-14"
+          },
+          {
+            "source_id": "S2",
+            "date": "2019-05-08"
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The later review discusses therapeutic targeting and broad CNP biology, but does not explicitly identify this specific contribution as enabling a research direction.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019-05-08"
+          }
+        ]
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The later primary study compares NPR-C knockout and wild-type mice, but does not use the original CNP/NPR-B contribution as a benchmark or reference construction in a comparative evaluation.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-12-14"
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No supplied independent source demonstrates a concrete scientific or practical benefit resulting from applying the original CNP/NPR-B contribution.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019-05-08"
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Later work examines related receptors and models, but the packet does not establish successful use of the specific CNP/NPR-B contribution outside the original setting.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-12-14"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The supplied later primary study produced new NPR-C autonomic findings, but does not show that the original CNP/NPR-B contribution enabled them.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-12-14"
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The contribution is a biological mechanism rather than an established product or workflow, and no operational adoption specifically based on it is documented.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019-05-08"
+          }
+        ]
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "not_applicable",
+        "rationale": "The original paper did not claim a comparative performance advantage over a competing method or intervention; it proposed a physiological mechanism.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "A 2019 review, three years after publication, substantively incorporates the contribution into its discussion of CNP cardiac autonomic physiology and therapeutics.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019-05-08"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The 2019 review positively assesses the CNP/NPR-B pathway as part of a growing body of evidence supporting CNP’s protective autonomic role.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019-05-08"
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive later evidence is documented in two distinct years: an independent primary study in 2017 and a review in 2019.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-12-14"
+          },
+          {
+            "source_id": "S2",
+            "date": "2019-05-08"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "An independent 2019 review includes the contribution as evidence supporting CNP’s cardiac sympathetic and autonomic actions.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019-05-08"
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources show continued discussion and therapeutic interest, but do not explicitly demonstrate usefulness despite newer alternatives.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2019-05-08"
+          }
+        ]
+      }
+    ],
+    "search_gaps": [
+      "No supplied independent primary study directly reproduces the original CNP/NPR-B sympathetic-neurotransmission experiment.",
+      "No supplied source reports a stricter or larger direct test of the original central claim.",
+      "No supplied source documents operational adoption, a product, workflow, or demonstrated clinical benefit specifically attributable to this contribution.",
+      "No supplied source explicitly tests the original mechanism under its stated pathological-state limitations."
+    ]
+  },
+  "validation_rejected": [
+    "method_reused"
+  ],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 1,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 6,
+    "coverage": 0.30000000000000004,
+    "score": null,
+    "lower_bound": 0.30000000000000004,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "449580a6dd8b42b54137ad2b47834552e35ff4889ce62104fdf5def65bc861e9",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 348355,
+      "input_tokens_details": {
+        "cache_write_tokens": 348352,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3022,
+      "output_tokens_details": {
+        "reasoning_tokens": 878
+      },
+      "total_tokens": 351377
+    },
+    "input_tokens_estimate": 348112,
+    "truncated": false
+  }
+}

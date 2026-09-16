@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W2502906121",
+  "title": "C-type natriuretic peptide and natriuretic peptide receptor B signalling inhibits cardiac sympathetic neurotransmission and autonomic function",
+  "year": 2016,
+  "field_id": 27,
+  "field": "Medicine",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T19:56:19.660035+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 5,
+  "score": null
+}

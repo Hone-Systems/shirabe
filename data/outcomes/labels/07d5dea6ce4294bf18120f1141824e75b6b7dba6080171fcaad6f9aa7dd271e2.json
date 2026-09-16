@@ -1,0 +1,428 @@
+{
+  "id": "challenge-superconductor",
+  "title": "Room-temperature superconductivity in a carbonaceous sulfur hydride",
+  "doi": "https://doi.org/10.1038/s41586-020-2801-z",
+  "year": 2020,
+  "field_id": 31,
+  "field": "Physics",
+  "split": "challenge",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2024-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:18:37.269908+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://www.nature.com/articles/s41586-020-2801-z.pdf",
+    "method": "html_main_text",
+    "http_status": 200,
+    "characters": 33998,
+    "truncated": false,
+    "sha256": "3952abea9f905163556c31441c919e48fb52a5a23616d3d6cb7517279d5bc8ce",
+    "retrieved_at": "2026-09-16T19:08:34.495955+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "Carbonaceous sulfur hydride chemical tuning lower-pressure superconductivity photochemical synthesis independent study",
+      "Carbonaceous sulfur hydride replication zero resistance magnetic susceptibility external-field suppression upper critical field data analysis",
+      "Carbon sulfur hydrogen high-pressure synthesis Raman spectroscopy stoichiometry structure superconductivity",
+      "Carbonaceous sulfur hydride electron-phonon coupling Ginzburg-Landau theory high-pressure superconductivity applications"
+    ],
+    "selected_urls": [
+      "https://par.nsf.gov/servlets/purl/10289600",
+      "https://arxiv.org/html/2103.00701v3",
+      "https://www.preprints.org/manuscript/202201.0003",
+      "https://link.aps.org/doi/10.1103/PhysRevB.105.134501",
+      "https://arxiv.org/html/2111.15051v1",
+      "https://arxiv.org/pdf/2112.14348",
+      "https://link.springer.com/article/10.1007/s10948-022-06148-1",
+      "https://elar.urfu.ru/bitstream/10995/103053/1/2-s2.0-85102150417.pdf",
+      "https://ui.adsabs.harvard.edu/abs/2023APS..MARK20004K/abstract"
+    ],
+    "plan_usage": {
+      "cache_key": "9920ade826dfb10563ca230150d5ad2473b3fb4b309eca7dc74e8b7f197955c4",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 8852,
+        "input_tokens_details": {
+          "cache_write_tokens": 8849,
+          "cached_tokens": 0
+        },
+        "output_tokens": 604,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 9456
+      },
+      "input_tokens_estimate": 8818,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "91216f88df5f833bbaa19216f0d71fbdc1e50cbf98978c7c6e14c6c04915fad8",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 7378,
+        "input_tokens_details": {
+          "cache_write_tokens": 7375,
+          "cached_tokens": 0
+        },
+        "output_tokens": 686,
+        "output_tokens_details": {
+          "reasoning_tokens": 464
+        },
+        "total_tokens": 8064
+      },
+      "input_tokens_estimate": 7344,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://par.nsf.gov/servlets/purl/10289600",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 26023,
+      "truncated": false,
+      "sha256": "cf3b8c00e5f841bf58817c90b9f28434b9410e0e8789ad13a36b8daaea97b076",
+      "retrieved_at": "2026-09-16T19:17:52.776715+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://arxiv.org/html/2103.00701v3",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 45154,
+      "truncated": false,
+      "sha256": "38deb9026f842dcbac674ee3ac28cd3d03211ad8db6cd152a368c10bf3163f61",
+      "retrieved_at": "2026-09-16T19:17:50.348115+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.preprints.org/manuscript/202201.0003",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 8133,
+      "truncated": false,
+      "sha256": "1c37777ce2f8fa5dfe1f4b3fd1d08d297e14dc743381cee2a7c68913f5ecca69",
+      "retrieved_at": "2026-09-16T19:09:47.219395+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevB.105.134501",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 17260,
+      "truncated": false,
+      "sha256": "32e7c7b84e6e3f6a13c7ccf82f3391a3ea55c8b8085c4236c8a819bfa2d9aa24",
+      "retrieved_at": "2026-09-16T19:17:50.592924+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://arxiv.org/html/2111.15051v1",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 26277,
+      "truncated": false,
+      "sha256": "4a849832e896d79eb8c3caa20e85cd3388e407113441ae594d6ee3c246b700f1",
+      "retrieved_at": "2026-09-16T19:17:50.300593+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://arxiv.org/pdf/2112.14348",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 30062,
+      "truncated": false,
+      "sha256": "2938bacecfdfc4e7b478573cf230e8422c3f581e2f25e4c4f2d8a8de396e8cee",
+      "retrieved_at": "2026-09-16T19:17:50.592903+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://link.springer.com/article/10.1007/s10948-022-06148-1",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 61087,
+      "truncated": false,
+      "sha256": "3d46e9c1fb3b53e1149cfc17c032047566fa1b5b009e2f6a6cd4ab0002c84601",
+      "retrieved_at": "2026-09-16T19:17:51.704510+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://elar.urfu.ru/bitstream/10995/103053/1/2-s2.0-85102150417.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 34762,
+      "truncated": false,
+      "sha256": "bff6e8cc49cef3b235481d2fd64b87a19ac3410f108b6e559a8bc1851b4e93cf",
+      "retrieved_at": "2026-09-16T19:17:55.268928+00:00"
+    },
+    {
+      "source_id": "S9",
+      "url": "https://ui.adsabs.harvard.edu/abs/2023APS..MARK20004K/abstract",
+      "method": "",
+      "http_status": 405,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:17:54.436413+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "no",
+        "rationale": "An independent research group explicitly reported failing to reproduce the C–S–H observations.",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2022-03-25"
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "no",
+        "rationale": "The principal measurement and structural concerns were not shown to be overcome; later assessment stated that the observations remained unconfirmed.",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2022-03-25"
+          }
+        ]
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "At least two independent groups published substantive follow-up analyses of the C–S–H claim, including computational structure searches and experimental/theoretical critique.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2021-03-04"
+          },
+          {
+            "source_id": "S4",
+            "date": "2022-04-04"
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Independent follow-up studies directly reused the reported C–S–H data and experimental claims for quantitative analysis, rather than merely citing them.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2021-03-04"
+          },
+          {
+            "source_id": "S3",
+            "date": "2022-01-04"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The supplied later review discusses the claim and criticism, but does not explicitly identify this specific contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "no",
+        "rationale": "The supplied follow-up evidence demonstrates critique and analysis, not an independent scientific or practical benefit from applying the claimed contribution.",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2022-03-25"
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not establish successful independent use of the claimed contribution outside the original C–S–H evaluation setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "Independent computational work produced a new large-scale structure–superconductivity map for C–S–H materials, though it did not validate the original central value.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2022-04-04"
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "not_applicable",
+        "rationale": "The claimed phenomenon required megabar pressures and was not presented as a mature product, workflow, standard, or routine practice application.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "No supplied source establishes substantive independent use at least three years after the 2020 publication within the 2021–2024 window.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No supplied source provides a positive independent assessment at least three years after publication within the allowed window.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive follow-up is documented in at least 2021 and 2022.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2021-03-04"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "no",
+        "rationale": "The supplied review includes the contribution but does not adopt its central claim as valid or useful; it states the claim was unconfirmed and unsupported.",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2022-03-25"
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied source establishes a dated follow-up in 2023 or 2024 demonstrating late use or a positive late assessment.",
+      "The supplied sources do not document commercial, workflow, standard, or product adoption.",
+      "The supplied sources contain conflicting assessments of hydride superconductivity generally, but no independent validation of this paper's specific 287.7 K C–S–H claim."
+    ]
+  },
+  "validation_rejected": [
+    "claim_supported",
+    "stronger_test",
+    "central_claim_retained",
+    "independent_extension",
+    "independent_comparison",
+    "advantage_retained",
+    "continued_relevance"
+  ],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 2,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.6
+      },
+      "uptake": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 1,
+        "no": 1,
+        "unknown": 2,
+        "not_applicable": 1,
+        "coverage": 0.5,
+        "known_index": 0.5,
+        "lower_bound": 0.25,
+        "upper_bound": 0.75
+      },
+      "durability": {
+        "yes": 1,
+        "no": 1,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 0.5,
+        "lower_bound": 0.2,
+        "upper_bound": 0.8
+      }
+    },
+    "known_answers": 8,
+    "coverage": 0.42500000000000004,
+    "score": null,
+    "lower_bound": 0.21250000000000002,
+    "upper_bound": 0.7875000000000001,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "fb306ce51a73e7f743f74ec14264da728b3380dd56f363ed1f23a925edfa91ff",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 89950,
+      "input_tokens_details": {
+        "cache_write_tokens": 89947,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3369,
+      "output_tokens_details": {
+        "reasoning_tokens": 1428
+      },
+      "total_tokens": 93319
+    },
+    "input_tokens_estimate": 89707,
+    "truncated": false
+  }
+}

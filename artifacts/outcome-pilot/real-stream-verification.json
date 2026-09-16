@@ -1,0 +1,32 @@
+{
+  "stages": [
+    "queued",
+    "masking",
+    "encoding",
+    "inference",
+    "inference",
+    "inference",
+    "inference",
+    "inference",
+    "inference",
+    "inference",
+    "inference",
+    "inference",
+    "inference",
+    "inference",
+    "inference",
+    "inference",
+    "inference",
+    "inference",
+    "inference",
+    "inference",
+    "inference",
+    "inference",
+    "aggregating",
+    "result"
+  ],
+  "model_id": "agent-rubric-convergence-round-3-wording-seed42-d1767de845",
+  "chunks": 19,
+  "score": 0.8369916848838329,
+  "verified": true
+}

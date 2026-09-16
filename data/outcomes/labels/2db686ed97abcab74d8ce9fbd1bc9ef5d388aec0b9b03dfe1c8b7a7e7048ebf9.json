@@ -1,0 +1,319 @@
+{
+  "id": "https://openalex.org/W2922482404",
+  "title": "Anonymous Auction Protocol Based on Time-Released Encryption Atop Consortium BlockChain",
+  "doi": "https://doi.org/10.5121/ijait.2019.9101",
+  "year": 2019,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "validation",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2023-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:13:57.323940+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://doi.org/10.5121/ijait.2019.9101",
+    "method": "pdf_all_pages",
+    "http_status": 200,
+    "characters": 48219,
+    "truncated": false,
+    "sha256": "19eb9e6aa2d62b1d7f252d8ac733d8bc0494bd33a1a789124183e697f07adae0",
+    "retrieved_at": "2026-09-16T19:12:49.978633+00:00"
+  },
+  "retrieval_version": 2,
+  "research_plan": {
+    "queries": [
+      "(\"sealed-bid auction\" OR \"sealed bid auction\") blockchain (\"time-release encryption\" OR \"timed-release encryption\" OR TRE) (\"blind signature\" OR anonymity) (extension OR application OR protocol) after:2019-12-31 before:2024-01-01 -tutorial -youtube -social",
+      "(\"Anonymous Auction Protocol\" OR \"10.5121/ijait.2019.9101\") (replication OR reproduce OR \"security analysis\" OR critique OR attack OR vulnerability OR benchmark) (\"consortium blockchain\" OR Ethereum OR \"smart contract\") after:2019-12-31 before:2024-01-01 -tutorial -youtube -social",
+      "(\"sealed-bid auction\" blockchain) (\"time-release public-key encryption\" OR \"timed-release encryption\" OR \"elliptic-curve blind signature\") (survey OR review OR taxonomy OR \"systematic literature review\" OR state-of-the-art) after:2019-12-31 before:2024-01-01 -tutorial -youtube -social",
+      "(\"privacy-preserving auction\" OR \"anonymous auction\") (\"consortium blockchain\" OR permissioned blockchain) (\"smart contract\" OR \"public verifiability\") (deployment OR prototype OR implementation OR adoption OR \"formal security\" OR theoretical) after:2019-12-31 before:2024-01-01 -tutorial -youtube -social"
+    ],
+    "selected_urls": [
+      "https://dl.acm.org/doi/pdf/10.1145/3576915.3623182",
+      "https://onlinelibrary.wiley.com/doi/pdf/10.1155/2021/6690766",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0020025523002633",
+      "https://docs.drand.love/blog/2023/03/28/timelock-on-fastnet",
+      "https://eprint.iacr.org/2022/1498.pdf",
+      "https://arxiv.org/pdf/2305.08691"
+    ],
+    "plan_usage": {
+      "cache_key": "20896381e56d6df36be0d678d88e053a4930b3ffcf401c82985264c178df0bb6",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 11233,
+        "input_tokens_details": {
+          "cache_write_tokens": 11230,
+          "cached_tokens": 0
+        },
+        "output_tokens": 612,
+        "output_tokens_details": {
+          "reasoning_tokens": 307
+        },
+        "total_tokens": 11845
+      },
+      "input_tokens_estimate": 11199,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "628e046d471bf68318dd8d20952a9eecd64eb61b17d61147c9b26ec3867166a8",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 1691,
+        "input_tokens_details": {
+          "cache_write_tokens": 1688,
+          "cached_tokens": 0
+        },
+        "output_tokens": 344,
+        "output_tokens_details": {
+          "reasoning_tokens": 209
+        },
+        "total_tokens": 2035
+      },
+      "input_tokens_estimate": 1657,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3576915.3623182",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:13:39.324506+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/2021/6690766",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:13:39.355567+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0020025523002633",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:13:39.423109+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://docs.drand.love/blog/2023/03/28/timelock-on-fastnet",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 13590,
+      "truncated": false,
+      "sha256": "80326a4b0ce7edd7d7f03a7b84ceaade14c9b300c31f49e510ab9a242705adb5",
+      "retrieved_at": "2026-09-16T19:13:38.944296+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://eprint.iacr.org/2022/1498.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 149897,
+      "truncated": false,
+      "sha256": "d967899a8f4f895d1737f8eb097daab5e15a53d6c0ab3972840175c40ba709c6",
+      "retrieved_at": "2026-09-16T19:13:39.648969+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://arxiv.org/pdf/2305.08691",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 166583,
+      "truncated": false,
+      "sha256": "f0995e7dd67bef8662904b24c2740235019ba2ba7d4c1ee4ce3f25a40f6d1540",
+      "retrieved_at": "2026-09-16T19:13:40.526331+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "The full texts of the 2021 BA2P paper, 2023 Riggs paper, and 2023 trustworthy-auction paper were unavailable or blocked.",
+      "No supplied source explicitly links a later implementation, replication, comparison, review, or deployment to the 2019 Xiong–Wang protocol.",
+      "The supplied 2022 and 2023 documents discuss related constructions but do not establish paper-specific uptake or validation."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "940f2d72a055875741ca9eee6060292b79f778dca6dfcf911ad0118c27186c99",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 98565,
+      "input_tokens_details": {
+        "cache_write_tokens": 98562,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1611,
+      "output_tokens_details": {
+        "reasoning_tokens": 639
+      },
+      "total_tokens": 100176
+    },
+    "input_tokens_estimate": 98322,
+    "truncated": false
+  }
+}

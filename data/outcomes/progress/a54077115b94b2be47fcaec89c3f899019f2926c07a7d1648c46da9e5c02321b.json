@@ -1,0 +1,14 @@
+{
+  "id": "econ-10.1257/aer.102.2.865",
+  "title": "Thar She Bursts: Reducing Confusion Reduces Bubbles",
+  "year": 2012,
+  "field_id": 20,
+  "field": "Economics",
+  "split": "train",
+  "sampling_cohort": "econ_complete_2016",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:49:47.235233+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 4,
+  "score": null
+}

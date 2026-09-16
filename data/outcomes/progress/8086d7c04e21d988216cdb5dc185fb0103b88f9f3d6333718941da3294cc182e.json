@@ -1,0 +1,14 @@
+{
+  "id": "challenge-superconductor",
+  "title": "Room-temperature superconductivity in a carbonaceous sulfur hydride",
+  "year": 2020,
+  "field_id": 31,
+  "field": "Physics",
+  "split": "challenge",
+  "sampling_cohort": "agent_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T19:31:38.207355+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 10,
+  "score": null
+}

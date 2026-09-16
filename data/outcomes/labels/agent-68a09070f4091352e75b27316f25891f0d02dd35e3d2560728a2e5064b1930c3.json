@@ -1,0 +1,326 @@
+{
+  "id": "https://openalex.org/W2515590705",
+  "title": "The 'pay ratio' provision of the Dodd-Frank Act 2010 and presentation of the Paulo–Le Roux Index",
+  "doi": "https://doi.org/10.4102/sajhrm.v14i1.803",
+  "year": 2016,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:48:21.198542+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 10,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://sajhrm.co.za/index.php/sajhrm/article/download/803/1064",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Executive remuneration divided by modeled intrinsic operating value measures remuneration relative to executive value added.",
+    "The index can guide governance and resource-allocation decisions using audited financial statements across firms and subunits."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://sajhrm.co.za/index.php/sajhrm/article/download/803/1064",
+      "title": "The 'pay ratio' provision of the Dodd-Frank Act 2010 and presentation of the Paulo–Le Roux Index",
+      "date": "2016-08-19",
+      "date_basis": "publication",
+      "kind": "original_study",
+      "read": true,
+      "independent": false,
+      "finding": "Defines a remuneration-to-intrinsic-value index and proposes governance uses; empirical surveys are future work.",
+      "characters": null,
+      "method": "original_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://sajhrm.co.za/index.php/sajhrm/article/view/1084/1732",
+      "title": "Accounting for uncontrollable factors in executive incentive scheme designs",
+      "date": "2019-07-22",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Dhliwayo and Bussin explicitly note that the index treats uncontrollable factors as endogenous; their interviews examine other incentive-design approaches.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.efmaefm.org/0EFMAMEETINGS/EFMA%20ANNUAL%20MEETINGS/2023-UK/papers/EFMA%202023_stage-4455_question-Full%20Paper_id-330.pdf",
+      "title": "Hierarchical Pay Incentives and Firm Performance",
+      "date": "2023",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Cites the article for disclosure-policy motivation; its empirical pay-dispersion measures do not instantiate the Paulo–Le Roux formula.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S4",
+      "url": "https://ajoeijournal.org/sys/index.php/ajoei/article/download/880/1025",
+      "title": "Executive Compensation Disparities: Analysing Pay Ratios Across Global Retail Sectors",
+      "date": "2025-07-11",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Analyzes pay ratios in sixteen retailers and cites the article contextually; does not calculate the named intrinsic-value index.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No independent test establishes that this ratio isolates executive-created value or improves governance decisions.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No independent calculation or reconstruction of the exact index was found in the later empirical papers.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "Later studies analyze generic pay dispersion or incentive design rather than testing the index on a larger dataset.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The 2019 discussion raises uncontrollable-factor attribution; it does not provide an authoritative retention or rejection of the full index.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The proposed extensive empirical surveys and stakeholder calibration were not verified as completed.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Later remuneration studies cite the article, but substantive modification of its specific formula was not shown.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The three later teams offer contextual discussion; two independent direct applications or extensions were not established.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Neither the 2023 hierarchy study nor the 2025 retail study calculates remuneration divided by the proposed intrinsic valuation.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No review identifies the named index as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The 2019 paper contrasts its treatment of uncontrollable factors conceptually, but does not use the index as a tested baseline or reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No independent application demonstrates improved pay decisions or resource allocation from the index.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Use across divisions, projects or countries is proposed in the original but not independently demonstrated.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "New pay-dispersion results rely on other measures; they are not shown to depend on this index.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "No organization or regulator was verified as adopting the named index in an operational pay-setting process.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair evaluation establishes its claimed informational benefit over existing pay or performance metrics.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Later citations after 2019 discuss disclosure and pay ratios without verified substantive reuse of the index itself.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No post-August-2019 independent assessment validates the core executive-value measurement claim.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Follow-up citations occur in several years, but substantive follow-up of the specific formula in two years was not established.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent synthesis was found adopting this index as a validated or useful measurement instrument.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The retrieved newer remuneration literature does not explicitly demonstrate retained usefulness of this index alongside alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Full original and relevant later methods/discussion were accessible. Generic pay-ratio research is not evidence that the specific intrinsic-value formula was used.",
+      "The 2019 critique flags attribution of uncontrollable influences but does not empirically falsify all claimed uses. Absence of a retrieved adoption report is not evidence of nonadoption."
+    ],
+    "summary": "The index attracted discussion of uncontrollable factors and contextual citations in later pay-ratio studies. Independent validation, formula reuse and operational adoption were not established."
+  },
+  "research_plan": {
+    "queries": [
+      "\"Paulo\" \"Le Roux Index\"",
+      "\"10.4102/sajhrm.v14i1.803\"",
+      "\"Paulo–Le Roux\" index validation adoption",
+      "\"Paulo\" \"Le Roux\" \"index\" remuneration critique empirical 2020 2023",
+      "\"Paulo-Le Roux Index\" company adoption application criticism",
+      "\"Hierarchical Pay Incentives and Firm Performance\""
+    ],
+    "search_log": [
+      {
+        "query": "\"Paulo\" \"Le Roux Index\"",
+        "purpose": "Find exact-index use, independent follow-up, contrary assessment and institutional adoption",
+        "urls_read": [
+          "https://sajhrm.co.za/index.php/sajhrm/article/download/803/1064"
+        ]
+      },
+      {
+        "query": "\"10.4102/sajhrm.v14i1.803\"",
+        "purpose": "Find exact-index use, independent follow-up, contrary assessment and institutional adoption",
+        "urls_read": [
+          "https://sajhrm.co.za/index.php/sajhrm/article/view/1084/1732",
+          "https://www.efmaefm.org/0EFMAMEETINGS/EFMA%20ANNUAL%20MEETINGS/2023-UK/papers/EFMA%202023_stage-4455_question-Full%20Paper_id-330.pdf",
+          "https://ajoeijournal.org/sys/index.php/ajoei/article/download/880/1025"
+        ]
+      },
+      {
+        "query": "\"Paulo–Le Roux\" index validation adoption",
+        "purpose": "Find exact-index use, independent follow-up, contrary assessment and institutional adoption",
+        "urls_read": []
+      },
+      {
+        "query": "\"Paulo\" \"Le Roux\" \"index\" remuneration critique empirical 2020 2023",
+        "purpose": "Find exact-index use, independent follow-up, contrary assessment and institutional adoption",
+        "urls_read": []
+      },
+      {
+        "query": "\"Paulo-Le Roux Index\" company adoption application criticism",
+        "purpose": "Find exact-index use, independent follow-up, contrary assessment and institutional adoption",
+        "urls_read": []
+      },
+      {
+        "query": "\"Hierarchical Pay Incentives and Firm Performance\"",
+        "purpose": "Find exact-index use, independent follow-up, contrary assessment and institutional adoption",
+        "urls_read": []
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex independent batch-3 research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

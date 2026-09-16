@@ -1,0 +1,301 @@
+{
+  "id": "ssrp-10.1126/science.1239918",
+  "title": "Reading literary fiction improves theory of mind.",
+  "doi": "10.1126/science.1239918",
+  "year": 2013,
+  "field_id": 32,
+  "field": "Psychology / behavioral science",
+  "split": "calibration",
+  "sampling_cohort": "ssrp_complete_2018",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:45:36.170769+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 13,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24091705/",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "Brief literary-fiction reading temporarily improves theory-of-mind performance relative to nonfiction or popular fiction."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf",
+      "title": "Camerer et al. SSRP supplementary methods and Tables 1, 3 and 4",
+      "date": "2018-08-27",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Literary fiction versus nonfiction failed in pooled SSRP: r=-.027, p=.468, N=714. A different independent replication of Experiment 5 reported support, but its synthesis found a small nonsignificant heterogeneous effect.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://online.ucpress.edu/collabra/article/4/1/7/112955/The-Effect-of-Reading-a-Short-Passage-of-Literary",
+      "title": "The Effect of Reading a Short Passage of Literary Fiction on Theory of Mind: A Replication of Kidd and Castano (2013)",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent Experiment 5 replication finds literary-fiction advantage under specified covariate/exclusion choices; a small meta-analysis is nonsignificant and heterogeneous.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "At least one independent replication reports a supportive literary-fiction effect under its specified analysis. Other well-powered tests are null and synthesis remains mixed, so this existential yes is not a consensus judgment.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2018",
+            "explanation": "At least one independent replication reports a supportive literary-fiction effect under its specified analysis. Other well-powered tests are null and synthesis remains mixed, so this existential yes is not a consensus judgment."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "At least one independent replication reports a supportive literary-fiction effect under its specified analysis. Other well-powered tests are null and synthesis remains mixed, so this existential yes is not a consensus judgment.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2018",
+            "explanation": "At least one independent replication reports a supportive literary-fiction effect under its specified analysis. Other well-powered tests are null and synthesis remains mixed, so this existential yes is not a consensus judgment."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The larger SSRP nonfiction contrast is null; the separate Experiment 5 popular-fiction contrast is supportive under analysis choices. A paper-wide stronger-test verdict is ambiguous.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Literary fiction versus nonfiction failed in pooled SSRP: r=-.027, p=.468, N=714. A different independent replication of Experiment 5 reported support, but its synthesis found a small nonsignificant heterogeneous effect. The central interpretation or cross-study evidence remains unsettled.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "At least one independent replication reports a supportive literary-fiction effect under its specified analysis. Other well-powered tests are null and synthesis remains mixed, so this existential yes is not a consensus judgment.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2018",
+            "explanation": "At least one independent replication reports a supportive literary-fiction effect under its specified analysis. Other well-powered tests are null and synthesis remains mixed, so this existential yes is not a consensus judgment."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "This is an evidence-rich replication cohort, not a representative sample of all science or an unbiased measure of lifetime impact.",
+      "Only specified experimental contrasts have direct replication evidence; unknown utility, adoption and durability answers must not be interpreted as failure.",
+      "Searches were completed through 2026-09-16 but do not claim exhaustive coverage of every citation or unpublished result.",
+      "Original assessment is explicitly abstract-only; full original body was not obtained. Training input contains the complete original abstract without publisher summaries."
+    ],
+    "summary": "Literary fiction versus nonfiction failed in pooled SSRP: r=-.027, p=.468, N=714. A different independent replication of Experiment 5 reported support, but its synthesis found a small nonsignificant heterogeneous effect. This grade preserves uncertain broader outcomes instead of converting replication status into universal success."
+  },
+  "research_plan": {
+    "queries": [
+      "Social Science Replication Project 21 studies Camerer 2018 original papers list supplementary",
+      "FIRST_PDATE:[2010-01-01 TO 2015-12-31] AND TITLE:\"Reading literary fiction improves theory of mind\"",
+      "\"Reading literary fiction improves theory of mind\" replication Panero 2016"
+    ],
+    "search_log": [
+      {
+        "query": "Social Science Replication Project 21 studies Camerer 2018 original papers list supplementary",
+        "purpose": "Enumerate the complete cohort and inspect preregistered selected contrasts and results.",
+        "urls_read": [
+          "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf",
+          "https://www.nature.com/articles/s41562-018-0399-z"
+        ]
+      },
+      {
+        "query": "FIRST_PDATE:[2010-01-01 TO 2015-12-31] AND TITLE:\"Reading literary fiction improves theory of mind\"",
+        "purpose": "Resolve original title, DOI and abstract in Europe PMC; inspect accessible original.",
+        "urls_read": [
+          "https://pubmed.ncbi.nlm.nih.gov/24091705/"
+        ]
+      },
+      {
+        "query": "\"Reading literary fiction improves theory of mind\" replication Panero 2016",
+        "purpose": "Check independent follow-up and contrary evidence beyond the common replication summary.",
+        "urls_read": [
+          "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf",
+          "https://online.ucpress.edu/collabra/article/4/1/7/112955/The-Effect-of-Reading-a-Short-Passage-of-Literary"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 3,
+    "coverage": 0.15000000000000002,
+    "score": null,
+    "lower_bound": 0.15000000000000002,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent / SSRP expansion",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

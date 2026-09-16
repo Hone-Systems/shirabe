@@ -1,0 +1,362 @@
+{
+  "id": "https://openalex.org/W2515590705",
+  "title": "The 'pay ratio' provision of the Dodd-Frank Act 2010 and presentation of the Paulo–Le Roux Index",
+  "doi": "https://doi.org/10.4102/sajhrm.v14i1.803",
+  "year": 2016,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2020-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:20:19.609118+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://sajhrm.co.za/index.php/sajhrm/article/download/803/1064",
+    "method": "pdf_all_pages",
+    "http_status": 200,
+    "characters": 73709,
+    "truncated": false,
+    "sha256": "1fff8ce72f55db5aac28cd5d461da3df4dc32d4fe855532f699306ed9c33866d",
+    "retrieved_at": "2026-09-16T19:14:00.014625+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "Paulo–Le Roux Index applications extensions executive remuneration intrinsic value audited financial statements",
+      "Paulo–Le Roux Index replication empirical validity executive value added WACC",
+      "Dodd-Frank pay ratio executive compensation literature review Paulo–Le Roux Index",
+      "Paulo–Le Roux Index corporate governance incentive compensation resource allocation"
+    ],
+    "selected_urls": [
+      "https://lsa.umich.edu/content/dam/orgstudies-assets/orgstudiesdocuments/oshonors/oshonorsthesis/Hu_Vivian_FINAL%20THESIS%20v12%20(1).pdf",
+      "https://rex.libraries.wsu.edu/esploro/outputs/doctoral/The-Usefulness-of-the-Dodd-Frank-Pay/99900581497201842",
+      "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3294503_code2455393.pdf?abstractid=3234013&mirid=1&type=2",
+      "https://scholarlycommons.law.emory.edu/cgi/viewcontent.cgi?article=1108&context=faculty-articles",
+      "https://www.sec.gov/newsroom/speeches-statements/statement-open-meeting-pay-ratio-aguilar",
+      "https://corpgov.law.harvard.edu/2015/08/05/the-ceo-pay-ratio-rule",
+      "https://www.stern.nyu.edu/sites/default/files/assets/documents/Palia_paper.pdf",
+      "https://www.equitymethods.com/articles/sec-reopened-comments-dodd-frank-pay-ratio-rule-heres-public-said"
+    ],
+    "plan_usage": {
+      "cache_key": "2fd71c3cb7324fbf721feecf87cf5d90cd0569ec71c4be02acf0fc88690e2cad",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 14160,
+        "input_tokens_details": {
+          "cache_write_tokens": 14157,
+          "cached_tokens": 0
+        },
+        "output_tokens": 411,
+        "output_tokens_details": {
+          "reasoning_tokens": 333
+        },
+        "total_tokens": 14571
+      },
+      "input_tokens_estimate": 14126,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "20d55306e38c88c0f9ce45affefdb937774d39f33bc4b8004d92ec97199303b9",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 8374,
+        "input_tokens_details": {
+          "cache_write_tokens": 8371,
+          "cached_tokens": 0
+        },
+        "output_tokens": 538,
+        "output_tokens_details": {
+          "reasoning_tokens": 277
+        },
+        "total_tokens": 8912
+      },
+      "input_tokens_estimate": 8340,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://lsa.umich.edu/content/dam/orgstudies-assets/orgstudiesdocuments/oshonors/oshonorsthesis/Hu_Vivian_FINAL%20THESIS%20v12%20(1).pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 136026,
+      "truncated": false,
+      "sha256": "21ab700ae75e1debd212440bca97c23bcf632da3087d081e4f74038b98f782d1",
+      "retrieved_at": "2026-09-16T19:19:58.950246+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://rex.libraries.wsu.edu/esploro/outputs/doctoral/The-Usefulness-of-the-Dodd-Frank-Pay/99900581497201842",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 8419,
+      "truncated": false,
+      "sha256": "f59a84fdd48ef5a0c1e97088225fcedde806805b9aa77dfe3635960f60d3c393",
+      "retrieved_at": "2026-09-16T19:20:06.568276+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3294503_code2455393.pdf?abstractid=3234013&mirid=1&type=2",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:20:00.888846+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://scholarlycommons.law.emory.edu/cgi/viewcontent.cgi?article=1108&context=faculty-articles",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 246811,
+      "truncated": false,
+      "sha256": "4e0efb8d6b1a7224946829714d9b6da3dd0eabae38be23af0ecda02a93a0cdab",
+      "retrieved_at": "2026-09-16T19:19:57.016303+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.sec.gov/newsroom/speeches-statements/statement-open-meeting-pay-ratio-aguilar",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 19338,
+      "truncated": false,
+      "sha256": "2dbd7b8dc7c0e15d2e0c250b2f12d3f42884e6abfc1119a13429ca0b606f12e4",
+      "retrieved_at": "2026-09-16T19:19:57.487277+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://corpgov.law.harvard.edu/2015/08/05/the-ceo-pay-ratio-rule",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 12964,
+      "truncated": false,
+      "sha256": "5aaff2cc337072c0368743dcd3bae9125cf68d8a2deabb2f25017ce79db926e0",
+      "retrieved_at": "2026-09-16T19:19:57.860781+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://www.stern.nyu.edu/sites/default/files/assets/documents/Palia_paper.pdf",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 68212,
+      "truncated": false,
+      "sha256": "0cc494bdb6f19de3b91142b6434f35fdfcaaf0dbf8a084e3acd90d931f86f321",
+      "retrieved_at": "2026-09-16T19:19:58.363583+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://www.equitymethods.com/articles/sec-reopened-comments-dodd-frank-pay-ratio-rule-heres-public-said",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 19116,
+      "truncated": false,
+      "sha256": "925498dd3691588fb87c086f00b4c5304a5d78f3ca12c1a6cfb9c75456bc223a",
+      "retrieved_at": "2026-09-16T19:19:58.764012+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up source explicitly supports the Paulo–Le Roux Index or its central claim; the supplied later studies concern the Dodd–Frank pay-ratio disclosure generally.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up source reports an independent reproduction of the index, its construction, or its central result.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up source reports a larger, stricter, or independently collected test of the Paulo–Le Roux Index.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "No supplied authoritative assessment explicitly evaluates and retains the index’s central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up sources do not explicitly test the index’s stated limitations or show that its contribution remains useful afterward.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "No supplied source documents a substantive extension of the Paulo–Le Roux Index by an independent group.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "No supplied source identifies at least two independent groups substantively building on this specific index.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The later supplied studies use Dodd–Frank pay-ratio data, but none supplied actually uses the Paulo–Le Roux Index or its valuation method.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No supplied review explicitly identifies the Paulo–Le Roux Index as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No supplied independent study uses the Paulo–Le Roux Index as a baseline, benchmark, or reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up source demonstrates a concrete scientific or practical benefit from independently applying this index.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "No supplied source documents successful use of the index outside the original paper’s proposed setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up source attributes a new result, measurement, theorem, or capability to the Paulo–Le Roux Index.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The index could in principle be used in managerial or remuneration workflows, but no supplied source documents adoption in a product, workflow, standard, or practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No supplied independent comparison evaluates whether an advantage claimed for the Paulo–Le Roux Index holds under fair evaluation.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "No supplied source documents substantive use of this specific index at least three years after its 2016 publication.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No supplied source provides a positive independent assessment of this specific index at least three years after publication.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Although supplied sources are dated 2019 and 2020, they address Dodd–Frank pay-ratio disclosure and do not document substantive follow-up on the Paulo–Le Roux Index.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No supplied systematic review, textbook, standard, or research synthesis adopts the Paulo–Le Roux Index as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No supplied later evidence explicitly shows that the Paulo–Le Roux Index remained useful despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "The supplied follow-up sources do not contain a paper-specific citation trail for the Paulo–Le Roux Index.",
+      "No supplied source reports independent empirical applications, replications, critiques, or authoritative assessments of the index during 2017–2020.",
+      "The supplied 2019 and 2020 documents focus on Dodd–Frank pay-ratio disclosure rather than the Paulo–Le Roux Index.",
+      "The supplied 2022 bank-compensation study falls outside the permitted follow-up window and does not concern this index."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "1b9b1d06ecdb5842c57dc6d94fd0e55d474b66f6c731b5c68d357892d62f06d0",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 145208,
+      "input_tokens_details": {
+        "cache_write_tokens": 145205,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1396,
+      "output_tokens_details": {
+        "reasoning_tokens": 411
+      },
+      "total_tokens": 146604
+    },
+    "input_tokens_estimate": 144965,
+    "truncated": false
+  }
+}

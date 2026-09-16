@@ -15,7 +15,7 @@ export default defineConfig({
   ],
   webServer: {
     command:
-      "uv run --directory .. uvicorn shirabe.api:app --host 127.0.0.1 --port 8790",
+      "uv run --no-sync --directory .. uvicorn shirabe.api:app --host 127.0.0.1 --port 8790",
     url: "http://127.0.0.1:8790/api/health",
     reuseExistingServer: false,
     timeout: 30000,

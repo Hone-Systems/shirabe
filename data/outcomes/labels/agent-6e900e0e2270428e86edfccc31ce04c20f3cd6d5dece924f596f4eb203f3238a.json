@@ -1,0 +1,294 @@
+{
+  "id": "historic-10.1126/science.1112286",
+  "title": "Patient-specific embryonic stem cells derived from human SCNT blastocysts",
+  "doi": "10.1126/science.1112286",
+  "year": 2005,
+  "field_id": 5,
+  "field": "Biology",
+  "split": "train",
+  "sampling_cohort": "historical_failure_augmentation",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:59:11.657885+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 21,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://api.crossref.org/works/10.1126/science.1112286",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "Eleven patient-matched pluripotent embryonic stem-cell lines were produced from human SCNT blastocysts efficiently across patient sex and age."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "I",
+      "url": "https://en.snu.ac.kr/snunow/snu_media/news?bbsidx=71497&md=v",
+      "title": "SNU Investigation Committee: Summary of the Final Report on Professor Woo Suk Hwang’s Research Allegations",
+      "date": "2006-01-10",
+      "date_basis": "publication",
+      "kind": "institutional_investigation",
+      "independent": true,
+      "read": true,
+      "finding": "The 2005 article claimed eleven lines; only two underlying lines existed and came from IVF, not SCNT. Fingerprinting, teratoma photographs, MHC matches and other evidence were fabricated. Report distinguishes some cloned-blastocyst technical ability from failure to establish the claimed patient-specific cell lines.",
+      "characters": null,
+      "method": "institutional_investigation",
+      "truncated": false
+    },
+    {
+      "source_id": "T",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3772789/",
+      "title": "Tachibana et al. Human Embryonic Stem Cells Derived by Somatic Cell Nuclear Transfer",
+      "date": "2013-05-15",
+      "date_basis": "publication",
+      "kind": "primary_study_excerpt",
+      "independent": true,
+      "read": true,
+      "finding": "Read indexed author discussion and abstract: reports first successful human SCNT-derived embryonic stem cells through systematic protocol changes. This establishes later feasibility of the broader goal, not authenticity of Hwang’s reported eleven lines.",
+      "characters": null,
+      "method": "primary_study_excerpt",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "no",
+        "rationale": "The institutional inquiry directly examined the reported cell evidence and rejected the eleven patient-specific SCNT-line claim: underlying cells were IVF derived and supporting records fabricated. This does not deny later independent feasibility of human SCNT.",
+        "evidence": [
+          {
+            "source_id": "I",
+            "date": "2006-01-10",
+            "explanation": "The institutional inquiry directly examined the reported cell evidence and rejected the eleven patient-specific SCNT-line claim: underlying cells were IVF derived and supporting records fabricated. This does not deny later independent feasibility of human SCNT."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "no",
+        "rationale": "The institutional inquiry directly examined the reported cell evidence and rejected the eleven patient-specific SCNT-line claim: underlying cells were IVF derived and supporting records fabricated. This does not deny later independent feasibility of human SCNT.",
+        "evidence": [
+          {
+            "source_id": "I",
+            "date": "2006-01-10",
+            "explanation": "The institutional inquiry directly examined the reported cell evidence and rejected the eleven patient-specific SCNT-line claim: underlying cells were IVF derived and supporting records fabricated. This does not deny later independent feasibility of human SCNT."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "This bounded research did not establish the specific outcome. No universal negative is inferred from missing evidence.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Original complete author abstract read through publisher-deposited Crossref metadata; MIT full PDF download failed. Model input contains only that abstract.",
+      "No substantive scientific reuse or operational implementation of this specific reported result established. Later general SCNT success must not be credited as reproduction of these cell lines."
+    ],
+    "summary": "The claimed eleven patient-specific stem-cell lines were not authentic SCNT products according to the primary investigation. Later successful human SCNT is a different achievement and does not validate this paper’s fabricated results."
+  },
+  "research_plan": {
+    "queries": [
+      "Hwang 2005 Patient-specific embryonic stem cells science1112286 pdf",
+      "Hwang 2005 Science retraction 2006 Seoul university report fabricated 11 cell lines",
+      "Hwang 2005 SCNT 2013 Tachibana human embryonic stem cells derived somatic cell nuclear transfer"
+    ],
+    "search_log": [
+      {
+        "query": "Hwang 2005 Patient-specific embryonic stem cells science1112286 pdf",
+        "purpose": "Verify original identity, contrary evidence and later scientific outcomes",
+        "urls_read": [
+          "https://en.snu.ac.kr/snunow/snu_media/news?bbsidx=71497&md=v",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3772789/"
+        ]
+      },
+      {
+        "query": "Hwang 2005 Science retraction 2006 Seoul university report fabricated 11 cell lines",
+        "purpose": "Verify original identity, contrary evidence and later scientific outcomes",
+        "urls_read": [
+          "https://en.snu.ac.kr/snunow/snu_media/news?bbsidx=71497&md=v",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3772789/"
+        ]
+      },
+      {
+        "query": "Hwang 2005 SCNT 2013 Tachibana human embryonic stem cells derived somatic cell nuclear transfer",
+        "purpose": "Verify original identity, contrary evidence and later scientific outcomes",
+        "urls_read": [
+          "https://en.snu.ac.kr/snunow/snu_media/news?bbsidx=71497&md=v",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3772789/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 2,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.6
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 2,
+    "coverage": 0.1,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 0.9,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent expand_manylabs; targeted training augmentation",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

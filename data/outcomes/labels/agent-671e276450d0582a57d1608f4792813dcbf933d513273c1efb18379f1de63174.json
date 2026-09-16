@@ -1,0 +1,349 @@
+{
+  "id": "rpcb-10.1038/nature11071",
+  "title": "Melanoma genome sequencing reveals frequent PREX2 mutations",
+  "doi": "https://doi.org/10.1038/nature11071",
+  "year": 2012,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:14:02.541380+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 14,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3367798/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Melanoma genomes contain recurrent PREX2 mutations.",
+    "Selected mutant PREX2 alleles accelerate tumor formation in NRAS-mutant human melanocyte xenografts."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "R",
+      "url": "https://doi.org/10.7554/eLife.21634",
+      "title": "Replication Study: Melanoma genome sequencing reveals frequent PREX2 mutations",
+      "date": "2017",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "No significant mutant/control tumor-free-survival difference; unexpectedly rapid tumors in all controls confounded acceleration test.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "H",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6385191/",
+      "title": "Somatic mutations of PREX2 gene in patients with hepatocellular carcinoma",
+      "date": "2019",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent HCC study followed the PREX2 mutation lead, identifying S1113R-mediated stability and migration changes; different cancer and allele.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "HCC mutant activity supports a related extension, but does not establish the original melanoma alleles; direct replication was confounded.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2017",
+            "explanation": "HCC mutant activity supports a related extension, but does not establish the original melanoma alleles; direct replication was confounded."
+          },
+          {
+            "source_id": "H",
+            "date": "2019",
+            "explanation": "HCC mutant activity supports a related extension, but does not establish the original melanoma alleles; direct replication was confounded."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "All controls developed tumors too quickly to resolve the claimed acceleration, so nonsignificance is not definitive disproof.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2017",
+            "explanation": "All controls developed tumors too quickly to resolve the claimed acceleration, so nonsignificance is not definitive disproof."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The independent xenograft comparison lacked the intended control tumor-free window.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2017",
+            "explanation": "The independent xenograft comparison lacked the intended control tumor-free window."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Independent investigators explicitly extended PREX2 mutation biology to HCC and characterized a distinct functional allele.",
+        "evidence": [
+          {
+            "source_id": "H",
+            "date": "2019",
+            "explanation": "Independent investigators explicitly extended PREX2 mutation biology to HCC and characterized a distinct functional allele."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Independent replication recreated the original PREX2 variants in the original melanocyte model.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2017",
+            "explanation": "Independent replication recreated the original PREX2 variants in the original melanocyte model."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Following the PREX2 mutation lead yielded a functional stability/migration mechanism in HCC.",
+        "evidence": [
+          {
+            "source_id": "H",
+            "date": "2019",
+            "explanation": "Following the PREX2 mutation lead yielded a functional stability/migration mechanism in HCC."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "PREX2 mutation characterization was productively extended to hepatocellular carcinoma, with distinct alleles.",
+        "evidence": [
+          {
+            "source_id": "H",
+            "date": "2019",
+            "explanation": "PREX2 mutation characterization was productively extended to hepatocellular carcinoma, with distinct alleles."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The independent extension established S1113R stability and AKT/migration effects in HCC.",
+        "evidence": [
+          {
+            "source_id": "H",
+            "date": "2019",
+            "explanation": "The independent extension established S1113R stability and AKT/migration effects in HCC."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2017 study substantively recreated original variants; 2019 HCC work extended mutation biology.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2017",
+            "explanation": "The 2017 study substantively recreated original variants; 2019 HCC work extended mutation biology."
+          },
+          {
+            "source_id": "H",
+            "date": "2019",
+            "explanation": "The 2017 study substantively recreated original variants; 2019 HCC work extended mutation biology."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent replication and extension were documented in 2017 and 2019.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2017",
+            "explanation": "Independent replication and extension were documented in 2017 and 2019."
+          },
+          {
+            "source_id": "H",
+            "date": "2019",
+            "explanation": "Independent replication and extension were documented in 2017 and 2019."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No blanket negative from a confounded experiment.",
+      "The original 14% mutation prevalence and all allele-specific functional claims were not comprehensively re-estimated.",
+      "External frozen cohort only; never training, selection, calibration or tuning. Absence of adoption evidence remains unknown."
+    ],
+    "summary": "Direct melanoma replication was inconclusive because tumors arose rapidly in controls. Later independent PREX2 work produced useful results in HCC, which must not be mistaken for validation of the specific melanoma alleles."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1038/nature11071",
+      "https://doi.org/10.7554/eLife.21634"
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1038/nature11071",
+        "purpose": "Resolve original identity and author text through Europe PMC, publisher and NCBI BioC",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3367798/"
+        ]
+      },
+      {
+        "query": "https://doi.org/10.7554/eLife.21634",
+        "purpose": "Read assigned preregistered replication and follow its supporting and contrary references",
+        "urls_read": [
+          "https://doi.org/10.7554/eLife.21634",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6385191/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 7,
+    "coverage": 0.35,
+    "score": null,
+    "lower_bound": 0.35,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

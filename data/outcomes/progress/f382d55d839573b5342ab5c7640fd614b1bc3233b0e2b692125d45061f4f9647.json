@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W2956519671",
+  "title": "Cherenkov Radiation in the Visible and Ultraviolet Spectral Ranges from 6-MeV Electrons Passing through a Quartz Plate",
+  "year": 2019,
+  "field_id": 31,
+  "field": "Physics and Astronomy",
+  "split": "validation",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:02:54.971384+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 2,
+  "score": null
+}

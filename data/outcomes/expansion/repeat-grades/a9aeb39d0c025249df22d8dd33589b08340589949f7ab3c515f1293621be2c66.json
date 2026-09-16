@@ -1,0 +1,258 @@
+{
+  "id": "ml2-10.1111/j.1468-0017.2006.00297.x",
+  "doi": "https://doi.org/10.1111/j.1468-0017.2006.00297.x",
+  "title": "A dissociation between moral judgments and justifications",
+  "year": 2007,
+  "field_id": 16,
+  "field": "Psychology",
+  "sampling_cohort": "manylabs2_complete_2018",
+  "split": "train",
+  "as_of": "2026-09-16",
+  "original_source": {
+    "url": "https://moralitylab.bc.edu/wp-content/uploads/sites/192/2011/10/mind_lang_2007.pdf",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Moral judgments follow double-effect distinctions across sampled demographics.",
+    "Most participants cannot justify the distinctions, suggesting judgment/introspection dissociation."
+  ],
+  "sources": [
+    {
+      "source_id": "O",
+      "url": "https://moralitylab.bc.edu/wp-content/uploads/sites/192/2011/10/mind_lang_2007.pdf",
+      "title": "A dissociation between moral judgments and justifications",
+      "date": "2007",
+      "date_basis": "publication",
+      "kind": "original_paper",
+      "read": true,
+      "independent": false,
+      "finding": "Original text identifies broader thesis beyond the selected replication comparison."
+    },
+    {
+      "source_id": "S1",
+      "url": "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf",
+      "title": "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": false,
+      "finding": "Trolley scenarios reproduce permissibility differences but do not test justification dissociation; original coauthors Cushman and Young are consortium authors."
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.joshdmay.com/wp-content/media/feltz-may-dde-meta-analysis.pdf",
+      "title": "The Means/Side-Effect Distinction in Moral Cognition: A Meta-Analysis",
+      "date": "2017",
+      "date_basis": "publication",
+      "kind": "systematic_review",
+      "read": true,
+      "independent": true,
+      "finding": "Feltz and May include Hauser2007 experiments; aggregate difference persists but personal contact strongly moderates it."
+    }
+  ],
+  "answers": [
+    {
+      "id": "claim_supported",
+      "answer": "unknown",
+      "rationale": "The two original permissibility contrasts recur in ML2 (d=1.35 and .25), but ML2 does not assess the headline judgment\u2013justification dissociation. Original coauthors also participate in the consortium. This is partial support, not sufficient evidence for an unqualified central-thesis judgment.",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "date": "2018",
+          "explanation": "The two original permissibility contrasts recur in ML2 (d=1.35 and .25), but ML2 does not assess the headline judgment\u2013justification dissociation. Original coauthors also participate in the consortium. This is partial support, not sufficient evidence for an unqualified central-thesis judgment."
+        },
+        {
+          "source_id": "S2",
+          "date": "2017",
+          "explanation": "The two original permissibility contrasts recur in ML2 (d=1.35 and .25), but ML2 does not assess the headline judgment\u2013justification dissociation. Original coauthors also participate in the consortium. This is partial support, not sufficient evidence for an unqualified central-thesis judgment."
+        }
+      ]
+    },
+    {
+      "id": "independent_reproduction",
+      "answer": "unknown",
+      "rationale": "The two original permissibility contrasts recur in ML2 (d=1.35 and .25), but ML2 does not assess the headline judgment\u2013justification dissociation. Original coauthors also participate in the consortium. This is partial support, not sufficient evidence for an unqualified central-thesis judgment.",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "date": "2018",
+          "explanation": "The two original permissibility contrasts recur in ML2 (d=1.35 and .25), but ML2 does not assess the headline judgment\u2013justification dissociation. Original coauthors also participate in the consortium. This is partial support, not sufficient evidence for an unqualified central-thesis judgment."
+        },
+        {
+          "source_id": "S2",
+          "date": "2017",
+          "explanation": "The two original permissibility contrasts recur in ML2 (d=1.35 and .25), but ML2 does not assess the headline judgment\u2013justification dissociation. Original coauthors also participate in the consortium. This is partial support, not sufficient evidence for an unqualified central-thesis judgment."
+        }
+      ]
+    },
+    {
+      "id": "stronger_test",
+      "answer": "unknown",
+      "rationale": "The two original permissibility contrasts recur in ML2 (d=1.35 and .25), but ML2 does not assess the headline judgment\u2013justification dissociation. Original coauthors also participate in the consortium. This is partial support, not sufficient evidence for an unqualified central-thesis judgment.",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "date": "2018",
+          "explanation": "The two original permissibility contrasts recur in ML2 (d=1.35 and .25), but ML2 does not assess the headline judgment\u2013justification dissociation. Original coauthors also participate in the consortium. This is partial support, not sufficient evidence for an unqualified central-thesis judgment."
+        },
+        {
+          "source_id": "S2",
+          "date": "2017",
+          "explanation": "The two original permissibility contrasts recur in ML2 (d=1.35 and .25), but ML2 does not assess the headline judgment\u2013justification dissociation. Original coauthors also participate in the consortium. This is partial support, not sufficient evidence for an unqualified central-thesis judgment."
+        }
+      ]
+    },
+    {
+      "id": "central_claim_retained",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "limitations_survived",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "independent_extension",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "multiple_groups",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "method_reused",
+      "answer": "yes",
+      "rationale": "The independent 2017 meta-analysis includes both Hauser2007 contrasts as usable quantitative evidence and estimates contact-dependent effects across 101 studies. Inclusion supports substantive synthesis use, not the stronger unconscious-principle interpretation.",
+      "evidence": [
+        {
+          "source_id": "S2",
+          "date": "2017",
+          "explanation": "The independent 2017 meta-analysis includes both Hauser2007 contrasts as usable quantitative evidence and estimates contact-dependent effects across 101 studies. Inclusion supports substantive synthesis use, not the stronger unconscious-principle interpretation."
+        }
+      ]
+    },
+    {
+      "id": "new_research_direction",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "independent_comparison",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "external_utility",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "beyond_original_setting",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "enabled_new_result",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "operational_adoption",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "advantage_retained",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "late_use",
+      "answer": "yes",
+      "rationale": "The independent 2017 meta-analysis includes both Hauser2007 contrasts as usable quantitative evidence and estimates contact-dependent effects across 101 studies. Inclusion supports substantive synthesis use, not the stronger unconscious-principle interpretation.",
+      "evidence": [
+        {
+          "source_id": "S2",
+          "date": "2017",
+          "explanation": "The independent 2017 meta-analysis includes both Hauser2007 contrasts as usable quantitative evidence and estimates contact-dependent effects across 101 studies. Inclusion supports substantive synthesis use, not the stronger unconscious-principle interpretation."
+        }
+      ]
+    },
+    {
+      "id": "late_positive_assessment",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "multiple_followup_years",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    },
+    {
+      "id": "synthesis_inclusion",
+      "answer": "yes",
+      "rationale": "The independent 2017 meta-analysis includes both Hauser2007 contrasts as usable quantitative evidence and estimates contact-dependent effects across 101 studies. Inclusion supports substantive synthesis use, not the stronger unconscious-principle interpretation.",
+      "evidence": [
+        {
+          "source_id": "S2",
+          "date": "2017",
+          "explanation": "The independent 2017 meta-analysis includes both Hauser2007 contrasts as usable quantitative evidence and estimates contact-dependent effects across 101 studies. Inclusion supports substantive synthesis use, not the stronger unconscious-principle interpretation."
+        }
+      ]
+    },
+    {
+      "id": "continued_relevance",
+      "answer": "unknown",
+      "rationale": "No sufficient claim-specific evidence established in inspected sources for this dimension; absence is not failure.",
+      "evidence": []
+    }
+  ],
+  "search_log": [
+    {
+      "query": "GET https://moralitylab.bc.edu/wp-content/uploads/sites/192/2011/10/mind_lang_2007.pdf",
+      "purpose": "Verify original thesis and read primary author text",
+      "urls_read": [
+        "https://moralitylab.bc.edu/wp-content/uploads/sites/192/2011/10/mind_lang_2007.pdf"
+      ]
+    },
+    {
+      "query": "\"Hauser\" \"2007\" \"dissociation\" replication moral judgments justifications",
+      "purpose": "Find claim-specific independent outcomes and contrary evidence",
+      "urls_read": [
+        "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf"
+      ]
+    },
+    {
+      "query": "\"means/side-effect distinction\" \"meta-analysis\" pdf",
+      "purpose": "Inspect systematic synthesis and contrary contact-moderation evidence",
+      "urls_read": [
+        "https://www.joshdmay.com/wp-content/media/feltz-may-dde-meta-analysis.pdf"
+      ]
+    }
+  ],
+  "search_gaps": [
+    "Blind repeat: first researcher grades and drafts were not inspected.",
+    "A positive selected replication does not validate every central claim.",
+    "Downstream operational adoption and practical utility were not established."
+  ],
+  "researcher": "Codex /root/expand_econ blind independent repeat",
+  "summary": "Permissibility differences recur, including a smaller no-contact contrast. Independent synthesis uses the results but emphasizes contact moderation. The central justification dissociation is not tested by ML2, so full-thesis validation remains unknown."
+}

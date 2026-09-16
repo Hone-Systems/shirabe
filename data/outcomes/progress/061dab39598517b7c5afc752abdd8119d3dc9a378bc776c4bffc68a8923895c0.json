@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W2763496525",
+  "title": "Silent Adrenal Pheochromocytoma Coexistent with Corticomedullary Hyperplasia: A Case Incidentally Discovered",
+  "year": 2017,
+  "field_id": 27,
+  "field": "Medicine",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:03:23.078132+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 3,
+  "score": null
+}

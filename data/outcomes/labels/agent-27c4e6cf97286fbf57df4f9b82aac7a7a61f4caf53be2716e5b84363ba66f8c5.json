@@ -1,0 +1,312 @@
+{
+  "id": "https://openalex.org/W3120626491",
+  "title": "Kajian Kemasan Tape Ketan sebagai Identitas Khas Kuningan Jawa Barat",
+  "doi": "https://doi.org/10.61344/magenta.v2i02.37",
+  "year": 2018,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:46:02.162996+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 8,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract_and_introduction_only",
+  "original_source": {
+    "url": "https://paperity.org/p/342360823/kajian-kemasan-tape-ketan-sebagai-identitas-khas-kuningan-jawa-barat-studi-kasus-merek",
+    "scope": "abstract_and_introduction_only",
+    "read": true,
+    "central_claim": "Harum Sari black-bucket tape-ketan packaging persists as a distinctive Kuningan identity despite asserted plastic-safety concerns"
+  },
+  "central_claims": [
+    "The black bucket is a distinctive identity marker of Harum Sari/Kuningan tape ketan and is retained for that reason.",
+    "The paper asserts that plastic in this packaging presents health concerns."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S0",
+      "url": "https://paperity.org/p/342360823/kajian-kemasan-tape-ketan-sebagai-identitas-khas-kuningan-jawa-barat-studi-kasus-merek",
+      "title": "Kajian Kemasan Tape Ketan sebagai Identitas Khas Kuningan Jawa Barat: Studi Kasus Merek Harum Sari",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": false,
+      "scope": "abstract_and_introduction_only",
+      "read": true,
+      "finding": "A critical design case study links black-bucket packaging to Kuningan identity and raises material-safety concerns; only abstract and introductory text were accessible.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S1",
+      "url": "https://openlibrarypublications.telkomuniversity.ac.id/index.php/artdesign/id/article/view/9363",
+      "title": "Perancangan Kemasan Tape Ketan Sari Asih Kabupaten Kuningan",
+      "date": "2019-08-01",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "scope": "abstract_only",
+      "read": true,
+      "finding": "An independent design project on another brand proposes more attractive practical packaging; its abstract reports expected rather than measured sales benefits.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://scienggj.org/2025/2025%20Special%20Issue/26/SciEnggJ%202025%20Special%20Issue%20289-298-Nandiyanto%20et%20al.pdf",
+      "title": "FTIR analysis of pyrolyzed LLDPE and polystyrene microparticles and their chemical reaction mechanism completed with computational bibliometric literature review to support sustainable development goals (SDGs)",
+      "date": "2025",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "read": true,
+      "finding": "The target is cited in introductory discussion of plastic shredding. The experiments concern pyrolysis, not Harum Sari packaging identity or food safety.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Neither the different-brand design abstract nor the pyrolysis paper independently verifies the combined identity and safety claims for Harum Sari.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No independent repeat of the Harum Sari case analysis or direct food-contact material testing was located.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No broader consumer study or stricter toxicological test of the target packaging was verified.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "No later authoritative assessment of the Harum Sari identity and material-safety claims was located.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The original full limitations section was inaccessible; no follow-up resolving the case-study and material-testing limitations was identified.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The Sari Asih redesign concerns another brand; a substantive extension explicitly building on the target was not established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Two related publications do not establish two teams building on this specific contribution: one concerns another brand, the other pyrolysis.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The 2025 reference accompanies a generic statement about plastic shredding, not reuse of the target design analysis.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No review credits the Harum Sari case study with opening a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No later study uses the Harum Sari analysis as a measured baseline or comparison construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The Sari Asih project expresses expected sales benefits; no independently measured benefit from applying the target was found.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Packaging another brand does not establish that the target framework was transferred; no explicit successful application was verified.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The pyrolysis results are experimentally separate from the identity study; their citation does not show that this contribution enabled them.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Continued black-bucket sales would describe a pre-existing practice, not adoption of the paper; no attributable workflow change was documented.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No later comparison of a specific claimed design advantage was found; the incomplete original prevents safely classifying this question as inapplicable.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The 2025 citation is background to plastic processing; it does not establish substantive late use of the identity contribution.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No independent positive evaluation of the central identity and safety claims after July 2021 was verified.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The located 2019 and 2025 works do not establish substantive target-specific independent follow-up in two years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The 2025 bibliometric component concerns plastic pyrolysis; it does not synthesize the packaging identity claim as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No later evaluation compares the target conclusions with newer packaging materials or consumer-identity evidence.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Abstract/introduction-only assessment: original publisher PDF was indexed but actual repeat opens and download returned 404; alternative publisher path failed, and the mirror explicitly truncates the original.",
+      "No direct food-contact safety assay or independent identity study of Harum Sari was read. The paper’s health claim is recorded as its claim, not adopted as a demonstrated fact.",
+      "Assigned Computer Science metadata is retained although the paper is a visual-design case study.",
+      "Lifetime observation through 2026-09-16; the assigned pilot sample is not an unbiased estimate of all research outcomes."
+    ],
+    "summary": "Outcome evidence is insufficient. A related redesign and a later plastic-processing citation do not validate or substantively apply this particular case study. All twenty outcomes remain unknown."
+  },
+  "research_plan": {
+    "queries": [
+      "Kajian Kemasan Tape Ketan Identitas Kuningan",
+      "10.61344/magenta.v2i02.37",
+      "Rukiah 2018 tape kemasan",
+      "Harum Sari ember kemasan penelitian 2021 2024",
+      "Kajian Kemasan Tape Ketan replikasi kritik koreksi"
+    ],
+    "search_log": [
+      {
+        "query": "Kajian Kemasan Tape Ketan Identitas Kuningan",
+        "purpose": "Resolve original",
+        "urls_read": [
+          "https://paperity.org/p/342360823/kajian-kemasan-tape-ketan-sebagai-identitas-khas-kuningan-jawa-barat-studi-kasus-merek"
+        ]
+      },
+      {
+        "query": "10.61344/magenta.v2i02.37",
+        "purpose": "Check identity and publisher access",
+        "urls_read": [
+          "https://paperity.org/p/342360823/kajian-kemasan-tape-ketan-sebagai-identitas-khas-kuningan-jawa-barat-studi-kasus-merek"
+        ]
+      },
+      {
+        "query": "Rukiah 2018 tape kemasan",
+        "purpose": "Find later research",
+        "urls_read": [
+          "https://openlibrarypublications.telkomuniversity.ac.id/index.php/artdesign/id/article/view/9363",
+          "https://scienggj.org/2025/2025%20Special%20Issue/26/SciEnggJ%202025%20Special%20Issue%20289-298-Nandiyanto%20et%20al.pdf"
+        ]
+      },
+      {
+        "query": "Harum Sari ember kemasan penelitian 2021 2024",
+        "purpose": "Check implementation and later observation",
+        "urls_read": []
+      },
+      {
+        "query": "Kajian Kemasan Tape Ketan replikasi kritik koreksi",
+        "purpose": "Check criticism and replication",
+        "urls_read": []
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

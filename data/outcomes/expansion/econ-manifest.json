@@ -1,0 +1,136 @@
+{
+  "sampling_cohort": "econ_complete_2016",
+  "frozen_at": "2026-09-16",
+  "selection": "All 18 papers, references 33\u201350 in Camerer et al. 2016 supplement. Original cohort selected between-subject experiments meeting prespecified publication/design criteria; not representative of all science. No selection by replication outcome.",
+  "source": "https://authors.library.caltech.edu/records/gr9cr-qjb08/files/aaf0918-Camerer-SM.pdf",
+  "split_rule": "sha256(lowercase DOI) first8hex mod10; 0,1 test;2,3 validation;4 calibration;5..9 train",
+  "duplicates": [],
+  "papers": [
+    {
+      "id": "econ-10.1257/aer.101.2.470",
+      "doi": "10.1257/aer.101.2.470",
+      "year": 2011,
+      "citation": "J. Abeler, A. Falk, L. Goette, D. Huffman, Reference points and effort provision. Am. Econ. Rev. 101, 470\u2013492 (2011). doi:10.1257/aer.101.2.470",
+      "split": "validation"
+    },
+    {
+      "id": "econ-10.1257/aer.102.7.3317",
+      "doi": "10.1257/aer.102.7.3317",
+      "year": 2012,
+      "citation": "A. Ambrus, B. Greiner, Imperfect public monitoring with costly punishment: An experimental study. Am. Econ. Rev. 102, 3317\u20133332 (2012). doi:10.1257/aer.102.7.3317",
+      "split": "train"
+    },
+    {
+      "id": "econ-10.1257/aer.102.2.834",
+      "doi": "10.1257/aer.102.2.834",
+      "year": 2012,
+      "citation": "B. Bartling, E. Fehr, K. M. Schmidt, Screening, competition, and job design: Economic origins of good jobs. Am. Econ. Rev. 102, 834\u2013864 (2012). doi:10.1257/aer.102.2.834",
+      "split": "train"
+    },
+    {
+      "id": "econ-10.1257/aer.101.4.1211",
+      "doi": "10.1257/aer.101.4.1211",
+      "year": 2011,
+      "citation": "G. Charness, M. Dufwenberg, Participation. Am. Econ. Rev. 101, 1211\u20131237 (2011). doi:10.1257/aer.101.4.1211",
+      "split": "calibration"
+    },
+    {
+      "id": "econ-10.1257/aer.101.6.2562",
+      "doi": "10.1257/aer.101.6.2562",
+      "year": 2011,
+      "citation": "R. Chen, Y. Chen, The potential of social identity for equilibrium selection. Am. Econ. Rev. 101, 2562\u20132589 (2011). doi:10.1257/aer.101.6.2562",
+      "split": "train"
+    },
+    {
+      "id": "econ-10.1257/aer.104.11.3434",
+      "doi": "10.1257/aer.104.11.3434",
+      "year": 2014,
+      "citation": "G. de Clippel, K. Eliaz, B. G. Knight, On the selection of arbitrators. Am. Econ. Rev. 104, 3434\u20133458 (2014). doi:10.1257/aer.104.11.3434",
+      "split": "test"
+    },
+    {
+      "id": "econ-10.1257/aer.104.6.1735",
+      "doi": "10.1257/aer.104.6.1735",
+      "year": 2014,
+      "citation": "J. Duffy, D. Puzzello, Gift exchange versus monetary exchange: Theory and evidence. Am. Econ. Rev. 104, 1735\u20131776 (2014). doi:10.1257/aer.104.6.1735",
+      "split": "test"
+    },
+    {
+      "id": "econ-10.1257/aer.101.2.526",
+      "doi": "10.1257/aer.101.2.526",
+      "year": 2011,
+      "citation": "U. Dulleck, R. Kerschbamer, M. Sutter, The economics of credence goods: An experiment on the role of liability, verifiability, reputation, and competition. Am. Econ. Rev. 101, 526\u2013555 (2011). doi:10.1257/aer.101.2.526",
+      "split": "test"
+    },
+    {
+      "id": "econ-10.1093/qje/qjr034",
+      "doi": "10.1093/qje/qjr034",
+      "year": 2011,
+      "citation": "K. M. Marzilli Ericson, A. Fuster, Expectations as endowments: Evidence on reference- dependent preferences from exchange and valuation experiments. Q. J. Econ. 126, 1879\u2013 1907 (2011). doi:10.1093/qje/qjr034",
+      "split": "train"
+    },
+    {
+      "id": "econ-10.1257/aer.103.4.1325",
+      "doi": "10.1257/aer.103.4.1325",
+      "year": 2013,
+      "citation": "E. Fehr, H. Herz, T. Wilkening, The lure of authority: Motivation and incentive effects of power. Am. Econ. Rev. 103, 1325\u20131359 (2013). doi:10.1257/aer.103.4.1325",
+      "split": "validation"
+    },
+    {
+      "id": "econ-10.1257/aer.102.1.337",
+      "doi": "10.1257/aer.102.1.337",
+      "year": 2012,
+      "citation": "D. Friedman, R. Oprea, A continuous dilemma. Am. Econ. Rev. 102, 337\u2013363 (2012). doi:10.1257/aer.102.1.337",
+      "split": "train"
+    },
+    {
+      "id": "econ-10.1257/aer.102.2.720",
+      "doi": "10.1257/aer.102.2.720",
+      "year": 2012,
+      "citation": "D. Fudenberg, D. G. Rand, A. Dreber, Slow to anger and fast to forgive: Cooperation in an uncertain world. Am. Econ. Rev. 102, 720\u2013749 (2012). doi:10.1257/aer.102.2.720",
+      "split": "validation"
+    },
+    {
+      "id": "econ-10.1257/aer.101.2.819",
+      "doi": "10.1257/aer.101.2.819",
+      "year": 2011,
+      "citation": "S. Huck, A. J. Seltzer, B. Wallace, Deferred compensation in multiperiod labor contracts: An experimental test of Lazear\u2019s model. Am. Econ. Rev. 101, 819\u2013843 (2011). doi:10.1257/aer.101.2.819",
+      "split": "train"
+    },
+    {
+      "id": "econ-10.1257/aer.101.7.3109",
+      "doi": "10.1257/aer.101.7.3109",
+      "year": 2011,
+      "citation": "J. Ifcher, H. Zarghamee, Happiness and time preference: The effect of positive affect in a random-assignment experiment. Am. Econ. Rev. 101, 3109\u20133129 (2011). doi:10.1257/aer.101.7.3109",
+      "split": "train"
+    },
+    {
+      "id": "econ-10.1257/aer.102.5.2018",
+      "doi": "10.1257/aer.102.5.2018",
+      "year": 2012,
+      "citation": "J. B. Kessler, A. E. Roth, Organ allocation policy and the decision to donate. Am. Econ. Rev. 102, 2018\u20132047 (2012). doi:10.1257/aer.102.5.2018",
+      "split": "train"
+    },
+    {
+      "id": "econ-10.1257/aer.102.2.865",
+      "doi": "10.1257/aer.102.2.865",
+      "year": 2012,
+      "citation": "M. Kirchler, J. Huber, T. St\u00f6ckl, Thar she bursts: Reducing confusion reduces bubbles. Am. Econ. Rev. 102, 865\u2013883 (2012). doi:10.1257/aer.102.2.865",
+      "split": "train"
+    },
+    {
+      "id": "econ-10.1257/aer.101.2.927",
+      "doi": "10.1257/aer.101.2.927",
+      "year": 2011,
+      "citation": "S. Kogan, A. M. Kwasnica, R. A. Weber, Coordination in the presence of asset markets. Am. Econ. Rev. 101, 927\u2013947 (2011). doi:10.1257/aer.101.2.927",
+      "split": "train"
+    },
+    {
+      "id": "econ-10.1093/qje/qjt035",
+      "doi": "10.1093/qje/qjt035",
+      "year": 2014,
+      "citation": "I. Kuziemko, R. W. Buell, T. Reich, M. I. Norton, \u201cLast-place aversion\u201d: Evidence and redistributive implications. Q. J. Econ. 129, 105\u2013149 (2014). doi:10.1093/qje/qjt035",
+      "split": "test"
+    }
+  ]
+}

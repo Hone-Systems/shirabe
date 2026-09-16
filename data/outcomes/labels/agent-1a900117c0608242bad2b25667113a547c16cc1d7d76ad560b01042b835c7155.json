@@ -1,0 +1,321 @@
+{
+  "id": "rpcb-10.1016/j.cell.2011.05.040",
+  "title": "Biomechanical remodeling of the microenvironment by stromal caveolin-1 favors tumor invasion and metastasis",
+  "doi": "https://doi.org/10.1016/j.cell.2011.05.040",
+  "year": 2011,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:16:13.190530+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 15,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3244213/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Stromal caveolin-1 drives p190RhoGAP/Rho-dependent matrix contraction, alignment and stiffening, increasing tumor invasion and metastatic potency."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://doi.org/10.7554/eLife.45120",
+      "title": "Replication Study: Biomechanical remodeling of the microenvironment by stromal caveolin-1 favors tumor invasion and metastasis",
+      "date": "2019",
+      "date_basis": "publication",
+      "kind": "primary_replication",
+      "read": true,
+      "independent": true,
+      "finding": "Fibroblast matrix contraction was supported; metastatic burden did not show the predicted pattern, with 45-day versus roughly70-day follow-up and imaging differences limiting interpretation.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "primary_replication",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5674886/",
+      "title": "Cancer-associated fibroblasts lead tumor invasion through integrin-β3-dependent fibronectin assembly.",
+      "date": "2017-09-20",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent CAF experiments found fibronectin assembly necessary for invasion even with retained matrix contractility; this refines the mechanical-remodeling account.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5732321/",
+      "title": "Loss of Caveolin-1 in Metastasis-Associated Macrophages Drives Lung Metastatic Growth through Increased Angiogenesis.",
+      "date": "2017-12-01",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent work extends stromal Cav1 research to metastasis-associated macrophages, finding an anti-metastatic Cav1 function in that distinct compartment.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Matrix remodeling is supported, but the focal Cav1-dependent metastatic advantage remains unresolved in the direct replication.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "Shortened follow-up and imaging differences make the failed metastatic comparison inconclusive for the original full result.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The replication’s independent design cannot compensate for the substantially shorter metastasis observation window.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The sources retain parts of stromal remodeling while identifying cell-specific and temporal qualifications; no unambiguous authoritative retention of the complete causal chain was established.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Macrophage Cav1 has an opposite effect in a distinct compartment; this does not directly falsify or validate the original fibroblast-specific mechanism.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Celus and colleagues extend the stromal Cav1 question to bone-marrow-derived macrophages and establish a compartment-specific anti-metastatic mechanism.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-12-01",
+            "explanation": "Celus and colleagues extend the stromal Cav1 question to bone-marrow-derived macrophages and establish a compartment-specific anti-metastatic mechanism."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish two distinct independent teams building specifically on this contribution beyond replication or parallel discovery.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "No verified independent use beyond testing the original result was established for this specific proposed method or framework.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No independent review explicitly establishing that this specific paper enabled a research direction was read.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The evidence read does not settle this specific criterion; retained as unknown.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a separate demonstrated scientific or practical benefit attributable to applying this contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Different stromal cell types show opposite roles; this is not evidence that the original fibroblast mechanism successfully transfers across settings.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The later macrophage result is a substantive extension, but dependence on this particular original result rather than the broader Cav1 literature is not established.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Routine operational adoption was not verified; missing evidence is not nonadoption.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "A fair independent comparison validating a particular claimed advantage was not established.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2017 macrophage study substantively develops the role of stromal Cav1 in metastasis six years later.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-12-01",
+            "explanation": "The 2017 macrophage study substantively develops the role of stromal Cav1 in metastasis six years later."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "Later studies support matrix biology but the direct metastatic claim remains qualified.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent stromal/Cav1 research in 2017 and the direct replication in 2019 provide follow-up in separate years.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-12-01",
+            "explanation": "Independent stromal/Cav1 research in 2017 and the direct replication in 2019 provide follow-up in separate years."
+          },
+          {
+            "source_id": "S1",
+            "date": "2019",
+            "explanation": "Independent stromal/Cav1 research in 2017 and the direct replication in 2019 provide follow-up in separate years."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent synthesis explicitly adopting this exact contribution as valid or useful was read.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No source explicitly established continued utility despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "External cohort is high-impact2010–2012 cancer biology selected for replication feasibility/completion, not a random sample.",
+      "The20-question rubric is broader than the available replication endpoints; unknown answers are not scored as failures.",
+      "Literature inspection is bounded and not a systematic review through the as-of date; later uninspected evidence may change answers."
+    ],
+    "summary": "A mixed, technically qualified replication: Cav1-dependent contraction survives, whereas the metastatic prediction remains unresolved. Different Cav1 functions in macrophages are an extension, not proof that the fibroblast result failed."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1016/j.cell.2011.05.040",
+      "RPCB completed experiments Table1 Biomechanical remodeling of the microenvironment by stromal caveolin-1 favors tumor invasion and metastasis",
+      "Follow primary references in direct replication: Cancer-associated fibroblasts lead tumor invasion through integrin-β3-dependent fibronectin assembly., Loss of Caveolin-1 in Metastasis-Associated Macrophages Drives Lung Metastatic Growth through Increased Angiogenesis."
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1016/j.cell.2011.05.040",
+        "purpose": "Resolve original identity and read available original text before follow-up assessment.",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3244213/"
+        ]
+      },
+      {
+        "query": "RPCB completed experiments Table1 Biomechanical remodeling of the microenvironment by stromal caveolin-1 favors tumor invasion and metastasis",
+        "purpose": "Find the prespecified direct replication within the complete23-paper external cohort.",
+        "urls_read": [
+          "https://doi.org/10.7554/eLife.45120"
+        ]
+      },
+      {
+        "query": "Follow primary references in direct replication: Cancer-associated fibroblasts lead tumor invasion through integrin-β3-dependent fibronectin assembly., Loss of Caveolin-1 in Metastasis-Associated Macrophages Drives Lung Metastatic Growth through Increased Angiogenesis.",
+        "purpose": "Read independent extensions and contrary evidence; distinguish uptake from central-claim validation.",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5674886/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5732321/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 3,
+    "coverage": 0.15000000000000002,
+    "score": null,
+    "lower_bound": 0.15000000000000002,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent; shirabe-grade-paper",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W2986806412",
+  "title": "Cholesterol accumulation, lipid droplet formation, and steroid production in Leydig cells: Role of translocator protein (18‐kDa)",
+  "year": 2019,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "validation",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T19:41:47.533202+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 0,
+  "score": null
+}

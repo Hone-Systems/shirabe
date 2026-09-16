@@ -1,0 +1,267 @@
+{
+  "id": "ssrp-10.1126/science.1186799",
+  "title": "Washing away postdecisional dissonance.",
+  "doi": "10.1126/science.1186799",
+  "year": 2010,
+  "field_id": 32,
+  "field": "Psychology / behavioral science",
+  "split": "train",
+  "sampling_cohort": "ssrp_complete_2018",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:45:36.172065+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 16,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://www-2.rotman.utoronto.ca/facbios/file/Lee%20%26%20Schwarz%20%282010%29.%20Washing....%20Sci..pdf",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Hand washing eliminates postdecisional preference spreading in a choice task."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf",
+      "title": "Camerer et al. SSRP supplementary methods and Tables 1, 3 and 4",
+      "date": "2018-08-27",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "The washing manipulation did not reduce preference spreading: r=-.046, p=.436, N=286. An acknowledged album-order protocol deviation leaves a material construct-validity uncertainty.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The washing manipulation did not reduce preference spreading: r=-.046, p=.436, N=286. An acknowledged album-order protocol deviation leaves a material construct-validity uncertainty. The central interpretation or cross-study evidence remains unsettled.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The washing manipulation did not reduce preference spreading: r=-.046, p=.436, N=286. An acknowledged album-order protocol deviation leaves a material construct-validity uncertainty. The central interpretation or cross-study evidence remains unsettled.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The large replication was null, but an acknowledged album-order deviation could affect the dissonance manipulation. The sources explicitly leave its impact unresolved.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The washing manipulation did not reduce preference spreading: r=-.046, p=.436, N=286. An acknowledged album-order protocol deviation leaves a material construct-validity uncertainty. The central interpretation or cross-study evidence remains unsettled.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The washing manipulation did not reduce preference spreading: r=-.046, p=.436, N=286. An acknowledged album-order protocol deviation leaves a material construct-validity uncertainty. The central interpretation or cross-study evidence remains unsettled.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "This is an evidence-rich replication cohort, not a representative sample of all science or an unbiased measure of lifetime impact.",
+      "Only specified experimental contrasts have direct replication evidence; unknown utility, adoption and durability answers must not be interpreted as failure.",
+      "Searches were completed through 2026-09-16 but do not claim exhaustive coverage of every citation or unpublished result."
+    ],
+    "summary": "The washing manipulation did not reduce preference spreading: r=-.046, p=.436, N=286. An acknowledged album-order protocol deviation leaves a material construct-validity uncertainty. This grade preserves uncertain broader outcomes instead of converting replication status into universal success."
+  },
+  "research_plan": {
+    "queries": [
+      "Social Science Replication Project 21 studies Camerer 2018 original papers list supplementary",
+      "FIRST_PDATE:[2010-01-01 TO 2015-12-31] AND TITLE:\"Washing away postdecisional dissonance\"",
+      "\"Washing away postdecisional dissonance\" replication 2018 2020"
+    ],
+    "search_log": [
+      {
+        "query": "Social Science Replication Project 21 studies Camerer 2018 original papers list supplementary",
+        "purpose": "Enumerate the complete cohort and inspect preregistered selected contrasts and results.",
+        "urls_read": [
+          "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf",
+          "https://www.nature.com/articles/s41562-018-0399-z"
+        ]
+      },
+      {
+        "query": "FIRST_PDATE:[2010-01-01 TO 2015-12-31] AND TITLE:\"Washing away postdecisional dissonance\"",
+        "purpose": "Resolve original title, DOI and abstract in Europe PMC; inspect accessible original.",
+        "urls_read": [
+          "https://www-2.rotman.utoronto.ca/facbios/file/Lee%20%26%20Schwarz%20%282010%29.%20Washing....%20Sci..pdf"
+        ]
+      },
+      {
+        "query": "\"Washing away postdecisional dissonance\" replication 2018 2020",
+        "purpose": "Check independent follow-up and contrary evidence beyond the common replication summary.",
+        "urls_read": [
+          "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent / SSRP expansion",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

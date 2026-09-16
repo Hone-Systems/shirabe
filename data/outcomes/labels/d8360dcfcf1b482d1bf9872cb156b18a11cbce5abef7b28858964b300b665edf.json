@@ -1,0 +1,365 @@
+{
+  "id": "https://openalex.org/W3126891297",
+  "title": "First Mo–Bi intermetallic material",
+  "doi": "https://doi.org/10.1126/science.371.6529.581-e",
+  "year": 2021,
+  "field_id": 31,
+  "field": "Physics and Astronomy",
+  "split": "test",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2025-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:23:38.199885+00:00",
+  "input_scope": "abstract",
+  "original_source": {},
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "MoBi2 CuAl2 structure type properties applications transition-metal bismuth intermetallic extensions",
+      "MoBi2 random structure searching high-pressure prediction experimental replication validation",
+      "MoBi2 synthesis high-pressure CuAl2-type transition-metal bismuth intermetallics",
+      "DFT random structure searching Mo–Bi electronic-structure correlations analogous bismuth intermetallics"
+    ],
+    "selected_urls": [
+      "https://www.mdpi.com/2073-4352/14/2/155",
+      "https://www.osti.gov/pages/servlets/purl/1867018",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11245481",
+      "https://www.sciencedirect.com/topics/chemistry/elemental-bismuth",
+      "https://d-nb.info/1367711304/34",
+      "https://arch.library.northwestern.edu/concern/generic_works/x346d441h",
+      "https://www.alphaxiv.org/abs/2405.04184"
+    ],
+    "plan_usage": {
+      "cache_key": "0749c9f388caba47580526c950c7a2140f28aacd7425de0b05de90b8322aed63",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 341,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 502,
+        "output_tokens_details": {
+          "reasoning_tokens": 414
+        },
+        "total_tokens": 843
+      },
+      "input_tokens_estimate": 307,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "00c65f6e7ca4536f26763f4b34c537bad8f29758c7c1c2037f787b35ea77675f",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 5489,
+        "input_tokens_details": {
+          "cache_write_tokens": 5486,
+          "cached_tokens": 0
+        },
+        "output_tokens": 473,
+        "output_tokens_details": {
+          "reasoning_tokens": 336
+        },
+        "total_tokens": 5962
+      },
+      "input_tokens_estimate": 5455,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.mdpi.com/2073-4352/14/2/155",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 129484,
+      "truncated": false,
+      "sha256": "9dfbc624f908b9f3ec48f12edc44361c74d38932ef5df4d648ad4a8e3d62592d",
+      "retrieved_at": "2026-09-16T19:23:11.323402+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.osti.gov/pages/servlets/purl/1867018",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 167408,
+      "truncated": false,
+      "sha256": "d7304250c4be68df99ce7c7b44995191c54c2e85279bd14719f08417e32bfdcc",
+      "retrieved_at": "2026-09-16T19:23:16.528120+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11245481",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 165,
+      "truncated": false,
+      "sha256": "797046ee4f12c09d9451a261e28171268678a7d75dbb33033b6a89bce3e83439",
+      "retrieved_at": "2026-09-16T19:23:04.390441+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.sciencedirect.com/topics/chemistry/elemental-bismuth",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:23:04.368076+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://d-nb.info/1367711304/34",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 86547,
+      "truncated": false,
+      "sha256": "4011461b6fdee80c7ba580a4b513e37c7945b406600cd0874556319634da25f9",
+      "retrieved_at": "2026-09-16T19:23:06.027162+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://arch.library.northwestern.edu/concern/generic_works/x346d441h",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 4119,
+      "truncated": false,
+      "sha256": "af436d9199bc7cf7443042e6bf8c9eef234b400f5d8227dd5d3246ac34e170e2",
+      "retrieved_at": "2026-09-16T19:23:06.522650+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://www.alphaxiv.org/abs/2405.04184",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 1179,
+      "truncated": false,
+      "sha256": "54b9d76ccf2a6bc7ab7d1ff07a21c57df11d1fe96e5cb9b91db584defe06f204",
+      "retrieved_at": "2026-09-16T19:23:06.203568+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No later independent primary study in the supplied sources explicitly tests and supports this paper’s central claim.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The supplied post-2021 sources do not document an independent team reproducing the MoBi2 discovery or construction.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No later larger, stricter, or independently collected test of the MoBi2 claim is supplied.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "A later review lists MoBi2 as synthesized, but does not explicitly assess or retain the paper’s specific priority claim.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2025-03-24"
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up explicitly tests the paper’s stated limitations or shows the contribution remains useful after doing so.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "No later independent substantive extension specifically of the MoBi2 contribution is documented in the supplied sources.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The packet does not document substantive MoBi2 work by at least two independent groups after publication.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Later sources discuss high-pressure searches and bismuth flux generally, but do not establish independent reuse specifically of this paper’s method or result.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review explicitly identifies this specific MoBi2 contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No supplied independent study uses MoBi2 as an actual baseline, benchmark, or reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources do not demonstrate a concrete scientific or practical benefit independently obtained by applying MoBi2 or the paper’s discovery method.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "No supplied post-2021 study demonstrates successful use of this specific contribution outside the original Mo–Bi high-pressure setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No later source attributes a new measurement, theorem, capability, or other result to the MoBi2 contribution.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "not_applicable",
+        "rationale": "This paper concerns basic discovery of a high-pressure intermetallic phase, not a product, workflow, standard, or operational practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison evaluating a claimed advantage of the paper’s approach is supplied.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The 2025 review mentions MoBi2, but the supplied evidence does not establish substantive use at least three years after publication.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2025-03-24"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The later review is broadly positive about bismuth-based synthesis, but does not give a specific positive assessment of this paper’s central contribution.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2025-03-24"
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Only one clearly dated, relevant post-publication review year is supplied; substantive independent follow-up in two later calendar years is not documented.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2025-03-24"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The supplied later evidence shows continued mention, but does not explicitly show usefulness despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No later independent primary MoBi2 replication or validation study was supplied.",
+      "No source explicitly addresses whether MoBi2 remained the first Mo–Bi intermetallic after 2021.",
+      "No independent application, benchmark comparison, or operational adoption evidence was supplied.",
+      "Only one clearly relevant post-2021 publication year was available."
+    ]
+  },
+  "validation_rejected": [
+    "synthesis_inclusion"
+  ],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 1,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "cb9785ebccda181a86d4dad570e60b0443ed11f033afcec4295691dd65f4803f",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 126930,
+      "input_tokens_details": {
+        "cache_write_tokens": 126927,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2165,
+      "output_tokens_details": {
+        "reasoning_tokens": 892
+      },
+      "total_tokens": 129095
+    },
+    "input_tokens_estimate": 126687,
+    "truncated": false
+  }
+}

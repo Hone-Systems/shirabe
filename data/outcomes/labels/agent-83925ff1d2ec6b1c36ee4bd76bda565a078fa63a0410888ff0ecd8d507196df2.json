@@ -1,0 +1,355 @@
+{
+  "id": "rpcb-10.1016/j.cell.2012.08.026",
+  "title": "Transcriptional amplification in tumor cells with elevated c-Myc",
+  "doi": "https://doi.org/10.1016/j.cell.2012.08.026",
+  "year": 2012,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:16:13.194183+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 14,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3462372/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "High c-Myc amplifies the existing active transcriptional program rather than primarily activating a new target-gene set in cancer cells."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://doi.org/10.7554/eLife.30274",
+      "title": "Replication Study: Transcriptional amplification in tumor cells with elevated c-Myc",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_replication",
+      "read": true,
+      "independent": true,
+      "finding": "MYC induction raised active-gene expression, but also silent-gene expression; total RNA effects varied with serum lot. The original exclusive active-program interpretation was not fully recovered.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "primary_replication",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4110711/",
+      "title": "Selective transcriptional regulation by Myc in cellular growth control and lymphomagenesis.",
+      "date": "2014-07-09",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent genome-wide studies separate direct selective regulation from indirect global RNA changes and reject MYC as a direct global transcriptional amplifier.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4963202/",
+      "title": "Different promoter affinities account for specificity in MYC-dependent gene regulation.",
+      "date": "2016-07-27",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent quantitative modeling tests amplifier versus specifier accounts and finds promoter affinities/MYC levels explain gene-selective responses.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Active-gene amplification is observed, but independent studies disagree with the claim that direct global amplification is the primary mechanism.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The replication reproduced an active-gene increase but not the asserted lack of change in silent genes; the complete mechanism remains disputed.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "no",
+        "rationale": "Independent multi-system chromatin/RNA experiments separated promoter invasion from RNA amplification and rejected direct global amplification in favor of selective gene regulation.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-07-09",
+            "explanation": "Independent multi-system chromatin/RNA experiments separated promoter invasion from RNA amplification and rejected direct global amplification in favor of selective gene regulation."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Later work offers a quantitative reconciliation of selective and global observations, rather than unqualified retention of the original interpretation.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Serum effects and direct-versus-indirect transcriptional mechanisms remain consequential qualifications.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Lorenzin and colleagues explicitly develop and test promoter-affinity models to reconcile the amplifier hypothesis with gene specificity.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2016-07-27",
+            "explanation": "Lorenzin and colleagues explicitly develop and test promoter-affinity models to reconcile the amplifier hypothesis with gene specificity."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Sabò’s group and Lorenzin’s group independently develop substantial experimental and mechanistic follow-ups to the amplifier account.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-07-09",
+            "explanation": "Sabò’s group and Lorenzin’s group independently develop substantial experimental and mechanistic follow-ups to the amplifier account."
+          },
+          {
+            "source_id": "S3",
+            "date": "2016-07-27",
+            "explanation": "Sabò’s group and Lorenzin’s group independently develop substantial experimental and mechanistic follow-ups to the amplifier account."
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "No verified independent use beyond testing the original result was established for this specific proposed method or framework.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No independent review explicitly establishing that this specific paper enabled a research direction was read.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "rationale": "The amplifier account is an explicit competing model assessed with quantitative promoter-occupancy and expression measurements.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2016-07-27",
+            "explanation": "The amplifier account is an explicit competing model assessed with quantitative promoter-occupancy and expression measurements."
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a separate demonstrated scientific or practical benefit attributable to applying this contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Successful transfer of this specific contribution beyond the original setting was not established in the sources read.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The amplifier-versus-specifier problem leads to the independent promoter-affinity model and tests, without establishing the original explanation as universally correct.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2016-07-27",
+            "explanation": "The amplifier-versus-specifier problem leads to the independent promoter-affinity model and tests, without establishing the original explanation as universally correct."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Routine operational adoption was not verified; missing evidence is not nonadoption.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "A fair independent comparison validating a particular claimed advantage was not established.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The amplifier model remains a substantive experimental/modeling comparator in2016, four years later.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2016-07-27",
+            "explanation": "The amplifier model remains a substantive experimental/modeling comparator in2016, four years later."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "Later work retains parts of the observations but revises the mechanistic interpretation; no unqualified positive central-claim assessment was established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent studies in2014,2016 and2018 document sustained follow-up.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2014-07-09",
+            "explanation": "Independent studies in2014,2016 and2018 document sustained follow-up."
+          },
+          {
+            "source_id": "S3",
+            "date": "2016-07-27",
+            "explanation": "Independent studies in2014,2016 and2018 document sustained follow-up."
+          },
+          {
+            "source_id": "S1",
+            "date": "2018",
+            "explanation": "Independent studies in2014,2016 and2018 document sustained follow-up."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent synthesis explicitly adopting this exact contribution as valid or useful was read.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No source explicitly established continued utility despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "External cohort is high-impact2010–2012 cancer biology selected for replication feasibility/completion, not a random sample.",
+      "The20-question rubric is broader than the available replication endpoints; unknown answers are not scored as failures.",
+      "Literature inspection is bounded and not a systematic review through the as-of date; later uninspected evidence may change answers."
+    ],
+    "summary": "The influential amplifier hypothesis generated independent mechanistic research, but direct global amplification did not survive all follow-up tests. The grade preserves uptake separately from validation."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1016/j.cell.2012.08.026",
+      "RPCB completed experiments Table1 Transcriptional amplification in tumor cells with elevated c-Myc",
+      "Follow primary references in direct replication: Selective transcriptional regulation by Myc in cellular growth control and lymphomagenesis., Different promoter affinities account for specificity in MYC-dependent gene regulation."
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1016/j.cell.2012.08.026",
+        "purpose": "Resolve original identity and read available original text before follow-up assessment.",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3462372/"
+        ]
+      },
+      {
+        "query": "RPCB completed experiments Table1 Transcriptional amplification in tumor cells with elevated c-Myc",
+        "purpose": "Find the prespecified direct replication within the complete23-paper external cohort.",
+        "urls_read": [
+          "https://doi.org/10.7554/eLife.30274"
+        ]
+      },
+      {
+        "query": "Follow primary references in direct replication: Selective transcriptional regulation by Myc in cellular growth control and lymphomagenesis., Different promoter affinities account for specificity in MYC-dependent gene regulation.",
+        "purpose": "Read independent extensions and contrary evidence; distinguish uptake from central-claim validation.",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC4110711/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC4963202/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 1,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.8
+      },
+      "uptake": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 7,
+    "coverage": 0.35,
+    "score": null,
+    "lower_bound": 0.30000000000000004,
+    "upper_bound": 0.95,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent; shirabe-grade-paper",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "id": "https://openalex.org/W2502906121",
+  "title": "C-type natriuretic peptide and natriuretic peptide receptor B signalling inhibits cardiac sympathetic neurotransmission and autonomic function",
+  "doi": "https://doi.org/10.1093/cvr/cvw184",
+  "year": 2016,
+  "field_id": 27,
+  "field": "Medicine",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:56:19.659655+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 10,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://ora.ox.ac.uk/objects/uuid:2176768a-69e1-4f82-af13-ccf4630552f4",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "CNP acting through NPR-B reduces calcium signaling and norepinephrine release in cardiac sympathetic neurons.",
+    "Impaired neuronal CNP/NPR-B signaling produces sympathoexcitation, hypertension, tachycardia and reduced ventricular systolic function in transgenic rats."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "O",
+      "url": "https://ora.ox.ac.uk/objects/uuid:2176768a-69e1-4f82-af13-ccf4630552f4",
+      "title": "C-type natriuretic peptide and natriuretic peptide receptor B signalling inhibits cardiac sympathetic neurotransmission and autonomic function",
+      "date": "2016",
+      "date_basis": "publication",
+      "kind": "original",
+      "read": true,
+      "independent": false,
+      "finding": "Rat neuronal NPR-B inhibition and acute CNP experiments support a sympathoinhibitory mechanism; central action, dose and causal direction remain limitations.",
+      "characters": null,
+      "method": "original",
+      "truncated": false
+    },
+    {
+      "source_id": "P",
+      "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2023.1162699/full",
+      "title": "C-type natriuretic peptide (CNP) in the paraventricular nucleus-mediated renal sympatho-inhibition",
+      "date": "2023",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent PVN experiments extend the sympathoinhibitory question to renal output and central neurons, explicitly citing the stellate-neuron finding. NPR-C is implicated; NPR-B involvement is not excluded.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "R",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10264563/",
+      "title": "C-Type Natriuretic Peptide in Essential Hypertension: Old Ways for a New Time",
+      "date": "2023",
+      "date_basis": "publication",
+      "kind": "review",
+      "read": true,
+      "independent": true,
+      "finding": "Independent perspective retains neuronal NPR-B inhibition of calcium and norepinephrine release and the transgenic-rat hypertension finding, while stressing animal evidence and uncertain therapeutic translation.",
+      "characters": null,
+      "method": "review",
+      "truncated": false
+    },
+    {
+      "source_id": "C",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7068173/",
+      "title": "C-type natriuretic peptide co-ordinates cardiac structure and function",
+      "date": "2020",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Cardiomyocyte/fibroblast protection depends chiefly on NPR-C in these models. This tissue-specific result limits broad NPR-B cardioprotection claims but does not retest neuronal sympathetic transmission.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Central neuronal NPR-B results remain accepted, but the retrieved independent experiment tests central NPR-C-associated renal signaling, not the original cardiac neuronal mechanism.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No independent repeat of the stellate-neuron NPR-B and norepinephrine experiment was verified.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "Later cardiac and central-neuron studies do not supply a stronger test of the original neuronal NPR-B causal chain.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "The independent 2023 perspective retains the neuronal calcium/norepinephrine mechanism and transgenic-rat phenotype, within their animal scope.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2023",
+            "explanation": "Independent synthesis retains the stated neuronal result."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The original supracirculatory concentrations and peripheral-versus-central attribution remain unresolved by a matched independent test.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "An independent group extends the cited sympathetic inhibition finding to PVN neurons and renal sympathetic output.",
+        "evidence": [
+          {
+            "source_id": "P",
+            "date": "2023",
+            "explanation": "Substantive experimental extension."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "One independent experimental extension was verified; the separate cardiac-muscle study does not establish reuse of this neuronal result.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Shared physiological assays do not demonstrate adoption of the original neuronal-transgenic experimental method.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The central study pursues an adjacent question, but no source establishes that this paper originated a distinct research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "Neither the perspective nor adjacent receptor studies benchmark the original result against a competing mechanism in matched experiments.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Research uptake is visible, but practical use of the specific neuronal NPR-B result was not established.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The PVN study extends the physiological question, but does not apply the specific neuronal NPR-B result successfully in its new NPR-C-associated setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The PVN study cites the original finding, but does not show that its new result depended on this paper rather than wider CNP physiology.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "No clinical protocol or operational intervention attributable to this neuronal mechanism was verified.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No comparative therapeutic advantage for targeting neuronal NPR-B has been established in the sources read.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The central sympathetic study substantively invokes the neuronal finding seven years later.",
+        "evidence": [
+          {
+            "source_id": "P",
+            "date": "2023",
+            "explanation": "Substantive experimental extension."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The 2023 perspective presents the neuronal mechanism as part of the accepted animal evidence for CNP effects on blood pressure.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2023",
+            "explanation": "Independent synthesis retains the stated neuronal result."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Direct substantive uptake verified here is concentrated in 2023; the 2020 tissue study is not counted as a direct follow-up.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "The independent hypertension perspective integrates both neuronal calcium/norepinephrine and transgenic autonomic findings into its physiological account.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2023",
+            "explanation": "Independent synthesis retains the stated neuronal result."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later interest is clear, but no source explicitly demonstrates usefulness despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No independent matched replication of the original neuronal NPR-B experiments was verified.",
+      "Sinoatrial-node follow-up abstract was located but full text retrieval failed; not counted as outcome evidence.",
+      "Clinical CNP and other natriuretic-peptide uses cannot be attributed to this specific neuronal result."
+    ],
+    "summary": "The neuronal finding persists in independent synthesis and a later central-sympathetic investigation. Matched replication and clinical translation remain unverified; distinct NPR-C effects in heart muscle are not treated as confirmation or refutation of neuronal NPR-B."
+  },
+  "research_plan": {
+    "queries": [
+      "\"10.1093/cvr/cvw184\"",
+      "\"CNP\" \"sympathetic\" \"Buttgereit\" review 2023 2024",
+      "\"NPR-B\" \"sympathetic\" replication CNP",
+      "\"cvw184\" retraction correction"
+    ],
+    "search_log": [
+      {
+        "query": "\"10.1093/cvr/cvw184\"",
+        "purpose": "Identify original and citing studies",
+        "urls_read": [
+          "https://ora.ox.ac.uk/objects/uuid:2176768a-69e1-4f82-af13-ccf4630552f4"
+        ]
+      },
+      {
+        "query": "\"CNP\" \"sympathetic\" \"Buttgereit\" review 2023 2024",
+        "purpose": "Trace later synthesis and experimental use",
+        "urls_read": [
+          "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2023.1162699/full",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10264563/"
+        ]
+      },
+      {
+        "query": "\"NPR-B\" \"sympathetic\" replication CNP",
+        "purpose": "Look for matched replication and receptor-specific contrary evidence",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7068173/"
+        ]
+      },
+      {
+        "query": "\"cvw184\" retraction correction",
+        "purpose": "Check challenges and corrections",
+        "urls_read": []
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 5,
+    "coverage": 0.25,
+    "score": null,
+    "lower_bound": 0.25,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

@@ -1,0 +1,443 @@
+{
+  "id": "https://openalex.org/W3120767723",
+  "title": "Inference of Intercellular Communications and Multilayer Gene-Regulations of Epithelial–Mesenchymal Transition From Single-Cell Transcriptomic Data",
+  "doi": "https://doi.org/10.3389/fgene.2020.604585",
+  "year": 2021,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "test",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2025-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:19:32.820784+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://www.frontiersin.org/articles/10.3389/fgene.2020.604585/pdf",
+    "method": "pdf_all_pages",
+    "http_status": 200,
+    "characters": 81394,
+    "truncated": false,
+    "sha256": "38e3e3e627f198208afd154ead3f9e0ccc779bbaeaea1fb005a9985b67ec2993",
+    "retrieved_at": "2026-09-16T19:11:13.707760+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "QuanTC SoptSC PIDC multilayer network EMT single-cell transcriptomics extension",
+      "OVCA420 EMT QuanTC independent validation replication TGF-beta signaling",
+      "Intermediate cell states EMT single-cell communication multilayer gene regulation review",
+      "Multilayer network intercellular communication gene regulation cell fate modeling applications"
+    ],
+    "selected_urls": [
+      "https://www.nature.com/articles/s41540-025-00512-2",
+      "https://www.mdpi.com/1422-0067/23/12/6470",
+      "https://elifesciences.org/reviewed-preprints/92844",
+      "https://elifesciences.org/articles/88742",
+      "https://academic.oup.com/bib/article/26/6/bbaf664/8378202",
+      "https://arxiv.org/html/2512.03497v1",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7987693",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4180856",
+      "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0042436"
+    ],
+    "plan_usage": {
+      "cache_key": "6b72960b0f70434deebd45f0838338894771e5f3fbe9f68dd8854ab008fda3d8",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 19329,
+        "input_tokens_details": {
+          "cache_write_tokens": 19326,
+          "cached_tokens": 0
+        },
+        "output_tokens": 419,
+        "output_tokens_details": {
+          "reasoning_tokens": 346
+        },
+        "total_tokens": 19748
+      },
+      "input_tokens_estimate": 19295,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "c8de368bc19d7b8dd22589d9659916e1b622304ebb0b10b18c9bc470bf1d18ec",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 5472,
+        "input_tokens_details": {
+          "cache_write_tokens": 5469,
+          "cached_tokens": 0
+        },
+        "output_tokens": 693,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 6165
+      },
+      "input_tokens_estimate": 5438,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.nature.com/articles/s41540-025-00512-2",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 81720,
+      "truncated": false,
+      "sha256": "e3bd36121963d80b10c1be9119354919030f8d6dbe9fd4be288ed586e91cdcf0",
+      "retrieved_at": "2026-09-16T19:18:52.126887+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.mdpi.com/1422-0067/23/12/6470",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 148321,
+      "truncated": false,
+      "sha256": "7aba445c746dfc6b83705ea39d1781d1a71361cc17bf08b8ffc996c9eba6c4f2",
+      "retrieved_at": "2026-09-16T19:18:54.673015+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://elifesciences.org/reviewed-preprints/92844",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 84431,
+      "truncated": false,
+      "sha256": "b0be7afd6ec4841f8ccd69f2d2521f2f43fb955a024130f2e35c60e3345d7052",
+      "retrieved_at": "2026-09-16T19:18:49.965315+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://elifesciences.org/articles/88742",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 134246,
+      "truncated": false,
+      "sha256": "b37b01f7d4d988066220b31e27a1f6eb205c974a18eb4cc33e1a8c4f24d65f75",
+      "retrieved_at": "2026-09-16T19:18:50.167412+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://academic.oup.com/bib/article/26/6/bbaf664/8378202",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:19:05.451094+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://arxiv.org/html/2512.03497v1",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 156305,
+      "truncated": false,
+      "sha256": "e2b3fbc7eaeb10a296be11f4cfa7bf7c9bfcd22a1337f641b0ad9fa1436dc35e",
+      "retrieved_at": "2026-09-16T19:18:50.355962+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7987693",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 298757,
+      "truncated": false,
+      "sha256": "787b0fc541fcd742b18f39f9e905cd33139c06879e443800c2de6f3de4a3bbea",
+      "retrieved_at": "2026-09-16T19:18:52.627056+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4180856",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 165,
+      "truncated": false,
+      "sha256": "797046ee4f12c09d9451a261e28171268678a7d75dbb33033b6a89bce3e83439",
+      "retrieved_at": "2026-09-16T19:18:53.180880+00:00"
+    },
+    {
+      "source_id": "S9",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0042436",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 42214,
+      "truncated": false,
+      "sha256": "b25f41d3ed4831e8b0bcb27196b56b35d38d5af098e9a04db9a3688cfa1f5d5d",
+      "retrieved_at": "2026-09-16T19:18:53.135108+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "An independent 2025 primary study reports intermediate EMT states across multiple cancer types and stimuli, with independent validation in MCF10A cells, supporting the paper’s central intermediate-state finding.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2025-04-10"
+          },
+          {
+            "source_id": "S1",
+            "date": "2025-04-10"
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "A separate research team reproduced the existence of intermediate EMT states using twelve datasets across five cancer types and an independently analyzed cell line.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2025-04-10"
+          },
+          {
+            "source_id": "S1",
+            "date": "2025-04-10"
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "yes",
+        "rationale": "The later study used a larger and more diverse dataset collection and then tested predictions in an independently analyzed MCF10A system.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2025-04-10"
+          },
+          {
+            "source_id": "S1",
+            "date": "2025-04-10"
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up studies support intermediate EMT states, but no supplied authoritative assessment explicitly evaluates and retains the original paper’s full combined communication-plus-regulation claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Later work tested multiple cancer types, stimuli, and cell lines, but the supplied sources do not explicitly frame those tests as tests of the original paper’s stated limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The supplied sources document related extensions of intermediate-EMT and cell-communication analysis, but do not clearly establish a substantive extension explicitly attributed to this specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Several independent groups studied related intermediate EMT or communication questions, but the supplied texts do not clearly establish that at least two groups substantively built on this specific paper rather than the broader field.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The review lists SoptSC, but the supplied independent primary studies shown here use other methods; direct independent reuse of the paper’s proposed combined method is not established.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2025"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The supplied review describes a broad research direction in cell-cell communication inference, but does not explicitly identify this paper as enabling that direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No supplied source reports a direct benchmark or baseline comparison involving this paper’s specific framework.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "A later OSCC study generated potentially targetable communication hypotheses, but the supplied text does not demonstrate an independently validated scientific or practical benefit from applying this paper’s contribution.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022-06-09"
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "Independent studies applied related intermediate-EMT analyses across multiple tumor types, stimuli, a new mammary cell line, and developmental neural crest EMT.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2025-04-10"
+          },
+          {
+            "source_id": "S3",
+            "date": "2024-04-23"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "Later studies produced new markers and biological findings concerning intermediate EMT, but the supplied evidence does not establish that those results were enabled specifically by the original paper’s contribution.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "No supplied source documents adoption in a product, standard, clinical workflow, or routine practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No supplied independent fair comparison tests whether the original framework’s claimed advantages over alternatives are retained.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "A substantive independent study published in 2025, more than three years after the 2021 paper, analyzed intermediate EMT states across many datasets and validated a prediction.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2025-04-10"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The 2025 independent study positively reports reproducible intermediate EMT states and independently validates one predicted marker.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2025-04-10"
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive independent follow-up is documented in 2022, 2024, and 2025.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2025-04-10"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "A 2025 research synthesis includes the paper’s SoptSC method among methods that integrate intercellular communication with downstream signaling and transcriptional regulation.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2025"
+          },
+          {
+            "source_id": "S6",
+            "date": "2025"
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The supplied review shows that SoptSC remains listed among many methods, but does not explicitly state that the contribution remains useful despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied source directly reproduces the original paper’s complete SoptSC-plus-PIDC multilayer analysis on independent data.",
+      "No supplied source gives a direct benchmark comparison of the original framework against newer cell-cell communication methods.",
+      "No supplied source documents operational, clinical, product, or standard adoption.",
+      "The supplied follow-up texts support intermediate EMT states more clearly than the paper’s specific inferred communication and regulatory-network claims."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 8,
+    "coverage": 0.4,
+    "score": null,
+    "lower_bound": 0.4,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "a5b3e49d28f518e1eda52cb4c855101b61de006b020ed42e9ee7d37499a7ddb7",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 319003,
+      "input_tokens_details": {
+        "cache_write_tokens": 319000,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3146,
+      "output_tokens_details": {
+        "reasoning_tokens": 1277
+      },
+      "total_tokens": 322149
+    },
+    "input_tokens_estimate": 318760,
+    "truncated": false
+  }
+}

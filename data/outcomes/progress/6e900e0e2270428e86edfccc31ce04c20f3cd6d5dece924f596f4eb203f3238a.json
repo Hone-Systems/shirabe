@@ -1,0 +1,14 @@
+{
+  "id": "historic-10.1126/science.1112286",
+  "title": "Patient-specific embryonic stem cells derived from human SCNT blastocysts",
+  "year": 2005,
+  "field_id": 5,
+  "field": "Biology",
+  "split": "train",
+  "sampling_cohort": "historical_failure_augmentation",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:59:11.658171+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 2,
+  "score": null
+}

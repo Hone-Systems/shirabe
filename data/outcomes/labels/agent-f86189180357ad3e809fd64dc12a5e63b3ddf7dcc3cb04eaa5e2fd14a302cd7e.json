@@ -1,0 +1,376 @@
+{
+  "id": "rpcb-10.1038/nature11005",
+  "title": "Systematic identification of genomic markers of drug sensitivity in cancer cells",
+  "doi": "https://doi.org/10.1038/nature11005",
+  "year": 2012,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:14:02.544132+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 14,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3349233/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Large cancer-cell drug screens link genomic features with drug sensitivity and supply a biomarker discovery platform.",
+    "EWS-FLI1-positive Ewing sarcoma cells are selectively sensitive to PARP inhibitors."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "R",
+      "url": "https://doi.org/10.7554/eLife.29747",
+      "title": "Replication Study: Systematic identification of genomic markers of drug sensitivity in cancer cells",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Ewing versus osteosarcoma sensitivity difference was nonsignificant; engineered rearrangement and knockdown tests did not retain original differential sensitivity.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "D",
+      "url": "https://doi.org/10.1186/s12920-018-0336-z",
+      "title": "Unearthing new genomic markers of drug response by improved measurement of discriminative power",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent GDSC reanalysis found new markers and validated them in later data; filtering discarded spurious associations.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "C",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4230717/",
+      "title": "Phase II study of olaparib in patients with refractory Ewing sarcoma following failure of standard chemotherapy",
+      "date": "2014",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": false,
+      "finding": "No objective responses among 12 participants; monotherapy trial stopped accrual. Some authors overlap with original, so not independent confirmation.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "Independent GDSC reanalysis supported the platform as a source of experimentally validated biomarkers, not every original association.",
+        "evidence": [
+          {
+            "source_id": "D",
+            "date": "2018",
+            "explanation": "Independent GDSC reanalysis supported the platform as a source of experimentally validated biomarkers, not every original association."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The platform enabled validated findings, but the specifically replicated EWS-FLI1 mechanism did not reproduce consistently.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2018",
+            "explanation": "The platform enabled validated findings, but the specifically replicated EWS-FLI1 mechanism did not reproduce consistently."
+          },
+          {
+            "source_id": "D",
+            "date": "2018",
+            "explanation": "The platform enabled validated findings, but the specifically replicated EWS-FLI1 mechanism did not reproduce consistently."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "Independent later-data validation supports some platform outputs while Ewing-specific tests and clinical monotherapy were unsuccessful.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2018",
+            "explanation": "Independent later-data validation supports some platform outputs while Ewing-specific tests and clinical monotherapy were unsuccessful."
+          },
+          {
+            "source_id": "D",
+            "date": "2018",
+            "explanation": "Independent later-data validation supports some platform outputs while Ewing-specific tests and clinical monotherapy were unsuccessful."
+          },
+          {
+            "source_id": "C",
+            "date": "2014",
+            "explanation": "Independent later-data validation supports some platform outputs while Ewing-specific tests and clinical monotherapy were unsuccessful."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "An independent nonparametric GDSC analysis extended the original MANOVA marker-discovery procedure.",
+        "evidence": [
+          {
+            "source_id": "D",
+            "date": "2018",
+            "explanation": "An independent nonparametric GDSC analysis extended the original MANOVA marker-discovery procedure."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "The independent study directly analyzed GDSC drug-genomic data.",
+        "evidence": [
+          {
+            "source_id": "D",
+            "date": "2018",
+            "explanation": "The independent study directly analyzed GDSC drug-genomic data."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "rationale": "Original MANOVA marker calls were a comparison for the independent nonparametric procedure.",
+        "evidence": [
+          {
+            "source_id": "D",
+            "date": "2018",
+            "explanation": "Original MANOVA marker calls were a comparison for the independent nonparametric procedure."
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Independent reuse uncovered additional validated in-vitro drug-response markers.",
+        "evidence": [
+          {
+            "source_id": "D",
+            "date": "2018",
+            "explanation": "Independent reuse uncovered additional validated in-vitro drug-response markers."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "Marker discovery was tested on more recent independent data not used for discovery.",
+        "evidence": [
+          {
+            "source_id": "D",
+            "date": "2018",
+            "explanation": "Marker discovery was tested on more recent independent data not used for discovery."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "Reuse enabled independently validated markers including Temsirolimus-CDKN2A and Gemcitabine-EWS_FLI1.",
+        "evidence": [
+          {
+            "source_id": "D",
+            "date": "2018",
+            "explanation": "Reuse enabled independently validated markers including Temsirolimus-CDKN2A and Gemcitabine-EWS_FLI1."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "no",
+        "rationale": "The specific claimed EWS-FLI1-linked olaparib sensitivity advantage was not retained in the registered rearrangement/knockdown comparisons. This does not negate the GDSC resource.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2018",
+            "explanation": "The specific claimed EWS-FLI1-linked olaparib sensitivity advantage was not retained in the registered rearrangement/knockdown comparisons. This does not negate the GDSC resource."
+          }
+        ]
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "Independent 2018 work substantively analyzed the GDSC resource.",
+        "evidence": [
+          {
+            "source_id": "D",
+            "date": "2018",
+            "explanation": "Independent 2018 work substantively analyzed the GDSC resource."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The 2018 study demonstrated continued biomarker-discovery utility of GDSC data.",
+        "evidence": [
+          {
+            "source_id": "D",
+            "date": "2018",
+            "explanation": "The 2018 study demonstrated continued biomarker-discovery utility of GDSC data."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The checked sources do not establish substantive independent follow-up in two distinct calendar years after the original publication year.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Follow-up computational study read at primary abstract level.",
+      "No inference that the entire resource failed from the Ewing subset.",
+      "External frozen cohort only; never training, selection, calibration or tuning. Absence of adoption evidence remains unknown."
+    ],
+    "summary": "Useful, independently reused biomarker platform with an important Ewing/PARP claim that did not survive selected replication comparisons. The later monotherapy trial also failed, but is not treated as independent because of author overlap."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1038/nature11005",
+      "https://doi.org/10.7554/eLife.29747"
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1038/nature11005",
+        "purpose": "Resolve original identity and author text through Europe PMC, publisher and NCBI BioC",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3349233/"
+        ]
+      },
+      {
+        "query": "https://doi.org/10.7554/eLife.29747",
+        "purpose": "Read assigned preregistered replication and follow its supporting and contrary references",
+        "urls_read": [
+          "https://doi.org/10.7554/eLife.29747",
+          "https://doi.org/10.1186/s12920-018-0336-z",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC4230717/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 3,
+        "no": 1,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 0.75,
+        "lower_bound": 0.6,
+        "upper_bound": 0.8
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 10,
+    "coverage": 0.5,
+    "score": null,
+    "lower_bound": 0.44999999999999996,
+    "upper_bound": 0.95,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

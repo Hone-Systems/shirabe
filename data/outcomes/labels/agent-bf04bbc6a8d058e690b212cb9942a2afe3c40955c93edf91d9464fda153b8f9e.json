@@ -1,0 +1,352 @@
+{
+  "id": "rpcb-10.1038/nature09557",
+  "title": "Tumour vascularization via endothelial differentiation of glioblastoma stem-like cells",
+  "doi": "https://doi.org/10.1038/nature09557",
+  "year": 2010,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:14:02.543081+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 16,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://doi.org/10.1038/nature09557",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "A substantial portion of glioblastoma vascular endothelium can derive from neoplastic stem-like cells.",
+    "Selective elimination of GSC-derived endothelial vessels reduces tumor growth."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "R",
+      "url": "https://doi.org/10.7554/eLife.73430",
+      "title": "Experiments from unfinished Registered Reports in the Reproducibility Project: Cancer Biology",
+      "date": "2021",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Tie2 expression experiment agreed in direction; endothelial-cell-targeting xenograft experiment remained incomplete.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S",
+      "url": "https://doi.org/10.1073/pnas.1016030108",
+      "title": "Transdifferentiation of glioblastoma cells into vascular endothelial cells",
+      "date": "2011",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent mouse/human models showed tumor-derived endothelial cells; formation persisted under VEGF inhibition.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "C",
+      "url": "https://doi.org/10.1016/j.cell.2013.02.021",
+      "title": "Glioblastoma stem cells generate vascular pericytes to support vessel function and tumor growth",
+      "date": "2013",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Lineage-tracing established GSC-derived pericytes and anti-tumor effect of their elimination; alternative vascular lineage complicates endothelial generalization.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "Soda et al. independently observed tumor-derived endothelial cells, supporting that central possibility.",
+        "evidence": [
+          {
+            "source_id": "S",
+            "date": "2011",
+            "explanation": "Soda et al. independently observed tumor-derived endothelial cells, supporting that central possibility."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "Independent mouse and human GBM experiments reproduced tumor-to-endothelial differentiation; prevalence and targeting benefit remain separate questions.",
+        "evidence": [
+          {
+            "source_id": "S",
+            "date": "2011",
+            "explanation": "Independent mouse and human GBM experiments reproduced tumor-to-endothelial differentiation; prevalence and targeting benefit remain separate questions."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The endothelial targeting experiment was incomplete; pericyte findings complicate generalization.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "The endothelial targeting experiment was incomplete; pericyte findings complicate generalization."
+          },
+          {
+            "source_id": "C",
+            "date": "2013",
+            "explanation": "The endothelial targeting experiment was incomplete; pericyte findings complicate generalization."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Support for endothelial differentiation coexists with evidence emphasizing pericyte differentiation.",
+        "evidence": [
+          {
+            "source_id": "S",
+            "date": "2011",
+            "explanation": "Support for endothelial differentiation coexists with evidence emphasizing pericyte differentiation."
+          },
+          {
+            "source_id": "C",
+            "date": "2013",
+            "explanation": "Support for endothelial differentiation coexists with evidence emphasizing pericyte differentiation."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "The replication used the original patient-derived glioblastoma neurospheres and Tie2 expression comparison.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "The replication used the original patient-derived glioblastoma neurospheres and Tie2 expression comparison."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2021 replication substantively used original neurospheres and experimental comparison.",
+        "evidence": [
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "The 2021 replication substantively used original neurospheres and experimental comparison."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent vascular-lineage studies appeared in 2011 and 2013, followed by the 2021 partial replication.",
+        "evidence": [
+          {
+            "source_id": "S",
+            "date": "2011",
+            "explanation": "Independent vascular-lineage studies appeared in 2011 and 2013, followed by the 2021 partial replication."
+          },
+          {
+            "source_id": "C",
+            "date": "2013",
+            "explanation": "Independent vascular-lineage studies appeared in 2011 and 2013, followed by the 2021 partial replication."
+          },
+          {
+            "source_id": "R",
+            "date": "2021",
+            "explanation": "Independent vascular-lineage studies appeared in 2011 and 2013, followed by the 2021 partial replication."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources checked do not resolve this question for the specific contribution; missing evidence is not scored as failure.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Original available as abstract only.",
+      "Soda and Cheng primary abstracts read through Europe PMC; full follow-up bodies not required for the bounded findings recorded.",
+      "No clinical adoption claim inferred from mouse studies.",
+      "External frozen cohort only; never training, selection, calibration or tuning. Absence of adoption evidence remains unknown."
+    ],
+    "summary": "Independent evidence supports tumor-derived endothelial cells, but endothelial-versus-pericyte lineage and the original selective-targeting effect remain unresolved. A Tie2 control replication cannot settle the whole thesis."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1038/nature09557",
+      "https://doi.org/10.7554/eLife.73430"
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1038/nature09557",
+        "purpose": "Resolve original identity and author text through Europe PMC, publisher and NCBI BioC",
+        "urls_read": [
+          "https://doi.org/10.1038/nature09557"
+        ]
+      },
+      {
+        "query": "https://doi.org/10.7554/eLife.73430",
+        "purpose": "Read assigned preregistered replication and follow its supporting and contrary references",
+        "urls_read": [
+          "https://doi.org/10.7554/eLife.73430",
+          "https://doi.org/10.1073/pnas.1016030108",
+          "https://doi.org/10.1016/j.cell.2013.02.021"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 5,
+    "coverage": 0.25,
+    "score": null,
+    "lower_bound": 0.25,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

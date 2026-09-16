@@ -1,0 +1,423 @@
+{
+  "id": "https://openalex.org/W2763496525",
+  "title": "Silent Adrenal Pheochromocytoma Coexistent with Corticomedullary Hyperplasia: A Case Incidentally Discovered",
+  "doi": "https://doi.org/10.12890/2017_000714",
+  "year": 2017,
+  "field_id": 27,
+  "field": "Medicine",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2021-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:21:44.353722+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://ejcrim.com/index.php/EJCRIM/article/download/714/749",
+    "method": "pdf_all_pages",
+    "http_status": 200,
+    "characters": 11803,
+    "truncated": false,
+    "sha256": "da38ae06df7ab23079c7db3b2371611a2283e7a31826c53e9ca2aa84c783ba06",
+    "retrieved_at": "2026-09-16T19:16:27.166058+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "Micronodular cortico-adrenal hyperplasia pheochromocytoma ACTH positive case report",
+      "ACTH immunohistochemistry pheochromocytoma corticomedullary hyperplasia replication",
+      "Pheochromocytoma corticomedullary hyperplasia ACTH systematic review",
+      "Adrenal incidentaloma guidelines pheochromocytoma subclinical hypercortisolism metanephrines"
+    ],
+    "selected_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7052437",
+      "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2021.687809/full",
+      "https://www.endocrinologydiabetes.org/article/S2376-0605(20)30250-9/fulltext",
+      "https://academic.oup.com/jcem/article/95/1/18/2835107",
+      "https://link.springer.com/article/10.1007/s12022-012-9212-0",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8089915",
+      "https://casereports.bmj.com/content/2016/bcr-2015-213359.full.pdf",
+      "https://www.nejm.org/doi/full/10.1056/NEJMcp2031112",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5503865"
+    ],
+    "plan_usage": {
+      "cache_key": "fe0dbb6eb451eb4766683614b76dd2de5106f4e625304f83c31f9b89eb7d0725",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 2854,
+        "input_tokens_details": {
+          "cache_write_tokens": 2851,
+          "cached_tokens": 0
+        },
+        "output_tokens": 609,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3463
+      },
+      "input_tokens_estimate": 2820,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "55f5dc0301f2eb89ff4f304f26c584b470bcf6c3d0d7c70d8de9e94e46e30d80",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 6930,
+        "input_tokens_details": {
+          "cache_write_tokens": 6927,
+          "cached_tokens": 0
+        },
+        "output_tokens": 546,
+        "output_tokens_details": {
+          "reasoning_tokens": 335
+        },
+        "total_tokens": 7476
+      },
+      "input_tokens_estimate": 6896,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7052437",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 34411,
+      "truncated": false,
+      "sha256": "d5e6167c566446889a918b208b1ea3cd8d52c69464c13735ccd6d2194b34dcef",
+      "retrieved_at": "2026-09-16T19:21:06.340269+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2021.687809/full",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 40112,
+      "truncated": false,
+      "sha256": "908c1f356659f359ae9f90f053467db6b4b56d79fce89164da6cfadd4bf5cc19",
+      "retrieved_at": "2026-09-16T19:21:06.193071+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.endocrinologydiabetes.org/article/S2376-0605(20)30250-9/fulltext",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:21:05.792818+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://academic.oup.com/jcem/article/95/1/18/2835107",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:21:05.587942+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://link.springer.com/article/10.1007/s12022-012-9212-0",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 11024,
+      "truncated": false,
+      "sha256": "25f8aa04da088fc96dffcba0cf1303183ff5dbb83c4f846bc4d62c8d4b89f993",
+      "retrieved_at": "2026-09-16T19:21:07.680628+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8089915",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 13165,
+      "truncated": false,
+      "sha256": "7df578a9fb08b34d9c8f5e3b67f466ad18c4a9ba4332674a8a227eb86decb8fd",
+      "retrieved_at": "2026-09-16T19:21:07.189364+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://casereports.bmj.com/content/2016/bcr-2015-213359.full.pdf",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:21:20.460713+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMcp2031112",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:21:11.508793+00:00"
+    },
+    {
+      "source_id": "S9",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5503865",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 170853,
+      "truncated": false,
+      "sha256": "388a5b1e99e46d87910952b37cadee2af20693affdf557fb8e5c7b1801eee757",
+      "retrieved_at": "2026-09-16T19:21:07.795136+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "A separate team reported the same core pathological combination, although its patient had overt ACTH-related Cushing syndrome rather than a silent tumor.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2020-02-06"
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up consists of case reports, not a larger, stricter, or independently collected test of the original case claim.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Later sources support related pathology but do not explicitly assess and retain the specific 2017 case report’s central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up explicitly tests the original report’s stated limitations or demonstrates that the contribution remains useful after such testing.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "An independent group extended the association to three patients with adrenal-medullary hyperplasia and ectopic ACTH secretion.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2021-07-01"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Independent groups in 2020 and 2021 published substantive related findings involving pheochromocytoma or adrenal-medullary hyperplasia and ACTH.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2020-02-06"
+          },
+          {
+            "source_id": "S2",
+            "date": "2021-07-01"
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review supplied explicitly identifies the 2017 contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up contains no independent baseline, benchmark, or comparative theoretical reference using this specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Later cases report diagnostic and treatment implications, but do not demonstrate a concrete independent benefit specifically attributable to the 2017 contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "The contribution’s related mechanism was investigated in a different country, patient population, and clinical setting involving three cases and bilateral adrenal disease.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2021-07-01"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "Independent follow-up used the related finding to identify adrenal-medullary hyperplasia as a source of ectopic ACTH and to inform diagnosis and treatment.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2021-07-01"
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "No supplied source documents adoption in a product, formal workflow, standard, or routine practice specifically because of this contribution.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "not_applicable",
+        "rationale": "The original paper did not claim a comparative performance or practical advantage requiring fair comparative evaluation.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "Independent substantive follow-up appeared in 2020 and 2021, at least three years after the 2017 publication.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2020-02-06"
+          },
+          {
+            "source_id": "S2",
+            "date": "2021-07-01"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The 2021 article is positive about the related biological finding, but does not explicitly provide an independent assessment of the 2017 paper itself.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive independent follow-up is documented in two distinct later calendar years: 2020 and 2021.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2020-02-06"
+          },
+          {
+            "source_id": "S2",
+            "date": "2021-07-01"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent systematic review, textbook, standard, or research synthesis within the supplied follow-up window explicitly adopts this contribution.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources show later related use, but do not explicitly state that the contribution remained useful despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied systematic review or authoritative assessment directly evaluates the 2017 case report.",
+      "No supplied evidence documents formal clinical workflow, guideline, product, or standard adoption attributable to this paper.",
+      "No supplied comparative study tests a claimed advantage of the original contribution.",
+      "The 2020 and 2021 follow-ups concern closely related ACTH-producing pheochromocytoma or adrenal-medullary hyperplasia, not an exact replication of the original silent unilateral case."
+    ]
+  },
+  "validation_rejected": [
+    "claim_supported",
+    "method_reused"
+  ],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 1,
+        "coverage": 0.5,
+        "known_index": 1.0,
+        "lower_bound": 0.5,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 7,
+    "coverage": 0.375,
+    "score": null,
+    "lower_bound": 0.375,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "4101257b3cd16a7b4eecc2d8ea2635e849391714d972d22afd8ef704519cfa19",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 95426,
+      "input_tokens_details": {
+        "cache_write_tokens": 95423,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2651,
+      "output_tokens_details": {
+        "reasoning_tokens": 959
+      },
+      "total_tokens": 98077
+    },
+    "input_tokens_estimate": 95183,
+    "truncated": false
+  }
+}

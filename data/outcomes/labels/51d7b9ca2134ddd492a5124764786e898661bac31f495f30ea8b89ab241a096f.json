@@ -1,0 +1,386 @@
+{
+  "id": "https://openalex.org/W3087182254",
+  "title": "Implemenation of IAS 16 «Property, plant and equipment» in activity of entities of public interest",
+  "doi": "https://doi.org/10.31548/bioeconomy2019.01.052",
+  "year": 2019,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "validation",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2023-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:16:25.844869+00:00",
+  "input_scope": "abstract",
+  "original_source": {},
+  "retrieval_version": 2,
+  "research_plan": {
+    "queries": [
+      "(\"IAS 16\" OR \"Property, plant and equipment\") Ukraine \"public interest entities\" (\"AP(S) 7\" OR \"fixed assets\") (recognition OR classification OR \"professional judgment\" OR \"unit of object\") after:2019 before:2024 -tutorial -social",
+      "(\"IAS 16\" Ukraine \"AP(S) 7\") (replication OR validation OR critique OR comparative OR empirical) (depreciation OR revaluation OR \"fair value\" OR \"cost model\" OR \"revaluation model\") after:2019 before:2024 filetype:pdf",
+      "(\"IAS 16\" \"property, plant and equipment\") (systematic review OR literature review OR synthesis OR assessment OR \"post-implementation review\") (depreciation OR impairment OR revaluation OR recognition) after:2019 before:2024 (IFRS OR IASB OR academic)",
+      "(\"IAS 16\" implementation) (Ukraine OR \"public interest entities\") (accounting policy OR adoption OR harmonization OR convergence OR \"financial reporting\") (\"cost model\" OR \"revaluation model\" OR \"recoverable amount\" OR depreciation) after:2019 before:2024 (standard-setter OR regulator OR empirical OR theoretical)"
+    ],
+    "selected_urls": [
+      "https://www.ifrs.org/issued-standards/list-of-standards/ias-16-property-plant-and-equipment/",
+      "https://www.frascanada.ca/-/media/frascanada/acsb/committees/idg-extracts/2021-05-20-accounting-for-standby-costs-and-penalties.pdf",
+      "https://www.econa.org.ua/index.php/econa/article/view/2936",
+      "https://lib-repo.pnu.edu.ua/bitstream/123456789/17365/1/%D0%A1%D1%82%D0%B0%D1%82%D1%82%D1%8F%20%D0%9B%D1%8E%D0%B4%D0%B8.pdf",
+      "https://www.tandfonline.com/doi/full/10.1080/00014788.2021.1984906",
+      "https://www.ezag.com/wp-content/uploads/2023/09/euz22e_o.pdf",
+      "https://www.nexigroup.com/content/dam/corp/downloads/investors/financial-statements/2022/2022-EN-nexi-financial-statement.pdf",
+      "https://annualreport.eon.com/content/dam/eon-annualreport/documents/en/GB2022_gesamt_EN_Anhang.pdf",
+      "https://www.kering.com/api/download-file/?path=KERING_DF_2022_US_36f9616988.pdf",
+      "https://www.stellantis.com/content/dam/stellantis-corporate/investors/financial-reports/Stellantis_NV_20220630_Semi_Annual_Report.pdf",
+      "https://ergroup.mu/sites/default/files/2025-07/rogers_group_annual_report_2023.pdf",
+      "https://www.simest.it/app/uploads/2022/12/financial-statements-and-reports-2017.pdf"
+    ],
+    "plan_usage": {
+      "cache_key": "38d53b1340e1e126788b79d698b451cdc1dbb2e49190e3f3e2559b0814452f5d",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 615,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 536,
+        "output_tokens_details": {
+          "reasoning_tokens": 269
+        },
+        "total_tokens": 1151
+      },
+      "input_tokens_estimate": 581,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "e458eb7455fc63c217652348795e4d732f3940b3a9056ec889c158cec92dceef",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 3553,
+        "input_tokens_details": {
+          "cache_write_tokens": 3550,
+          "cached_tokens": 0
+        },
+        "output_tokens": 698,
+        "output_tokens_details": {
+          "reasoning_tokens": 290
+        },
+        "total_tokens": 4251
+      },
+      "input_tokens_estimate": 3519,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-16-property-plant-and-equipment/",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 10359,
+      "truncated": false,
+      "sha256": "7477539913293d08132b70e6b8d1d8b278825fc7a860480eb8336b4fa2a0a216",
+      "retrieved_at": "2026-09-16T19:15:37.919105+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.frascanada.ca/-/media/frascanada/acsb/committees/idg-extracts/2021-05-20-accounting-for-standby-costs-and-penalties.pdf",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 12372,
+      "truncated": false,
+      "sha256": "900e1a01821676e7cc765e3716bb47e54c78992e62c863f6961d3816800147a5",
+      "retrieved_at": "2026-09-16T19:15:37.234702+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.econa.org.ua/index.php/econa/article/view/2936",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 13891,
+      "truncated": false,
+      "sha256": "a4bb073f5667f8376fb5b3d4cf5e090e06af9bf01f356d687e42825528ab91ea",
+      "retrieved_at": "2026-09-16T19:15:38.365871+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://lib-repo.pnu.edu.ua/bitstream/123456789/17365/1/%D0%A1%D1%82%D0%B0%D1%82%D1%82%D1%8F%20%D0%9B%D1%8E%D0%B4%D0%B8.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 83007,
+      "truncated": false,
+      "sha256": "c26a380202fc251ae113e5ce82623bee28ea814ec26ce982f422d828dd8aa694",
+      "retrieved_at": "2026-09-16T19:15:40.878784+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/00014788.2021.1984906",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 66461,
+      "truncated": false,
+      "sha256": "347bbb49f5279b1f223620b7174e413130480bc11d48688b4493efc39b73eccf",
+      "retrieved_at": "2026-09-16T19:15:37.700441+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://www.ezag.com/wp-content/uploads/2023/09/euz22e_o.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 533102,
+      "truncated": false,
+      "sha256": "3da52b652001a12752c2391a132c107496742193a06d361def1132108d36d138",
+      "retrieved_at": "2026-09-16T19:15:41.306949+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://www.nexigroup.com/content/dam/corp/downloads/investors/financial-statements/2022/2022-EN-nexi-financial-statement.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 915657,
+      "truncated": false,
+      "sha256": "e4f36e0d53be464c83ec9bdd0aa4260f769907bdb340a8292543b26026826321",
+      "retrieved_at": "2026-09-16T19:15:51.645504+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://annualreport.eon.com/content/dam/eon-annualreport/documents/en/GB2022_gesamt_EN_Anhang.pdf",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 418100,
+      "truncated": false,
+      "sha256": "11a6fbe722ec0c19a25eb97befe149c558b5b6d535cf7afcdb5808b4c28b021e",
+      "retrieved_at": "2026-09-16T19:15:39.205203+00:00"
+    },
+    {
+      "source_id": "S9",
+      "url": "https://www.kering.com/api/download-file/?path=KERING_DF_2022_US_36f9616988.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 501978,
+      "truncated": false,
+      "sha256": "0697cac4bba4b8585b6abd9ed56f21ff0bb355cfadf64939685d92284ce0f762",
+      "retrieved_at": "2026-09-16T19:15:42.938764+00:00"
+    },
+    {
+      "source_id": "S10",
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/financial-reports/Stellantis_NV_20220630_Semi_Annual_Report.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 306683,
+      "truncated": false,
+      "sha256": "284f7bc45658dfe54ba126fb01e6ac53f2c873206a89e2cfb04615c51be65fcc",
+      "retrieved_at": "2026-09-16T19:15:43.098634+00:00"
+    },
+    {
+      "source_id": "S11",
+      "url": "https://ergroup.mu/sites/default/files/2025-07/rogers_group_annual_report_2023.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 2216369,
+      "truncated": false,
+      "sha256": "7d41d3d7b82651c8ea05c3ee1f940f5f5835be315ce0d99362441e4d2873f502",
+      "retrieved_at": "2026-09-16T19:15:46.609992+00:00"
+    },
+    {
+      "source_id": "S12",
+      "url": "https://www.simest.it/app/uploads/2022/12/financial-statements-and-reports-2017.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 993752,
+      "truncated": false,
+      "sha256": "fa79525c9c1ffe9345a5bf33a6de4c63312b73e0231a3e83b1661e1f9f5d2ecb",
+      "retrieved_at": "2026-09-16T19:15:47.367391+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2023-02-28"
+          },
+          {
+            "source_id": "S4",
+            "date": "2023-02-28"
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied source explicitly cites or evaluates the 2019 paper by title, DOI, or authors in a follow-up study.",
+      "No supplied source documents a paper-specific replication, extension, benchmark use, or operational adoption.",
+      "No supplied source provides follow-up beyond 2023 within the requested window."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 1,
+    "coverage": 0.05,
+    "score": null,
+    "lower_bound": 0.05,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "2b7f983d1e3ba4928dfc5e1a61d5fe8dd567cb07933026c324f386c7a58493d2",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 847831,
+      "input_tokens_details": {
+        "cache_write_tokens": 847828,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1881,
+      "output_tokens_details": {
+        "reasoning_tokens": 767
+      },
+      "total_tokens": 849712
+    },
+    "input_tokens_estimate": 847588,
+    "truncated": false
+  }
+}

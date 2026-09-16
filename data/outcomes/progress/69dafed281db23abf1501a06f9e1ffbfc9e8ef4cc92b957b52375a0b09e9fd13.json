@@ -1,0 +1,14 @@
+{
+  "id": "ssrp-10.1126/science.1239918",
+  "title": "Reading literary fiction improves theory of mind.",
+  "year": 2013,
+  "field_id": 32,
+  "field": "Psychology / behavioral science",
+  "split": "calibration",
+  "sampling_cohort": "ssrp_complete_2018",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:45:36.170997+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 3,
+  "score": null
+}

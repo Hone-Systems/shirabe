@@ -1,0 +1,331 @@
+{
+  "id": "ssrp-10.1126/science.1224313",
+  "title": "Body cues, not facial expressions, discriminate between intense positive and negative emotions.",
+  "doi": "10.1126/science.1224313",
+  "year": 2012,
+  "field_id": 16,
+  "field": "Psychology",
+  "split": "test",
+  "sampling_cohort": "ssrp_complete_2018",
+  "as_of": "2026-09-16",
+  "original_source": {
+    "url": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/f/3051/files/2021/02/Aviezer_Science2012.pdf",
+    "scope": "full_text",
+    "read": true
+  },
+  "sources": [
+    {
+      "source_id": "C",
+      "url": "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/b/845/files/2025/01/camerer-et-al-2018-nature-hb.pdf",
+      "title": "Camerer et al. Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015",
+      "date": "2018-08-27",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "The preregistered independent replication reports positive significant focal results for both Aviezer and Karpicke/Blunt in Figure 1. Original-author reviewed protocols; not every original experiment was repeated."
+    },
+    {
+      "source_id": "P",
+      "url": "https://www.cere2025.com/internal/pdf_program.pdf",
+      "title": "Pillaud, Chassaing-Monjou and Cottin: I React to Bodies but not Faces, Replication and Extension of Aviezer et al., 2012",
+      "date": "2025-07-16",
+      "date_basis": "publication",
+      "kind": "conference_abstract",
+      "read": true,
+      "independent": true,
+      "finding": "Conference author abstract page 178 reports a preregistered independent replication of Experiment 1 (N=194) plus four affective-task extensions. Bodies rather than isolated faces discriminate peak-emotion valence. Conference report; not full methods."
+    },
+    {
+      "source_id": "P26",
+      "url": "https://openalex.org/W7128372554",
+      "title": "Pillaud et al. I react to bodies but not faces, a replication and extension of Aviezer et al. (2012), Emotion, doi:10.1037/emo0001621",
+      "date": "2026-02-09",
+      "date_basis": "publication",
+      "kind": "primary_study_abstract",
+      "read": true,
+      "independent": true,
+      "finding": "Read the complete author abstract as indexed by OpenAlex: five experiments replicate Experiment 1 and extend to affective priming, misattribution, feelings and action tendencies; body-only stimuli consistently produce the effects. Same research program as P, not a third group."
+    }
+  ],
+  "answers": [
+    {
+      "id": "claim_supported",
+      "answer": "yes",
+      "rationale": "Independent preregistered tests support the focal Experiment 1 body-versus-face discrimination result. This does not certify every original mimicry experiment.",
+      "evidence": [
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Independent preregistered tests support the focal Experiment 1 body-versus-face discrimination result. This does not certify every original mimicry experiment."
+        },
+        {
+          "source_id": "P",
+          "date": "2025-07-16",
+          "explanation": "Independent preregistered tests support the focal Experiment 1 body-versus-face discrimination result. This does not certify every original mimicry experiment."
+        }
+      ]
+    },
+    {
+      "id": "independent_reproduction",
+      "answer": "yes",
+      "rationale": "Independent preregistered tests support the focal Experiment 1 body-versus-face discrimination result. This does not certify every original mimicry experiment.",
+      "evidence": [
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Independent preregistered tests support the focal Experiment 1 body-versus-face discrimination result. This does not certify every original mimicry experiment."
+        },
+        {
+          "source_id": "P",
+          "date": "2025-07-16",
+          "explanation": "Independent preregistered tests support the focal Experiment 1 body-versus-face discrimination result. This does not certify every original mimicry experiment."
+        }
+      ]
+    },
+    {
+      "id": "stronger_test",
+      "answer": "yes",
+      "rationale": "Independent preregistered tests support the focal Experiment 1 body-versus-face discrimination result. This does not certify every original mimicry experiment.",
+      "evidence": [
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Independent preregistered tests support the focal Experiment 1 body-versus-face discrimination result. This does not certify every original mimicry experiment."
+        },
+        {
+          "source_id": "P",
+          "date": "2025-07-16",
+          "explanation": "Independent preregistered tests support the focal Experiment 1 body-versus-face discrimination result. This does not certify every original mimicry experiment."
+        }
+      ]
+    },
+    {
+      "id": "central_claim_retained",
+      "answer": "unknown",
+      "rationale": "No sufficiently specific evidence established in this bounded search; absence of evidence is not a negative outcome.",
+      "evidence": []
+    },
+    {
+      "id": "limitations_survived",
+      "answer": "unknown",
+      "rationale": "No sufficiently specific evidence established in this bounded search; absence of evidence is not a negative outcome.",
+      "evidence": []
+    },
+    {
+      "id": "independent_extension",
+      "answer": "yes",
+      "rationale": "Pillaud and colleagues reused the specific body/face comparison in affective priming, misattribution and action-tendency tasks, demonstrating new scientific effects beyond explicit valence ratings. No commercial benefit is inferred.",
+      "evidence": [
+        {
+          "source_id": "P26",
+          "date": "2026-02-09",
+          "explanation": "Pillaud and colleagues reused the specific body/face comparison in affective priming, misattribution and action-tendency tasks, demonstrating new scientific effects beyond explicit valence ratings. No commercial benefit is inferred."
+        }
+      ]
+    },
+    {
+      "id": "multiple_groups",
+      "answer": "yes",
+      "rationale": "Camerer and Pillaud teams separately collected new data using this specific contribution. The 2025 conference and 2026 journal report count as one group.",
+      "evidence": [
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Camerer and Pillaud teams separately collected new data using this specific contribution. The 2025 conference and 2026 journal report count as one group."
+        },
+        {
+          "source_id": "P26",
+          "date": "2026-02-09",
+          "explanation": "Camerer and Pillaud teams separately collected new data using this specific contribution. The 2025 conference and 2026 journal report count as one group."
+        }
+      ]
+    },
+    {
+      "id": "method_reused",
+      "answer": "yes",
+      "rationale": "Pillaud and colleagues reused the specific body/face comparison in affective priming, misattribution and action-tendency tasks, demonstrating new scientific effects beyond explicit valence ratings. No commercial benefit is inferred.",
+      "evidence": [
+        {
+          "source_id": "P26",
+          "date": "2026-02-09",
+          "explanation": "Pillaud and colleagues reused the specific body/face comparison in affective priming, misattribution and action-tendency tasks, demonstrating new scientific effects beyond explicit valence ratings. No commercial benefit is inferred."
+        }
+      ]
+    },
+    {
+      "id": "new_research_direction",
+      "answer": "unknown",
+      "rationale": "No sufficiently specific evidence established in this bounded search; absence of evidence is not a negative outcome.",
+      "evidence": []
+    },
+    {
+      "id": "independent_comparison",
+      "answer": "yes",
+      "rationale": "Independent studies directly compare bodies and faces and retain the body-cue advantage for extreme emotional stimuli, within that scope.",
+      "evidence": [
+        {
+          "source_id": "P26",
+          "date": "2026-02-09",
+          "explanation": "Independent studies directly compare bodies and faces and retain the body-cue advantage for extreme emotional stimuli, within that scope."
+        }
+      ]
+    },
+    {
+      "id": "external_utility",
+      "answer": "yes",
+      "rationale": "Pillaud and colleagues reused the specific body/face comparison in affective priming, misattribution and action-tendency tasks, demonstrating new scientific effects beyond explicit valence ratings. No commercial benefit is inferred.",
+      "evidence": [
+        {
+          "source_id": "P26",
+          "date": "2026-02-09",
+          "explanation": "Pillaud and colleagues reused the specific body/face comparison in affective priming, misattribution and action-tendency tasks, demonstrating new scientific effects beyond explicit valence ratings. No commercial benefit is inferred."
+        }
+      ]
+    },
+    {
+      "id": "beyond_original_setting",
+      "answer": "yes",
+      "rationale": "Pillaud and colleagues reused the specific body/face comparison in affective priming, misattribution and action-tendency tasks, demonstrating new scientific effects beyond explicit valence ratings. No commercial benefit is inferred.",
+      "evidence": [
+        {
+          "source_id": "P26",
+          "date": "2026-02-09",
+          "explanation": "Pillaud and colleagues reused the specific body/face comparison in affective priming, misattribution and action-tendency tasks, demonstrating new scientific effects beyond explicit valence ratings. No commercial benefit is inferred."
+        }
+      ]
+    },
+    {
+      "id": "enabled_new_result",
+      "answer": "yes",
+      "rationale": "Pillaud and colleagues reused the specific body/face comparison in affective priming, misattribution and action-tendency tasks, demonstrating new scientific effects beyond explicit valence ratings. No commercial benefit is inferred.",
+      "evidence": [
+        {
+          "source_id": "P26",
+          "date": "2026-02-09",
+          "explanation": "Pillaud and colleagues reused the specific body/face comparison in affective priming, misattribution and action-tendency tasks, demonstrating new scientific effects beyond explicit valence ratings. No commercial benefit is inferred."
+        }
+      ]
+    },
+    {
+      "id": "operational_adoption",
+      "answer": "unknown",
+      "rationale": "No sufficiently specific evidence established in this bounded search; absence of evidence is not a negative outcome.",
+      "evidence": []
+    },
+    {
+      "id": "advantage_retained",
+      "answer": "yes",
+      "rationale": "Independent studies directly compare bodies and faces and retain the body-cue advantage for extreme emotional stimuli, within that scope.",
+      "evidence": [
+        {
+          "source_id": "P26",
+          "date": "2026-02-09",
+          "explanation": "Independent studies directly compare bodies and faces and retain the body-cue advantage for extreme emotional stimuli, within that scope."
+        }
+      ]
+    },
+    {
+      "id": "late_use",
+      "answer": "yes",
+      "rationale": "Independent substantive positive follow-up occurs in 2018 and the 2025/2026 Pillaud program, each more than three years after the original.",
+      "evidence": [
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Independent substantive positive follow-up occurs in 2018 and the 2025/2026 Pillaud program, each more than three years after the original."
+        },
+        {
+          "source_id": "P26",
+          "date": "2026-02-09",
+          "explanation": "Independent substantive positive follow-up occurs in 2018 and the 2025/2026 Pillaud program, each more than three years after the original."
+        }
+      ]
+    },
+    {
+      "id": "late_positive_assessment",
+      "answer": "yes",
+      "rationale": "Independent substantive positive follow-up occurs in 2018 and the 2025/2026 Pillaud program, each more than three years after the original.",
+      "evidence": [
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Independent substantive positive follow-up occurs in 2018 and the 2025/2026 Pillaud program, each more than three years after the original."
+        },
+        {
+          "source_id": "P26",
+          "date": "2026-02-09",
+          "explanation": "Independent substantive positive follow-up occurs in 2018 and the 2025/2026 Pillaud program, each more than three years after the original."
+        }
+      ]
+    },
+    {
+      "id": "multiple_followup_years",
+      "answer": "yes",
+      "rationale": "Independent substantive positive follow-up occurs in 2018 and the 2025/2026 Pillaud program, each more than three years after the original.",
+      "evidence": [
+        {
+          "source_id": "C",
+          "date": "2018-08-27",
+          "explanation": "Independent substantive positive follow-up occurs in 2018 and the 2025/2026 Pillaud program, each more than three years after the original."
+        },
+        {
+          "source_id": "P26",
+          "date": "2026-02-09",
+          "explanation": "Independent substantive positive follow-up occurs in 2018 and the 2025/2026 Pillaud program, each more than three years after the original."
+        }
+      ]
+    },
+    {
+      "id": "synthesis_inclusion",
+      "answer": "unknown",
+      "rationale": "No sufficiently specific evidence established in this bounded search; absence of evidence is not a negative outcome.",
+      "evidence": []
+    },
+    {
+      "id": "continued_relevance",
+      "answer": "unknown",
+      "rationale": "No sufficiently specific evidence established in this bounded search; absence of evidence is not a negative outcome.",
+      "evidence": []
+    }
+  ],
+  "search_log": [
+    {
+      "query": "Aviezer Trope Todorov2012 body cues facial expressions replication SSRP",
+      "purpose": "Independent replication, contrary evidence and substantive uptake search",
+      "urls_read": [
+        "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/b/845/files/2025/01/camerer-et-al-2018-nature-hb.pdf",
+        "https://www.cere2025.com/internal/pdf_program.pdf",
+        "https://openalex.org/W7128372554"
+      ]
+    },
+    {
+      "query": "\"I react to bodies but not faces\" replication",
+      "purpose": "Independent replication, contrary evidence and substantive uptake search",
+      "urls_read": [
+        "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/b/845/files/2025/01/camerer-et-al-2018-nature-hb.pdf",
+        "https://www.cere2025.com/internal/pdf_program.pdf",
+        "https://openalex.org/W7128372554"
+      ]
+    },
+    {
+      "query": "\"Aviezer\" \"2012\" \"systematic review\" body facial emotions",
+      "purpose": "Independent replication, contrary evidence and substantive uptake search",
+      "urls_read": [
+        "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/b/845/files/2025/01/camerer-et-al-2018-nature-hb.pdf",
+        "https://www.cere2025.com/internal/pdf_program.pdf",
+        "https://openalex.org/W7128372554"
+      ]
+    }
+  ],
+  "search_gaps": [
+    "Pillaud journal full text was unavailable; complete author abstract and conference report were read.",
+    "No read independent synthesis or operational implementation established; original broader mimicry claims not all directly retested."
+  ],
+  "summary": "The focal peak-emotion body-cue result replicated independently and supported new affective-task experiments. Operational use, explicit tests of every limitation, and adoption in a read synthesis remain unestablished.",
+  "researcher": "Codex independent blind repeat by expand_manylabs; first grade not viewed",
+  "central_claims": [
+    "At peak emotion intensity bodies discriminate positive/negative events better than faces.",
+    "Body context shifts perceived facial emotion and mimicry."
+  ]
+}

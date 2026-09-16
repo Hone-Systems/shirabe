@@ -1,0 +1,14 @@
+{
+  "id": "challenge-debt",
+  "title": "Growth in a Time of Debt",
+  "year": 2010,
+  "field_id": 20,
+  "field": "Economics",
+  "split": "challenge",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T19:38:24.656457+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 10,
+  "score": null
+}

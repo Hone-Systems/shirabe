@@ -1,0 +1,356 @@
+{
+  "id": "https://openalex.org/W3120767723",
+  "title": "Inference of Intercellular Communications and Multilayer Gene-Regulations of Epithelial–Mesenchymal Transition From Single-Cell Transcriptomic Data",
+  "doi": "https://doi.org/10.3389/fgene.2020.604585",
+  "year": 2021,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "test",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:02:27.568850+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 5,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2020.604585/full",
+    "scope": "full_text",
+    "read": true,
+    "central_claim": "the combined multilayer inference of intermediate EMT states, inducer-specific synchrony, and intermediate-state TGF-beta signaling hubs"
+  },
+  "central_claims": [
+    "An integrated trajectory, communication and multilayer gene-network analysis identifies hybrid intermediate EMT states.",
+    "In OVCA420 cells, TGFB1-induced EMT is synchronous whereas EGF- and TNF-induced EMT are asynchronous.",
+    "Intermediate EMT states act as TGF-beta communication hubs across the analyzed in-vitro and mouse carcinoma data."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S0",
+      "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2020.604585/full",
+      "title": "Inference of Intercellular Communications and Multilayer Gene-Regulations of Epithelial–Mesenchymal Transition From Single-Cell Transcriptomic Data",
+      "date": "2021-01-08",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": false,
+      "scope": "full_text",
+      "read": true,
+      "finding": "Combines existing QuanTC, SoptSC and PIDC approaches in a multilayer EMT analysis; predicts inducer-specific synchrony and intermediate-state TGF-beta signaling roles. Experimental perturbation is proposed for validation.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9458468/",
+      "title": "Detecting critical transition signals from single-cell transcriptomes to infer lineage-determining transcription factors",
+      "date": "2022",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "read": true,
+      "finding": "BioTIP benchmarks QuanTC, but attributes that method to the separate 2020 Nucleic Acids Research paper; the target appears as contextual literature.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11317558/",
+      "title": "Reconstruction of single-cell lineage trajectories and identification of diversity in fates during the epithelial-to-mesenchymal transition",
+      "date": "2024-08-02",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "scope": "full_text_relevant_sections",
+      "read": true,
+      "finding": "Independent researchers describe the target’s network approach as helping identify context-specific transcription-factor dynamics and recommend future integration with optimal transport.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13174474/",
+      "title": "Robust identification of cell-cell communication heterogeneity in single cells",
+      "date": "2026-05-04",
+      "date_basis": "publication",
+      "kind": "preprint",
+      "independent": false,
+      "scope": "full_text_relevant_sections",
+      "read": true,
+      "finding": "The scRICH preprint shares Bocci and Nie with the target, cites its use of matrix-factorization clustering, and develops related communication-network analyses.",
+      "characters": null,
+      "method": "preprint",
+      "truncated": false
+    },
+    {
+      "source_id": "S4",
+      "url": "https://link.springer.com/article/10.1186/s12859-024-05926-z",
+      "title": "Leveraging gene correlations in single cell transcriptomic data",
+      "date": "2024",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": false,
+      "scope": "full_text_background_and_reference_context",
+      "read": true,
+      "finding": "The target is included in a background list of single-cell approaches, not demonstrated as the method evaluated in this study.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The 2024 independent study accepts the network approach as useful context, but does not test the specified OVCA420 synchrony differences or intermediate-state TGF-beta hub predictions.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The BioTIP benchmark reproduces outputs of the earlier QuanTC method, not this paper’s combined signaling/GRN analysis or its central biological predictions.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No located independent perturbation or newly collected experiment directly tests both inducer-specific synchrony and intermediate-cell signaling-hub predictions.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The 2024 discussion retains the value of network analysis but does not explicitly retain the complete original biological claim set.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No located follow-up carries out the proposed conditional TGFB-ligand knockout test or establishes that expression-inferred communication survives that limitation.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "scRICH and the later spatiotemporal paper share original authors; the independent 2024 paper proposes future integration rather than performing it.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The strongest independent lead benchmarks earlier QuanTC; the direct related successors overlap the original team. Two qualifying independent extensions were not established.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Actual QuanTC reuse is documented in BioTIP, but QuanTC originated in the separate 2020 paper. Independent use of this paper’s integrated multilayer workflow was not verified.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "Reviews and introductions discuss communication inference broadly; none read explicitly credits this contribution with enabling a distinct research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "BioTIP is an actual comparison against earlier QuanTC. It does not benchmark the present multilayer communication analysis, so it cannot settle this question.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Independent work describes methodological value but does not demonstrate a benefit from applying the integrated workflow or the specific hub predictions.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Related later methods operate in additional tissues, but this does not establish successful transfer of the original combined pipeline.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The independent optimal-transport paper recommends integrating network approaches in future; it does not attribute its existing new results to applying this contribution.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Repositories exist for QuanTC and scRICH, but neither establishes an external workflow deploying this particular 2021 combined analysis.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The paper suggests richer multiscale interpretation; no independent comparison of that specific advantage under matched data and ground truth was verified.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The 2026 scRICH paper cites clustering previously used here and elsewhere. Attribution to this specific contribution rather than the earlier algorithm remains unresolved.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The independent 2024 lineage study explicitly credits the network approach with identifying context-dependent regulatory activity, more than three years later. This assesses the analytical contribution, not experimental proof of signaling hubs.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2024-08-02",
+            "explanation": "The discussion positively evaluates the target’s network analysis and recommends integration with its own trajectory approach."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Citations span 2022, 2024 and 2026; the read sources do not establish substantive independent implementation or extension of this contribution in two years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The located broad reviews were not verified to adopt this particular set of hub and synchrony inferences as established findings.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The 2024 work suggests future integration, but continued effectiveness against newer communication methods has not been tested in the read sources.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "PMC browser pages intermittently required CAPTCHA; relevant full-text sections were read through Europe PMC XML instead.",
+      "Original full main text read, including methods and limitations. Follow-up reading targeted actual reference contexts, methods and results.",
+      "The recent scRICH source was read as its May 2026 preprint, not treated as an independent replication; original authors overlap.",
+      "The 2024 gene-correlation article is marked non-independent because Qing Nie is a coauthor of both papers; its background citation is not counted regardless.",
+      "Lifetime observation through 2026-09-16; the assigned pilot sample is not an unbiased estimate of all research outcomes."
+    ],
+    "summary": "The integrated network analysis received a positive independent discussion in 2024. Independent experimental validation and substantive reuse of this specific workflow remain unverified; later benchmarks of the earlier QuanTC algorithm are not credited to it."
+  },
+  "research_plan": {
+    "queries": [
+      "Inference of Intercellular Communications 604585",
+      "604585 EMT single cell",
+      "Sha 2021 intermediate signaling hubs EMT",
+      "Robust identification of cell-cell communication heterogeneity Sha",
+      "Inference of Intercellular Communications and Multilayer review"
+    ],
+    "search_log": [
+      {
+        "query": "Inference of Intercellular Communications 604585",
+        "purpose": "Identify full original",
+        "urls_read": [
+          "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2020.604585/full"
+        ]
+      },
+      {
+        "query": "604585 EMT single cell",
+        "purpose": "Discover citing methods and applications",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9458468/",
+          "https://link.springer.com/article/10.1186/s12859-024-05926-z"
+        ]
+      },
+      {
+        "query": "Sha 2021 intermediate signaling hubs EMT",
+        "purpose": "Check biological follow-up",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11317558/"
+        ]
+      },
+      {
+        "query": "Robust identification of cell-cell communication heterogeneity Sha",
+        "purpose": "Check recent successor and independence",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13174474/"
+        ]
+      },
+      {
+        "query": "Inference of Intercellular Communications and Multilayer review",
+        "purpose": "Check synthesis and contrary assessments",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11317558/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10417635/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 1,
+    "coverage": 0.05,
+    "score": null,
+    "lower_bound": 0.05,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

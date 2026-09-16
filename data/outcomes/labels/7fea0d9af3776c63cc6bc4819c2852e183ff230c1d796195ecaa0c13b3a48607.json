@@ -1,0 +1,412 @@
+{
+  "id": "https://openalex.org/W2986806412",
+  "title": "Cholesterol accumulation, lipid droplet formation, and steroid production in Leydig cells: Role of translocator protein (18‐kDa)",
+  "doi": "https://doi.org/10.1111/andr.12733",
+  "year": 2019,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "validation",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2023-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:19:20.674262+00:00",
+  "input_scope": "abstract",
+  "original_source": {},
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "FGIN-1-27 TSPO Leydig cells lipid droplets cholesteryl ester steroidogenesis",
+      "TSPO CRISPR Cas9 knockout Plin2 siRNA Leydig steroidogenesis cholesterol accumulation",
+      "TSPO cholesterol trafficking lipid droplets steroidogenesis Leydig cells systematic review",
+      "TSPO ligand mitochondrial cholesterol transport steroidogenic cells therapeutic model"
+    ],
+    "selected_urls": [
+      "https://www.pnas.org/doi/10.1073/pnas.1502670112",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6437259",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3740486",
+      "https://www.mdpi.com/1422-0067/22/4/2021",
+      "https://www.jlr.org/article/S0022-2275(21)00135-8/fulltext",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8712293",
+      "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2020.559674/full",
+      "https://www.jlr.org/article/S0022-2275(20)40817-X/fulltext",
+      "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2016.00106/full"
+    ],
+    "plan_usage": {
+      "cache_key": "982da0a07ad988b5540737d9198746beca6e44eb3ce69fa03abc237821677193",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 629,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 450,
+        "output_tokens_details": {
+          "reasoning_tokens": 370
+        },
+        "total_tokens": 1079
+      },
+      "input_tokens_estimate": 595,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "40c47b5c197d1901e6d8e4a6f47089253bca27cdd7618e4fa02bc82089f3f423",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 5199,
+        "input_tokens_details": {
+          "cache_write_tokens": 5196,
+          "cached_tokens": 0
+        },
+        "output_tokens": 542,
+        "output_tokens_details": {
+          "reasoning_tokens": 303
+        },
+        "total_tokens": 5741
+      },
+      "input_tokens_estimate": 5165,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1502670112",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 148892,
+      "truncated": false,
+      "sha256": "648e9b91472dd6a0cc62db7797fe623c58a64ee1f62d0244c0751d2000176153",
+      "retrieved_at": "2026-09-16T19:18:56.990405+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6437259",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 60316,
+      "truncated": false,
+      "sha256": "1d8f0e8a4e901054ea96c467fb8878984a8926356d57198ab740c2a9c76c2399",
+      "retrieved_at": "2026-09-16T19:18:33.608019+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3740486",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 79089,
+      "truncated": false,
+      "sha256": "9d3dcb61678fbacdec0fe17ecec07ae2f0c0132f9bee1f65efb094f57875e2c2",
+      "retrieved_at": "2026-09-16T19:18:33.978883+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.mdpi.com/1422-0067/22/4/2021",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:18:32.753035+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.jlr.org/article/S0022-2275(21)00135-8/fulltext",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 135885,
+      "truncated": false,
+      "sha256": "3bda74b57edbe75616d94a7a0cbd26e8f859fdd3556902fc2436585b32ed790d",
+      "retrieved_at": "2026-09-16T19:18:46.104050+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8712293",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 225491,
+      "truncated": false,
+      "sha256": "4fe4dad61cc11618c17be028b6143c814722d38b0d5f0694a703cf60b7b846b7",
+      "retrieved_at": "2026-09-16T19:18:34.340704+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2020.559674/full",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 148667,
+      "truncated": false,
+      "sha256": "da2dfb1f2cbcc5c2b59dc1e2fb0d009457d05fc3c9131aa45f133d470acac815",
+      "retrieved_at": "2026-09-16T19:18:36.853665+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://www.jlr.org/article/S0022-2275(20)40817-X/fulltext",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:18:35.497822+00:00"
+    },
+    {
+      "source_id": "S9",
+      "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2016.00106/full",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 87811,
+      "truncated": false,
+      "sha256": "79654a0c47c12dc058b49dc54d3c77cf1e59c304df8c784259ec5f0e228e9778",
+      "retrieved_at": "2026-09-16T19:18:37.047269+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The supplied post-2020 primary studies do not independently test and explicitly support this paper’s specific FGIN-1-27/lipid-droplet mechanism.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No later independent team is shown reproducing the paper’s specific experiments or central mechanistic result.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No larger, stricter, or independently collected follow-up test of this specific claim is provided.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "A later review retains the connection between TSPO ligands, cholesterol trafficking, lipid droplets, and steroid formation, while acknowledging broader controversy.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2021-01-12"
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Later sources discuss tissue dependence and conflicting knockout results, but do not explicitly test the limitations stated by this paper.",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2020-10-20"
+          }
+        ]
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not document an independent substantive extension of this specific FGIN-1-27/Leydig-cell contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The packet contains later reviews and related TSPO work, but does not establish at least two independent groups substantively building on this specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The later primary study supplied uses amodiaquine and NR4A1 rather than the proposed FGIN-1-27/TSPO framework.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2021-11-18"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "A review describes TSPO-ligand work extending into neurosteroid-producing glia, but does not explicitly identify this particular paper as enabling that direction.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2021-01-12"
+          }
+        ]
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "Later reviews compare TSPO genetic models generally, but no independent study uses this paper’s specific contribution as a benchmark or reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up sources do not demonstrate an independent concrete scientific or practical benefit from applying this specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Later sources discuss TSPO ligands in brain and other tissues, but do not establish successful use of this paper’s specific contribution outside Leydig-cell evaluation.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2021-01-12"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up explicitly states that the target paper enabled a new measurement, theorem, capability, or result.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "This biological mechanism could have translational relevance, but no product, workflow, standard, or practice adoption is documented in the window.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison evaluates a claimed advantage of the target paper’s approach.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The three-year threshold after the 2019 publication requires evidence from 2022 or later; none is supplied documenting substantive use.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No supplied source from 2022–2023 provides a positive independent assessment at least three years after publication.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive later discussion is documented in two distinct follow-up years, 2020 and 2021, although it is primarily review-based rather than direct replication.",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2020-10-20"
+          },
+          {
+            "source_id": "S6",
+            "date": "2021-01-12"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "Independent reviews include and discuss the target paper as part of the TSPO cholesterol-trafficking, lipid-droplet, and steroidogenesis literature.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2021-01-12"
+          },
+          {
+            "source_id": "S7",
+            "date": "2020-10-20"
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later reviews show continued discussion but also unresolved conflict and do not explicitly establish usefulness despite newer alternatives.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2021-01-12"
+          }
+        ]
+      }
+    ],
+    "search_gaps": [
+      "No supplied 2022–2023 primary or review source documents use, replication, or assessment of the target paper at least three years after publication.",
+      "The packet lacks a later independent primary study specifically testing FGIN-1-27-induced lipid-droplet formation and steroidogenesis in Leydig cells.",
+      "The supplied later primary study concerns amodiaquine/NR4A1 rather than the target paper’s FGIN-1-27/TSPO mechanism."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 3,
+    "coverage": 0.15000000000000002,
+    "score": null,
+    "lower_bound": 0.15000000000000002,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "e088bf5399d3522e1af2c5b2ad0bc17ad88cdb1357bc5066c55e2c89b9e69347",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 292218,
+      "input_tokens_details": {
+        "cache_write_tokens": 292215,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2436,
+      "output_tokens_details": {
+        "reasoning_tokens": 824
+      },
+      "total_tokens": 294654
+    },
+    "input_tokens_estimate": 291975,
+    "truncated": false
+  }
+}

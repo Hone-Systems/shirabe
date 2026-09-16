@@ -1,16 +1,36 @@
 # Shirabe 調べ
 
-A single-screen, animated research instrument for testing whether an abstract’s **language and content** predict its later citation attention. Upload a paper or paste its abstract, inspect a real trained model, and trace the score through WordPiece attention and 256 learned head channels.
+**Explore the connection between scientific writing and what happens after publication.**
 
-Shirabe means investigation or examination. This is an experiment, not a scientific-quality rating.
+Upload a paper, watch a tiny transformer process its wording, and inspect the research evidence behind its training labels. Shirabe brings paper analysis, model diagnostics, and source-backed outcome research into one workspace.
 
-![Shirabe single-screen instrument](docs/screenshots/instrument-desktop-result.png)
+> Research prototype: the model has not demonstrated useful success/failure discrimination. Its score is an experimental rubric index, not a probability of success.
 
-[Watch the animated instrument](docs/screenshots/instrument-demo.webm).
+## Analyze a paper
+
+Upload an English PDF or TXT, review the extracted text, and watch real chunk progress, network activations, attention summaries, and predictions. Inspect four outcome dimensions: **validation, uptake, utility, and durability**.
+
+![Paper analysis with measured network activations and outcome dimensions](docs/screenshots/outcomes-analysis.png)
+
+## See what the model learned
+
+Explore training loss, validation error, gradients, and label balance. Compare wording against original-text and topic-only models, scrub through epochs, and export the measurements.
+
+![Training dashboard with loss curves, gradients, and label coverage](docs/screenshots/outcomes-training.png)
+
+Check whether improvements survive different seeds and independent evaluation. Baselines and uncertainty intervals stay visible alongside the model’s results.
+
+![Evaluation charts comparing models, baseline controls, and uncertainty](docs/screenshots/outcomes-evaluation.png)
+
+## Follow the evidence
+
+Explore each paper’s 20-question outcome rubric, read the supporting sources, and inspect disagreements or missing evidence. **Unknown does not mean failed.**
+
+![Evidence explorer with paper-level rubric answers and source-backed research](docs/screenshots/outcomes-evidence.png)
 
 ## Run locally
 
-Requires Linux, Python 3.11–3.13, [uv](https://docs.astral.sh/uv/), and Node 22.12+ (or 20.19+). Linux is required by the PDF worker's resource limits. A trained model ships with the repository; no API key, GPU, or dataset download is needed to use it.
+Requires Linux, Python 3.11–3.13, [uv](https://docs.astral.sh/uv/), and Node 22.12+ or 20.19+.
 
 ```sh
 git clone https://github.com/Hone-Systems/shirabe.git
@@ -19,84 +39,14 @@ make setup
 make run
 ```
 
-Open **http://127.0.0.1:8787** for paper analysis and **http://127.0.0.1:8787/training** for the training notebook. `Ctrl+C` stops the server. React/Vite builds the interface; FastAPI serves it and performs inference in one process.
+Open **http://127.0.0.1:8787**.
 
-- Paste an **English abstract of 80–800 words**, or upload PDF/TXT (10 MB maximum) with **Choose paper**. **Try an example** runs a clearly labeled synthetic abstract through the real model.
-- Review extracted text, remove any remaining headers/footnotes, then analyze. PDF extraction is heuristic, reads the first three pages, and does not perform OCR. Scanned/password-protected/corrupt documents return actionable errors.
-- Inspect probability, exact signed log-odds contributions, input distribution warnings, WordPiece attention, or the complete learned activation vector. Download the analysis as JSON.
-- Switch to **Training** in place for the measured ROC curve, calibration, baselines and cross-field transfer. **Run details** opens the full experiment, learning/optimization history, cohorts, weights, and export.
-- The radial feature field shows trained coefficients before analysis and actual signed contributions afterward. Moving particles illustrate the calculation; they are not a neural-network animation or a live training log. **Full trace** opens exact arithmetic.
-- Paper editing and detailed records use keyboard-accessible dialogs. Motion has a pause control and respects reduced-motion preferences.
+The repository includes the legacy citation model. The outcome analysis shown above also needs trained outcome weights, ML/research dependencies, and cloud credentials for topic masking; private weights and paper caches are not included. Topic masking sends paper text to a cloud model; transformer inference runs locally, and source text is privately cached. See [setup and development](docs/DEVELOPMENT.md).
 
-Papers are processed by the local server and not retained. Multipart parsing may temporarily spool an upload to disk; it is closed and deleted after extraction. Text stays in page memory across tab navigation, and is discarded on refresh. No analytics, external model calls, remote fonts, or cloud spend.
+## Current findings
 
-## What was learned
+The outcome model trains on **47 papers with 189 yes / 25 no labels**. Evaluation on **23 independent cancer-research papers** still favors an always-yes baseline over every model fit. Similar scores for different papers reflect a current limitation; the wording hypothesis remains unproven.
 
-The deployed BERT-Mini transformer was fine-tuned on real OpenAlex abstracts collected on September 16, 2026. It estimates whether a paper meets the **75th citation percentile within its retained sampled field/year cohort**, using citation counts at collection. This target measures relative attention, not truth, replication, commercial success, or importance.
+[Experiment and results](docs/WORDING_EXPERIMENT.md) · [Paper-grading skill](skills/shirabe-grade-paper/SKILL.md) · [Legacy model card](docs/MODEL_CARD.md) · [Development](docs/DEVELOPMENT.md)
 
-| Experiment | Result |
-|---|---:|
-| Retained abstracts | 11,799 |
-| Training / validation / calibration / test | 5,798 / 1,945 / 1,986 / 2,070 |
-| Test ROC AUC | **0.729** (bootstrap 95% CI 0.704–0.752) |
-| Test average precision | 0.452 (positive prevalence 0.258) |
-| Test Brier score | 0.169 |
-| Previous linear model AUC | 0.697 |
-| Entirely excluded-field test AUC | 0.636–0.744 |
-| Discipline probe accuracy | 68.6% (majority baseline 17.7%) |
-| Cloud spend | **$0** |
-
-BERT-Mini has **11.17 million parameters, 4 encoder layers, 4 attention heads per layer and 256 hidden dimensions**. We fine-tuned all parameters from Google's pretrained checkpoint on the local GPU. CPU inference needs no cloud service. The model sees topic words as well as writing patterns; subject independence is not established. The test AUC improved over the previous linear model, but a famous paper is not guaranteed a 100% score: the output is an abstract-based probability, not its known citation rank. See the [model card](docs/MODEL_CARD.md) and [data card](docs/DATA_CARD.md).
-
-Try [Attention Is All You Need (PDF)](https://arxiv.org/pdf/1706.03762): download it, choose the paper, review the extracted abstract, and analyze.
-
-## Reproduce and develop
-
-```sh
-# Offline: refit the shipped linear model from the public numeric feature matrix.
-# Checks source/data hashes, selected regularization, coefficients, intercept, and test metrics.
-make reproduce
-
-# Full experiment: collect/resume raw samples, then retrain every comparison.
-# This requires network access to OpenAlex; current API access policies apply.
-make train
-
-# Fine-tune BERT-Mini and run cross-field checks (requires raw abstract cache).
-uv run --group training python scripts/train_transformer.py
-# Resume completed checkpoints after interruption: add --resume.
-
-# Unit/API/artifact checks, production build, desktop + mobile browser tests.
-make test
-cd web && npx playwright install chromium && cd ..
-make e2e
-```
-
-Raw responses and reconstructed abstracts are cached locally in ignored files. The repository includes numeric features, labels, bibliographic outcome records, query timestamps/hashes, JSON weights and measured results. New OpenAlex downloads can change as the index evolves; the public numeric matrix supports exact offline reproduction of the previous linear baseline. See [data provenance](data/provenance.json).
-
-Restart the API after retraining so it loads the new model. The interface detects a report/model version mismatch. For UI development, run the API on 8787 and `npm run dev --prefix web` on 5187; Vite proxies `/api` locally.
-
-## Repository map
-
-```text
-shirabe/features.py       fixed, auditable writing representation
-shirabe/inference.py      JSON-only prediction and exact explanation
-shirabe/api.py            API, bounded uploads, production UI server
-shirabe/pdf_worker.py     isolated, time/memory-bounded PDF parser
-scripts/fetch_data.py      seeded sampling, filtering, deduplication, provenance
-scripts/train.py           training, baselines, transfer tests, measured reports
-scripts/reproduce_style.py offline reproduction of the linear baseline
-scripts/train_transformer.py fine-tuning, evaluation and ONNX export
-shirabe/transformer.py    CPU transformer inference and head decomposition
-artifacts/transformer/    deployed ONNX weights, tokenizer and measured report
-data/features.npz         numeric features/labels/years/fields; no paper text
-artifacts/model.json      calibrated linear weights + train statistics
-artifacts/report.json     complete training/evaluation record
-artifacts/predictions.jsonl audit records for every retained paper
-web/                      React/TypeScript interface and browser tests
-```
-
-API: `GET /api/health`, `GET /api/report`, `GET /api/provenance`, `POST /api/predict` with `{"text":"…"}`, `POST /api/extract` with multipart `file`. Interactive schema: `/docs`. The default server binds to loopback; this is a local research app, with no account system or public upload service.
-
-## License
-
-Original code and linear model: [AGPL-3.0](LICENSE). The BERT-Mini derivative weights and tokenizer retain the upstream Apache-2.0 license and notices in `artifacts/transformer/`. PyMuPDF uses the AGPL open-source license; other dependencies and fonts retain their own licenses. OpenAlex metadata is provided under CC0. Source paper/abstract copyrights are not relicensed by this project; raw paper text and downloaded PDFs are intentionally excluded from the repository. See [third-party notices](docs/THIRD_PARTY.md).
+[AGPL-3.0](LICENSE). Model, dependency, and source-data terms: [third-party notices](docs/THIRD_PARTY.md).

@@ -1,0 +1,337 @@
+{
+  "id": "https://openalex.org/W3164091591",
+  "title": "A View of Healthcare Services in Erode District of Tamil Nadu",
+  "doi": null,
+  "year": 2017,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "identity_unresolved",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:01:09.573052+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 9,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "unavailable",
+  "original_source": {
+    "url": "https://ideas.repec.org/a/adp/jojnhc/v3y2017i5p89-93.html",
+    "scope": "unavailable",
+    "read": false
+  },
+  "central_claims": [],
+  "identity_resolution": {
+    "assigned_doi": null,
+    "resolved_url": "https://ideas.repec.org/a/adp/jojnhc/v3y2017i5p89-93.html",
+    "resolved_doi": "https://doi.org/10.19080/JOJNHC.2017.03.555622",
+    "explanation": "Assigned RePEc p98–104 points to publisher555624, actually Nurses’ Attitudes towards Research and Evidence-Based Practice by Xie et al. Matching title/year is Ramachandran and Rajendran, p89–93, publisher555622; original PDF and HTML return404. A 2025 same-title paper cannot substitute for 2017 original.",
+    "training_eligible": false
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://ideas.repec.org/a/adp/jojnhc/v3y2017i5p89-93.html",
+      "title": "Matching 2017 Erode title bibliography",
+      "date": "2017",
+      "date_basis": "publication",
+      "kind": "bibliographic_record",
+      "read": true,
+      "independent": false,
+      "read_scope": "bibliographic_record",
+      "finding": "Lists Ramachandran and Rajendran and DOI555622, but abstract is unrelated theranostics text. Used only to diagnose identity.",
+      "characters": null,
+      "method": "bibliographic_record",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.ijcrt.org/papers/IJCRT2503429.pdf",
+      "title": "A View Of Healthcare Services In Erode District Of Tamil Nadu",
+      "date": "2025",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": false,
+      "read_scope": "abstract_methods_results_and_references",
+      "finding": "Same title and apparently overlapping author Ramachandran; analyzes DLHS3/4 historical data, not new survey. References do not identify the 2017 article; without original cannot establish reproduction or reuse.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://juniperpublishers.com/jojnhc/pdf/JOJNHC.MS.ID.555624.pdf",
+      "title": "Nurses’ Attitudes towards Research and Evidence-Based Practice: Perspectives from Psychiatric Setting",
+      "date": "2017-08-28",
+      "date_basis": "publication",
+      "kind": "identity_check",
+      "read": true,
+      "independent": false,
+      "read_scope": "title_authors_abstract",
+      "finding": "Actual PDF at the supplied RePEc destination has a different title and Singapore psychiatric nursing population. Excluded from Erode outcome evidence.",
+      "characters": null,
+      "method": "identity_check",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: No later independent primary study directly supporting the central claim was established. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The same-title 2025 article is not established as independent: it shares the name R. Ramachandran, reuses historical DLHS3/4 data, and does not identify the 2017 paper in its references. The unavailable original prevents direct comparison.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: No larger or stricter follow-up test of the original claim was established. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: No later authoritative assessment explicitly retaining or rejecting the specific central claim was established. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: No later test of the original limitations demonstrating retained usefulness was located. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: No substantive extension by an independent team was established. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: Two independent teams building on this particular contribution were not established. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: No independent study actually applying this specific result or method was established. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: No review explicitly attributing an enabled research direction to this paper was located. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: No independent study using this contribution as a baseline or reference construction was located. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: No independent demonstration of benefit from applying this specific contribution was established. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: No demonstrated successful use outside the original setting was located. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: No later result demonstrably enabled by this contribution was established. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: No documented operational workflow, product, standard or practice applying this contribution was located. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: No independent fair comparison testing a claimed advantage was located. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: No substantive use at least three years after publication was established; a later citation alone is insufficient. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: No independent positive assessment of the central contribution at least three years later was established. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: Substantive independent follow-up in two distinct later years was not established. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: No independent research synthesis adopting this particular contribution as valid or useful was established. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Unresolved 2017 Erode original: No later evidence explicitly demonstrating usefulness despite newer alternatives was located. Original-text identity/access problems also prevent dependable attribution.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Correct 2017 full text unavailable (publisher555622 PDF and HTML404); indexed abstract is unrelated.",
+      "No claim about independent replication or uptake can be drawn from same-title 2025 article without establishing textual continuity and team identity.",
+      "Assigned ID preserved solely for tracking; exclude from training until identity repaired."
+    ],
+    "summary": "Identity/access failure, not a negative scientific outcome: supplied source resolves to unrelated nursing paper. Matching 2017 title record located but original unavailable and abstract corrupted. All20 outcomes unknown; training_eligible false."
+  },
+  "research_plan": {
+    "queries": [
+      "\"A View of Healthcare Services in Erode District of Tamil Nadu\"",
+      "\"A View\" \"Erode\" 2017 Ramachandran",
+      "site:juniperpublishers.com \"Erode\" healthcare",
+      "\"JOJNHC\" \"555622\"",
+      "\"A View of Healthcare\" \"2017\" pdf",
+      "\"Erode\" \"DLHS-3\" \"Rajendran\""
+    ],
+    "search_log": [
+      {
+        "query": "\"A View of Healthcare Services in Erode District of Tamil Nadu\"",
+        "purpose": "Resolve corrupted identity and assess possible follow-up",
+        "urls_read": [
+          "https://ideas.repec.org/a/adp/jojnhc/v3y2017i5p89-93.html",
+          "https://www.ijcrt.org/papers/IJCRT2503429.pdf",
+          "https://juniperpublishers.com/jojnhc/pdf/JOJNHC.MS.ID.555624.pdf"
+        ]
+      },
+      {
+        "query": "\"A View\" \"Erode\" 2017 Ramachandran",
+        "purpose": "Resolve corrupted identity and assess possible follow-up",
+        "urls_read": [
+          "https://ideas.repec.org/a/adp/jojnhc/v3y2017i5p89-93.html",
+          "https://www.ijcrt.org/papers/IJCRT2503429.pdf",
+          "https://juniperpublishers.com/jojnhc/pdf/JOJNHC.MS.ID.555624.pdf"
+        ]
+      },
+      {
+        "query": "site:juniperpublishers.com \"Erode\" healthcare",
+        "purpose": "Resolve corrupted identity and assess possible follow-up",
+        "urls_read": [
+          "https://ideas.repec.org/a/adp/jojnhc/v3y2017i5p89-93.html",
+          "https://www.ijcrt.org/papers/IJCRT2503429.pdf",
+          "https://juniperpublishers.com/jojnhc/pdf/JOJNHC.MS.ID.555624.pdf"
+        ]
+      },
+      {
+        "query": "\"JOJNHC\" \"555622\"",
+        "purpose": "Resolve corrupted identity and assess possible follow-up",
+        "urls_read": [
+          "https://ideas.repec.org/a/adp/jojnhc/v3y2017i5p89-93.html",
+          "https://www.ijcrt.org/papers/IJCRT2503429.pdf",
+          "https://juniperpublishers.com/jojnhc/pdf/JOJNHC.MS.ID.555624.pdf"
+        ]
+      },
+      {
+        "query": "\"A View of Healthcare\" \"2017\" pdf",
+        "purpose": "Resolve corrupted identity and assess possible follow-up",
+        "urls_read": [
+          "https://ideas.repec.org/a/adp/jojnhc/v3y2017i5p89-93.html",
+          "https://www.ijcrt.org/papers/IJCRT2503429.pdf",
+          "https://juniperpublishers.com/jojnhc/pdf/JOJNHC.MS.ID.555624.pdf"
+        ]
+      },
+      {
+        "query": "\"Erode\" \"DLHS-3\" \"Rajendran\"",
+        "purpose": "Resolve corrupted identity and assess possible follow-up",
+        "urls_read": [
+          "https://ideas.repec.org/a/adp/jojnhc/v3y2017i5p89-93.html",
+          "https://www.ijcrt.org/papers/IJCRT2503429.pdf",
+          "https://juniperpublishers.com/jojnhc/pdf/JOJNHC.MS.ID.555624.pdf"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex independent research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

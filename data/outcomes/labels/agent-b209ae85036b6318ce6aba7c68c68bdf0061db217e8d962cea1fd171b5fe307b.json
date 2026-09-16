@@ -1,0 +1,344 @@
+{
+  "id": "ml2-10.1037/0022-3514.83.5.1239",
+  "title": "Cultural variation in correspondence bias: The critical role of attitude diagnosticity of socially constrained behavior",
+  "doi": "https://doi.org/10.1037/0022-3514.83.5.1239",
+  "year": 2002,
+  "field_id": 16,
+  "field": "Psychology",
+  "split": "calibration",
+  "sampling_cohort": "manylabs2_complete_2018",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:56:33.869020+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 24,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://doi.org/10.1037/0022-3514.83.5.1239",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "Attitude diagnosticity moderates cultural differences in correspondence bias: Americans maintain bias for nondiagnostic constrained behavior, whereas Japanese participants attenuate it."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "ML2",
+      "url": "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf",
+      "title": "Many Labs2: Investigating Variation in Replicability Across Samples and Settings",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_multicenter_replication",
+      "read": true,
+      "independent": true,
+      "finding": "General correspondence bias reproduced strongly(d=1.82), but this main effect is not the original paper's distinctive US-Japan diagnosticity interaction; cultural validation remains unresolved.",
+      "characters": null,
+      "method": "primary_multicenter_replication",
+      "truncated": false
+    },
+    {
+      "source_id": "R_O",
+      "url": "https://www-apache.anderson.ucla.edu/faculty_pages/keith.chen/negot.%20papers/MiyamotoKitayama_CultVarCoresBias02.pdf",
+      "title": "Cultural variation in correspondence bias: The critical role of attitude diagnosticity of socially constrained behavior",
+      "date": "2002",
+      "date_basis": "publication",
+      "kind": "original_paper",
+      "read": true,
+      "independent": false,
+      "finding": "Original text identifies broader thesis beyond the selected replication comparison.",
+      "characters": null,
+      "method": "original_paper",
+      "truncated": false
+    },
+    {
+      "source_id": "R_S1",
+      "url": "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf",
+      "title": "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Strong aggregate correspondence bias and persuasiveness moderation; aggregate main effect does not itself test the original American–Japanese difference.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "R_S2",
+      "url": "https://journals.sagepub.com/doi/10.1177/2515245918817076",
+      "title": "Cultural Differences in Correspondence Bias Are Systematic and Multifaceted",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "author_reanalysis",
+      "read": true,
+      "independent": false,
+      "finding": "Original authors analyze independent ML2 data with held-out confirmation: US bias exceeds Japanese bias, p=.008, d=.63; persuasiveness and consensus moderate cultural differences.",
+      "characters": null,
+      "method": "author_reanalysis",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "General correspondence bias reproduced strongly(d=1.82), but this main effect is not the original paper's distinctive US-Japan diagnosticity interaction; cultural validation remains unresolved.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "General correspondence bias reproduced strongly(d=1.82), but this main effect is not the original paper's distinctive US-Japan diagnosticity interaction; cultural validation remains unresolved.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "yes",
+        "rationale": "Original authors analyze independently collected ML2 data and confirm the US–Japan bias difference on a held-out sample (p=.008, d=.63), with new analyses identifying essay persuasiveness and opinion consensus as moderators. This supports stronger testing and substantive reuse while retaining the authorship caveat.",
+        "evidence": [
+          {
+            "source_id": "R_S2",
+            "date": "2018",
+            "explanation": "Original authors analyze independently collected ML2 data and confirm the US–Japan bias difference on a held-out sample (p=.008, d=.63), with new analyses identifying essay persuasiveness and opinion consensus as moderators. This supports stronger testing and substantive reuse while retaining the authorship caveat."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a later authoritative verdict retaining or rejecting the complete claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish usefulness after an explicit test of the original stated limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a substantive independent extension beyond attempting the same empirical test.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish substantive building by two distinct teams beyond the coordinated replication project.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish application of a proposed reusable method or framework beyond re-running an experimental task.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish an explicit later-review attribution of a new direction to this paper.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish use as a scientific benchmark rather than comparison of replication effect sizes.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish an independent benefit from applying the contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish successful application outside the original problem, rather than merely recruiting a wider sample.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "Original authors analyze independently collected ML2 data and confirm the US–Japan bias difference on a held-out sample (p=.008, d=.63), with new analyses identifying essay persuasiveness and opinion consensus as moderators. This supports stronger testing and substantive reuse while retaining the authorship caveat.",
+        "evidence": [
+          {
+            "source_id": "R_S2",
+            "date": "2018",
+            "explanation": "Original authors analyze independently collected ML2 data and confirm the US–Japan bias difference on a held-out sample (p=.008, d=.63), with new analyses identifying essay persuasiveness and opinion consensus as moderators. This supports stronger testing and substantive reuse while retaining the authorship caveat."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish actual operational use; absence of evidence is not nonadoption.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a claimed comparative advantage under fair independent evaluation.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "ML2 re-administered the original experimental task in2018, at least three years after publication. This is substantive research use and does not mean the effect was validated.",
+        "evidence": [
+          {
+            "source_id": "ML2",
+            "date": "2018",
+            "explanation": "ML2 re-administered the original experimental task in2018, at least three years after publication. This is substantive research use and does not mean the effect was validated."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a positive later independent assessment of the full central contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish independent substantive follow-up in two separate later calendar years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish a synthesis that adopts the contribution as valid or useful, rather than records a replication failure.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish explicit usefulness despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "The 20-item rubric covers broader contribution success than focal replication. Unknown answers are retained; negative focal results do not establish zero utility or zero uptake.",
+      "This bounded research pass is observed through2026-09-16, not an exhaustive census of every subsequent publication.",
+      "Original full text was not available from attempted free sources;original identity/central claims are based on the complete author abstract,explicitly tagged abstract-only.",
+      "Two independent grades adjudicated; six-paper repeat sample is not a population reliability estimate."
+    ],
+    "summary": "General correspondence bias reproduced strongly(d=1.82), but this main effect is not the original paper's distinctive US-Japan diagnosticity interaction; cultural validation remains unresolved. Wider adoption and practical utility are not inferred from replication. Blind repeat research added sources and corrected claim scope; initial and repeat grades remain archived."
+  },
+  "research_plan": {
+    "queries": [
+      "Many Labs 2 28 effects original studies table Klein 2018 pdf",
+      "\"Cultural variation in correspondence bias\" replication Miyamoto",
+      "GET https://www-apache.anderson.ucla.edu/faculty_pages/keith.chen/negot.%20papers/MiyamotoKitayama_CultVarCoresBias02.pdf",
+      "\"Miyamoto\" \"Kitayama\" \"2002\" \"Many Labs\" correspondence",
+      "\"Miyamoto\" \"Kitayama\" \"Many Labs 2\""
+    ],
+    "search_log": [
+      {
+        "query": "Many Labs 2 28 effects original studies table Klein 2018 pdf",
+        "purpose": "Enumerate the complete cohort before selecting by outcome.",
+        "urls_read": [
+          "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf"
+        ]
+      },
+      {
+        "query": "\"Cultural variation in correspondence bias\" replication Miyamoto",
+        "purpose": "Resolve original and check follow-up or contrary evidence; only read sources used for judgments.",
+        "urls_read": [
+          "https://doi.org/10.1037/0022-3514.83.5.1239",
+          "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf"
+        ]
+      },
+      {
+        "query": "GET https://www-apache.anderson.ucla.edu/faculty_pages/keith.chen/negot.%20papers/MiyamotoKitayama_CultVarCoresBias02.pdf",
+        "purpose": "Verify original thesis and read primary author text",
+        "urls_read": [
+          "https://www-apache.anderson.ucla.edu/faculty_pages/keith.chen/negot.%20papers/MiyamotoKitayama_CultVarCoresBias02.pdf"
+        ]
+      },
+      {
+        "query": "\"Miyamoto\" \"Kitayama\" \"2002\" \"Many Labs\" correspondence",
+        "purpose": "Find claim-specific independent outcomes and contrary evidence",
+        "urls_read": [
+          "https://pure.uvt.nl/ws/files/29068291/SP_Adams_many_labs_AiMaPiPS_2018.pdf"
+        ]
+      },
+      {
+        "query": "\"Miyamoto\" \"Kitayama\" \"Many Labs 2\"",
+        "purpose": "Inspect original-author response and exact cultural contrast",
+        "urls_read": [
+          "https://journals.sagepub.com/doi/10.1177/2515245918817076"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 3,
+    "coverage": 0.15000000000000002,
+    "score": null,
+    "lower_bound": 0.15000000000000002,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agents, independently repeated and root-adjudicated",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

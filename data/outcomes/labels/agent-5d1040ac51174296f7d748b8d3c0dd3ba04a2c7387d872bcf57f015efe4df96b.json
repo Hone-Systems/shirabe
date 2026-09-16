@@ -1,0 +1,361 @@
+{
+  "id": "https://openalex.org/W3158745291",
+  "title": "Automotive Vulnerability Disclosure: Stakeholders, Opportunities, Challenges",
+  "doi": "https://doi.org/10.3390/jcp1020015",
+  "year": 2021,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "test",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:48:22.402224+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 5,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pdfs.semanticscholar.org/114d/16a1eb8188726cd3185c75acf984a95f3476.pdf",
+    "scope": "full_text",
+    "read": true,
+    "central_claim": "automotive-specific coordinated disclosure with flexible negotiated grace periods, clear stakeholder roles and trusted information sharing"
+  },
+  "central_claims": [
+    "Coordinated vulnerability disclosure adapted to automotive safety, supplier complexity and long lifetimes is preferable to uncoordinated disclosure.",
+    "Automotive patching and grace periods should be case-specific, transparent and negotiated rather than copied as rigid IT deadlines.",
+    "Clear stakeholder responsibilities, trusted coordination and information sharing can improve automotive vulnerability management."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S0",
+      "url": "https://pdfs.semanticscholar.org/114d/16a1eb8188726cd3185c75acf984a95f3476.pdf",
+      "title": "Automotive Vulnerability Disclosure: Stakeholders, Opportunities, Challenges",
+      "date": "2021-05-06",
+      "date_basis": "publication",
+      "kind": "review",
+      "independent": false,
+      "scope": "full_text",
+      "read": true,
+      "finding": "Reviews automotive disclosure and proposes tailored coordination, stakeholder responsibilities and flexible patching periods; a quantitative grace-period metric is future work.",
+      "characters": null,
+      "method": "review",
+      "truncated": false
+    },
+    {
+      "source_id": "S1",
+      "url": "https://www.h-ka.de/ieem/profil/grace-period-calculator",
+      "title": "Reasonable disclosure grace periods for security vulnerabilities in vehicle software — Grace Period Calculator",
+      "date": "2026-09-16",
+      "date_basis": "observed_as_of",
+      "kind": "official_project",
+      "independent": false,
+      "scope": "full_project_description",
+      "read": true,
+      "finding": "Official project page presents a developed calculator implementing vulnerability-specific time/process criteria and links the target among its foundational publications; external deployment is not documented.",
+      "characters": null,
+      "method": "official_project",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://ris.utwente.nl/ws/files/526945229/3798280.pdf",
+      "title": "Your Disclosure Is Important To Us: An Analysis of Coordinated Vulnerability Disclosure Responses Using a Real Security Issue",
+      "date": "2026-02-23",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "scope": "abstract_introduction_related_work",
+      "read": true,
+      "finding": "Independent empirical disclosure campaign cites the target as automotive background; studies email vulnerabilities and finds many unresolved reports despite policies.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.researchgate.net/publication/359393348_Survey_on_Vulnerability_Report_Handling_in_the_Automotive_Environment",
+      "title": "Survey on Vulnerability Report Handling in the Automotive Environment",
+      "date": "2022",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": false,
+      "scope": "abstract_and_indexed_methods",
+      "read": true,
+      "finding": "Kaya and Bolz assess OEM and supplier reporting options and note insufficient transparency/data; Bolz is an original author.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167404822004424",
+      "title": "Managing the Inevitable – A Maturity Model to Establish Incident Response Management Capabilities",
+      "date": "2023",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": true,
+      "scope": "abstract_and_reference_list",
+      "read": true,
+      "finding": "Develops an incident-response maturity model and lists the target among references; accessible text did not establish how that specific reference affected its construction.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No later independent study directly tests whether the full automotive-specific coordination and flexible-deadline proposal improves outcomes; the email campaign studies another setting.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "This is primarily a normative review. No independent reconstruction and evaluation of its specific automotive process proposal was verified.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The later OEM survey shares an author and acknowledges limited data; the independent email study is not a stronger automotive test.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Later papers recognize the review as relevant literature but do not explicitly retain or reject its complete recommendation set.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The grace-period calculator addresses a gap identified in the review, but building that metric does not establish that the original proposal survived an empirical limitations test.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The calculator and OEM survey overlap authors. The independent campaign cites the review as background; no qualifying independent extension was established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Independent citations exist, but no two teams were verified to substantively build on the specific process proposal.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The email campaign uses established disclosure standards rather than this automotive adaptation; maturity-model citation context was insufficient to establish actual reuse.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review explicitly identifies this contribution as enabling a new research direction; automotive disclosure predates it.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No independent head-to-head evaluation of the proposed adapted process against fixed-deadline or other disclosure regimes was verified.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The calculator’s promised prioritization benefit is stated by its developers; an independent measured benefit remains unverified.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The independent email experiment is related research, not an application of this automotive process outside its original setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The authors developed the proposed next-step capability: a calculator that quantifies vulnerability-specific grace periods. This is documented technical development, without claiming independent validation or industrial deployment.",
+        "evidence": [
+          {
+            "source_id": "S0",
+            "date": "2021-05-06",
+            "explanation": "The original explicitly identifies a future grace-period metric."
+          },
+          {
+            "source_id": "S1",
+            "date": "2026-09-16",
+            "explanation": "The official successor project implements that specific capability and links the target research."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The official page offers a calculator and possible use cases, but does not document an OEM, coordinator or standard actually adopting it.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No fair independent comparison verifies the claimed advantage of tailored periods over fixed deadlines in automotive remediation.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "An active project page exists and later citations occur, but substantive use of the original framework after May 2024 is not established by deployment or a dated implementation report.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The 2026 empirical paper cites the target as background without an explicit positive assessment of its central recommendations.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The 2022 survey shares an author; later independent references lack verified substantive reuse, so two independent follow-up years are unresolved.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "An independent maturity-model article includes the target in its bibliography, but its specific synthesis role could not be verified from accessible text.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The developer maintains related documentation; this does not establish continued effectiveness despite competing standards or processes.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Full original PDF read from a scholarly mirror after publisher access failures.",
+      "Independent maturity-model full text was not retrieved; the thesis mirror lists the publication without its full article. Its citation is not upgraded to use.",
+      "The calculator page is undated; its date is an explicit as-of observation, not an invented publication date.",
+      "No exhaustive audit of proprietary OEM security workflows was possible.",
+      "Lifetime observation through 2026-09-16; the assigned pilot sample is not an unbiased estimate of all research outcomes."
+    ],
+    "summary": "The proposal led into the original team’s documented grace-period calculator. Independent effectiveness, reproduction and operational adoption were not established by the sources read; citations and existing disclosure standards are not treated as proof of uptake."
+  },
+  "research_plan": {
+    "queries": [
+      "Automotive Vulnerability Disclosure: Stakeholders, Opportunities, Challenges",
+      "Bolz Kriesten 2021 vulnerability disclosure",
+      "Automotive Vulnerability Disclosure implementation survey ISO 2025",
+      "Automotive Vulnerability Disclosure grace period calculator",
+      "Managing the Inevitable Bitzer pdf"
+    ],
+    "search_log": [
+      {
+        "query": "Automotive Vulnerability Disclosure: Stakeholders, Opportunities, Challenges",
+        "purpose": "Resolve original full text",
+        "urls_read": [
+          "https://pdfs.semanticscholar.org/114d/16a1eb8188726cd3185c75acf984a95f3476.pdf"
+        ]
+      },
+      {
+        "query": "Bolz Kriesten 2021 vulnerability disclosure",
+        "purpose": "Find later independent studies",
+        "urls_read": [
+          "https://ris.utwente.nl/ws/files/526945229/3798280.pdf",
+          "https://www.sciencedirect.com/science/article/abs/pii/S0167404822004424"
+        ]
+      },
+      {
+        "query": "Automotive Vulnerability Disclosure implementation survey ISO 2025",
+        "purpose": "Check adoption and follow-up",
+        "urls_read": [
+          "https://www.researchgate.net/publication/359393348_Survey_on_Vulnerability_Report_Handling_in_the_Automotive_Environment"
+        ]
+      },
+      {
+        "query": "Automotive Vulnerability Disclosure grace period calculator",
+        "purpose": "Follow specific future-work lead",
+        "urls_read": [
+          "https://www.h-ka.de/ieem/profil/grace-period-calculator"
+        ]
+      },
+      {
+        "query": "Managing the Inevitable Bitzer pdf",
+        "purpose": "Check potential independent maturity-model reuse",
+        "urls_read": [
+          "https://www.sciencedirect.com/science/article/abs/pii/S0167404822004424",
+          "https://epub.uni-bayreuth.de/6909/1/Dissertation_Bastian_Stahl_Druckversion.pdf"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 1,
+    "coverage": 0.05,
+    "score": null,
+    "lower_bound": 0.05,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

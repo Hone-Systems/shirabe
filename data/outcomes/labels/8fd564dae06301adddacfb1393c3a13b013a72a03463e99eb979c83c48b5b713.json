@@ -1,0 +1,426 @@
+{
+  "id": "https://openalex.org/W3120626491",
+  "title": "Kajian Kemasan Tape Ketan sebagai Identitas Khas Kuningan Jawa Barat",
+  "doi": "https://doi.org/10.61344/magenta.v2i02.37",
+  "year": 2018,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2022-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:20:17.342052+00:00",
+  "input_scope": "abstract",
+  "original_source": {},
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "Harum Sari kemasan tape ketan redesign keamanan pangan UMKM Kuningan",
+      "kemasan ember hitam tape ketan kandungan plastik risiko kesehatan studi kritis",
+      "tinjauan literatur desain kemasan tape ketan plastik keamanan pangan Indonesia",
+      "adopsi desain kemasan tape ketan keamanan pangan kebijakan UMKM Kuningan"
+    ],
+    "selected_urls": [
+      "https://ojs2.pnb.ac.id/index.php/JBK/article/view/424",
+      "https://ojs2.pnb.ac.id/index.php/JBK/article/view/424/229",
+      "https://journal.universitasbumigora.ac.id/nutroilogy/article/download/1244/712/5964",
+      "https://www.ejournal.unma.ac.id/index.php/bernas/article/download/487/325",
+      "https://journal.uniku.ac.id/index.php/empowerment/article/download/2105/1522",
+      "https://openlibrarypublications.telkomuniversity.ac.id/index.php/artdesign/id/article/view/9363",
+      "https://openlibrarypublications.telkomuniversity.ac.id/index.php/artdesign/article/view/9363/9232",
+      "https://www.researchgate.net/publication/365213175_Pengaruh_Jenis_Kemasan_Terhadap_Sifat_Organoleptik_Tape_Singkong",
+      "https://istanaumkm.pom.go.id/storage/app/uploads/public/69e/1bd/f35/69e1bdf35d593940197271.pdf"
+    ],
+    "plan_usage": {
+      "cache_key": "bf84f8973d7eefdd70d555f1e6670c20de4c9cf349649c774631b435c5c3e6dc",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 349,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 600,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 949
+      },
+      "input_tokens_estimate": 315,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "4e2b34acf150cd1002dbe6832d6cdec9ba5fca867c48c979f6e77f682787f9ae",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 3722,
+        "input_tokens_details": {
+          "cache_write_tokens": 3719,
+          "cached_tokens": 0
+        },
+        "output_tokens": 502,
+        "output_tokens_details": {
+          "reasoning_tokens": 259
+        },
+        "total_tokens": 4224
+      },
+      "input_tokens_estimate": 3688,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://ojs2.pnb.ac.id/index.php/JBK/article/view/424",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 3219,
+      "truncated": false,
+      "sha256": "5ad0acf44c8c7199212a700a1446a7524e26a8ab47a8e3ef0039a58ed4b6e783",
+      "retrieved_at": "2026-09-16T19:19:38.076690+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://ojs2.pnb.ac.id/index.php/JBK/article/view/424/229",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 372,
+      "truncated": false,
+      "sha256": "0a4af365788a1894a641d7674ef9a863bc0dde0663aa57d359d258c37b76a065",
+      "retrieved_at": "2026-09-16T19:19:54.502194+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://journal.universitasbumigora.ac.id/nutroilogy/article/download/1244/712/5964",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:19:36.760216+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.ejournal.unma.ac.id/index.php/bernas/article/download/487/325",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 22644,
+      "truncated": false,
+      "sha256": "44c7823a700c166fcc960e5ebd07d7cf5799ec5c9e569a1f475abba42500d19c",
+      "retrieved_at": "2026-09-16T19:19:37.931888+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://journal.uniku.ac.id/index.php/empowerment/article/download/2105/1522",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 31050,
+      "truncated": false,
+      "sha256": "8262a3a2a40a6ca382e4c6861614223f2b5a4bf23b25ff5fcb3053e0ad577c40",
+      "retrieved_at": "2026-09-16T19:19:38.535651+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://openlibrarypublications.telkomuniversity.ac.id/index.php/artdesign/id/article/view/9363",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:19:43.465553+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://openlibrarypublications.telkomuniversity.ac.id/index.php/artdesign/article/view/9363/9232",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:19:43.435467+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://www.researchgate.net/publication/365213175_Pengaruh_Jenis_Kemasan_Terhadap_Sifat_Organoleptik_Tape_Singkong",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:19:42.963180+00:00"
+    },
+    {
+      "source_id": "S9",
+      "url": "https://istanaumkm.pom.go.id/storage/app/uploads/public/69e/1bd/f35/69e1bdf35d593940197271.pdf",
+      "method": "",
+      "http_status": 468,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:19:47.387644+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Later studies discuss packaging for Kuningan tape generally but do not explicitly support this paper’s specific claim about Harum Sari’s packaging identity.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2019"
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No supplied source reports an independent reproduction of the original critical study or its specific conclusion about Harum Sari.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up studies describe interventions and designs, not a larger or stricter independent test of the original claim.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "No later authoritative assessment in the supplied sources explicitly evaluates and retains the original central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Later work discusses packaging safety and attractiveness, but does not explicitly test whether the original contribution remains useful after its stated limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "An independent team published a substantive packaging-design project for another Kuningan tape product, extending the packaging-design issue beyond Harum Sari.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-03-31"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Independent groups at Universitas Kuningan and Universitas Majalengka published substantive packaging-related work on Kuningan or regional glutinous tape.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2019"
+          },
+          {
+            "source_id": "S1",
+            "date": "2022-03-31"
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Later studies used packaging design and training, but the supplied texts do not establish reuse of the original paper’s specific critical-study method or framework.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review explicitly identifies the 2018 contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not show the original contribution being used as a baseline, benchmark, or reference construction in a comparison.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Later projects claim packaging may improve marketing, but the supplied evidence does not demonstrate a concrete independently measured benefit attributable to this paper’s contribution.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-03-31"
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "Packaging-design work was conducted for other tape products and producer communities rather than the original Harum Sari case.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2019"
+          },
+          {
+            "source_id": "S1",
+            "date": "2022-03-31"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The later sources report packaging designs and training, but do not explicitly state that the 2018 contribution enabled a new result, measurement, theorem, or capability.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The supplied sources document training and proposed designs, not confirmed adoption in a product, workflow, standard, or established practice.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2019"
+          }
+        ]
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison in the supplied sources tests whether the original packaging’s claimed identity advantage was retained.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "Substantive packaging-related work appeared in 2022, four years after the 2018 paper.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-03-31"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The 2022 study is positive about packaging innovation generally but does not independently assess the 2018 paper’s central contribution.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-03-31"
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive independent follow-up is documented in both 2019 and 2022.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2019"
+          },
+          {
+            "source_id": "S1",
+            "date": "2022-03-31"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent systematic review, textbook, standard, or research synthesis adopting the contribution was supplied.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later packaging work indicates continuing interest in the topic, but does not explicitly show that this contribution remained useful despite newer alternatives.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-03-31"
+          }
+        ]
+      }
+    ],
+    "search_gaps": [
+      "No supplied source directly evaluates or cites the 2018 Harum Sari study’s conclusion.",
+      "No supplied source verifies adoption of a packaging change by Harum Sari or measures resulting health, sales, or consumer-identification effects.",
+      "No supplied review, standard, textbook, or authoritative assessment addresses the original contribution."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 5,
+    "coverage": 0.25,
+    "score": null,
+    "lower_bound": 0.25,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "243c100d9a55c35473bc3bcda7a5d319350d11388d0beb8f535c210f38a42b29",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 21746,
+      "input_tokens_details": {
+        "cache_write_tokens": 21743,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2109,
+      "output_tokens_details": {
+        "reasoning_tokens": 516
+      },
+      "total_tokens": 23855
+    },
+    "input_tokens_estimate": 21503,
+    "truncated": false
+  }
+}

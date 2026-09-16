@@ -1,0 +1,315 @@
+{
+  "id": "https://openalex.org/W3126891297",
+  "title": "First Mo–Bi intermetallic material",
+  "doi": "https://doi.org/10.1126/science.371.6529.581-e",
+  "year": 2021,
+  "field_id": 31,
+  "field": "Physics and Astronomy",
+  "split": "test",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:57:44.115512+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 5,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "indexed_abstract_only",
+  "original_source": {
+    "url": "https://doi.org/10.1126/science.371.6529.581-e",
+    "scope": "indexed_abstract_only",
+    "read": true,
+    "access_note": "Read complete indexed text retained in the original OpenAlex dataset; Science HTML/PDF and HighWire returned 403. Crossref confirms title and single author."
+  },
+  "central_claims": [
+    "The indexed item reports Altman et al.’s computational prediction and experimental confirmation of MoBi2, and cites their JACS article. It presents no independent experiment of its own."
+  ],
+  "identity_resolution": {
+    "assigned_doi": "https://doi.org/10.1126/science.371.6529.581-e",
+    "underlying_research_doi": "https://doi.org/10.1021/jacs.0c09419",
+    "training_eligible": false,
+    "explanation": "The assigned Science item is a research highlight by Yury Suleymanov, summarizing Altman et al.’s JACS discovery. Its wording is not the researchers’ thesis wording. Preserve the ID for audit, but exclude this item from the wording/outcome training cohort; do not silently substitute the JACS paper."
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://api.crossref.org/works/10.1126/science.371.6529.581-e",
+      "title": "Crossref metadata for the assigned Science item",
+      "date": "2026-09-16",
+      "date_basis": "observed_as_of",
+      "kind": "publisher_deposited_metadata",
+      "read": true,
+      "independent": false,
+      "finding": "Title and DOI identify First Mo–Bi intermetallic material, with Yury Suleymanov as author. This differs from the underlying Altman-led research.",
+      "characters": null,
+      "method": "publisher_deposited_metadata",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "not_applicable",
+        "rationale": "This item reports another paper’s discovery; support for that discovery cannot validate a distinct scientific contribution by this highlight.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "not_applicable",
+        "rationale": "The highlight presents no original experimental result to reproduce.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "not_applicable",
+        "rationale": "A stronger test of Altman et al. would be an outcome of the JACS paper, not this summary.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "not_applicable",
+        "rationale": "The research-claim retention question applies to the underlying paper; the assigned record is a highlight.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "not_applicable",
+        "rationale": "This highlight has no independent research-method limitations to test.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "not_applicable",
+        "rationale": "An extension of MoBi2 research would not establish an extension of this editorial item.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "not_applicable",
+        "rationale": "Groups researching MoBi2 cannot be attributed to this summary without a distinct contribution.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "not_applicable",
+        "rationale": "The highlight proposes no independent method or framework.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "not_applicable",
+        "rationale": "The summarized discovery belongs to another article and author team.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "not_applicable",
+        "rationale": "The highlight is not a research baseline or reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "not_applicable",
+        "rationale": "Utility from synthesizing MoBi2 must be traced to the primary research, not editorial wording.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "not_applicable",
+        "rationale": "This item has no original evaluation setting for a transfer test.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "not_applicable",
+        "rationale": "The highlighted discovery is not an original result of this record.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "not_applicable",
+        "rationale": "This summary does not propose a separate operational method.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "not_applicable",
+        "rationale": "No original comparative advantage is proposed by the highlight.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "not_applicable",
+        "rationale": "Scientific use of the underlying discovery is not use of a distinct contribution of this item.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "not_applicable",
+        "rationale": "The intended rubric evaluates research contributions, not the reception of research highlights.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "not_applicable",
+        "rationale": "Follow-up to the underlying article cannot be assigned to this highlight’s wording.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "not_applicable",
+        "rationale": "Inclusion of the underlying discovery in a synthesis is an outcome of a different paper.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "not_applicable",
+        "rationale": "Continued relevance of the discovery does not establish the research success of its editorial summary.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Publisher full text was inaccessible; the complete indexed abstract/summary was read from the dataset.",
+      "No scientific success score is assigned to this non-primary item. The underlying JACS paper needs its own original-text record and separate outcome research if added later."
+    ],
+    "summary": "Excluded from training: the assigned item is a Science research highlight summarizing a separate JACS discovery. The scientific outcome rubric does not apply to the highlight as an original thesis. All answers are explicitly not applicable, not negative."
+  },
+  "research_plan": {
+    "queries": [
+      "\"First Mo–Bi intermetallic material\"",
+      "\"First Mo\" \"Suleymanov\" intermetallic",
+      "\"MoBi2\" replication superconductivity 2024 2025",
+      "\"science.371.6529.581-e\" \"Mo\"",
+      "\"First Mo–Bi\" science material 2021 Walsh",
+      "\"First Mo–Bi intermetallic material\" science.org",
+      "\"First Mo-Bi intermetallic material\" Walsh",
+      "\"Suleymanov\" \"bismuth\" Science 2021",
+      "\"science.371.6529.581\" intermetallic",
+      "\"First Mo–Bi intermetallic\" -site:eurekamag.com",
+      "\"First Mo\" \"Science\" \"intermetallic material\" pdf"
+    ],
+    "search_log": [
+      {
+        "query": "\"First Mo–Bi intermetallic material\"",
+        "purpose": "Resolve exact original identity and distinguish underlying research from highlight",
+        "urls_read": [
+          "https://api.crossref.org/works/10.1126/science.371.6529.581-e"
+        ]
+      },
+      {
+        "query": "\"First Mo\" \"Suleymanov\" intermetallic",
+        "purpose": "Resolve exact original identity and distinguish underlying research from highlight",
+        "urls_read": []
+      },
+      {
+        "query": "\"MoBi2\" replication superconductivity 2024 2025",
+        "purpose": "Resolve exact original identity and distinguish underlying research from highlight",
+        "urls_read": []
+      },
+      {
+        "query": "\"science.371.6529.581-e\" \"Mo\"",
+        "purpose": "Resolve exact original identity and distinguish underlying research from highlight",
+        "urls_read": []
+      },
+      {
+        "query": "\"First Mo–Bi\" science material 2021 Walsh",
+        "purpose": "Resolve exact original identity and distinguish underlying research from highlight",
+        "urls_read": []
+      },
+      {
+        "query": "\"First Mo–Bi intermetallic material\" science.org",
+        "purpose": "Resolve exact original identity and distinguish underlying research from highlight",
+        "urls_read": []
+      },
+      {
+        "query": "\"First Mo-Bi intermetallic material\" Walsh",
+        "purpose": "Resolve exact original identity and distinguish underlying research from highlight",
+        "urls_read": []
+      },
+      {
+        "query": "\"Suleymanov\" \"bismuth\" Science 2021",
+        "purpose": "Resolve exact original identity and distinguish underlying research from highlight",
+        "urls_read": []
+      },
+      {
+        "query": "\"science.371.6529.581\" intermetallic",
+        "purpose": "Resolve exact original identity and distinguish underlying research from highlight",
+        "urls_read": []
+      },
+      {
+        "query": "\"First Mo–Bi intermetallic\" -site:eurekamag.com",
+        "purpose": "Resolve exact original identity and distinguish underlying research from highlight",
+        "urls_read": []
+      },
+      {
+        "query": "\"First Mo\" \"Science\" \"intermetallic material\" pdf",
+        "purpose": "Resolve exact original identity and distinguish underlying research from highlight",
+        "urls_read": []
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 0,
+        "not_applicable": 5,
+        "coverage": null,
+        "known_index": null,
+        "lower_bound": null,
+        "upper_bound": null
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 0,
+        "not_applicable": 5,
+        "coverage": null,
+        "known_index": null,
+        "lower_bound": null,
+        "upper_bound": null
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 0,
+        "not_applicable": 5,
+        "coverage": null,
+        "known_index": null,
+        "lower_bound": null,
+        "upper_bound": null
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 0,
+        "not_applicable": 5,
+        "coverage": null,
+        "known_index": null,
+        "lower_bound": null,
+        "upper_bound": null
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0,
+    "score": null,
+    "lower_bound": null,
+    "upper_bound": null,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent /root",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

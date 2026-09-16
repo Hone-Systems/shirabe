@@ -1,0 +1,408 @@
+{
+  "id": "https://openalex.org/W3094960319",
+  "title": "Assessment of the phytoconstituents and optimal applicable concentration of aqueous extract of Azadirachta indica leaves for wound healing in male Wistar rats",
+  "doi": "https://doi.org/10.56808/3027-7922.2467",
+  "year": 2021,
+  "field_id": 27,
+  "field": "Medicine",
+  "split": "test",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2025-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:22:22.804611+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://digital.car.chula.ac.th/cgi/viewcontent.cgi?article=2467&context=tjps",
+    "method": "tavily_complete_extraction",
+    "http_status": 403,
+    "characters": 39452,
+    "truncated": false,
+    "sha256": "3acdf5e7eda2d06bd4186e22f9511ba05c6e8079860faf98809a5cdc8cb3e7cd",
+    "retrieved_at": "2026-09-16T19:21:28.361306+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "Azadirachta indica aqueous leaf extract wound healing ointment cream hydroxyproline male Wistar rats",
+      "Azadirachta indica aqueous leaf extract 1.5% wound contraction hydroxyproline GC-FID replication Wistar rats",
+      "Azadirachta indica wound healing phytoconstituents systematic review hydroxyproline aqueous leaf extract",
+      "Azadirachta indica aqueous leaf extract wound dressing formulation mechanism collagen hydroxyproline"
+    ],
+    "selected_urls": [
+      "https://www.fortunejournals.com/articles/evaluation-of-the-wound-healing-potentials-of-aqueous-topical-creams-containing-aqueous-extract-of-azadirachta-indica-leaves-as-bi.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10470283",
+      "https://www.sciencedirect.com/science/article/pii/S2590048X23000456",
+      "https://tpmap.org/submission/index.php/tpm/article/view/1075",
+      "https://fcs.wum.edu.pk/index.php/ojs/article/view/132",
+      "https://www.ijpsjournal.com/article/Therapeutic+Potential+Of+Azadirachtica+Indica+Neem+And+Phytoconstituent+Against+Disease",
+      "https://www.ijsrtjournal.com/article/antimicrobial-properties-of-neem-azadirachta-indica-a-comprehensive-review-of-phytochemicals-and-mechanisms-of-action"
+    ],
+    "plan_usage": {
+      "cache_key": "3d3fa56735e3be48a2b6ce8ea559712694bda35edb1312240cc0b63260c71c9e",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 10950,
+        "input_tokens_details": {
+          "cache_write_tokens": 10947,
+          "cached_tokens": 0
+        },
+        "output_tokens": 335,
+        "output_tokens_details": {
+          "reasoning_tokens": 236
+        },
+        "total_tokens": 11285
+      },
+      "input_tokens_estimate": 10916,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "e0756efc328ca09c4fcc1d9dab24419e3347991a32d84c37526a8b7ee27d2770",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 3904,
+        "input_tokens_details": {
+          "cache_write_tokens": 3901,
+          "cached_tokens": 0
+        },
+        "output_tokens": 547,
+        "output_tokens_details": {
+          "reasoning_tokens": 335
+        },
+        "total_tokens": 4451
+      },
+      "input_tokens_estimate": 3870,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.fortunejournals.com/articles/evaluation-of-the-wound-healing-potentials-of-aqueous-topical-creams-containing-aqueous-extract-of-azadirachta-indica-leaves-as-bi.html",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 34771,
+      "truncated": false,
+      "sha256": "26055c065fd524cfe9547411bc8fe02afd0dbd749ab2a517bd42a1143520fdc2",
+      "retrieved_at": "2026-09-16T19:21:48.090944+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10470283",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 90310,
+      "truncated": false,
+      "sha256": "e647dbb7aa8a7963d9209128ffba613c287e54ed94ef07ce45d55033662e8497",
+      "retrieved_at": "2026-09-16T19:21:48.218488+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2590048X23000456",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 10099,
+      "truncated": false,
+      "sha256": "f8e3292d62a6ddf5d213ae403f0422116359a6f3304238e647bfae66af1b1e1c",
+      "retrieved_at": "2026-09-16T19:21:52.778620+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://tpmap.org/submission/index.php/tpm/article/view/1075",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 2960,
+      "truncated": false,
+      "sha256": "8f73c16834d1c01081ccd2142db362de3c155ae3697f0da5eb97d7966ebc4106",
+      "retrieved_at": "2026-09-16T19:21:48.087785+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://fcs.wum.edu.pk/index.php/ojs/article/view/132",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 4680,
+      "truncated": false,
+      "sha256": "4fd64fb2a28f73c7871f272bd7ea178fd7221c6738b5da88b6c8ca5bcdc5d184",
+      "retrieved_at": "2026-09-16T19:21:49.031867+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://www.ijpsjournal.com/article/Therapeutic+Potential+Of+Azadirachtica+Indica+Neem+And+Phytoconstituent+Against+Disease",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 54943,
+      "truncated": false,
+      "sha256": "ccd916419604d3fedeba3d4dd72f588145f92f493ba603659f0cfbc1a2a5a5eb",
+      "retrieved_at": "2026-09-16T19:21:49.384511+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://www.ijsrtjournal.com/article/antimicrobial-properties-of-neem-azadirachta-indica-a-comprehensive-review-of-phytochemicals-and-mechanisms-of-action",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 14144,
+      "truncated": false,
+      "sha256": "95ab755f8c4ac3b52dae57d38d628835ce33c81af9469d566b9448b2d90987c9",
+      "retrieved_at": "2026-09-16T19:21:48.885249+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Later independent studies support neem-based wound-healing formulations generally, but none explicitly states that it confirms this paper’s specific central claim or 1.5% optimum.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up studies use different formulations, models, or combinations and do not explicitly reproduce the original experiment or its 1.5% result.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up provides a larger, stricter, or independently collected test of the original concentration finding.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Later reviews and studies describe neem wound-healing potential, but no authoritative follow-up explicitly assesses and retains this paper’s specific central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The original paper proposed further confirmation in an ointment or cream; later formulation studies exist, but none explicitly tests and discusses the original stated limitation as such.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "An independent group extended aqueous neem wound-healing research into neem–silk-fibroin hydrogels and tested the formulation in rats.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2023-08-18"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Independent groups subsequently developed neem-containing hydrogels, polyherbal nanofibers, and neem–lignocaine gels for wound healing.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2023-08-18"
+          },
+          {
+            "source_id": "S4",
+            "date": "2025-06-09"
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The supplied reviews discuss neem therapeutics and formulation research, but do not explicitly identify this paper’s contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "rationale": "The independent hydrogel study compares neem-only hydrogel, neem–silk-fibroin hydrogel, and control treatment using wound closure outcomes.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2023-08-18"
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Independent work demonstrates improved wound closure and formulation performance for neem-containing preparations, providing a concrete scientific benefit beyond the original crude-extract experiment.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2023-08-18"
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "Neem extract was used in new delivery settings, including silk-fibroin hydrogels, polycaprolactone nanofibers, and an in vitro fibroblast assay.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2025-06-09"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "Neem-containing follow-up formulations generated new wound-closure, tissue-regeneration, collagen, and fibroblast-migration results.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2023-08-18"
+          },
+          {
+            "source_id": "S4",
+            "date": "2025-06-09"
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The supplied sources describe preclinical formulations and say clinical research is still needed; they do not document adoption in a product, workflow, standard, or clinical practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "Follow-up comparisons show advantages for new combinations such as neem–silk fibroin, but they do not fairly evaluate the original paper’s claimed 1.5% concentration advantage.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "A 2025 independent study, more than three years after the 2021 paper, substantively uses neem extract in a wound-healing gel.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2025-06-09"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The 2024 review is broadly positive about neem, but the supplied text does not explicitly assess this specific paper or its central contribution after three years.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive independent follow-up is documented in 2023, 2024, and 2025.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2023-08-18"
+          },
+          {
+            "source_id": "S6",
+            "date": "2024-10-05"
+          },
+          {
+            "source_id": "S4",
+            "date": "2025-06-09"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "A 2024 review covers neem’s therapeutic evidence, but the supplied text does not show that it adopts this specific paper’s result as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later studies continue using neem alongside newer delivery technologies, but the supplied evidence does not explicitly state that this paper’s contribution remains useful despite alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied follow-up explicitly reproduces the original 1.5% w/v concentration experiment.",
+      "No supplied authoritative assessment directly evaluates the 2021 paper’s validity, limitations, or claimed optimal concentration.",
+      "The later neem studies generally do not cite or explicitly identify the 2021 paper as the basis for their formulations."
+    ]
+  },
+  "validation_rejected": [
+    "method_reused"
+  ],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 8,
+    "coverage": 0.4,
+    "score": null,
+    "lower_bound": 0.4,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "93117046f21575ab8822491ba69e26f24f5aa571eb2e589599ea1ca11cd99087",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 80187,
+      "input_tokens_details": {
+        "cache_write_tokens": 80184,
+        "cached_tokens": 0
+      },
+      "output_tokens": 3263,
+      "output_tokens_details": {
+        "reasoning_tokens": 1421
+      },
+      "total_tokens": 83450
+    },
+    "input_tokens_estimate": 79944,
+    "truncated": false
+  }
+}

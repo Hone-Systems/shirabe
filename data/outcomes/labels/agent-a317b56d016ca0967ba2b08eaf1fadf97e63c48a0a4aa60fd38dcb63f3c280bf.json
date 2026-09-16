@@ -1,0 +1,318 @@
+{
+  "id": "https://openalex.org/W3164529735",
+  "title": "Rule-Based Dialog Management for Voice Assistents in Automotive Environments",
+  "doi": null,
+  "year": 2020,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "calibration",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:01:09.545871+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 6,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text_8_pages_figures_code_text_extraction_partly_corrupted",
+  "original_source": {
+    "url": "https://www.essv.de/pdf/2020_185_192.pdf",
+    "scope": "full_text_8_pages_figures_code_text_extraction_partly_corrupted",
+    "read": true
+  },
+  "central_claims": [
+    "A unified RDFS-inspired declarative dialog/domain/rule model with a virtual knowledge base can handle contextual automotive dialogs and deploy the same model to Alexa and Google Dialogflow without dialog-specific code.",
+    "External knowledge adapters support portability and reuse; highly dynamic vehicle sensor data remains future work."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.essv.de/essv2021/pdfs/27_ranzenberger.pdf",
+      "title": "VADiMoS: A Web Tool for Designing Voice Assistant Independent and Ontology Based Dialogs",
+      "date": "2021",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": false,
+      "read_scope": "full_text_8_pages",
+      "finding": "Original coauthors Ranzenberger and Hacker build browser-based rule editors, test suites, simulation, plugin management and deployment on the 2020 runtime. Shows shop-search example; no independent benchmark or customer deployment evaluation.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "2020 ontology/virtual-KB automotive dialog framework: No later independent primary study directly supporting the central claim was established.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "2020 ontology/virtual-KB automotive dialog framework: No independent reproduction of the specific result was located.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "2020 ontology/virtual-KB automotive dialog framework: No larger or stricter follow-up test of the original claim was established.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "2020 ontology/virtual-KB automotive dialog framework: No later authoritative assessment explicitly retaining or rejecting the specific central claim was established.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The successor handles dynamic shop data, but does not experimentally test the stated limitation of highly dynamic vehicle sensor data; new tooling is not proof the original limitation was survived.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The located substantive successor is by two original coauthors at Elektrobit; independent extension was not established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "2020 ontology/virtual-KB automotive dialog framework: Two independent teams building on this particular contribution were not established.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "2020 ontology/virtual-KB automotive dialog framework: No independent study actually applying this specific result or method was established.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "2020 ontology/virtual-KB automotive dialog framework: No review explicitly attributing an enabled research direction to this paper was located.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "2020 ontology/virtual-KB automotive dialog framework: No independent study using this contribution as a baseline or reference construction was located.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "2020 ontology/virtual-KB automotive dialog framework: No independent demonstration of benefit from applying this specific contribution was established.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "The same-team successor applies the framework to a new shop-search/navigation instance with dynamic results and disambiguation, beyond the original fuel-price/navigation demonstration. Transfer remains within automotive dialogs.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2021",
+            "explanation": "Section 2 and worked rules/modeling show shop finding and dynamic result handling."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The 2021 VADiMoS web tool explicitly builds on the original runtime to provide interactive rule editing, ontology visualization, test-driven modeling and simulation. This documents a new capability from the same team, not independent validation.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2021",
+            "explanation": "Introduction and sections 4.1–4.4 identify and demonstrate the new tooling built on the original framework."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "VADiMoS demonstrates working development tooling and broker integration, but actual operational OEM/customer use of this specific framework is not documented; a research prototype alone does not establish adoption.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent controlled comparison of modeling effort, portability or dialog quality against existing assistants/frameworks was located.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "2020 ontology/virtual-KB automotive dialog framework: No substantive use at least three years after publication was established; a later citation alone is insufficient.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "2020 ontology/virtual-KB automotive dialog framework: No independent positive assessment of the central contribution at least three years later was established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "2020 ontology/virtual-KB automotive dialog framework: Substantive independent follow-up in two distinct later years was not established.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "2020 ontology/virtual-KB automotive dialog framework: No independent research synthesis adopting this particular contribution as valid or useful was established.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "2020 ontology/virtual-KB automotive dialog framework: No later evidence explicitly demonstrating usefulness despite newer alternatives was located.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No verified independent primary evaluation, reproduction, adoption or critique of this exact framework.",
+      "No substantive use at least three years after 2020 established; generic rule-based assistant adoption is not attribution to this contribution."
+    ],
+    "summary": "Full original and 2021 VADiMoS successor read. Same-team reuse enables browser-based tooling and a new dialog instance. Independence, fair comparative advantages, production adoption and later durability remain unresolved."
+  },
+  "research_plan": {
+    "queries": [
+      "\"Rule-Based Dialog Management for Voice Assistents in Automotive Environments\"",
+      "\"Sahoo\" \"Sowa\" \"virtual knowledge\" dialog",
+      "\"Rule-Based Dialog Management for Voice Assistants\" -site:essv.de",
+      "Elektrobit dialog \"virtual knowledge base\"",
+      "\"VADiMoS\" dialog",
+      "site:elektrobit.com \"dialog\" \"ontology\"",
+      "\"Voice Assistant Dialog Modeling Service\""
+    ],
+    "search_log": [
+      {
+        "query": "\"Rule-Based Dialog Management for Voice Assistents in Automotive Environments\"",
+        "purpose": "Resolve original, substantive successor, independent evidence and operational use",
+        "urls_read": [
+          "https://www.essv.de/pdf/2020_185_192.pdf",
+          "https://www.essv.de/essv2021/pdfs/27_ranzenberger.pdf"
+        ]
+      },
+      {
+        "query": "\"Sahoo\" \"Sowa\" \"virtual knowledge\" dialog",
+        "purpose": "Resolve original, substantive successor, independent evidence and operational use",
+        "urls_read": [
+          "https://www.essv.de/pdf/2020_185_192.pdf",
+          "https://www.essv.de/essv2021/pdfs/27_ranzenberger.pdf"
+        ]
+      },
+      {
+        "query": "\"Rule-Based Dialog Management for Voice Assistants\" -site:essv.de",
+        "purpose": "Resolve original, substantive successor, independent evidence and operational use",
+        "urls_read": [
+          "https://www.essv.de/pdf/2020_185_192.pdf",
+          "https://www.essv.de/essv2021/pdfs/27_ranzenberger.pdf"
+        ]
+      },
+      {
+        "query": "Elektrobit dialog \"virtual knowledge base\"",
+        "purpose": "Resolve original, substantive successor, independent evidence and operational use",
+        "urls_read": [
+          "https://www.essv.de/pdf/2020_185_192.pdf",
+          "https://www.essv.de/essv2021/pdfs/27_ranzenberger.pdf"
+        ]
+      },
+      {
+        "query": "\"VADiMoS\" dialog",
+        "purpose": "Resolve original, substantive successor, independent evidence and operational use",
+        "urls_read": [
+          "https://www.essv.de/pdf/2020_185_192.pdf",
+          "https://www.essv.de/essv2021/pdfs/27_ranzenberger.pdf"
+        ]
+      },
+      {
+        "query": "site:elektrobit.com \"dialog\" \"ontology\"",
+        "purpose": "Resolve original, substantive successor, independent evidence and operational use",
+        "urls_read": [
+          "https://www.essv.de/pdf/2020_185_192.pdf",
+          "https://www.essv.de/essv2021/pdfs/27_ranzenberger.pdf"
+        ]
+      },
+      {
+        "query": "\"Voice Assistant Dialog Modeling Service\"",
+        "purpose": "Resolve original, substantive successor, independent evidence and operational use",
+        "urls_read": [
+          "https://www.essv.de/pdf/2020_185_192.pdf",
+          "https://www.essv.de/essv2021/pdfs/27_ranzenberger.pdf"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 2,
+    "coverage": 0.1,
+    "score": null,
+    "lower_bound": 0.1,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex independent research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

@@ -18,7 +18,8 @@ try:
         if len(doc) > 200:
             raise ValueError("This PDF has more than 200 pages. Paste the paper's abstract instead.")
         lines = []
-        for i in range(min(3, len(doc))):
+        full_text = "--full-text" in sys.argv
+        for i in range(len(doc) if full_text else min(3, len(doc))):
             for block in doc[i].get_text("dict", sort=True)["blocks"]:
                 for line in block.get("lines", []):
                     # Exclude rotated margin stamps, which can splice arXiv IDs into prose.
@@ -28,7 +29,7 @@ try:
         text = "\n".join(lines)
         if len(text.strip()) < 100:
             raise ValueError("No readable text found. Scanned PDFs need OCR; paste the abstract instead.")
-        print(json.dumps({"text": text[:60000], "pages": len(doc)}))
+        print(json.dumps({"text": text if full_text else text[:60000], "pages": len(doc)}))
 except Exception as exc:
     print(
         json.dumps(

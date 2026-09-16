@@ -1,0 +1,14 @@
+{
+  "id": "ssrp-10.1126/science.1199327",
+  "title": "Retrieval practice produces more learning than elaborative studying with concept mapping.",
+  "year": 2011,
+  "field_id": 32,
+  "field": "Psychology / behavioral science",
+  "split": "train",
+  "sampling_cohort": "ssrp_complete_2018",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:56:33.872722+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 13,
+  "score": null
+}

@@ -1,0 +1,408 @@
+{
+  "id": "historic-10.1038/333816a0",
+  "title": "Human basophil degranulation triggered by very dilute antiserum against IgE",
+  "doi": "10.1038/333816a0",
+  "year": 1988,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "train",
+  "sampling_cohort": "historical_failure_augmentation",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:58:14.551946+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 38,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://jacques-benveniste.org/NATO-ARW-Kiev-abstract-selection.pdf",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Serially diluted anti-IgE triggers basophil degranulation beyond molecular presence, depending on shaking; water organization proposed speculatively."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "O",
+      "url": "https://jacques-benveniste.org/NATO-ARW-Kiev-abstract-selection.pdf",
+      "title": "Human basophil degranulation triggered by very dilute antiserum against IgE",
+      "date": "1988",
+      "date_basis": "publication",
+      "kind": "original_paper",
+      "read": true,
+      "independent": false,
+      "finding": "Original author text; central claims recorded before outcome grading.",
+      "characters": null,
+      "method": "original_paper",
+      "truncated": false
+    },
+    {
+      "source_id": "S1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8255290/",
+      "title": "Human basophil degranulation is not triggered by very dilute antiserum against human IgE",
+      "date": "1993",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Hirst and colleagues find no dilution-response evidence consistent with the original claim; complete abstract read.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1376282/",
+      "title": "Mechanical agitation of very dilute antiserum against IgE has no effect on basophil staining properties",
+      "date": "1992",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Twenty-four blinded experiments find no effect of vortexed ultradilute anti-IgE on basophil staining.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.nature.com/articles/370322a0",
+      "title": "Memory of water revisited",
+      "date": "1994",
+      "date_basis": "publication",
+      "kind": "author_response",
+      "read": true,
+      "independent": false,
+      "finding": "Original authors dispute Hirst’s methods, including blood selection, controls and centrifugation. The same printed page includes independent Wiegant correspondence reaffirming null blinded experiments.",
+      "characters": null,
+      "method": "author_response",
+      "truncated": false
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0965229905000415",
+      "title": "Replication study concerning the effects of homeopathic dilutions of histamine on human basophil degranulation in vitro",
+      "date": "2005",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Discussion distinguishes failed controlled replication of anti-IgE activation from the different histamine-inhibition literature; new histamine effects are control-sensitive.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "no",
+        "rationale": "Independent anti-IgE tests did not reproduce activation beyond molecular dilution, including blinded experiments. Author methodological objections are recorded; positive histamine-inhibition claims concern a different intervention.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "1993",
+            "explanation": "Independent anti-IgE tests did not reproduce activation beyond molecular dilution, including blinded experiments. Author methodological objections are recorded; positive histamine-inhibition claims concern a different intervention."
+          },
+          {
+            "source_id": "S2",
+            "date": "1992",
+            "explanation": "Independent anti-IgE tests did not reproduce activation beyond molecular dilution, including blinded experiments. Author methodological objections are recorded; positive histamine-inhibition claims concern a different intervention."
+          },
+          {
+            "source_id": "S3",
+            "date": "1994",
+            "explanation": "Independent anti-IgE tests did not reproduce activation beyond molecular dilution, including blinded experiments. Author methodological objections are recorded; positive histamine-inhibition claims concern a different intervention."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "no",
+        "rationale": "Independent anti-IgE tests did not reproduce activation beyond molecular dilution, including blinded experiments. Author methodological objections are recorded; positive histamine-inhibition claims concern a different intervention.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "1993",
+            "explanation": "Independent anti-IgE tests did not reproduce activation beyond molecular dilution, including blinded experiments. Author methodological objections are recorded; positive histamine-inhibition claims concern a different intervention."
+          },
+          {
+            "source_id": "S2",
+            "date": "1992",
+            "explanation": "Independent anti-IgE tests did not reproduce activation beyond molecular dilution, including blinded experiments. Author methodological objections are recorded; positive histamine-inhibition claims concern a different intervention."
+          },
+          {
+            "source_id": "S3",
+            "date": "1994",
+            "explanation": "Independent anti-IgE tests did not reproduce activation beyond molecular dilution, including blinded experiments. Author methodological objections are recorded; positive histamine-inhibition claims concern a different intervention."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "no",
+        "rationale": "Independent anti-IgE tests did not reproduce activation beyond molecular dilution, including blinded experiments. Author methodological objections are recorded; positive histamine-inhibition claims concern a different intervention.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "1993",
+            "explanation": "Independent anti-IgE tests did not reproduce activation beyond molecular dilution, including blinded experiments. Author methodological objections are recorded; positive histamine-inhibition claims concern a different intervention."
+          },
+          {
+            "source_id": "S2",
+            "date": "1992",
+            "explanation": "Independent anti-IgE tests did not reproduce activation beyond molecular dilution, including blinded experiments. Author methodological objections are recorded; positive histamine-inhibition claims concern a different intervention."
+          },
+          {
+            "source_id": "S3",
+            "date": "1994",
+            "explanation": "Independent anti-IgE tests did not reproduce activation beyond molecular dilution, including blinded experiments. Author methodological objections are recorded; positive histamine-inhibition claims concern a different intervention."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "no",
+        "rationale": "The later independent methodological assessment rejects reliable replication of the specific ultradilute anti-IgE activation finding; it does not adopt that claim as valid.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2005",
+            "explanation": "The later independent methodological assessment rejects reliable replication of the specific ultradilute anti-IgE activation finding; it does not adopt that claim as valid."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent experimental follow-up of the exact claim is documented in 1992 and 1993; these follow-ups are negative.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "1993",
+            "explanation": "Independent experimental follow-up of the exact claim is documented in 1992 and 1993; these follow-ups are negative."
+          },
+          {
+            "source_id": "S2",
+            "date": "1992",
+            "explanation": "Independent experimental follow-up of the exact claim is documented in 1992 and 1993; these follow-ups are negative."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "no",
+        "rationale": "The later independent methodological assessment rejects reliable replication of the specific ultradilute anti-IgE activation finding; it does not adopt that claim as valid.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2005",
+            "explanation": "The later independent methodological assessment rejects reliable replication of the specific ultradilute anti-IgE activation finding; it does not adopt that claim as valid."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Evidence inspected does not establish this outcome; missing evidence is not a negative result.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Purposively selected historical failed/disputed claim, training augmentation only; never part of unbiased held-out evaluation.",
+      "Failure of a central claim does not make all subsequent research or practical contributions failures."
+    ],
+    "summary": "Ultradilute anti-IgE activation failed independent blinded tests. Authors contested procedural changes, while later work distinguishes this failed claim from separate histamine-inhibition experiments. Attention and follow-up are preserved without treating them as confirmation."
+  },
+  "research_plan": {
+    "queries": [
+      "GET https://jacques-benveniste.org/NATO-ARW-Kiev-abstract-selection.pdf",
+      "\"Human basophil\" \"Hirst\" \"1993\" Nature",
+      "\"Human basophil\" \"Ovelgonne\" \"1992\"",
+      "GET https://www.nature.com/articles/370322d0.pdf",
+      "\"Replication study concerning\" \"2005\" \"histamine\" results"
+    ],
+    "search_log": [
+      {
+        "query": "GET https://jacques-benveniste.org/NATO-ARW-Kiev-abstract-selection.pdf",
+        "purpose": "Read original author manuscript and verify identity",
+        "urls_read": [
+          "https://jacques-benveniste.org/NATO-ARW-Kiev-abstract-selection.pdf"
+        ]
+      },
+      {
+        "query": "\"Human basophil\" \"Hirst\" \"1993\" Nature",
+        "purpose": "Inspect independent outcomes, limitations and contrary evidence",
+        "urls_read": [
+          "https://pubmed.ncbi.nlm.nih.gov/8255290/"
+        ]
+      },
+      {
+        "query": "\"Human basophil\" \"Ovelgonne\" \"1992\"",
+        "purpose": "Inspect independent outcomes, limitations and contrary evidence",
+        "urls_read": [
+          "https://pubmed.ncbi.nlm.nih.gov/1376282/"
+        ]
+      },
+      {
+        "query": "GET https://www.nature.com/articles/370322d0.pdf",
+        "purpose": "Inspect independent outcomes, limitations and contrary evidence",
+        "urls_read": [
+          "https://www.nature.com/articles/370322a0"
+        ]
+      },
+      {
+        "query": "\"Replication study concerning\" \"2005\" \"histamine\" results",
+        "purpose": "Inspect independent outcomes, limitations and contrary evidence",
+        "urls_read": [
+          "https://www.sciencedirect.com/science/article/pii/S0965229905000415"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 4,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 0.0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.2
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 1,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 0.5,
+        "lower_bound": 0.2,
+        "upper_bound": 0.8
+      }
+    },
+    "known_answers": 6,
+    "coverage": 0.30000000000000004,
+    "score": null,
+    "lower_bound": 0.05,
+    "upper_bound": 0.75,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous researcher /root/expand_econ",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

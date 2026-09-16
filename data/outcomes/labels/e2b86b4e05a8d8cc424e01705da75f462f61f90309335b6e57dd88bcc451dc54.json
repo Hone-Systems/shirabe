@@ -1,0 +1,401 @@
+{
+  "id": "https://openalex.org/W4287324271",
+  "title": "territorial community as a subject of strategic planning of territorial development",
+  "doi": "https://doi.org/10.5281/zenodo.4955232",
+  "year": 2021,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "test",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2025-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:21:20.391735+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://doi.org/10.5281/zenodo.4955232",
+    "method": "html_main_text",
+    "http_status": 200,
+    "characters": 5233,
+    "truncated": false,
+    "sha256": "df25b91dbee4afce585295ed3ad3a8de5fd899572263c55a76979464b38f18a0",
+    "retrieved_at": "2026-09-16T19:16:00.287002+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "united territorial communities local development strategy strategic planning SWOT analysis case study Ukraine",
+      "territorial community strategic planning strengths weaknesses long-term development plan evaluation Ukraine replication",
+      "territorial communities strategic planning local development strategies socioeconomic development systematic review Ukraine",
+      "territorial community strategic plan local self-government socioeconomic development policy implementation Ukraine"
+    ],
+    "selected_urls": [
+      "https://www.oecd.org/en/publications/2022/12/rebuilding-ukraine-by-reinforcing-regional-and-municipal-governance_63099658.html",
+      "https://rm.coe.int/cemg-pad-2024-6-ua-reform-concept-eng-final/1680b2b519",
+      "https://www.opengovpartnership.org/members/ukraine/commitments/UA0102",
+      "https://www.undp.org/ukraine/publications/methodological-recommendations-consideration-sustainable-development-goals-development-strategies-territorial-communities",
+      "https://kse.ua/wp-content/uploads/2026/01/Report_Municipalities-2025.pdf",
+      "https://www.sciencedirect.com/science/article/pii/S1757780223002779",
+      "https://www.iieta.org/journals/ijsdp/paper/10.18280/ijsdp.180712",
+      "https://periodicals.karazin.ua/geoeco/article/view/25140",
+      "https://www.bulletin-esgeograph.org.ua/esg/article/view/87-melnychuk-et-al-61-71",
+      "https://vsed-oneu.com.ua/index.php/journal/article/view/75"
+    ],
+    "plan_usage": {
+      "cache_key": "2fa81048ffb68af93b08211111f41dd44b44d8bbf43428dd3ae97cc99fff038e",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 1510,
+        "input_tokens_details": {
+          "cache_write_tokens": 1507,
+          "cached_tokens": 0
+        },
+        "output_tokens": 588,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 2098
+      },
+      "input_tokens_estimate": 1476,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "e43cfc89a735800e022c63c715ae5822ce30b642fe02f297398cdfb6cacb28a7",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 4935,
+        "input_tokens_details": {
+          "cache_write_tokens": 4932,
+          "cached_tokens": 0
+        },
+        "output_tokens": 634,
+        "output_tokens_details": {
+          "reasoning_tokens": 362
+        },
+        "total_tokens": 5569
+      },
+      "input_tokens_estimate": 4901,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.oecd.org/en/publications/2022/12/rebuilding-ukraine-by-reinforcing-regional-and-municipal-governance_63099658.html",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 288007,
+      "truncated": false,
+      "sha256": "1c951e9c8d489e07984ec54139448936e8f6f74177c40c59a35197790288e4a2",
+      "retrieved_at": "2026-09-16T19:20:44.312608+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://rm.coe.int/cemg-pad-2024-6-ua-reform-concept-eng-final/1680b2b519",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 41567,
+      "truncated": false,
+      "sha256": "2764ede4006d2b80625119e8523d5f172032c159f34f25836115b1e1fe171d4e",
+      "retrieved_at": "2026-09-16T19:20:43.895537+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.opengovpartnership.org/members/ukraine/commitments/UA0102",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 12520,
+      "truncated": false,
+      "sha256": "a475f9659c18b867a8c610bd70570f006c53bbc4060cf3d93c46acbc86c2799e",
+      "retrieved_at": "2026-09-16T19:20:43.863841+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.undp.org/ukraine/publications/methodological-recommendations-consideration-sustainable-development-goals-development-strategies-territorial-communities",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 2370,
+      "truncated": false,
+      "sha256": "42adc1766fd8e4380593323b85243771e7cd959069541a697ff1647aef738c6f",
+      "retrieved_at": "2026-09-16T19:20:43.764295+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://kse.ua/wp-content/uploads/2026/01/Report_Municipalities-2025.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 29670,
+      "truncated": false,
+      "sha256": "98252646baf7a06ac75c5ac0b3ae4cef16078fb28c294ced6f565c4e7fe7015e",
+      "retrieved_at": "2026-09-16T19:20:44.204876+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1757780223002779",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 10921,
+      "truncated": false,
+      "sha256": "617c3459e1c35b74c7182c318f2e1d8294d32fdfb8ca4a91c1ddbcf7f42855f3",
+      "retrieved_at": "2026-09-16T19:20:44.335299+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://www.iieta.org/journals/ijsdp/paper/10.18280/ijsdp.180712",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 42234,
+      "truncated": false,
+      "sha256": "fadcbc97c6d8de266410d962727838d58b6fe5d9db52348daa8bd38079c8410e",
+      "retrieved_at": "2026-09-16T19:20:44.180995+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://periodicals.karazin.ua/geoeco/article/view/25140",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 10848,
+      "truncated": false,
+      "sha256": "2b1b21a32ca4d14dac055334829cec32efcd400f1431c1e0638995dc7a248902",
+      "retrieved_at": "2026-09-16T19:20:48.281906+00:00"
+    },
+    {
+      "source_id": "S9",
+      "url": "https://www.bulletin-esgeograph.org.ua/esg/article/view/87-melnychuk-et-al-61-71",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 12540,
+      "truncated": false,
+      "sha256": "4e6e9e93ef31ee6869464119517eb93dc1225a58b7eec37c99d6fd91140c6486",
+      "retrieved_at": "2026-09-16T19:20:46.103704+00:00"
+    },
+    {
+      "source_id": "S10",
+      "url": "https://vsed-oneu.com.ua/index.php/journal/article/view/75",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 7414,
+      "truncated": false,
+      "sha256": "8b5cf3619d31b0150ab5dff9bf67091c3e955da0483561b872d7faa79e4ffdde",
+      "retrieved_at": "2026-09-16T19:20:45.446223+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "Independent later studies explicitly support the paper’s central proposition that territorial communities should undertake strategic planning for development.",
+        "evidence": [
+          {
+            "source_id": "S9",
+            "date": "2022-06-30"
+          },
+          {
+            "source_id": "S10",
+            "date": "2022-12-23"
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The sources show related applications of strategic planning, but do not establish reproduction of the target paper’s specific construction or result.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No supplied source reports a larger, stricter, or independently collected test of this paper’s specific claim.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "Later authoritative assessments retain strategic planning and community-level development as valid and important components of territorial governance.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2022-12-02"
+          },
+          {
+            "source_id": "S2",
+            "date": "2024-12-03"
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up sources do not explicitly test and resolve the target paper’s stated limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Several later studies extend strategic or spatial planning generally, but none clearly identifies itself as an extension of this specific paper.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Multiple independent groups studied territorial-community planning, but the sources do not establish that at least two groups substantively built on this particular paper.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The sources document use of strategic-planning methods, but do not show reuse of the target paper’s proposed method rather than parallel methods.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review supplied here explicitly identifies the target contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up performs a paper-specific baseline, benchmark, or comparative evaluation of the target contribution.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Later work reports planning applications in communities, but does not attribute a demonstrated scientific or practical benefit specifically to this paper.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The sources show other territorial-community settings, but do not establish successful use of this paper’s contribution outside its original setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "Later studies produce planning models and strategies, but do not demonstrate that the target paper enabled those new results.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The supplied sources document governance and planning practices, but not adoption of this paper in a product, workflow, standard, or formal practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison of a claimed advantage from the target paper is supplied.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Although later sources from 2024 discuss territorial strategic planning, none provides paper-specific evidence of substantive use at least three years after publication.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No supplied assessment at least three years later explicitly evaluates this paper’s central contribution positively.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Follow-up studies appear in 2022, 2023, and 2024, but their connection to this specific paper is not established.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent systematic review, textbook, standard, or research synthesis supplied here adopts this specific contribution as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later sources show continuing relevance of territorial strategic planning, but do not explicitly demonstrate continued usefulness of this paper despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied follow-up source explicitly cites or evaluates the 2021 target paper by title or DOI.",
+      "The packet lacks a paper-specific citation-context analysis distinguishing substantive use from general discussion of territorial strategic planning.",
+      "No supplied source reports replication, comparative benchmarking, formal adoption, or measured outcomes attributable to the target paper."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 2,
+    "coverage": 0.1,
+    "score": null,
+    "lower_bound": 0.1,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "8f92e6068139e97a7fc2b8e92aca8cc3b065afe931f5a55d1ba79f12f43ab105",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 134181,
+      "input_tokens_details": {
+        "cache_write_tokens": 134178,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2449,
+      "output_tokens_details": {
+        "reasoning_tokens": 1320
+      },
+      "total_tokens": 136630
+    },
+    "input_tokens_estimate": 133938,
+    "truncated": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ml2-10.1207/s15516709cog2605_4",
+  "title": "Cultural preferences for formal versus intuitive reasoning",
+  "year": 2002,
+  "field_id": 16,
+  "field": "Psychology",
+  "split": "validation",
+  "sampling_cohort": "manylabs2_complete_2018",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:47:39.284272+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 1,
+  "score": null
+}

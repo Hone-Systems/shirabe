@@ -1,0 +1,598 @@
+{
+  "id": "challenge-attention",
+  "title": "Attention Is All You Need",
+  "doi": "https://doi.org/10.48550/arXiv.1706.03762",
+  "year": 2017,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "challenge",
+  "sampling_cohort": "agent_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:31:41.938438+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 9,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://arxiv.org/pdf/1706.03762",
+    "scope": "full_text",
+    "read": true,
+    "version": "arXiv v7, 2023-08-02; full local PDF text including references and appendix captions read"
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://aclanthology.org/W18-6301.pdf",
+      "title": "Scaling Neural Machine Translation",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Ott et al. independently implement Transformer-big in fairseq, match original accuracy, and scale to 128 GPUs and approximately 150M sentence pairs. Hardware and optimization changes preclude attributing every speedup to architecture.",
+      "read_scope": "relevant_full_text_sections",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://aclanthology.org/P18-1167.pdf",
+      "title": "How Much Attention Do You Need? A Granular Analysis of Neural Machine Translation Architectures",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Domhan reproduces Transformer-base at 27.5 versus reported 27.3 BLEU. Controlled component experiments retain some Transformer advantages, but improved RNN/CNN baselines narrow gaps and decoder replacements often match it.",
+      "read_scope": "full_text",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://aclanthology.org/D18-1458.pdf",
+      "title": "Why Self-Attention? A Targeted Evaluation of Neural Machine Translation Architectures",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Tang et al. find stronger translation and word-sense disambiguation results, but no general superiority over RNNs on long-distance subject-verb agreement. Head count and hyperparameters matter.",
+      "read_scope": "relevant_full_text_sections",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S4",
+      "url": "https://arxiv.org/pdf/2004.05150v2",
+      "title": "Longformer: The Long-Document Transformer",
+      "date": "2020-12-02",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "AllenAI tests the acknowledged quadratic attention bottleneck and replaces full attention with local/global sparse attention. Runtime measurements, ablations and downstream experiments show useful long-document Transformer variants.",
+      "read_scope": "relevant_full_text_sections",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S5",
+      "url": "https://arxiv.org/pdf/1811.02633v2",
+      "title": "Molecular Transformer: A Model for Uncertainty-Calibrated Chemical Reaction Prediction",
+      "date": "2019-05-30",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "IBM/Cambridge explicitly adapt Vaswani et al. to chemical SMILES reaction prediction: 90.4% top-1 USPTO_MIT accuracy, 88.6% with mixed reactants/reagents. Reports deployment in IBM RXN.",
+      "read_scope": "full_text_sections_including_methods_results_conclusion",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S6",
+      "url": "https://arxiv.org/pdf/2106.04554v2",
+      "title": "A Survey of Transformers",
+      "date": "2021-06-15",
+      "date_basis": "publication",
+      "kind": "research_synthesis",
+      "read": true,
+      "independent": true,
+      "finding": "Fudan researchers identify the original architecture as the foundation of Transformer variants, pretrained encoder/decoder models and applications across language, vision and audio; explicitly discuss efficiency and generalization limits.",
+      "read_scope": "relevant_full_text_sections",
+      "characters": null,
+      "method": "research_synthesis",
+      "truncated": false
+    },
+    {
+      "source_id": "S7",
+      "url": "https://www.microsoft.com/en-us/translator/blog/2020/11/12/microsoft-custom-translator-pushes-the-translation-quality-bar-closer-to-human-parity/",
+      "title": "Microsoft Custom Translator pushes the translation quality bar closer to human parity",
+      "date": "2020-11-12",
+      "date_basis": "publication",
+      "kind": "official_adoption",
+      "read": true,
+      "independent": true,
+      "finding": "Microsoft reports completed Custom Translator migration from LSTM to Transformer architecture, also powering Translator API, Office 365, Speech, Bing and Edge. This documents deployment, not an independently audited benefit estimate.",
+      "read_scope": "relevant_full_text_sections",
+      "characters": null,
+      "method": "official_adoption",
+      "truncated": false
+    },
+    {
+      "source_id": "S8",
+      "url": "https://arxiv.org/html/2406.07887v1",
+      "title": "An Empirical Study of Mamba-based Language Models",
+      "date": "2024-06-12",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Controlled 8B-model comparisons on shared training data find pure Mamba models weaker at copying/in-context learning; hybrid models retaining attention outperform the Transformer comparator across twelve standard tasks. Independent of Vaswani et al., with Mamba authors participating.",
+      "read_scope": "relevant_full_text_sections",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S9",
+      "url": "https://arxiv.org/abs/2312.00752",
+      "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+      "date": "2023-12-01",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Gu and Dao report faster inference and competitive language modeling without attention. This is contrary evidence to universal architectural superiority, not a refutation of successful Transformer construction.",
+      "read_scope": "abstract",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "The central claim is effective, parallelizable sequence transduction without recurrence or convolution; it is not universal superiority on every task. Tang et al. do not support the shorter-path explanation of superior long-distance agreement.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2018",
+            "explanation": "Sections 3–4 independently implement and validate this architecture."
+          },
+          {
+            "source_id": "S3",
+            "date": "2018",
+            "explanation": "Targeted agreement tests qualify the mechanism claim despite positive translation performance."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "Independent implementations reproduce the central translation result, with implementation differences explicitly documented.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2018",
+            "explanation": "Table 1 compares independently implemented base-model performance with the original."
+          },
+          {
+            "source_id": "S1",
+            "date": "2018",
+            "explanation": "The fairseq reproduction matches original validation quality."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "yes",
+        "rationale": "Independent follow-up makes the translation-quality claim face stricter component-controlled comparisons and additional WMT settings. Transformer retains a quality advantage in some WMT conditions, although the gap narrows and some hybrids tie. Larger-data scaling separately supports feasibility, not comparative superiority.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2018",
+            "explanation": "Tables 3–5 test component-matched RNN/CNN alternatives, three-seed runs and WMT17 translation; some Transformer quality advantages survive."
+          },
+          {
+            "source_id": "S1",
+            "date": "2018",
+            "explanation": "Expanded-data and parallel-scaling experiments provide additional feasibility evidence, not a matched architecture comparison."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "yes",
+        "rationale": "An independent research synthesis explicitly retains the architecture as an effective foundation while recognizing limitations.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2021-06-15",
+            "explanation": "Sections 1–2 and 9 retain its demonstrated capabilities."
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Longformer explicitly tests the stated quadratic-cost bottleneck, but establishes long-document usefulness after replacing full attention. That proves a successful repair/extension; it does not clearly establish this question for the original contribution under its stated limiting conditions. Tang tests a proposed advantage, not an expressly stated limitation. The read evidence therefore does not warrant a definite yes or no.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2020-12-02",
+            "explanation": "Runtime/memory comparisons expose the original bottleneck; downstream success belongs to the sparse-attention replacement, leaving the precise rubric condition unresolved."
+          }
+        ]
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Independent researchers publish a specific sparse-attention extension.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2020-12-02",
+            "explanation": "Local/global attention replaces the original full-attention module."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "At least two distinct teams build substantively on this contribution.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2020-12-02",
+            "explanation": "AllenAI develops Longformer."
+          },
+          {
+            "source_id": "S5",
+            "date": "2019-05-30",
+            "explanation": "IBM/Cambridge develops Molecular Transformer."
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "The independent chemistry study implements the proposed architecture, beyond merely citing it.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2019-05-30",
+            "explanation": "Methods identify Vaswani et al. and implement its encoder-decoder and multi-head attention."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "yes",
+        "rationale": "A later review explicitly traces Transformer pretraining and architecture-variant research to the contribution.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2021-06-15",
+            "explanation": "Sections 3, 7 and 8 organize these research directions around the original architecture."
+          }
+        ]
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "rationale": "The architecture is an actual trained comparator in independent experiments.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2018",
+            "explanation": "Translation, agreement and disambiguation comparisons train Transformer, recurrent and convolutional models."
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Independent application demonstrates measurable scientific benefit in reaction prediction.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2019-05-30",
+            "explanation": "Benchmark comparisons show improved product-prediction accuracy."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "Chemical reaction prediction is outside the original translation/parsing evaluation.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2019-05-30",
+            "explanation": "SMILES reactants and products replace human-language inputs and outputs."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "A direct adaptation enables improved template-free chemical product prediction with uncertainty estimates.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2019-05-30",
+            "explanation": "The architecture supports the reported reaction-prediction and uncertainty results."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "yes",
+        "rationale": "Actual production deployment is documented by an external organization.",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2020-11-12",
+            "explanation": "The completed V2 rollout names live services using Transformer architecture."
+          }
+        ]
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "yes",
+        "rationale": "Yes for translation quality in specified WMT comparisons, not for every claimed speed or dependency advantage. The shared framework, matched training recipe and repeated runs support a fair architecture-level test; it is not a strict equal-FLOP comparison.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2018",
+            "explanation": "Domhan Tables 3–4 retain WMT quality gains over component-strengthened recurrent/convolutional baselines; Table 5 and IWSLT qualify their generality."
+          }
+        ]
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "Substantive reuse is documented more than three years after June 2017.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2020-12-02",
+            "explanation": "December 2020 version reports trained Transformer-based long-document models."
+          },
+          {
+            "source_id": "S8",
+            "date": "2024-06-12",
+            "explanation": "2024 experiments train full and hybrid Transformer systems."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "Lin et al., an independent Fudan team, explicitly assess Transformer as successful and widely adopted on 2021-06-15, over four years after the original 2017-06-12 submission.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2021-06-15",
+            "explanation": "The 2021 review explicitly describes successful adoption and task performance."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent substantive follow-up occurs in several distinct later years.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2018",
+            "explanation": "2018 independent translation implementation and scaling."
+          },
+          {
+            "source_id": "S5",
+            "date": "2019-05-30",
+            "explanation": "2019 chemical application."
+          },
+          {
+            "source_id": "S4",
+            "date": "2020-12-02",
+            "explanation": "2020 long-document extension."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "yes",
+        "rationale": "An independent comprehensive research synthesis adopts the contribution as useful.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2021-06-15",
+            "explanation": "It explains the vanilla architecture and synthesizes its validated uses and variants."
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "yes",
+        "rationale": "Later controlled comparison shows useful capabilities despite strong newer alternatives.",
+        "evidence": [
+          {
+            "source_id": "S8",
+            "date": "2024-06-12",
+            "explanation": "Transformers retain copying/in-context advantages over pure Mamba; successful hybrids continue to use attention."
+          },
+          {
+            "source_id": "S9",
+            "date": "2023-12-01",
+            "explanation": "The newer attention-free alternative establishes that competitive alternatives exist."
+          }
+        ]
+      }
+    ],
+    "search_gaps": [
+      "Lifetime landmark assessment through the requested as-of date; selected evidence spans 2018–2024 and is not a census of all 2025–2026 uses. This challenge cohort is not an unbiased training sample.",
+      "Original v7 gives 41.8 English-French BLEU in abstract/table but 41.0 in section 6.1; no attempt is made to certify every original numerical claim.",
+      "Tang et al. contradict the proposed long-range-dependency superiority explanation. Domhan shows component confounding and competitive hybrids. Binary existence questions do not express the magnitude of these qualifications.",
+      "Long-sequence usefulness is established for an explicitly modified descendant, not unrestricted scalability of the unchanged 2017 model. Modern model evidence concerns architectural lineage, not every original hyperparameter.",
+      "PMC chemistry page became captcha-blocked; the publicly accessible arXiv manuscript was downloaded and read instead. Mamba 2023 is abstract-level contrary evidence, supplemented by full-section reading of the controlled 2024 comparison.",
+      "Original assessment used v7; any future predictive training input should use the first-publication v1 text to avoid later-revision leakage. This challenge record is excluded from such training.",
+      "limitations_survived remains unknown: the available explicit long-sequence limitation test demonstrates success of a replacement mechanism, not clearly the original method under the limiting conditions. The rubric does not specify whether repaired descendants count."
+    ],
+    "summary": "Independent implementations reproduced the central Transformer translation result. Direct extensions, chemical reaction prediction, production translation and later synthesis document sustained usefulness. Nineteen questions have affirmative evidence; survival of explicitly stated limitations remains unknown because the strongest evidence tests a repaired descendant. Contradictory dependency tests, competitive hybrids and attention-free alternatives qualify claims of universal superiority."
+  },
+  "research_plan": {
+    "queries": [
+      "Scaling Neural Machine Translation Ott 2018 transformer 29.3 43.2",
+      "A Survey of Transformers Lin Wang Liu 2022",
+      "Transformer recurrent neural networks Tang 2018 self attention machine translation comparison",
+      "site.arxiv.org Longformer 2004.05150",
+      "site.ibm.com molecular transformer rxn chemistry 2019",
+      "site.microsoft.com translator transformer production 2020",
+      "site.arxiv.org Mamba transformers language modeling 2023 2312.00752",
+      "\"How Much Attention Do You Need\" \"Transformer\" Domhan",
+      "\"Attention Is All You Need\" correction retraction"
+    ],
+    "search_log": [
+      {
+        "query": "Scaling Neural Machine Translation Ott 2018 transformer 29.3 43.2",
+        "purpose": "Independent implementation and scaling",
+        "urls_read": [
+          "https://aclanthology.org/W18-6301.pdf"
+        ]
+      },
+      {
+        "query": "A Survey of Transformers Lin Wang Liu 2022",
+        "purpose": "Independent synthesis and enabling research directions",
+        "urls_read": [
+          "https://arxiv.org/pdf/2106.04554v2"
+        ]
+      },
+      {
+        "query": "Transformer recurrent neural networks Tang 2018 self attention machine translation comparison",
+        "purpose": "Targeted independent and contrary tests",
+        "urls_read": [
+          "https://aclanthology.org/D18-1458.pdf",
+          "https://aclanthology.org/C18-1054.pdf"
+        ]
+      },
+      {
+        "query": "site.arxiv.org Longformer 2004.05150",
+        "purpose": "Stated quadratic-cost limitation and later extensions",
+        "urls_read": [
+          "https://arxiv.org/pdf/2004.05150v2"
+        ]
+      },
+      {
+        "query": "site.ibm.com molecular transformer rxn chemistry 2019",
+        "purpose": "Out-of-domain scientific benefit and application lineage",
+        "urls_read": [
+          "https://arxiv.org/pdf/1811.02633v2",
+          "https://research.ibm.com/publications/molecular-transformer-a-model-for-uncertainty-calibrated-chemical-reaction-prediction"
+        ]
+      },
+      {
+        "query": "site.microsoft.com translator transformer production 2020",
+        "purpose": "Operational adoption",
+        "urls_read": [
+          "https://www.microsoft.com/en-us/translator/blog/2020/11/12/microsoft-custom-translator-pushes-the-translation-quality-bar-closer-to-human-parity/"
+        ]
+      },
+      {
+        "query": "site.arxiv.org Mamba transformers language modeling 2023 2312.00752",
+        "purpose": "Newer alternatives and retained usefulness",
+        "urls_read": [
+          "https://arxiv.org/html/2406.07887v1",
+          "https://arxiv.org/abs/2312.00752"
+        ]
+      },
+      {
+        "query": "\"How Much Attention Do You Need\" \"Transformer\" Domhan",
+        "purpose": "Fair component comparisons and alternative explanations",
+        "urls_read": [
+          "https://aclanthology.org/P18-1167.pdf"
+        ]
+      },
+      {
+        "query": "\"Attention Is All You Need\" correction retraction",
+        "purpose": "Check contrary publication-status leads",
+        "urls_read": [
+          "https://arxiv.org/abs/1706.03762"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 5,
+        "no": 0,
+        "unknown": 0,
+        "not_applicable": 0,
+        "coverage": 1.0,
+        "known_index": 1.0,
+        "lower_bound": 1.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 5,
+        "no": 0,
+        "unknown": 0,
+        "not_applicable": 0,
+        "coverage": 1.0,
+        "known_index": 1.0,
+        "lower_bound": 1.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 5,
+        "no": 0,
+        "unknown": 0,
+        "not_applicable": 0,
+        "coverage": 1.0,
+        "known_index": 1.0,
+        "lower_bound": 1.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 19,
+    "coverage": 0.95,
+    "score": 1.0,
+    "lower_bound": 0.95,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": true
+  },
+  "llm": {
+    "model": "Codex research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

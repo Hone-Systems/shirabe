@@ -1,0 +1,337 @@
+{
+  "id": "https://openalex.org/W2885474879",
+  "title": "Phase diagram and metastability of the Ising model on two coupled networks",
+  "doi": "https://doi.org/10.1088/1742-5468/aad6c7",
+  "year": 2018,
+  "field_id": 31,
+  "field": "Physics and Astronomy",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2022-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:23:03.748623+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://doi.org/10.1088/1742-5468/aad6c7",
+    "method": "tavily_complete_extraction",
+    "http_status": 200,
+    "characters": 14065,
+    "truncated": false,
+    "sha256": "99466bc23b7ce176dd34132b349a6a4011a981b4364ee0d8d9533c40d27a2999",
+    "retrieved_at": "2026-09-16T19:22:13.153557+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "Ising spins coupled Erdős–Rényi networks metastability free-energy extension",
+      "coupled Erdős–Rényi Ising Monte Carlo metastability escape-time replication",
+      "coupled-network Ising phase transitions metastability synthesis review",
+      "interacting networks Ising magnetization phase diagrams theoretical applications"
+    ],
+    "selected_urls": [
+      "https://arxiv.org/html/cond-mat/0612189",
+      "https://www.sciencedirect.com/science/article/pii/S0378437111008612",
+      "https://alea.impa.br/articles/v19/19-21.pdf",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10421637"
+    ],
+    "plan_usage": {
+      "cache_key": "fb5de195b6ba656199c9bdab49a5841b9239d4e1c17c522ce93d84f5b0c6b9a9",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 4203,
+        "input_tokens_details": {
+          "cache_write_tokens": 4200,
+          "cached_tokens": 0
+        },
+        "output_tokens": 432,
+        "output_tokens_details": {
+          "reasoning_tokens": 361
+        },
+        "total_tokens": 4635
+      },
+      "input_tokens_estimate": 4169,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "f98705c01f54c14a0c200c6b3a0ffd8febf55ae6318311061dc96150327873a3",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 9779,
+        "input_tokens_details": {
+          "cache_write_tokens": 9776,
+          "cached_tokens": 0
+        },
+        "output_tokens": 586,
+        "output_tokens_details": {
+          "reasoning_tokens": 505
+        },
+        "total_tokens": 10365
+      },
+      "input_tokens_estimate": 9745,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://arxiv.org/html/cond-mat/0612189",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 14127,
+      "truncated": false,
+      "sha256": "4660f901fffbf76bee4ae2c470972f9cbf21c4aac11dfd28d87df41179320d33",
+      "retrieved_at": "2026-09-16T19:22:36.910233+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378437111008612",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:22:37.542610+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://alea.impa.br/articles/v19/19-21.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 95757,
+      "truncated": false,
+      "sha256": "64ddc3ebc0da60fb50de6de9f4a3f08a00f67cf4e318dc31316dad8335ee42f1",
+      "retrieved_at": "2026-09-16T19:22:39.688698+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10421637",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 94490,
+      "truncated": false,
+      "sha256": "17c96e2e84ed7ead92a630654079c648376b00c51fa9fb22359dd3a702895f67",
+      "retrieved_at": "2026-09-16T19:22:38.393249+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up sources do not explicitly support the central claim about two coupled networks.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No supplied later source independently reproduces the coupled-network construction, phase diagram, or metastability result.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up performs a larger, stricter, or independently collected test of this paper’s two-network result.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "No later authoritative assessment in the supplied sources explicitly evaluates and retains this paper’s central claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up documents do not explicitly test the stated limitations of the two-coupled-network model.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Later work studies other Erdős–Rényi Ising models, but the supplied sources do not document a substantive extension of this specific coupled-network contribution.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2022"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not show at least two independent groups substantively building on this specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The later studies use related Ising and Erdős–Rényi models, but do not explicitly reuse the proposed two-network method or result.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2022-06-24"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review supplied explicitly identifies this paper’s contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The supplied sources contain no explicit baseline, benchmark, or theoretical comparison using this paper’s construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No independent concrete scientific or practical benefit from applying this paper’s specific contribution is documented.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Related work goes beyond some Erdős–Rényi settings, but the supplied sources do not show successful use of this specific contribution outside its original setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No supplied later work states that this paper enabled a new result, measurement, theorem, or capability.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "not_applicable",
+        "rationale": "The contribution is a theoretical statistical-mechanics analysis; the supplied evidence gives no basis for treating product, workflow, standard, or practice adoption as an applicable criterion.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison in the supplied sources tests or confirms an advantage claimed for this paper’s approach.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Although related independent work appears in 2022, it does not establish substantive use of this paper’s specific contribution at least three years later.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2022"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No positive independent assessment of this paper’s central contribution at least three years after publication is supplied.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The supplied paper-specific follow-up evidence does not document substantive independent follow-up in at least two distinct later calendar years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No supplied systematic review, textbook, standard, or synthesis adopts this specific contribution as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The supplied later sources discuss related Erdős–Rényi Ising models but do not explicitly show continued usefulness of this contribution despite newer alternatives.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2022-06-24"
+          }
+        ]
+      }
+    ],
+    "search_gaps": [
+      "No supplied follow-up source directly names or analyzes the 2018 two-coupled-network paper.",
+      "No supplied source provides an independent replication, citation-context assessment, systematic review, or documented application specific to the paper.",
+      "The available 2022 sources concern related but different Erdős–Rényi Ising models and cannot establish paper-specific uptake or validation."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 1,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "f7b0b20938f83c930d523bb45a0c28dc19e6f0bf3f3ba0fffc365d8bd9ad7ed5",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 76940,
+      "input_tokens_details": {
+        "cache_write_tokens": 76937,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1986,
+      "output_tokens_details": {
+        "reasoning_tokens": 763
+      },
+      "total_tokens": 78926
+    },
+    "input_tokens_estimate": 76697,
+    "truncated": false
+  }
+}

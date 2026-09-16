@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W4247974275",
+  "title": "Belgium",
+  "year": 2016,
+  "field_id": 33,
+  "field": "Social Sciences",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:04:41.568156+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 1,
+  "score": null
+}

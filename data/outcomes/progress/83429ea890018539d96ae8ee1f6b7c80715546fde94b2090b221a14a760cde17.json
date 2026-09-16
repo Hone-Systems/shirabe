@@ -1,0 +1,14 @@
+{
+  "id": "econ-10.1257/aer.101.4.1211",
+  "title": "Participation",
+  "year": 2011,
+  "field_id": 20,
+  "field": "Economics",
+  "split": "calibration",
+  "sampling_cohort": "econ_complete_2016",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:49:47.231456+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 4,
+  "score": null
+}

@@ -1,0 +1,508 @@
+{
+  "id": "ssrp-10.1126/science.1199327",
+  "title": "Retrieval practice produces more learning than elaborative studying with concept mapping.",
+  "doi": "10.1126/science.1199327",
+  "year": 2011,
+  "field_id": 32,
+  "field": "Psychology / behavioral science",
+  "split": "train",
+  "sampling_cohort": "ssrp_complete_2018",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:56:33.872392+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 15,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21252317/",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "Retrieval practice outperforms elaborative concept mapping on delayed meaningful learning assessments."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf",
+      "title": "Camerer et al. SSRP supplementary methods and Tables 1, 3 and 4",
+      "date": "2018-08-27",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Retrieval practice outperformed concept mapping on delayed recall: r=.384, p=.006, N=49. This is a bounded instructional comparison.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://doi.org/10.1152/advan.00041.2015",
+      "title": "The effectiveness of concept mapping and retrieval practice as learning strategies in an undergraduate physiology course",
+      "date": "2015",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Classroom comparison found a retrieval-practice trend significant on one of four module examinations; original abstract read through Europe PMC.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "R_C",
+      "url": "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/b/845/files/2025/01/camerer-et-al-2018-nature-hb.pdf",
+      "title": "Camerer et al. Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015",
+      "date": "2018-08-27",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "The preregistered independent replication reports positive significant focal results for both Aviezer and Karpicke/Blunt in Figure 1. Original-author reviewed protocols; not every original experiment was repeated.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "R_R",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078976",
+      "title": "Ritchie, Della Sala and McIntosh: Retrieval Practice, with or without Mind Mapping, Boosts Fact Learning in Primary School Children",
+      "date": "2013-11-12",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent in-class experiments adapted the retrieval/mapping comparison to 8–12-year-olds and geographical facts. Retrieval benefited recall through five weeks; mind mapping gave no consistent benefit. This simpler mapping task is not identical to original adult concept mapping.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "R_M",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1258359/full",
+      "title": "Mayrhofer, Kuhbandner and Frischholz: Re-examining the testing effect as a learning strategy",
+      "date": "2023-12-21",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Preregistered N=230 comparison reproduces original verbatim recall advantage under original conditions. Adding memorization to concept mapping removes that advantage; inference performance does not favor retrieval. Single German text, one-week retention; authors acknowledge these boundaries.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "R_B",
+      "url": "https://www.abpmr.org/Primary/Tips",
+      "title": "American Board of Physical Medicine and Rehabilitation: Study Tips & Resources",
+      "date": "2026-09-16",
+      "date_basis": "observed_as_of",
+      "kind": "official_guidance",
+      "read": true,
+      "independent": true,
+      "finding": "Official professional-exam guidance recommends self-testing and cites this paper among research supporting the advice. Demonstrates adoption into guidance, not measured candidate compliance or attribution of the whole testing-effect literature to this paper.",
+      "characters": null,
+      "method": "official_guidance",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "Retrieval practice outperformed concept mapping on delayed recall: r=.384, p=.006, N=49. This is a bounded instructional comparison. The answer applies to this explicitly identified core result only; other original results remain separately uncertain.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2018-08-27",
+            "explanation": "Retrieval practice outperformed concept mapping on delayed recall: r=.384, p=.006, N=49. This is a bounded instructional comparison. The answer applies to this explicitly identified core result only; other original results remain separately uncertain."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "Retrieval practice outperformed concept mapping on delayed recall: r=.384, p=.006, N=49. This is a bounded instructional comparison. The answer applies to this explicitly identified core result only; other original results remain separately uncertain.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2018-08-27",
+            "explanation": "Retrieval practice outperformed concept mapping on delayed recall: r=.384, p=.006, N=49. This is a bounded instructional comparison. The answer applies to this explicitly identified core result only; other original results remain separately uncertain."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure’s mechanism must be distinguished.",
+        "evidence": [
+          {
+            "source_id": "R_C",
+            "date": "2018-08-27",
+            "explanation": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure’s mechanism must be distinguished."
+          },
+          {
+            "source_id": "R_M",
+            "date": "2023-12-21",
+            "explanation": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure’s mechanism must be distinguished."
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "The independent classroom study directly extends the two learning strategies into an undergraduate physiology course.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015",
+            "explanation": "The independent classroom study directly extends the two learning strategies into an undergraduate physiology course."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations.",
+        "evidence": [
+          {
+            "source_id": "R_R",
+            "date": "2013-11-12",
+            "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+          },
+          {
+            "source_id": "R_C",
+            "date": "2018-08-27",
+            "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+          },
+          {
+            "source_id": "R_M",
+            "date": "2023-12-21",
+            "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "The classroom investigators assigned and compared concept mapping and retrieval practice as learning activities.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015",
+            "explanation": "The classroom investigators assigned and compared concept mapping and retrieval practice as learning activities."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "rationale": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations.",
+        "evidence": [
+          {
+            "source_id": "R_R",
+            "date": "2013-11-12",
+            "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+          },
+          {
+            "source_id": "R_C",
+            "date": "2018-08-27",
+            "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+          },
+          {
+            "source_id": "R_M",
+            "date": "2023-12-21",
+            "explanation": "Ritchie adapted the concrete comparison to children, Camerer independently replicated it, and Mayrhofer independently tested its memorization confound. These are substantive uses rather than mere citations."
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "The independent classroom adaptation demonstrates better delayed fact recall and tests mapping-plus-retrieval in primary school pupils. It uses simpler mind maps, so cannot by itself establish all original conceptual-learning claims.",
+        "evidence": [
+          {
+            "source_id": "R_R",
+            "date": "2013-11-12",
+            "explanation": "The independent classroom adaptation demonstrates better delayed fact recall and tests mapping-plus-retrieval in primary school pupils. It uses simpler mind maps, so cannot by itself establish all original conceptual-learning claims."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "The independent classroom adaptation demonstrates better delayed fact recall and tests mapping-plus-retrieval in primary school pupils. It uses simpler mind maps, so cannot by itself establish all original conceptual-learning claims.",
+        "evidence": [
+          {
+            "source_id": "R_R",
+            "date": "2013-11-12",
+            "explanation": "The independent classroom adaptation demonstrates better delayed fact recall and tests mapping-plus-retrieval in primary school pupils. It uses simpler mind maps, so cannot by itself establish all original conceptual-learning claims."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The independent classroom adaptation demonstrates better delayed fact recall and tests mapping-plus-retrieval in primary school pupils. It uses simpler mind maps, so cannot by itself establish all original conceptual-learning claims.",
+        "evidence": [
+          {
+            "source_id": "R_R",
+            "date": "2013-11-12",
+            "explanation": "The independent classroom adaptation demonstrates better delayed fact recall and tests mapping-plus-retrieval in primary school pupils. It uses simpler mind maps, so cannot by itself establish all original conceptual-learning claims."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "yes",
+        "rationale": "ABPMR incorporated self-testing into official candidate study guidance, explicitly grounding it in this paper among others. Adoption is of educational guidance, not evidence that all candidates use it.",
+        "evidence": [
+          {
+            "source_id": "R_B",
+            "date": "2026-09-16",
+            "explanation": "ABPMR incorporated self-testing into official candidate study guidance, explicitly grounding it in this paper among others. Adoption is of educational guidance, not evidence that all candidates use it."
+          }
+        ]
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure’s mechanism must be distinguished.",
+        "evidence": [
+          {
+            "source_id": "R_C",
+            "date": "2018-08-27",
+            "explanation": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure’s mechanism must be distinguished."
+          },
+          {
+            "source_id": "R_M",
+            "date": "2023-12-21",
+            "explanation": "Mixed evidence: preregistered direct replication supports the original comparison, but a larger 2023 confound-controlled study eliminates the claimed advantage. General retrieval benefits and the original procedure’s mechanism must be distinguished."
+          }
+        ]
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "Independent experiments substantively use the contribution in 2013, 2018 and 2023.",
+        "evidence": [
+          {
+            "source_id": "R_R",
+            "date": "2013-11-12",
+            "explanation": "Independent experiments substantively use the contribution in 2013, 2018 and 2023."
+          },
+          {
+            "source_id": "R_C",
+            "date": "2018-08-27",
+            "explanation": "Independent experiments substantively use the contribution in 2013, 2018 and 2023."
+          },
+          {
+            "source_id": "R_M",
+            "date": "2023-12-21",
+            "explanation": "Independent experiments substantively use the contribution in 2013, 2018 and 2023."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "Retrieval practice outperformed concept mapping on delayed recall: r=.384, p=.006, N=49. This is a bounded instructional comparison. The answer applies to this explicitly identified core result only; other original results remain separately uncertain.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2018-08-27",
+            "explanation": "Retrieval practice outperformed concept mapping on delayed recall: r=.384, p=.006, N=49. This is a bounded instructional comparison. The answer applies to this explicitly identified core result only; other original results remain separately uncertain."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Independent classroom comparison in 2015 and direct experimental replication in 2018.",
+        "evidence": [
+          {
+            "source_id": "S1",
+            "date": "2018-08-27",
+            "explanation": "Independent classroom comparison in 2015 and direct experimental replication in 2018."
+          },
+          {
+            "source_id": "S2",
+            "date": "2015",
+            "explanation": "Independent classroom comparison in 2015 and direct experimental replication in 2018."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources read do not establish this outcome for this specific contribution. Missing evidence is not a negative result.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "This is an evidence-rich replication cohort, not a representative sample of all science or an unbiased measure of lifetime impact.",
+      "Only specified experimental contrasts have direct replication evidence; unknown utility, adoption and durability answers must not be interpreted as failure.",
+      "Searches were completed through 2026-09-16 but do not claim exhaustive coverage of every citation or unpublished result.",
+      "Original assessment is explicitly abstract-only; full original body was not obtained. Training input contains the complete original abstract without publisher summaries.",
+      "Two independent grades adjudicated; six-paper repeat sample is not a population reliability estimate."
+    ],
+    "summary": "Retrieval practice outperformed concept mapping on delayed recall: r=.384, p=.006, N=49. This is a bounded instructional comparison. This grade preserves uncertain broader outcomes instead of converting replication status into universal success. Blind repeat research added sources and corrected claim scope; initial and repeat grades remain archived."
+  },
+  "research_plan": {
+    "queries": [
+      "Social Science Replication Project 21 studies Camerer 2018 original papers list supplementary",
+      "FIRST_PDATE:[2010-01-01 TO 2015-12-31] AND TITLE:\"Retrieval practice produces more learning than elaborative studying with concept mapping\"",
+      "\"Retrieval practice\" \"concept mapping\" independent replication 2014 2017",
+      "Karpicke Blunt2011 retrieval practice concept mapping replication Camerer2018",
+      "\"Retrieval Practice, with or without Mind Mapping\" 2013",
+      "\"Karpicke\" \"Blunt\" \"2011\" \"Dunlosky\" concept mapping 2013"
+    ],
+    "search_log": [
+      {
+        "query": "Social Science Replication Project 21 studies Camerer 2018 original papers list supplementary",
+        "purpose": "Enumerate the complete cohort and inspect preregistered selected contrasts and results.",
+        "urls_read": [
+          "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf",
+          "https://www.nature.com/articles/s41562-018-0399-z"
+        ]
+      },
+      {
+        "query": "FIRST_PDATE:[2010-01-01 TO 2015-12-31] AND TITLE:\"Retrieval practice produces more learning than elaborative studying with concept mapping\"",
+        "purpose": "Resolve original title, DOI and abstract in Europe PMC; inspect accessible original.",
+        "urls_read": [
+          "https://pubmed.ncbi.nlm.nih.gov/21252317/"
+        ]
+      },
+      {
+        "query": "\"Retrieval practice\" \"concept mapping\" independent replication 2014 2017",
+        "purpose": "Check independent follow-up and contrary evidence beyond the common replication summary.",
+        "urls_read": [
+          "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf",
+          "https://doi.org/10.1152/advan.00041.2015"
+        ]
+      },
+      {
+        "query": "Karpicke Blunt2011 retrieval practice concept mapping replication Camerer2018",
+        "purpose": "Independent replication, contrary evidence and substantive uptake search",
+        "urls_read": [
+          "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/b/845/files/2025/01/camerer-et-al-2018-nature-hb.pdf",
+          "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078976",
+          "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1258359/full",
+          "https://www.abpmr.org/Primary/Tips"
+        ]
+      },
+      {
+        "query": "\"Retrieval Practice, with or without Mind Mapping\" 2013",
+        "purpose": "Independent replication, contrary evidence and substantive uptake search",
+        "urls_read": [
+          "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/b/845/files/2025/01/camerer-et-al-2018-nature-hb.pdf",
+          "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078976",
+          "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1258359/full",
+          "https://www.abpmr.org/Primary/Tips"
+        ]
+      },
+      {
+        "query": "\"Karpicke\" \"Blunt\" \"2011\" \"Dunlosky\" concept mapping 2013",
+        "purpose": "Independent replication, contrary evidence and substantive uptake search",
+        "urls_read": [
+          "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/b/845/files/2025/01/camerer-et-al-2018-nature-hb.pdf",
+          "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078976",
+          "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1258359/full",
+          "https://www.abpmr.org/Primary/Tips"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 13,
+    "coverage": 0.65,
+    "score": null,
+    "lower_bound": 0.65,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agents, independently repeated and root-adjudicated",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "id": "rpcb-10.1073/pnas.1121623109",
+  "title": "The CD47-signal regulatory protein alpha (SIRPa) interaction is a therapeutic target for human solid tumors",
+  "doi": "https://doi.org/10.1073/pnas.1121623109",
+  "year": 2012,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:12:17.026498+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 14,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "abstract",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3340046/",
+    "scope": "abstract",
+    "read": true
+  },
+  "central_claims": [
+    "CD47 blockade enables macrophage phagocytosis and inhibits human solid-tumor growth, including in immunocompetent breast-tumor mice."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://doi.org/10.7554/elife.18173",
+      "title": "Replication Study: The CD47-signal regulatory protein alpha (SIRPa) interaction is a therapeutic target for human solid tumors.",
+      "date": "2017-01-19",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "full_text",
+      "finding": "Breast tumor experiment was confounded by spontaneous regression; anti-CD47 benefit could not be cleanly established.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://doi.org/10.18632/oncotarget.4282",
+      "title": "CD47 blockade inhibits tumor progression human osteosarcoma in xenograft models.",
+      "date": "2015-09-01",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "full_text",
+      "finding": "Anti-CD47 promoted osteosarcoma phagocytosis and inhibited metastasis in independent xenografts.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://doi.org/10.1158/1078-0432.ccr-14-1399",
+      "title": "Inhibition of CD47 Effectively Targets Pancreatic Cancer Stem Cells via Dual Mechanisms.",
+      "date": "2015-02-23",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "abstract",
+      "finding": "PDAC phagocytosis increased but monotherapy did not materially slow xenografts; combination chemotherapy produced sustained regression.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "Independent osteosarcoma experiments support CD47 blockade promoting phagocytosis and inhibiting tumor progression.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015-09-01",
+            "explanation": "Independent osteosarcoma experiments support CD47 blockade promoting phagocytosis and inhibiting tumor progression."
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "CD47 blockade anti-tumor activity and phagocytosis were independently reproduced in osteosarcoma; not every solid tumor is thereby validated.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015-09-01",
+            "explanation": "CD47 blockade anti-tumor activity and phagocytosis were independently reproduced in osteosarcoma; not every solid tumor is thereby validated."
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The immunocompetent breast replication was confounded and PDAC monotherapy was ineffective; benefit is context dependent.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "PDAC work extended targeting to cancer stem cells and combination treatment.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2015-02-23",
+            "explanation": "PDAC work extended targeting to cancer stem cells and combination treatment."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Xu and Cioffi teams independently developed CD47-blockade applications.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015-09-01",
+            "explanation": "Xu and Cioffi teams independently developed CD47-blockade applications."
+          },
+          {
+            "source_id": "S3",
+            "date": "2015-02-23",
+            "explanation": "Xu and Cioffi teams independently developed CD47-blockade applications."
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Independent investigators applied anti-CD47 blockade rather than merely citing it.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015-09-01",
+            "explanation": "Independent investigators applied anti-CD47 blockade rather than merely citing it."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Blockade inhibited spontaneous pulmonary metastasis in osteosarcoma xenografts.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015-09-01",
+            "explanation": "Blockade inhibited spontaneous pulmonary metastasis in osteosarcoma xenografts."
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "Osteosarcoma application extended the solid-tumor evidence.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015-09-01",
+            "explanation": "Osteosarcoma application extended the solid-tumor evidence."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "Combination CD47 inhibition produced sustained PDAC xenograft regression.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2015-02-23",
+            "explanation": "Combination CD47 inhibition produced sustained PDAC xenograft regression."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The independent 2015 experiment followed the 2012 publication by three years.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015-09-01",
+            "explanation": "The independent 2015 experiment followed the 2012 publication by three years."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "Independent 2015 experiments supported CD47 as a therapeutic target in osteosarcoma.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2015-09-01",
+            "explanation": "Independent 2015 experiments supported CD47 as a therapeutic target in osteosarcoma."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "This is a bounded primary-evidence assessment, not an exhaustive adoption or clinical practice audit.",
+      "Failed or confounded selected experiments do not imply all claims in the original paper are false.",
+      "Exact first-publication version and separately linked supplements were not all verified."
+    ],
+    "summary": "Breast tumor experiment was confounded by spontaneous regression; anti-CD47 benefit could not be cleanly established. Anti-CD47 promoted osteosarcoma phagocytosis and inhibited metastasis in independent xenografts. PDAC phagocytosis increased but monotherapy did not materially slow xenografts; combination chemotherapy produced sustained regression."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1073/pnas.1121623109",
+      "https://doi.org/10.7554/eLife.18173",
+      "Follow references / DOI lookups for 10.18632/oncotarget.4282, 10.1158/1078-0432.ccr-14-1399"
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1073/pnas.1121623109",
+        "purpose": "Original identity and full-text resolution via Europe PMC and NCBI BioC",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3340046/"
+        ]
+      },
+      {
+        "query": "https://doi.org/10.7554/eLife.18173",
+        "purpose": "Independent direct replication and references to contrary supporting evidence",
+        "urls_read": [
+          "https://doi.org/10.7554/elife.18173"
+        ]
+      },
+      {
+        "query": "Follow references / DOI lookups for 10.18632/oncotarget.4282, 10.1158/1078-0432.ccr-14-1399",
+        "purpose": "Read independent supporting and limiting primary evidence",
+        "urls_read": [
+          "https://doi.org/10.18632/oncotarget.4282",
+          "https://doi.org/10.1158/1078-0432.ccr-14-1399"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 10,
+    "coverage": 0.5,
+    "score": null,
+    "lower_bound": 0.5,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent / cancer external last",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

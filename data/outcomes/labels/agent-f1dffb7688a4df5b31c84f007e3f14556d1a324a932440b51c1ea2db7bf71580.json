@@ -1,0 +1,350 @@
+{
+  "id": "rpcb-10.1038/nm.2753",
+  "title": "Melanoma exosomes educate bone marrow progenitor cells toward a pro-metastatic phenotype through MET",
+  "doi": "https://doi.org/10.1038/nm.2753",
+  "year": 2012,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "external",
+  "sampling_cohort": "rpcb_completed_external_2021",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T21:12:56.372767+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 14,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3645291/",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Melanoma exosomes transfer MET-mediated signals and educate bone marrow progenitors to promote metastatic niche formation; reducing exosomal MET diminishes metastasis."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://doi.org/10.7554/elife.39944",
+      "title": "Replication study: Melanoma exosomes educate bone marrow progenitor cells toward a pro-metastatic phenotype through MET.",
+      "date": "2018-12-11",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "full_text",
+      "finding": "MET knockdown and exosomal MET were confirmed, but lung/bone metastasis differences were small and nonsignificant; protocol and knockdown differed.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://doi.org/10.18632/oncotarget.12221",
+      "title": "Different growth and metastatic phenotypes associated with a cell-intrinsic change of Met in metastatic melanoma.",
+      "date": "2016-10-01",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "full_text",
+      "finding": "Met-containing exosomes from Met-high melanoma increased lung metastasis by Met-low cells.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://doi.org/10.1038/s41467-017-01433-3",
+      "title": "Pre-metastatic cancer exosomes induce immune surveillance by patrolling monocytes at the metastatic niche.",
+      "date": "2017-11-06",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "scope": "full_text",
+      "finding": "Poorly metastatic melanoma exosomes instead stimulated immune surveillance; contrasted metastatic exosomes and extended the niche mechanism.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Adachi supports exosomal MET-mediated metastatic transfer but does not independently establish the complete bone-marrow education mechanism; the direct replication was inconclusive.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "Contrasting poorly metastatic and metastatic exosomes exposed a protective immune-surveillance mechanism.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-11-06",
+            "explanation": "Contrasting poorly metastatic and metastatic exosomes exposed a protective immune-surveillance mechanism."
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Adachi and Plebanek teams independently extended exosomal control of metastatic behavior.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-10-01",
+            "explanation": "Adachi and Plebanek teams independently extended exosomal control of metastatic behavior."
+          },
+          {
+            "source_id": "S3",
+            "date": "2017-11-06",
+            "explanation": "Adachi and Plebanek teams independently extended exosomal control of metastatic behavior."
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "The team applied exosome preconditioning to test MET-linked metastatic transfer.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-10-01",
+            "explanation": "The team applied exosome preconditioning to test MET-linked metastatic transfer."
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The metastatic-niche framework enabled discovery of exosome-triggered patrolling-monocyte protection.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2017-11-06",
+            "explanation": "The metastatic-niche framework enabled discovery of exosome-triggered patrolling-monocyte protection."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "Independent exosome preconditioning was used in 2016, four years later.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-10-01",
+            "explanation": "Independent exosome preconditioning was used in 2016, four years later."
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "The 2016 study supports exosomal MET-mediated metastatic facilitation.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-10-01",
+            "explanation": "The 2016 study supports exosomal MET-mediated metastatic facilitation."
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive independent studies were published in 2016 and 2017.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2016-10-01",
+            "explanation": "Substantive independent studies were published in 2016 and 2017."
+          },
+          {
+            "source_id": "S3",
+            "date": "2017-11-06",
+            "explanation": "Substantive independent studies were published in 2016 and 2017."
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The sources checked do not establish this specific outcome; missing evidence is not a negative finding.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "This is a bounded primary-evidence assessment, not an exhaustive adoption or clinical practice audit.",
+      "Failed or confounded selected experiments do not imply all claims in the original paper are false.",
+      "Exact first-publication version and separately linked supplements were not all verified."
+    ],
+    "summary": "MET knockdown and exosomal MET were confirmed, but lung/bone metastasis differences were small and nonsignificant; protocol and knockdown differed. Met-containing exosomes from Met-high melanoma increased lung metastasis by Met-low cells. Poorly metastatic melanoma exosomes instead stimulated immune surveillance; contrasted metastatic exosomes and extended the niche mechanism."
+  },
+  "research_plan": {
+    "queries": [
+      "DOI:10.1038/nm.2753",
+      "https://doi.org/10.7554/eLife.39944",
+      "Follow references / DOI lookups for 10.18632/oncotarget.12221, 10.1038/s41467-017-01433-3"
+    ],
+    "search_log": [
+      {
+        "query": "DOI:10.1038/nm.2753",
+        "purpose": "Original identity and full-text resolution via Europe PMC and NCBI BioC",
+        "urls_read": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3645291/"
+        ]
+      },
+      {
+        "query": "https://doi.org/10.7554/eLife.39944",
+        "purpose": "Independent direct replication and references to contrary supporting evidence",
+        "urls_read": [
+          "https://doi.org/10.7554/elife.39944"
+        ]
+      },
+      {
+        "query": "Follow references / DOI lookups for 10.18632/oncotarget.12221, 10.1038/s41467-017-01433-3",
+        "purpose": "Read independent supporting and limiting primary evidence",
+        "urls_read": [
+          "https://doi.org/10.18632/oncotarget.12221",
+          "https://doi.org/10.1038/s41467-017-01433-3"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 7,
+    "coverage": 0.35,
+    "score": null,
+    "lower_bound": 0.35,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex autonomous research agent / cancer external last",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

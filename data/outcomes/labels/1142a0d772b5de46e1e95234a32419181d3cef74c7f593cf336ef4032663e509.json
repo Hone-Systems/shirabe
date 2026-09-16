@@ -1,0 +1,296 @@
+{
+  "id": "https://openalex.org/W2756378544",
+  "title": "Introducing the Nano Paper Technology (Tiny Nano Paper Art)",
+  "doi": null,
+  "year": 2017,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2021-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:19:49.464612+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://iiste.org/Journals/index.php/ADS/article/download/38550/39633",
+    "method": "pdf_all_pages",
+    "http_status": 200,
+    "characters": 34311,
+    "truncated": false,
+    "sha256": "4cbae73ab7f43747147b0579bd19e3281d2b545a992e933f2b193df81b8a1438",
+    "retrieved_at": "2026-09-16T19:12:36.755988+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "recycled paper micro awl scalpel tiny paper fragments independent application study",
+      "Nano Paper technique replication recycled paper scalpel paper fragments experimental study",
+      "micro-paper art recycled paper cutting techniques literature review",
+      "Nano Paper technology art education special needs rehabilitation tourism heritage adoption"
+    ],
+    "selected_urls": [
+      "https://www.eurekalert.org/news-releases/743815",
+      "https://www.loiscordelia.com/blog/2017/1/the-cutting-edge---paper-art-with-a-scalpel"
+    ],
+    "plan_usage": {
+      "cache_key": "790dd0b0c37ab1a13e730ae54689a1f16be43f64a66877f4546ab9eba990bc15",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 7054,
+        "input_tokens_details": {
+          "cache_write_tokens": 7051,
+          "cached_tokens": 0
+        },
+        "output_tokens": 580,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 7634
+      },
+      "input_tokens_estimate": 7020,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "c48718a9594936b009863681122e53e74bbf20c18d2908df87df311be2936222",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 9402,
+        "input_tokens_details": {
+          "cache_write_tokens": 9399,
+          "cached_tokens": 0
+        },
+        "output_tokens": 571,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 9973
+      },
+      "input_tokens_estimate": 9368,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://www.eurekalert.org/news-releases/743815",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 3833,
+      "truncated": false,
+      "sha256": "a052390233b333adf8d7ef699034d085d2776d897a6507ffbd4b81f31351f0f4",
+      "retrieved_at": "2026-09-16T19:19:31.678927+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.loiscordelia.com/blog/2017/1/the-cutting-edge---paper-art-with-a-scalpel",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 13231,
+      "truncated": false,
+      "sha256": "b95f74e44c1a970017bad2e9368dfa6d922fc18d065fb6d74a9b7a198c2a3e65",
+      "retrieved_at": "2026-09-16T19:19:32.205786+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No later independent primary study in the 2018–2021 window explicitly supports this paper’s specific central claim.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up sources do not document an independent team reproducing the paper’s specific Nano Paper construction or result during the window.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No larger, stricter, or independently collected follow-up test of this specific technique is supplied for 2018–2021.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "No later authoritative assessment of this specific contribution is supplied in the follow-up window.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not show later work explicitly testing and overcoming the paper’s stated limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "No independent substantive extension of this specific Nano Paper contribution is documented in the supplied 2018–2021 sources.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The packet does not document substantive work by at least two independent groups building on this specific contribution during the window.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "No later independent study is shown actually using the proposed Nano Paper method rather than merely discussing paper art generally.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review in the supplied window identifies this contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not show this specific contribution used as a baseline, benchmark, or reference construction in independent work.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No independent demonstration of a concrete scientific or practical benefit from applying this specific technique is supplied for 2018–2021.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "No qualifying later use outside the original paper’s artistic setting or problem instance is documented in the supplied window.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The packet does not document a later measurement, theorem, capability, or other new result enabled by this specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Although practical artistic use could be relevant, no dated evidence in 2018–2021 shows adoption in a product, workflow, standard, or established practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison testing a claimed advantage of Nano Paper is supplied in the follow-up window.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not document substantive use at least three years after the 2017 publication.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No positive independent assessment dated at least three years after publication is supplied for this contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The packet does not document substantive independent follow-up in two distinct later calendar years within 2018–2021.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent systematic review, textbook, standard, or research synthesis in the supplied window adopts this contribution as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No later evidence explicitly demonstrates continued usefulness despite newer alternatives during 2018–2021.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "The supplied sources contain no follow-up publication specifically naming or evaluating Khseifan’s 2017 Nano Paper technique.",
+      "S1 is dated 2012 and concerns graphene-oxide nanofluidic devices, not this paper; it is outside the follow-up window and cannot support the rubric.",
+      "S2 is dated 2017 and describes an artist’s scalpel paper-cutting practice, not an independent follow-up to this paper; it is outside the follow-up window.",
+      "No supplied source provides evidence of replication, independent adoption, comparative testing, later synthesis, or documented use during 2018–2021."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "b8d3b36609a86078bc9e16f5bb378ee5c97164aa227ccfa03675e04f076bd89c",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 22424,
+      "input_tokens_details": {
+        "cache_write_tokens": 22421,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1327,
+      "output_tokens_details": {
+        "reasoning_tokens": 333
+      },
+      "total_tokens": 23751
+    },
+    "input_tokens_estimate": 22181,
+    "truncated": false
+  }
+}

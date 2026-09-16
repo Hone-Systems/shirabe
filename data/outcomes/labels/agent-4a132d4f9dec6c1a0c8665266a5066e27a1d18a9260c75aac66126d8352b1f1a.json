@@ -1,0 +1,316 @@
+{
+  "id": "https://openalex.org/W2797775827",
+  "title": "Cuckoos host range is associated positively with distribution range and negatively with evolutionary uniqueness",
+  "doi": "https://doi.org/10.1111/1365-2656.12797",
+  "year": 2018,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:40:28.361049+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 8,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://iris.unito.it/retrieve/handle/2318/2119513/1991909/Morelli%20et%20al.%202018%20Journal%20of%20Animal%20Ecology.pdf",
+    "scope": "full_text",
+    "read": true,
+    "central_claim": "positive host-richness versus breeding-range and negative host-richness versus evolutionary-distinctiveness associations among brood-parasitic cuckoos"
+  },
+  "central_claims": [
+    "Among brood-parasitic cuckoos, more host species are associated with a larger breeding distribution.",
+    "Controlling breeding range and phylogeny, more host species are associated with lower cuckoo evolutionary distinctiveness.",
+    "Evolutionary distinctiveness does not significantly differ between parasitic and non-parasitic cuckoos."
+  ],
+  "source_manifest": [
+    {
+      "source_id": "S0",
+      "url": "https://iris.unito.it/retrieve/handle/2318/2119513/1991909/Morelli%20et%20al.%202018%20Journal%20of%20Animal%20Ecology.pdf",
+      "title": "Cuckoos host range is associated positively with distribution range and negatively with evolutionary uniqueness",
+      "date": "2018-01-22",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": false,
+      "scope": "full_text",
+      "read": true,
+      "finding": "Across cuckoos, host richness rises with breeding range and falls with evolutionary distinctiveness; the paper cautions that host counts imperfectly measure selectivity.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S1",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ece3.6263",
+      "title": "Diet specialization and brood parasitism in cuckoo species",
+      "date": "2020-04-16",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": false,
+      "scope": "abstract_and_indexed_discussion",
+      "read": true,
+      "finding": "Morelli, Benedetti and Møller revisit related diet specialization and discuss their earlier host-range findings; the team overlaps the original.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2351989424005808",
+      "title": "Biodiversity indicators for breeding passerines in a multiple-cuckoo system in China: A comparison of cuckoos and raptors",
+      "date": "2025",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "independent": false,
+      "scope": "indexed_abstract_results_discussion",
+      "read": true,
+      "finding": "Lin and Liang compare bioindicators across China and invoke passive host sampling in discussion. Liang coauthored the original; this is a different ecological outcome.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The located diet and bioindicator studies share original authors and do not independently retest the joint cuckoo host-richness, range and ED association.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No independent rerun using the deposited 42-species analysis or newly collected cuckoo host-richness data was located.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The China bioindicator comparison measures passerine diversity; it is not a larger test of cuckoo host richness versus cuckoo ED.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The original authors restate their finding in 2020; a later independent authoritative assessment of the joint association was not verified.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No located follow-up replaces raw host counts with parasitism rates or explicitly controls uneven research effort to test the stated limitation.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The two most direct follow-ups share original authors; neither establishes an independent extension of the specified analysis.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Two publications were located, but author overlap and differing outcomes prevent counting them as two independent groups building on this result.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The sources discuss prior findings, but no independent reuse of this paper’s particular dataset or fitted model was verified. PGLS itself predates the paper.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "Brood-parasitism reviews were located, but none read explicitly credits this particular ED association with enabling a new direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "Comparisons of cuckoos and raptors are not comparisons against the original host-range model; no qualifying independent baseline use was verified.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The original suggests conservation relevance; later discussion does not demonstrate an independent conservation or scientific benefit from applying this specific association.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The China study concerns biodiversity surrogacy and shares an author; successful transfer of the original association to honeyguides, cowbirds or other parasites remains unverified.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The diet and bioindicator results are related, but neither source read establishes that the 2018 joint association enabled its result.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "No conservation prioritization plan or monitoring workflow explicitly applying this model was found; archive availability does not establish deployment.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "not_applicable",
+        "rationale": "This comparative natural-history study proposes an association, not a performance advantage over an alternative method.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "The 2025 paper invokes passive sampling in interpretation, but does not demonstrably apply the original cuckoo-level model or data. Substantive late reuse is unresolved.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The 2025 discussion shares an author and refers to a different host-level outcome; an independent positive assessment of the central result is unverified.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Related papers in 2020 and 2025 share authors; the required independent substantive follow-up in two years was not established.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent synthesis adopting this particular cuckoo ED result as valid or useful was verified.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later citations do not compare the result with updated phylogenies, better host-selectivity measures or other alternatives; continued usefulness remains unresolved.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Publisher opens were intermittent; the complete original author manuscript was downloaded and read. Follow-up indexed abstract/discussion scopes are explicit.",
+      "The 2025 study discusses host-species ED, whereas the target evaluates cuckoo-species ED; these outcomes are not interchangeable.",
+      "Searches covered exact identity, the ED/host-richness claim, criticism, later conservation studies and author overlap. No independent direct retest was verified.",
+      "Lifetime observation through 2026-09-16; the assigned pilot sample is not an unbiased estimate of all research outcomes."
+    ],
+    "summary": "The full original establishes a clear comparative claim and acknowledges host-count limitations. Located later studies overlap the authors and do not establish independent validation or operational conservation use; missing outcomes remain unknown."
+  },
+  "research_plan": {
+    "queries": [
+      "Cuckoos host range 12797",
+      "Cuckoos host range correction OR retraction OR replication",
+      "Morelli 2018 host range cuckoo evolutionary 2023 2024",
+      "host range evolutionary distinctiveness cuckoos",
+      "Biodiversity indicators for breeding passerines in a multiple-cuckoo system in China Liang"
+    ],
+    "search_log": [
+      {
+        "query": "Cuckoos host range 12797",
+        "purpose": "Identify original and open author manuscript",
+        "urls_read": [
+          "https://iris.unito.it/retrieve/handle/2318/2119513/1991909/Morelli%20et%20al.%202018%20Journal%20of%20Animal%20Ecology.pdf"
+        ]
+      },
+      {
+        "query": "Cuckoos host range correction OR retraction OR replication",
+        "purpose": "Check contrary evidence and direct replications",
+        "urls_read": []
+      },
+      {
+        "query": "Morelli 2018 host range cuckoo evolutionary 2023 2024",
+        "purpose": "Follow later studies",
+        "urls_read": [
+          "https://onlinelibrary.wiley.com/doi/abs/10.1002/ece3.6263",
+          "https://www.sciencedirect.com/science/article/pii/S2351989424005808"
+        ]
+      },
+      {
+        "query": "host range evolutionary distinctiveness cuckoos",
+        "purpose": "Search cross-taxon and independent follow-up",
+        "urls_read": [
+          "https://onlinelibrary.wiley.com/doi/abs/10.1002/ece3.6263",
+          "https://www.sciencedirect.com/science/article/pii/S2351989424005808"
+        ]
+      },
+      {
+        "query": "Biodiversity indicators for breeding passerines in a multiple-cuckoo system in China Liang",
+        "purpose": "Verify independence",
+        "urls_read": [
+          "https://www.sciencedirect.com/science/article/pii/S2351989424005808",
+          "https://api.crossref.org/works/10.1016/j.gecco.2024.e03376"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 1,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

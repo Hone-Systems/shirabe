@@ -1,0 +1,14 @@
+{
+  "id": "ml2-10.1111/1467-9280.00334",
+  "title": "Money, kisses, and electric shocks: On the affective psychology of risk",
+  "year": 2001,
+  "field_id": 16,
+  "field": "Psychology",
+  "split": "calibration",
+  "sampling_cohort": "manylabs2_complete_2018",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:47:39.036982+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 2,
+  "score": null
+}

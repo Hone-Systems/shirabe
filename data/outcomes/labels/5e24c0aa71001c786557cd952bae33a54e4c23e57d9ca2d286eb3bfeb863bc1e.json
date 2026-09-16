@@ -1,0 +1,401 @@
+{
+  "id": "https://openalex.org/W2292065295",
+  "title": "Eccentric-orbit extreme-mass-ratio inspiral gravitational wave energy fluxes to 7PN order",
+  "doi": "https://doi.org/10.1103/physrevd.93.064058",
+  "year": 2016,
+  "field_id": 31,
+  "field": "Physics and Astronomy",
+  "split": "train",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2020-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:22:43.457331+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://doi.org/10.1103/physrevd.93.064058",
+    "method": "tavily_complete_extraction",
+    "http_status": 403,
+    "characters": 16251,
+    "truncated": false,
+    "sha256": "15c06ce38a708708f39f4dcfc630f59f0de820f2ea8d9d9f05ca46e3fd493282",
+    "retrieved_at": "2026-09-16T19:21:46.675451+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "eccentric EMRI 7PN flux Mano-Suzuki-Takasugi hereditary terms",
+      "eccentric EMRI flux 7PN coefficient verification MST",
+      "eccentric EMRI post-Newtonian flux hereditary eccentricity singular factors review",
+      "eccentric EMRI flux 7PN waveform self-force modeling"
+    ],
+    "selected_urls": [
+      "https://ui.adsabs.harvard.edu/abs/2019PhRvD.100j4060M/abstract",
+      "https://www.emergentmind.com/papers/2005.03044",
+      "https://arxiv.org/search/gr-qc?searchtype=author&query=Forseth%2C+E",
+      "https://inspirehep.net/literature/1477014",
+      "https://ui.adsabs.harvard.edu/abs/2017CQGra..34d4003L/abstract",
+      "https://inspirehep.net/literature/1818614",
+      "https://iopscience.iop.org/article/10.1088/1742-6596/840/1/012022/pdf",
+      "https://users.physics.unc.edu/~evans"
+    ],
+    "plan_usage": {
+      "cache_key": "3cc36c7110f4e90bc1175ed31f74ad072cd7b0efd85ed55bcaf13a937ec7f82f",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 5273,
+        "input_tokens_details": {
+          "cache_write_tokens": 5270,
+          "cached_tokens": 0
+        },
+        "output_tokens": 525,
+        "output_tokens_details": {
+          "reasoning_tokens": 452
+        },
+        "total_tokens": 5798
+      },
+      "input_tokens_estimate": 5239,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "720fa1e1f869f200428ee47e67d8d1d07c08d8ebaf60154fc2dd1db5e3f52587",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 8820,
+        "input_tokens_details": {
+          "cache_write_tokens": 8817,
+          "cached_tokens": 0
+        },
+        "output_tokens": 689,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 9509
+      },
+      "input_tokens_estimate": 8786,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://ui.adsabs.harvard.edu/abs/2019PhRvD.100j4060M/abstract",
+      "method": "",
+      "http_status": 405,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:22:14.484605+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.emergentmind.com/papers/2005.03044",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 3089,
+      "truncated": false,
+      "sha256": "c66a5f1be69a9a86745864d860e8761b4b2df9b09a200db02bb3999284cd8f64",
+      "retrieved_at": "2026-09-16T19:22:12.291938+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://arxiv.org/search/gr-qc?searchtype=author&query=Forseth%2C+E",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 12277,
+      "truncated": false,
+      "sha256": "e3a68ca36071968f8f3076ef6754b41f460d710021e588dbb76fcea9e387ddd4",
+      "retrieved_at": "2026-09-16T19:22:12.337254+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://inspirehep.net/literature/1477014",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 24982,
+      "truncated": false,
+      "sha256": "8854939f62ed2265055c365e608bd804d7f843ac416821a26d275f1fb765ceea",
+      "retrieved_at": "2026-09-16T19:22:19.721594+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://ui.adsabs.harvard.edu/abs/2017CQGra..34d4003L/abstract",
+      "method": "",
+      "http_status": 405,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:22:14.856578+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://inspirehep.net/literature/1818614",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 54,
+      "truncated": false,
+      "sha256": "55c9212d964651f4244978341bd3ae5669459d0694f028b42961b6bead40a4d8",
+      "retrieved_at": "2026-09-16T19:22:16.780505+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://iopscience.iop.org/article/10.1088/1742-6596/840/1/012022/pdf",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 24395,
+      "truncated": false,
+      "sha256": "8ed2b59765a39d16a5a14c3ce5a06e2f54527eb1a0837313482355bc0effdfb7",
+      "retrieved_at": "2026-09-16T19:22:15.580118+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://users.physics.unc.edu/~evans",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 7185,
+      "truncated": false,
+      "sha256": "3c008121b5367a9957fb840a2cdab99ca3f933d26e807814b1dd73fb51bdbb19",
+      "retrieved_at": "2026-09-16T19:22:15.279042+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up sources do not provide an independent primary study explicitly supporting this paper’s central 7PN energy-flux claim.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No supplied source documents an independent-team reproduction of the paper’s result or construction.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The supplied evidence does not show a larger, stricter, independently collected test of this paper’s central result.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The 2017 status report discusses self-force flux calculations generally but does not explicitly assess and retain this paper’s central claim.",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2017"
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up explicitly tests the stated eccentricity or convergence limitations of this paper and concludes that its contribution remains useful.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "A 2020 paper extends the earlier work, but the listed authors overlap with the original team; independent-group extension is therefore not established.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020-05-06"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not document substantive building on this specific contribution by at least two independent groups.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The 2020 extension reuses MST-based calculations, but its authors overlap with the original team, so independent reuse is not established.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020-05-06"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The supplied review describes gravitational-self-force modeling broadly but does not explicitly identify this specific contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The 2020 follow-up reports high-precision comparisons, but it is by overlapping authors and does not establish an independent comparison using this paper as a benchmark.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No supplied source demonstrates a concrete independently demonstrated scientific or practical benefit attributable to this specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not establish successful use of this specific contribution outside the original eccentric Schwarzschild energy-flux setting.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "A later paper explicitly describes itself as extending the earlier work and reports new PN flux terms, showing that the original work contributed to a continuing calculation program.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020-05-06"
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "No supplied source documents adoption in a product, operational workflow, standard, or established practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No supplied independent comparison fairly evaluates and confirms a claimed advantage of this paper’s method or result.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The 2020 follow-up, more than three years after the 2016 publication, explicitly extends the earlier energy-flux work and continues its MST-based computational approach.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2020-05-06"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not contain a positive independent assessment at least three years after publication that explicitly evaluates this contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Later material exists in 2017 and 2020, but the supplied evidence does not clearly document substantive independent follow-up on this specific paper in both years.",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2017"
+          },
+          {
+            "source_id": "S2",
+            "date": "2020-05-06"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The 2017 status report is a field synthesis and discusses related flux calculations, but the supplied text does not show that it adopts this specific contribution as valid or useful.",
+        "evidence": [
+          {
+            "source_id": "S7",
+            "date": "2017"
+          }
+        ]
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "The supplied evidence shows later related work but does not explicitly state that this contribution remained useful despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No full text was supplied for the 2019 paper listed in the search results, preventing assessment of its treatment of the 2016 result.",
+      "The 2020 extension is by overlapping authors, so independent-group validation and uptake remain unresolved.",
+      "The supplied sources lack a later systematic review or authoritative assessment explicitly evaluating this paper’s central 7PN claim.",
+      "No supplied evidence documents operational adoption, independent benchmarking, or a demonstrated application benefit."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 2,
+    "coverage": 0.1,
+    "score": null,
+    "lower_bound": 0.1,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "7adfd6e484214f1a73fb8e322de0183b409d981e94333904f7fddbf010b870eb",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 39261,
+      "input_tokens_details": {
+        "cache_write_tokens": 39258,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2514,
+      "output_tokens_details": {
+        "reasoning_tokens": 1105
+      },
+      "total_tokens": 41775
+    },
+    "input_tokens_estimate": 39018,
+    "truncated": false
+  }
+}

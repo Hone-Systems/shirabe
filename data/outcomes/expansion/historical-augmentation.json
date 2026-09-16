@@ -1,0 +1,41 @@
+{
+  "selection": "User-requested targeted historical failure training augmentation; never evaluation",
+  "papers": [
+    {
+      "id": "historic-10.1038/333816a0",
+      "doi": "10.1038/333816a0",
+      "title": "Human basophil degranulation triggered by very dilute antiserum against IgE",
+      "split": "train"
+    },
+    {
+      "id": "historic-10.1016/0022-0728(89)80006-3",
+      "doi": "10.1016/0022-0728(89)80006-3",
+      "title": "Electrochemically induced nuclear fusion of deuterium",
+      "split": "train"
+    },
+    {
+      "id": "historic-10.1126/science.1197258",
+      "doi": "10.1126/science.1197258",
+      "title": "A bacterium that can grow by using arsenic instead of phosphorus",
+      "split": "train"
+    },
+    {
+      "id": "historic-10.1038/nature12968",
+      "doi": "10.1038/nature12968",
+      "title": "Stimulus-triggered fate conversion of somatic cells into pluripotency",
+      "split": "train"
+    },
+    {
+      "id": "historic-10.1126/science.1112286",
+      "doi": "10.1126/science.1112286",
+      "title": "Patient-specific embryonic stem cells derived from human SCNT blastocysts",
+      "split": "train"
+    },
+    {
+      "id": "historic-10.1103/physrevlett.112.241101",
+      "doi": "10.1103/physrevlett.112.241101",
+      "title": "Detection of B-mode polarization at degree angular scales by BICEP2",
+      "split": "train"
+    }
+  ]
+}

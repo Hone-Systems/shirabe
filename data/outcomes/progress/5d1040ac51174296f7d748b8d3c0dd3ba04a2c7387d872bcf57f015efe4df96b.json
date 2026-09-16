@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W3158745291",
+  "title": "Automotive Vulnerability Disclosure: Stakeholders, Opportunities, Challenges",
+  "year": 2021,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "test",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T19:48:22.402540+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 1,
+  "score": null
+}

@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W3120626491",
+  "title": "Kajian Kemasan Tape Ketan sebagai Identitas Khas Kuningan Jawa Barat",
+  "year": 2018,
+  "field_id": 17,
+  "field": "Computer Science",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T19:46:02.163282+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 0,
+  "score": null
+}

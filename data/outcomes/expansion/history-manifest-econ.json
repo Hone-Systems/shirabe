@@ -1,0 +1,36 @@
+{
+  "selection": "Targeted historical documented-failure augmentation explicitly requested by user; not an unbiased cohort or evaluation dataset.",
+  "as_of": "2026-09-16",
+  "papers": [
+    {
+      "id": "historic-10.1038/333816a0",
+      "doi": "10.1038/333816a0",
+      "title": "Human basophil degranulation triggered by very dilute antiserum against IgE",
+      "year": 1988,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "train",
+      "sampling_cohort": "historical_failure_augmentation"
+    },
+    {
+      "id": "historic-10.1016/0022-0728(89)80006-3",
+      "doi": "10.1016/0022-0728(89)80006-3",
+      "title": "Electrochemically induced nuclear fusion of deuterium",
+      "year": 1989,
+      "field_id": 16,
+      "field": "Chemistry",
+      "split": "train",
+      "sampling_cohort": "historical_failure_augmentation"
+    },
+    {
+      "id": "historic-10.1126/science.1197258",
+      "doi": "10.1126/science.1197258",
+      "title": "A Bacterium That Can Grow by Using Arsenic Instead of Phosphorus",
+      "year": 2011,
+      "field_id": 13,
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "split": "train",
+      "sampling_cohort": "historical_failure_augmentation"
+    }
+  ]
+}

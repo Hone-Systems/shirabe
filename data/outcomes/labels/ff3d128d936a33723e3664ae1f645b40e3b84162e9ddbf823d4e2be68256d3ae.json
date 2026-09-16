@@ -1,0 +1,383 @@
+{
+  "id": "https://openalex.org/W3087182254",
+  "title": "Implemenation of IAS 16 «Property, plant and equipment» in activity of entities of public interest",
+  "doi": "https://doi.org/10.31548/bioeconomy2019.01.052",
+  "year": 2019,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "validation",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2023-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:21:09.803868+00:00",
+  "input_scope": "abstract",
+  "original_source": {},
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "IAS 16 public interest entities Ukraine recognition classification measurement depreciation extension study",
+      "IAS 16 Ukraine cost model revaluation impairment depreciation critical replication comparative evidence",
+      "IAS 16 implementation Ukraine property plant equipment accounting standards review synthesis",
+      "IAS 16 public interest entities accounting policy adoption Ukraine fair value professional judgment"
+    ],
+    "selected_urls": [
+      "https://publications.aaahq.org/jiar/article/21/1/77/112/International-Accounting-and-Auditing-Standards",
+      "https://www.abacademies.org/articles/international-critique-of-the-ias16-prescription-application-and-treatment-10159.html",
+      "https://www.researchgate.net/publication/339673235_APPLICATION_OF_FAIR_VALUE_IN_THE_ACCOUNTING_CONTROL_AND_REPORTING_FOR_UKRAINE_IN_ACCORDANCE_WITH_INTERNATIONAL_FINANCIAL_REPORTING_STANDARDS",
+      "https://www.ifrs.org/issued-standards/list-of-standards/ias-16-property-plant-and-equipment",
+      "https://www.ifrs.org/content/dam/ifrs/publications/pdf-standards/english/2021/issued/part-a/ias-16-property-plant-and-equipment.pdf",
+      "https://www.xrb.govt.nz/standards/accounting-standards/for-profit-entities/nz-ias-16",
+      "https://www.icaew.com/technical/corporate-reporting/ifrs/ifrs-accounting-standards-tracker/ias-16-property-plant-and-equipment",
+      "https://www.iasplus.com/en/jurisdictions/europe/ukraine",
+      "https://www.iasplus.com/en/standards/ias/ias16"
+    ],
+    "plan_usage": {
+      "cache_key": "4ed7b94d34bb81e054967bb7f2b808da84a6fa396352d92bc76da1d83879b5b7",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 634,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 568,
+        "output_tokens_details": {
+          "reasoning_tokens": 497
+        },
+        "total_tokens": 1202
+      },
+      "input_tokens_estimate": 600,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "9533f64dfcaa4c37ef5bc44a5d5ba4e0454599630abfd6e7ec5424ea93687f0b",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 6078,
+        "input_tokens_details": {
+          "cache_write_tokens": 6075,
+          "cached_tokens": 0
+        },
+        "output_tokens": 481,
+        "output_tokens_details": {
+          "reasoning_tokens": 158
+        },
+        "total_tokens": 6559
+      },
+      "input_tokens_estimate": 6044,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://publications.aaahq.org/jiar/article/21/1/77/112/International-Accounting-and-Auditing-Standards",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:20:36.365906+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.abacademies.org/articles/international-critique-of-the-ias16-prescription-application-and-treatment-10159.html",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 55858,
+      "truncated": false,
+      "sha256": "296867c41cd9c59dbb6924cc88df7fca02d580831bfdb803499f0a74ff6ffc62",
+      "retrieved_at": "2026-09-16T19:20:32.211030+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.researchgate.net/publication/339673235_APPLICATION_OF_FAIR_VALUE_IN_THE_ACCOUNTING_CONTROL_AND_REPORTING_FOR_UKRAINE_IN_ACCORDANCE_WITH_INTERNATIONAL_FINANCIAL_REPORTING_STANDARDS",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:20:38.286530+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-16-property-plant-and-equipment",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 10359,
+      "truncated": false,
+      "sha256": "7477539913293d08132b70e6b8d1d8b278825fc7a860480eb8336b4fa2a0a216",
+      "retrieved_at": "2026-09-16T19:20:32.086094+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.ifrs.org/content/dam/ifrs/publications/pdf-standards/english/2021/issued/part-a/ias-16-property-plant-and-equipment.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 69616,
+      "truncated": false,
+      "sha256": "56c75274fadeff5fc3b4e65bebf8cc21b9f0500e30ed7771ce02a3ea87db0825",
+      "retrieved_at": "2026-09-16T19:20:33.039829+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://www.xrb.govt.nz/standards/accounting-standards/for-profit-entities/nz-ias-16",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 577,
+      "truncated": false,
+      "sha256": "7faa7b49ae4d2f7a24b3a1c23edf29cb0c4d766311b9c8dfa30fadc235f81c87",
+      "retrieved_at": "2026-09-16T19:20:34.282827+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://www.icaew.com/technical/corporate-reporting/ifrs/ifrs-accounting-standards-tracker/ias-16-property-plant-and-equipment",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 6773,
+      "truncated": false,
+      "sha256": "30a5f1d84a4f40edd19cf8754ebe4c0fabf04146f0f43674efc0314caa880750",
+      "retrieved_at": "2026-09-16T19:20:34.873361+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://www.iasplus.com/en/jurisdictions/europe/ukraine",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 11238,
+      "truncated": false,
+      "sha256": "ce625abf3d81f37b70ff1230c0d519d15a74f892a3df58918bbf3bef6723ba7a",
+      "retrieved_at": "2026-09-16T19:20:43.664301+00:00"
+    },
+    {
+      "source_id": "S9",
+      "url": "https://www.iasplus.com/en/standards/ias/ias16",
+      "method": "tavily_complete_extraction",
+      "http_status": 200,
+      "characters": 1363,
+      "truncated": false,
+      "sha256": "f7a6469be2bb17434088bc3c6b6efa2b2d46d73c1f4532935c98a96dad9607b8",
+      "retrieved_at": "2026-09-16T19:20:36.081860+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up sources do not contain a later independent primary study explicitly testing and supporting this paper’s Ukraine-specific claim.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No supplied source documents an independent team reproducing the paper’s Ukraine-specific comparison or implementation analysis.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No supplied follow-up reports a larger, stricter, or independently collected test of the paper’s central claim.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The 2021 review retains IAS 16 as important and globally employed, but does not explicitly assess or retain this paper’s Ukraine-specific conclusion.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No supplied later work explicitly tests the paper’s stated limitations and shows that its specific contribution remains useful.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The 2021 article analyzes IAS 16 in a South African context, but the supplied text does not establish that it substantively extends this specific paper’s contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "The packet does not establish substantive building on this specific paper by at least two independent groups.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "A later independent study actually applies the IAS 16 framework to accounting treatment and company reporting, rather than merely citing it.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2021"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review in the supplied window explicitly identifies this paper’s contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "rationale": "The 2021 independent study uses IAS 16 as a reference framework and compares it with U.S. GAAP and practical company reporting.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2021"
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The later review discusses possible benefits of IAS 16, but does not independently demonstrate a concrete benefit caused by applying this paper’s contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "An independent 2021 study applies the IAS 16 framework to South African assessment and company annual reports, outside the original Ukrainian setting.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2021"
+          },
+          {
+            "source_id": "S2",
+            "date": "2021"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not show that this paper enabled a later new measurement, theorem, capability, or distinct result.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The packet documents IFRS requirements in Ukraine, but does not establish that the 2019 paper itself was adopted in a workflow, product, standard, or practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No supplied independent fair comparison tests and confirms an advantage claimed by this paper.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "No supplied source within 2022–2023 documents substantive use of this specific paper at least three years after its 2019 publication.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No supplied source within the required three-year window provides a positive independent assessment of this specific paper’s contribution.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "The packet does not document substantive independent follow-up on this specific paper in at least two later calendar years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The 2021 article is a literature review of IAS 16, but the supplied text does not show that it adopts this 2019 paper’s specific contribution as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later sources show IAS 16 remained in use, but do not explicitly show continued usefulness of this paper’s contribution despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied full-text follow-up study directly cites or evaluates the 2019 Ukrainian paper.",
+      "No dated 2022–2023 source in the packet documents specific downstream use, replication, or assessment of this paper.",
+      "Several retrieved standards and professional pages are outside the 2020–2023 follow-up window and cannot support binary rubric answers."
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 0,
+        "coverage": 0.2,
+        "known_index": 1.0,
+        "lower_bound": 0.2,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 3,
+    "coverage": 0.15000000000000002,
+    "score": null,
+    "lower_bound": 0.15000000000000002,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "b5849d9f3745cee39cf6048464476781147b371f5ca3e5de0841a8a2cd40f080",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 45322,
+      "input_tokens_details": {
+        "cache_write_tokens": 45319,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2166,
+      "output_tokens_details": {
+        "reasoning_tokens": 910
+      },
+      "total_tokens": 47488
+    },
+    "input_tokens_estimate": 45079,
+    "truncated": false
+  }
+}

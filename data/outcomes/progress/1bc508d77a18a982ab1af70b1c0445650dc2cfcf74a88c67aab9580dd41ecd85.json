@@ -1,0 +1,14 @@
+{
+  "id": "ml2-10.1037/0022-3514.95.2.293",
+  "title": "Why people are reluctant to tempt fate",
+  "year": 2008,
+  "field_id": 16,
+  "field": "Psychology",
+  "split": "train",
+  "sampling_cohort": "manylabs2_complete_2018",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:47:39.241367+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 9,
+  "score": null
+}

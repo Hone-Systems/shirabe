@@ -1,0 +1,351 @@
+{
+  "id": "https://openalex.org/W2885474879",
+  "title": "Phase diagram and metastability of the Ising model on two coupled networks",
+  "doi": "https://doi.org/10.1088/1742-5468/aad6c7",
+  "year": 2018,
+  "field_id": 31,
+  "field": "Physics and Astronomy",
+  "split": "train",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:06:34.548674+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 8,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://arxiv.org/pdf/1804.01630",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Two ferromagnetically coupled sparse Erdos-Renyi Ising networks have an aligned equilibrium state and a discontinuously appearing anti-aligned metastable state, with phase boundaries determined by replica free energy.",
+    "Metastable escape times follow Vogel-Fulcher-like temperature behavior and grow exponentially with network size, producing thermodynamic-limit trapping."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "O",
+      "url": "https://arxiv.org/pdf/1804.01630",
+      "title": "Phase diagram and metastability of the Ising model on two coupled networks",
+      "date": "2018",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": false,
+      "finding": "Replica free energy and population dynamics characterize two coupled sparse random graphs. Metropolis simulations support the phase diagram and thermodynamic-limit metastable trapping.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "B",
+      "url": "https://arxiv.org/pdf/2411.18527",
+      "title": "Biswas-Chatterjee-Sen kinetic exchange opinion model for two connected groups",
+      "date": "2024",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent preprint later published in Physical Review E in 2025. It cites the Ising paper among precedents for opposing group order, then derives a different three-state annealed-interaction model. It does not reproduce the sparse-graph free energy or escape law.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "P",
+      "url": "https://arxiv.org/pdf/2206.13416",
+      "title": "A Majority-Vote Model On Multiplex Networks with Community Structure",
+      "date": "2022",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Peng and Porter cite the original as an example of opinion clusters in modular Ising networks. Their main construction extends majority-vote dynamics with layer preference, not the original replica solution.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "Z",
+      "url": "https://arxiv.org/pdf/2102.11977",
+      "title": "Sherrington-Kirkpatrick model for spin glasses: Solution via the distributional zeta function method",
+      "date": "2021",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "The conclusion names multiplex critical phenomena, citing the original, as a possible future application. That application is not performed in the paper.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Later primary papers cite modular opposing-order phenomena, but none read explicitly verifies the original sparse-graph free-energy and metastability claims.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No independent reconstruction of the phase boundaries or Vogel-Fulcher-like escape behavior was verified.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The BChS and majority-vote studies change the dynamics and network assumptions; they are not stricter tests of this Ising result.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Related-model introductions retain broad coexistence background, but no authoritative assessment of the specific stability and escape-law contribution was found.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No follow-up explicitly tests the finite-size extrapolation or robustness of the replica solution beyond the stated graph ensemble.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The independent papers extend their own kinetic-exchange or majority-vote models; a substantive extension of this specific replica/metastability construction was not established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Several teams cite the work, but two independent groups demonstrably building on its particular construction were not verified.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The later calculations use different mean-field or zeta-function methods and do not demonstrably reuse the original equations or population-dynamics implementation.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The zeta-function paper proposes a future application; no later review identifies this contribution as having enabled a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No read independent study uses the original phase diagram or escape times as an actual quantitative benchmark.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "A concrete independent benefit from applying the original sparse-network solution was not demonstrated in the sources read.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Related opinion models show similar states, but successful application of this contribution outside its original graph setting was not verified.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "The later papers derive new results, but their methods do not establish dependence on this particular Ising solution.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "No use of this specific model in a deployed simulation, decision workflow or standard was verified; theoretical relevance alone does not demonstrate adoption.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent fair comparison verifies the original improvement over naive mean-field treatment at finite connectivity.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Later citations exceed three years, but the verified contexts are background and proposed future work rather than substantive reuse of the central construction.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The 2024 BChS preprint treats opposite group ordering as known, but does not assess the original exact phase diagram or escape-time law.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Citations occur in multiple later years, but substantive independent follow-up of the specific contribution was not established in two years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "No independent research synthesis adopting the specific phase diagram and metastable escape result as validated was verified.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No source explicitly demonstrates usefulness of this solution despite newer network or opinion-model alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No independent reproduction of the phase diagram or escape-time law was located.",
+      "The related BChS study was read as its 2024 preprint; its 2025 publication identity was verified separately.",
+      "The Peng thesis PDF could not be downloaded, but the associated majority-vote preprint was read.",
+      "The sparse-block-matrix citation-index lead did not yield a matching citation in the accessible preprint; it is not treated as outcome evidence."
+    ],
+    "summary": "Independent papers cite the model as background for opposing group opinions or as a possible future application. The retrieved literature does not establish independent reproduction or concrete reuse of its exact sparse-network phase diagram and escape law. All outcomes remain unknown rather than negative."
+  },
+  "research_plan": {
+    "queries": [
+      "\"Phase diagram and metastability of the Ising model on two coupled networks\"",
+      "\"Bolfe\" \"metastability\" Ising -site:researchgate.net",
+      "OpenAlex cited-by filter cites:W2885474879",
+      "\"Biswas-Chatterjee-Sen kinetic exchange opinion model for two connected groups\"",
+      "\"Majority-vote model\" \"Peng\" \"Porter\" community",
+      "\"1804.01630\" -site:researchgate.net -site:arxiv.org -site:axi.lims.ac.uk",
+      "\"coupled networks\" \"Vogel\" Ising",
+      "\"aad6c7\" Ising review correction retraction",
+      "\"anti-aligned\" \"Ising\" \"2018\" metastability"
+    ],
+    "search_log": [
+      {
+        "query": "\"Phase diagram and metastability of the Ising model on two coupled networks\"",
+        "purpose": "Resolve original and forward citations",
+        "urls_read": [
+          "https://arxiv.org/pdf/1804.01630"
+        ]
+      },
+      {
+        "query": "\"Bolfe\" \"metastability\" Ising -site:researchgate.net",
+        "purpose": "Trace named-method follow-up",
+        "urls_read": []
+      },
+      {
+        "query": "OpenAlex cited-by filter cites:W2885474879",
+        "purpose": "Discover citing titles without consulting prior outcome labels",
+        "urls_read": [
+          "https://api.openalex.org/works?filter=cites:W2885474879&per-page=100&select=id,title,doi,publication_year,open_access,best_oa_location"
+        ]
+      },
+      {
+        "query": "\"Biswas-Chatterjee-Sen kinetic exchange opinion model for two connected groups\"",
+        "purpose": "Read independent related model",
+        "urls_read": [
+          "https://arxiv.org/pdf/2411.18527",
+          "https://journals.aps.org/pre/abstract/10.1103/l8z9-f4p9"
+        ]
+      },
+      {
+        "query": "\"Majority-vote model\" \"Peng\" \"Porter\" community",
+        "purpose": "Read independent multiplex model",
+        "urls_read": [
+          "https://arxiv.org/pdf/2206.13416"
+        ]
+      },
+      {
+        "query": "\"1804.01630\" -site:researchgate.net -site:arxiv.org -site:axi.lims.ac.uk",
+        "purpose": "Check forward literature",
+        "urls_read": [
+          "https://arxiv.org/pdf/2102.11977"
+        ]
+      },
+      {
+        "query": "\"coupled networks\" \"Vogel\" Ising",
+        "purpose": "Search escape-law tests",
+        "urls_read": []
+      },
+      {
+        "query": "\"aad6c7\" Ising review correction retraction",
+        "purpose": "Check challenges and synthesis",
+        "urls_read": []
+      },
+      {
+        "query": "\"anti-aligned\" \"Ising\" \"2018\" metastability",
+        "purpose": "Broaden conceptual follow-up search",
+        "urls_read": []
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

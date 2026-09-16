@@ -1,0 +1,298 @@
+{
+  "id": "https://openalex.org/W3087182254",
+  "title": "Implemenation of IAS 16 «Property, plant and equipment» in activity of entities of public interest",
+  "doi": "https://doi.org/10.31548/bioeconomy2019.01.052",
+  "year": 2019,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "validation",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:50:17.983438+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 7,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://economicscience.com.ua/en/article/download/vprovadzhennya-msbo-16-osnovni-zasobi-v-diyalnist-sub-yektiv-suspilnogo-interesu",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "Comparison of Ukrainian AP(S)7 with IAS16 identifies differences in recognition, classification, valuation, revaluation and depreciation.",
+    "The proposed accounting comparisons and revaluation process can support transition of public-interest entities to international accounting practice."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://economicscience.com.ua/en/article/download/vprovadzhennya-msbo-16-osnovni-zasobi-v-diyalnist-sub-yektiv-suspilnogo-interesu",
+      "title": "Implemenation of IAS 16 «Property, plant and equipment» in activity of entities of public interest",
+      "date": "2019",
+      "date_basis": "publication",
+      "kind": "original_study",
+      "read": true,
+      "independent": false,
+      "finding": "Compares national and international fixed-asset accounting, offers a revaluation sequence and describes financial-statement transformation; no post-publication validation is contained in this original.",
+      "characters": null,
+      "method": "original_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No later independent study explicitly validates this paper’s accounting comparison and transition recommendations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No independent reproduction of its tables or revaluation procedure was located.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "No larger or stricter assessment of the proposed accounting-information transformation was found.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "No later authoritative assessment was located that explicitly retains or rejects this paper’s contribution.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "No study tests whether its recommendations remain useful under the national-specific limitations it discusses.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Related IAS16 implementation material does not establish an extension of this particular comparison or procedure.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "No two independent groups were identified as building on this paper.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Use of IAS16 itself is not use of the author’s proposed comparison or transformation procedure; the latter was not documented.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No later review explicitly credits this paper with enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "No independent evaluation uses its procedure as an actual baseline or reference construction.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "No measured reporting or management benefit was linked to independent application of this paper.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "The discussion covers public-interest entities; independent application beyond its Ukrainian accounting setting was not verified.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "No later measurement, framework or result was shown to depend on this paper’s contribution.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Existing statutory IAS16 adoption does not establish that a firm adopted this paper’s specific recommendations.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "No independent comparison evaluates an advantage of its transformation approach over other guidance.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "No substantive use after 2022 was located for this particular paper.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "No independent positive assessment at least three years later was identified.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "No paper-specific substantive follow-up was documented across two later calendar years.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "Searches did not locate an independent synthesis adopting this paper’s recommendations as validated or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No later evidence compares its continuing usefulness with newer accounting guidance.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "Assigned DOI .01.052 resolves through Crossref to an obsolete publisher URL. Crossref also registers .02.052 for the same title; the migrated publisher and matching full English PDF use .02.052. Assigned metadata is preserved.",
+      "English and Ukrainian author/title/method searches found bibliographic copies and general standards material, but no independent paper-specific follow-up. Such retrieval absence is not proof of nonadoption."
+    ],
+    "summary": "The original comparison and proposed accounting transition procedure were read in full. Independent validation and actual reuse remain unknown; general IAS16 adoption is not attributed to this paper."
+  },
+  "research_plan": {
+    "queries": [
+      "\"10.31548/bioeconomy2019.01.052\"",
+      "\"Implemenation of IAS 16\"",
+      "\"Kalyuha\" \"IAS 16\" implementation",
+      "\"Калюга\" \"Імплементація\" \"16\"",
+      "\"Впровадження МСБО 16\" Калюга",
+      "\"Калюга\" \"2019\" \"Основні засоби\" \"суспільного\"",
+      "\"Kalyuha\" \"property\" \"2019\" accounting",
+      "\"bioeconomy2019.01.052\" correction OR citation OR implementation",
+      "\"bioeconomy2019.02.052\" accounting citations"
+    ],
+    "search_log": [
+      {
+        "query": "\"10.31548/bioeconomy2019.01.052\"",
+        "purpose": "Resolve migrated identity, search multilingual primary follow-up and contrary evidence",
+        "urls_read": []
+      },
+      {
+        "query": "\"Implemenation of IAS 16\"",
+        "purpose": "Resolve migrated identity, search multilingual primary follow-up and contrary evidence",
+        "urls_read": [
+          "https://economicscience.com.ua/en/article/download/vprovadzhennya-msbo-16-osnovni-zasobi-v-diyalnist-sub-yektiv-suspilnogo-interesu"
+        ]
+      },
+      {
+        "query": "\"Kalyuha\" \"IAS 16\" implementation",
+        "purpose": "Resolve migrated identity, search multilingual primary follow-up and contrary evidence",
+        "urls_read": []
+      },
+      {
+        "query": "\"Калюга\" \"Імплементація\" \"16\"",
+        "purpose": "Resolve migrated identity, search multilingual primary follow-up and contrary evidence",
+        "urls_read": []
+      },
+      {
+        "query": "\"Впровадження МСБО 16\" Калюга",
+        "purpose": "Resolve migrated identity, search multilingual primary follow-up and contrary evidence",
+        "urls_read": []
+      },
+      {
+        "query": "\"Калюга\" \"2019\" \"Основні засоби\" \"суспільного\"",
+        "purpose": "Resolve migrated identity, search multilingual primary follow-up and contrary evidence",
+        "urls_read": []
+      },
+      {
+        "query": "\"Kalyuha\" \"property\" \"2019\" accounting",
+        "purpose": "Resolve migrated identity, search multilingual primary follow-up and contrary evidence",
+        "urls_read": []
+      },
+      {
+        "query": "\"bioeconomy2019.01.052\" correction OR citation OR implementation",
+        "purpose": "Resolve migrated identity, search multilingual primary follow-up and contrary evidence",
+        "urls_read": []
+      },
+      {
+        "query": "\"bioeconomy2019.02.052\" accounting citations",
+        "purpose": "Resolve migrated identity, search multilingual primary follow-up and contrary evidence",
+        "urls_read": []
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex independent batch-3 research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

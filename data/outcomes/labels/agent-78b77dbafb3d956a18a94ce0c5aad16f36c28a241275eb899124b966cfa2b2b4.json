@@ -1,0 +1,340 @@
+{
+  "id": "https://openalex.org/W3039422697",
+  "title": "Effect of Fiscal Decentralization Financial Performance Against Local And Regional Gross Domestic Product (GDP) NTB",
+  "doi": "https://doi.org/10.11114/aef.v7i4.4921",
+  "year": 2020,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "calibration",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:01:09.599666+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 6,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text_6_pages",
+  "original_source": {
+    "url": "https://redfame.com/journal/index.php/aef/article/download/4921/5100",
+    "scope": "full_text_6_pages",
+    "read": true
+  },
+  "central_claims": [
+    "Fiscal decentralization positively predicts regional financial performance in the NTB sample.",
+    "Neither the direct fiscal-decentralization nor financial-performance paths to GRDP are statistically significant; financial performance does not mediate the effect."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://jurnal.unimus.ac.id/index.php/MAX/article/download/11541/7362",
+      "title": "Declining financial performance of local governments in Indonesia: An empirical study during Covid-19",
+      "date": "2023",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "read_scope": "abstract_methods_citation_context_discussion_references",
+      "finding": "Cites Amin 2020 only for general regional-resource management rationale. Methods use independently established financial ratios; does not reproduce original PLS/GRDP paths.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S2",
+      "url": "https://jurnal.tintaemas.id/index.php/JSH/article/download/271/267/2402",
+      "title": "The Effect of Fiscal Decentralization, and Financial Performance on Economic Growth of Mataram City, Indonesia",
+      "date": "2024-09-16",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "read_scope": "abstract_methods_results_discussion_references",
+      "finding": "Mataram 2010–2022 ECM analysis reports positive short-run decentralization and positive financial-efficiency/effectiveness growth associations, but long-run decentralization nonsignificant. Different measures/design and no Amin 2020 citation; does not directly refute or reproduce original.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    },
+    {
+      "source_id": "S3",
+      "url": "https://rjoas.com/issue-2021-09/article_04.pdf",
+      "title": "The Effect of Fiscal Decentralization on Financial Performance and Its Implications on Village Financial Management Accountability",
+      "date": "2021",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": false,
+      "read_scope": "abstract_and_references",
+      "finding": "Author-led follow-up search found a village-level study by Amin M., Akram and Irwan. It tests revenues, transfers and accountability in20 developed Central Lombok villages, not the NTB district GRDP mediation result. No target DOI or title in references; independent identity not assumed from the common name.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "No independent study read explicitly supports the complete central pattern. The nearby 2024 Mataram ECM study has mixed/different associations under a different model, with no attribution to Amin 2020.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "The 2023 citing article does not repeat the PLS model. The 2024 ECM article uses a different city/time-series design and financial-performance definitions, so neither establishes reproduction.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "Amin 2020 NTB PLS/GRDP findings: No larger or stricter follow-up test of the original claim was established.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "Amin 2020 NTB PLS/GRDP findings: No later authoritative assessment explicitly retaining or rejecting the specific central claim was established.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "The original calls for different periods, variables and regional samples; later related work uses some such settings but does not explicitly test whether this specific contribution remains useful.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "Amin 2020 NTB PLS/GRDP findings: No substantive extension by an independent team was established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Amin 2020 NTB PLS/GRDP findings: Two independent teams building on this particular contribution were not established.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "The 2023 paper cites Amin only in general discussion; its ratio formulas are attributed to other prior sources. That citation does not establish actual use of the assigned contribution.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "Amin 2020 NTB PLS/GRDP findings: No review explicitly attributing an enabled research direction to this paper was located.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "Amin 2020 NTB PLS/GRDP findings: No independent study using this contribution as a baseline or reference construction was located.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Amin 2020 NTB PLS/GRDP findings: No independent demonstration of benefit from applying this specific contribution was established.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Amin 2020 NTB PLS/GRDP findings: No demonstrated successful use outside the original setting was located.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "Amin 2020 NTB PLS/GRDP findings: No later result demonstrably enabled by this contribution was established.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "Amin 2020 NTB PLS/GRDP findings: No documented operational workflow, product, standard or practice applying this contribution was located.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "not_applicable",
+        "rationale": "The paper reports regional associations and null-hypothesis tests; it proposes no method or product with a claimed comparative performance advantage.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "A 2023 citation is present after three years, but its context is generic and not substantive use of the central NTB estimates or model.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "Amin 2020 NTB PLS/GRDP findings: No independent positive assessment of the central contribution at least three years later was established.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Amin 2020 NTB PLS/GRDP findings: Substantive independent follow-up in two distinct later years was not established.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "Amin 2020 NTB PLS/GRDP findings: No independent research synthesis adopting this particular contribution as valid or useful was established.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Amin 2020 NTB PLS/GRDP findings: No later evidence explicitly demonstrating usefulness despite newer alternatives was located.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No direct independent reproduction, explicit authoritative reassessment or operational policy use established.",
+      "Related regional findings differ, but changing geography, variables and econometric method prevents treating them as a decisive refutation.",
+      "General fiscal-decentralization research is not specific uptake; no inference from citation counts.",
+      "Additional author/GRDP searches locate related village-accountability and regional-ratio work, but no verified extension of this particular district-level GRDP result."
+    ],
+    "summary": "Full original read. One later citation is contextual only; nearby Mataram research finds partly different effects under another model. The specific NTB PLS results have unresolved validation, utility and durability; no comparative-method advantage applies."
+  },
+  "research_plan": {
+    "queries": [
+      "\"10.11114/aef.v7i4.4921\"",
+      "\"Effect of Fiscal Decentralization Financial Performance\"",
+      "\"Amin\" \"2020\" \"fiscal decentralization\" \"West Nusa Tenggara\"",
+      "\"financial performance\" \"GRDP\" \"Amin\" \"2020\"",
+      "\"fiscal decentralization\" \"Mataram\" \"financial performance\" 2024",
+      "\"THE EFFECT OF FISCAL DECENTRALIZATION ON FINANCIAL PERFORMANCE\" \"ACCOUNTABILITY\" Amin",
+      "\"Amin\" \"4921\" fiscal 2021 2022 2023"
+    ],
+    "search_log": [
+      {
+        "query": "\"10.11114/aef.v7i4.4921\"",
+        "purpose": "Locate original, independent citations and contrary regional findings",
+        "urls_read": [
+          "https://redfame.com/journal/index.php/aef/article/download/4921/5100",
+          "https://jurnal.unimus.ac.id/index.php/MAX/article/download/11541/7362",
+          "https://jurnal.tintaemas.id/index.php/JSH/article/download/271/267/2402"
+        ]
+      },
+      {
+        "query": "\"Effect of Fiscal Decentralization Financial Performance\"",
+        "purpose": "Locate original, independent citations and contrary regional findings",
+        "urls_read": [
+          "https://redfame.com/journal/index.php/aef/article/download/4921/5100",
+          "https://jurnal.unimus.ac.id/index.php/MAX/article/download/11541/7362",
+          "https://jurnal.tintaemas.id/index.php/JSH/article/download/271/267/2402"
+        ]
+      },
+      {
+        "query": "\"Amin\" \"2020\" \"fiscal decentralization\" \"West Nusa Tenggara\"",
+        "purpose": "Author and regional follow-up",
+        "urls_read": [
+          "https://rjoas.com/issue-2021-09/article_04.pdf",
+          "https://jurnal.tintaemas.id/index.php/JSH/article/download/271/267/2402"
+        ]
+      },
+      {
+        "query": "\"financial performance\" \"GRDP\" \"Amin\" \"2020\"",
+        "purpose": "Exact central-path validation",
+        "urls_read": [
+          "https://rjoas.com/issue-2021-09/article_04.pdf",
+          "https://jurnal.tintaemas.id/index.php/JSH/article/download/271/267/2402"
+        ]
+      },
+      {
+        "query": "\"fiscal decentralization\" \"Mataram\" \"financial performance\" 2024",
+        "purpose": "Contrary adjacent-region evidence",
+        "urls_read": [
+          "https://rjoas.com/issue-2021-09/article_04.pdf",
+          "https://jurnal.tintaemas.id/index.php/JSH/article/download/271/267/2402"
+        ]
+      },
+      {
+        "query": "\"THE EFFECT OF FISCAL DECENTRALIZATION ON FINANCIAL PERFORMANCE\" \"ACCOUNTABILITY\" Amin",
+        "purpose": "Investigate author-led village extension",
+        "urls_read": [
+          "https://rjoas.com/issue-2021-09/article_04.pdf",
+          "https://jurnal.tintaemas.id/index.php/JSH/article/download/271/267/2402"
+        ]
+      },
+      {
+        "query": "\"Amin\" \"4921\" fiscal 2021 2022 2023",
+        "purpose": "Check exact identifier in later work",
+        "urls_read": [
+          "https://rjoas.com/issue-2021-09/article_04.pdf",
+          "https://jurnal.tintaemas.id/index.php/JSH/article/download/271/267/2402"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 4,
+        "not_applicable": 1,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 0,
+    "coverage": 0.0,
+    "score": null,
+    "lower_bound": 0.0,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex independent research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

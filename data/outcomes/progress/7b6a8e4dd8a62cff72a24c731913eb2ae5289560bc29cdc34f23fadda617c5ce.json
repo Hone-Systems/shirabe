@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W3042823287",
+  "title": "Molecular mechanisms of the effects of N-ethylmaleimide and 1,4-dithioerythritol on regulation of apoptosis in P19 cells under hypoxia",
+  "year": 2020,
+  "field_id": 13,
+  "field": "Biochemistry, Genetics and Molecular Biology",
+  "split": "calibration",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:01:09.491725+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 0,
+  "score": null
+}

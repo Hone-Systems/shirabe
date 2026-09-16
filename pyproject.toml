@@ -18,6 +18,11 @@ dependencies = [
 ]
 [dependency-groups]
 dev = ["pytest>=8,<10", "ruff>=0.11,<1"]
+research = [
+    "beautifulsoup4>=4.15.0",
+    "python-dotenv>=1.2.3",
+    "tiktoken>=0.14.0",
+]
 training = [
     "onnx>=1.17,<2",
     "safetensors>=0.5,<1",

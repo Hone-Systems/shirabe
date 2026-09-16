@@ -1,0 +1,14 @@
+{
+  "id": "ml2-10.1177/0956797609359908",
+  "title": "What counts as a choice? US Americans are more likely than Indians to construe actions as choices",
+  "year": 2010,
+  "field_id": 16,
+  "field": "Psychology",
+  "split": "test",
+  "sampling_cohort": "manylabs2_complete_2018",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:47:39.262353+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 2,
+  "score": null
+}

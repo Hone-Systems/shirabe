@@ -1,0 +1,349 @@
+{
+  "id": "https://openalex.org/W2956519671",
+  "title": "Cherenkov Radiation in the Visible and Ultraviolet Spectral Ranges from 6-MeV Electrons Passing through a Quartz Plate",
+  "doi": "https://doi.org/10.1134/s0021364019090078",
+  "year": 2019,
+  "field_id": 31,
+  "field": "Physics and Astronomy",
+  "split": "validation",
+  "sampling_cohort": "initial_pilot",
+  "rubric_version": "outcomes-v1",
+  "retrieval_version": 4,
+  "researcher_kind": "autonomous_agent",
+  "review_status": "reviewed",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T20:02:54.971023+00:00",
+  "observed_through": "2026-09-16",
+  "followup_end": "2026-09-16",
+  "followup_years": 7,
+  "horizon_kind": "observed_through_as_of",
+  "input_scope": "full_text",
+  "original_source": {
+    "url": "https://www.sciencejournals.ru/issues/pisjetf/2019/vol_109/iss_9-10/PisJETF_1905002Baksht/PisJETF_1905002Baksht-site.html",
+    "scope": "full_text",
+    "read": true
+  },
+  "central_claims": [
+    "UV/visible Cherenkov spectra are distinguished from pulsed cathodoluminescence for 6-MeV electrons traversing GE-014 and KU1 quartz.",
+    "Plate inclination strongly changes the extracted Cherenkov intensity and spectrum because total internal reflection constrains the collection geometry."
+  ],
+  "identity_resolution": null,
+  "source_manifest": [
+    {
+      "source_id": "O",
+      "url": "https://www.sciencejournals.ru/issues/pisjetf/2019/vol_109/iss_9-10/PisJETF_1905002Baksht/PisJETF_1905002Baksht-site.html",
+      "title": "Cherenkov Radiation in the Visible and Ultraviolet Spectral Ranges from 6-MeV Electrons Passing through a Quartz Plate",
+      "date": "2019",
+      "date_basis": "publication",
+      "kind": "original",
+      "read": true,
+      "independent": false,
+      "finding": "Russian original of the assigned English translation was read. Measured quartz spectra and output angles distinguish Cherenkov emission from cathodoluminescence; sapphire darkening and small diamond samples constrain other materials.",
+      "characters": null,
+      "method": "original",
+      "truncated": false
+    },
+    {
+      "source_id": "P",
+      "url": "https://proceedings.jacow.org/ibic2020/posters/tupp36_poster.pdf",
+      "title": "Investigation of Cherenkov Radiation Characteristics from 855 Mev Electron Beam",
+      "date": "2020",
+      "date_basis": "publication",
+      "kind": "conference_poster",
+      "read": true,
+      "independent": false,
+      "finding": "Poster shares Potylitsyn and Vukolov. It explicitly uses the original angular relation in a rotated fused-silica radiator at MAMI, measuring beam profiles and comparing OTR. Nonideal focusing broadens both profiles.",
+      "characters": null,
+      "method": "conference_poster",
+      "truncated": false
+    },
+    {
+      "source_id": "R",
+      "url": "https://journals.ioffe.ru/articles/viewPDF/50883",
+      "title": "Spectral and Amplitude–Time Characteristics of the Cherenkov Radiation upon Excitation of Transparent Materials by an Electron Beam",
+      "date": "2021",
+      "date_basis": "publication",
+      "kind": "review",
+      "read": true,
+      "independent": false,
+      "finding": "Review by original authors reproduces the quartz spectral and angle findings, including collection limits. This is same-team synthesis, not independent confirmation.",
+      "characters": null,
+      "method": "review",
+      "truncated": false
+    },
+    {
+      "source_id": "Y",
+      "url": "https://sciencejournals.ru/view-article/?a=DANFiz2301012Yalandin&j=danfiz&n=1&v=508&y=2023",
+      "title": "Specific Features of Pulsed Cathodoluminescence under Excitation by Nanosecond and Subnanosecond Electron Beams",
+      "date": "2023",
+      "date_basis": "publication",
+      "kind": "primary_study",
+      "read": true,
+      "independent": true,
+      "finding": "Independent authors cite the original as one possible explanation for fast broadband emission reported elsewhere. Their narrow-band apparatus did not detect that component, so they neither reproduce nor falsify the 6-MeV quartz result.",
+      "characters": null,
+      "method": "primary_study",
+      "truncated": false
+    }
+  ],
+  "research": {
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "The direct high-energy geometry application shares original authors; the independent luminescence study does not test the central quartz claims.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "unknown",
+        "rationale": "No independent replication of the 6-MeV spectra and plate-angle response was verified.",
+        "evidence": []
+      },
+      {
+        "id": "stronger_test",
+        "answer": "unknown",
+        "rationale": "The 855-MeV poster applies the geometry at another facility but does not present a stricter matched validation of the original spectral separation.",
+        "evidence": []
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "A same-team review retains the claim; an independent authoritative assessment of the central geometry result was not verified.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Follow-up does not explicitly resolve the original sapphire darkening, diamond dimensions or unresolved picosecond pulse structure.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "unknown",
+        "rationale": "The clear 855-MeV extension includes two original authors, so it is not independent.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "unknown",
+        "rationale": "Two independent groups building on the specific measured quartz contribution were not established.",
+        "evidence": []
+      },
+      {
+        "id": "method_reused",
+        "answer": "unknown",
+        "rationale": "Direct reuse of the angular relation is documented only in a collaboration containing original authors.",
+        "evidence": []
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "The available review does not independently identify this experiment as enabling a distinct research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The poster compares beam-profile techniques, but is not independent; the 2023 study does not benchmark this quartz experiment.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "Beam-profile utility is demonstrated by the original collaboration, not independently.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "The published angular relation is explicitly applied to a rotated fused-silica radiator in an 855-MeV beam-profile experiment.",
+        "evidence": [
+          {
+            "source_id": "P",
+            "date": "2020",
+            "explanation": "Explicit angular-relation application in a new beam experiment."
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "The original relation guides the collection geometry for later optical beam-profile measurements at MAMI.",
+        "evidence": [
+          {
+            "source_id": "P",
+            "date": "2020",
+            "explanation": "Explicit angular-relation application in a new beam experiment."
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The poster demonstrates an experimental diagnostic; routine deployed detector practice attributable to this result was not verified.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "Independent comparison of a claimed advantage was not located; the shared-team poster also reports focusing-related broadening.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "unknown",
+        "rationale": "Direct geometric reuse is documented in 2020; the 2023 citation provides a possible explanation rather than verified substantive reuse of the central result.",
+        "evidence": []
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "unknown",
+        "rationale": "The 2023 discussion does not assess the specific quartz spectra or angular extraction result as validated.",
+        "evidence": []
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "unknown",
+        "rationale": "Same-team follow-ups span years, but independent substantive follow-up in two later years was not verified.",
+        "evidence": []
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The directly relevant synthesis shares original authors; independent synthesis adopting this contribution was not established.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "No source explicitly establishes continuing utility of this specific result against newer diagnostic alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "English full text was not accessible; the corresponding Russian full original was read and its matching identity checked.",
+      "The 2026 tissue-attenuation study cites this paper, but full text was unavailable; no clinical uptake was inferred from the citation.",
+      "No independent matched replication or independent synthesis of the central quartz geometry experiment was verified."
+    ],
+    "summary": "The geometry relation is explicitly reused for an 855-MeV beam-profile experiment by a collaboration including original authors. Independent citations found do not establish replication of the 6-MeV quartz spectra or clinical adoption."
+  },
+  "research_plan": {
+    "queries": [
+      "\"10.1134/S0021364019090078\"",
+      "\"Излучение Вавилова–Черенкова\" \"584\" \"2019\" pdf",
+      "\"Baksht\" \"quartz plate\" Cherenkov 2024 2025",
+      "\"S0021364019090078\" correction retraction",
+      "\"GE-014\" Cherenkov 2022 2023 2024",
+      "\"6-MeV\" \"quartz\" Cherenkov -site:researchgate.net -site:mathnet.ru -site:portal.tpu.ru",
+      "\"Neural network-based tissue attenuation correction\" authors pdf"
+    ],
+    "search_log": [
+      {
+        "query": "\"10.1134/S0021364019090078\"",
+        "purpose": "Identify experiment and translation",
+        "urls_read": [
+          "https://www.sciencejournals.ru/issues/pisjetf/2019/vol_109/iss_9-10/PisJETF_1905002Baksht/PisJETF_1905002Baksht-site.html"
+        ]
+      },
+      {
+        "query": "\"Излучение Вавилова–Черенкова\" \"584\" \"2019\" pdf",
+        "purpose": "Locate Russian full original",
+        "urls_read": [
+          "https://www.sciencejournals.ru/issues/pisjetf/2019/vol_109/iss_9-10/PisJETF_1905002Baksht/PisJETF_1905002Baksht-site.html"
+        ]
+      },
+      {
+        "query": "\"Baksht\" \"quartz plate\" Cherenkov 2024 2025",
+        "purpose": "Trace later work",
+        "urls_read": [
+          "https://proceedings.jacow.org/ibic2020/posters/tupp36_poster.pdf",
+          "https://journals.ioffe.ru/articles/viewPDF/50883",
+          "https://sciencejournals.ru/view-article/?a=DANFiz2301012Yalandin&j=danfiz&n=1&v=508&y=2023"
+        ]
+      },
+      {
+        "query": "\"S0021364019090078\" correction retraction",
+        "purpose": "Search contrary or corrective evidence",
+        "urls_read": []
+      },
+      {
+        "query": "\"GE-014\" Cherenkov 2022 2023 2024",
+        "purpose": "Check exact-material replication",
+        "urls_read": []
+      },
+      {
+        "query": "\"6-MeV\" \"quartz\" Cherenkov -site:researchgate.net -site:mathnet.ru -site:portal.tpu.ru",
+        "purpose": "Broaden experiment and method search",
+        "urls_read": []
+      },
+      {
+        "query": "\"Neural network-based tissue attenuation correction\" authors pdf",
+        "purpose": "Check independent clinical-imaging citation",
+        "urls_read": [
+          "https://pubmed.ncbi.nlm.nih.gov/42172778/"
+        ]
+      }
+    ]
+  },
+  "validation_rejected": [],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "uptake": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5,
+        "not_applicable": 0,
+        "coverage": 0.0,
+        "known_index": null,
+        "lower_bound": 0.0,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 2,
+    "coverage": 0.1,
+    "score": null,
+    "lower_bound": 0.1,
+    "upper_bound": 1.0,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "model": "Codex research agent",
+    "usage": {
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "truncated": false
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "id": "challenge-debt",
+  "title": "Growth in a Time of Debt",
+  "doi": "https://doi.org/10.1257/aer.100.2.573",
+  "year": 2010,
+  "field_id": 20,
+  "field": "Economics",
+  "split": "challenge",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2014-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:19:18.330772+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://www.nber.org/system/files/working_papers/w15639/w15639.pdf",
+    "method": "tavily_complete_extraction",
+    "http_status": 403,
+    "characters": 36345,
+    "truncated": false,
+    "sha256": "5be3e4c45a6fed03da85a4abd47226c53d735a559fecbda68178b1946dadfa7c",
+    "retrieved_at": "2026-09-16T19:07:57.225144+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "central government debt growth inflation 44 countries 90 percent threshold independent extension",
+      "Reinhart Rogoff 90 percent threshold replication coding error median growth critical test",
+      "public debt growth thresholds external debt debt intolerance literature review synthesis",
+      "debt intolerance risk premia private deleveraging fiscal policy theory"
+    ],
+    "selected_urls": [
+      "https://documents1.worldbank.org/curated/en/509771468337915456/pdf/WPS5391.pdf",
+      "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1450.pdf",
+      "https://www.federalreserve.gov/pubs/feds/2013/201305/index.html",
+      "https://peri.umass.edu/publication/does-high-public-debt-consistently-stifle-economic-growth-a-critique-of-reinhart-and-rogoff",
+      "https://www.imf.org/external/pubs/ft/fandd/2014/06/pescatori.htm",
+      "https://publications.iadb.org/publications/english/document/Government-Debt-and-Economic-Growth.pdf",
+      "https://www.cigionline.org/documents/1017/pb_no.76web.pdf",
+      "https://www.crfb.org/blogs/reinhart-and-rogoff-release-errata",
+      "https://www.oar-rao.bank-banque-canada.ca/record/2487/files/wp11-10.pdf",
+      "https://www.frbsf.org/wp-content/uploads/PKGE_Feb14.pdf"
+    ],
+    "plan_usage": {
+      "cache_key": "f8489ebc1b66e4126c620c3d5057e28c3ccf408ab805df73ed682ee57fa59700",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 8958,
+        "input_tokens_details": {
+          "cache_write_tokens": 8955,
+          "cached_tokens": 0
+        },
+        "output_tokens": 315,
+        "output_tokens_details": {
+          "reasoning_tokens": 243
+        },
+        "total_tokens": 9273
+      },
+      "input_tokens_estimate": 8924,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "c47ad6ffe7bf9dfa0f8b3c8bedae45ea274f3e838a59d567e614de84f72190b4",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 10028,
+        "input_tokens_details": {
+          "cache_write_tokens": 10025,
+          "cached_tokens": 0
+        },
+        "output_tokens": 729,
+        "output_tokens_details": {
+          "reasoning_tokens": 483
+        },
+        "total_tokens": 10757
+      },
+      "input_tokens_estimate": 9994,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://documents1.worldbank.org/curated/en/509771468337915456/pdf/WPS5391.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 36337,
+      "truncated": false,
+      "sha256": "cbe8b60c20bef00746da6cb9dd6252eb59b6d76ee61d95fada0c077327dc4aba",
+      "retrieved_at": "2026-09-16T19:17:44.571944+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1450.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 86049,
+      "truncated": false,
+      "sha256": "ecf3fb8086295546f18b58978bb65aa6d13a6697e1e9e8861ddf2ee9e5a49a14",
+      "retrieved_at": "2026-09-16T19:17:46.041644+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.federalreserve.gov/pubs/feds/2013/201305/index.html",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 30838,
+      "truncated": false,
+      "sha256": "15dbf08f33639c4a7808f2b6a3fe250674a6130883cce86a603f787e901cdd05",
+      "retrieved_at": "2026-09-16T19:17:44.593689+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://peri.umass.edu/publication/does-high-public-debt-consistently-stifle-economic-growth-a-critique-of-reinhart-and-rogoff",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 4058,
+      "truncated": false,
+      "sha256": "29e3c86652b718a6ae8abc5b7c792ae82060b221b82b2b74763211214b54a115",
+      "retrieved_at": "2026-09-16T19:17:44.956975+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://www.imf.org/external/pubs/ft/fandd/2014/06/pescatori.htm",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 16405,
+      "truncated": false,
+      "sha256": "5876e94279d7e45c96499c55f9e9399aea17404ef59e0d331ce8ba2a5068878d",
+      "retrieved_at": "2026-09-16T19:07:56.877234+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://publications.iadb.org/publications/english/document/Government-Debt-and-Economic-Growth.pdf",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:17:49.108380+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://www.cigionline.org/documents/1017/pb_no.76web.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 44431,
+      "truncated": false,
+      "sha256": "89854d1b9924a3c33fdad880f4b0c75ebf17cf9600f047d5866885c41b1881b3",
+      "retrieved_at": "2026-09-16T19:17:45.449069+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://www.crfb.org/blogs/reinhart-and-rogoff-release-errata",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 4685,
+      "truncated": false,
+      "sha256": "a993092abba8cc262372df924fa71237ecef678bb99b32894d807f49241f6867",
+      "retrieved_at": "2026-09-16T19:17:45.600058+00:00"
+    },
+    {
+      "source_id": "S9",
+      "url": "https://www.oar-rao.bank-banque-canada.ca/record/2487/files/wp11-10.pdf",
+      "method": "tavily_complete_extraction",
+      "http_status": 202,
+      "characters": 58695,
+      "truncated": false,
+      "sha256": "7b4fba35bc77a98c013b389b5b23f9d6333aa88ee5ea0f6d4e6cf5b657f29076",
+      "retrieved_at": "2026-09-16T19:17:46.347910+00:00"
+    },
+    {
+      "source_id": "S10",
+      "url": "https://www.frbsf.org/wp-content/uploads/PKGE_Feb14.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 66574,
+      "truncated": false,
+      "sha256": "36923112298180b6247a6be246866c0d5a667c5391d30e5accffa0abc9beceab",
+      "retrieved_at": "2026-09-16T19:17:46.728350+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "yes",
+        "rationale": "An independent ECB study supported the broader claim that very high public debt is associated with weaker growth, finding a negative effect above 95% of GDP.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2012"
+          }
+        ]
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "no",
+        "rationale": "An independent replication found that errors and exclusions materially changed the result and rejected the reported stylized fact.",
+        "evidence": [
+          {
+            "source_id": "S4",
+            "date": "2013"
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "no",
+        "rationale": "A larger historical sample and longer-horizon analysis found no clear threshold above which growth sharply deteriorates.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2014"
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "no",
+        "rationale": "A later IMF assessment explicitly rejected a simple, consistently harmful debt threshold rather than retaining the 90% claim.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2014"
+          }
+        ]
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "no",
+        "rationale": "Follow-up work explicitly addressed reverse causality, outliers, debt trajectories, and longer horizons, and found the sharp threshold disappeared.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2014"
+          }
+        ]
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "An independent ECB team extended the contribution with a dynamic threshold panel model for euro-area countries.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2012"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Independent ECB and Federal Reserve-affiliated teams substantively built on the paper’s dataset or threshold framework.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2012"
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "Independent researchers actually reused the paper’s data and analytical framework rather than merely citing it.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2012"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "yes",
+        "rationale": "Independent studies used the paper’s dataset and reported threshold estimates as comparison benchmarks against alternative methods.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2012"
+          }
+        ]
+      },
+      {
+        "id": "external_utility",
+        "answer": "unknown",
+        "rationale": "The supplied sources document policy discussion and empirical analysis, but do not clearly demonstrate an independently realized scientific or practical benefit from applying this specific contribution.",
+        "evidence": []
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "yes",
+        "rationale": "Reuse of the contribution’s data and framework produced new dynamic threshold estimates and results for the euro area.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2012"
+          }
+        ]
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The supplied sources show policy relevance but no verified adoption in a product, standard, workflow, or established operational practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "no",
+        "rationale": "The claimed sharp 90% threshold advantage was not retained under independent, more rigorous comparisons; the later evidence emphasized uncertainty and alternative thresholds.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2012"
+          }
+        ]
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "The contribution was substantively analyzed in 2014, more than three years after the 2010 publication.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2014"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "no",
+        "rationale": "The 2014 IMF assessment was not positive about the central sharp-threshold claim and concluded that no simple threshold existed.",
+        "evidence": [
+          {
+            "source_id": "S5",
+            "date": "2014"
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive independent follow-up is documented in 2012, 2013, and 2014.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2012"
+          },
+          {
+            "source_id": "S4",
+            "date": "2013"
+          },
+          {
+            "source_id": "S5",
+            "date": "2014"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The supplied in-window sources include assessments and research papers, but no clearly identifiable independent systematic review, textbook, standard, or synthesis adopting the contribution as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later sources show continued discussion and reuse, but the supplied evidence does not explicitly establish continued usefulness despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied in-window source verifies operational adoption in a product, standard, or routine workflow.",
+      "No supplied in-window systematic review, textbook, or formal research synthesis clearly adopts the contribution as valid or useful.",
+      "The supplied follow-up evidence is concentrated on the public-debt threshold claim; evidence concerning the paper’s external-debt and inflation claims is limited."
+    ]
+  },
+  "validation_rejected": [
+    "new_research_direction",
+    "beyond_original_setting"
+  ],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 4,
+        "unknown": 0,
+        "not_applicable": 0,
+        "coverage": 1.0,
+        "known_index": 0.2,
+        "lower_bound": 0.2,
+        "upper_bound": 0.2
+      },
+      "uptake": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 1,
+        "not_applicable": 0,
+        "coverage": 0.8,
+        "known_index": 1.0,
+        "lower_bound": 0.8,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 1,
+        "no": 1,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 0.5,
+        "lower_bound": 0.2,
+        "upper_bound": 0.8
+      },
+      "durability": {
+        "yes": 2,
+        "no": 1,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 0.6666666666666666,
+        "lower_bound": 0.4,
+        "upper_bound": 0.8
+      }
+    },
+    "known_answers": 14,
+    "coverage": 0.7000000000000001,
+    "score": null,
+    "lower_bound": 0.4,
+    "upper_bound": 0.7,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "c3cb7dc5b8595cd3862e89e4588375fb65567977d93f43a98c618e78b5bb703c",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 100801,
+      "input_tokens_details": {
+        "cache_write_tokens": 100798,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2896,
+      "output_tokens_details": {
+        "reasoning_tokens": 1028
+      },
+      "total_tokens": 103697
+    },
+    "input_tokens_estimate": 100558,
+    "truncated": false
+  }
+}

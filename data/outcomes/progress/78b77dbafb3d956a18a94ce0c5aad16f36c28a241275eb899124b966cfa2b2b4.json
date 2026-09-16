@@ -1,0 +1,14 @@
+{
+  "id": "https://openalex.org/W3039422697",
+  "title": "Effect of Fiscal Decentralization Financial Performance Against Local And Regional Gross Domestic Product (GDP) NTB",
+  "year": 2020,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "calibration",
+  "sampling_cohort": "initial_pilot",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:01:09.600006+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 0,
+  "score": null
+}

@@ -1,0 +1,5011 @@
+{
+  "run_id": "agent-rubric-bert-mini-v1",
+  "status": "complete",
+  "stage": "Diagnostic fit complete",
+  "started_at": "2026-09-16T20:18:53.650036+00:00",
+  "architecture": {
+    "name": "BERT-Mini",
+    "layers": 4,
+    "heads": 4,
+    "hidden_size": 256,
+    "outputs": 20,
+    "parameters": 11175700
+  },
+  "config": {
+    "epochs": 8,
+    "learning_rate": 3e-05,
+    "seed": 42,
+    "max_chunk_tokens": 512,
+    "chunking": "All tokens, nonoverlapping chunks; no prefix truncation. Equal paper weight, masked per-item loss.",
+    "base_model": "google/bert_uncased_L-4_H-256_A-4",
+    "revision": "387825ce42dbb39b87911cdf8e383ee3b25184f8"
+  },
+  "dataset": {
+    "agent_records": 38,
+    "included_papers": 24,
+    "excluded_identity_or_type": 2,
+    "without_known_targets": 12,
+    "splits": {
+      "train": {
+        "papers": 11,
+        "yes": 44,
+        "no": 0
+      },
+      "validation": {
+        "papers": 3,
+        "yes": 11,
+        "no": 0
+      },
+      "calibration": {
+        "papers": 3,
+        "yes": 9,
+        "no": 0
+      },
+      "test": {
+        "papers": 3,
+        "yes": 3,
+        "no": 0
+      },
+      "challenge": {
+        "papers": 4,
+        "yes": 50,
+        "no": 7
+      }
+    },
+    "questions": [
+      {
+        "id": "claim_supported",
+        "dimension": "validation",
+        "question": "Does a later independent primary study explicitly support the paper's central claim?",
+        "unknown": 11
+      },
+      {
+        "id": "independent_reproduction",
+        "dimension": "validation",
+        "question": "Has an independent team reproduced the central result, construction or proof?",
+        "unknown": 11
+      },
+      {
+        "id": "stronger_test",
+        "dimension": "validation",
+        "question": "Did the central claim survive a larger, stricter or independently collected follow-up test?",
+        "unknown": 10,
+        "yes": 1
+      },
+      {
+        "id": "central_claim_retained",
+        "dimension": "validation",
+        "question": "Does a later authoritative assessment explicitly retain the central claim rather than reject it?",
+        "yes": 4,
+        "unknown": 7
+      },
+      {
+        "id": "limitations_survived",
+        "dimension": "validation",
+        "question": "Did later work show the central contribution remains useful after explicitly testing its stated limitations?",
+        "unknown": 11
+      },
+      {
+        "id": "independent_extension",
+        "dimension": "uptake",
+        "question": "Did an independent group publish a substantive extension of this specific contribution?",
+        "yes": 4,
+        "unknown": 7
+      },
+      {
+        "id": "multiple_groups",
+        "dimension": "uptake",
+        "question": "Did at least two independent groups substantively build on this specific contribution?",
+        "unknown": 11
+      },
+      {
+        "id": "method_reused",
+        "dimension": "uptake",
+        "question": "Did an independent study actually use the proposed method, result or framework rather than merely cite it?",
+        "yes": 4,
+        "unknown": 7
+      },
+      {
+        "id": "new_research_direction",
+        "dimension": "uptake",
+        "question": "Does a later review explicitly identify this contribution as enabling a research direction?",
+        "unknown": 11
+      },
+      {
+        "id": "independent_comparison",
+        "dimension": "uptake",
+        "question": "Was this contribution used as an actual baseline, benchmark or theoretical reference construction in independent work?",
+        "unknown": 11
+      },
+      {
+        "id": "external_utility",
+        "dimension": "utility",
+        "question": "Was a concrete scientific or practical benefit from applying the contribution demonstrated independently?",
+        "yes": 3,
+        "unknown": 8
+      },
+      {
+        "id": "beyond_original_setting",
+        "dimension": "utility",
+        "question": "Was the contribution successfully used outside the original evaluation setting or problem instance?",
+        "yes": 3,
+        "unknown": 8
+      },
+      {
+        "id": "enabled_new_result",
+        "dimension": "utility",
+        "question": "Did the contribution enable a new result, measurement, theorem or capability in later work?",
+        "yes": 4,
+        "unknown": 7
+      },
+      {
+        "id": "operational_adoption",
+        "dimension": "utility",
+        "question": "Where an operational application is appropriate, was the contribution actually used in a product, workflow, standard or practice?",
+        "unknown": 11
+      },
+      {
+        "id": "advantage_retained",
+        "dimension": "utility",
+        "question": "Did an independent comparison find a claimed advantage holds under fair evaluation?",
+        "unknown": 9,
+        "not_applicable": 2
+      },
+      {
+        "id": "late_use",
+        "dimension": "durability",
+        "question": "Is there evidence of substantive use at least three years after publication?",
+        "yes": 9,
+        "unknown": 2
+      },
+      {
+        "id": "late_positive_assessment",
+        "dimension": "durability",
+        "question": "Is there a positive independent assessment of the central contribution at least three years after publication?",
+        "yes": 4,
+        "unknown": 7
+      },
+      {
+        "id": "multiple_followup_years",
+        "dimension": "durability",
+        "question": "Is substantive independent follow-up documented in at least two distinct later calendar years?",
+        "yes": 1,
+        "unknown": 10
+      },
+      {
+        "id": "synthesis_inclusion",
+        "dimension": "durability",
+        "question": "Does an independent systematic review, textbook, standard or research synthesis adopt the contribution as valid or useful?",
+        "yes": 7,
+        "unknown": 4
+      },
+      {
+        "id": "continued_relevance",
+        "dimension": "durability",
+        "question": "Does later evidence explicitly show continued usefulness despite newer alternatives?",
+        "unknown": 11
+      }
+    ],
+    "supported_heads": [
+      "stronger_test",
+      "central_claim_retained",
+      "independent_extension",
+      "method_reused",
+      "external_utility",
+      "beyond_original_setting",
+      "enabled_new_result",
+      "late_use",
+      "late_positive_assessment",
+      "multiple_followup_years",
+      "synthesis_inclusion"
+    ]
+  },
+  "runs": [
+    {
+      "id": "wording",
+      "history": [
+        {
+          "epoch": 1,
+          "optimization_loss": 0.6040577553212643,
+          "train_loss": 0.5613219275101081,
+          "validation_loss": 0.590294856588988,
+          "train_brier": 0.1851733034330817,
+          "validation_brier": 0.19967612651156888,
+          "mean_probability": 0.5587174296379089,
+          "seconds": 1.9881963769439608
+        },
+        {
+          "epoch": 2,
+          "optimization_loss": 0.5094992879947479,
+          "train_loss": 0.500831230654574,
+          "validation_loss": 0.536317123135502,
+          "train_brier": 0.15668773133003866,
+          "validation_brier": 0.17395122047479789,
+          "mean_probability": 0.5899313598871231,
+          "seconds": 1.8376649220008403
+        },
+        {
+          "epoch": 3,
+          "optimization_loss": 0.4430179370736534,
+          "train_loss": 0.4635614644551353,
+          "validation_loss": 0.49982081724186783,
+          "train_brier": 0.13970155752639116,
+          "validation_brier": 0.15712109842406824,
+          "mean_probability": 0.6121756136417389,
+          "seconds": 1.8101268489845097
+        },
+        {
+          "epoch": 4,
+          "optimization_loss": 0.4033809922720221,
+          "train_loss": 0.43590642445276445,
+          "validation_loss": 0.4703966718776632,
+          "train_brier": 0.12766019835763762,
+          "validation_brier": 0.14385661669801308,
+          "mean_probability": 0.6307656288146972,
+          "seconds": 1.7599084409885108
+        },
+        {
+          "epoch": 5,
+          "optimization_loss": 0.3722346541154283,
+          "train_loss": 0.41061286077715403,
+          "validation_loss": 0.44940664428037846,
+          "train_brier": 0.11670540887905362,
+          "validation_brier": 0.13457313310694338,
+          "mean_probability": 0.6442460715770721,
+          "seconds": 1.7938349870964885
+        },
+        {
+          "epoch": 6,
+          "optimization_loss": 0.35945711516648193,
+          "train_loss": 0.3900729737040641,
+          "validation_loss": 0.4263490221592793,
+          "train_brier": 0.10791519691531674,
+          "validation_brier": 0.1245302107347154,
+          "mean_probability": 0.6593326270580292,
+          "seconds": 1.7775738139171153
+        },
+        {
+          "epoch": 7,
+          "optimization_loss": 0.3301890799034895,
+          "train_loss": 0.3730525242493686,
+          "validation_loss": 0.41310973746454904,
+          "train_brier": 0.10154915012223013,
+          "validation_brier": 0.11936033187167468,
+          "mean_probability": 0.6688166499137879,
+          "seconds": 1.8077559950761497
+        },
+        {
+          "epoch": 8,
+          "optimization_loss": 0.30900884772100573,
+          "train_loss": 0.3549434788019253,
+          "validation_loss": 0.39386173131117946,
+          "train_brier": 0.09395288947316467,
+          "validation_brier": 0.11113073175326385,
+          "mean_probability": 0.6815769135951996,
+          "seconds": 1.7752637160010636
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "epoch": 1,
+          "loss": 0.6798571553081274,
+          "gradient_norm": 3.1282143592834473
+        },
+        {
+          "step": 2,
+          "epoch": 1,
+          "loss": 0.6700486876070499,
+          "gradient_norm": 2.12034010887146
+        },
+        {
+          "step": 3,
+          "epoch": 1,
+          "loss": 0.5887423157691956,
+          "gradient_norm": 3.668671131134033
+        },
+        {
+          "step": 4,
+          "epoch": 1,
+          "loss": 0.5862654885277152,
+          "gradient_norm": 5.620238780975342
+        },
+        {
+          "step": 5,
+          "epoch": 1,
+          "loss": 0.5991708263754845,
+          "gradient_norm": 3.3929765224456787
+        },
+        {
+          "step": 6,
+          "epoch": 1,
+          "loss": 0.6130213737487793,
+          "gradient_norm": 3.102525234222412
+        },
+        {
+          "step": 7,
+          "epoch": 1,
+          "loss": 0.6143311494961381,
+          "gradient_norm": 5.818496227264404
+        },
+        {
+          "step": 8,
+          "epoch": 1,
+          "loss": 0.5363254547119141,
+          "gradient_norm": 6.5661797523498535
+        },
+        {
+          "step": 9,
+          "epoch": 1,
+          "loss": 0.6166723929345608,
+          "gradient_norm": 1.8008105754852295
+        },
+        {
+          "step": 10,
+          "epoch": 1,
+          "loss": 0.6174785513430834,
+          "gradient_norm": 2.5295283794403076
+        },
+        {
+          "step": 11,
+          "epoch": 1,
+          "loss": 0.5227219127118587,
+          "gradient_norm": 5.2164387702941895
+        },
+        {
+          "step": 12,
+          "epoch": 2,
+          "loss": 0.497863233089447,
+          "gradient_norm": 5.9799418449401855
+        },
+        {
+          "step": 13,
+          "epoch": 2,
+          "loss": 0.5885089673101902,
+          "gradient_norm": 1.7561609745025635
+        },
+        {
+          "step": 14,
+          "epoch": 2,
+          "loss": 0.484661728143692,
+          "gradient_norm": 3.3133699893951416
+        },
+        {
+          "step": 15,
+          "epoch": 2,
+          "loss": 0.4812544919550419,
+          "gradient_norm": 4.792471408843994
+        },
+        {
+          "step": 16,
+          "epoch": 2,
+          "loss": 0.474875520914793,
+          "gradient_norm": 2.830031633377075
+        },
+        {
+          "step": 17,
+          "epoch": 2,
+          "loss": 0.5641540549695492,
+          "gradient_norm": 2.329284906387329
+        },
+        {
+          "step": 18,
+          "epoch": 2,
+          "loss": 0.5311456359922886,
+          "gradient_norm": 2.2788758277893066
+        },
+        {
+          "step": 19,
+          "epoch": 2,
+          "loss": 0.4138338705524802,
+          "gradient_norm": 4.068204402923584
+        },
+        {
+          "step": 20,
+          "epoch": 2,
+          "loss": 0.5622479757294059,
+          "gradient_norm": 1.5923376083374023
+        },
+        {
+          "step": 21,
+          "epoch": 2,
+          "loss": 0.5742720365524292,
+          "gradient_norm": 2.989016532897949
+        },
+        {
+          "step": 22,
+          "epoch": 2,
+          "loss": 0.4316746527329087,
+          "gradient_norm": 4.0250701904296875
+        },
+        {
+          "step": 23,
+          "epoch": 3,
+          "loss": 0.4082861691713333,
+          "gradient_norm": 2.356724977493286
+        },
+        {
+          "step": 24,
+          "epoch": 3,
+          "loss": 0.5280886292457581,
+          "gradient_norm": 2.1330976486206055
+        },
+        {
+          "step": 25,
+          "epoch": 3,
+          "loss": 0.4073927719146013,
+          "gradient_norm": 3.7641894817352295
+        },
+        {
+          "step": 26,
+          "epoch": 3,
+          "loss": 0.5377262579277158,
+          "gradient_norm": 1.4664446115493774
+        },
+        {
+          "step": 27,
+          "epoch": 3,
+          "loss": 0.43962612748146057,
+          "gradient_norm": 2.8114173412323
+        },
+        {
+          "step": 28,
+          "epoch": 3,
+          "loss": 0.34370243549346924,
+          "gradient_norm": 3.89082407951355
+        },
+        {
+          "step": 29,
+          "epoch": 3,
+          "loss": 0.4997417777776718,
+          "gradient_norm": 2.1966614723205566
+        },
+        {
+          "step": 30,
+          "epoch": 3,
+          "loss": 0.5203204471617937,
+          "gradient_norm": 1.453437328338623
+        },
+        {
+          "step": 31,
+          "epoch": 3,
+          "loss": 0.48108071088790894,
+          "gradient_norm": 2.372040033340454
+        },
+        {
+          "step": 32,
+          "epoch": 3,
+          "loss": 0.3376565361395478,
+          "gradient_norm": 3.604417085647583
+        },
+        {
+          "step": 33,
+          "epoch": 3,
+          "loss": 0.3695754446089268,
+          "gradient_norm": 3.585585355758667
+        },
+        {
+          "step": 34,
+          "epoch": 4,
+          "loss": 0.3687790837138891,
+          "gradient_norm": 3.573172092437744
+        },
+        {
+          "step": 35,
+          "epoch": 4,
+          "loss": 0.4802118483930826,
+          "gradient_norm": 2.0530574321746826
+        },
+        {
+          "step": 36,
+          "epoch": 4,
+          "loss": 0.48673260770738125,
+          "gradient_norm": 2.1544220447540283
+        },
+        {
+          "step": 37,
+          "epoch": 4,
+          "loss": 0.35239740600809455,
+          "gradient_norm": 3.238666296005249
+        },
+        {
+          "step": 38,
+          "epoch": 4,
+          "loss": 0.5083022825419903,
+          "gradient_norm": 1.3959729671478271
+        },
+        {
+          "step": 39,
+          "epoch": 4,
+          "loss": 0.30649216193705797,
+          "gradient_norm": 3.078601121902466
+        },
+        {
+          "step": 40,
+          "epoch": 4,
+          "loss": 0.44700828194618225,
+          "gradient_norm": 2.2469711303710938
+        },
+        {
+          "step": 41,
+          "epoch": 4,
+          "loss": 0.49334135092794895,
+          "gradient_norm": 1.4436874389648438
+        },
+        {
+          "step": 42,
+          "epoch": 4,
+          "loss": 0.38071879744529724,
+          "gradient_norm": 2.3977153301239014
+        },
+        {
+          "step": 43,
+          "epoch": 4,
+          "loss": 0.2696990668773651,
+          "gradient_norm": 3.44022274017334
+        },
+        {
+          "step": 44,
+          "epoch": 4,
+          "loss": 0.3435080274939537,
+          "gradient_norm": 1.9489712715148926
+        },
+        {
+          "step": 45,
+          "epoch": 5,
+          "loss": 0.3852625787258148,
+          "gradient_norm": 2.949105978012085
+        },
+        {
+          "step": 46,
+          "epoch": 5,
+          "loss": 0.43131768703460693,
+          "gradient_norm": 2.187446117401123
+        },
+        {
+          "step": 47,
+          "epoch": 5,
+          "loss": 0.4412207119166851,
+          "gradient_norm": 1.8587768077850342
+        },
+        {
+          "step": 48,
+          "epoch": 5,
+          "loss": 0.46323276683688164,
+          "gradient_norm": 2.0399086475372314
+        },
+        {
+          "step": 49,
+          "epoch": 5,
+          "loss": 0.27056913275737315,
+          "gradient_norm": 2.76936674118042
+        },
+        {
+          "step": 50,
+          "epoch": 5,
+          "loss": 0.4793739467859268,
+          "gradient_norm": 1.425179362297058
+        },
+        {
+          "step": 51,
+          "epoch": 5,
+          "loss": 0.31971312314271927,
+          "gradient_norm": 3.180896043777466
+        },
+        {
+          "step": 52,
+          "epoch": 5,
+          "loss": 0.4801141256466508,
+          "gradient_norm": 1.405908465385437
+        },
+        {
+          "step": 53,
+          "epoch": 5,
+          "loss": 0.19729270040988922,
+          "gradient_norm": 2.4004499912261963
+        },
+        {
+          "step": 54,
+          "epoch": 5,
+          "loss": 0.3206949960440397,
+          "gradient_norm": 3.305537462234497
+        },
+        {
+          "step": 55,
+          "epoch": 5,
+          "loss": 0.30578942596912384,
+          "gradient_norm": 1.8073722124099731
+        },
+        {
+          "step": 56,
+          "epoch": 6,
+          "loss": 0.39198482036590576,
+          "gradient_norm": 2.4713327884674072
+        },
+        {
+          "step": 57,
+          "epoch": 6,
+          "loss": 0.30101726204156876,
+          "gradient_norm": 2.948791980743408
+        },
+        {
+          "step": 58,
+          "epoch": 6,
+          "loss": 0.4363713823258877,
+          "gradient_norm": 1.8596667051315308
+        },
+        {
+          "step": 59,
+          "epoch": 6,
+          "loss": 0.41777118295431137,
+          "gradient_norm": 1.8055928945541382
+        },
+        {
+          "step": 60,
+          "epoch": 6,
+          "loss": 0.4055424928665161,
+          "gradient_norm": 2.2230536937713623
+        },
+        {
+          "step": 61,
+          "epoch": 6,
+          "loss": 0.4619736410677433,
+          "gradient_norm": 1.3070365190505981
+        },
+        {
+          "step": 62,
+          "epoch": 6,
+          "loss": 0.28623345866799355,
+          "gradient_norm": 2.8683059215545654
+        },
+        {
+          "step": 63,
+          "epoch": 6,
+          "loss": 0.45090715400874615,
+          "gradient_norm": 1.3096193075180054
+        },
+        {
+          "step": 64,
+          "epoch": 6,
+          "loss": 0.29936903715133667,
+          "gradient_norm": 1.8719167709350586
+        },
+        {
+          "step": 65,
+          "epoch": 6,
+          "loss": 0.2593926191329956,
+          "gradient_norm": 3.093289375305176
+        },
+        {
+          "step": 66,
+          "epoch": 6,
+          "loss": 0.2434652162482962,
+          "gradient_norm": 2.5928635597229004
+        },
+        {
+          "step": 67,
+          "epoch": 7,
+          "loss": 0.4504938875325024,
+          "gradient_norm": 1.2888593673706055
+        },
+        {
+          "step": 68,
+          "epoch": 7,
+          "loss": 0.41413993760943413,
+          "gradient_norm": 1.785879135131836
+        },
+        {
+          "step": 69,
+          "epoch": 7,
+          "loss": 0.22926991747226566,
+          "gradient_norm": 2.4090416431427
+        },
+        {
+          "step": 70,
+          "epoch": 7,
+          "loss": 0.26981759653426707,
+          "gradient_norm": 2.69024658203125
+        },
+        {
+          "step": 71,
+          "epoch": 7,
+          "loss": 0.3539348542690277,
+          "gradient_norm": 2.2583611011505127
+        },
+        {
+          "step": 72,
+          "epoch": 7,
+          "loss": 0.26775193959474564,
+          "gradient_norm": 1.6381564140319824
+        },
+        {
+          "step": 73,
+          "epoch": 7,
+          "loss": 0.2484898529946804,
+          "gradient_norm": 2.574721097946167
+        },
+        {
+          "step": 74,
+          "epoch": 7,
+          "loss": 0.2047325074672699,
+          "gradient_norm": 2.492931365966797
+        },
+        {
+          "step": 75,
+          "epoch": 7,
+          "loss": 0.3652946949005127,
+          "gradient_norm": 1.9124571084976196
+        },
+        {
+          "step": 76,
+          "epoch": 7,
+          "loss": 0.3926038406789303,
+          "gradient_norm": 1.7069562673568726
+        },
+        {
+          "step": 77,
+          "epoch": 7,
+          "loss": 0.43555084988474846,
+          "gradient_norm": 1.3121639490127563
+        },
+        {
+          "step": 78,
+          "epoch": 8,
+          "loss": 0.4360422883182764,
+          "gradient_norm": 1.3244655132293701
+        },
+        {
+          "step": 79,
+          "epoch": 8,
+          "loss": 0.4005957841873169,
+          "gradient_norm": 1.7930357456207275
+        },
+        {
+          "step": 80,
+          "epoch": 8,
+          "loss": 0.23900230694562197,
+          "gradient_norm": 2.5281670093536377
+        },
+        {
+          "step": 81,
+          "epoch": 8,
+          "loss": 0.35248544812202454,
+          "gradient_norm": 1.900921106338501
+        },
+        {
+          "step": 82,
+          "epoch": 8,
+          "loss": 0.19912103901151568,
+          "gradient_norm": 2.1450679302215576
+        },
+        {
+          "step": 83,
+          "epoch": 8,
+          "loss": 0.2532598339021206,
+          "gradient_norm": 1.5395804643630981
+        },
+        {
+          "step": 84,
+          "epoch": 8,
+          "loss": 0.24071697238832712,
+          "gradient_norm": 2.401407480239868
+        },
+        {
+          "step": 85,
+          "epoch": 8,
+          "loss": 0.31064924597740173,
+          "gradient_norm": 2.00933575630188
+        },
+        {
+          "step": 86,
+          "epoch": 8,
+          "loss": 0.3677369598299265,
+          "gradient_norm": 1.662657618522644
+        },
+        {
+          "step": 87,
+          "epoch": 8,
+          "loss": 0.18319302797317505,
+          "gradient_norm": 2.0808022022247314
+        },
+        {
+          "step": 88,
+          "epoch": 8,
+          "loss": 0.4162944182753563,
+          "gradient_norm": 1.2350281476974487
+        }
+      ],
+      "chunks": 622,
+      "best_epoch": 8,
+      "metrics": {
+        "train": {
+          "known_items": 44,
+          "positive_items": 44,
+          "negative_items": 0,
+          "log_loss": 0.3549434788019253,
+          "brier": 0.09395288947316467,
+          "mean_probability": 0.7071495462547649,
+          "auc": null,
+          "auc_reason": "Single-class or tiny diagnostic cohort; discrimination is not established.",
+          "papers": [
+            {
+              "id": "https://openalex.org/W2292065295",
+              "title": "Eccentric-orbit extreme-mass-ratio inspiral gravitational wave energy fluxes to 7PN order",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5492797493934631,
+                0.5469177961349487,
+                null,
+                0.669792652130127,
+                null,
+                0.7324468493461609,
+                null,
+                null,
+                0.5790361762046814,
+                0.638809084892273,
+                0.670563817024231,
+                null,
+                null,
+                0.7934601306915283,
+                0.678552508354187,
+                0.5565441250801086,
+                0.8332453966140747,
+                null
+              ],
+              "known_labels": {
+                "central_claim_retained": "yes",
+                "independent_extension": "yes",
+                "method_reused": "yes",
+                "external_utility": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "multiple_followup_years": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2502906121",
+              "title": "C-type natriuretic peptide and natriuretic peptide receptor B signalling inhibits cardiac sympathetic neurotransmission and autonomic function",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5584240555763245,
+                0.5578372478485107,
+                null,
+                0.668842077255249,
+                null,
+                0.7260206937789917,
+                null,
+                null,
+                0.5808970928192139,
+                0.6323810815811157,
+                0.6814966797828674,
+                null,
+                null,
+                0.7973899245262146,
+                0.6769118309020996,
+                0.5460890531539917,
+                0.827625036239624,
+                null
+              ],
+              "known_labels": {
+                "central_claim_retained": "yes",
+                "independent_extension": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2565221079",
+              "title": "Elucidation of the genetic and epigenetic landscape alterations in RNA binding proteins in glioblastoma",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5648965239524841,
+                0.5646960139274597,
+                null,
+                0.6912853717803955,
+                null,
+                0.7076098322868347,
+                null,
+                null,
+                0.5524246096611023,
+                0.5893725156784058,
+                0.7101619839668274,
+                null,
+                null,
+                0.7920433282852173,
+                0.6783323884010315,
+                0.5581477284431458,
+                0.8255080580711365,
+                null
+              ],
+              "known_labels": {
+                "independent_extension": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2604283208",
+              "title": "DGCR8 Mediates Repair of UV-Induced DNA Damage Independently of RNA Processing",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5654485821723938,
+                0.56178879737854,
+                null,
+                0.6607784032821655,
+                null,
+                0.7236981987953186,
+                null,
+                null,
+                0.5895246267318726,
+                0.635518491268158,
+                0.684905469417572,
+                null,
+                null,
+                0.7978881001472473,
+                0.6772426962852478,
+                0.5453199148178101,
+                0.8231069445610046,
+                null
+              ],
+              "known_labels": {
+                "stronger_test": "yes",
+                "central_claim_retained": "yes",
+                "independent_extension": "yes",
+                "method_reused": "yes",
+                "external_utility": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2734792158",
+              "title": "Using magnetic structure of Co40Pd60/Cu for the sensing of hydrogen",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5613963007926941,
+                0.5591034889221191,
+                null,
+                0.6621677875518799,
+                null,
+                0.7046608328819275,
+                null,
+                null,
+                0.570771336555481,
+                0.6144568920135498,
+                0.6748547554016113,
+                null,
+                null,
+                0.781923234462738,
+                0.687833845615387,
+                0.5373674631118774,
+                0.8412244915962219,
+                null
+              ],
+              "known_labels": {
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2763496525",
+              "title": "Silent Adrenal Pheochromocytoma Coexistent with Corticomedullary Hyperplasia: A Case Incidentally Discovered",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5584614276885986,
+                0.5548431873321533,
+                null,
+                0.6758615970611572,
+                null,
+                0.7398244738578796,
+                null,
+                null,
+                0.5697283148765564,
+                0.6227704882621765,
+                0.6727118492126465,
+                null,
+                null,
+                0.7983772158622742,
+                0.6712384819984436,
+                0.5487748384475708,
+                0.8300917148590088,
+                null
+              ],
+              "known_labels": {
+                "method_reused": "yes",
+                "late_use": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2808922852",
+              "title": "Risk of Foot Ulcer and Lower Extremity Amputation among Participants in the Diabetes Control and Complications Trial/Epidemiology of Diabetes Interventions and Complications Study (DCCT/EDIC)",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5633577108383179,
+                0.6123555898666382,
+                null,
+                0.5933910012245178,
+                null,
+                0.6913006901741028,
+                null,
+                null,
+                0.574457585811615,
+                0.6077852249145508,
+                0.6685855388641357,
+                null,
+                null,
+                0.7808437347412109,
+                0.6911022067070007,
+                0.5361810922622681,
+                0.7898648977279663,
+                null
+              ],
+              "known_labels": {
+                "central_claim_retained": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2883944593",
+              "title": "Opportunity makes opinion leaders: analyzing the role of first-hand information in opinion leadership in social media networks",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5670720338821411,
+                0.5472859144210815,
+                null,
+                0.6543421745300293,
+                null,
+                0.7200663089752197,
+                null,
+                null,
+                0.6006526350975037,
+                0.6485438346862793,
+                0.67933189868927,
+                null,
+                null,
+                0.8001184463500977,
+                0.6765760779380798,
+                0.545459508895874,
+                0.8225245475769043,
+                null
+              ],
+              "known_labels": {
+                "method_reused": "yes",
+                "external_utility": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W3007451419",
+              "title": "Inference for cumulative intraday return curves",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5497262477874756,
+                0.5450581312179565,
+                null,
+                0.6641433238983154,
+                null,
+                0.7263120412826538,
+                null,
+                null,
+                0.5758652091026306,
+                0.6408820748329163,
+                0.6655328869819641,
+                null,
+                null,
+                0.7940616607666016,
+                0.6741620898246765,
+                0.5519415140151978,
+                0.8338186740875244,
+                null
+              ],
+              "known_labels": {
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W4247974275",
+              "title": "Belgium",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5641951560974121,
+                0.5476084351539612,
+                null,
+                0.6530426144599915,
+                null,
+                0.7115036249160767,
+                null,
+                null,
+                0.5761514902114868,
+                0.6346370577812195,
+                0.6798486709594727,
+                null,
+                null,
+                0.8017157316207886,
+                0.6793233156204224,
+                0.5531376600265503,
+                0.8222619891166687,
+                null
+              ],
+              "known_labels": {
+                "late_use": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W4412375198",
+              "title": "Israel\u2019s Nuclear Posture: Intellectual Antecedents and Doctrinal Foundations",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.556536078453064,
+                0.5446969270706177,
+                null,
+                0.6526474356651306,
+                null,
+                0.7109462022781372,
+                null,
+                null,
+                0.588973879814148,
+                0.6370258331298828,
+                0.6829045414924622,
+                null,
+                null,
+                0.8052825331687927,
+                0.6798321604728699,
+                0.551418125629425,
+                0.8202207684516907,
+                null
+              ],
+              "known_labels": {
+                "late_use": "yes"
+              }
+            }
+          ]
+        },
+        "validation": {
+          "known_items": 10,
+          "positive_items": 10,
+          "negative_items": 0,
+          "log_loss": 0.39386173131117946,
+          "brier": 0.11113073175326385,
+          "mean_probability": 0.6815769135951996,
+          "auc": null,
+          "auc_reason": "Single-class or tiny diagnostic cohort; discrimination is not established.",
+          "papers": [
+            {
+              "id": "https://openalex.org/W2922482404",
+              "title": "Anonymous Auction Protocol Based on Time-Released Encryption Atop Consortium BlockChain",
+              "split": "validation",
+              "probabilities": [
+                null,
+                null,
+                0.5586561560630798,
+                0.5523452162742615,
+                null,
+                0.6525294780731201,
+                null,
+                0.7229043245315552,
+                null,
+                null,
+                0.5856989622116089,
+                0.6380910277366638,
+                0.6728124618530273,
+                null,
+                null,
+                0.7994168996810913,
+                0.6831027269363403,
+                0.5588750243186951,
+                0.8270216584205627,
+                null
+              ],
+              "known_labels": {
+                "independent_comparison": "yes",
+                "late_use": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2956519671",
+              "title": "Cherenkov Radiation in the Visible and Ultraviolet Spectral Ranges from 6-MeV Electrons Passing through a Quartz Plate",
+              "split": "validation",
+              "probabilities": [
+                null,
+                null,
+                0.5720717906951904,
+                0.5173115134239197,
+                null,
+                0.681666910648346,
+                null,
+                0.7085813283920288,
+                null,
+                null,
+                0.5523280501365662,
+                0.5923131108283997,
+                0.6586781144142151,
+                null,
+                null,
+                0.7607606649398804,
+                0.6500547528266907,
+                0.5386162996292114,
+                0.8171529173851013,
+                null
+              ],
+              "known_labels": {
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2982984920",
+              "title": "Quantitative Analysis of Bioactive Phenanthrenes in Dioscorea batatas Decne Peel, a Discarded Biomass from Postharvest Processing",
+              "split": "validation",
+              "probabilities": [
+                null,
+                null,
+                0.5595845580101013,
+                0.5541718602180481,
+                null,
+                0.6759411692619324,
+                null,
+                0.7403439283370972,
+                null,
+                null,
+                0.5674142837524414,
+                0.6260957717895508,
+                0.6701677441596985,
+                null,
+                null,
+                0.7949697971343994,
+                0.6718875765800476,
+                0.5499690175056458,
+                0.8296428918838501,
+                null
+              ],
+              "known_labels": {
+                "central_claim_retained": "yes",
+                "method_reused": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes",
+                "multiple_followup_years": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            }
+          ]
+        },
+        "calibration": {
+          "known_items": 8,
+          "positive_items": 8,
+          "negative_items": 0,
+          "log_loss": 0.3540405379564312,
+          "brier": 0.0938525608743892,
+          "mean_probability": 0.7083516046404839,
+          "auc": null,
+          "auc_reason": "Single-class or tiny diagnostic cohort; discrimination is not established.",
+          "papers": [
+            {
+              "id": "https://openalex.org/W2753756358",
+              "title": "Depression and associated factors among parents of children diagnosed with cancer at Tikur Anbessa Specialized Hospital, Addis Ababa, Ethiopia",
+              "split": "calibration",
+              "probabilities": [
+                null,
+                null,
+                0.5635806918144226,
+                0.596268892288208,
+                null,
+                0.645440936088562,
+                null,
+                0.7075160145759583,
+                null,
+                null,
+                0.57410728931427,
+                0.6108118891716003,
+                0.6770185232162476,
+                null,
+                null,
+                0.786870539188385,
+                0.685141384601593,
+                0.5321277976036072,
+                0.8224626183509827,
+                null
+              ],
+              "known_labels": {
+                "multiple_groups": "yes",
+                "method_reused": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes",
+                "multiple_followup_years": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W3081066862",
+              "title": "Role of Federal Government in Managing Conflicts: Somalia",
+              "split": "calibration",
+              "probabilities": [
+                null,
+                null,
+                0.5691872239112854,
+                0.5511645674705505,
+                null,
+                0.656226396560669,
+                null,
+                0.7181819081306458,
+                null,
+                null,
+                0.5886465907096863,
+                0.6396211981773376,
+                0.6779592633247375,
+                null,
+                null,
+                0.7978938221931458,
+                0.6801747679710388,
+                0.554044783115387,
+                0.824876070022583,
+                null
+              ],
+              "known_labels": {
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W3164529735",
+              "title": "Rule-Based Dialog Management for Voice Assistents in Automotive Environments",
+              "split": "calibration",
+              "probabilities": [
+                null,
+                null,
+                0.558384358882904,
+                0.5489470362663269,
+                null,
+                0.659662663936615,
+                null,
+                0.7252210378646851,
+                null,
+                null,
+                0.585936427116394,
+                0.6426095962524414,
+                0.6733316779136658,
+                null,
+                null,
+                0.7934946417808533,
+                0.6816626787185669,
+                0.5540797710418701,
+                0.8301809430122375,
+                null
+              ],
+              "known_labels": {
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes"
+              }
+            }
+          ]
+        },
+        "test": {
+          "known_items": 3,
+          "positive_items": 3,
+          "negative_items": 0,
+          "log_loss": 0.3227829585219215,
+          "brier": 0.07916505699161173,
+          "mean_probability": 0.727297286192576,
+          "auc": null,
+          "auc_reason": "Single-class or tiny diagnostic cohort; discrimination is not established.",
+          "papers": [
+            {
+              "id": "https://openalex.org/W3120767723",
+              "title": "Inference of Intercellular Communications and Multilayer Gene-Regulations of Epithelial\u2013Mesenchymal Transition From Single-Cell Transcriptomic Data",
+              "split": "test",
+              "probabilities": [
+                null,
+                null,
+                0.562065839767456,
+                0.5547435879707336,
+                null,
+                0.6706183552742004,
+                null,
+                0.7381240129470825,
+                null,
+                null,
+                0.5736741423606873,
+                0.6317066550254822,
+                0.6718300580978394,
+                null,
+                null,
+                0.7938774824142456,
+                0.6738398671150208,
+                0.552652895450592,
+                0.8284137845039368,
+                null
+              ],
+              "known_labels": {
+                "late_positive_assessment": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W3158745291",
+              "title": "Automotive Vulnerability Disclosure: Stakeholders, Opportunities, Challenges",
+              "split": "test",
+              "probabilities": [
+                null,
+                null,
+                0.5653373003005981,
+                0.5494887828826904,
+                null,
+                0.6536470055580139,
+                null,
+                0.7174913883209229,
+                null,
+                null,
+                0.5906831622123718,
+                0.6424909234046936,
+                0.6829333901405334,
+                null,
+                null,
+                0.8019548654556274,
+                0.6810082793235779,
+                0.5489523410797119,
+                0.8242623805999756,
+                null
+              ],
+              "known_labels": {
+                "enabled_new_result": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W4287324271",
+              "title": "territorial community as a subject of strategic planning of territorial development",
+              "split": "test",
+              "probabilities": [
+                null,
+                null,
+                0.5668352246284485,
+                0.5438821315765381,
+                null,
+                0.6770095229148865,
+                null,
+                0.7260193824768066,
+                null,
+                null,
+                0.5553234815597534,
+                0.607558012008667,
+                0.6784537434577942,
+                null,
+                null,
+                0.7793854475021362,
+                0.6602410674095154,
+                0.5467098951339722,
+                0.8251186013221741,
+                null
+              ],
+              "known_labels": {
+                "synthesis_inclusion": "yes"
+              }
+            }
+          ]
+        },
+        "challenge": {
+          "known_items": 33,
+          "positive_items": 29,
+          "negative_items": 4,
+          "log_loss": 0.4683918946168919,
+          "brier": 0.1447285030163193,
+          "mean_probability": 0.6493647080479246,
+          "auc": null,
+          "auc_reason": "Single-class or tiny diagnostic cohort; discrimination is not established.",
+          "papers": [
+            {
+              "id": "challenge-attention",
+              "title": "Attention Is All You Need",
+              "split": "challenge",
+              "probabilities": [
+                null,
+                null,
+                0.5625831484794617,
+                0.5496035814285278,
+                null,
+                0.6609174609184265,
+                null,
+                0.7255869507789612,
+                null,
+                null,
+                0.5818201899528503,
+                0.6427883505821228,
+                0.6777083277702332,
+                null,
+                null,
+                0.7984052896499634,
+                0.6845597624778748,
+                0.5564059615135193,
+                0.8272650241851807,
+                null
+              ],
+              "known_labels": {
+                "claim_supported": "yes",
+                "independent_reproduction": "yes",
+                "stronger_test": "yes",
+                "central_claim_retained": "yes",
+                "independent_extension": "yes",
+                "multiple_groups": "yes",
+                "method_reused": "yes",
+                "new_research_direction": "yes",
+                "independent_comparison": "yes",
+                "external_utility": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "operational_adoption": "yes",
+                "advantage_retained": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "multiple_followup_years": "yes",
+                "synthesis_inclusion": "yes",
+                "continued_relevance": "yes"
+              }
+            },
+            {
+              "id": "challenge-bert",
+              "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+              "split": "challenge",
+              "probabilities": [
+                null,
+                null,
+                0.5611938834190369,
+                0.5498495697975159,
+                null,
+                0.6624681949615479,
+                null,
+                0.7276151180267334,
+                null,
+                null,
+                0.5845156311988831,
+                0.6420984864234924,
+                0.6760134696960449,
+                null,
+                null,
+                0.7984461784362793,
+                0.6820051670074463,
+                0.5540174841880798,
+                0.8298259973526001,
+                null
+              ],
+              "known_labels": {
+                "claim_supported": "yes",
+                "independent_reproduction": "yes",
+                "stronger_test": "yes",
+                "central_claim_retained": "yes",
+                "independent_extension": "yes",
+                "multiple_groups": "yes",
+                "method_reused": "yes",
+                "new_research_direction": "yes",
+                "independent_comparison": "yes",
+                "external_utility": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "operational_adoption": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "multiple_followup_years": "yes",
+                "synthesis_inclusion": "yes",
+                "continued_relevance": "yes"
+              }
+            },
+            {
+              "id": "challenge-debt",
+              "title": "Growth in a Time of Debt",
+              "split": "challenge",
+              "probabilities": [
+                null,
+                null,
+                0.5633608102798462,
+                0.5446826815605164,
+                null,
+                0.6607896089553833,
+                null,
+                0.7148170471191406,
+                null,
+                null,
+                0.5808007121086121,
+                0.641462504863739,
+                0.682334840297699,
+                null,
+                null,
+                0.8033562302589417,
+                0.6813287734985352,
+                0.5530894994735718,
+                0.8277004957199097,
+                null
+              ],
+              "known_labels": {
+                "claim_supported": "yes",
+                "independent_reproduction": "no",
+                "stronger_test": "no",
+                "central_claim_retained": "no",
+                "independent_extension": "yes",
+                "multiple_groups": "yes",
+                "method_reused": "yes",
+                "independent_comparison": "yes",
+                "late_use": "yes",
+                "multiple_followup_years": "yes"
+              }
+            },
+            {
+              "id": "challenge-superconductor",
+              "title": "Room-temperature superconductivity in a carbonaceous sulfur hydride",
+              "split": "challenge",
+              "probabilities": [
+                null,
+                null,
+                0.5637590885162354,
+                0.5505214333534241,
+                null,
+                0.6644687056541443,
+                null,
+                0.7220022678375244,
+                null,
+                null,
+                0.5817699432373047,
+                0.6365638375282288,
+                0.6838614344596863,
+                null,
+                null,
+                0.7999632358551025,
+                0.6826775670051575,
+                0.5524947643280029,
+                0.8263890743255615,
+                null
+              ],
+              "known_labels": {
+                "independent_reproduction": "no",
+                "stronger_test": "no",
+                "central_claim_retained": "no",
+                "independent_extension": "yes",
+                "multiple_groups": "yes",
+                "method_reused": "yes",
+                "new_research_direction": "yes",
+                "independent_comparison": "yes",
+                "advantage_retained": "no",
+                "multiple_followup_years": "yes"
+              }
+            }
+          ]
+        }
+      },
+      "checkpoint_sha256": "4b231e6d275733ce8c6d735ad742e9334ad4833193426cb2e2c524c0668b6635",
+      "constant_positive_baseline": {
+        "train": {
+          "log_loss": 1.0000000494736474e-07,
+          "brier": 0.0,
+          "note": "Train-only empirical positive prevalence is 1; available heads only."
+        },
+        "validation": {
+          "log_loss": 1.0000000494736472e-07,
+          "brier": 0.0,
+          "note": "Train-only empirical positive prevalence is 1; available heads only."
+        },
+        "calibration": {
+          "log_loss": 1.0000000494736474e-07,
+          "brier": 0.0,
+          "note": "Train-only empirical positive prevalence is 1; available heads only."
+        },
+        "test": {
+          "log_loss": 1.0000000494736474e-07,
+          "brier": 0.0,
+          "note": "Train-only empirical positive prevalence is 1; available heads only."
+        },
+        "challenge": {
+          "log_loss": 1.9537086516313158,
+          "brier": 0.12121212121212122,
+          "note": "Train-only empirical positive prevalence is 1; available heads only."
+        }
+      }
+    },
+    {
+      "id": "original",
+      "history": [
+        {
+          "epoch": 1,
+          "optimization_loss": 0.6074765699026599,
+          "train_loss": 0.5531985562737769,
+          "validation_loss": 0.5830304674215867,
+          "train_brier": 0.181192475065672,
+          "validation_brier": 0.1959892629481222,
+          "mean_probability": 0.5620651096105576,
+          "seconds": 1.834957682993263
+        },
+        {
+          "epoch": 2,
+          "optimization_loss": 0.4959831044120206,
+          "train_loss": 0.4964536809481683,
+          "validation_loss": 0.5348429520455666,
+          "train_brier": 0.154540624418701,
+          "validation_brier": 0.17320913443535318,
+          "mean_probability": 0.5905930668115615,
+          "seconds": 1.8388791449833661
+        },
+        {
+          "epoch": 3,
+          "optimization_loss": 0.43598895985633135,
+          "train_loss": 0.4581524703241465,
+          "validation_loss": 0.5008818831256384,
+          "train_brier": 0.13754681278159467,
+          "validation_brier": 0.15777204790347704,
+          "mean_probability": 0.6118647396564484,
+          "seconds": 1.8801763590890914
+        },
+        {
+          "epoch": 4,
+          "optimization_loss": 0.4069305194054984,
+          "train_loss": 0.4298791282759586,
+          "validation_loss": 0.46940433928950204,
+          "train_brier": 0.12507422347646457,
+          "validation_brier": 0.1434470801009084,
+          "mean_probability": 0.6314170956611633,
+          "seconds": 1.8179581318981946
+        },
+        {
+          "epoch": 5,
+          "optimization_loss": 0.37089126819575374,
+          "train_loss": 0.4064295023470841,
+          "validation_loss": 0.4523179633153823,
+          "train_brier": 0.1151204167507256,
+          "validation_brier": 0.13611774498993973,
+          "mean_probability": 0.6428202688694,
+          "seconds": 1.852568126982078
+        },
+        {
+          "epoch": 6,
+          "optimization_loss": 0.34625901658595964,
+          "train_loss": 0.3850584221118894,
+          "validation_loss": 0.4267086779815149,
+          "train_brier": 0.10598259913231663,
+          "validation_brier": 0.12484673234287876,
+          "mean_probability": 0.6593290030956268,
+          "seconds": 1.8132179889362305
+        },
+        {
+          "epoch": 7,
+          "optimization_loss": 0.32507452802647924,
+          "train_loss": 0.3674494264958231,
+          "validation_loss": 0.4117353533104199,
+          "train_brier": 0.09937839443150652,
+          "validation_brier": 0.11898927292347672,
+          "mean_probability": 0.6700818717479706,
+          "seconds": 2.1475774811115116
+        },
+        {
+          "epoch": 8,
+          "optimization_loss": 0.3082196032416753,
+          "train_loss": 0.34925030592321527,
+          "validation_loss": 0.3910534901859414,
+          "train_brier": 0.09192767563731184,
+          "validation_brier": 0.1101395855771738,
+          "mean_probability": 0.6837385833263397,
+          "seconds": 1.7906583431176841
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "epoch": 1,
+          "loss": 0.6732693240046501,
+          "gradient_norm": 3.2813985347747803
+        },
+        {
+          "step": 2,
+          "epoch": 1,
+          "loss": 0.6694216057658195,
+          "gradient_norm": 2.0729856491088867
+        },
+        {
+          "step": 3,
+          "epoch": 1,
+          "loss": 0.5823125839233398,
+          "gradient_norm": 4.108492374420166
+        },
+        {
+          "step": 4,
+          "epoch": 1,
+          "loss": 0.5862990247551352,
+          "gradient_norm": 5.533555030822754
+        },
+        {
+          "step": 5,
+          "epoch": 1,
+          "loss": 0.6078385822474957,
+          "gradient_norm": 3.5833523273468018
+        },
+        {
+          "step": 6,
+          "epoch": 1,
+          "loss": 0.648544579744339,
+          "gradient_norm": 3.2850236892700195
+        },
+        {
+          "step": 7,
+          "epoch": 1,
+          "loss": 0.5964553346857429,
+          "gradient_norm": 5.551778316497803
+        },
+        {
+          "step": 8,
+          "epoch": 1,
+          "loss": 0.5990360379219055,
+          "gradient_norm": 8.788676261901855
+        },
+        {
+          "step": 9,
+          "epoch": 1,
+          "loss": 0.6099039511755109,
+          "gradient_norm": 1.74835205078125
+        },
+        {
+          "step": 10,
+          "epoch": 1,
+          "loss": 0.6008099932223558,
+          "gradient_norm": 2.4424691200256348
+        },
+        {
+          "step": 11,
+          "epoch": 1,
+          "loss": 0.5083512514829636,
+          "gradient_norm": 4.985516548156738
+        },
+        {
+          "step": 12,
+          "epoch": 2,
+          "loss": 0.4704919457435608,
+          "gradient_norm": 5.586392879486084
+        },
+        {
+          "step": 13,
+          "epoch": 2,
+          "loss": 0.5827706549316645,
+          "gradient_norm": 1.6854183673858643
+        },
+        {
+          "step": 14,
+          "epoch": 2,
+          "loss": 0.4838760793209076,
+          "gradient_norm": 3.242319107055664
+        },
+        {
+          "step": 15,
+          "epoch": 2,
+          "loss": 0.48444165103137493,
+          "gradient_norm": 4.685825347900391
+        },
+        {
+          "step": 16,
+          "epoch": 2,
+          "loss": 0.45991796627640724,
+          "gradient_norm": 2.8316962718963623
+        },
+        {
+          "step": 17,
+          "epoch": 2,
+          "loss": 0.5462272465229034,
+          "gradient_norm": 2.2229244709014893
+        },
+        {
+          "step": 18,
+          "epoch": 2,
+          "loss": 0.519895076751709,
+          "gradient_norm": 2.238842725753784
+        },
+        {
+          "step": 19,
+          "epoch": 2,
+          "loss": 0.39861567388288677,
+          "gradient_norm": 3.830563545227051
+        },
+        {
+          "step": 20,
+          "epoch": 2,
+          "loss": 0.5568171995691955,
+          "gradient_norm": 1.5679937601089478
+        },
+        {
+          "step": 21,
+          "epoch": 2,
+          "loss": 0.5245876908302307,
+          "gradient_norm": 2.501786947250366
+        },
+        {
+          "step": 22,
+          "epoch": 2,
+          "loss": 0.42817296367138624,
+          "gradient_norm": 3.8821780681610107
+        },
+        {
+          "step": 23,
+          "epoch": 3,
+          "loss": 0.4023757539689541,
+          "gradient_norm": 2.338542938232422
+        },
+        {
+          "step": 24,
+          "epoch": 3,
+          "loss": 0.518671091645956,
+          "gradient_norm": 2.274286985397339
+        },
+        {
+          "step": 25,
+          "epoch": 3,
+          "loss": 0.40893565956503153,
+          "gradient_norm": 3.7181506156921387
+        },
+        {
+          "step": 26,
+          "epoch": 3,
+          "loss": 0.5344859105534852,
+          "gradient_norm": 1.4901231527328491
+        },
+        {
+          "step": 27,
+          "epoch": 3,
+          "loss": 0.42792192101478577,
+          "gradient_norm": 2.8096067905426025
+        },
+        {
+          "step": 28,
+          "epoch": 3,
+          "loss": 0.31986257433891296,
+          "gradient_norm": 3.9493279457092285
+        },
+        {
+          "step": 29,
+          "epoch": 3,
+          "loss": 0.492444584146142,
+          "gradient_norm": 2.107259511947632
+        },
+        {
+          "step": 30,
+          "epoch": 3,
+          "loss": 0.5202561225742102,
+          "gradient_norm": 1.504532814025879
+        },
+        {
+          "step": 31,
+          "epoch": 3,
+          "loss": 0.472903236746788,
+          "gradient_norm": 2.401297092437744
+        },
+        {
+          "step": 32,
+          "epoch": 3,
+          "loss": 0.3157480335794389,
+          "gradient_norm": 3.12286114692688
+        },
+        {
+          "step": 33,
+          "epoch": 3,
+          "loss": 0.38227367028594017,
+          "gradient_norm": 3.6008663177490234
+        },
+        {
+          "step": 34,
+          "epoch": 4,
+          "loss": 0.3517137113958597,
+          "gradient_norm": 3.3769631385803223
+        },
+        {
+          "step": 35,
+          "epoch": 4,
+          "loss": 0.47158639319241047,
+          "gradient_norm": 1.9918830394744873
+        },
+        {
+          "step": 36,
+          "epoch": 4,
+          "loss": 0.47171023674309254,
+          "gradient_norm": 1.9313000440597534
+        },
+        {
+          "step": 37,
+          "epoch": 4,
+          "loss": 0.34896553261205554,
+          "gradient_norm": 3.260859251022339
+        },
+        {
+          "step": 38,
+          "epoch": 4,
+          "loss": 0.501728662289679,
+          "gradient_norm": 1.3783239126205444
+        },
+        {
+          "step": 39,
+          "epoch": 4,
+          "loss": 0.2967399872140959,
+          "gradient_norm": 2.998488664627075
+        },
+        {
+          "step": 40,
+          "epoch": 4,
+          "loss": 0.49455060064792633,
+          "gradient_norm": 2.402127742767334
+        },
+        {
+          "step": 41,
+          "epoch": 4,
+          "loss": 0.4899414889514446,
+          "gradient_norm": 1.3732781410217285
+        },
+        {
+          "step": 42,
+          "epoch": 4,
+          "loss": 0.4126298427581787,
+          "gradient_norm": 3.279073476791382
+        },
+        {
+          "step": 43,
+          "epoch": 4,
+          "loss": 0.3094903230667114,
+          "gradient_norm": 3.6831624507904053
+        },
+        {
+          "step": 44,
+          "epoch": 4,
+          "loss": 0.32717893458902836,
+          "gradient_norm": 1.8824862241744995
+        },
+        {
+          "step": 45,
+          "epoch": 5,
+          "loss": 0.38825973868370056,
+          "gradient_norm": 2.376254081726074
+        },
+        {
+          "step": 46,
+          "epoch": 5,
+          "loss": 0.434416264295578,
+          "gradient_norm": 2.065662384033203
+        },
+        {
+          "step": 47,
+          "epoch": 5,
+          "loss": 0.43813388608396053,
+          "gradient_norm": 1.8152272701263428
+        },
+        {
+          "step": 48,
+          "epoch": 5,
+          "loss": 0.45008079148828983,
+          "gradient_norm": 1.9418632984161377
+        },
+        {
+          "step": 49,
+          "epoch": 5,
+          "loss": 0.26138615189120173,
+          "gradient_norm": 2.668569564819336
+        },
+        {
+          "step": 50,
+          "epoch": 5,
+          "loss": 0.469629080966115,
+          "gradient_norm": 1.4020763635635376
+        },
+        {
+          "step": 51,
+          "epoch": 5,
+          "loss": 0.31365934992209077,
+          "gradient_norm": 3.088068723678589
+        },
+        {
+          "step": 52,
+          "epoch": 5,
+          "loss": 0.4771110685542226,
+          "gradient_norm": 1.4059711694717407
+        },
+        {
+          "step": 53,
+          "epoch": 5,
+          "loss": 0.2368263155221939,
+          "gradient_norm": 3.2056756019592285
+        },
+        {
+          "step": 54,
+          "epoch": 5,
+          "loss": 0.3070876616984606,
+          "gradient_norm": 3.066359281539917
+        },
+        {
+          "step": 55,
+          "epoch": 5,
+          "loss": 0.3032136410474777,
+          "gradient_norm": 1.7512074708938599
+        },
+        {
+          "step": 56,
+          "epoch": 6,
+          "loss": 0.3524201214313507,
+          "gradient_norm": 2.290205240249634
+        },
+        {
+          "step": 57,
+          "epoch": 6,
+          "loss": 0.29472030885517597,
+          "gradient_norm": 2.9157755374908447
+        },
+        {
+          "step": 58,
+          "epoch": 6,
+          "loss": 0.4272870570421219,
+          "gradient_norm": 1.8116987943649292
+        },
+        {
+          "step": 59,
+          "epoch": 6,
+          "loss": 0.4154633190482855,
+          "gradient_norm": 1.7440677881240845
+        },
+        {
+          "step": 60,
+          "epoch": 6,
+          "loss": 0.3974177688360214,
+          "gradient_norm": 1.9552371501922607
+        },
+        {
+          "step": 61,
+          "epoch": 6,
+          "loss": 0.4608300873078406,
+          "gradient_norm": 1.3549476861953735
+        },
+        {
+          "step": 62,
+          "epoch": 6,
+          "loss": 0.2745114304125309,
+          "gradient_norm": 2.7995553016662598
+        },
+        {
+          "step": 63,
+          "epoch": 6,
+          "loss": 0.44452711194753647,
+          "gradient_norm": 1.2882791757583618
+        },
+        {
+          "step": 64,
+          "epoch": 6,
+          "loss": 0.28390881791710854,
+          "gradient_norm": 1.6616935729980469
+        },
+        {
+          "step": 65,
+          "epoch": 6,
+          "loss": 0.22701425850391388,
+          "gradient_norm": 2.6488566398620605
+        },
+        {
+          "step": 66,
+          "epoch": 6,
+          "loss": 0.23074890114367008,
+          "gradient_norm": 2.464831590652466
+        },
+        {
+          "step": 67,
+          "epoch": 7,
+          "loss": 0.44547589030116796,
+          "gradient_norm": 1.2765640020370483
+        },
+        {
+          "step": 68,
+          "epoch": 7,
+          "loss": 0.4082097392529249,
+          "gradient_norm": 1.7111543416976929
+        },
+        {
+          "step": 69,
+          "epoch": 7,
+          "loss": 0.22278070449829102,
+          "gradient_norm": 2.341657876968384
+        },
+        {
+          "step": 70,
+          "epoch": 7,
+          "loss": 0.26096788444556296,
+          "gradient_norm": 2.5695652961730957
+        },
+        {
+          "step": 71,
+          "epoch": 7,
+          "loss": 0.3458308279514313,
+          "gradient_norm": 2.182610034942627
+        },
+        {
+          "step": 72,
+          "epoch": 7,
+          "loss": 0.26300194300711155,
+          "gradient_norm": 1.5620845556259155
+        },
+        {
+          "step": 73,
+          "epoch": 7,
+          "loss": 0.24552368372678757,
+          "gradient_norm": 2.532182455062866
+        },
+        {
+          "step": 74,
+          "epoch": 7,
+          "loss": 0.1891905963420868,
+          "gradient_norm": 2.367244005203247
+        },
+        {
+          "step": 75,
+          "epoch": 7,
+          "loss": 0.3804969787597656,
+          "gradient_norm": 1.929722785949707
+        },
+        {
+          "step": 76,
+          "epoch": 7,
+          "loss": 0.38782925717532635,
+          "gradient_norm": 1.6755872964859009
+        },
+        {
+          "step": 77,
+          "epoch": 7,
+          "loss": 0.4265123028308153,
+          "gradient_norm": 1.3047726154327393
+        },
+        {
+          "step": 78,
+          "epoch": 8,
+          "loss": 0.4292952297255397,
+          "gradient_norm": 1.3050968647003174
+        },
+        {
+          "step": 79,
+          "epoch": 8,
+          "loss": 0.38511649891734123,
+          "gradient_norm": 1.6568503379821777
+        },
+        {
+          "step": 80,
+          "epoch": 8,
+          "loss": 0.23562210332602262,
+          "gradient_norm": 2.4113688468933105
+        },
+        {
+          "step": 81,
+          "epoch": 8,
+          "loss": 0.37753260135650635,
+          "gradient_norm": 1.8497852087020874
+        },
+        {
+          "step": 82,
+          "epoch": 8,
+          "loss": 0.19498703652061522,
+          "gradient_norm": 2.101379871368408
+        },
+        {
+          "step": 83,
+          "epoch": 8,
+          "loss": 0.2529542073607445,
+          "gradient_norm": 1.5530998706817627
+        },
+        {
+          "step": 84,
+          "epoch": 8,
+          "loss": 0.2316550719551742,
+          "gradient_norm": 2.347564220428467
+        },
+        {
+          "step": 85,
+          "epoch": 8,
+          "loss": 0.3263522684574127,
+          "gradient_norm": 2.030486583709717
+        },
+        {
+          "step": 86,
+          "epoch": 8,
+          "loss": 0.3666253788396716,
+          "gradient_norm": 1.6175836324691772
+        },
+        {
+          "step": 87,
+          "epoch": 8,
+          "loss": 0.180422842502594,
+          "gradient_norm": 2.1495609283447266
+        },
+        {
+          "step": 88,
+          "epoch": 8,
+          "loss": 0.40985239669680595,
+          "gradient_norm": 1.247634768486023
+        }
+      ],
+      "chunks": 642,
+      "best_epoch": 8,
+      "metrics": {
+        "train": {
+          "known_items": 44,
+          "positive_items": 44,
+          "negative_items": 0,
+          "log_loss": 0.34925030592321527,
+          "brier": 0.09192767563731184,
+          "mean_probability": 0.7114642695947127,
+          "auc": null,
+          "auc_reason": "Single-class or tiny diagnostic cohort; discrimination is not established.",
+          "papers": [
+            {
+              "id": "https://openalex.org/W2292065295",
+              "title": "Eccentric-orbit extreme-mass-ratio inspiral gravitational wave energy fluxes to 7PN order",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5559847354888916,
+                0.5492969751358032,
+                null,
+                0.6746179461479187,
+                null,
+                0.7345519065856934,
+                null,
+                null,
+                0.5918760895729065,
+                0.6438993811607361,
+                0.6728272438049316,
+                null,
+                null,
+                0.7960341572761536,
+                0.6736512780189514,
+                0.5577684640884399,
+                0.838610053062439,
+                null
+              ],
+              "known_labels": {
+                "central_claim_retained": "yes",
+                "independent_extension": "yes",
+                "method_reused": "yes",
+                "external_utility": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "multiple_followup_years": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2502906121",
+              "title": "C-type natriuretic peptide and natriuretic peptide receptor B signalling inhibits cardiac sympathetic neurotransmission and autonomic function",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5610954165458679,
+                0.5575705170631409,
+                null,
+                0.6774969100952148,
+                null,
+                0.7291976809501648,
+                null,
+                null,
+                0.5845273733139038,
+                0.629700243473053,
+                0.68962162733078,
+                null,
+                null,
+                0.7992097735404968,
+                0.6751477122306824,
+                0.5476126670837402,
+                0.8320673108100891,
+                null
+              ],
+              "known_labels": {
+                "central_claim_retained": "yes",
+                "independent_extension": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2565221079",
+              "title": "Elucidation of the genetic and epigenetic landscape alterations in RNA binding proteins in glioblastoma",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5633087158203125,
+                0.5389825105667114,
+                null,
+                0.6915028095245361,
+                null,
+                0.7138499617576599,
+                null,
+                null,
+                0.5657439827919006,
+                0.6069940328598022,
+                0.7199994325637817,
+                null,
+                null,
+                0.802142322063446,
+                0.667742133140564,
+                0.5452550053596497,
+                0.8205511569976807,
+                null
+              ],
+              "known_labels": {
+                "independent_extension": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2604283208",
+              "title": "DGCR8 Mediates Repair of UV-Induced DNA Damage Independently of RNA Processing",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5696728229522705,
+                0.5579077005386353,
+                null,
+                0.6739615797996521,
+                null,
+                0.7300147414207458,
+                null,
+                null,
+                0.5981757640838623,
+                0.6372699737548828,
+                0.6928547620773315,
+                null,
+                null,
+                0.7986734509468079,
+                0.67093425989151,
+                0.5466779470443726,
+                0.8281766772270203,
+                null
+              ],
+              "known_labels": {
+                "stronger_test": "yes",
+                "central_claim_retained": "yes",
+                "independent_extension": "yes",
+                "method_reused": "yes",
+                "external_utility": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2734792158",
+              "title": "Using magnetic structure of Co40Pd60/Cu for the sensing of hydrogen",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5537930727005005,
+                0.5453178882598877,
+                null,
+                0.6819329261779785,
+                null,
+                0.7297080755233765,
+                null,
+                null,
+                0.5910655856132507,
+                0.637603759765625,
+                0.6762397289276123,
+                null,
+                null,
+                0.788317084312439,
+                0.6610954403877258,
+                0.5343374609947205,
+                0.8472684025764465,
+                null
+              ],
+              "known_labels": {
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2763496525",
+              "title": "Silent Adrenal Pheochromocytoma Coexistent with Corticomedullary Hyperplasia: A Case Incidentally Discovered",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5585996508598328,
+                0.5497791171073914,
+                null,
+                0.6842442750930786,
+                null,
+                0.7409382462501526,
+                null,
+                null,
+                0.5776920318603516,
+                0.63010573387146,
+                0.6777150630950928,
+                null,
+                null,
+                0.8017534613609314,
+                0.6652509570121765,
+                0.5469975471496582,
+                0.8364965915679932,
+                null
+              ],
+              "known_labels": {
+                "method_reused": "yes",
+                "late_use": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2808922852",
+              "title": "Risk of Foot Ulcer and Lower Extremity Amputation among Participants in the Diabetes Control and Complications Trial/Epidemiology of Diabetes Interventions and Complications Study (DCCT/EDIC)",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5612006783485413,
+                0.5746740698814392,
+                null,
+                0.6433876156806946,
+                null,
+                0.717927098274231,
+                null,
+                null,
+                0.5886241793632507,
+                0.6340780854225159,
+                0.6772952675819397,
+                null,
+                null,
+                0.8027247786521912,
+                0.6776025295257568,
+                0.5496188402175903,
+                0.8245086669921875,
+                null
+              ],
+              "known_labels": {
+                "central_claim_retained": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2883944593",
+              "title": "Opportunity makes opinion leaders: analyzing the role of first-hand information in opinion leadership in social media networks",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5711103677749634,
+                0.5415939092636108,
+                null,
+                0.645180344581604,
+                null,
+                0.7160465121269226,
+                null,
+                null,
+                0.6232685446739197,
+                0.6631811857223511,
+                0.6805249452590942,
+                null,
+                null,
+                0.8071819543838501,
+                0.6634125709533691,
+                0.5384859442710876,
+                0.8175868391990662,
+                null
+              ],
+              "known_labels": {
+                "method_reused": "yes",
+                "external_utility": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W3007451419",
+              "title": "Inference for cumulative intraday return curves",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5514498949050903,
+                0.5426254868507385,
+                null,
+                0.6697853803634644,
+                null,
+                0.7293675541877747,
+                null,
+                null,
+                0.5846994519233704,
+                0.6460050940513611,
+                0.6675159335136414,
+                null,
+                null,
+                0.7982578873634338,
+                0.6684972643852234,
+                0.5486317276954651,
+                0.8394129872322083,
+                null
+              ],
+              "known_labels": {
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W4247974275",
+              "title": "Belgium",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5636419057846069,
+                0.537593424320221,
+                null,
+                0.6634424924850464,
+                null,
+                0.7124806642532349,
+                null,
+                null,
+                0.5829201936721802,
+                0.6387108564376831,
+                0.6843605637550354,
+                null,
+                null,
+                0.8099400401115417,
+                0.6692670583724976,
+                0.5482937097549438,
+                0.8255110383033752,
+                null
+              ],
+              "known_labels": {
+                "late_use": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W4412375198",
+              "title": "Israel\u2019s Nuclear Posture: Intellectual Antecedents and Doctrinal Foundations",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5565263628959656,
+                0.5340237617492676,
+                null,
+                0.6587013602256775,
+                null,
+                0.7121431231498718,
+                null,
+                null,
+                0.5989592671394348,
+                0.6446858048439026,
+                0.6836037635803223,
+                null,
+                null,
+                0.8129929304122925,
+                0.6666352152824402,
+                0.543991208076477,
+                0.8208733201026917,
+                null
+              ],
+              "known_labels": {
+                "late_use": "yes"
+              }
+            }
+          ]
+        },
+        "validation": {
+          "known_items": 10,
+          "positive_items": 10,
+          "negative_items": 0,
+          "log_loss": 0.3910534901859414,
+          "brier": 0.1101395855771738,
+          "mean_probability": 0.6837385833263397,
+          "auc": null,
+          "auc_reason": "Single-class or tiny diagnostic cohort; discrimination is not established.",
+          "papers": [
+            {
+              "id": "https://openalex.org/W2922482404",
+              "title": "Anonymous Auction Protocol Based on Time-Released Encryption Atop Consortium BlockChain",
+              "split": "validation",
+              "probabilities": [
+                null,
+                null,
+                0.5576827526092529,
+                0.5434167981147766,
+                null,
+                0.655842125415802,
+                null,
+                0.7245946526527405,
+                null,
+                null,
+                0.600970983505249,
+                0.6516948342323303,
+                0.6739057898521423,
+                null,
+                null,
+                0.8033828735351562,
+                0.6709898710250854,
+                0.5525598526000977,
+                0.8318833708763123,
+                null
+              ],
+              "known_labels": {
+                "independent_comparison": "yes",
+                "late_use": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2956519671",
+              "title": "Cherenkov Radiation in the Visible and Ultraviolet Spectral Ranges from 6-MeV Electrons Passing through a Quartz Plate",
+              "split": "validation",
+              "probabilities": [
+                null,
+                null,
+                0.5834336876869202,
+                0.5327469110488892,
+                null,
+                0.6754440665245056,
+                null,
+                0.712463915348053,
+                null,
+                null,
+                0.5683451294898987,
+                0.5985724329948425,
+                0.6514483690261841,
+                null,
+                null,
+                0.7598645091056824,
+                0.6520370841026306,
+                0.5442607998847961,
+                0.8253997564315796,
+                null
+              ],
+              "known_labels": {
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2982984920",
+              "title": "Quantitative Analysis of Bioactive Phenanthrenes in Dioscorea batatas Decne Peel, a Discarded Biomass from Postharvest Processing",
+              "split": "validation",
+              "probabilities": [
+                null,
+                null,
+                0.5634904503822327,
+                0.5490826964378357,
+                null,
+                0.683305025100708,
+                null,
+                0.7440478801727295,
+                null,
+                null,
+                0.5751003623008728,
+                0.634711742401123,
+                0.6735657453536987,
+                null,
+                null,
+                0.7965551018714905,
+                0.6670410633087158,
+                0.5491409301757812,
+                0.8368780612945557,
+                null
+              ],
+              "known_labels": {
+                "central_claim_retained": "yes",
+                "method_reused": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes",
+                "multiple_followup_years": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            }
+          ]
+        },
+        "calibration": {
+          "known_items": 8,
+          "positive_items": 8,
+          "negative_items": 0,
+          "log_loss": 0.3413099690700997,
+          "brier": 0.08873348872702636,
+          "mean_probability": 0.7172745168209076,
+          "auc": null,
+          "auc_reason": "Single-class or tiny diagnostic cohort; discrimination is not established.",
+          "papers": [
+            {
+              "id": "https://openalex.org/W2753756358",
+              "title": "Depression and associated factors among parents of children diagnosed with cancer at Tikur Anbessa Specialized Hospital, Addis Ababa, Ethiopia",
+              "split": "calibration",
+              "probabilities": [
+                null,
+                null,
+                0.5641727447509766,
+                0.5495900511741638,
+                null,
+                0.6649627685546875,
+                null,
+                0.7264759540557861,
+                null,
+                null,
+                0.601762592792511,
+                0.6525757312774658,
+                0.6820226907730103,
+                null,
+                null,
+                0.8088905215263367,
+                0.6661391854286194,
+                0.5412580370903015,
+                0.8279498219490051,
+                null
+              ],
+              "known_labels": {
+                "multiple_groups": "yes",
+                "method_reused": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes",
+                "multiple_followup_years": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W3081066862",
+              "title": "Role of Federal Government in Managing Conflicts: Somalia",
+              "split": "calibration",
+              "probabilities": [
+                null,
+                null,
+                0.5703080296516418,
+                0.5363101959228516,
+                null,
+                0.6657792329788208,
+                null,
+                0.7179147601127625,
+                null,
+                null,
+                0.6051523685455322,
+                0.6541557312011719,
+                0.6843295693397522,
+                null,
+                null,
+                0.8061220645904541,
+                0.6661409735679626,
+                0.5472080707550049,
+                0.8244754076004028,
+                null
+              ],
+              "known_labels": {
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W3164529735",
+              "title": "Rule-Based Dialog Management for Voice Assistents in Automotive Environments",
+              "split": "calibration",
+              "probabilities": [
+                null,
+                null,
+                0.5596741437911987,
+                0.5447019934654236,
+                null,
+                0.6709901690483093,
+                null,
+                0.7312483191490173,
+                null,
+                null,
+                0.5962289571762085,
+                0.6539568305015564,
+                0.6731668710708618,
+                null,
+                null,
+                0.797827422618866,
+                0.6721944808959961,
+                0.5524500608444214,
+                0.8366684913635254,
+                null
+              ],
+              "known_labels": {
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes"
+              }
+            }
+          ]
+        },
+        "test": {
+          "known_items": 3,
+          "positive_items": 3,
+          "negative_items": 0,
+          "log_loss": 0.3199660811489513,
+          "brier": 0.0783453308246062,
+          "mean_probability": 0.7296276092529297,
+          "auc": null,
+          "auc_reason": "Single-class or tiny diagnostic cohort; discrimination is not established.",
+          "papers": [
+            {
+              "id": "https://openalex.org/W3120767723",
+              "title": "Inference of Intercellular Communications and Multilayer Gene-Regulations of Epithelial\u2013Mesenchymal Transition From Single-Cell Transcriptomic Data",
+              "split": "test",
+              "probabilities": [
+                null,
+                null,
+                0.566959798336029,
+                0.5484216213226318,
+                null,
+                0.6789842844009399,
+                null,
+                0.7415739297866821,
+                null,
+                null,
+                0.5815892815589905,
+                0.6381059288978577,
+                0.6752259135246277,
+                null,
+                null,
+                0.7967575788497925,
+                0.6675936579704285,
+                0.5518656969070435,
+                0.8353386521339417,
+                null
+              ],
+              "known_labels": {
+                "late_positive_assessment": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W3158745291",
+              "title": "Automotive Vulnerability Disclosure: Stakeholders, Opportunities, Challenges",
+              "split": "test",
+              "probabilities": [
+                null,
+                null,
+                0.5633221864700317,
+                0.5381197333335876,
+                null,
+                0.6689963936805725,
+                null,
+                0.720820963382721,
+                null,
+                null,
+                0.5989941954612732,
+                0.6468867063522339,
+                0.6900755167007446,
+                null,
+                null,
+                0.8082796931266785,
+                0.6676852703094482,
+                0.544284462928772,
+                0.8276234865188599,
+                null
+              ],
+              "known_labels": {
+                "enabled_new_result": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W4287324271",
+              "title": "territorial community as a subject of strategic planning of territorial development",
+              "split": "test",
+              "probabilities": [
+                null,
+                null,
+                0.5776017904281616,
+                0.5495111346244812,
+                null,
+                0.6779597401618958,
+                null,
+                0.7287036776542664,
+                null,
+                null,
+                0.5670418739318848,
+                0.614968478679657,
+                0.6721569895744324,
+                null,
+                null,
+                0.7798197269439697,
+                0.6576886177062988,
+                0.5456697940826416,
+                0.831213653087616,
+                null
+              ],
+              "known_labels": {
+                "synthesis_inclusion": "yes"
+              }
+            }
+          ]
+        },
+        "challenge": {
+          "known_items": 33,
+          "positive_items": 29,
+          "negative_items": 4,
+          "log_loss": 0.46323423083629806,
+          "brier": 0.14257250081106104,
+          "mean_probability": 0.6514490878943241,
+          "auc": null,
+          "auc_reason": "Single-class or tiny diagnostic cohort; discrimination is not established.",
+          "papers": [
+            {
+              "id": "challenge-attention",
+              "title": "Attention Is All You Need",
+              "split": "challenge",
+              "probabilities": [
+                null,
+                null,
+                0.5633584260940552,
+                0.5391251444816589,
+                null,
+                0.6721820831298828,
+                null,
+                0.7281892895698547,
+                null,
+                null,
+                0.592650294303894,
+                0.6530320644378662,
+                0.6817989945411682,
+                null,
+                null,
+                0.8034111857414246,
+                0.6763502359390259,
+                0.5533753633499146,
+                0.8339038491249084,
+                null
+              ],
+              "known_labels": {
+                "claim_supported": "yes",
+                "independent_reproduction": "yes",
+                "stronger_test": "yes",
+                "central_claim_retained": "yes",
+                "independent_extension": "yes",
+                "multiple_groups": "yes",
+                "method_reused": "yes",
+                "new_research_direction": "yes",
+                "independent_comparison": "yes",
+                "external_utility": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "operational_adoption": "yes",
+                "advantage_retained": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "multiple_followup_years": "yes",
+                "synthesis_inclusion": "yes",
+                "continued_relevance": "yes"
+              }
+            },
+            {
+              "id": "challenge-bert",
+              "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+              "split": "challenge",
+              "probabilities": [
+                null,
+                null,
+                0.561362624168396,
+                0.5412733554840088,
+                null,
+                0.6703730225563049,
+                null,
+                0.730564296245575,
+                null,
+                null,
+                0.5941084623336792,
+                0.6519361138343811,
+                0.6787858605384827,
+                null,
+                null,
+                0.8035655617713928,
+                0.6722105145454407,
+                0.5511861443519592,
+                0.8355571031570435,
+                null
+              ],
+              "known_labels": {
+                "claim_supported": "yes",
+                "independent_reproduction": "yes",
+                "stronger_test": "yes",
+                "central_claim_retained": "yes",
+                "independent_extension": "yes",
+                "multiple_groups": "yes",
+                "method_reused": "yes",
+                "new_research_direction": "yes",
+                "independent_comparison": "yes",
+                "external_utility": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "operational_adoption": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "multiple_followup_years": "yes",
+                "synthesis_inclusion": "yes",
+                "continued_relevance": "yes"
+              }
+            },
+            {
+              "id": "challenge-debt",
+              "title": "Growth in a Time of Debt",
+              "split": "challenge",
+              "probabilities": [
+                null,
+                null,
+                0.5654361844062805,
+                0.533788800239563,
+                null,
+                0.666916012763977,
+                null,
+                0.7128180265426636,
+                null,
+                null,
+                0.5878270268440247,
+                0.6485902070999146,
+                0.6852219700813293,
+                null,
+                null,
+                0.8122153282165527,
+                0.6698989272117615,
+                0.5483633279800415,
+                0.8268850445747375,
+                null
+              ],
+              "known_labels": {
+                "claim_supported": "yes",
+                "independent_reproduction": "no",
+                "stronger_test": "no",
+                "central_claim_retained": "no",
+                "independent_extension": "yes",
+                "multiple_groups": "yes",
+                "method_reused": "yes",
+                "independent_comparison": "yes",
+                "late_use": "yes",
+                "multiple_followup_years": "yes"
+              }
+            },
+            {
+              "id": "challenge-superconductor",
+              "title": "Room-temperature superconductivity in a carbonaceous sulfur hydride",
+              "split": "challenge",
+              "probabilities": [
+                null,
+                null,
+                0.5616099834442139,
+                0.539539098739624,
+                null,
+                0.6859625577926636,
+                null,
+                0.7286683917045593,
+                null,
+                null,
+                0.5814810395240784,
+                0.6360649466514587,
+                0.6899527311325073,
+                null,
+                null,
+                0.8022924661636353,
+                0.675940990447998,
+                0.5542021989822388,
+                0.8360314965248108,
+                null
+              ],
+              "known_labels": {
+                "independent_reproduction": "no",
+                "stronger_test": "no",
+                "central_claim_retained": "no",
+                "independent_extension": "yes",
+                "multiple_groups": "yes",
+                "method_reused": "yes",
+                "new_research_direction": "yes",
+                "independent_comparison": "yes",
+                "advantage_retained": "no",
+                "multiple_followup_years": "yes"
+              }
+            }
+          ]
+        }
+      },
+      "checkpoint_sha256": "ee43b3737e5007f0b1dc4b76eabb1284facba277c833fe095b2dc081a16303ab",
+      "constant_positive_baseline": {
+        "train": {
+          "log_loss": 1.0000000494736474e-07,
+          "brier": 0.0,
+          "note": "Train-only empirical positive prevalence is 1; available heads only."
+        },
+        "validation": {
+          "log_loss": 1.0000000494736472e-07,
+          "brier": 0.0,
+          "note": "Train-only empirical positive prevalence is 1; available heads only."
+        },
+        "calibration": {
+          "log_loss": 1.0000000494736474e-07,
+          "brier": 0.0,
+          "note": "Train-only empirical positive prevalence is 1; available heads only."
+        },
+        "test": {
+          "log_loss": 1.0000000494736474e-07,
+          "brier": 0.0,
+          "note": "Train-only empirical positive prevalence is 1; available heads only."
+        },
+        "challenge": {
+          "log_loss": 1.9537086516313158,
+          "brier": 0.12121212121212122,
+          "note": "Train-only empirical positive prevalence is 1; available heads only."
+        }
+      }
+    },
+    {
+      "id": "topic",
+      "history": [
+        {
+          "epoch": 1,
+          "optimization_loss": 0.6132941435683857,
+          "train_loss": 0.5704787343004378,
+          "validation_loss": 0.5805209585281629,
+          "train_brier": 0.189523131945418,
+          "validation_brier": 0.1947114098117769,
+          "mean_probability": 0.5629854619503021,
+          "seconds": 0.15970423095859587
+        },
+        {
+          "epoch": 2,
+          "optimization_loss": 0.512034145268527,
+          "train_loss": 0.5083753260581413,
+          "validation_loss": 0.5333126536424004,
+          "train_brier": 0.16035944045608763,
+          "validation_brier": 0.17236895218098072,
+          "mean_probability": 0.5912582546472549,
+          "seconds": 0.15967691503465176
+        },
+        {
+          "epoch": 3,
+          "optimization_loss": 0.44920688799836417,
+          "train_loss": 0.4699346395558935,
+          "validation_loss": 0.4973971400251188,
+          "train_brier": 0.14291713674328121,
+          "validation_brier": 0.1557614602370169,
+          "mean_probability": 0.6132578790187836,
+          "seconds": 0.15227876394055784
+        },
+        {
+          "epoch": 4,
+          "optimization_loss": 0.4174444316463037,
+          "train_loss": 0.44253715272173344,
+          "validation_loss": 0.4711900636589859,
+          "train_brier": 0.13091248606087103,
+          "validation_brier": 0.14398674000955652,
+          "mean_probability": 0.6299306511878967,
+          "seconds": 0.15344311390072107
+        },
+        {
+          "epoch": 5,
+          "optimization_loss": 0.3765637535940517,
+          "train_loss": 0.4189033264252772,
+          "validation_loss": 0.44735468801022016,
+          "train_brier": 0.12049276074139029,
+          "validation_brier": 0.13335516327392796,
+          "mean_probability": 0.6452282667160034,
+          "seconds": 0.13904545200057328
+        },
+        {
+          "epoch": 6,
+          "optimization_loss": 0.3567375296896154,
+          "train_loss": 0.39754074232268705,
+          "validation_loss": 0.43473400720824956,
+          "train_brier": 0.1119317387971654,
+          "validation_brier": 0.12854475656978578,
+          "mean_probability": 0.6545404195785522,
+          "seconds": 0.1685044039040804
+        },
+        {
+          "epoch": 7,
+          "optimization_loss": 0.3342666802081195,
+          "train_loss": 0.37890480778953717,
+          "validation_loss": 0.4208899718861189,
+          "train_brier": 0.10440451349518556,
+          "validation_brier": 0.12292129951784396,
+          "mean_probability": 0.6640955865383148,
+          "seconds": 0.1633128251414746
+        },
+        {
+          "epoch": 8,
+          "optimization_loss": 0.31595406782898033,
+          "train_loss": 0.36110072270699606,
+          "validation_loss": 0.4029999308207574,
+          "train_brier": 0.09710560595890722,
+          "validation_brier": 0.11504935312825033,
+          "mean_probability": 0.6755793035030365,
+          "seconds": 0.17272137803956866
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "epoch": 1,
+          "loss": 0.6816923022270203,
+          "gradient_norm": 3.8920555114746094
+        },
+        {
+          "step": 2,
+          "epoch": 1,
+          "loss": 0.6668121367692947,
+          "gradient_norm": 2.021702766418457
+        },
+        {
+          "step": 3,
+          "epoch": 1,
+          "loss": 0.5733358860015869,
+          "gradient_norm": 3.5636205673217773
+        },
+        {
+          "step": 4,
+          "epoch": 1,
+          "loss": 0.6754423677921295,
+          "gradient_norm": 6.893487453460693
+        },
+        {
+          "step": 5,
+          "epoch": 1,
+          "loss": 0.6632928401231766,
+          "gradient_norm": 4.647156238555908
+        },
+        {
+          "step": 6,
+          "epoch": 1,
+          "loss": 0.6328445672988892,
+          "gradient_norm": 3.773589611053467
+        },
+        {
+          "step": 7,
+          "epoch": 1,
+          "loss": 0.5805159360170364,
+          "gradient_norm": 5.659923076629639
+        },
+        {
+          "step": 8,
+          "epoch": 1,
+          "loss": 0.5344908237457275,
+          "gradient_norm": 7.037768363952637
+        },
+        {
+          "step": 9,
+          "epoch": 1,
+          "loss": 0.6300993263721466,
+          "gradient_norm": 1.8878974914550781
+        },
+        {
+          "step": 10,
+          "epoch": 1,
+          "loss": 0.5957749038934708,
+          "gradient_norm": 2.6356570720672607
+        },
+        {
+          "step": 11,
+          "epoch": 1,
+          "loss": 0.5119344890117645,
+          "gradient_norm": 6.152983665466309
+        },
+        {
+          "step": 12,
+          "epoch": 2,
+          "loss": 0.5603206753730774,
+          "gradient_norm": 6.062498569488525
+        },
+        {
+          "step": 13,
+          "epoch": 2,
+          "loss": 0.5831020623445511,
+          "gradient_norm": 1.6497703790664673
+        },
+        {
+          "step": 14,
+          "epoch": 2,
+          "loss": 0.5242251753807068,
+          "gradient_norm": 3.118971109390259
+        },
+        {
+          "step": 15,
+          "epoch": 2,
+          "loss": 0.4961937367916107,
+          "gradient_norm": 5.126134872436523
+        },
+        {
+          "step": 16,
+          "epoch": 2,
+          "loss": 0.5056198388338089,
+          "gradient_norm": 3.212836980819702
+        },
+        {
+          "step": 17,
+          "epoch": 2,
+          "loss": 0.5530612766742706,
+          "gradient_norm": 2.5810437202453613
+        },
+        {
+          "step": 18,
+          "epoch": 2,
+          "loss": 0.5276833772659302,
+          "gradient_norm": 2.2128190994262695
+        },
+        {
+          "step": 19,
+          "epoch": 2,
+          "loss": 0.4157896339893341,
+          "gradient_norm": 4.277237415313721
+        },
+        {
+          "step": 20,
+          "epoch": 2,
+          "loss": 0.5697508454322815,
+          "gradient_norm": 1.7087135314941406
+        },
+        {
+          "step": 21,
+          "epoch": 2,
+          "loss": 0.5119397044181824,
+          "gradient_norm": 2.856215476989746
+        },
+        {
+          "step": 22,
+          "epoch": 2,
+          "loss": 0.3846892714500427,
+          "gradient_norm": 3.661421060562134
+        },
+        {
+          "step": 23,
+          "epoch": 3,
+          "loss": 0.4305248409509659,
+          "gradient_norm": 2.6557412147521973
+        },
+        {
+          "step": 24,
+          "epoch": 3,
+          "loss": 0.5251881331205368,
+          "gradient_norm": 2.165735960006714
+        },
+        {
+          "step": 25,
+          "epoch": 3,
+          "loss": 0.3830607458949089,
+          "gradient_norm": 3.6683456897735596
+        },
+        {
+          "step": 26,
+          "epoch": 3,
+          "loss": 0.5557814240455627,
+          "gradient_norm": 1.6677560806274414
+        },
+        {
+          "step": 27,
+          "epoch": 3,
+          "loss": 0.43076038360595703,
+          "gradient_norm": 2.576932430267334
+        },
+        {
+          "step": 28,
+          "epoch": 3,
+          "loss": 0.37812814116477966,
+          "gradient_norm": 4.421680450439453
+        },
+        {
+          "step": 29,
+          "epoch": 3,
+          "loss": 0.5079710185527802,
+          "gradient_norm": 2.26619553565979
+        },
+        {
+          "step": 30,
+          "epoch": 3,
+          "loss": 0.5355733335018158,
+          "gradient_norm": 1.4977400302886963
+        },
+        {
+          "step": 31,
+          "epoch": 3,
+          "loss": 0.4737158417701721,
+          "gradient_norm": 2.535656690597534
+        },
+        {
+          "step": 32,
+          "epoch": 3,
+          "loss": 0.3397781550884247,
+          "gradient_norm": 4.408088684082031
+        },
+        {
+          "step": 33,
+          "epoch": 3,
+          "loss": 0.3807937502861023,
+          "gradient_norm": 3.8700361251831055
+        },
+        {
+          "step": 34,
+          "epoch": 4,
+          "loss": 0.38662509620189667,
+          "gradient_norm": 3.795572280883789
+        },
+        {
+          "step": 35,
+          "epoch": 4,
+          "loss": 0.4854784458875656,
+          "gradient_norm": 2.090452194213867
+        },
+        {
+          "step": 36,
+          "epoch": 4,
+          "loss": 0.487490177154541,
+          "gradient_norm": 2.029358386993408
+        },
+        {
+          "step": 37,
+          "epoch": 4,
+          "loss": 0.3191707953810692,
+          "gradient_norm": 3.3160266876220703
+        },
+        {
+          "step": 38,
+          "epoch": 4,
+          "loss": 0.5141639113426208,
+          "gradient_norm": 1.5045101642608643
+        },
+        {
+          "step": 39,
+          "epoch": 4,
+          "loss": 0.344628170132637,
+          "gradient_norm": 3.4701879024505615
+        },
+        {
+          "step": 40,
+          "epoch": 4,
+          "loss": 0.46312329173088074,
+          "gradient_norm": 2.372861862182617
+        },
+        {
+          "step": 41,
+          "epoch": 4,
+          "loss": 0.4983041286468506,
+          "gradient_norm": 1.4899593591690063
+        },
+        {
+          "step": 42,
+          "epoch": 4,
+          "loss": 0.4269091784954071,
+          "gradient_norm": 2.6361501216888428
+        },
+        {
+          "step": 43,
+          "epoch": 4,
+          "loss": 0.30053770542144775,
+          "gradient_norm": 3.507269859313965
+        },
+        {
+          "step": 44,
+          "epoch": 4,
+          "loss": 0.36545784771442413,
+          "gradient_norm": 2.293015956878662
+        },
+        {
+          "step": 45,
+          "epoch": 5,
+          "loss": 0.40220555663108826,
+          "gradient_norm": 2.4662394523620605
+        },
+        {
+          "step": 46,
+          "epoch": 5,
+          "loss": 0.456146240234375,
+          "gradient_norm": 2.3746607303619385
+        },
+        {
+          "step": 47,
+          "epoch": 5,
+          "loss": 0.4654794931411743,
+          "gradient_norm": 2.016061782836914
+        },
+        {
+          "step": 48,
+          "epoch": 5,
+          "loss": 0.4511714428663254,
+          "gradient_norm": 2.014456033706665
+        },
+        {
+          "step": 49,
+          "epoch": 5,
+          "loss": 0.24439836293458939,
+          "gradient_norm": 2.645440101623535
+        },
+        {
+          "step": 50,
+          "epoch": 5,
+          "loss": 0.4874495193362236,
+          "gradient_norm": 1.4786601066589355
+        },
+        {
+          "step": 51,
+          "epoch": 5,
+          "loss": 0.28897661715745926,
+          "gradient_norm": 3.001159906387329
+        },
+        {
+          "step": 52,
+          "epoch": 5,
+          "loss": 0.4706956744194031,
+          "gradient_norm": 1.3997172117233276
+        },
+        {
+          "step": 53,
+          "epoch": 5,
+          "loss": 0.26314494013786316,
+          "gradient_norm": 3.0957539081573486
+        },
+        {
+          "step": 54,
+          "epoch": 5,
+          "loss": 0.3013737201690674,
+          "gradient_norm": 3.120694637298584
+        },
+        {
+          "step": 55,
+          "epoch": 5,
+          "loss": 0.31115972250699997,
+          "gradient_norm": 1.9342224597930908
+        },
+        {
+          "step": 56,
+          "epoch": 6,
+          "loss": 0.39007648825645447,
+          "gradient_norm": 2.374584197998047
+        },
+        {
+          "step": 57,
+          "epoch": 6,
+          "loss": 0.26482515782117844,
+          "gradient_norm": 2.793671131134033
+        },
+        {
+          "step": 58,
+          "epoch": 6,
+          "loss": 0.4432220011949539,
+          "gradient_norm": 1.9303759336471558
+        },
+        {
+          "step": 59,
+          "epoch": 6,
+          "loss": 0.42572401463985443,
+          "gradient_norm": 2.18281626701355
+        },
+        {
+          "step": 60,
+          "epoch": 6,
+          "loss": 0.40495046973228455,
+          "gradient_norm": 2.137881278991699
+        },
+        {
+          "step": 61,
+          "epoch": 6,
+          "loss": 0.47502128779888153,
+          "gradient_norm": 1.4104691743850708
+        },
+        {
+          "step": 62,
+          "epoch": 6,
+          "loss": 0.28500719368457794,
+          "gradient_norm": 2.978283643722534
+        },
+        {
+          "step": 63,
+          "epoch": 6,
+          "loss": 0.4640313610434532,
+          "gradient_norm": 1.4700294733047485
+        },
+        {
+          "step": 64,
+          "epoch": 6,
+          "loss": 0.309042826294899,
+          "gradient_norm": 1.8806803226470947
+        },
+        {
+          "step": 65,
+          "epoch": 6,
+          "loss": 0.21112161874771118,
+          "gradient_norm": 2.550574541091919
+        },
+        {
+          "step": 66,
+          "epoch": 6,
+          "loss": 0.251090407371521,
+          "gradient_norm": 2.7286319732666016
+        },
+        {
+          "step": 67,
+          "epoch": 7,
+          "loss": 0.4600006341934204,
+          "gradient_norm": 1.4292290210723877
+        },
+        {
+          "step": 68,
+          "epoch": 7,
+          "loss": 0.41554276645183563,
+          "gradient_norm": 1.8359627723693848
+        },
+        {
+          "step": 69,
+          "epoch": 7,
+          "loss": 0.22054246068000793,
+          "gradient_norm": 2.4252002239227295
+        },
+        {
+          "step": 70,
+          "epoch": 7,
+          "loss": 0.24731996655464172,
+          "gradient_norm": 2.6066384315490723
+        },
+        {
+          "step": 71,
+          "epoch": 7,
+          "loss": 0.39802291989326477,
+          "gradient_norm": 2.415175676345825
+        },
+        {
+          "step": 72,
+          "epoch": 7,
+          "loss": 0.27015992254018784,
+          "gradient_norm": 1.666114330291748
+        },
+        {
+          "step": 73,
+          "epoch": 7,
+          "loss": 0.2512291669845581,
+          "gradient_norm": 2.669996976852417
+        },
+        {
+          "step": 74,
+          "epoch": 7,
+          "loss": 0.18425704538822174,
+          "gradient_norm": 2.2406208515167236
+        },
+        {
+          "step": 75,
+          "epoch": 7,
+          "loss": 0.38267526030540466,
+          "gradient_norm": 2.0920708179473877
+        },
+        {
+          "step": 76,
+          "epoch": 7,
+          "loss": 0.3999556452035904,
+          "gradient_norm": 1.811409831047058
+        },
+        {
+          "step": 77,
+          "epoch": 7,
+          "loss": 0.44722769409418106,
+          "gradient_norm": 1.3724957704544067
+        },
+        {
+          "step": 78,
+          "epoch": 8,
+          "loss": 0.4430796355009079,
+          "gradient_norm": 1.3889896869659424
+        },
+        {
+          "step": 79,
+          "epoch": 8,
+          "loss": 0.39958906173706055,
+          "gradient_norm": 1.7002027034759521
+        },
+        {
+          "step": 80,
+          "epoch": 8,
+          "loss": 0.24355437606573105,
+          "gradient_norm": 2.633702039718628
+        },
+        {
+          "step": 81,
+          "epoch": 8,
+          "loss": 0.3857840597629547,
+          "gradient_norm": 2.07393479347229
+        },
+        {
+          "step": 82,
+          "epoch": 8,
+          "loss": 0.20469264686107635,
+          "gradient_norm": 2.297132968902588
+        },
+        {
+          "step": 83,
+          "epoch": 8,
+          "loss": 0.25537993013858795,
+          "gradient_norm": 1.6116046905517578
+        },
+        {
+          "step": 84,
+          "epoch": 8,
+          "loss": 0.21684562787413597,
+          "gradient_norm": 2.370976209640503
+        },
+        {
+          "step": 85,
+          "epoch": 8,
+          "loss": 0.34379032254219055,
+          "gradient_norm": 2.1459784507751465
+        },
+        {
+          "step": 86,
+          "epoch": 8,
+          "loss": 0.37646065652370453,
+          "gradient_norm": 1.7265641689300537
+        },
+        {
+          "step": 87,
+          "epoch": 8,
+          "loss": 0.1793975979089737,
+          "gradient_norm": 2.1911816596984863
+        },
+        {
+          "step": 88,
+          "epoch": 8,
+          "loss": 0.4269208312034607,
+          "gradient_norm": 1.3453394174575806
+        }
+      ],
+      "chunks": 55,
+      "best_epoch": 8,
+      "metrics": {
+        "train": {
+          "known_items": 44,
+          "positive_items": 44,
+          "negative_items": 0,
+          "log_loss": 0.36110072270699606,
+          "brier": 0.09710560595890722,
+          "mean_probability": 0.7036555734547701,
+          "auc": null,
+          "auc_reason": "Single-class or tiny diagnostic cohort; discrimination is not established.",
+          "papers": [
+            {
+              "id": "https://openalex.org/W2292065295",
+              "title": "Eccentric-orbit extreme-mass-ratio inspiral gravitational wave energy fluxes to 7PN order",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.561316728591919,
+                0.5605408549308777,
+                null,
+                0.6649433970451355,
+                null,
+                0.7230499386787415,
+                null,
+                null,
+                0.5580564737319946,
+                0.6225568056106567,
+                0.6859222054481506,
+                null,
+                null,
+                0.7842599153518677,
+                0.6723032593727112,
+                0.5535547137260437,
+                0.8315131068229675,
+                null
+              ],
+              "known_labels": {
+                "central_claim_retained": "yes",
+                "independent_extension": "yes",
+                "method_reused": "yes",
+                "external_utility": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "multiple_followup_years": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2502906121",
+              "title": "C-type natriuretic peptide and natriuretic peptide receptor B signalling inhibits cardiac sympathetic neurotransmission and autonomic function",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5717242360115051,
+                0.5553054809570312,
+                null,
+                0.6684591770172119,
+                null,
+                0.7184411883354187,
+                null,
+                null,
+                0.5450058579444885,
+                0.5896578431129456,
+                0.7000758051872253,
+                null,
+                null,
+                0.7898429036140442,
+                0.6711792945861816,
+                0.5444689393043518,
+                0.8315476179122925,
+                null
+              ],
+              "known_labels": {
+                "central_claim_retained": "yes",
+                "independent_extension": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2565221079",
+              "title": "Elucidation of the genetic and epigenetic landscape alterations in RNA binding proteins in glioblastoma",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5651665925979614,
+                0.5502747297286987,
+                null,
+                0.6691017746925354,
+                null,
+                0.703058660030365,
+                null,
+                null,
+                0.548418402671814,
+                0.575391948223114,
+                0.7116992473602295,
+                null,
+                null,
+                0.7933114171028137,
+                0.6637641787528992,
+                0.5376465916633606,
+                0.8193478584289551,
+                null
+              ],
+              "known_labels": {
+                "independent_extension": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2604283208",
+              "title": "DGCR8 Mediates Repair of UV-Induced DNA Damage Independently of RNA Processing",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5754148960113525,
+                0.5581674575805664,
+                null,
+                0.672035276889801,
+                null,
+                0.7185862064361572,
+                null,
+                null,
+                0.5514869093894958,
+                0.5988593697547913,
+                0.6984731554985046,
+                null,
+                null,
+                0.7762352228164673,
+                0.6725957989692688,
+                0.5390059947967529,
+                0.8281828761100769,
+                null
+              ],
+              "known_labels": {
+                "stronger_test": "yes",
+                "central_claim_retained": "yes",
+                "independent_extension": "yes",
+                "method_reused": "yes",
+                "external_utility": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2734792158",
+              "title": "Using magnetic structure of Co40Pd60/Cu for the sensing of hydrogen",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5506922006607056,
+                0.5347567200660706,
+                null,
+                0.6574247479438782,
+                null,
+                0.7103360891342163,
+                null,
+                null,
+                0.5547272562980652,
+                0.6018635630607605,
+                0.6876056790351868,
+                null,
+                null,
+                0.7824895977973938,
+                0.6452730894088745,
+                0.5358777642250061,
+                0.8435714840888977,
+                null
+              ],
+              "known_labels": {
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2763496525",
+              "title": "Silent Adrenal Pheochromocytoma Coexistent with Corticomedullary Hyperplasia: A Case Incidentally Discovered",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5623282790184021,
+                0.5531569719314575,
+                null,
+                0.6655141711235046,
+                null,
+                0.7247233986854553,
+                null,
+                null,
+                0.548735499382019,
+                0.5888583660125732,
+                0.68349289894104,
+                null,
+                null,
+                0.7963734269142151,
+                0.6632411479949951,
+                0.5342894792556763,
+                0.8333637118339539,
+                null
+              ],
+              "known_labels": {
+                "method_reused": "yes",
+                "late_use": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2808922852",
+              "title": "Risk of Foot Ulcer and Lower Extremity Amputation among Participants in the Diabetes Control and Complications Trial/Epidemiology of Diabetes Interventions and Complications Study (DCCT/EDIC)",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5626826286315918,
+                0.5610107779502869,
+                null,
+                0.6466264128684998,
+                null,
+                0.7114378809928894,
+                null,
+                null,
+                0.5559970736503601,
+                0.6062395572662354,
+                0.6932374238967896,
+                null,
+                null,
+                0.8006347417831421,
+                0.6737834215164185,
+                0.5359178185462952,
+                0.8302704095840454,
+                null
+              ],
+              "known_labels": {
+                "central_claim_retained": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2883944593",
+              "title": "Opportunity makes opinion leaders: analyzing the role of first-hand information in opinion leadership in social media networks",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5714150071144104,
+                0.5565599799156189,
+                null,
+                0.6131964921951294,
+                null,
+                0.705705463886261,
+                null,
+                null,
+                0.5994179248809814,
+                0.6460381746292114,
+                0.6784812211990356,
+                null,
+                null,
+                0.8041634559631348,
+                0.6526275277137756,
+                0.5239563584327698,
+                0.8132306337356567,
+                null
+              ],
+              "known_labels": {
+                "method_reused": "yes",
+                "external_utility": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W3007451419",
+              "title": "Inference for cumulative intraday return curves",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5612107515335083,
+                0.5407928228378296,
+                null,
+                0.6472890377044678,
+                null,
+                0.7148131132125854,
+                null,
+                null,
+                0.5536907911300659,
+                0.6187928915023804,
+                0.6754289865493774,
+                null,
+                null,
+                0.7889367938041687,
+                0.6670061349868774,
+                0.5400773882865906,
+                0.8408154249191284,
+                null
+              ],
+              "known_labels": {
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W4247974275",
+              "title": "Belgium",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5633987784385681,
+                0.543000340461731,
+                null,
+                0.6239386200904846,
+                null,
+                0.6972606778144836,
+                null,
+                null,
+                0.5723434090614319,
+                0.618359386920929,
+                0.6756237149238586,
+                null,
+                null,
+                0.8160122036933899,
+                0.6599888801574707,
+                0.5416116118431091,
+                0.8133398294448853,
+                null
+              ],
+              "known_labels": {
+                "late_use": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W4412375198",
+              "title": "Israel\u2019s Nuclear Posture: Intellectual Antecedents and Doctrinal Foundations",
+              "split": "train",
+              "probabilities": [
+                null,
+                null,
+                0.5666298270225525,
+                0.5230261087417603,
+                null,
+                0.6472846269607544,
+                null,
+                0.7130508422851562,
+                null,
+                null,
+                0.5667504072189331,
+                0.5856361985206604,
+                0.696159303188324,
+                null,
+                null,
+                0.8092952370643616,
+                0.6585118770599365,
+                0.5478175282478333,
+                0.8235697746276855,
+                null
+              ],
+              "known_labels": {
+                "late_use": "yes"
+              }
+            }
+          ]
+        },
+        "validation": {
+          "known_items": 10,
+          "positive_items": 10,
+          "negative_items": 0,
+          "log_loss": 0.4029999308207574,
+          "brier": 0.11504935312825033,
+          "mean_probability": 0.6755793035030365,
+          "auc": null,
+          "auc_reason": "Single-class or tiny diagnostic cohort; discrimination is not established.",
+          "papers": [
+            {
+              "id": "https://openalex.org/W2922482404",
+              "title": "Anonymous Auction Protocol Based on Time-Released Encryption Atop Consortium BlockChain",
+              "split": "validation",
+              "probabilities": [
+                null,
+                null,
+                0.5584098696708679,
+                0.5421363711357117,
+                null,
+                0.6395595669746399,
+                null,
+                0.7086681127548218,
+                null,
+                null,
+                0.5676184296607971,
+                0.6143558621406555,
+                0.6710125803947449,
+                null,
+                null,
+                0.786882758140564,
+                0.6607592105865479,
+                0.5433730483055115,
+                0.8335920572280884,
+                null
+              ],
+              "known_labels": {
+                "independent_comparison": "yes",
+                "late_use": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2956519671",
+              "title": "Cherenkov Radiation in the Visible and Ultraviolet Spectral Ranges from 6-MeV Electrons Passing through a Quartz Plate",
+              "split": "validation",
+              "probabilities": [
+                null,
+                null,
+                0.583466649055481,
+                0.5182741284370422,
+                null,
+                0.6712121367454529,
+                null,
+                0.6802642345428467,
+                null,
+                null,
+                0.5265895128250122,
+                0.5650696158409119,
+                0.6690888404846191,
+                null,
+                null,
+                0.7277305722236633,
+                0.6204882860183716,
+                0.5274537205696106,
+                0.805820643901825,
+                null
+              ],
+              "known_labels": {
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W2982984920",
+              "title": "Quantitative Analysis of Bioactive Phenanthrenes in Dioscorea batatas Decne Peel, a Discarded Biomass from Postharvest Processing",
+              "split": "validation",
+              "probabilities": [
+                null,
+                null,
+                0.5718931555747986,
+                0.55782151222229,
+                null,
+                0.6633902788162231,
+                null,
+                0.7176103591918945,
+                null,
+                null,
+                0.5477064847946167,
+                0.6005456447601318,
+                0.6955530047416687,
+                null,
+                null,
+                0.7872622013092041,
+                0.6726871728897095,
+                0.5484812259674072,
+                0.8274778723716736,
+                null
+              ],
+              "known_labels": {
+                "central_claim_retained": "yes",
+                "method_reused": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes",
+                "multiple_followup_years": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            }
+          ]
+        },
+        "calibration": {
+          "known_items": 8,
+          "positive_items": 8,
+          "negative_items": 0,
+          "log_loss": 0.3597830433576648,
+          "brier": 0.09662602305924484,
+          "mean_probability": 0.7050483077764511,
+          "auc": null,
+          "auc_reason": "Single-class or tiny diagnostic cohort; discrimination is not established.",
+          "papers": [
+            {
+              "id": "https://openalex.org/W2753756358",
+              "title": "Depression and associated factors among parents of children diagnosed with cancer at Tikur Anbessa Specialized Hospital, Addis Ababa, Ethiopia",
+              "split": "calibration",
+              "probabilities": [
+                null,
+                null,
+                0.5655904412269592,
+                0.5504123568534851,
+                null,
+                0.6363065242767334,
+                null,
+                0.7065139412879944,
+                null,
+                null,
+                0.5805047154426575,
+                0.622359037399292,
+                0.6804103851318359,
+                null,
+                null,
+                0.8043778538703918,
+                0.6509420275688171,
+                0.5230976343154907,
+                0.8172833919525146,
+                null
+              ],
+              "known_labels": {
+                "multiple_groups": "yes",
+                "method_reused": "yes",
+                "enabled_new_result": "yes",
+                "late_use": "yes",
+                "multiple_followup_years": "yes",
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W3081066862",
+              "title": "Role of Federal Government in Managing Conflicts: Somalia",
+              "split": "calibration",
+              "probabilities": [
+                null,
+                null,
+                0.5711305737495422,
+                0.5437532663345337,
+                null,
+                0.6417930722236633,
+                null,
+                0.698120653629303,
+                null,
+                null,
+                0.5714669823646545,
+                0.6241568326950073,
+                0.6995205283164978,
+                null,
+                null,
+                0.7979326844215393,
+                0.6666430234909058,
+                0.5478163957595825,
+                0.8134782314300537,
+                null
+              ],
+              "known_labels": {
+                "synthesis_inclusion": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W3164529735",
+              "title": "Rule-Based Dialog Management for Voice Assistents in Automotive Environments",
+              "split": "calibration",
+              "probabilities": [
+                null,
+                null,
+                0.5573768019676208,
+                0.5512225031852722,
+                null,
+                0.6442040801048279,
+                null,
+                0.6888595819473267,
+                null,
+                null,
+                0.543083667755127,
+                0.6122353076934814,
+                0.6829897165298462,
+                null,
+                null,
+                0.7659178972244263,
+                0.6759601831436157,
+                0.5463864207267761,
+                0.8079483509063721,
+                null
+              ],
+              "known_labels": {
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes"
+              }
+            }
+          ]
+        },
+        "test": {
+          "known_items": 3,
+          "positive_items": 3,
+          "negative_items": 0,
+          "log_loss": 0.3334078589877465,
+          "brier": 0.0833376848057578,
+          "mean_probability": 0.7196332216262817,
+          "auc": null,
+          "auc_reason": "Single-class or tiny diagnostic cohort; discrimination is not established.",
+          "papers": [
+            {
+              "id": "https://openalex.org/W3120767723",
+              "title": "Inference of Intercellular Communications and Multilayer Gene-Regulations of Epithelial\u2013Mesenchymal Transition From Single-Cell Transcriptomic Data",
+              "split": "test",
+              "probabilities": [
+                null,
+                null,
+                0.5713553428649902,
+                0.5538820624351501,
+                null,
+                0.6689071655273438,
+                null,
+                0.7205436825752258,
+                null,
+                null,
+                0.5618488192558289,
+                0.5950466990470886,
+                0.6976693272590637,
+                null,
+                null,
+                0.7895941734313965,
+                0.6667231321334839,
+                0.5348119139671326,
+                0.8280277252197266,
+                null
+              ],
+              "known_labels": {
+                "late_positive_assessment": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W3158745291",
+              "title": "Automotive Vulnerability Disclosure: Stakeholders, Opportunities, Challenges",
+              "split": "test",
+              "probabilities": [
+                null,
+                null,
+                0.5480711460113525,
+                0.5428552627563477,
+                null,
+                0.6269761323928833,
+                null,
+                0.6575649976730347,
+                null,
+                null,
+                0.5754818320274353,
+                0.5922788977622986,
+                0.6753873229026794,
+                null,
+                null,
+                0.7534496784210205,
+                0.6507870554924011,
+                0.5167005658149719,
+                0.7843044996261597,
+                null
+              ],
+              "known_labels": {
+                "enabled_new_result": "yes"
+              }
+            },
+            {
+              "id": "https://openalex.org/W4287324271",
+              "title": "territorial community as a subject of strategic planning of territorial development",
+              "split": "test",
+              "probabilities": [
+                null,
+                null,
+                0.5535724759101868,
+                0.5417695045471191,
+                null,
+                0.621414065361023,
+                null,
+                0.697965681552887,
+                null,
+                null,
+                0.5840874314308167,
+                0.6225123405456543,
+                0.6714957356452942,
+                null,
+                null,
+                0.7890759706497192,
+                0.6582814455032349,
+                0.5301011800765991,
+                0.8167892098426819,
+                null
+              ],
+              "known_labels": {
+                "synthesis_inclusion": "yes"
+              }
+            }
+          ]
+        },
+        "challenge": {
+          "known_items": 33,
+          "positive_items": 29,
+          "negative_items": 4,
+          "log_loss": 0.47994617415074164,
+          "brier": 0.14987155887520034,
+          "mean_probability": 0.6408925309325709,
+          "auc": null,
+          "auc_reason": "Single-class or tiny diagnostic cohort; discrimination is not established.",
+          "papers": [
+            {
+              "id": "challenge-attention",
+              "title": "Attention Is All You Need",
+              "split": "challenge",
+              "probabilities": [
+                null,
+                null,
+                0.5637639760971069,
+                0.5471032857894897,
+                null,
+                0.6595648527145386,
+                null,
+                0.7196846604347229,
+                null,
+                null,
+                0.5660401582717896,
+                0.6247786283493042,
+                0.6796112656593323,
+                null,
+                null,
+                0.792466938495636,
+                0.6729419231414795,
+                0.5417525172233582,
+                0.8339266180992126,
+                null
+              ],
+              "known_labels": {
+                "claim_supported": "yes",
+                "independent_reproduction": "yes",
+                "stronger_test": "yes",
+                "central_claim_retained": "yes",
+                "independent_extension": "yes",
+                "multiple_groups": "yes",
+                "method_reused": "yes",
+                "new_research_direction": "yes",
+                "independent_comparison": "yes",
+                "external_utility": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "operational_adoption": "yes",
+                "advantage_retained": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "multiple_followup_years": "yes",
+                "synthesis_inclusion": "yes",
+                "continued_relevance": "yes"
+              }
+            },
+            {
+              "id": "challenge-bert",
+              "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+              "split": "challenge",
+              "probabilities": [
+                null,
+                null,
+                0.5638466477394104,
+                0.5523012280464172,
+                null,
+                0.6580321192741394,
+                null,
+                0.7188310027122498,
+                null,
+                null,
+                0.5694869756698608,
+                0.6134729981422424,
+                0.6778980493545532,
+                null,
+                null,
+                0.7880842089653015,
+                0.6622286438941956,
+                0.5451086163520813,
+                0.8335890769958496,
+                null
+              ],
+              "known_labels": {
+                "claim_supported": "yes",
+                "independent_reproduction": "yes",
+                "stronger_test": "yes",
+                "central_claim_retained": "yes",
+                "independent_extension": "yes",
+                "multiple_groups": "yes",
+                "method_reused": "yes",
+                "new_research_direction": "yes",
+                "independent_comparison": "yes",
+                "external_utility": "yes",
+                "beyond_original_setting": "yes",
+                "enabled_new_result": "yes",
+                "operational_adoption": "yes",
+                "late_use": "yes",
+                "late_positive_assessment": "yes",
+                "multiple_followup_years": "yes",
+                "synthesis_inclusion": "yes",
+                "continued_relevance": "yes"
+              }
+            },
+            {
+              "id": "challenge-debt",
+              "title": "Growth in a Time of Debt",
+              "split": "challenge",
+              "probabilities": [
+                null,
+                null,
+                0.5568220615386963,
+                0.536110520362854,
+                null,
+                0.629273533821106,
+                null,
+                0.663870096206665,
+                null,
+                null,
+                0.556246280670166,
+                0.6163737773895264,
+                0.6820120215415955,
+                null,
+                null,
+                0.7836205363273621,
+                0.6545117497444153,
+                0.5452445149421692,
+                0.8015252947807312,
+                null
+              ],
+              "known_labels": {
+                "claim_supported": "yes",
+                "independent_reproduction": "no",
+                "stronger_test": "no",
+                "central_claim_retained": "no",
+                "independent_extension": "yes",
+                "multiple_groups": "yes",
+                "method_reused": "yes",
+                "independent_comparison": "yes",
+                "late_use": "yes",
+                "multiple_followup_years": "yes"
+              }
+            },
+            {
+              "id": "challenge-superconductor",
+              "title": "Room-temperature superconductivity in a carbonaceous sulfur hydride",
+              "split": "challenge",
+              "probabilities": [
+                null,
+                null,
+                0.5669822096824646,
+                0.5486800074577332,
+                null,
+                0.666734516620636,
+                null,
+                0.7187460660934448,
+                null,
+                null,
+                0.5495387315750122,
+                0.602308452129364,
+                0.6974323987960815,
+                null,
+                null,
+                0.7868587374687195,
+                0.6714746952056885,
+                0.5488550662994385,
+                0.8347024917602539,
+                null
+              ],
+              "known_labels": {
+                "independent_reproduction": "no",
+                "stronger_test": "no",
+                "central_claim_retained": "no",
+                "independent_extension": "yes",
+                "multiple_groups": "yes",
+                "method_reused": "yes",
+                "new_research_direction": "yes",
+                "independent_comparison": "yes",
+                "advantage_retained": "no",
+                "multiple_followup_years": "yes"
+              }
+            }
+          ]
+        }
+      },
+      "checkpoint_sha256": "40f83c9c05534ef407bb51b5ce75f09e22de5540418bc867c03df048dd5cca09",
+      "constant_positive_baseline": {
+        "train": {
+          "log_loss": 1.0000000494736474e-07,
+          "brier": 0.0,
+          "note": "Train-only empirical positive prevalence is 1; available heads only."
+        },
+        "validation": {
+          "log_loss": 1.0000000494736472e-07,
+          "brier": 0.0,
+          "note": "Train-only empirical positive prevalence is 1; available heads only."
+        },
+        "calibration": {
+          "log_loss": 1.0000000494736474e-07,
+          "brier": 0.0,
+          "note": "Train-only empirical positive prevalence is 1; available heads only."
+        },
+        "test": {
+          "log_loss": 1.0000000494736474e-07,
+          "brier": 0.0,
+          "note": "Train-only empirical positive prevalence is 1; available heads only."
+        },
+        "challenge": {
+          "log_loss": 1.9537086516313158,
+          "brier": 0.12121212121212122,
+          "note": "Train-only empirical positive prevalence is 1; available heads only."
+        }
+      }
+    }
+  ],
+  "promotion": {
+    "eligible": false,
+    "reason": "Training labels contain no negative outcomes. Fit is diagnostic, not a validated success predictor; served citation baseline is unchanged."
+  },
+  "limitations": [
+    "All non-challenge known targets are positive; constant-positive predictions are a decisive control.",
+    "Unknown and not-applicable items are masked, never converted to no.",
+    "Challenge papers never enter fitting, checkpoint selection or calibration.",
+    "Mixed full text and abstract inputs; source versions and topic redaction are not yet validated.",
+    "No calibrated success percentage or validated topic-independent performance can be inferred from this sample.",
+    "Unsupported question heads are excluded from metrics and reported as null."
+  ],
+  "prepared_inputs": 24,
+  "inputs": [
+    {
+      "id": "challenge-attention",
+      "split": "challenge",
+      "scope": "full_text_extraction_unverified_version",
+      "characters": 33596,
+      "redacted_fraction": 0.18606381712108586,
+      "sha256": "1fb319a224fa0d74fd1e9b8b4bcd4294e04d80741523b14a9e7e919f6df3d48b"
+    },
+    {
+      "id": "challenge-bert",
+      "split": "challenge",
+      "scope": "full_text_extraction",
+      "characters": 46239,
+      "redacted_fraction": 0.1494625748826748,
+      "sha256": "13490298cd3be58290a8e7f3d5f6f79493b3c80afa9b688cd9355a091c13cf2f"
+    },
+    {
+      "id": "challenge-debt",
+      "split": "challenge",
+      "scope": "full_text_extraction_unverified_version",
+      "characters": 22091,
+      "redacted_fraction": 0.29736091621022137,
+      "sha256": "7c9cbad286a81b3b7fb766153ee723eee265da845e9c80b62cc888034f4bcab4"
+    },
+    {
+      "id": "challenge-superconductor",
+      "split": "challenge",
+      "scope": "full_text_extraction_unverified_version",
+      "characters": 19651,
+      "redacted_fraction": 0.20187267823520433,
+      "sha256": "d2a8e3ad97dd61c14dbebdb41b9c309060de0780959ef59a2b1ca955613257f9"
+    },
+    {
+      "id": "https://openalex.org/W2292065295",
+      "split": "train",
+      "scope": "full_text_extraction",
+      "characters": 191509,
+      "redacted_fraction": 0.02797779738811231,
+      "sha256": "8747ad939622d0d52b4b537a187594e671aabd7f8ba155967d0eccad36aa432d"
+    },
+    {
+      "id": "https://openalex.org/W2502906121",
+      "split": "train",
+      "scope": "full_text_extraction",
+      "characters": 40892,
+      "redacted_fraction": 0.16294140663210407,
+      "sha256": "76bce2b29bfd8be057b996cef5e2432684b3ddb350b270a299b34fd219809df7"
+    },
+    {
+      "id": "https://openalex.org/W2565221079",
+      "split": "train",
+      "scope": "abstract_fallback",
+      "characters": 1942,
+      "redacted_fraction": 0.6910401647785788,
+      "sha256": "e385648b73e0ae3b8d4120a35071d1d0f126ceef8bac4e149cc2f0b62c6845a7"
+    },
+    {
+      "id": "https://openalex.org/W2604283208",
+      "split": "train",
+      "scope": "full_text_extraction",
+      "characters": 38799,
+      "redacted_fraction": 0.1939998453568391,
+      "sha256": "89cf5650c15d91e91336eae0559af529c99df15d6e6cd3dd20d7a62f0fe0641c"
+    },
+    {
+      "id": "https://openalex.org/W2734792158",
+      "split": "train",
+      "scope": "abstract",
+      "characters": 869,
+      "redacted_fraction": 0.7836593785960875,
+      "sha256": "d06e0308a79df54884183cae92357f0d5075873d16f36073dce15f19989cc89d"
+    },
+    {
+      "id": "https://openalex.org/W2753756358",
+      "split": "calibration",
+      "scope": "abstract",
+      "characters": 1723,
+      "redacted_fraction": 0.787579802669762,
+      "sha256": "94f86c4a16705162138b1013041ef68de21ef9d1b3366a1ec69ee7799a3bea61"
+    },
+    {
+      "id": "https://openalex.org/W2763496525",
+      "split": "train",
+      "scope": "full_text_extraction_unverified_version",
+      "characters": 15773,
+      "redacted_fraction": 0.27768972294427186,
+      "sha256": "7f897f78537b434dbafb61fed26abee9dc52ae34b44c942b6dc3ae24fcce02e8"
+    },
+    {
+      "id": "https://openalex.org/W2808922852",
+      "split": "train",
+      "scope": "abstract",
+      "characters": 2461,
+      "redacted_fraction": 0.7712312068264933,
+      "sha256": "70a88310e40298cfc7f4bd9d19ce64b3d30d3daa261bd7f3e79486a1640823a3"
+    },
+    {
+      "id": "https://openalex.org/W2883944593",
+      "split": "train",
+      "scope": "full_text_extraction",
+      "characters": 56456,
+      "redacted_fraction": 0.1933009777525861,
+      "sha256": "664dfc7bd307a89f4d9ea06e02d349639eca88247e1e3240e46d22e907462f24"
+    },
+    {
+      "id": "https://openalex.org/W2922482404",
+      "split": "validation",
+      "scope": "full_text_extraction",
+      "characters": 40007,
+      "redacted_fraction": 0.21716199665058614,
+      "sha256": "834dbd2e2de88537e1fbe4ece485832463991954d5f90bf8b9ec2f86aecbf6c6"
+    },
+    {
+      "id": "https://openalex.org/W2956519671",
+      "split": "validation",
+      "scope": "full_text_extraction_unverified_version",
+      "characters": 17913,
+      "redacted_fraction": 0.07380115000279126,
+      "sha256": "2aec6e2351139fdb7c899607cc42f86f89cf4b51ba95037692d13533f68c0f3a"
+    },
+    {
+      "id": "https://openalex.org/W2982984920",
+      "split": "validation",
+      "scope": "full_text_extraction_unverified_version",
+      "characters": 57603,
+      "redacted_fraction": 0.1795913407287815,
+      "sha256": "7e7e48e410f07054a38e3018ac6e993114aad6fa171673d3f71b814f91a1836e"
+    },
+    {
+      "id": "https://openalex.org/W3007451419",
+      "split": "train",
+      "scope": "full_text_extraction",
+      "characters": 299243,
+      "redacted_fraction": 0.048539147114552386,
+      "sha256": "09ef0106a733539eaec0e86e508eb2926c5f8b91c50859fc5ac53b2423e19d48"
+    },
+    {
+      "id": "https://openalex.org/W3081066862",
+      "split": "calibration",
+      "scope": "full_text_extraction",
+      "characters": 27683,
+      "redacted_fraction": 0.2461077195390673,
+      "sha256": "43e6da0ad2b9b48bce8572b40c4dd6d912364ef928393475101e7c8f2c7a56cc"
+    },
+    {
+      "id": "https://openalex.org/W3120767723",
+      "split": "test",
+      "scope": "full_text_extraction_unverified_version",
+      "characters": 142591,
+      "redacted_fraction": 0.0814357147365542,
+      "sha256": "ae584a5245a23323f6a563491f727fe4bfc723d18cd2001455b92662a713ab29"
+    },
+    {
+      "id": "https://openalex.org/W3158745291",
+      "split": "test",
+      "scope": "full_text_extraction",
+      "characters": 69491,
+      "redacted_fraction": 0.13295246866500698,
+      "sha256": "0ea9ee0dc97bd225ecce457eab17cd6e06159cb71f37b4a06c19f0d6a992f178"
+    },
+    {
+      "id": "https://openalex.org/W3164529735",
+      "split": "calibration",
+      "scope": "full_text_extraction",
+      "characters": 27426,
+      "redacted_fraction": 0.12962152701815796,
+      "sha256": "931cdd9500c43c35ba7f9beeaf71b0fb1b4de85631ae931f558888ec068a14a5"
+    },
+    {
+      "id": "https://openalex.org/W4247974275",
+      "split": "train",
+      "scope": "full_text_extraction",
+      "characters": 128259,
+      "redacted_fraction": 0.14023187456630723,
+      "sha256": "8f506470653dc19c2630750de6bd379d84f338170c22e3d763cbadfef6290434"
+    },
+    {
+      "id": "https://openalex.org/W4287324271",
+      "split": "test",
+      "scope": "full_text_extraction",
+      "characters": 12960,
+      "redacted_fraction": 0.09614197530864198,
+      "sha256": "ab1ab8004e8262e7ea95104ad196fd368d3e52148b9c7e95ab5fbf16947a3fab"
+    },
+    {
+      "id": "https://openalex.org/W4412375198",
+      "split": "train",
+      "scope": "full_text_extraction",
+      "characters": 34069,
+      "redacted_fraction": 0.19410607884000117,
+      "sha256": "b703e49a9a83a2deccfbd2bd45fff9aa3214d8c3708fbd5e053d0ff45740143e"
+    }
+  ],
+  "device": "cuda",
+  "seconds": 41.90936004300602,
+  "finished_at": "2026-09-16T20:21:34.560990+00:00",
+  "labels_sha256": "0337cde0ea9bfce65c8bdf5309d65a185b572f005bec915b6799d9c0c1918608",
+  "rl_readiness": {
+    "status": "not_run",
+    "eligible": false,
+    "training_papers": 11,
+    "positive_targets": 44,
+    "negative_targets": 0,
+    "reason": "Only 11 training papers and 44 yes / 0 no targets. No contrasting training rewards; RL would reinforce always-yes predictions.",
+    "requirements": [
+      "Independent training papers with source-backed positive and negative outcomes; unknown remains masked.",
+      "A fixed reward definition and evaluation split isolated from reward fitting; challenge papers stay held out.",
+      "A learning-curve study across paper counts and seeds that establishes useful generalization over supervised and constant baselines."
+    ],
+    "note": "Rubric answers from one paper are correlated, not independent training examples. RL adds no new outcome evidence to these labels. No universal sample-count cutoff is assumed."
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "id": "https://openalex.org/W3039422697",
+  "title": "Effect of Fiscal Decentralization Financial Performance Against Local And Regional Gross Domestic Product (GDP) NTB",
+  "doi": "https://doi.org/10.11114/aef.v7i4.4921",
+  "year": 2020,
+  "field_id": 20,
+  "field": "Economics, Econometrics and Finance",
+  "split": "calibration",
+  "rubric_version": "outcomes-v1",
+  "followup_years": 4,
+  "followup_end": "2024-12-31",
+  "repeat": 0,
+  "labeled_at": "2026-09-16T19:21:13.308850+00:00",
+  "input_scope": "full_text_candidate",
+  "original_source": {
+    "url": "https://redfame.com/journal/index.php/aef/article/download/4921/5100",
+    "method": "pdf_all_pages",
+    "http_status": 200,
+    "characters": 30731,
+    "truncated": false,
+    "sha256": "acea658331cde0a5fbaec02c9947372d88ea174db4bae04b623209a029cb6be3",
+    "retrieved_at": "2026-09-16T19:14:55.181146+00:00"
+  },
+  "retrieval_version": 3,
+  "research_plan": {
+    "queries": [
+      "fiscal decentralization regional financial performance GRDP West Nusa Tenggara PLS path analysis capital expenditure",
+      "fiscal decentralization GRDP regional financial performance Indonesia replication panel data bootstrapping",
+      "fiscal decentralization Indonesia regional economic growth local financial performance systematic review",
+      "fiscal decentralization General Allocation Fund Special Allocation Fund regional development policy Keynes Wagner"
+    ],
+    "selected_urls": [
+      "https://ejournal.upi.edu/index.php/aset/article/view/96168",
+      "https://ejournal.seaninstitute.or.id/index.php/Ekonomi/article/view/613",
+      "https://www.atlantis-press.com/article/125987450.pdf",
+      "https://www.tandfonline.com/doi/full/10.1080/23322039.2023.2220520",
+      "https://thesis.eur.nl/pub/33367/HHendri_MA_2014_15_ECD_DD.pdf",
+      "https://agbioforum.org/sobiad.org/menuscript/index.php/ijefs/article/download/1682/465",
+      "https://citeus.um.ac.id/cgi/viewcontent.cgi?article=1105&context=jesp",
+      "https://www.oecd.org/en/publications/fiscal-decentralisation-and-regional-disparities_5jlpq7v3j237-en.html",
+      "https://openknowledge.worldbank.org/entities/publication/463e51fb-8ff2-58d4-b9c9-ce08cd440c26",
+      "https://rujec.org/article/27958",
+      "https://www.bircu-journal.com/index.php/birci/article/download/3525/pdf"
+    ],
+    "plan_usage": {
+      "cache_key": "d6b4a4ed620a0c2af9c18d656967517c3e4fcc19f34a544f08de2f55824dc9db",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 6588,
+        "input_tokens_details": {
+          "cache_write_tokens": 6585,
+          "cached_tokens": 0
+        },
+        "output_tokens": 433,
+        "output_tokens_details": {
+          "reasoning_tokens": 351
+        },
+        "total_tokens": 7021
+      },
+      "input_tokens_estimate": 6554,
+      "truncated": false
+    },
+    "selection_usage": {
+      "cache_key": "bcce24ff4d25e341ee699bb9e5ce385cddb069ade5989082141ba96fc44174f3",
+      "model": "gpt-5.6-luna",
+      "usage": {
+        "input_tokens": 4387,
+        "input_tokens_details": {
+          "cache_write_tokens": 4384,
+          "cached_tokens": 0
+        },
+        "output_tokens": 695,
+        "output_tokens_details": {
+          "reasoning_tokens": 427
+        },
+        "total_tokens": 5082
+      },
+      "input_tokens_estimate": 4353,
+      "truncated": false
+    }
+  },
+  "source_manifest": [
+    {
+      "source_id": "S1",
+      "url": "https://ejournal.upi.edu/index.php/aset/article/view/96168",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:20:39.465701+00:00"
+    },
+    {
+      "source_id": "S2",
+      "url": "https://ejournal.seaninstitute.or.id/index.php/Ekonomi/article/view/613",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 7404,
+      "truncated": false,
+      "sha256": "465ac3f4bbcc360130d5ce5b12179567a52e131d2964c6c379b74e4e97f754c7",
+      "retrieved_at": "2026-09-16T19:20:40.816187+00:00"
+    },
+    {
+      "source_id": "S3",
+      "url": "https://www.atlantis-press.com/article/125987450.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 28890,
+      "truncated": false,
+      "sha256": "f2776b38ab806d35b7ad34446b602570b202ff693bd5837be2fed425f5d6cfac",
+      "retrieved_at": "2026-09-16T19:20:40.076651+00:00"
+    },
+    {
+      "source_id": "S4",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/23322039.2023.2220520",
+      "method": "",
+      "http_status": 403,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:20:39.428707+00:00"
+    },
+    {
+      "source_id": "S5",
+      "url": "https://thesis.eur.nl/pub/33367/HHendri_MA_2014_15_ECD_DD.pdf",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 67103,
+      "truncated": false,
+      "sha256": "4259a58c2237a00546752fbb52d7a8e0f99903aa9c39b416119104dc8222c451",
+      "retrieved_at": "2026-09-16T19:20:43.198347+00:00"
+    },
+    {
+      "source_id": "S6",
+      "url": "https://agbioforum.org/sobiad.org/menuscript/index.php/ijefs/article/download/1682/465",
+      "method": "pdf_all_pages",
+      "http_status": 200,
+      "characters": 68624,
+      "truncated": false,
+      "sha256": "0aed9f1c9ae71ddd67556325a92c3bb5bb4574b2d7a21a7293535b595c430e7b",
+      "retrieved_at": "2026-09-16T19:20:40.740968+00:00"
+    },
+    {
+      "source_id": "S7",
+      "url": "https://citeus.um.ac.id/cgi/viewcontent.cgi?article=1105&context=jesp",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 31536,
+      "truncated": false,
+      "sha256": "0913ecf9d397da6cedbd88e801c24f4f17d7dab3f0b5858f2ee0ad5c834da993",
+      "retrieved_at": "2026-09-16T19:20:40.626515+00:00"
+    },
+    {
+      "source_id": "S8",
+      "url": "https://www.oecd.org/en/publications/fiscal-decentralisation-and-regional-disparities_5jlpq7v3j237-en.html",
+      "method": "tavily_complete_extraction",
+      "http_status": 403,
+      "characters": 268925,
+      "truncated": false,
+      "sha256": "0bb4cdf474e39c367be50e7f6d6608033ccddb3fbbd772be1e5c3efcdc544712",
+      "retrieved_at": "2026-09-16T19:20:41.340957+00:00"
+    },
+    {
+      "source_id": "S9",
+      "url": "https://openknowledge.worldbank.org/entities/publication/463e51fb-8ff2-58d4-b9c9-ce08cd440c26",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 27143,
+      "truncated": false,
+      "sha256": "b9b7a3537dbff95eafd844a078ab75fea1827ed6f45189bac54a07a90c6e6483",
+      "retrieved_at": "2026-09-16T19:20:48.273079+00:00"
+    },
+    {
+      "source_id": "S10",
+      "url": "https://rujec.org/article/27958",
+      "method": "html_main_text",
+      "http_status": 200,
+      "characters": 1152,
+      "truncated": false,
+      "sha256": "641165b7c8bd895982cb55a939aeb8c3588467171f5f51610bb3d663b4790b98",
+      "retrieved_at": "2026-09-16T19:20:41.997092+00:00"
+    },
+    {
+      "source_id": "S11",
+      "url": "https://www.bircu-journal.com/index.php/birci/article/download/3525/pdf",
+      "method": "",
+      "http_status": null,
+      "characters": 0,
+      "truncated": false,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-09-16T19:20:44.698255+00:00"
+    }
+  ],
+  "research": {
+    "paper_identity_confirmed": true,
+    "answers": [
+      {
+        "id": "claim_supported",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "independent_reproduction",
+        "answer": "yes",
+        "rationale": "Independent teams reported comparable null fiscal-decentralization effects on regional economic growth in NTT and Makassar.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022-10-29"
+          }
+        ]
+      },
+      {
+        "id": "stronger_test",
+        "answer": "no",
+        "rationale": "A broader 10-year, six-province study found a significant effect, contradicting the paper’s null GDP-growth result.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2023-08-31"
+          }
+        ]
+      },
+      {
+        "id": "central_claim_retained",
+        "answer": "unknown",
+        "rationale": "The supplied follow-up studies are empirical studies with mixed findings, not an authoritative assessment explicitly evaluating and retaining this paper’s claim.",
+        "evidence": []
+      },
+      {
+        "id": "limitations_survived",
+        "answer": "unknown",
+        "rationale": "Later studies use different regions and periods, but the supplied texts do not explicitly test the original paper’s stated limitations.",
+        "evidence": []
+      },
+      {
+        "id": "independent_extension",
+        "answer": "yes",
+        "rationale": "A later independent study extends the contribution from GDP and financial performance to budget allocation, economic capacity, and community welfare.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2023-08-31"
+          }
+        ]
+      },
+      {
+        "id": "multiple_groups",
+        "answer": "yes",
+        "rationale": "Distinct independent author teams published substantive studies in NTT, Makassar, and Sulawesi.",
+        "evidence": [
+          {
+            "source_id": "S3",
+            "date": "2023"
+          },
+          {
+            "source_id": "S6",
+            "date": "2023-08-31"
+          }
+        ]
+      },
+      {
+        "id": "method_reused",
+        "answer": "yes",
+        "rationale": "A later independent study reused the paper’s partial-least-squares approach for fiscal-decentralization relationships.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2023-08-31"
+          }
+        ]
+      },
+      {
+        "id": "new_research_direction",
+        "answer": "unknown",
+        "rationale": "No supplied later review explicitly identifies this specific paper or contribution as enabling a research direction.",
+        "evidence": []
+      },
+      {
+        "id": "independent_comparison",
+        "answer": "unknown",
+        "rationale": "The supplied follow-ups report their own regressions but do not use this paper as an explicit baseline or benchmark.",
+        "evidence": []
+      },
+      {
+        "id": "external_utility",
+        "answer": "yes",
+        "rationale": "Independent work demonstrates fiscal decentralization associated with economic capacity and community welfare, providing concrete policy-relevant benefit beyond the original analysis.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2023-08-31"
+          }
+        ]
+      },
+      {
+        "id": "beyond_original_setting",
+        "answer": "yes",
+        "rationale": "The contribution was examined outside the original West Nusa Tenggara setting, including NTT, Makassar, and Sulawesi.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022-10-29"
+          },
+          {
+            "source_id": "S3",
+            "date": "2023"
+          }
+        ]
+      },
+      {
+        "id": "enabled_new_result",
+        "answer": "unknown",
+        "rationale": "Evidence failed source/date/quote validation; original response retained in private cache.",
+        "evidence": []
+      },
+      {
+        "id": "operational_adoption",
+        "answer": "unknown",
+        "rationale": "The supplied sources discuss policy implications but do not document adoption in a named workflow, standard, product, or government practice.",
+        "evidence": []
+      },
+      {
+        "id": "advantage_retained",
+        "answer": "unknown",
+        "rationale": "The original paper does not present a comparative performance advantage, and no supplied follow-up conducts a fair comparison of one.",
+        "evidence": []
+      },
+      {
+        "id": "late_use",
+        "answer": "yes",
+        "rationale": "Substantive independent follow-up appears in 2023, at least three years after the 2020 publication.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2023-08-31"
+          }
+        ]
+      },
+      {
+        "id": "late_positive_assessment",
+        "answer": "yes",
+        "rationale": "A 2023 independent study positively assesses fiscal decentralization’s effects on growth-related capacity and welfare.",
+        "evidence": [
+          {
+            "source_id": "S6",
+            "date": "2023-08-31"
+          }
+        ]
+      },
+      {
+        "id": "multiple_followup_years",
+        "answer": "yes",
+        "rationale": "Substantive independent follow-up is documented in both 2022 and 2023.",
+        "evidence": [
+          {
+            "source_id": "S2",
+            "date": "2022-10-29"
+          }
+        ]
+      },
+      {
+        "id": "synthesis_inclusion",
+        "answer": "unknown",
+        "rationale": "The supplied sources do not provide a systematic review, textbook, standard, or synthesis explicitly adopting this specific contribution as valid or useful.",
+        "evidence": []
+      },
+      {
+        "id": "continued_relevance",
+        "answer": "unknown",
+        "rationale": "Later studies show continued investigation of fiscal decentralization, but the supplied evidence does not explicitly establish usefulness despite newer alternatives.",
+        "evidence": []
+      }
+    ],
+    "search_gaps": [
+      "No supplied authoritative assessment explicitly evaluates the 2020 paper itself.",
+      "No supplied source documents adoption in a government workflow, standard, product, or established practice.",
+      "No supplied systematic review or research synthesis explicitly adopts this specific paper or contribution.",
+      "The follow-up evidence is mixed: some studies reproduce the null GDP result, while another reports a significant positive effect."
+    ]
+  },
+  "validation_rejected": [
+    "claim_supported",
+    "enabled_new_result"
+  ],
+  "aggregate": {
+    "dimensions": {
+      "validation": {
+        "yes": 1,
+        "no": 1,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 0.5,
+        "lower_bound": 0.2,
+        "upper_bound": 0.8
+      },
+      "uptake": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      },
+      "utility": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 3,
+        "not_applicable": 0,
+        "coverage": 0.4,
+        "known_index": 1.0,
+        "lower_bound": 0.4,
+        "upper_bound": 1.0
+      },
+      "durability": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 2,
+        "not_applicable": 0,
+        "coverage": 0.6,
+        "known_index": 1.0,
+        "lower_bound": 0.6,
+        "upper_bound": 1.0
+      }
+    },
+    "known_answers": 10,
+    "coverage": 0.5,
+    "score": null,
+    "lower_bound": 0.45000000000000007,
+    "upper_bound": 0.95,
+    "score_kind": "evidence-backed rubric index; not a probability",
+    "eligible_for_aggregate": false
+  },
+  "llm": {
+    "cache_key": "6d4abea97aeaa543156b59722f526b79ee025ec2e5fe4409a195fed7086d4a0e",
+    "model": "gpt-5.6-luna",
+    "usage": {
+      "input_tokens": 150661,
+      "input_tokens_details": {
+        "cache_write_tokens": 150658,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2761,
+      "output_tokens_details": {
+        "reasoning_tokens": 966
+      },
+      "total_tokens": 153422
+    },
+    "input_tokens_estimate": 150418,
+    "truncated": false
+  }
+}

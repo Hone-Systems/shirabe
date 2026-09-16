@@ -1,0 +1,14 @@
+{
+  "id": "econ-10.1257/aer.101.2.819",
+  "title": "Deferred Compensation in Multiperiod Labor Contracts: An Experimental Test of Lazear's Model",
+  "year": 2011,
+  "field_id": 20,
+  "field": "Economics",
+  "split": "train",
+  "sampling_cohort": "econ_complete_2016",
+  "stage": "complete",
+  "updated_at": "2026-09-16T20:49:47.229019+00:00",
+  "researcher_kind": "autonomous_agent",
+  "known_answers": 1,
+  "score": null
+}
