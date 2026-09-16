@@ -13,13 +13,20 @@ from pydantic import BaseModel, Field
 from starlette.concurrency import run_in_threadpool
 
 from shirabe.inference import ROOT, StyleModel
+from shirabe.transformer import TransformerModel
 
 MAX_UPLOAD = 10 * 1024 * 1024
 
 
 @asynccontextmanager
 async def lifespan(app):
-    app.state.model = StyleModel() if (ROOT / "artifacts/model.json").exists() else None
+    transformer = ROOT / "artifacts/transformer"
+    if (transformer / "report.json").exists():
+        app.state.model = TransformerModel(transformer)
+        app.state.report_path = transformer / "report.json"
+    else:
+        app.state.model = StyleModel() if (ROOT / "artifacts/model.json").exists() else None
+        app.state.report_path = ROOT / "artifacts/report.json"
     yield
 
 
@@ -69,7 +76,7 @@ def health():
 
 @app.get("/api/report")
 def report():
-    path = ROOT / "artifacts/report.json"
+    path = app.state.report_path
     if not path.exists():
         raise HTTPException(503, "No training run exists yet. Run scripts/train.py first.")
     return json.loads(path.read_text())

@@ -1,0 +1,8 @@
+BERT-Mini derivative model and tokenizer
+Based on Google Research BERT, copyright 2018 The Google AI Language Team Authors.
+Upstream: https://huggingface.co/google/bert_uncased_L-4_H-256_A-4
+Revision: 387825ce42dbb39b87911cdf8e383ee3b25184f8
+Licensed under Apache License 2.0; see LICENSE in this directory.
+Modifications: all encoder parameters fine-tuned for sampled citation-attention classification;
+new two-class head, held-out scalar calibration, and ONNX export with attention/activation outputs.
+Fine-tuning and export by Hone Systems, 2026. No endorsement by Google is implied.

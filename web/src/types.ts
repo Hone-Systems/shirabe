@@ -18,6 +18,12 @@ export type Feature = {
   unusual: boolean;
 };
 export type Prediction = {
+  transformer?: {
+    cls_attention: number[][][];
+    layer_cls: number[][];
+    sequence_length: number;
+    full_sequence_length: number;
+  };
   model_id: string;
   probability: number;
   baseline: number;
@@ -29,6 +35,7 @@ export type Prediction = {
     text: string;
     start: number;
     end: number;
+    attention?: number;
     category: string;
     categories: string[];
   }[];
@@ -64,14 +71,28 @@ export type Report = {
     majority_baseline: number;
     description: string;
   };
-  negative_control: {
+  transformer?: {
+    layers: number;
+    heads: number;
+    hidden_size: number;
+    parameter_count: number;
+  };
+  epoch_history?: {
+    epoch: number;
+    train_loss: number;
+    validation_loss: number;
+    validation_auc: number;
+  }[];
+  best_epoch?: number;
+  shuffled_token_test?: Metric;
+  negative_control?: {
     runs: number;
     mean_auc: number;
     min_auc: number;
     max_auc: number;
   };
-  learning_curve: { n: number; train_auc: number; validation_auc: number }[];
-  convergence: {
+  learning_curve?: { n: number; train_auc: number; validation_auc: number }[];
+  convergence?: {
     iteration_budget: number;
     iterations_used: number;
     train_loss: number;
