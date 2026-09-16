@@ -1,0 +1,446 @@
+{
+  "provider": "OpenAlex",
+  "requested_per_cohort": 400,
+  "seed": 42,
+  "records": 11799,
+  "excluded": {
+    "length": 2414,
+    "language": 170,
+    "duplicate": 17
+  },
+  "dataset_sha256": "61a37e535f1e551b7cff494adcf7accb67cad2a5ac308e58388fc9381b058973",
+  "sources": [
+    {
+      "file": "data/raw/13-2016-400-1.json",
+      "sha256": "007a5f0e87203ca23860f7c656bc25fcd7107b0f0a2e122ee999bb79ed450a17",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2016%2Cprimary_topic.field.id%3A13%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:01.061892+00:00"
+    },
+    {
+      "file": "data/raw/13-2016-400-2.json",
+      "sha256": "bf490b87e5e70183bf91e56860b83a85cc583ffee51377fb6039e44d1dcb9aaf",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2016%2Cprimary_topic.field.id%3A13%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:02.421128+00:00"
+    },
+    {
+      "file": "data/raw/13-2017-400-1.json",
+      "sha256": "22f37b944b745587b96a9bb3c9e0c632410e28a48c156fef63cf38de0443b96b",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2017%2Cprimary_topic.field.id%3A13%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:03.440399+00:00"
+    },
+    {
+      "file": "data/raw/13-2017-400-2.json",
+      "sha256": "ad3d703d6da4c203dc50023c37063d17cf12d7f325b8ec7ae8eae1b6d0aafaee",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2017%2Cprimary_topic.field.id%3A13%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:04.401702+00:00"
+    },
+    {
+      "file": "data/raw/13-2018-400-1.json",
+      "sha256": "8ef9a969070b086483c95f178f0955d100deed5365072835e904cc6d63be696b",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2018%2Cprimary_topic.field.id%3A13%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:05.393116+00:00"
+    },
+    {
+      "file": "data/raw/13-2018-400-2.json",
+      "sha256": "4e16e9d737d1af2894870eebf69aae8b11132445e98895fab9a0edec9ba3347b",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2018%2Cprimary_topic.field.id%3A13%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:06.367777+00:00"
+    },
+    {
+      "file": "data/raw/13-2019-400-1.json",
+      "sha256": "7429e4befaad1121d6b1574487204a26c9478b069f142737a01190cf3683e6fe",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2019%2Cprimary_topic.field.id%3A13%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:07.603760+00:00"
+    },
+    {
+      "file": "data/raw/13-2019-400-2.json",
+      "sha256": "b5247d6070bbc0ab6f9ce1c3e08f2571de3ed76db26f13143d99f9c99f56e139",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2019%2Cprimary_topic.field.id%3A13%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:08.548404+00:00"
+    },
+    {
+      "file": "data/raw/13-2020-400-1.json",
+      "sha256": "686eebd3ade760fa5f660f82ac559b6ae3fe68af5f6f00ff17b36bf29b36e38a",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2020%2Cprimary_topic.field.id%3A13%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:09.502674+00:00"
+    },
+    {
+      "file": "data/raw/13-2020-400-2.json",
+      "sha256": "c67fe5f903ccfc37c6d1c600420dcea48ed6a2ccf028db92fa473e5779280d81",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2020%2Cprimary_topic.field.id%3A13%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:10.714561+00:00"
+    },
+    {
+      "file": "data/raw/13-2021-400-1.json",
+      "sha256": "300b5ca2d9c6e5a4d87adbbab898a7c7543a2301d57970e0c064ef1423a99158",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2021%2Cprimary_topic.field.id%3A13%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:11.664825+00:00"
+    },
+    {
+      "file": "data/raw/13-2021-400-2.json",
+      "sha256": "d73ff1da71bafeed439747c6ae26024db792885825d47ce4c62b2fb1ee84b481",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2021%2Cprimary_topic.field.id%3A13%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:12.676898+00:00"
+    },
+    {
+      "file": "data/raw/17-2016-400-1.json",
+      "sha256": "6778f41b0da96add91f5b6ff155258750fca9ebd74846d77f0e6286b232792b2",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2016%2Cprimary_topic.field.id%3A17%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:13.577309+00:00"
+    },
+    {
+      "file": "data/raw/17-2016-400-2.json",
+      "sha256": "dd521d8f71a385e943e732ac0b0a58d5b751cc9ab7e8c248fdd03f4b2fd79b52",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2016%2Cprimary_topic.field.id%3A17%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:14.407814+00:00"
+    },
+    {
+      "file": "data/raw/17-2017-400-1.json",
+      "sha256": "4f00069ac25dfdf7edb76c62f3813945b3603f5a1cd10b925a4226d643f9938c",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2017%2Cprimary_topic.field.id%3A17%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:15.331460+00:00"
+    },
+    {
+      "file": "data/raw/17-2017-400-2.json",
+      "sha256": "a3b54d3727057c7b308b0d72d344bc5272ee4ba32926aca45dee11c5e5a5cfa8",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2017%2Cprimary_topic.field.id%3A17%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:16.140372+00:00"
+    },
+    {
+      "file": "data/raw/17-2018-400-1.json",
+      "sha256": "bbf8ffa2c95a79a8ab53efbba4d252cbdc9a29c184e9c46c4ff81316228a9613",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2018%2Cprimary_topic.field.id%3A17%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:17.016728+00:00"
+    },
+    {
+      "file": "data/raw/17-2018-400-2.json",
+      "sha256": "08ad89f9e3ea97d0ee072d0c2d5b6e2bb18a8f5c288478fd1266ae43896c9fec",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2018%2Cprimary_topic.field.id%3A17%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:18.022375+00:00"
+    },
+    {
+      "file": "data/raw/17-2019-400-1.json",
+      "sha256": "85160b508c52756c34114fbb2474dca08679090d1038211c18a924785ff0da7b",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2019%2Cprimary_topic.field.id%3A17%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:18.983587+00:00"
+    },
+    {
+      "file": "data/raw/17-2019-400-2.json",
+      "sha256": "6a0904b6aa34de491c8521856dce6bb66808296954212b9ffeeefff4cdccc249",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2019%2Cprimary_topic.field.id%3A17%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:19.855339+00:00"
+    },
+    {
+      "file": "data/raw/17-2020-400-1.json",
+      "sha256": "d2ed0eb17f0b140553e05b03afc467c5c56d2409897070192f8d3e4cc430c904",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2020%2Cprimary_topic.field.id%3A17%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:20.733327+00:00"
+    },
+    {
+      "file": "data/raw/17-2020-400-2.json",
+      "sha256": "5cc7c79efddd084d497f22f96d90a75ab7a14522900e1960742b78be6a86d55b",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2020%2Cprimary_topic.field.id%3A17%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:21.657191+00:00"
+    },
+    {
+      "file": "data/raw/17-2021-400-1.json",
+      "sha256": "514f47e1d362d31ea8055505bbcc31b65e2b9fe150a750e4b0a4afc0a3e5f6a4",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2021%2Cprimary_topic.field.id%3A17%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:22.507827+00:00"
+    },
+    {
+      "file": "data/raw/17-2021-400-2.json",
+      "sha256": "0b2469f1be7fd46f156ea2f8b29b4a393f0d3602b63289e0bb711c78fb554a87",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2021%2Cprimary_topic.field.id%3A17%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:23.394342+00:00"
+    },
+    {
+      "file": "data/raw/20-2016-400-1.json",
+      "sha256": "189fb3887eabd358e439cbb0698789c4708cca672056d9867942863f84b0dbda",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2016%2Cprimary_topic.field.id%3A20%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:24.218147+00:00"
+    },
+    {
+      "file": "data/raw/20-2016-400-2.json",
+      "sha256": "6564c61f3464fb0d72428c7979c6c36e4a88c4d4dad647306a9056b318d69f15",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2016%2Cprimary_topic.field.id%3A20%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:25.157566+00:00"
+    },
+    {
+      "file": "data/raw/20-2017-400-1.json",
+      "sha256": "e4cb093f58c8c8b017b515abeff256613d126648598827afd5760dc964e669a1",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2017%2Cprimary_topic.field.id%3A20%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:26.058020+00:00"
+    },
+    {
+      "file": "data/raw/20-2017-400-2.json",
+      "sha256": "454ac60e3e78a59eaa954a2a1fda34b979edc7f538dce09872b98fe84c763b4f",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2017%2Cprimary_topic.field.id%3A20%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:27.412029+00:00"
+    },
+    {
+      "file": "data/raw/20-2018-400-1.json",
+      "sha256": "6b7e7bccfd6302d01f43a742ba3b666c80ea7e33eb05d55bf20f7e1bfffc8c36",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2018%2Cprimary_topic.field.id%3A20%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:28.207301+00:00"
+    },
+    {
+      "file": "data/raw/20-2018-400-2.json",
+      "sha256": "c93a981d21e47194befc4c8c35ae88abb2d67d7fadbe9f595a87c9d084e56521",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2018%2Cprimary_topic.field.id%3A20%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:29.063591+00:00"
+    },
+    {
+      "file": "data/raw/20-2019-400-1.json",
+      "sha256": "86b53ac2fb5c95bc80b24829a75e72c9d69d3c4d3b3fca0e7813a717ad5fa13a",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2019%2Cprimary_topic.field.id%3A20%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:29.910407+00:00"
+    },
+    {
+      "file": "data/raw/20-2019-400-2.json",
+      "sha256": "7f8ca6df46d7acedcc0b0abcaed9377ae4d3469324f1a3ab4aae2a074bafe4f4",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2019%2Cprimary_topic.field.id%3A20%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:30.761879+00:00"
+    },
+    {
+      "file": "data/raw/20-2020-400-1.json",
+      "sha256": "7e43d4f7b3e70ff980ad9a4095ad88c79f93eadced22245193f316e99d56eead",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2020%2Cprimary_topic.field.id%3A20%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:31.544543+00:00"
+    },
+    {
+      "file": "data/raw/20-2020-400-2.json",
+      "sha256": "d01215199212df55fa3c545adf8453124e014269ca01bd198e211dde689ed2b9",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2020%2Cprimary_topic.field.id%3A20%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:32.387623+00:00"
+    },
+    {
+      "file": "data/raw/20-2021-400-1.json",
+      "sha256": "c706d72dc8d9dbcd701c6d798bf4d3090ff9227f26de112290840da169c9f7f9",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2021%2Cprimary_topic.field.id%3A20%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:33.284997+00:00"
+    },
+    {
+      "file": "data/raw/20-2021-400-2.json",
+      "sha256": "1648f3310f5a737be5b40d8058ff1cf0299487b6dd39aacbb221e38c7c93b7f3",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2021%2Cprimary_topic.field.id%3A20%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:34.087213+00:00"
+    },
+    {
+      "file": "data/raw/27-2016-400-1.json",
+      "sha256": "7b23143d56f76441f9bd12dff2d7984b384c6d82dec584afb0a6bbf171bfb560",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2016%2Cprimary_topic.field.id%3A27%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:35.050047+00:00"
+    },
+    {
+      "file": "data/raw/27-2016-400-2.json",
+      "sha256": "05feac451b1c50f1bae1bb4924bdd848548121861e342bc9c0da1cd40b9448f1",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2016%2Cprimary_topic.field.id%3A27%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:36.001678+00:00"
+    },
+    {
+      "file": "data/raw/27-2017-400-1.json",
+      "sha256": "557128d384dc29baff51b21343044c68e6dc10d8c0e2bbb4f0dd253d11c85fcf",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2017%2Cprimary_topic.field.id%3A27%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:37.474621+00:00"
+    },
+    {
+      "file": "data/raw/27-2017-400-2.json",
+      "sha256": "66b6de4b3a788b4c5ca799f9565cb50520066a211306dd318c686b6e63a83b13",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2017%2Cprimary_topic.field.id%3A27%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:38.430010+00:00"
+    },
+    {
+      "file": "data/raw/27-2018-400-1.json",
+      "sha256": "44ed6b11a94a263c584ba22b386df161a522db5a3f9b445e81899c17eb034c3c",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2018%2Cprimary_topic.field.id%3A27%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:39.445888+00:00"
+    },
+    {
+      "file": "data/raw/27-2018-400-2.json",
+      "sha256": "58ce19d68afbb1c1d0a69773e808d554d13b6518d5291b047823f53a24716e32",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2018%2Cprimary_topic.field.id%3A27%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:40.485835+00:00"
+    },
+    {
+      "file": "data/raw/27-2019-400-1.json",
+      "sha256": "2d4ba8abed8d23893e658770b0d55a66984a3664b7a653984c087d24d801afbd",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2019%2Cprimary_topic.field.id%3A27%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:41.418877+00:00"
+    },
+    {
+      "file": "data/raw/27-2019-400-2.json",
+      "sha256": "ddf8135e09f8c4a97740a9bf1abc615f58cc8285826c4d61c437b898bd6c6a4d",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2019%2Cprimary_topic.field.id%3A27%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:42.459402+00:00"
+    },
+    {
+      "file": "data/raw/27-2020-400-1.json",
+      "sha256": "210959fe358512632207d3ee910088b90b9aff8f1a001fa536ec749cd38e4127",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2020%2Cprimary_topic.field.id%3A27%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:43.397900+00:00"
+    },
+    {
+      "file": "data/raw/27-2020-400-2.json",
+      "sha256": "701265681bc59631be2fcd2f574a5db4721a9cd7dc55a37ceb02091f09c86e71",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2020%2Cprimary_topic.field.id%3A27%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:44.327038+00:00"
+    },
+    {
+      "file": "data/raw/27-2021-400-1.json",
+      "sha256": "50bb68e07220c8bcc0e43d1a156f18f0919b51a99c5d9b5b978b627d53731f88",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2021%2Cprimary_topic.field.id%3A27%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:45.260945+00:00"
+    },
+    {
+      "file": "data/raw/27-2021-400-2.json",
+      "sha256": "4707a9649c8f7af4bb7a5633c441c2665c8f3ac904e70c13e862c5c3f15d14d8",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2021%2Cprimary_topic.field.id%3A27%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:46.252822+00:00"
+    },
+    {
+      "file": "data/raw/31-2016-400-1.json",
+      "sha256": "9e3975efcd01b35b040adede5b2cfa64d4046cc46e69dd6149a1756172b5c18c",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2016%2Cprimary_topic.field.id%3A31%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:47.196853+00:00"
+    },
+    {
+      "file": "data/raw/31-2016-400-2.json",
+      "sha256": "5d2df1b6146530ad0ad8f19f486c37c0ecbed16d5f197a582e5661baf12312eb",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2016%2Cprimary_topic.field.id%3A31%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:48.230214+00:00"
+    },
+    {
+      "file": "data/raw/31-2017-400-1.json",
+      "sha256": "00722ff8096e14852a015fbda546bb2da4221965b21c0aa7016934ca8b0a2aa8",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2017%2Cprimary_topic.field.id%3A31%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:49.097726+00:00"
+    },
+    {
+      "file": "data/raw/31-2017-400-2.json",
+      "sha256": "acb9be78fcf92b84fcc17122013ff50fc2c05006e4da7212846af6cd23eea05b",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2017%2Cprimary_topic.field.id%3A31%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:50.064549+00:00"
+    },
+    {
+      "file": "data/raw/31-2018-400-1.json",
+      "sha256": "09489cfae6392dec16eabeab964c13745d3669cab7cb17ca00d0ffce0572f74a",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2018%2Cprimary_topic.field.id%3A31%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:50.910267+00:00"
+    },
+    {
+      "file": "data/raw/31-2018-400-2.json",
+      "sha256": "2b70e764a2b440d5da30d2b5b8dd8c6286e85dd241191ffee5e6e99b8f9f9e03",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2018%2Cprimary_topic.field.id%3A31%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:51.773272+00:00"
+    },
+    {
+      "file": "data/raw/31-2019-400-1.json",
+      "sha256": "3c0aaafb8a392218e87ed905ad0cb8bb3616789682fe5a358b399ee23b344fd9",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2019%2Cprimary_topic.field.id%3A31%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:52.703657+00:00"
+    },
+    {
+      "file": "data/raw/31-2019-400-2.json",
+      "sha256": "7a1ea29a345a8523aaff68e96dbdd7c41e70a2f3b8620f19920ce4e61c197935",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2019%2Cprimary_topic.field.id%3A31%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:53.594409+00:00"
+    },
+    {
+      "file": "data/raw/31-2020-400-1.json",
+      "sha256": "bd44b9f70adac0df624a0b2c22b5b3e4a995f7b2037722102f218b0b7d9cff88",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2020%2Cprimary_topic.field.id%3A31%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:54.559511+00:00"
+    },
+    {
+      "file": "data/raw/31-2020-400-2.json",
+      "sha256": "3acd6b867f2fd1ee3590dcb85db5842f70b7fbd3169fb541034f3fce0953d607",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2020%2Cprimary_topic.field.id%3A31%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:55.575838+00:00"
+    },
+    {
+      "file": "data/raw/31-2021-400-1.json",
+      "sha256": "e9a9c71dd70c123ff68f831caeee657cb4776c4fbc9d6a0717429329c9cf766d",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2021%2Cprimary_topic.field.id%3A31%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:56.393416+00:00"
+    },
+    {
+      "file": "data/raw/31-2021-400-2.json",
+      "sha256": "77842a7899b65df3c4407e280e6d93dce72f33b242546707d0dd0def4bee9193",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2021%2Cprimary_topic.field.id%3A31%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:57.294840+00:00"
+    },
+    {
+      "file": "data/raw/33-2016-400-1.json",
+      "sha256": "b4a0d0d43bf8acc11b58a25aaa467b6b27e667fdb33745dc2aac3b38b1cfe088",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2016%2Cprimary_topic.field.id%3A33%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:58.284851+00:00"
+    },
+    {
+      "file": "data/raw/33-2016-400-2.json",
+      "sha256": "f97c5c69d71549581032d9d293302981bcc960162d589c686ae0902b3d8bed1d",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2016%2Cprimary_topic.field.id%3A33%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:59.143628+00:00"
+    },
+    {
+      "file": "data/raw/33-2017-400-1.json",
+      "sha256": "de7613666b107d259f7d00b6e00f84b92491d7f94c847cc28228dd9f581b3b51",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2017%2Cprimary_topic.field.id%3A33%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:08:59.996550+00:00"
+    },
+    {
+      "file": "data/raw/33-2017-400-2.json",
+      "sha256": "9ce58e6cf8e6048e4062c2a1dc124db493fe33af1ee7b001e7e607d712cbbf4c",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2017%2Cprimary_topic.field.id%3A33%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:09:00.798136+00:00"
+    },
+    {
+      "file": "data/raw/33-2018-400-1.json",
+      "sha256": "0c4214e5f2000d731876bbac319c8d93491f5c84626f6fe9133d64511549e41c",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2018%2Cprimary_topic.field.id%3A33%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:09:02.005764+00:00"
+    },
+    {
+      "file": "data/raw/33-2018-400-2.json",
+      "sha256": "430450038d43981e4d74fa8d2c91a06c3fe97bbab59b8ab67ceac7c0f5ebd0ad",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2018%2Cprimary_topic.field.id%3A33%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:09:02.890720+00:00"
+    },
+    {
+      "file": "data/raw/33-2019-400-1.json",
+      "sha256": "1ea9a74d9da690c2be856c0ed0787b19bef6aa4427fec795ba89531428a511d9",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2019%2Cprimary_topic.field.id%3A33%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:09:03.799967+00:00"
+    },
+    {
+      "file": "data/raw/33-2019-400-2.json",
+      "sha256": "c19c9bd8a4b9364bd0fa0e7733cab854597fc8b233fbd5de1aef1dae0b326902",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2019%2Cprimary_topic.field.id%3A33%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:09:04.747144+00:00"
+    },
+    {
+      "file": "data/raw/33-2020-400-1.json",
+      "sha256": "a4e36470407ac2af9288ce3974c46ddf93f7588095f237cfcfd96411bb322cac",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2020%2Cprimary_topic.field.id%3A33%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:09:05.729944+00:00"
+    },
+    {
+      "file": "data/raw/33-2020-400-2.json",
+      "sha256": "5829c0236f84981dcd2fec590127a082ffd1dca5e1084c1f7e104593cdaf7106",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2020%2Cprimary_topic.field.id%3A33%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:09:06.766998+00:00"
+    },
+    {
+      "file": "data/raw/33-2021-400-1.json",
+      "sha256": "1866f434a13a253bc25eac5ab65b9e14c4a94226d8897fe32f54f3e0effc3167",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2021%2Cprimary_topic.field.id%3A33%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=1&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:09:07.643642+00:00"
+    },
+    {
+      "file": "data/raw/33-2021-400-2.json",
+      "sha256": "fe5c003d1f88aa36d60bdebb5bff3df1b38071deeeaccc57ddb9ce7eaddf801b",
+      "url": "https://api.openalex.org/works?filter=publication_year%3A2021%2Cprimary_topic.field.id%3A33%2Chas_abstract%3Atrue%2Clanguage%3Aen%2Ctype%3Aarticle%2Cis_retracted%3Afalse&sample=400&seed=42&per-page=200&page=2&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ccited_by_count%2Cabstract_inverted_index%2Cprimary_topic%2Cprimary_location%2Clanguage%2Cis_retracted",
+      "retrieved_at": "2026-09-16T17:09:08.557028+00:00"
+    }
+  ]
+}
