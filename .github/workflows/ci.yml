@@ -1,5 +1,5 @@
 name: Verify
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
 jobs:
@@ -10,6 +10,7 @@ jobs:
       - uses: astral-sh/setup-uv@v6
         with:
           version: '0.9.30'
+          python-version: '3.11'
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -18,6 +19,7 @@ jobs:
       - run: make setup
       - run: make test
       - run: make reproduce
+      - run: npm run format:check --prefix web
       - run: make build
       - run: npx playwright install --with-deps chromium
         working-directory: web
